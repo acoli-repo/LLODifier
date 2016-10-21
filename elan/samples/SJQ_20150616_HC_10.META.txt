@@ -1,0 +1,58 @@
+speaker: Hilaria Cruz
+recording: Hilaria Cruz
+transcription: Hilaria Cruz
+place: Bloomington, Indiana, USA
+date: 06/16/2015
+time: 3:00
+device: ZOOM H6 with two mics stereo
+sampling: 96k / bits 24
+gender: female
+language: Chatino (San Juan Quiahije)
+language_code: sjq
+
+Transcription, annotation and time alignment:
+ELAN 4.9.4 ELAN Annotation files (.eaf)
+
+31 EAF files
+31 WAV files
+1 META.txt text file with meta-information
+1. LICENSE.txt CC BY-SA 4.0 international license text
+
+Contributors (Concept, Annotation, Time Alignment, Data Management):
+Michael Abramov
+Malgorzata E. Cavar
+Damir Cavar
+Hilaria Cruz
+Alec Woliniec
+
+Technical realization:
+Damir Cavar
+Malgorzata Cavar
+Lwin Moe
+
+Important notes:
+
+If you use this data and change it, let us know and share the update. Consult this
+page for details:
+http://gorilla.linguistlist.org/code/ctp/
+
+
+Cite this paper:
+
+Malgorzata Cavar, Damir Cavar, Hilaria Cruz (2016) Endangered Language
+Documentation: Bootstrapping a Chatino Speech Corpus, Forced Aligner, ASR.
+Pages 4004-4011 Of N. Calzolari (et al. eds) Proceedings of the Tenth
+International Conference on Language Resources and Evaluation (LREC 2016)
+in Portoroz, Slovenia, European Language Resources Association (ELRA), Paris,
+France.
+
+
+License:
+
+Creative Commons Attribution-ShareAlike 4.0 International
+See for details LICENSE.txt and:
+
+https://creativecommons.org/licenses/by-sa/4.0/legalcode
+
+
+

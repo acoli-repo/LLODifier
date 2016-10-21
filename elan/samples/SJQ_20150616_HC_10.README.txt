@@ -1,0 +1,22 @@
+Eastern Chatino (CTP) Speeach Corpus for GORILLA
+
+This is a recording as part of the Eastern Chatino (CTP) Speech Corpus
+for GORILLA (http://gorilla.linguistlist.org/) created by Hilaria Cruz,
+Damir Cavar, Malgorzata E. Cavar, Lwin Moe.
+
+This corpus is part of a general speech and language corpus archive and collection
+for language documentation, corpus linguistics, and speech and language technologies
+at GORILLA, The LINGUIST List, Indiana University.
+
+The ISLRN for the resource is: 
+
+ISLRN: 557-415-504-956-6
+
+See http://gorilla.linguistlist.org/code/ctp/
+
+Please read the files:
+
+- META.txt for meta information
+- LICENSE.txt for the license and conditions of sharing and use
+
+
