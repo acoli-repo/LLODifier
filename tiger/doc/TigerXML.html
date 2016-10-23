@@ -1,0 +1,1246 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><title>Book: The TIGER-XML treebank encoding format</title><style type="text/css">
+
+p, ol, ul, li, td {
+	font-family: Arial, Helvetica, Univers, Sans-Serif;
+	font-size: 12pt;
+}
+
+p.caption {
+	font-family: Arial, Helvetica, Univers, Sans-Serif;
+	font-size: 11pt;
+	margin-left: 2em;
+}
+
+b {
+	font-family: Arial, Helvetica, Univers, Sans-Serif;
+}
+
+h1 {
+	font-family: Arial, Helvetica, Univers, Sans-Serif;
+	font-size: 20pt;
+}
+
+h2 {
+	font-family: Arial, Helvetica, Univers, Sans-Serif;	
+	font-size: 16pt;
+}
+
+h3 {
+	font-family: Arial, Helvetica, Univers, Sans-Serif;
+    font-size: 14pt;
+}
+
+h4 {
+	font-family: Arial, Helvetica, Univers, Sans-Serif;
+    font-size: 12pt;
+}
+
+img, table {
+	margin-left: 1em;
+}
+
+img.text {
+	margin-left: 0em;
+}
+
+pre {
+	font-family: Courier, Monospaced;
+	font-size: 12pt;
+	padding-left: 1em;
+}
+
+pre.query {
+	font-family: Courier, Monospaced;
+	font-size: 12pt;
+	padding-left: 1em;
+}
+
+pre.small {
+	font-family: Courier, Monospaced;
+	font-size: 9pt;
+	padding-left: 1em;
+}
+
+samp {
+	font-family: Courier, Monospaced;
+	font-size: 12pt;
+}
+
+				</style></head><body bgcolor="white">
+<font face="Arial,Helvetica,Modern"><a name="TigerXML"></a>
+<h2>V. The TIGER-XML treebank encoding format</h2>
+<h3>1. Introduction</h3>
+
+
+<p>As there are various formats for the representation of linguistic
+corpora, there are also a number of formats for the encoding of
+syntactically annotated corpora: Penn Treebank, Susanne,
+Negra, and several other formats plus various kinds of parser
+or chunker output. Since applications like TIGERSearch cannot support all
+existing formats, it makes sense to define one single interface
+format for import and export. This format should be general enough to
+encode as many existing formats as possible. To solve the problem
+of Unicode character encoding, it is also advantageous to choose
+an XML-based approach.</p>
+
+
+<p>The <i xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">TIGER-XML</i> format has been designed as an interface format.
+It is an XML-based equivalence of the corpus definition sublanguage
+of the TIGER description language (cf. <a style="text-decoration:none" href="http://www.ims.uni-stuttgart.de/forschung/ressourcen/werkzeuge/TIGERSearch/doc/html/QueryLanguage.html">chapter III</a>).
+In addition to corpus definitions, the TIGER-XML format
+can also represent query results.</p>
+
+
+<p>Any corpus to be processed by the TIGERSearch tool has to be encoded in the
+TIGER-XML format. For convenience, we have implemented corpus filters
+(i.e. converters to TIGER-XML) for many popular treebank and parser
+output formats like bracketing format, PennTreebank format, NeGra format etc.
+(cf. <a style="text-decoration:none" href="http://www.ims.uni-stuttgart.de/forschung/ressourcen/werkzeuge/TIGERSearch/doc/html/TIGERRegistry_Indexing_Filters.html">subsection 3.5, chapter VI</a> for a list of implemented filters).</p>
+
+
+<p>Why should you read this chapter? First of all, you might
+have corpora encoded in formats not supported as a corpus filter. So knowledge about
+TIGER-XML is essential for their conversion. In addition, TIGERSearch
+supports exporting the matches of a query in the
+TIGER-XML format. If you like to transform the XML output, e.g. by
+XSLT stylesheets, you will have to know how the XML document has been designed.</p>
+
+
+<p>The first section walks through an example of the TIGER-XML format
+(cf. <a style="text-decoration:none" href="http://www.ims.uni-stuttgart.de/forschung/ressourcen/werkzeuge/TIGERSearch/doc/html/TigerXML_Walk.html">section 2</a>). In the second
+section a real-life example is presented (cf. <a style="text-decoration:none" href="http://www.ims.uni-stuttgart.de/forschung/ressourcen/werkzeuge/TIGERSearch/doc/html/TigerXML_CExample.html">section 3</a>).
+Finally, you can find a description of the XML schema used to
+validate TIGER-XML documents (cf. <a style="text-decoration:none" href="http://www.ims.uni-stuttgart.de/forschung/ressourcen/werkzeuge/TIGERSearch/doc/html/TigerXML_Schema.html">section 4</a>).</p>
+
+
+<p>If you are interested in the motivations that have influenced
+the development of the TIGER-XML format, you should have a look
+at Wolfgang Lezius' Ph.D. thesis [<a style="text-decoration:none" href="http://www.ims.uni-stuttgart.de/forschung/ressourcen/werkzeuge/TIGERSearch/doc/html/Appendix_Bibliography.html#Lezius2002">Lezius2002</a>] (in German).
+</p>
+
+
+<h3>2. A walk through the TIGER-XML format</h3>
+<h4>2.1 TIGER-XML corpora</h4>
+
+
+<p>The following subsections are a kind of guided tour. They
+walk through the encoding format and explain its properties.</p>
+
+
+<p>A TIGER-XML document consists of two parts. In the header you can
+find the corpus declaration and some meta information
+(cf. <a style="text-decoration:none" href="http://www.ims.uni-stuttgart.de/forschung/ressourcen/werkzeuge/TIGERSearch/doc/html/TigerXML_Walk_Header.html">subsection 2.2</a>).
+The body comprises the definition of the corpus graphs and their
+annotation (cf. <a style="text-decoration:none" href="http://www.ims.uni-stuttgart.de/forschung/ressourcen/werkzeuge/TIGERSearch/doc/html/TigerXML_Walk_Body.html">subsection 2.3</a>).
+The corpus body can also be divided into so-called subcorpora
+(cf. <a style="text-decoration:none" href="http://www.ims.uni-stuttgart.de/forschung/ressourcen/werkzeuge/TIGERSearch/doc/html/TigerXML_Walk_Subcorpora.html">subsection 2.4</a>).
+Corpus query matches can also be represented within the
+TIGER-XML format (cf. <a style="text-decoration:none" href="http://www.ims.uni-stuttgart.de/forschung/ressourcen/werkzeuge/TIGERSearch/doc/html/TigerXML_Walk_Matches.html">subsection 2.5</a>).
+</p>
+
+
+<h4>2.2 Corpus header</h4>
+
+
+<p>The corpus header consists of two parts.
+General meta information about the corpus is encoded in
+the first part of the header: name of the corpus, author, date,
+short description, format and history. This corpus meta information is
+displayed by the TIGERSearch tool when presenting the corpora available.
+The ID of the corpus (cf. root element <samp>&lt;corpus&gt;</samp>)
+should be unique with regard to all indexed corpora.</p>
+
+
+<pre>&lt;corpus id="TESTCORPUS"&gt;
+
+&lt;head&gt;
+
+  &lt;meta&gt;
+    &lt;name&gt;Test corpus&lt;/name&gt;
+    &lt;author&gt;Wolfgang Lezius&lt;/author&gt;
+    &lt;date&gt;April 2003&lt;/date&gt;
+    &lt;description&gt;illustrates the TIGER-XML format&lt;/description&gt;
+    &lt;format&gt;NeGra format, version 3&lt;/format&gt;
+    &lt;history&gt;first version&lt;/history&gt;
+  &lt;/meta&gt;
+  ...
+&lt;/head&gt;
+...
+&lt;/corpus&gt;
+</pre>
+
+
+<p>The second part of the corpus header provides information about the features used
+in the corpus. This feature declaration is obligatory for corpora to be
+indexed by the TIGERRegistry tool.
+Feature values and short explanations of the tags might
+be listed - this kind of meta information will be used by the TIGERSearch GUI
+ as corpus documentation. If it does not make sense to list all the values
+ of a feature in a corpus (e.g. for a feature <i xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">word</i>), the
+ content of the corresponding <samp>feature</samp> element
+ is empty.</p>
+
+
+<p>In the following example, the feature <i xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">word</i>
+is declared as a feature of terminal nodes (<samp>T</samp>) and the
+feature <i xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">cat</i> as a feature of nonterminal nodes (<samp>NT</samp>). If a
+feature is used in both terminal and nonterminal nodes (e.g. <i xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">case</i>),
+its domain is called <samp>FREC</samp> (cf. description of
+the query language; <a style="text-decoration:none" href="http://www.ims.uni-stuttgart.de/forschung/ressourcen/werkzeuge/TIGERSearch/doc/html/QueryLanguage_Types.html">section 8, chapter III</a>). Element
+content of a feature value declaration is interpreted as an explanation of
+the feature value. Potential edge labels are declared in an
+<samp>&lt;edgelabel&gt;</samp> element, secondary edges in an
+<samp>&lt;secedgelabel&gt;</samp> element.</p>
+
+
+<pre>&lt;head&gt;
+  ...
+  &lt;annotation&gt;
+
+    &lt;feature name="word" domain="T"/&gt;
+
+    &lt;feature name="pos" domain="T"&gt;
+      &lt;value name="ART"&gt;determiner&lt;/value&gt;
+      &lt;value name="ADV"&gt;adverb&lt;/value&gt;
+      &lt;value name="KOKOM"&gt;conjunction&lt;/value&gt;
+      &lt;value name="NN"&gt;noun&lt;/value&gt;
+      &lt;value name="PIAT"&gt;indefinite attributive pronoun&lt;/value&gt;
+      &lt;value name="VVFIN"&gt;finite verb&lt;/value&gt;
+    &lt;/feature&gt;
+
+    &lt;feature name="morph" domain="T"&gt;
+      &lt;value name="Def.Fem.Nom.Sg"/&gt;
+      &lt;value name="Fem.Nom.Sg.*"/&gt;
+      &lt;value name="Masc.Akk.Pl.*"/&gt;
+      &lt;value name="3.Sg.Pres.Ind"/&gt;
+      &lt;value name="--"&gt;not bound&lt;/value&gt;
+    &lt;/feature&gt;
+
+    &lt;feature name="cat" domain="NT"&gt;
+      &lt;value name="AP"&gt;adjektive phrase&lt;/value&gt;
+      &lt;value name="AVP"&gt;adverbial phrase&lt;/value&gt;
+      &lt;value name="NP"&gt;noun phrase&lt;/value&gt;
+      &lt;value name="S"&gt;sentence&lt;/value&gt;
+    &lt;/feature&gt;
+
+    &lt;edgelabel&gt;
+      &lt;value name="CC"&gt;comparative complement&lt;/value&gt;
+      &lt;value name="CM"&gt;comparative concjunction&lt;/value&gt;
+      &lt;value name="HD"&gt;head&lt;/value&gt;
+      &lt;value name="MO"&gt;modifier&lt;/value&gt;
+      &lt;value name="NK"&gt;noun kernel modifier&lt;/value&gt;
+      &lt;value name="OA"&gt;accusative object&lt;/value&gt;
+      &lt;value name="SB"&gt;subject&lt;/value&gt;
+    &lt;/edgelabel&gt;
+
+  &lt;/annotation&gt;
+
+&lt;/head&gt;
+</pre>
+
+
+<h4>2.3 Corpus body</h4>
+
+
+<p>The supported data model is based on so-called <i xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">syntax graphs</i>,
+i.e. directed acyclic graphs with a single root node. Thus, corpus graphs cannot
+be encoded by embedding XML elements. As a solution, all terminal
+and nonterminal nodes are listed and edges are explicitly encoded as elements. The
+following example illustrates the corpus graph encoding.</p>
+
+
+<p>
+<a href="http://www.ims.uni-stuttgart.de/forschung/ressourcen/werkzeuge/TIGERSearch/doc/html/images/screenshots/large/tagung1.gif"><img alt="Please click to enlarge!" src="TigerXML_files/tagung1.htm" border="0"></a>
+</p><p class="caption">Figure: Example sentence and its annotation</p>
+
+
+
+<pre>&lt;body&gt;
+
+&lt;s id="s5"&gt;
+  &lt;graph root="s5_504"&gt;
+    &lt;terminals&gt;
+      &lt;t id="s5_1" word="Die" pos="ART" morph="Def.Fem.Nom.Sg"/&gt;
+      &lt;t id="s5_2" word="Tagung" pos="NN" morph="Fem.Nom.Sg.*"/&gt;
+      &lt;t id="s5_3" word="hat" pos="VVFIN" morph="3.Sg.Pres.Ind"/&gt;
+      &lt;t id="s5_4" word="mehr" pos="PIAT" morph="--"/&gt;
+      &lt;t id="s5_5" word="Teilnehmer" pos="NN" morph="Masc.Akk.Pl.*"/&gt;
+      &lt;t id="s5_6" word="als" pos="KOKOM" morph="--"/&gt;
+      &lt;t id="s5_7" word="je" pos="ADV" morph="--"/&gt;
+      &lt;t id="s5_8" word="zuvor" pos="ADV" morph="--"/&gt;
+    &lt;/terminals&gt;
+    &lt;nonterminals&gt;
+      &lt;nt id="s5_500" cat="NP"&gt;
+        &lt;edge label="NK" idref="s5_1"/&gt;
+        &lt;edge label="NK" idref="s5_2"/&gt;
+      &lt;/nt&gt;
+      &lt;nt id="s5_501" cat="AVP"&gt;
+        &lt;edge label="CM" idref="s5_6"/&gt;
+        &lt;edge label="MO" idref="s5_7"/&gt;
+        &lt;edge label="HD" idref="s5_8"/&gt;
+      &lt;/nt&gt;
+      &lt;nt id="s5_502" cat="AP"&gt;
+        &lt;edge label="HD" idref="s5_4"/&gt;
+        &lt;edge label="CC" idref="s5_501"/&gt;
+      &lt;/nt&gt;
+      &lt;nt id="s5_503" cat="NP"&gt;
+        &lt;edge label="NK" idref="s5_502"/&gt;
+        &lt;edge label="NK" idref="s5_5"/&gt;
+      &lt;/nt&gt;
+      &lt;nt id="s5_504" cat="S"&gt;
+        &lt;edge label="SB" idref="s5_500"/&gt;
+        &lt;edge label="HD" idref="s5_3"/&gt;
+        &lt;edge label="OA" idref="s5_503"/&gt;
+      &lt;/nt&gt;
+    &lt;/nonterminals&gt;
+  &lt;/graph&gt;
+&lt;/s&gt;
+
+&lt;/body&gt;
+</pre>
+
+
+<p>
+<img src="TigerXML_files/note.htm" class="text"> <b><font color="red">Please note: </font></b>Feature values, represented as attribute-value pairs, cannot be omitted.
+If a feature value or edge label does not make sense for a
+token or inner node (e.g. in the example sentence the feature <i xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">morph</i> is
+sometimes unspecified), please use a meaningful symbol instead.
+We recommend you to use the symbol <samp>--</samp> which is also used in our
+implemented import filters. When viewing a matching corpus graph using the
+TIGERGraphViewer, the display of a feature value or edge label such as
+<samp>--</samp> can be suppressed
+(cf. <a style="text-decoration:none" href="http://www.ims.uni-stuttgart.de/forschung/ressourcen/werkzeuge/TIGERSearch/doc/html/TIGERSearch_GraphViewer_Options.html">subsection 7.5, chapter IV</a>).</p>
+
+
+<h4>2.4 Subcorpora</h4>
+
+
+<p>As a corpus grows, it sometimes needs to be divided into
+several files. Therefore the concept of subcorpora has been introduced
+in the TIGER-XML format. In the main corpus a link is placed to a subcorpus.
+The subcorpus consists of corpus graphs or other
+embedded subcorpora. It can be validated using the subcorpus
+subschema of the TIGER-XML format (cf. <a style="text-decoration:none" href="http://www.ims.uni-stuttgart.de/forschung/ressourcen/werkzeuge/TIGERSearch/doc/html/TigerXML_Schema.html">section 4</a>).</p>
+
+
+<p>The embedding syntax is the following: Within the corpus body,
+an element <samp>&lt;subcorpus&gt;</samp> is placed.
+Its attributes <i xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">name</i> and <i xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">external</i> specify the name
+of the subcorpus and its URL, respectively.</p>
+
+
+<p>
+<img src="TigerXML_files/note.htm" class="text"> <b><font color="red">Please note: </font></b>As the link is represented as an URL, a protocol
+has to be specified. If the subcorpus is placed
+within the local file system, use the <samp>file:</samp>
+protocol. A relative path will be evaluated with regard
+to the path of the embedding XML file.</p>
+
+
+<p>The following example illustrates the embedding:</p>
+
+
+<p>
+<b><font color="black">Main corpus (main.xml)</font></b>
+</p>
+
+
+<pre>&lt;corpus&gt;
+
+  &lt;head&gt;
+    ...
+  &lt;/head&gt;
+
+  &lt;body&gt;
+    &lt;subcorpus name="embedded corpus" external="file:subcorpus.xml"/&gt;
+  &lt;/body&gt;
+
+&lt;/corpus&gt;
+</pre>
+
+
+<p>
+<b><font color="black">Subcorpus (subcorpus.xml)</font></b>
+</p>
+
+
+<pre>&lt;subcorpus name="embedded corpus"&gt;
+
+  &lt;s id="s1"&gt;
+  ...
+  &lt;/s&gt;
+
+  ...
+  
+&lt;/subcorpus&gt;
+</pre>
+
+
+<h4>2.5 Corpus query matches</h4>
+
+
+<p>To be as flexible as possible, the TIGER-XML format has also been designed to
+represent corpus query matches. The following example illustrates the
+encoding of the match information for the query
+<samp class="query">#v:[cat="NP"] &gt; #w:[pos="NN"]</samp>
+and the matching corpus graph.</p>
+
+
+<pre>&lt;matches&gt;
+    &lt;match subgraph="s5_500"&gt;
+      &lt;variable name="#v" idref="s5_500"/&gt;
+      &lt;variable name="#w" idref="s5_2"/&gt;
+    &lt;/match&gt;
+&lt;/matches&gt;
+</pre>
+
+
+<p>
+<a href="http://www.ims.uni-stuttgart.de/forschung/ressourcen/werkzeuge/TIGERSearch/doc/html/images/screenshots/large/tagung2.gif"><img alt="Please click to enlarge!" src="TigerXML_files/tagung2.htm" border="0"></a>
+</p><p class="caption">Figure: Example sentence and its match visualization (red-colored)</p>
+
+
+
+<p>Matches are represented by <samp>&lt;match&gt;</samp> elements. The
+<samp>&lt;variable&gt;</samp> elements refer to the corresponding graph nodes matching the
+variables <samp>#v</samp> and <samp>#w</samp>.
+Hence the IDs of the <samp>&lt;t&gt;</samp> and <samp>&lt;nt&gt;</samp>
+elements are essential for both the edge linking and match reference mechanism.
+The <i xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">subgraph</i> attribute of a <samp>&lt;match&gt;</samp> element
+refers to the root node of the matching subgraph.</p>
+
+
+<p>In total, we get the following encoding of the corpus graph and query result:</p>
+
+
+<pre>&lt;s id="s5"&gt;
+  &lt;graph root="s5_504"&gt;
+    &lt;terminals&gt;
+      &lt;t id="s5_1" word="Die" pos="ART" morph="Def.Fem.Nom.Sg"/&gt;
+      &lt;t id="s5_2" word="Tagung" pos="NN" morph="Fem.Nom.Sg.*"/&gt;
+      &lt;t id="s5_3" word="hat" pos="VVFIN" morph="3.Sg.Pres.Ind"/&gt;
+      &lt;t id="s5_4" word="mehr" pos="PIAT" morph="--"/&gt;
+      &lt;t id="s5_5" word="Teilnehmer" pos="NN" morph="Masc.Akk.Pl.*"/&gt;
+      &lt;t id="s5_6" word="als" pos="KOKOM" morph="--"/&gt;
+      &lt;t id="s5_7" word="je" pos="ADV" morph="--"/&gt;
+      &lt;t id="s5_8" word="zuvor" pos="ADV" morph="--"/&gt;
+    &lt;/terminals&gt;
+    &lt;nonterminals&gt;
+      &lt;nt id="s5_500" cat="NP"&gt;
+        &lt;edge label="NK" idref="s5_1"/&gt;
+        &lt;edge label="NK" idref="s5_2"/&gt;
+      &lt;/nt&gt;
+      &lt;nt id="s5_501" cat="AVP"&gt;
+        &lt;edge label="CM" idref="s5_6"/&gt;
+        &lt;edge label="MO" idref="s5_7"/&gt;
+        &lt;edge label="HD" idref="s5_8"/&gt;
+      &lt;/nt&gt;
+      &lt;nt id="s5_502" cat="AP"&gt;
+        &lt;edge label="HD" idref="s5_4"/&gt;
+        &lt;edge label="CC" idref="s5_501"/&gt;
+      &lt;/nt&gt;
+      &lt;nt id="s5_503" cat="NP"&gt;
+        &lt;edge label="NK" idref="s5_502"/&gt;
+        &lt;edge label="NK" idref="s5_5"/&gt;
+      &lt;/nt&gt;
+      &lt;nt id="s5_504" cat="S"&gt;
+        &lt;edge label="SB" idref="s5_500"/&gt;
+        &lt;edge label="HD" idref="s5_3"/&gt;
+        &lt;edge label="OA" idref="s5_503"/&gt;
+      &lt;/nt&gt;
+    &lt;/nonterminals&gt;
+  &lt;/graph&gt;
+  &lt;matches&gt;
+    &lt;match subgraph="s5_500"&gt;
+      &lt;variable name="#w" idref="s5_2"/&gt;
+      &lt;variable name="#v" idref="s5_500"/&gt;
+    &lt;/match&gt;
+    &lt;match subgraph="s5_503"&gt;
+      &lt;variable name="#w" idref="s5_5"/&gt;
+      &lt;variable name="#v" idref="s5_503"/&gt;
+    &lt;/match&gt;
+  &lt;/matches&gt;
+&lt;/s&gt;
+</pre>
+
+
+<h3>3. Corpus example</h3>
+
+
+<p>The following listing shows the TIGER-XML representation of a small
+demo corpus. This corpus comprises two
+corpus graphs of the <i xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Wall Street Journal</i> corpus of the PennTreebank.
+It makes use of edge labels and of secondary edges to represent
+coreference annotation. The TIGER-XML example file
+<samp>corpus.xml</samp> is also placed in the
+<samp>doc/examples/</samp> subdirectory of your TIGERSearch installation.</p>
+
+
+<p>
+<a href="http://www.ims.uni-stuttgart.de/forschung/ressourcen/werkzeuge/TIGERSearch/doc/html/images/screenshots/large/wsj1.gif"><img alt="Please click to enlarge!" src="TigerXML_files/wsj1.htm" border="0"></a>
+</p><p class="caption">Figure: Sentence 1: Pierre Vinken, 61 years old, will join the board...</p>
+
+
+<p>
+<a href="http://www.ims.uni-stuttgart.de/forschung/ressourcen/werkzeuge/TIGERSearch/doc/html/images/screenshots/large/wsj2.gif"><img alt="Please click to enlarge!" src="TigerXML_files/wsj2.htm" border="0"></a>
+</p><p class="caption">Figure: Sentence 2: Rudolph Agnew, 55 years old and former chairman...</p>
+
+
+
+<pre class="small">&lt;corpus id="DEMO"&gt;
+
+&lt;head&gt;
+  &lt;meta&gt;
+    &lt;name&gt;two sentences of Wall Street Journal corpus&lt;/name&gt;
+    &lt;format&gt;bracketing format&lt;/format&gt;
+  &lt;/meta&gt;
+  &lt;annotation&gt;
+    &lt;feature name="word" domain="T"/&gt;
+    &lt;feature name="pos" domain="T"&gt;
+       &lt;value name=","/&gt;
+       &lt;value name="-NONE-"/&gt;
+       &lt;value name="."/&gt;
+       &lt;value name="CC"/&gt;
+       &lt;value name="CD"/&gt;
+       &lt;value name="DT"/&gt;
+       &lt;value name="IN"/&gt;
+       &lt;value name="JJ"/&gt;
+       &lt;value name="MD"/&gt;
+       &lt;value name="NN"/&gt;
+       &lt;value name="NNP"/&gt;
+       &lt;value name="NNS"/&gt;
+       &lt;value name="VB"/&gt;
+       &lt;value name="VBD"/&gt;
+       &lt;value name="VBN"/&gt;
+    &lt;/feature&gt;
+    &lt;feature name="cat" domain="NT"&gt;
+       &lt;value name="ADJP"/&gt;
+       &lt;value name="NP"/&gt;
+       &lt;value name="PP"/&gt;
+       &lt;value name="S"/&gt;
+       &lt;value name="UCP"/&gt;
+       &lt;value name="VP"/&gt;
+    &lt;/feature&gt;
+    &lt;edgelabel&gt;
+       &lt;value name="--"&gt;not bound&lt;/value&gt;
+       &lt;value name="CLR"/&gt;
+       &lt;value name="PRD"/&gt;
+       &lt;value name="SBJ"/&gt;
+       &lt;value name="TMP"/&gt;
+    &lt;/edgelabel&gt;
+    &lt;secedgelabel&gt;
+       &lt;value name="*"/&gt;
+    &lt;/secedgelabel&gt;
+  &lt;/annotation&gt;
+&lt;/head&gt;
+
+&lt;body&gt;
+
+&lt;s id="s1"&gt;
+  &lt;graph root="s1_500"&gt;
+    &lt;terminals&gt;
+      &lt;t id="s1_1" word="Pierre" pos="NNP"/&gt;
+      &lt;t id="s1_2" word="Vinken" pos="NNP"/&gt;
+      &lt;t id="s1_3" word="," pos=","/&gt;
+      &lt;t id="s1_4" word="61" pos="CD"/&gt;
+      &lt;t id="s1_5" word="years" pos="NNS"/&gt;
+      &lt;t id="s1_6" word="old" pos="JJ"/&gt;
+      &lt;t id="s1_7" word="," pos=","/&gt;
+      &lt;t id="s1_8" word="will" pos="MD"/&gt;
+      &lt;t id="s1_9" word="join" pos="VB"/&gt;
+      &lt;t id="s1_10" word="the" pos="DT"/&gt;
+      &lt;t id="s1_11" word="board" pos="NN"/&gt;
+      &lt;t id="s1_12" word="as" pos="IN"/&gt;
+      &lt;t id="s1_13" word="a" pos="DT"/&gt;
+      &lt;t id="s1_14" word="nonexecutive" pos="JJ"/&gt;
+      &lt;t id="s1_15" word="director" pos="NN"/&gt;
+      &lt;t id="s1_16" word="Nov." pos="NNP"/&gt;
+      &lt;t id="s1_17" word="29" pos="CD"/&gt;
+      &lt;t id="s1_18" word="." pos="."/&gt;
+    &lt;/terminals&gt;
+    &lt;nonterminals&gt;
+      &lt;nt id="s1_502" cat="NP"&gt;
+        &lt;edge label="--" idref="s1_1"/&gt;
+        &lt;edge label="--" idref="s1_2"/&gt;
+      &lt;/nt&gt;
+      &lt;nt id="s1_504" cat="NP"&gt;
+        &lt;edge label="--" idref="s1_4"/&gt;
+        &lt;edge label="--" idref="s1_5"/&gt;
+      &lt;/nt&gt;
+      &lt;nt id="s1_503" cat="ADJP"&gt;
+        &lt;edge label="--" idref="s1_504"/&gt;
+        &lt;edge label="--" idref="s1_6"/&gt;
+      &lt;/nt&gt;
+      &lt;nt id="s1_501" cat="NP"&gt;
+        &lt;edge label="--" idref="s1_502"/&gt;
+        &lt;edge label="--" idref="s1_3"/&gt;
+        &lt;edge label="--" idref="s1_503"/&gt;
+        &lt;edge label="--" idref="s1_7"/&gt;
+      &lt;/nt&gt;
+      &lt;nt id="s1_507" cat="NP"&gt;
+        &lt;edge label="--" idref="s1_10"/&gt;
+        &lt;edge label="--" idref="s1_11"/&gt;
+      &lt;/nt&gt;
+      &lt;nt id="s1_509" cat="NP"&gt;
+        &lt;edge label="--" idref="s1_13"/&gt;
+        &lt;edge label="--" idref="s1_14"/&gt;
+        &lt;edge label="--" idref="s1_15"/&gt;
+      &lt;/nt&gt;
+      &lt;nt id="s1_508" cat="PP"&gt;
+        &lt;edge label="--" idref="s1_12"/&gt;
+        &lt;edge label="--" idref="s1_509"/&gt;
+      &lt;/nt&gt;
+      &lt;nt id="s1_510" cat="NP"&gt;
+        &lt;edge label="--" idref="s1_16"/&gt;
+        &lt;edge label="--" idref="s1_17"/&gt;
+      &lt;/nt&gt;
+      &lt;nt id="s1_506" cat="VP"&gt;
+        &lt;edge label="--" idref="s1_9"/&gt;
+        &lt;edge label="--" idref="s1_507"/&gt;
+        &lt;edge label="CLR" idref="s1_508"/&gt;
+        &lt;edge label="TMP" idref="s1_510"/&gt;
+      &lt;/nt&gt;
+      &lt;nt id="s1_505" cat="VP"&gt;
+        &lt;edge label="--" idref="s1_8"/&gt;
+        &lt;edge label="--" idref="s1_506"/&gt;
+      &lt;/nt&gt;
+      &lt;nt id="s1_500" cat="S"&gt;
+        &lt;edge label="SBJ" idref="s1_501"/&gt;
+        &lt;edge label="--" idref="s1_505"/&gt;
+        &lt;edge label="--" idref="s1_18"/&gt;
+      &lt;/nt&gt;
+    &lt;/nonterminals&gt;
+  &lt;/graph&gt;
+&lt;/s&gt;
+
+&lt;s id="s3"&gt;
+  &lt;graph root="s3_500"&gt;
+    &lt;terminals&gt;
+      &lt;t id="s3_1" word="Rudolph" pos="NNP"/&gt;
+      &lt;t id="s3_2" word="Agnew" pos="NNP"/&gt;
+      &lt;t id="s3_3" word="," pos=","/&gt;
+      &lt;t id="s3_4" word="55" pos="CD"/&gt;
+      &lt;t id="s3_5" word="years" pos="NNS"/&gt;
+      &lt;t id="s3_6" word="old" pos="JJ"/&gt;
+      &lt;t id="s3_7" word="and" pos="CC"/&gt;
+      &lt;t id="s3_8" word="former" pos="JJ"/&gt;
+      &lt;t id="s3_9" word="chairman" pos="NN"/&gt;
+      &lt;t id="s3_10" word="of" pos="IN"/&gt;
+      &lt;t id="s3_11" word="Consolidated" pos="NNP"/&gt;
+      &lt;t id="s3_12" word="Gold" pos="NNP"/&gt;
+      &lt;t id="s3_13" word="Fields" pos="NNP"/&gt;
+      &lt;t id="s3_14" word="PLC" pos="NNP"/&gt;
+      &lt;t id="s3_15" word="," pos=","/&gt;
+      &lt;t id="s3_16" word="was" pos="VBD"/&gt;
+      &lt;t id="s3_17" word="named" pos="VBN"/&gt;
+      &lt;t id="s3_18" word="*" pos="-NONE-"/&gt;
+      &lt;t id="s3_19" word="a" pos="DT"/&gt;
+      &lt;t id="s3_20" word="nonexecutive" pos="JJ"/&gt;
+      &lt;t id="s3_21" word="director" pos="NN"/&gt;
+      &lt;t id="s3_22" word="of" pos="IN"/&gt;
+      &lt;t id="s3_23" word="this" pos="DT"/&gt;
+      &lt;t id="s3_24" word="British" pos="JJ"/&gt;
+      &lt;t id="s3_25" word="industrial" pos="JJ"/&gt;
+      &lt;t id="s3_26" word="conglomerate" pos="NN"/&gt;
+      &lt;t id="s3_27" word="." pos="."/&gt;
+    &lt;/terminals&gt;
+    &lt;nonterminals&gt;
+      &lt;nt id="s3_502" cat="NP"&gt;
+        &lt;edge label="--" idref="s3_1"/&gt;
+        &lt;edge label="--" idref="s3_2"/&gt;
+      &lt;/nt&gt;
+      &lt;nt id="s3_505" cat="NP"&gt;
+        &lt;edge label="--" idref="s3_4"/&gt;
+        &lt;edge label="--" idref="s3_5"/&gt;
+      &lt;/nt&gt;
+      &lt;nt id="s3_504" cat="ADJP"&gt;
+        &lt;edge label="--" idref="s3_505"/&gt;
+        &lt;edge label="--" idref="s3_6"/&gt;
+      &lt;/nt&gt;
+      &lt;nt id="s3_507" cat="NP"&gt;
+        &lt;edge label="--" idref="s3_8"/&gt;
+        &lt;edge label="--" idref="s3_9"/&gt;
+      &lt;/nt&gt;
+      &lt;nt id="s3_509" cat="NP"&gt;
+        &lt;edge label="--" idref="s3_11"/&gt;
+        &lt;edge label="--" idref="s3_12"/&gt;
+        &lt;edge label="--" idref="s3_13"/&gt;
+        &lt;edge label="--" idref="s3_14"/&gt;
+      &lt;/nt&gt;
+      &lt;nt id="s3_508" cat="PP"&gt;
+        &lt;edge label="--" idref="s3_10"/&gt;
+        &lt;edge label="--" idref="s3_509"/&gt;
+      &lt;/nt&gt;
+      &lt;nt id="s3_506" cat="NP"&gt;
+        &lt;edge label="--" idref="s3_507"/&gt;
+        &lt;edge label="--" idref="s3_508"/&gt;
+      &lt;/nt&gt;
+      &lt;nt id="s3_503" cat="UCP"&gt;
+        &lt;edge label="--" idref="s3_504"/&gt;
+        &lt;edge label="--" idref="s3_7"/&gt;
+        &lt;edge label="--" idref="s3_506"/&gt;
+      &lt;/nt&gt;
+      &lt;nt id="s3_501" cat="NP"&gt;
+        &lt;edge label="--" idref="s3_502"/&gt;
+        &lt;edge label="--" idref="s3_3"/&gt;
+        &lt;edge label="--" idref="s3_503"/&gt;
+        &lt;edge label="--" idref="s3_15"/&gt;
+        &lt;secedge label="*" idref="s3_18"/&gt;
+      &lt;/nt&gt;
+      &lt;nt id="s3_513" cat="NP"&gt;
+        &lt;edge label="--" idref="s3_18"/&gt;
+      &lt;/nt&gt;
+      &lt;nt id="s3_515" cat="NP"&gt;
+        &lt;edge label="--" idref="s3_19"/&gt;
+        &lt;edge label="--" idref="s3_20"/&gt;
+        &lt;edge label="--" idref="s3_21"/&gt;
+      &lt;/nt&gt;
+      &lt;nt id="s3_517" cat="NP"&gt;
+        &lt;edge label="--" idref="s3_23"/&gt;
+        &lt;edge label="--" idref="s3_24"/&gt;
+        &lt;edge label="--" idref="s3_25"/&gt;
+        &lt;edge label="--" idref="s3_26"/&gt;
+      &lt;/nt&gt;
+      &lt;nt id="s3_516" cat="PP"&gt;
+        &lt;edge label="--" idref="s3_22"/&gt;
+        &lt;edge label="--" idref="s3_517"/&gt;
+      &lt;/nt&gt;
+      &lt;nt id="s3_514" cat="NP"&gt;
+        &lt;edge label="--" idref="s3_515"/&gt;
+        &lt;edge label="--" idref="s3_516"/&gt;
+      &lt;/nt&gt;
+      &lt;nt id="s3_512" cat="S"&gt;
+        &lt;edge label="SBJ" idref="s3_513"/&gt;
+        &lt;edge label="PRD" idref="s3_514"/&gt;
+      &lt;/nt&gt;
+      &lt;nt id="s3_511" cat="VP"&gt;
+        &lt;edge label="--" idref="s3_17"/&gt;
+        &lt;edge label="--" idref="s3_512"/&gt;
+      &lt;/nt&gt;
+      &lt;nt id="s3_510" cat="VP"&gt;
+        &lt;edge label="--" idref="s3_16"/&gt;
+        &lt;edge label="--" idref="s3_511"/&gt;
+      &lt;/nt&gt;
+      &lt;nt id="s3_500" cat="S"&gt;
+        &lt;edge label="SBJ" idref="s3_501"/&gt;
+        &lt;edge label="--" idref="s3_510"/&gt;
+        &lt;edge label="--" idref="s3_27"/&gt;
+      &lt;/nt&gt;
+    &lt;/nonterminals&gt;
+  &lt;/graph&gt;
+&lt;/s&gt;
+
+&lt;/body&gt;
+
+&lt;/corpus&gt;</pre>
+
+
+<h3>4. The TIGER-XML schema</h3>
+
+
+<p>The TIGER-XML format is validated against an XML schema. XML schema
+validation is supported by all major XML parsers. The schema is divided into
+three parts: the main schema, the subschema for the corpus header, and the subschema
+for subcorpora. The TIGER-XML schema and its two subschemas are placed in the
+<samp>schema/</samp> subdirectory of your TIGERSearch installation.</p>
+
+
+<p>
+<b><font color="black">Part 1: Main schema - TigerXML.xsd</font></b>
+</p>
+
+<pre class="small">&lt;schema&gt;
+
+ &lt;!-- ==================================================================
+      XML Schema for the TIGER-XML format
+      http://www.ims.uni-stuttgart.de/projekte/TIGER/public/TigerXML.xsd
+      ==================================================================
+      TIGER Project, Wolfgang Lezius
+      IMS, University of Stuttgart, 04/01/2003
+      ================================================================== --&gt;
+
+
+  &lt;!-- ======================================================
+       INCLUDES DECLARATION OF THE HEADER
+       ====================================================== --&gt;
+  &lt;include schemaLocation="TigerXMLHeader.xsd"/&gt;
+
+
+  &lt;!-- ======================================================
+       INCLUDES DECLARATION OF SUBCORPORA AND SENTENCES
+       ====================================================== --&gt;
+  &lt;include schemaLocation="TigerXMLSubcorpus.xsd"/&gt;
+
+
+  &lt;!-- ======================================================
+       DECLARATION OF THE CORPUS DOCUMENT
+       ====================================================== --&gt;
+
+  &lt;!-- declaration of the root element: corpus --&gt;
+
+  &lt;element name="corpus"&gt;
+  
+    &lt;complexType&gt;
+
+      &lt;sequence&gt;
+
+        &lt;choice&gt;           
+           &lt;!-- header of the document is optional --&gt;
+           &lt;element name="head" type="headType" minOccurs="0" maxOccurs="1"/&gt;
+        &lt;/choice&gt;
+
+        &lt;element name="body" type="bodyType" minOccurs="1" maxOccurs="1"/&gt;
+
+      &lt;/sequence&gt;
+
+      &lt;!-- corpus ID --&gt;
+      &lt;attribute name="id" type="idType" use="required"/&gt;
+
+      &lt;!-- optional attribute: TigerXML version; used by TIGERSearch only --&gt;
+      &lt;attribute name="version" type="xsd:string" use="optional"/&gt;
+
+    &lt;/complexType&gt;
+  
+  &lt;/element&gt;
+
+
+  &lt;!-- declaration of the body type --&gt;
+
+  &lt;complexType name="bodyType"&gt;
+
+    &lt;choice minOccurs="1" maxOccurs="unbounded"&gt;
+      &lt;element name="subcorpus" type="subcorpusType" minOccurs="1" maxOccurs="1"/&gt;
+      &lt;element name="s" type="sentenceType" minOccurs="1" maxOccurs="1"/&gt;
+    &lt;/choice&gt;
+
+  &lt;/complexType&gt;
+
+
+&lt;/schema&gt;</pre>
+
+
+<p>
+<b><font color="black">Part 2: Subschema for the corpus header - TigerXMLHeader.xsd</font></b>
+</p>
+
+<pre class="small">&lt;schema&gt;
+
+ &lt;!-- =======================================================================
+      XML SubSchema for the header part of the TIGER-XML format
+      http://www.ims.uni-stuttgart.de/projekte/TIGER/publicTigerXMLHeader.xsd
+      =======================================================================
+      TIGER Project, Wolfgang Lezius 
+      IMS, University of Stuttgart, 04/01/2003
+      ======================================================================= --&gt;
+
+
+  &lt;!-- ======================================================
+       DECLARATION OF THE HEADER
+       ====================================================== --&gt;
+
+
+  &lt;!-- declaration of the head element --&gt;
+
+  &lt;element name="head" type="headType"/&gt;
+
+
+  &lt;!-- declaration of the header type --&gt;
+
+  &lt;complexType name="headType"&gt;
+
+     &lt;sequence&gt;
+        &lt;element name="meta" type="metaType" minOccurs="0" maxOccurs="1"/&gt;
+        &lt;element name="annotation" type="annotationType" minOccurs="0" maxOccurs="1"/&gt;
+     &lt;/sequence&gt;    
+
+     &lt;!-- optional: reference to external header file 
+
+          The header of a TigerXML corpus can also be stored in separate file. 
+          This attribute points to the external header file. The pointer is
+          an URI. Examples: file:relative.xml or file:/path/to/absolute.xml
+
+          Note: If there is a pointer to an external file, the head
+                element must be empty. --&gt;
+
+     &lt;attribute name="external" type="xsd:anyURI"/&gt;  
+
+  &lt;/complexType&gt;
+
+
+  &lt;!-- declaration of the meta information type --&gt;
+
+  &lt;complexType name="metaType"&gt;
+
+    &lt;sequence&gt;
+      &lt;element name="name" type="xsd:string" minOccurs="0" maxOccurs="1"/&gt;
+      &lt;element name="author" type="xsd:string" minOccurs="0" maxOccurs="1"/&gt;
+      &lt;element name="date" type="xsd:string" minOccurs="0" maxOccurs="1"/&gt;
+      &lt;element name="description" type="xsd:string" minOccurs="0" maxOccurs="1"/&gt;
+      &lt;element name="format" type="xsd:string" minOccurs="0" maxOccurs="1"/&gt;
+      &lt;element name="history" type="xsd:string" minOccurs="0" maxOccurs="1"/&gt;
+    &lt;/sequence&gt;    
+
+  &lt;/complexType&gt;
+  
+
+  &lt;!-- declaration of the annotation type --&gt;
+
+  &lt;complexType name="annotationType"&gt;
+
+    &lt;sequence&gt;
+      &lt;element name="feature" type="featureType" minOccurs="1" maxOccurs="unbounded"/&gt;
+      &lt;element name="edgelabel" type="edgelabelType" minOccurs="0" maxOccurs="1"/&gt;
+      &lt;element name="secedgelabel" type="edgelabelType" minOccurs="0" maxOccurs="1"/&gt;
+    &lt;/sequence&gt;
+
+  &lt;/complexType&gt;
+
+
+  &lt;!-- declaration of the feature type --&gt;
+
+  &lt;complexType name="featureType"&gt;
+
+    &lt;sequence&gt;
+       &lt;element name="value" type="featurevalueType" minOccurs="0" maxOccurs="unbounded"/&gt;
+    &lt;/sequence&gt;
+    
+    &lt;attribute name="name" type="featurenameType" use="required"/&gt;
+
+    &lt;attribute name="domain" use="required"&gt;
+       &lt;simpleType&gt;
+         &lt;restriction base="xsd:string"&gt;
+           &lt;enumeration value="T"/&gt;     &lt;!-- feature for terminal nodes --&gt;
+           &lt;enumeration value="NT"/&gt;    &lt;!-- feature for nonterminal nodes --&gt;
+           &lt;enumeration value="FREC"/&gt;  &lt;!-- feature for both --&gt;
+         &lt;/restriction&gt;
+       &lt;/simpleType&gt;
+    &lt;/attribute&gt;
+
+  &lt;/complexType&gt;
+
+
+  &lt;!-- declaration of the (secondary) edge label type --&gt;
+
+  &lt;complexType name="edgelabelType"&gt;
+
+    &lt;sequence&gt;
+       &lt;element name="value" type="featurevalueType" minOccurs="0" maxOccurs="unbounded"/&gt;
+    &lt;/sequence&gt;
+    
+  &lt;/complexType&gt;
+
+
+  &lt;!-- declaration of the feature value type --&gt;
+
+  &lt;complexType name="featurevalueType"&gt;
+
+    &lt;simpleContent&gt;   &lt;!-- element content: documentation of the feature value --&gt;
+      &lt;extension base="xsd:string"&gt;
+        &lt;attribute name="name" type="xsd:string"/&gt;
+      &lt;/extension&gt;
+    &lt;/simpleContent&gt;
+
+
+  &lt;/complexType&gt;
+
+
+  &lt;!-- ======================================================
+       HEADER DECLARATIONS THAT SHOULD BE REFINED
+       ====================================================== --&gt;
+
+  &lt;!-- declaration of the FEATURE NAMES used in the corpus header;
+       this type is unrestricted, but should be refined by a 
+       specialised, corpus-dependent schema --&gt;
+
+  &lt;simpleType name="featurenameType"&gt;
+
+    &lt;restriction base="xsd:string"&gt;
+      &lt;minLength value="1"/&gt;
+      &lt;maxLength value="20"/&gt;
+      &lt;whiteSpace value="preserve"/&gt;
+    &lt;/restriction&gt;
+
+  &lt;/simpleType&gt;
+
+
+&lt;/schema&gt;</pre>
+
+
+<p>
+<b><font color="black">Part 3: Subschema for subcorpora - TigerXMLSubcorpus.xsd</font></b>
+</p>
+
+<pre class="small">&lt;schema&gt;
+
+ &lt;!-- ===========================================================================
+      XML Schema for the subcorpus part of the TIGER-XML format
+      http://www.ims.uni-stuttgart.de/projekte/TIGER/public/TigerXMLSubcorpus.xsd
+      ===========================================================================
+      TIGER Project, Wolfgang Lezius
+      IMS, University of Stuttgart, 04/01/2003
+      =========================================================================== --&gt;
+
+  &lt;!-- ======================================================
+       DECLARATION OF SUBCORPORA AND SENTENCES
+       ====================================================== --&gt;
+
+
+  &lt;!-- declaration of the subcorpus element --&gt;
+
+  &lt;element name="subcorpus" type="subcorpusType"/&gt;
+
+
+  &lt;!-- declaration of the subcorpus type --&gt;
+
+  &lt;complexType name="subcorpusType"&gt;
+
+    &lt;!-- A subcorpus may comprise another subcorpora or sentences --&gt;
+
+    &lt;choice minOccurs="0" maxOccurs="unbounded"&gt;
+      &lt;element name="subcorpus" type="subcorpusType" minOccurs="1" maxOccurs="1"/&gt;
+      &lt;element name="s" type="sentenceType" minOccurs="1" maxOccurs="1"/&gt;
+    &lt;/choice&gt;
+
+    &lt;!-- required: subcorpus name --&gt;
+ 
+    &lt;attribute name="name" type="xsd:string" use="required"/&gt;
+
+    &lt;!-- optional: reference to external subcorpus file 
+
+         A subcorpus of a TigerXML corpus can also be stored in separate file. 
+         This attribute points to the external subcorpus file. The pointer is
+         an URI. Examples: file:relative.xml or file:/path/to/absolute.xml 
+
+         Note: If there is a pointer to an external file, the subcorpus
+               element must be empty. --&gt;
+
+    &lt;attribute name="external" type="xsd:anyURI"/&gt;  
+
+  &lt;/complexType&gt;
+
+
+  &lt;!-- declaration of the sentence type --&gt;
+
+  &lt;complexType name="sentenceType"&gt;
+
+    &lt;sequence&gt;
+      &lt;element name="graph" type="graphType" minOccurs="0" maxOccurs="1"/&gt;
+      &lt;element name="matches" type="matchesType" minOccurs="0" maxOccurs="1"/&gt;
+    &lt;/sequence&gt;
+
+    &lt;attribute name="id" type="idType" use="required"/&gt;
+
+  &lt;/complexType&gt;
+
+
+  &lt;!-- declaration of the graph type --&gt;
+
+  &lt;complexType name="graphType"&gt;
+
+    &lt;sequence&gt;
+      &lt;element name="terminals" type="terminalsType" minOccurs="1" maxOccurs="1"/&gt;
+      &lt;element name="nonterminals" type="nonterminalsType" minOccurs="1" maxOccurs="1"/&gt;
+    &lt;/sequence&gt;
+
+    &lt;attribute name="root" type="idrefType" use="required"/&gt;
+
+    &lt;!-- indicated that the exported sentence is discontinuous --&gt;
+    &lt;attribute name="discontinuous" type="xsd:boolean" default="false" use="optional"/&gt;
+
+  &lt;/complexType&gt;
+
+
+  &lt;!-- declaration of the terminals type --&gt;
+
+  &lt;complexType name="terminalsType"&gt;
+
+    &lt;sequence&gt;
+      &lt;element name="t" type="tType" minOccurs="1" maxOccurs="unbounded"/&gt;
+    &lt;/sequence&gt;
+
+  &lt;/complexType&gt;
+
+
+  &lt;!-- declaration of the t element --&gt;
+
+  &lt;complexType name="tType"&gt;
+
+    &lt;!-- secondary edges possible --&gt;
+    &lt;sequence&gt;
+      &lt;element name="secedge" type="secedgeType" minOccurs="0" maxOccurs="unbounded"/&gt;
+    &lt;/sequence&gt;
+
+    &lt;attribute name="id" type="idType" use="required"/&gt;    
+    &lt;attributeGroup ref="tfeatureAttributes"/&gt;
+
+  &lt;/complexType&gt;
+
+
+  &lt;!-- declaration of the nonterminals type --&gt;
+
+  &lt;complexType name="nonterminalsType"&gt;
+
+    &lt;sequence&gt;
+      &lt;element name="nt" type="ntType" minOccurs="0" maxOccurs="unbounded"/&gt;
+    &lt;/sequence&gt;
+
+  &lt;/complexType&gt;
+
+
+  &lt;!-- declaration of the nt element --&gt;
+
+  &lt;complexType name="ntType"&gt;
+
+    &lt;!-- edge and secondary edges possible --&gt;
+    &lt;sequence&gt;
+      &lt;element name="edge" type="edgeType" minOccurs="0" maxOccurs="unbounded"/&gt;
+      &lt;element name="secedge" type="secedgeType" minOccurs="0" maxOccurs="unbounded"/&gt;
+    &lt;/sequence&gt;
+
+    &lt;attribute name="id" type="idType" use="required"/&gt;    
+    &lt;attributeGroup ref="ntfeatureAttributes"/&gt;
+
+  &lt;/complexType&gt;
+
+
+  &lt;!-- declaration of the edge type --&gt;
+
+  &lt;complexType name="edgeType"&gt;
+
+    &lt;attribute name="idref" type="idrefType" use="required"/&gt;    
+
+    &lt;attributeGroup ref="edgelabelAttribute"/&gt;
+
+  &lt;/complexType&gt;
+
+
+  &lt;!-- declaration of the secondary edge type --&gt;
+
+  &lt;complexType name="secedgeType"&gt;
+
+    &lt;attribute name="idref" type="idrefType" use="required"/&gt;    
+
+    &lt;attributeGroup ref="secedgelabelAttribute"/&gt;
+
+  &lt;/complexType&gt;
+
+
+  &lt;!-- declaration of the matches type --&gt;
+
+  &lt;complexType name="matchesType"&gt;
+
+    &lt;sequence&gt;
+      &lt;element name="match" type="matchType" minOccurs="1" maxOccurs="unbounded"/&gt;
+    &lt;/sequence&gt;
+
+  &lt;/complexType&gt;
+
+
+  &lt;!-- declaration of the match type --&gt;
+
+  &lt;complexType name="matchType"&gt;
+
+    &lt;sequence&gt;
+      &lt;element name="variable" type="varType" minOccurs="1" maxOccurs="unbounded"/&gt;
+    &lt;/sequence&gt;
+
+    &lt;attribute name="subgraph" type="idrefType" use="required"/&gt;    
+
+  &lt;/complexType&gt;
+
+
+  &lt;!-- declaration of the variable type --&gt;
+
+  &lt;complexType name="varType"&gt;
+
+    &lt;attribute name="name" type="xsd:string" use="required"/&gt;    
+
+    &lt;attribute name="idref" type="idrefType" use="required"/&gt;    
+
+  &lt;/complexType&gt;
+
+
+  &lt;!-- ======================================================
+       SENTENCE DECLARATIONS THAT SHOULD BE REFINED
+       ====================================================== --&gt;
+
+  &lt;!-- declaration of the TERMINAL FEATURE ATTRIBUTES;
+       this group is unrestricted, but should be refined by a 
+       specialised, corpus-dependent schema --&gt;
+
+  &lt;attributeGroup name="tfeatureAttributes"&gt;
+  
+    &lt;anyAttribute processContents="skip"/&gt;
+
+  &lt;/attributeGroup&gt;
+
+
+  &lt;!-- declaration of the NONTERMINAL FEATURE ATTRIBUTES;
+       this group is unrestricted, but should be refined by a 
+       specialised, corpus-dependent schema --&gt;
+
+  &lt;attributeGroup name="ntfeatureAttributes"&gt;
+  
+    &lt;anyAttribute processContents="skip"/&gt;
+
+  &lt;/attributeGroup&gt;
+
+
+  &lt;!-- declaration of the EDGE-LABEL ATTRIBUTE;
+       the label attribute is optional which should be refined by a 
+       specialised, corpus-dependent schema --&gt;
+
+  &lt;attributeGroup name="edgelabelAttribute"&gt;
+  
+    &lt;attribute name="label" type="xsd:string" use="optional"/&gt;    
+
+  &lt;/attributeGroup&gt;
+    
+
+  &lt;!-- declaration of the SECONDARY-EDGE-LABEL ATTRIBUTE;
+       the label attribute is optional which should be refined by a 
+       specialised, corpus-dependent schema --&gt;
+
+  &lt;attributeGroup name="secedgelabelAttribute"&gt;
+  
+    &lt;attribute name="label" type="xsd:string" use="optional"/&gt;    
+
+  &lt;/attributeGroup&gt;
+ 
+
+  &lt;!-- ======================================================
+       ID and IDREF TYPE DECLARATIONS
+       ====================================================== --&gt;
+
+  &lt;!-- Even though XML Schema are a W3C Recommendation, schema
+       support of XML parsers is still restricted. Using some
+       parsers you might have problems with the ID and IDREF
+       attributes in combination with an "anyAttribute"
+       declaration. In this case, just modify the base type 
+       of the following two declarations to "xsd:string".  --&gt;
+
+
+  &lt;!-- declaration of idType --&gt;
+
+  &lt;simpleType name="idType"&gt;
+
+    &lt;restriction base="xsd:ID"/&gt;
+
+  &lt;/simpleType&gt;
+
+
+  &lt;!-- declaration of idrefType --&gt;
+
+  &lt;simpleType name="idrefType"&gt;
+
+    &lt;restriction base="xsd:IDREF"/&gt;
+
+  &lt;/simpleType&gt;
+
+
+&lt;/schema&gt;</pre>
+
+
+</font>
+</body></html>
