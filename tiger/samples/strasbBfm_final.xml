@@ -1,0 +1,658 @@
+<?xml version="1.0" encoding="UTF-8"?><subcorpus name="default"><s id="strasbBfm_pb:13r_lb:5sophie/cp]strasbBfm_1439909815.28">
+<graph root="http://www.srcmf.org/annotations/strasbBfm#sophie/cp]strasbBfm_1439909815.28">
+<terminals>
+<t id="http://www.srcmf.org/annotations/strasbBfm#sophie/cp]strasbBfm_1439909865.47_fake" word="#" editionId="" editionNs="" editionUri="" form="--" lemma="--" pos="--" q="--"/>
+<t id="http://www.srcmf.org/editions/strasbBfm#w_strasbBfm_001" word="Pro" editionId="w_strasbBfm_001" editionNs="http://www.srcmf.org/editions/strasbBfm#" editionUri="http://www.srcmf.org/editions/strasbBfm#w_strasbBfm_001" form="prose" lemma="_pro_" pos="PRE" q="n"/>
+<t id="http://www.srcmf.org/editions/strasbBfm#w_strasbBfm_002" word="Deo" editionId="w_strasbBfm_002" editionNs="http://www.srcmf.org/editions/strasbBfm#" editionUri="http://www.srcmf.org/editions/strasbBfm#w_strasbBfm_002" form="prose" lemma="--" pos="NOMpro" q="n"/>
+<t id="http://www.srcmf.org/editions/strasbBfm#w_strasbBfm_003" word="amur" editionId="w_strasbBfm_003" editionNs="http://www.srcmf.org/editions/strasbBfm#" editionUri="http://www.srcmf.org/editions/strasbBfm#w_strasbBfm_003" form="prose" lemma="_amor_amur_" pos="NOMcom" q="n"/>
+<t id="http://www.srcmf.org/editions/strasbBfm#w_strasbBfm_004" word="et" editionId="w_strasbBfm_004" editionNs="http://www.srcmf.org/editions/strasbBfm#" editionUri="http://www.srcmf.org/editions/strasbBfm#w_strasbBfm_004" form="prose" lemma="_et_" pos="CONcoo" q="n"/>
+<t id="http://www.srcmf.org/editions/strasbBfm#w_strasbBfm_005" word="pro" editionId="w_strasbBfm_005" editionNs="http://www.srcmf.org/editions/strasbBfm#" editionUri="http://www.srcmf.org/editions/strasbBfm#w_strasbBfm_005" form="prose" lemma="_pro_" pos="PRE" q="n"/>
+<t id="http://www.srcmf.org/editions/strasbBfm#w_strasbBfm_006" word="Christian" editionId="w_strasbBfm_006" editionNs="http://www.srcmf.org/editions/strasbBfm#" editionUri="http://www.srcmf.org/editions/strasbBfm#w_strasbBfm_006" form="prose" lemma="--" pos="ADJqua" q="n"/>
+<t id="http://www.srcmf.org/editions/strasbBfm#w_strasbBfm_007" word="poblo" editionId="w_strasbBfm_007" editionNs="http://www.srcmf.org/editions/strasbBfm#" editionUri="http://www.srcmf.org/editions/strasbBfm#w_strasbBfm_007" form="prose" lemma="--" pos="NOMcom" q="n"/>
+<t id="http://www.srcmf.org/editions/strasbBfm#w_strasbBfm_008" word="et" editionId="w_strasbBfm_008" editionNs="http://www.srcmf.org/editions/strasbBfm#" editionUri="http://www.srcmf.org/editions/strasbBfm#w_strasbBfm_008" form="prose" lemma="_et_" pos="CONcoo" q="n"/>
+<t id="http://www.srcmf.org/editions/strasbBfm#w_strasbBfm_009" word="nostro" editionId="w_strasbBfm_009" editionNs="http://www.srcmf.org/editions/strasbBfm#" editionUri="http://www.srcmf.org/editions/strasbBfm#w_strasbBfm_009" form="prose" lemma="_nostre_" pos="DETpos" q="n"/>
+<t id="http://www.srcmf.org/editions/strasbBfm#w_strasbBfm_010" word="commun" editionId="w_strasbBfm_010" editionNs="http://www.srcmf.org/editions/strasbBfm#" editionUri="http://www.srcmf.org/editions/strasbBfm#w_strasbBfm_010" form="prose" lemma="_comun_" pos="ADJqua" q="n"/>
+<t id="http://www.srcmf.org/editions/strasbBfm#w_strasbBfm_011" word="salvament" editionId="w_strasbBfm_011" editionNs="http://www.srcmf.org/editions/strasbBfm#" editionUri="http://www.srcmf.org/editions/strasbBfm#w_strasbBfm_011" form="prose" lemma="--" pos="NOMcom" q="n"/>
+<t id="http://www.srcmf.org/editions/strasbBfm#w_strasbBfm_013" word="d'" editionId="w_strasbBfm_013" editionNs="http://www.srcmf.org/editions/strasbBfm#" editionUri="http://www.srcmf.org/editions/strasbBfm#w_strasbBfm_013" form="prose" lemma="_de_" pos="PRE" q="n"/>
+<t id="http://www.srcmf.org/editions/strasbBfm#w_strasbBfm_014" word="ist" editionId="w_strasbBfm_014" editionNs="http://www.srcmf.org/editions/strasbBfm#" editionUri="http://www.srcmf.org/editions/strasbBfm#w_strasbBfm_014" form="prose" lemma="_aidier_issir_" pos="DETdem" q="n"/>
+<t id="http://www.srcmf.org/editions/strasbBfm#w_strasbBfm_015" word="di" editionId="w_strasbBfm_015" editionNs="http://www.srcmf.org/editions/strasbBfm#" editionUri="http://www.srcmf.org/editions/strasbBfm#w_strasbBfm_015" form="prose" lemma="_dire_" pos="NOMcom" q="n"/>
+<t id="http://www.srcmf.org/editions/strasbBfm#w_strasbBfm_016" word="in" editionId="w_strasbBfm_016" editionNs="http://www.srcmf.org/editions/strasbBfm#" editionUri="http://www.srcmf.org/editions/strasbBfm#w_strasbBfm_016" form="prose" lemma="_en1_" pos="PRE" q="n"/>
+<t id="http://www.srcmf.org/editions/strasbBfm#w_strasbBfm_017" word="avant" editionId="w_strasbBfm_017" editionNs="http://www.srcmf.org/editions/strasbBfm#" editionUri="http://www.srcmf.org/editions/strasbBfm#w_strasbBfm_017" form="prose" lemma="_avant_" pos="ADVgen" q="n"/>
+<t id="http://www.srcmf.org/editions/strasbBfm#w_strasbBfm_019" word="in" editionId="w_strasbBfm_019" editionNs="http://www.srcmf.org/editions/strasbBfm#" editionUri="http://www.srcmf.org/editions/strasbBfm#w_strasbBfm_019" form="prose" lemma="_en1_" pos="PRE" q="n"/>
+<t id="http://www.srcmf.org/editions/strasbBfm#w_strasbBfm_020" word="quant" editionId="w_strasbBfm_020" editionNs="http://www.srcmf.org/editions/strasbBfm#" editionUri="http://www.srcmf.org/editions/strasbBfm#w_strasbBfm_020" form="prose" lemma="_cant_" pos="PROind" q="n"/>
+<t id="http://www.srcmf.org/editions/strasbBfm#w_strasbBfm_021" word="Deus" editionId="w_strasbBfm_021" editionNs="http://www.srcmf.org/editions/strasbBfm#" editionUri="http://www.srcmf.org/editions/strasbBfm#w_strasbBfm_021" form="prose" lemma="_deus_" pos="NOMpro" q="n"/>
+<t id="http://www.srcmf.org/annotations/strasbBfm#sophie/cp]strasbBfm_1439910022.54_fake" word="#" editionId="" editionNs="" editionUri="" form="--" lemma="--" pos="--" q="--"/>
+<t id="http://www.srcmf.org/editions/strasbBfm#w_strasbBfm_022" word="savir" editionId="w_strasbBfm_022" editionNs="http://www.srcmf.org/editions/strasbBfm#" editionUri="http://www.srcmf.org/editions/strasbBfm#w_strasbBfm_022" form="prose" lemma="_savoir_" pos="VERinf" q="n"/>
+<t id="http://www.srcmf.org/editions/strasbBfm#w_strasbBfm_023" word="et" editionId="w_strasbBfm_023" editionNs="http://www.srcmf.org/editions/strasbBfm#" editionUri="http://www.srcmf.org/editions/strasbBfm#w_strasbBfm_023" form="prose" lemma="_et_" pos="CONcoo" q="n"/>
+<t id="http://www.srcmf.org/editions/strasbBfm#w_strasbBfm_024" word="podir" editionId="w_strasbBfm_024" editionNs="http://www.srcmf.org/editions/strasbBfm#" editionUri="http://www.srcmf.org/editions/strasbBfm#w_strasbBfm_024" form="prose" lemma="_pouvoir_" pos="VERinf" q="n"/>
+<t id="http://www.srcmf.org/editions/strasbBfm#w_strasbBfm_025" word="me" editionId="w_strasbBfm_025" editionNs="http://www.srcmf.org/editions/strasbBfm#" editionUri="http://www.srcmf.org/editions/strasbBfm#w_strasbBfm_025" form="prose" lemma="_je_moi_" pos="PROper" q="n"/>
+<t id="http://www.srcmf.org/editions/strasbBfm#w_strasbBfm_026" word="dunat" editionId="w_strasbBfm_026" editionNs="http://www.srcmf.org/editions/strasbBfm#" editionUri="http://www.srcmf.org/editions/strasbBfm#w_strasbBfm_026" form="prose" lemma="_doner_donner_" pos="VERcjg" q="n"/>
+<t id="http://www.srcmf.org/editions/strasbBfm#w_strasbBfm_028" word="si" editionId="w_strasbBfm_028" editionNs="http://www.srcmf.org/editions/strasbBfm#" editionUri="http://www.srcmf.org/editions/strasbBfm#w_strasbBfm_028" form="prose" lemma="_si_" pos="ADVgen" q="n"/>
+<t id="http://www.srcmf.org/editions/strasbBfm#w_strasbBfm_029" word="salvarai" editionId="w_strasbBfm_029" editionNs="http://www.srcmf.org/editions/strasbBfm#" editionUri="http://www.srcmf.org/editions/strasbBfm#w_strasbBfm_029" form="prose" lemma="_salver_" pos="VERcjg" q="n"/>
+<t id="http://www.srcmf.org/editions/strasbBfm#w_strasbBfm_030" word="eo" editionId="w_strasbBfm_030" editionNs="http://www.srcmf.org/editions/strasbBfm#" editionUri="http://www.srcmf.org/editions/strasbBfm#w_strasbBfm_030" form="prose" lemma="--" pos="PROper" q="n"/>
+<t id="http://www.srcmf.org/editions/strasbBfm#w_strasbBfm_032" word="cist" editionId="w_strasbBfm_032" editionNs="http://www.srcmf.org/editions/strasbBfm#" editionUri="http://www.srcmf.org/editions/strasbBfm#w_strasbBfm_032" form="prose" lemma="_cest_" pos="DETdem" q="n"/>
+<t id="http://www.srcmf.org/editions/strasbBfm#w_strasbBfm_033" word="meon" editionId="w_strasbBfm_033" editionNs="http://www.srcmf.org/editions/strasbBfm#" editionUri="http://www.srcmf.org/editions/strasbBfm#w_strasbBfm_033" form="prose" lemma="_meon_mon_" pos="ADJpos" q="n"/>
+<t id="http://www.srcmf.org/editions/strasbBfm#w_strasbBfm_034" word="fradre" editionId="w_strasbBfm_034" editionNs="http://www.srcmf.org/editions/strasbBfm#" editionUri="http://www.srcmf.org/editions/strasbBfm#w_strasbBfm_034" form="prose" lemma="_frere_" pos="NOMcom" q="n"/>
+<t id="http://www.srcmf.org/editions/strasbBfm#w_strasbBfm_035" word="Karlo" editionId="w_strasbBfm_035" editionNs="http://www.srcmf.org/editions/strasbBfm#" editionUri="http://www.srcmf.org/editions/strasbBfm#w_strasbBfm_035" form="prose" lemma="--" pos="NOMpro" q="n"/>
+<t id="http://www.srcmf.org/annotations/strasbBfm#sophie/cp]strasbBfm_1439909924.05_fake" word="#" editionId="" editionNs="" editionUri="" form="--" lemma="--" pos="--" q="--"/>
+<t id="http://www.srcmf.org/editions/strasbBfm#w_strasbBfm_037" word="et" editionId="w_strasbBfm_037" editionNs="http://www.srcmf.org/editions/strasbBfm#" editionUri="http://www.srcmf.org/editions/strasbBfm#w_strasbBfm_037" form="prose" lemma="_et_" pos="CONcoo" q="n"/>
+<t id="http://www.srcmf.org/editions/strasbBfm#w_strasbBfm_038" word="in" editionId="w_strasbBfm_038" editionNs="http://www.srcmf.org/editions/strasbBfm#" editionUri="http://www.srcmf.org/editions/strasbBfm#w_strasbBfm_038" form="prose" lemma="_en1_" pos="PRE" q="n"/>
+<t id="http://www.srcmf.org/editions/strasbBfm#w_strasbBfm_039" word="aiudha" editionId="w_strasbBfm_039" editionNs="http://www.srcmf.org/editions/strasbBfm#" editionUri="http://www.srcmf.org/editions/strasbBfm#w_strasbBfm_039" form="prose" lemma="_aiue_" pos="NOMcom" q="n"/>
+<t id="http://www.srcmf.org/editions/strasbBfm#w_strasbBfm_041" word="et" editionId="w_strasbBfm_041" editionNs="http://www.srcmf.org/editions/strasbBfm#" editionUri="http://www.srcmf.org/editions/strasbBfm#w_strasbBfm_041" form="prose" lemma="_et_" pos="CONcoo" q="n"/>
+<t id="http://www.srcmf.org/editions/strasbBfm#w_strasbBfm_042" word="in" editionId="w_strasbBfm_042" editionNs="http://www.srcmf.org/editions/strasbBfm#" editionUri="http://www.srcmf.org/editions/strasbBfm#w_strasbBfm_042" form="prose" lemma="_en1_" pos="PRE" q="n"/>
+<t id="http://www.srcmf.org/editions/strasbBfm#w_strasbBfm_043" word="cadhuna" editionId="w_strasbBfm_043" editionNs="http://www.srcmf.org/editions/strasbBfm#" editionUri="http://www.srcmf.org/editions/strasbBfm#w_strasbBfm_043" form="prose" lemma="--" pos="DETind" q="n"/>
+<t id="http://www.srcmf.org/editions/strasbBfm#w_strasbBfm_044" word="cosa" editionId="w_strasbBfm_044" editionNs="http://www.srcmf.org/editions/strasbBfm#" editionUri="http://www.srcmf.org/editions/strasbBfm#w_strasbBfm_044" form="prose" lemma="--" pos="NOMcom" q="n"/>
+<t id="http://www.srcmf.org/editions/strasbBfm#w_strasbBfm_046" word="si" editionId="w_strasbBfm_046" editionNs="http://www.srcmf.org/editions/strasbBfm#" editionUri="http://www.srcmf.org/editions/strasbBfm#w_strasbBfm_046" form="prose" lemma="_si_" pos="ADVgen" q="n"/>
+<t id="http://www.srcmf.org/editions/strasbBfm#w_strasbBfm_047" word="cum" editionId="w_strasbBfm_047" editionNs="http://www.srcmf.org/editions/strasbBfm#" editionUri="http://www.srcmf.org/editions/strasbBfm#w_strasbBfm_047" form="prose" lemma="_come1_" pos="CONsub" q="n"/>
+<t id="http://www.srcmf.org/editions/strasbBfm#w_strasbBfm_048" word="om" editionId="w_strasbBfm_048" editionNs="http://www.srcmf.org/editions/strasbBfm#" editionUri="http://www.srcmf.org/editions/strasbBfm#w_strasbBfm_048" form="prose" lemma="_on_" pos="PROind" q="n"/>
+<t id="http://www.srcmf.org/editions/strasbBfm#w_strasbBfm_049" word="per" editionId="w_strasbBfm_049" editionNs="http://www.srcmf.org/editions/strasbBfm#" editionUri="http://www.srcmf.org/editions/strasbBfm#w_strasbBfm_049" form="prose" lemma="_par_" pos="PRE" q="n"/>
+<t id="http://www.srcmf.org/editions/strasbBfm#w_strasbBfm_050" word="dreit" editionId="w_strasbBfm_050" editionNs="http://www.srcmf.org/editions/strasbBfm#" editionUri="http://www.srcmf.org/editions/strasbBfm#w_strasbBfm_050" form="prose" lemma="_droit_" pos="NOMcom" q="n"/>
+<t id="http://www.srcmf.org/editions/strasbBfm#w_strasbBfm_051" word="son" editionId="w_strasbBfm_051" editionNs="http://www.srcmf.org/editions/strasbBfm#" editionUri="http://www.srcmf.org/editions/strasbBfm#w_strasbBfm_051" form="prose" lemma="_son4_son_" pos="DETpos" q="n"/>
+<t id="http://www.srcmf.org/editions/strasbBfm#w_strasbBfm_052" word="fradra" editionId="w_strasbBfm_052" editionNs="http://www.srcmf.org/editions/strasbBfm#" editionUri="http://www.srcmf.org/editions/strasbBfm#w_strasbBfm_052" form="prose" lemma="--" pos="NOMcom" q="n"/>
+<t id="http://www.srcmf.org/editions/strasbBfm#w_strasbBfm_053" word="salvar" editionId="w_strasbBfm_053" editionNs="http://www.srcmf.org/editions/strasbBfm#" editionUri="http://www.srcmf.org/editions/strasbBfm#w_strasbBfm_053" form="prose" lemma="--" pos="VERinf" q="n"/>
+<t id="http://www.srcmf.org/editions/strasbBfm#w_strasbBfm_054" word="dift" editionId="w_strasbBfm_054" editionNs="http://www.srcmf.org/editions/strasbBfm#" editionUri="http://www.srcmf.org/editions/strasbBfm#w_strasbBfm_054" form="prose" lemma="_devoir_" pos="VERcjg" q="n"/>
+<t id="http://www.srcmf.org/editions/strasbBfm#w_strasbBfm_056" word="in" editionId="w_strasbBfm_056" editionNs="http://www.srcmf.org/editions/strasbBfm#" editionUri="http://www.srcmf.org/editions/strasbBfm#w_strasbBfm_056" form="prose" lemma="_en1_" pos="PRE" q="n"/>
+<t id="http://www.srcmf.org/editions/strasbBfm#w_strasbBfm_057" word="o" editionId="w_strasbBfm_057" editionNs="http://www.srcmf.org/editions/strasbBfm#" editionUri="http://www.srcmf.org/editions/strasbBfm#w_strasbBfm_057" form="prose" lemma="_il_" pos="PROdem" q="n"/>
+<t id="http://www.srcmf.org/editions/strasbBfm#w_strasbBfm_058" word="quid" editionId="w_strasbBfm_058" editionNs="http://www.srcmf.org/editions/strasbBfm#" editionUri="http://www.srcmf.org/editions/strasbBfm#w_strasbBfm_058" form="prose" lemma="_cuidier_" pos="PROrel" q="n"/>
+<t id="http://www.srcmf.org/editions/strasbBfm#w_strasbBfm_058_dupl" word="*" editionId="w_strasbBfm_058_dupl" editionNs="http://www.srcmf.org/editions/strasbBfm#" editionUri="http://www.srcmf.org/editions/strasbBfm#w_strasbBfm_058_dupl" form="prose" lemma="_cuidier_" pos="PROrel" q="n"/>
+<t id="http://www.srcmf.org/editions/strasbBfm#w_strasbBfm_059" word="il" editionId="w_strasbBfm_059" editionNs="http://www.srcmf.org/editions/strasbBfm#" editionUri="http://www.srcmf.org/editions/strasbBfm#w_strasbBfm_059" form="prose" lemma="_il_" pos="PROper" q="n"/>
+<t id="http://www.srcmf.org/editions/strasbBfm#w_strasbBfm_060" word="mi" editionId="w_strasbBfm_060" editionNs="http://www.srcmf.org/editions/strasbBfm#" editionUri="http://www.srcmf.org/editions/strasbBfm#w_strasbBfm_060" form="prose" lemma="_je_moi_" pos="PROper" q="n"/>
+<t id="http://www.srcmf.org/editions/strasbBfm#w_strasbBfm_061" word="altresi" editionId="w_strasbBfm_061" editionNs="http://www.srcmf.org/editions/strasbBfm#" editionUri="http://www.srcmf.org/editions/strasbBfm#w_strasbBfm_061" form="prose" lemma="_autresi_" pos="ADVgen" q="n"/>
+<t id="http://www.srcmf.org/editions/strasbBfm#w_strasbBfm_062" word="fazet" editionId="w_strasbBfm_062" editionNs="http://www.srcmf.org/editions/strasbBfm#" editionUri="http://www.srcmf.org/editions/strasbBfm#w_strasbBfm_062" form="prose" lemma="_faire_" pos="VERcjg" q="n"/>
+</terminals>
+<nonterminals>
+<nt annotationFile="file:///home/tmr/svn/srcmf/annotations/trunk/analyse/correction/profond/strasbBfm/sophie/strasbBfm.n3" annotationUri="http://www.srcmf.org/annotations/strasbBfm#sophie/cp]strasbBfm_1439909815.28" cat="Snt" coord="--" dom="_Circ_Circ_Circ_Circ_Circ_Circ_Circ_Circ_Circ_Circ_Circ_Obj_SjPer_" headlemma="_salver_" headpos="VERcjg" headword="salvarai" id="http://www.srcmf.org/annotations/strasbBfm#sophie/cp]strasbBfm_1439909815.28" type="VFin" vlemma="_salver_" vword="salvarai">
+<edge idref="http://www.srcmf.org/annotations/strasbBfm#sophie/cp]strasbBfm_1439909873.2" label="D"/>
+<edge idref="http://www.srcmf.org/annotations/strasbBfm#sophie/cp]strasbBfm_1439909944.83" label="D"/>
+<edge idref="http://www.srcmf.org/annotations/strasbBfm#sophie/cp]strasbBfm_1439909938.14" label="D"/>
+<edge idref="http://www.srcmf.org/annotations/strasbBfm#sophie/cp]strasbBfm_1439909839.79" label="D"/>
+<edge idref="http://www.srcmf.org/annotations/strasbBfm#sophie/cp]strasbBfm_1439909890.04" label="D"/>
+<edge idref="http://www.srcmf.org/annotations/strasbBfm#sophie/cp]strasbBfm_1439909899.03" label="D"/>
+<edge idref="http://www.srcmf.org/annotations/strasbBfm#sophie/cp]strasbBfm_1439909868.73" label="D"/>
+<edge idref="http://www.srcmf.org/annotations/strasbBfm#sophie/cp]strasbBfm_1439909887.22" label="D"/>
+<edge idref="http://www.srcmf.org/annotations/strasbBfm#sophie/cp]strasbBfm_1439909845.63" label="D"/>
+<edge idref="http://www.srcmf.org/annotations/strasbBfm#sophie/cp]strasbBfm_1439909909.43" label="D"/>
+<edge idref="http://www.srcmf.org/annotations/strasbBfm#sophie/cp]strasbBfm_1439909929.08" label="D"/>
+<edge idref="http://www.srcmf.org/annotations/strasbBfm#sophie/cp]strasbBfm_1439909871.25" label="D"/>
+<edge idref="http://www.srcmf.org/annotations/strasbBfm#sophie/cp]strasbBfm_1439909926.47" label="D"/>
+<edge idref="http://www.srcmf.org/editions/strasbBfm#w_strasbBfm_029" label="L"/>
+</nt>
+<nt annotationFile="file:///home/tmr/svn/srcmf/annotations/trunk/analyse/correction/profond/strasbBfm/sophie/strasbBfm.n3" annotationUri="http://www.srcmf.org/annotations/strasbBfm#sophie/cp]strasbBfm_1439909873.2" cat="Circ" coord="y" dom="_ModA_ModA_RelC_" headlemma="--" headpos="NOMcom" headword="salvament" id="http://www.srcmf.org/annotations/strasbBfm#sophie/cp]strasbBfm_1439909873.2" type="nV" vlemma="--" vword="--">
+<edge idref="http://www.srcmf.org/editions/strasbBfm#w_strasbBfm_011" label="L"/>
+<edge idref="http://www.srcmf.org/annotations/strasbBfm#sophie/cp]strasbBfm_1439909974.25" label="D"/>
+<edge idref="http://www.srcmf.org/annotations/strasbBfm#sophie/cp]strasbBfm_1439909972.35" label="D"/>
+<edge idref="http://www.srcmf.org/annotations/strasbBfm#sophie/cp]strasbBfm_1439909970.52" label="R"/>
+</nt>
+<nt annotationFile="file:///home/tmr/svn/srcmf/annotations/trunk/analyse/correction/profond/strasbBfm/sophie/strasbBfm.n3" annotationUri="http://www.srcmf.org/annotations/strasbBfm#sophie/cp]strasbBfm_1439909974.25" cat="ModA" coord="--" dom="--" headlemma="_comun_" headpos="ADJqua" headword="commun" id="http://www.srcmf.org/annotations/strasbBfm#sophie/cp]strasbBfm_1439909974.25" type="nV" vlemma="--" vword="--">
+<edge idref="http://www.srcmf.org/editions/strasbBfm#w_strasbBfm_010" label="L"/>
+</nt>
+<nt annotationFile="file:///home/tmr/svn/srcmf/annotations/trunk/analyse/correction/profond/strasbBfm/sophie/strasbBfm.n3" annotationUri="http://www.srcmf.org/annotations/strasbBfm#sophie/cp]strasbBfm_1439909972.35" cat="ModA" coord="--" dom="--" headlemma="_nostre_" headpos="DETpos" headword="nostro" id="http://www.srcmf.org/annotations/strasbBfm#sophie/cp]strasbBfm_1439909972.35" type="nV" vlemma="--" vword="--">
+<edge idref="http://www.srcmf.org/editions/strasbBfm#w_strasbBfm_009" label="L"/>
+</nt>
+<nt annotationFile="file:///home/tmr/svn/srcmf/annotations/trunk/analyse/correction/profond/strasbBfm/sophie/strasbBfm.n3" annotationUri="http://www.srcmf.org/annotations/strasbBfm#sophie/cp]strasbBfm_1439909970.52" cat="RelC" coord="--" dom="--" headlemma="_et_" headpos="CONcoo" headword="et" id="http://www.srcmf.org/annotations/strasbBfm#sophie/cp]strasbBfm_1439909970.52" type="nV" vlemma="--" vword="--">
+<edge idref="http://www.srcmf.org/editions/strasbBfm#w_strasbBfm_008" label="L"/>
+</nt>
+<nt annotationFile="file:///home/tmr/svn/srcmf/annotations/trunk/analyse/correction/profond/strasbBfm/sophie/strasbBfm.n3" annotationUri="http://www.srcmf.org/annotations/strasbBfm#sophie/cp]strasbBfm_1439909944.83" cat="Circ" coord="--" dom="_ModA_RelNC_" headlemma="_il_" headpos="PROdem" headword="o" id="http://www.srcmf.org/annotations/strasbBfm#sophie/cp]strasbBfm_1439909944.83" type="nV" vlemma="--" vword="--">
+<edge idref="http://www.srcmf.org/editions/strasbBfm#w_strasbBfm_057" label="L"/>
+<edge idref="http://www.srcmf.org/annotations/strasbBfm#sophie/cp]strasbBfm_1439910134.64" label="D"/>
+<edge idref="http://www.srcmf.org/annotations/strasbBfm#sophie/cp]strasbBfm_1439910127.1" label="R"/>
+</nt>
+<nt annotationFile="file:///home/tmr/svn/srcmf/annotations/trunk/analyse/correction/profond/strasbBfm/sophie/strasbBfm.n3" annotationUri="http://www.srcmf.org/annotations/strasbBfm#sophie/cp]strasbBfm_1439910134.64" cat="ModA" coord="--" dom="_Circ_Cmpl_Obj_RelNC_SjPer_" headlemma="_faire_" headpos="VERcjg" headword="fazet" id="http://www.srcmf.org/annotations/strasbBfm#sophie/cp]strasbBfm_1439910134.64" type="VFin" vlemma="_faire_" vword="fazet">
+<edge idref="http://www.srcmf.org/annotations/strasbBfm#sophie/cp]strasbBfm_1439910142.11" label="R"/>
+<edge idref="http://www.srcmf.org/annotations/strasbBfm#sophie/cp]strasbBfm_1439910149.03" label="D"/>
+<edge idref="http://www.srcmf.org/annotations/strasbBfm#sophie/cp]strasbBfm_1439910146.63" label="D"/>
+<edge idref="http://www.srcmf.org/annotations/strasbBfm#sophie/cp]strasbBfm_1439910162.37" label="D"/>
+<edge idref="http://www.srcmf.org/annotations/strasbBfm#sophie/cp]strasbBfm_1439910144.15" label="D"/>
+<edge idref="http://www.srcmf.org/editions/strasbBfm#w_strasbBfm_062" label="L"/>
+</nt>
+<nt annotationFile="file:///home/tmr/svn/srcmf/annotations/trunk/analyse/correction/profond/strasbBfm/sophie/strasbBfm.n3" annotationUri="http://www.srcmf.org/annotations/strasbBfm#sophie/cp]strasbBfm_1439910142.11" cat="RelNC" coord="--" dom="--" headlemma="_cuidier_" headpos="PROrel" headword="quid" id="http://www.srcmf.org/annotations/strasbBfm#sophie/cp]strasbBfm_1439910142.11" type="nV" vlemma="--" vword="--">
+<edge idref="http://www.srcmf.org/editions/strasbBfm#w_strasbBfm_058" label="L"/>
+</nt>
+<nt annotationFile="file:///home/tmr/svn/srcmf/annotations/trunk/analyse/correction/profond/strasbBfm/sophie/strasbBfm.n3" annotationUri="http://www.srcmf.org/annotations/strasbBfm#sophie/cp]strasbBfm_1439910149.03" cat="Cmpl" coord="--" dom="--" headlemma="_je_moi_" headpos="PROper" headword="mi" id="http://www.srcmf.org/annotations/strasbBfm#sophie/cp]strasbBfm_1439910149.03" type="nV" vlemma="--" vword="--">
+<edge idref="http://www.srcmf.org/editions/strasbBfm#w_strasbBfm_060" label="L"/>
+</nt>
+<nt annotationFile="file:///home/tmr/svn/srcmf/annotations/trunk/analyse/correction/profond/strasbBfm/sophie/strasbBfm.n3" annotationUri="http://www.srcmf.org/annotations/strasbBfm#sophie/cp]strasbBfm_1439910146.63" cat="SjPer" coord="--" dom="--" headlemma="_il_" headpos="PROper" headword="il" id="http://www.srcmf.org/annotations/strasbBfm#sophie/cp]strasbBfm_1439910146.63" type="nV" vlemma="--" vword="--">
+<edge idref="http://www.srcmf.org/editions/strasbBfm#w_strasbBfm_059" label="L"/>
+</nt>
+<nt annotationFile="file:///home/tmr/svn/srcmf/annotations/trunk/analyse/correction/profond/strasbBfm/sophie/strasbBfm.n3" annotationUri="http://www.srcmf.org/annotations/strasbBfm#sophie/cp]strasbBfm_1439910162.37" cat="Circ" coord="--" dom="--" headlemma="_autresi_" headpos="ADVgen" headword="altresi" id="http://www.srcmf.org/annotations/strasbBfm#sophie/cp]strasbBfm_1439910162.37" type="nV" vlemma="--" vword="--">
+<edge idref="http://www.srcmf.org/editions/strasbBfm#w_strasbBfm_061" label="L"/>
+</nt>
+<nt annotationFile="file:///home/tmr/svn/srcmf/annotations/trunk/analyse/correction/profond/strasbBfm/sophie/strasbBfm.n3" annotationUri="http://www.srcmf.org/annotations/strasbBfm#sophie/cp]strasbBfm_1439910144.15" cat="Obj" coord="--" dom="--" headlemma="_cuidier_" headpos="PROrel" headword="quid" id="http://www.srcmf.org/annotations/strasbBfm#sophie/cp]strasbBfm_1439910144.15" type="nV" vlemma="--" vword="--">
+<edge idref="http://www.srcmf.org/editions/strasbBfm#w_strasbBfm_058_dupl" label="L"/>
+<secedge idref="http://www.srcmf.org/editions/strasbBfm#w_strasbBfm_058" label="dupl"/>
+</nt>
+<nt annotationFile="file:///home/tmr/svn/srcmf/annotations/trunk/analyse/correction/profond/strasbBfm/sophie/strasbBfm.n3" annotationUri="http://www.srcmf.org/annotations/strasbBfm#sophie/cp]strasbBfm_1439910127.1" cat="RelNC" coord="--" dom="--" headlemma="_en1_" headpos="PRE" headword="in" id="http://www.srcmf.org/annotations/strasbBfm#sophie/cp]strasbBfm_1439910127.1" type="nV" vlemma="--" vword="--">
+<edge idref="http://www.srcmf.org/editions/strasbBfm#w_strasbBfm_056" label="L"/>
+</nt>
+<nt annotationFile="file:///home/tmr/svn/srcmf/annotations/trunk/analyse/correction/profond/strasbBfm/sophie/strasbBfm.n3" annotationUri="http://www.srcmf.org/annotations/strasbBfm#sophie/cp]strasbBfm_1439909938.14" cat="Circ" coord="--" dom="_ModA_" headlemma="_si_" headpos="ADVgen" headword="si" id="http://www.srcmf.org/annotations/strasbBfm#sophie/cp]strasbBfm_1439909938.14" type="nV" vlemma="--" vword="--">
+<edge idref="http://www.srcmf.org/editions/strasbBfm#w_strasbBfm_046" label="L"/>
+<edge idref="http://www.srcmf.org/annotations/strasbBfm#sophie/cp]strasbBfm_1439910081.7" label="D"/>
+</nt>
+<nt annotationFile="file:///home/tmr/svn/srcmf/annotations/trunk/analyse/correction/profond/strasbBfm/sophie/strasbBfm.n3" annotationUri="http://www.srcmf.org/annotations/strasbBfm#sophie/cp]strasbBfm_1439910081.7" cat="ModA" coord="--" dom="_AuxA_Circ_Obj_RelNC_SjPer_" headlemma="_devoir_" headpos="VERcjg" headword="dift" id="http://www.srcmf.org/annotations/strasbBfm#sophie/cp]strasbBfm_1439910081.7" type="VFin" vlemma="--" vword="salvar">
+<edge idref="http://www.srcmf.org/annotations/strasbBfm#sophie/cp]strasbBfm_1439910085.25" label="R"/>
+<edge idref="http://www.srcmf.org/annotations/strasbBfm#sophie/cp]strasbBfm_1439910100.26" label="D"/>
+<edge idref="http://www.srcmf.org/annotations/strasbBfm#sophie/cp]strasbBfm_1439910105.9" label="D"/>
+<edge idref="http://www.srcmf.org/annotations/strasbBfm#sophie/cp]strasbBfm_1439910103.45" label="D"/>
+<edge idref="http://www.srcmf.org/annotations/strasbBfm#sophie/cp]strasbBfm_1439910107.73" label="D"/>
+<edge idref="http://www.srcmf.org/editions/strasbBfm#w_strasbBfm_054" label="L"/>
+</nt>
+<nt annotationFile="file:///home/tmr/svn/srcmf/annotations/trunk/analyse/correction/profond/strasbBfm/sophie/strasbBfm.n3" annotationUri="http://www.srcmf.org/annotations/strasbBfm#sophie/cp]strasbBfm_1439910085.25" cat="RelNC" coord="--" dom="--" headlemma="_come1_" headpos="CONsub" headword="cum" id="http://www.srcmf.org/annotations/strasbBfm#sophie/cp]strasbBfm_1439910085.25" type="nV" vlemma="--" vword="--">
+<edge idref="http://www.srcmf.org/editions/strasbBfm#w_strasbBfm_047" label="L"/>
+</nt>
+<nt annotationFile="file:///home/tmr/svn/srcmf/annotations/trunk/analyse/correction/profond/strasbBfm/sophie/strasbBfm.n3" annotationUri="http://www.srcmf.org/annotations/strasbBfm#sophie/cp]strasbBfm_1439910100.26" cat="SjPer" coord="--" dom="--" headlemma="_on_" headpos="PROind" headword="om" id="http://www.srcmf.org/annotations/strasbBfm#sophie/cp]strasbBfm_1439910100.26" type="nV" vlemma="--" vword="--">
+<edge idref="http://www.srcmf.org/editions/strasbBfm#w_strasbBfm_048" label="L"/>
+</nt>
+<nt annotationFile="file:///home/tmr/svn/srcmf/annotations/trunk/analyse/correction/profond/strasbBfm/sophie/strasbBfm.n3" annotationUri="http://www.srcmf.org/annotations/strasbBfm#sophie/cp]strasbBfm_1439910105.9" cat="Obj" coord="--" dom="_ModA_" headlemma="--" headpos="NOMcom" headword="fradra" id="http://www.srcmf.org/annotations/strasbBfm#sophie/cp]strasbBfm_1439910105.9" type="nV" vlemma="--" vword="--">
+<edge idref="http://www.srcmf.org/editions/strasbBfm#w_strasbBfm_052" label="L"/>
+<edge idref="http://www.srcmf.org/annotations/strasbBfm#sophie/cp]strasbBfm_1439910117.45" label="D"/>
+</nt>
+<nt annotationFile="file:///home/tmr/svn/srcmf/annotations/trunk/analyse/correction/profond/strasbBfm/sophie/strasbBfm.n3" annotationUri="http://www.srcmf.org/annotations/strasbBfm#sophie/cp]strasbBfm_1439910117.45" cat="ModA" coord="--" dom="--" headlemma="_son4_son_" headpos="DETpos" headword="son" id="http://www.srcmf.org/annotations/strasbBfm#sophie/cp]strasbBfm_1439910117.45" type="nV" vlemma="--" vword="--">
+<edge idref="http://www.srcmf.org/editions/strasbBfm#w_strasbBfm_051" label="L"/>
+</nt>
+<nt annotationFile="file:///home/tmr/svn/srcmf/annotations/trunk/analyse/correction/profond/strasbBfm/sophie/strasbBfm.n3" annotationUri="http://www.srcmf.org/annotations/strasbBfm#sophie/cp]strasbBfm_1439910103.45" cat="Circ" coord="--" dom="_RelNC_" headlemma="_droit_" headpos="NOMcom" headword="dreit" id="http://www.srcmf.org/annotations/strasbBfm#sophie/cp]strasbBfm_1439910103.45" type="nV" vlemma="--" vword="--">
+<edge idref="http://www.srcmf.org/editions/strasbBfm#w_strasbBfm_050" label="L"/>
+<edge idref="http://www.srcmf.org/annotations/strasbBfm#sophie/cp]strasbBfm_1439910119.72" label="R"/>
+</nt>
+<nt annotationFile="file:///home/tmr/svn/srcmf/annotations/trunk/analyse/correction/profond/strasbBfm/sophie/strasbBfm.n3" annotationUri="http://www.srcmf.org/annotations/strasbBfm#sophie/cp]strasbBfm_1439910119.72" cat="RelNC" coord="--" dom="--" headlemma="_par_" headpos="PRE" headword="per" id="http://www.srcmf.org/annotations/strasbBfm#sophie/cp]strasbBfm_1439910119.72" type="nV" vlemma="--" vword="--">
+<edge idref="http://www.srcmf.org/editions/strasbBfm#w_strasbBfm_049" label="L"/>
+</nt>
+<nt annotationFile="file:///home/tmr/svn/srcmf/annotations/trunk/analyse/correction/profond/strasbBfm/sophie/strasbBfm.n3" annotationUri="http://www.srcmf.org/annotations/strasbBfm#sophie/cp]strasbBfm_1439910107.73" cat="AuxA" coord="--" dom="--" headlemma="--" headpos="VERinf" headword="salvar" id="http://www.srcmf.org/annotations/strasbBfm#sophie/cp]strasbBfm_1439910107.73" type="VInf" vlemma="--" vword="salvar">
+<edge idref="http://www.srcmf.org/editions/strasbBfm#w_strasbBfm_053" label="L"/>
+</nt>
+<nt annotationFile="file:///home/tmr/svn/srcmf/annotations/trunk/analyse/correction/profond/strasbBfm/sophie/strasbBfm.n3" annotationUri="http://www.srcmf.org/annotations/strasbBfm#sophie/cp]strasbBfm_1439909839.79" cat="Circ" coord="--" dom="--" headlemma="_si_" headpos="ADVgen" headword="si" id="http://www.srcmf.org/annotations/strasbBfm#sophie/cp]strasbBfm_1439909839.79" type="nV" vlemma="--" vword="--">
+<edge idref="http://www.srcmf.org/editions/strasbBfm#w_strasbBfm_028" label="L"/>
+</nt>
+<nt annotationFile="file:///home/tmr/svn/srcmf/annotations/trunk/analyse/correction/profond/strasbBfm/sophie/strasbBfm.n3" annotationUri="http://www.srcmf.org/annotations/strasbBfm#sophie/cp]strasbBfm_1439909890.04" cat="Circ" coord="--" dom="_RelNC_" headlemma="_avant_" headpos="ADVgen" headword="avant" id="http://www.srcmf.org/annotations/strasbBfm#sophie/cp]strasbBfm_1439909890.04" type="nV" vlemma="--" vword="--">
+<edge idref="http://www.srcmf.org/editions/strasbBfm#w_strasbBfm_017" label="L"/>
+<edge idref="http://www.srcmf.org/annotations/strasbBfm#sophie/cp]strasbBfm_1439909985.79" label="R"/>
+</nt>
+<nt annotationFile="file:///home/tmr/svn/srcmf/annotations/trunk/analyse/correction/profond/strasbBfm/sophie/strasbBfm.n3" annotationUri="http://www.srcmf.org/annotations/strasbBfm#sophie/cp]strasbBfm_1439909985.79" cat="RelNC" coord="--" dom="--" headlemma="_en1_" headpos="PRE" headword="in" id="http://www.srcmf.org/annotations/strasbBfm#sophie/cp]strasbBfm_1439909985.79" type="nV" vlemma="--" vword="--">
+<edge idref="http://www.srcmf.org/editions/strasbBfm#w_strasbBfm_016" label="L"/>
+</nt>
+<nt annotationFile="file:///home/tmr/svn/srcmf/annotations/trunk/analyse/correction/profond/strasbBfm/sophie/strasbBfm.n3" annotationUri="http://www.srcmf.org/annotations/strasbBfm#sophie/cp]strasbBfm_1439909899.03" cat="Circ" coord="--" dom="_Circ_Cmpl_Obj_Obj_SjPer_" headlemma="_doner_donner_" headpos="VERcjg" headword="dunat" id="http://www.srcmf.org/annotations/strasbBfm#sophie/cp]strasbBfm_1439909899.03" type="VFin" vlemma="_doner_donner_" vword="dunat">
+<edge idref="http://www.srcmf.org/annotations/strasbBfm#sophie/cp]strasbBfm_1439909998.83" label="D"/>
+<edge idref="http://www.srcmf.org/annotations/strasbBfm#sophie/cp]strasbBfm_1439910028.99" label="D"/>
+<edge idref="http://www.srcmf.org/annotations/strasbBfm#sophie/cp]strasbBfm_1439910017.91" label="D"/>
+<edge idref="http://www.srcmf.org/annotations/strasbBfm#sophie/cp]strasbBfm_1439910031.65" label="D"/>
+<edge idref="http://www.srcmf.org/annotations/strasbBfm#sophie/cp]strasbBfm_1439910011.63" label="D"/>
+<edge idref="http://www.srcmf.org/editions/strasbBfm#w_strasbBfm_026" label="L"/>
+</nt>
+<nt annotationFile="file:///home/tmr/svn/srcmf/annotations/trunk/analyse/correction/profond/strasbBfm/sophie/strasbBfm.n3" annotationUri="http://www.srcmf.org/annotations/strasbBfm#sophie/cp]strasbBfm_1439909998.83" cat="Circ" coord="--" dom="_RelNC_" headlemma="_cant_" headpos="PROind" headword="quant" id="http://www.srcmf.org/annotations/strasbBfm#sophie/cp]strasbBfm_1439909998.83" type="nV" vlemma="--" vword="--">
+<edge idref="http://www.srcmf.org/editions/strasbBfm#w_strasbBfm_020" label="L"/>
+<edge idref="http://www.srcmf.org/annotations/strasbBfm#sophie/cp]strasbBfm_1439909987.27" label="R"/>
+</nt>
+<nt annotationFile="file:///home/tmr/svn/srcmf/annotations/trunk/analyse/correction/profond/strasbBfm/sophie/strasbBfm.n3" annotationUri="http://www.srcmf.org/annotations/strasbBfm#sophie/cp]strasbBfm_1439909987.27" cat="RelNC" coord="--" dom="--" headlemma="_en1_" headpos="PRE" headword="in" id="http://www.srcmf.org/annotations/strasbBfm#sophie/cp]strasbBfm_1439909987.27" type="nV" vlemma="--" vword="--">
+<edge idref="http://www.srcmf.org/editions/strasbBfm#w_strasbBfm_019" label="L"/>
+</nt>
+<nt annotationFile="file:///home/tmr/svn/srcmf/annotations/trunk/analyse/correction/profond/strasbBfm/sophie/strasbBfm.n3" annotationUri="http://www.srcmf.org/annotations/strasbBfm#sophie/cp]strasbBfm_1439910028.99" cat="Obj" coord="y" dom="--" headlemma="_savoir_" headpos="VERinf" headword="savir" id="http://www.srcmf.org/annotations/strasbBfm#sophie/cp]strasbBfm_1439910028.99" type="VInf" vlemma="_savoir_" vword="savir">
+<edge idref="http://www.srcmf.org/editions/strasbBfm#w_strasbBfm_022" label="L"/>
+</nt>
+<nt annotationFile="file:///home/tmr/svn/srcmf/annotations/trunk/analyse/correction/profond/strasbBfm/sophie/strasbBfm.n3" annotationUri="http://www.srcmf.org/annotations/strasbBfm#sophie/cp]strasbBfm_1439910017.91" cat="SjPer" coord="--" dom="--" headlemma="_deus_" headpos="NOMpro" headword="Deus" id="http://www.srcmf.org/annotations/strasbBfm#sophie/cp]strasbBfm_1439910017.91" type="nV" vlemma="--" vword="--">
+<edge idref="http://www.srcmf.org/editions/strasbBfm#w_strasbBfm_021" label="L"/>
+</nt>
+<nt annotationFile="file:///home/tmr/svn/srcmf/annotations/trunk/analyse/correction/profond/strasbBfm/sophie/strasbBfm.n3" annotationUri="http://www.srcmf.org/annotations/strasbBfm#sophie/cp]strasbBfm_1439910031.65" cat="Obj" coord="y" dom="_RelC_" headlemma="_pouvoir_" headpos="VERinf" headword="podir" id="http://www.srcmf.org/annotations/strasbBfm#sophie/cp]strasbBfm_1439910031.65" type="VInf" vlemma="_pouvoir_" vword="podir">
+<edge idref="http://www.srcmf.org/annotations/strasbBfm#sophie/cp]strasbBfm_1439910034.9" label="R"/>
+<edge idref="http://www.srcmf.org/editions/strasbBfm#w_strasbBfm_024" label="L"/>
+</nt>
+<nt annotationFile="file:///home/tmr/svn/srcmf/annotations/trunk/analyse/correction/profond/strasbBfm/sophie/strasbBfm.n3" annotationUri="http://www.srcmf.org/annotations/strasbBfm#sophie/cp]strasbBfm_1439910034.9" cat="RelC" coord="--" dom="--" headlemma="_et_" headpos="CONcoo" headword="et" id="http://www.srcmf.org/annotations/strasbBfm#sophie/cp]strasbBfm_1439910034.9" type="nV" vlemma="--" vword="--">
+<edge idref="http://www.srcmf.org/editions/strasbBfm#w_strasbBfm_023" label="L"/>
+</nt>
+<nt annotationFile="file:///home/tmr/svn/srcmf/annotations/trunk/analyse/correction/profond/strasbBfm/sophie/strasbBfm.n3" annotationUri="http://www.srcmf.org/annotations/strasbBfm#sophie/cp]strasbBfm_1439910011.63" cat="Cmpl" coord="--" dom="--" headlemma="_je_moi_" headpos="PROper" headword="me" id="http://www.srcmf.org/annotations/strasbBfm#sophie/cp]strasbBfm_1439910011.63" type="nV" vlemma="--" vword="--">
+<edge idref="http://www.srcmf.org/editions/strasbBfm#w_strasbBfm_025" label="L"/>
+</nt>
+<nt annotationFile="file:///home/tmr/svn/srcmf/annotations/trunk/analyse/correction/profond/strasbBfm/sophie/strasbBfm.n3" annotationUri="http://www.srcmf.org/annotations/strasbBfm#sophie/cp]strasbBfm_1439909868.73" cat="Circ" coord="y" dom="_ModA_RelNC_" headlemma="_amor_amur_" headpos="NOMcom" headword="amur" id="http://www.srcmf.org/annotations/strasbBfm#sophie/cp]strasbBfm_1439909868.73" type="nV" vlemma="--" vword="--">
+<edge idref="http://www.srcmf.org/editions/strasbBfm#w_strasbBfm_003" label="L"/>
+<edge idref="http://www.srcmf.org/annotations/strasbBfm#sophie/cp]strasbBfm_1439909957.22" label="D"/>
+<edge idref="http://www.srcmf.org/annotations/strasbBfm#sophie/cp]strasbBfm_1439909949.28" label="R"/>
+</nt>
+<nt annotationFile="file:///home/tmr/svn/srcmf/annotations/trunk/analyse/correction/profond/strasbBfm/sophie/strasbBfm.n3" annotationUri="http://www.srcmf.org/annotations/strasbBfm#sophie/cp]strasbBfm_1439909957.22" cat="ModA" coord="--" dom="--" headlemma="--" headpos="NOMpro" headword="Deo" id="http://www.srcmf.org/annotations/strasbBfm#sophie/cp]strasbBfm_1439909957.22" type="nV" vlemma="--" vword="--">
+<edge idref="http://www.srcmf.org/editions/strasbBfm#w_strasbBfm_002" label="L"/>
+</nt>
+<nt annotationFile="file:///home/tmr/svn/srcmf/annotations/trunk/analyse/correction/profond/strasbBfm/sophie/strasbBfm.n3" annotationUri="http://www.srcmf.org/annotations/strasbBfm#sophie/cp]strasbBfm_1439909949.28" cat="RelNC" coord="--" dom="--" headlemma="_pro_" headpos="PRE" headword="Pro" id="http://www.srcmf.org/annotations/strasbBfm#sophie/cp]strasbBfm_1439909949.28" type="nV" vlemma="--" vword="--">
+<edge idref="http://www.srcmf.org/editions/strasbBfm#w_strasbBfm_001" label="L"/>
+</nt>
+<nt annotationFile="file:///home/tmr/svn/srcmf/annotations/trunk/analyse/correction/profond/strasbBfm/sophie/strasbBfm.n3" annotationUri="http://www.srcmf.org/annotations/strasbBfm#sophie/cp]strasbBfm_1439909887.22" cat="Circ" coord="--" dom="_ModA_RelNC_" headlemma="_dire_" headpos="NOMcom" headword="di" id="http://www.srcmf.org/annotations/strasbBfm#sophie/cp]strasbBfm_1439909887.22" type="nV" vlemma="--" vword="--">
+<edge idref="http://www.srcmf.org/editions/strasbBfm#w_strasbBfm_015" label="L"/>
+<edge idref="http://www.srcmf.org/annotations/strasbBfm#sophie/cp]strasbBfm_1439909979.27" label="D"/>
+<edge idref="http://www.srcmf.org/annotations/strasbBfm#sophie/cp]strasbBfm_1439909977.38" label="R"/>
+</nt>
+<nt annotationFile="file:///home/tmr/svn/srcmf/annotations/trunk/analyse/correction/profond/strasbBfm/sophie/strasbBfm.n3" annotationUri="http://www.srcmf.org/annotations/strasbBfm#sophie/cp]strasbBfm_1439909979.27" cat="ModA" coord="--" dom="--" headlemma="_aidier_issir_" headpos="DETdem" headword="ist" id="http://www.srcmf.org/annotations/strasbBfm#sophie/cp]strasbBfm_1439909979.27" type="nV" vlemma="--" vword="--">
+<edge idref="http://www.srcmf.org/editions/strasbBfm#w_strasbBfm_014" label="L"/>
+</nt>
+<nt annotationFile="file:///home/tmr/svn/srcmf/annotations/trunk/analyse/correction/profond/strasbBfm/sophie/strasbBfm.n3" annotationUri="http://www.srcmf.org/annotations/strasbBfm#sophie/cp]strasbBfm_1439909977.38" cat="RelNC" coord="--" dom="--" headlemma="_de_" headpos="PRE" headword="d'" id="http://www.srcmf.org/annotations/strasbBfm#sophie/cp]strasbBfm_1439909977.38" type="nV" vlemma="--" vword="--">
+<edge idref="http://www.srcmf.org/editions/strasbBfm#w_strasbBfm_013" label="L"/>
+</nt>
+<nt annotationFile="file:///home/tmr/svn/srcmf/annotations/trunk/analyse/correction/profond/strasbBfm/sophie/strasbBfm.n3" annotationUri="http://www.srcmf.org/annotations/strasbBfm#sophie/cp]strasbBfm_1439909845.63" cat="SjPer" coord="--" dom="--" headlemma="--" headpos="PROper" headword="eo" id="http://www.srcmf.org/annotations/strasbBfm#sophie/cp]strasbBfm_1439909845.63" type="nV" vlemma="--" vword="--">
+<edge idref="http://www.srcmf.org/editions/strasbBfm#w_strasbBfm_030" label="L"/>
+</nt>
+<nt annotationFile="file:///home/tmr/svn/srcmf/annotations/trunk/analyse/correction/profond/strasbBfm/sophie/strasbBfm.n3" annotationUri="http://www.srcmf.org/annotations/strasbBfm#sophie/cp]strasbBfm_1439909909.43" cat="Obj" coord="--" dom="_ModA_ModA_ModA_" headlemma="_frere_" headpos="NOMcom" headword="fradre" id="http://www.srcmf.org/annotations/strasbBfm#sophie/cp]strasbBfm_1439909909.43" type="nV" vlemma="--" vword="--">
+<edge idref="http://www.srcmf.org/editions/strasbBfm#w_strasbBfm_034" label="L"/>
+<edge idref="http://www.srcmf.org/annotations/strasbBfm#sophie/cp]strasbBfm_1439910054.55" label="D"/>
+<edge idref="http://www.srcmf.org/annotations/strasbBfm#sophie/cp]strasbBfm_1439910052.78" label="D"/>
+<edge idref="http://www.srcmf.org/annotations/strasbBfm#sophie/cp]strasbBfm_1439910051.05" label="D"/>
+</nt>
+<nt annotationFile="file:///home/tmr/svn/srcmf/annotations/trunk/analyse/correction/profond/strasbBfm/sophie/strasbBfm.n3" annotationUri="http://www.srcmf.org/annotations/strasbBfm#sophie/cp]strasbBfm_1439910054.55" cat="ModA" coord="--" dom="--" headlemma="--" headpos="NOMpro" headword="Karlo" id="http://www.srcmf.org/annotations/strasbBfm#sophie/cp]strasbBfm_1439910054.55" type="nV" vlemma="--" vword="--">
+<edge idref="http://www.srcmf.org/editions/strasbBfm#w_strasbBfm_035" label="L"/>
+</nt>
+<nt annotationFile="file:///home/tmr/svn/srcmf/annotations/trunk/analyse/correction/profond/strasbBfm/sophie/strasbBfm.n3" annotationUri="http://www.srcmf.org/annotations/strasbBfm#sophie/cp]strasbBfm_1439910052.78" cat="ModA" coord="--" dom="--" headlemma="_meon_mon_" headpos="ADJpos" headword="meon" id="http://www.srcmf.org/annotations/strasbBfm#sophie/cp]strasbBfm_1439910052.78" type="nV" vlemma="--" vword="--">
+<edge idref="http://www.srcmf.org/editions/strasbBfm#w_strasbBfm_033" label="L"/>
+</nt>
+<nt annotationFile="file:///home/tmr/svn/srcmf/annotations/trunk/analyse/correction/profond/strasbBfm/sophie/strasbBfm.n3" annotationUri="http://www.srcmf.org/annotations/strasbBfm#sophie/cp]strasbBfm_1439910051.05" cat="ModA" coord="--" dom="--" headlemma="_cest_" headpos="DETdem" headword="cist" id="http://www.srcmf.org/annotations/strasbBfm#sophie/cp]strasbBfm_1439910051.05" type="nV" vlemma="--" vword="--">
+<edge idref="http://www.srcmf.org/editions/strasbBfm#w_strasbBfm_032" label="L"/>
+</nt>
+<nt annotationFile="file:///home/tmr/svn/srcmf/annotations/trunk/analyse/correction/profond/strasbBfm/sophie/strasbBfm.n3" annotationUri="http://www.srcmf.org/annotations/strasbBfm#sophie/cp]strasbBfm_1439909929.08" cat="Circ" coord="y" dom="_ModA_RelC_RelNC_" headlemma="--" headpos="NOMcom" headword="cosa" id="http://www.srcmf.org/annotations/strasbBfm#sophie/cp]strasbBfm_1439909929.08" type="nV" vlemma="--" vword="--">
+<edge idref="http://www.srcmf.org/editions/strasbBfm#w_strasbBfm_044" label="L"/>
+<edge idref="http://www.srcmf.org/annotations/strasbBfm#sophie/cp]strasbBfm_1439910072.83" label="D"/>
+<edge idref="http://www.srcmf.org/annotations/strasbBfm#sophie/cp]strasbBfm_1439910070.3" label="R"/>
+<edge idref="http://www.srcmf.org/annotations/strasbBfm#sophie/cp]strasbBfm_1439910067.7" label="R"/>
+</nt>
+<nt annotationFile="file:///home/tmr/svn/srcmf/annotations/trunk/analyse/correction/profond/strasbBfm/sophie/strasbBfm.n3" annotationUri="http://www.srcmf.org/annotations/strasbBfm#sophie/cp]strasbBfm_1439910072.83" cat="ModA" coord="--" dom="--" headlemma="--" headpos="DETind" headword="cadhuna" id="http://www.srcmf.org/annotations/strasbBfm#sophie/cp]strasbBfm_1439910072.83" type="nV" vlemma="--" vword="--">
+<edge idref="http://www.srcmf.org/editions/strasbBfm#w_strasbBfm_043" label="L"/>
+</nt>
+<nt annotationFile="file:///home/tmr/svn/srcmf/annotations/trunk/analyse/correction/profond/strasbBfm/sophie/strasbBfm.n3" annotationUri="http://www.srcmf.org/annotations/strasbBfm#sophie/cp]strasbBfm_1439910070.3" cat="RelNC" coord="--" dom="--" headlemma="_en1_" headpos="PRE" headword="in" id="http://www.srcmf.org/annotations/strasbBfm#sophie/cp]strasbBfm_1439910070.3" type="nV" vlemma="--" vword="--">
+<edge idref="http://www.srcmf.org/editions/strasbBfm#w_strasbBfm_042" label="L"/>
+</nt>
+<nt annotationFile="file:///home/tmr/svn/srcmf/annotations/trunk/analyse/correction/profond/strasbBfm/sophie/strasbBfm.n3" annotationUri="http://www.srcmf.org/annotations/strasbBfm#sophie/cp]strasbBfm_1439910067.7" cat="RelC" coord="--" dom="--" headlemma="_et_" headpos="CONcoo" headword="et" id="http://www.srcmf.org/annotations/strasbBfm#sophie/cp]strasbBfm_1439910067.7" type="nV" vlemma="--" vword="--">
+<edge idref="http://www.srcmf.org/editions/strasbBfm#w_strasbBfm_041" label="L"/>
+</nt>
+<nt annotationFile="file:///home/tmr/svn/srcmf/annotations/trunk/analyse/correction/profond/strasbBfm/sophie/strasbBfm.n3" annotationUri="http://www.srcmf.org/annotations/strasbBfm#sophie/cp]strasbBfm_1439909871.25" cat="Circ" coord="y" dom="_ModA_RelC_RelNC_" headlemma="--" headpos="NOMcom" headword="poblo" id="http://www.srcmf.org/annotations/strasbBfm#sophie/cp]strasbBfm_1439909871.25" type="nV" vlemma="--" vword="--">
+<edge idref="http://www.srcmf.org/editions/strasbBfm#w_strasbBfm_007" label="L"/>
+<edge idref="http://www.srcmf.org/annotations/strasbBfm#sophie/cp]strasbBfm_1439909963.88" label="D"/>
+<edge idref="http://www.srcmf.org/annotations/strasbBfm#sophie/cp]strasbBfm_1439909961.01" label="R"/>
+<edge idref="http://www.srcmf.org/annotations/strasbBfm#sophie/cp]strasbBfm_1439909959.17" label="R"/>
+</nt>
+<nt annotationFile="file:///home/tmr/svn/srcmf/annotations/trunk/analyse/correction/profond/strasbBfm/sophie/strasbBfm.n3" annotationUri="http://www.srcmf.org/annotations/strasbBfm#sophie/cp]strasbBfm_1439909963.88" cat="ModA" coord="--" dom="--" headlemma="--" headpos="ADJqua" headword="Christian" id="http://www.srcmf.org/annotations/strasbBfm#sophie/cp]strasbBfm_1439909963.88" type="nV" vlemma="--" vword="--">
+<edge idref="http://www.srcmf.org/editions/strasbBfm#w_strasbBfm_006" label="L"/>
+</nt>
+<nt annotationFile="file:///home/tmr/svn/srcmf/annotations/trunk/analyse/correction/profond/strasbBfm/sophie/strasbBfm.n3" annotationUri="http://www.srcmf.org/annotations/strasbBfm#sophie/cp]strasbBfm_1439909961.01" cat="RelNC" coord="--" dom="--" headlemma="_pro_" headpos="PRE" headword="pro" id="http://www.srcmf.org/annotations/strasbBfm#sophie/cp]strasbBfm_1439909961.01" type="nV" vlemma="--" vword="--">
+<edge idref="http://www.srcmf.org/editions/strasbBfm#w_strasbBfm_005" label="L"/>
+</nt>
+<nt annotationFile="file:///home/tmr/svn/srcmf/annotations/trunk/analyse/correction/profond/strasbBfm/sophie/strasbBfm.n3" annotationUri="http://www.srcmf.org/annotations/strasbBfm#sophie/cp]strasbBfm_1439909959.17" cat="RelC" coord="--" dom="--" headlemma="_et_" headpos="CONcoo" headword="et" id="http://www.srcmf.org/annotations/strasbBfm#sophie/cp]strasbBfm_1439909959.17" type="nV" vlemma="--" vword="--">
+<edge idref="http://www.srcmf.org/editions/strasbBfm#w_strasbBfm_004" label="L"/>
+</nt>
+<nt annotationFile="file:///home/tmr/svn/srcmf/annotations/trunk/analyse/correction/profond/strasbBfm/sophie/strasbBfm.n3" annotationUri="http://www.srcmf.org/annotations/strasbBfm#sophie/cp]strasbBfm_1439909926.47" cat="Circ" coord="y" dom="_RelC_RelNC_" headlemma="_aiue_" headpos="NOMcom" headword="aiudha" id="http://www.srcmf.org/annotations/strasbBfm#sophie/cp]strasbBfm_1439909926.47" type="nV" vlemma="--" vword="--">
+<edge idref="http://www.srcmf.org/editions/strasbBfm#w_strasbBfm_039" label="L"/>
+<edge idref="http://www.srcmf.org/annotations/strasbBfm#sophie/cp]strasbBfm_1439910064.38" label="R"/>
+<edge idref="http://www.srcmf.org/annotations/strasbBfm#sophie/cp]strasbBfm_1439910061.61" label="R"/>
+</nt>
+<nt annotationFile="file:///home/tmr/svn/srcmf/annotations/trunk/analyse/correction/profond/strasbBfm/sophie/strasbBfm.n3" annotationUri="http://www.srcmf.org/annotations/strasbBfm#sophie/cp]strasbBfm_1439910064.38" cat="RelNC" coord="--" dom="--" headlemma="_en1_" headpos="PRE" headword="in" id="http://www.srcmf.org/annotations/strasbBfm#sophie/cp]strasbBfm_1439910064.38" type="nV" vlemma="--" vword="--">
+<edge idref="http://www.srcmf.org/editions/strasbBfm#w_strasbBfm_038" label="L"/>
+</nt>
+<nt annotationFile="file:///home/tmr/svn/srcmf/annotations/trunk/analyse/correction/profond/strasbBfm/sophie/strasbBfm.n3" annotationUri="http://www.srcmf.org/annotations/strasbBfm#sophie/cp]strasbBfm_1439910061.61" cat="RelC" coord="--" dom="--" headlemma="_et_" headpos="CONcoo" headword="et" id="http://www.srcmf.org/annotations/strasbBfm#sophie/cp]strasbBfm_1439910061.61" type="nV" vlemma="--" vword="--">
+<edge idref="http://www.srcmf.org/editions/strasbBfm#w_strasbBfm_037" label="L"/>
+</nt>
+<nt annotationFile="file:///home/tmr/svn/srcmf/annotations/trunk/analyse/correction/profond/strasbBfm/sophie/strasbBfm.n3" annotationUri="http://www.srcmf.org/annotations/strasbBfm#sophie/cp]strasbBfm_1439909924.05" cat="Coo" coord="--" dom="--" headlemma="--" headpos="--" headword="#" id="http://www.srcmf.org/annotations/strasbBfm#sophie/cp]strasbBfm_1439909924.05" type="--" vlemma="--" vword="--">
+<edge idref="http://www.srcmf.org/annotations/strasbBfm#sophie/cp]strasbBfm_1439909924.05_fake" label="L"/>
+<secedge idref="http://www.srcmf.org/annotations/strasbBfm#sophie/cp]strasbBfm_1439909929.08" label="coord"/>
+<secedge idref="http://www.srcmf.org/annotations/strasbBfm#sophie/cp]strasbBfm_1439909926.47" label="coord"/>
+</nt>
+<nt annotationFile="file:///home/tmr/svn/srcmf/annotations/trunk/analyse/correction/profond/strasbBfm/sophie/strasbBfm.n3" annotationUri="http://www.srcmf.org/annotations/strasbBfm#sophie/cp]strasbBfm_1439909865.47" cat="Coo" coord="--" dom="--" headlemma="--" headpos="--" headword="#" id="http://www.srcmf.org/annotations/strasbBfm#sophie/cp]strasbBfm_1439909865.47" type="--" vlemma="--" vword="--">
+<edge idref="http://www.srcmf.org/annotations/strasbBfm#sophie/cp]strasbBfm_1439909865.47_fake" label="L"/>
+<secedge idref="http://www.srcmf.org/annotations/strasbBfm#sophie/cp]strasbBfm_1439909868.73" label="coord"/>
+<secedge idref="http://www.srcmf.org/annotations/strasbBfm#sophie/cp]strasbBfm_1439909873.2" label="coord"/>
+<secedge idref="http://www.srcmf.org/annotations/strasbBfm#sophie/cp]strasbBfm_1439909871.25" label="coord"/>
+</nt>
+<nt annotationFile="file:///home/tmr/svn/srcmf/annotations/trunk/analyse/correction/profond/strasbBfm/sophie/strasbBfm.n3" annotationUri="http://www.srcmf.org/annotations/strasbBfm#sophie/cp]strasbBfm_1439910022.54" cat="Coo" coord="--" dom="--" headlemma="--" headpos="--" headword="#" id="http://www.srcmf.org/annotations/strasbBfm#sophie/cp]strasbBfm_1439910022.54" type="--" vlemma="--" vword="--">
+<edge idref="http://www.srcmf.org/annotations/strasbBfm#sophie/cp]strasbBfm_1439910022.54_fake" label="L"/>
+<secedge idref="http://www.srcmf.org/annotations/strasbBfm#sophie/cp]strasbBfm_1439910028.99" label="coord"/>
+<secedge idref="http://www.srcmf.org/annotations/strasbBfm#sophie/cp]strasbBfm_1439910031.65" label="coord"/>
+</nt>
+</nonterminals>
+</graph>
+</s>
+<s id="strasbBfm_pb:13r_lb:11sophie/cp]strasbBfm_1439910241.36">
+<graph root="http://www.srcmf.org/annotations/strasbBfm#sophie/cp]strasbBfm_1439910241.36">
+<terminals>
+<t id="http://www.srcmf.org/editions/strasbBfm#w_strasbBfm_064" word="Et" editionId="w_strasbBfm_064" editionNs="http://www.srcmf.org/editions/strasbBfm#" editionUri="http://www.srcmf.org/editions/strasbBfm#w_strasbBfm_064" form="prose" lemma="_et_" pos="CONcoo" q="n"/>
+<t id="http://www.srcmf.org/editions/strasbBfm#w_strasbBfm_065" word="ab" editionId="w_strasbBfm_065" editionNs="http://www.srcmf.org/editions/strasbBfm#" editionUri="http://www.srcmf.org/editions/strasbBfm#w_strasbBfm_065" form="prose" lemma="_o4_" pos="PRE" q="n"/>
+<t id="http://www.srcmf.org/editions/strasbBfm#w_strasbBfm_066" word="Ludher" editionId="w_strasbBfm_066" editionNs="http://www.srcmf.org/editions/strasbBfm#" editionUri="http://www.srcmf.org/editions/strasbBfm#w_strasbBfm_066" form="prose" lemma="--" pos="NOMpro" q="n"/>
+<t id="http://www.srcmf.org/editions/strasbBfm#w_strasbBfm_067" word="nul" editionId="w_strasbBfm_067" editionNs="http://www.srcmf.org/editions/strasbBfm#" editionUri="http://www.srcmf.org/editions/strasbBfm#w_strasbBfm_067" form="prose" lemma="_nul_" pos="DETind" q="n"/>
+<t id="http://www.srcmf.org/editions/strasbBfm#w_strasbBfm_068" word="plaid" editionId="w_strasbBfm_068" editionNs="http://www.srcmf.org/editions/strasbBfm#" editionUri="http://www.srcmf.org/editions/strasbBfm#w_strasbBfm_068" form="prose" lemma="--" pos="NOMcom" q="n"/>
+<t id="http://www.srcmf.org/editions/strasbBfm#w_strasbBfm_069" word="nunquam" editionId="w_strasbBfm_069" editionNs="http://www.srcmf.org/editions/strasbBfm#" editionUri="http://www.srcmf.org/editions/strasbBfm#w_strasbBfm_069" form="prose" lemma="_nonque_" pos="ADVgen" q="n"/>
+<t id="http://www.srcmf.org/editions/strasbBfm#w_strasbBfm_070" word="prindrai" editionId="w_strasbBfm_070" editionNs="http://www.srcmf.org/editions/strasbBfm#" editionUri="http://www.srcmf.org/editions/strasbBfm#w_strasbBfm_070" form="prose" lemma="_prendre_" pos="VERcjg" q="n"/>
+<t id="http://www.srcmf.org/editions/strasbBfm#w_strasbBfm_071" word="qui" editionId="w_strasbBfm_071" editionNs="http://www.srcmf.org/editions/strasbBfm#" editionUri="http://www.srcmf.org/editions/strasbBfm#w_strasbBfm_071" form="prose" lemma="_qui_" pos="PROrel" q="n"/>
+<t id="http://www.srcmf.org/editions/strasbBfm#w_strasbBfm_071_dupl" word="*" editionId="w_strasbBfm_071_dupl" editionNs="http://www.srcmf.org/editions/strasbBfm#" editionUri="http://www.srcmf.org/editions/strasbBfm#w_strasbBfm_071_dupl" form="prose" lemma="_qui_" pos="PROrel" q="n"/>
+<t id="http://www.srcmf.org/editions/strasbBfm#w_strasbBfm_073" word="meon" editionId="w_strasbBfm_073" editionNs="http://www.srcmf.org/editions/strasbBfm#" editionUri="http://www.srcmf.org/editions/strasbBfm#w_strasbBfm_073" form="prose" lemma="_meon_mon_" pos="DETpos" q="n"/>
+<t id="http://www.srcmf.org/editions/strasbBfm#w_strasbBfm_074" word="vol" editionId="w_strasbBfm_074" editionNs="http://www.srcmf.org/editions/strasbBfm#" editionUri="http://www.srcmf.org/editions/strasbBfm#w_strasbBfm_074" form="prose" lemma="_voil2_vol_" pos="NOMcom" q="n"/>
+<t id="http://www.srcmf.org/editions/strasbBfm#w_strasbBfm_076" word="cist" editionId="w_strasbBfm_076" editionNs="http://www.srcmf.org/editions/strasbBfm#" editionUri="http://www.srcmf.org/editions/strasbBfm#w_strasbBfm_076" form="prose" lemma="_cest_" pos="DETdem" q="n"/>
+<t id="http://www.srcmf.org/editions/strasbBfm#w_strasbBfm_077" word="meon" editionId="w_strasbBfm_077" editionNs="http://www.srcmf.org/editions/strasbBfm#" editionUri="http://www.srcmf.org/editions/strasbBfm#w_strasbBfm_077" form="prose" lemma="_meon_mon_" pos="ADJpos" q="n"/>
+<t id="http://www.srcmf.org/editions/strasbBfm#w_strasbBfm_078" word="fradre" editionId="w_strasbBfm_078" editionNs="http://www.srcmf.org/editions/strasbBfm#" editionUri="http://www.srcmf.org/editions/strasbBfm#w_strasbBfm_078" form="prose" lemma="_frere_" pos="NOMcom" q="n"/>
+<t id="http://www.srcmf.org/editions/strasbBfm#w_strasbBfm_079" word="Karle" editionId="w_strasbBfm_079" editionNs="http://www.srcmf.org/editions/strasbBfm#" editionUri="http://www.srcmf.org/editions/strasbBfm#w_strasbBfm_079" form="prose" lemma="_charle_" pos="NOMpro" q="n"/>
+<t id="http://www.srcmf.org/editions/strasbBfm#w_strasbBfm_080" word="in" editionId="w_strasbBfm_080" editionNs="http://www.srcmf.org/editions/strasbBfm#" editionUri="http://www.srcmf.org/editions/strasbBfm#w_strasbBfm_080" form="prose" lemma="_en1_" pos="PRE" q="n"/>
+<t id="http://www.srcmf.org/editions/strasbBfm#w_strasbBfm_081" word="damno" editionId="w_strasbBfm_081" editionNs="http://www.srcmf.org/editions/strasbBfm#" editionUri="http://www.srcmf.org/editions/strasbBfm#w_strasbBfm_081" form="prose" lemma="--" pos="NOMcom" q="n"/>
+<t id="http://www.srcmf.org/editions/strasbBfm#w_strasbBfm_082" word="sit" editionId="w_strasbBfm_082" editionNs="http://www.srcmf.org/editions/strasbBfm#" editionUri="http://www.srcmf.org/editions/strasbBfm#w_strasbBfm_082" form="prose" lemma="_sivre_" pos="VERcjg" q="n"/>
+</terminals>
+<nonterminals>
+<nt annotationFile="file:///home/tmr/svn/srcmf/annotations/trunk/analyse/correction/profond/strasbBfm/sophie/strasbBfm.n3" annotationUri="http://www.srcmf.org/annotations/strasbBfm#sophie/cp]strasbBfm_1439910241.36" cat="Snt" coord="--" dom="_Circ_Circ_Obj_RelNC_" headlemma="_prendre_" headpos="VERcjg" headword="prindrai" id="http://www.srcmf.org/annotations/strasbBfm#sophie/cp]strasbBfm_1439910241.36" type="VFin" vlemma="_prendre_" vword="prindrai">
+<edge idref="http://www.srcmf.org/annotations/strasbBfm#sophie/cp]strasbBfm_1439910309.71" label="R"/>
+<edge idref="http://www.srcmf.org/annotations/strasbBfm#sophie/cp]strasbBfm_1439910322.43" label="D"/>
+<edge idref="http://www.srcmf.org/annotations/strasbBfm#sophie/cp]strasbBfm_1439910299.14" label="D"/>
+<edge idref="http://www.srcmf.org/annotations/strasbBfm#sophie/cp]strasbBfm_1439910317.16" label="D"/>
+<edge idref="http://www.srcmf.org/editions/strasbBfm#w_strasbBfm_070" label="L"/>
+</nt>
+<nt annotationFile="file:///home/tmr/svn/srcmf/annotations/trunk/analyse/correction/profond/strasbBfm/sophie/strasbBfm.n3" annotationUri="http://www.srcmf.org/annotations/strasbBfm#sophie/cp]strasbBfm_1439910309.71" cat="RelNC" coord="--" dom="--" headlemma="_et_" headpos="CONcoo" headword="Et" id="http://www.srcmf.org/annotations/strasbBfm#sophie/cp]strasbBfm_1439910309.71" type="nV" vlemma="--" vword="--">
+<edge idref="http://www.srcmf.org/editions/strasbBfm#w_strasbBfm_064" label="L"/>
+</nt>
+<nt annotationFile="file:///home/tmr/svn/srcmf/annotations/trunk/analyse/correction/profond/strasbBfm/sophie/strasbBfm.n3" annotationUri="http://www.srcmf.org/annotations/strasbBfm#sophie/cp]strasbBfm_1439910322.43" cat="Obj" coord="--" dom="_ModA_ModA_" headlemma="--" headpos="NOMcom" headword="plaid" id="http://www.srcmf.org/annotations/strasbBfm#sophie/cp]strasbBfm_1439910322.43" type="nV" vlemma="--" vword="--">
+<edge idref="http://www.srcmf.org/editions/strasbBfm#w_strasbBfm_068" label="L"/>
+<edge idref="http://www.srcmf.org/annotations/strasbBfm#sophie/cp]strasbBfm_1439910334.66" label="D"/>
+<edge idref="http://www.srcmf.org/annotations/strasbBfm#sophie/cp]strasbBfm_1439910331.66" label="D"/>
+</nt>
+<nt annotationFile="file:///home/tmr/svn/srcmf/annotations/trunk/analyse/correction/profond/strasbBfm/sophie/strasbBfm.n3" annotationUri="http://www.srcmf.org/annotations/strasbBfm#sophie/cp]strasbBfm_1439910334.66" cat="ModA" coord="--" dom="_Circ_Cmpl_Cmpl_RelNC_SjPer_" headlemma="_sivre_" headpos="VERcjg" headword="sit" id="http://www.srcmf.org/annotations/strasbBfm#sophie/cp]strasbBfm_1439910334.66" type="VFin" vlemma="_sivre_" vword="sit">
+<edge idref="http://www.srcmf.org/annotations/strasbBfm#sophie/cp]strasbBfm_1439910352.39" label="R"/>
+<edge idref="http://www.srcmf.org/annotations/strasbBfm#sophie/cp]strasbBfm_1439910371.85" label="D"/>
+<edge idref="http://www.srcmf.org/annotations/strasbBfm#sophie/cp]strasbBfm_1439910368.31" label="D"/>
+<edge idref="http://www.srcmf.org/annotations/strasbBfm#sophie/cp]strasbBfm_1439910354.79" label="D"/>
+<edge idref="http://www.srcmf.org/annotations/strasbBfm#sophie/cp]strasbBfm_1439910362.79" label="D"/>
+<edge idref="http://www.srcmf.org/editions/strasbBfm#w_strasbBfm_082" label="L"/>
+</nt>
+<nt annotationFile="file:///home/tmr/svn/srcmf/annotations/trunk/analyse/correction/profond/strasbBfm/sophie/strasbBfm.n3" annotationUri="http://www.srcmf.org/annotations/strasbBfm#sophie/cp]strasbBfm_1439910352.39" cat="RelNC" coord="--" dom="--" headlemma="_qui_" headpos="PROrel" headword="qui" id="http://www.srcmf.org/annotations/strasbBfm#sophie/cp]strasbBfm_1439910352.39" type="nV" vlemma="--" vword="--">
+<edge idref="http://www.srcmf.org/editions/strasbBfm#w_strasbBfm_071" label="L"/>
+</nt>
+<nt annotationFile="file:///home/tmr/svn/srcmf/annotations/trunk/analyse/correction/profond/strasbBfm/sophie/strasbBfm.n3" annotationUri="http://www.srcmf.org/annotations/strasbBfm#sophie/cp]strasbBfm_1439910371.85" cat="Cmpl" coord="--" dom="_RelNC_" headlemma="--" headpos="NOMcom" headword="damno" id="http://www.srcmf.org/annotations/strasbBfm#sophie/cp]strasbBfm_1439910371.85" type="nV" vlemma="--" vword="--">
+<edge idref="http://www.srcmf.org/editions/strasbBfm#w_strasbBfm_081" label="L"/>
+<edge idref="http://www.srcmf.org/annotations/strasbBfm#sophie/cp]strasbBfm_1439910378.73" label="R"/>
+</nt>
+<nt annotationFile="file:///home/tmr/svn/srcmf/annotations/trunk/analyse/correction/profond/strasbBfm/sophie/strasbBfm.n3" annotationUri="http://www.srcmf.org/annotations/strasbBfm#sophie/cp]strasbBfm_1439910378.73" cat="RelNC" coord="--" dom="--" headlemma="_en1_" headpos="PRE" headword="in" id="http://www.srcmf.org/annotations/strasbBfm#sophie/cp]strasbBfm_1439910378.73" type="nV" vlemma="--" vword="--">
+<edge idref="http://www.srcmf.org/editions/strasbBfm#w_strasbBfm_080" label="L"/>
+</nt>
+<nt annotationFile="file:///home/tmr/svn/srcmf/annotations/trunk/analyse/correction/profond/strasbBfm/sophie/strasbBfm.n3" annotationUri="http://www.srcmf.org/annotations/strasbBfm#sophie/cp]strasbBfm_1439910368.31" cat="Cmpl" coord="--" dom="_ModA_ModA_ModA_" headlemma="_frere_" headpos="NOMcom" headword="fradre" id="http://www.srcmf.org/annotations/strasbBfm#sophie/cp]strasbBfm_1439910368.31" type="nV" vlemma="--" vword="--">
+<edge idref="http://www.srcmf.org/editions/strasbBfm#w_strasbBfm_078" label="L"/>
+<edge idref="http://www.srcmf.org/annotations/strasbBfm#sophie/cp]strasbBfm_1439910382.92" label="D"/>
+<edge idref="http://www.srcmf.org/annotations/strasbBfm#sophie/cp]strasbBfm_1439910385.46" label="D"/>
+<edge idref="http://www.srcmf.org/annotations/strasbBfm#sophie/cp]strasbBfm_1439910381.14" label="D"/>
+</nt>
+<nt annotationFile="file:///home/tmr/svn/srcmf/annotations/trunk/analyse/correction/profond/strasbBfm/sophie/strasbBfm.n3" annotationUri="http://www.srcmf.org/annotations/strasbBfm#sophie/cp]strasbBfm_1439910382.92" cat="ModA" coord="--" dom="--" headlemma="_meon_mon_" headpos="ADJpos" headword="meon" id="http://www.srcmf.org/annotations/strasbBfm#sophie/cp]strasbBfm_1439910382.92" type="nV" vlemma="--" vword="--">
+<edge idref="http://www.srcmf.org/editions/strasbBfm#w_strasbBfm_077" label="L"/>
+</nt>
+<nt annotationFile="file:///home/tmr/svn/srcmf/annotations/trunk/analyse/correction/profond/strasbBfm/sophie/strasbBfm.n3" annotationUri="http://www.srcmf.org/annotations/strasbBfm#sophie/cp]strasbBfm_1439910385.46" cat="ModA" coord="--" dom="--" headlemma="_charle_" headpos="NOMpro" headword="Karle" id="http://www.srcmf.org/annotations/strasbBfm#sophie/cp]strasbBfm_1439910385.46" type="nV" vlemma="--" vword="--">
+<edge idref="http://www.srcmf.org/editions/strasbBfm#w_strasbBfm_079" label="L"/>
+</nt>
+<nt annotationFile="file:///home/tmr/svn/srcmf/annotations/trunk/analyse/correction/profond/strasbBfm/sophie/strasbBfm.n3" annotationUri="http://www.srcmf.org/annotations/strasbBfm#sophie/cp]strasbBfm_1439910381.14" cat="ModA" coord="--" dom="--" headlemma="_cest_" headpos="DETdem" headword="cist" id="http://www.srcmf.org/annotations/strasbBfm#sophie/cp]strasbBfm_1439910381.14" type="nV" vlemma="--" vword="--">
+<edge idref="http://www.srcmf.org/editions/strasbBfm#w_strasbBfm_076" label="L"/>
+</nt>
+<nt annotationFile="file:///home/tmr/svn/srcmf/annotations/trunk/analyse/correction/profond/strasbBfm/sophie/strasbBfm.n3" annotationUri="http://www.srcmf.org/annotations/strasbBfm#sophie/cp]strasbBfm_1439910354.79" cat="SjPer" coord="--" dom="--" headlemma="_qui_" headpos="PROrel" headword="qui" id="http://www.srcmf.org/annotations/strasbBfm#sophie/cp]strasbBfm_1439910354.79" type="nV" vlemma="--" vword="--">
+<edge idref="http://www.srcmf.org/editions/strasbBfm#w_strasbBfm_071_dupl" label="L"/>
+<secedge idref="http://www.srcmf.org/editions/strasbBfm#w_strasbBfm_071" label="dupl"/>
+</nt>
+<nt annotationFile="file:///home/tmr/svn/srcmf/annotations/trunk/analyse/correction/profond/strasbBfm/sophie/strasbBfm.n3" annotationUri="http://www.srcmf.org/annotations/strasbBfm#sophie/cp]strasbBfm_1439910362.79" cat="Circ" coord="--" dom="_ModA_" headlemma="_voil2_vol_" headpos="NOMcom" headword="vol" id="http://www.srcmf.org/annotations/strasbBfm#sophie/cp]strasbBfm_1439910362.79" type="nV" vlemma="--" vword="--">
+<edge idref="http://www.srcmf.org/editions/strasbBfm#w_strasbBfm_074" label="L"/>
+<edge idref="http://www.srcmf.org/annotations/strasbBfm#sophie/cp]strasbBfm_1439910391.04" label="D"/>
+</nt>
+<nt annotationFile="file:///home/tmr/svn/srcmf/annotations/trunk/analyse/correction/profond/strasbBfm/sophie/strasbBfm.n3" annotationUri="http://www.srcmf.org/annotations/strasbBfm#sophie/cp]strasbBfm_1439910391.04" cat="ModA" coord="--" dom="--" headlemma="_meon_mon_" headpos="DETpos" headword="meon" id="http://www.srcmf.org/annotations/strasbBfm#sophie/cp]strasbBfm_1439910391.04" type="nV" vlemma="--" vword="--">
+<edge idref="http://www.srcmf.org/editions/strasbBfm#w_strasbBfm_073" label="L"/>
+</nt>
+<nt annotationFile="file:///home/tmr/svn/srcmf/annotations/trunk/analyse/correction/profond/strasbBfm/sophie/strasbBfm.n3" annotationUri="http://www.srcmf.org/annotations/strasbBfm#sophie/cp]strasbBfm_1439910331.66" cat="ModA" coord="--" dom="--" headlemma="_nul_" headpos="DETind" headword="nul" id="http://www.srcmf.org/annotations/strasbBfm#sophie/cp]strasbBfm_1439910331.66" type="nV" vlemma="--" vword="--">
+<edge idref="http://www.srcmf.org/editions/strasbBfm#w_strasbBfm_067" label="L"/>
+</nt>
+<nt annotationFile="file:///home/tmr/svn/srcmf/annotations/trunk/analyse/correction/profond/strasbBfm/sophie/strasbBfm.n3" annotationUri="http://www.srcmf.org/annotations/strasbBfm#sophie/cp]strasbBfm_1439910299.14" cat="Circ" coord="--" dom="--" headlemma="_nonque_" headpos="ADVgen" headword="nunquam" id="http://www.srcmf.org/annotations/strasbBfm#sophie/cp]strasbBfm_1439910299.14" type="nV" vlemma="--" vword="--">
+<edge idref="http://www.srcmf.org/editions/strasbBfm#w_strasbBfm_069" label="L"/>
+</nt>
+<nt annotationFile="file:///home/tmr/svn/srcmf/annotations/trunk/analyse/correction/profond/strasbBfm/sophie/strasbBfm.n3" annotationUri="http://www.srcmf.org/annotations/strasbBfm#sophie/cp]strasbBfm_1439910317.16" cat="Circ" coord="--" dom="_RelNC_" headlemma="--" headpos="NOMpro" headword="Ludher" id="http://www.srcmf.org/annotations/strasbBfm#sophie/cp]strasbBfm_1439910317.16" type="nV" vlemma="--" vword="--">
+<edge idref="http://www.srcmf.org/editions/strasbBfm#w_strasbBfm_066" label="L"/>
+<edge idref="http://www.srcmf.org/annotations/strasbBfm#sophie/cp]strasbBfm_1439910327.77" label="R"/>
+</nt>
+<nt annotationFile="file:///home/tmr/svn/srcmf/annotations/trunk/analyse/correction/profond/strasbBfm/sophie/strasbBfm.n3" annotationUri="http://www.srcmf.org/annotations/strasbBfm#sophie/cp]strasbBfm_1439910327.77" cat="RelNC" coord="--" dom="--" headlemma="_o4_" headpos="PRE" headword="ab" id="http://www.srcmf.org/annotations/strasbBfm#sophie/cp]strasbBfm_1439910327.77" type="nV" vlemma="--" vword="--">
+<edge idref="http://www.srcmf.org/editions/strasbBfm#w_strasbBfm_065" label="L"/>
+</nt>
+</nonterminals>
+</graph>
+</s>
+<s id="strasbBfm_pb:13r_lb:27sophie/cp]strasbBfm_1439910437.94">
+<graph root="http://www.srcmf.org/annotations/strasbBfm#sophie/cp]strasbBfm_1439910437.94">
+<terminals>
+<t id="http://www.srcmf.org/annotations/strasbBfm#sophie/cp]strasbBfm_1439910519.52_fake" word="#" editionId="" editionNs="" editionUri="" form="--" lemma="--" pos="--" q="--"/>
+<t id="http://www.srcmf.org/editions/strasbBfm#w_strasbBfm_084" word="Si" editionId="w_strasbBfm_084" editionNs="http://www.srcmf.org/editions/strasbBfm#" editionUri="http://www.srcmf.org/editions/strasbBfm#w_strasbBfm_084" form="prose" lemma="_si_" pos="ADVgen" q="n"/>
+<t id="http://www.srcmf.org/editions/strasbBfm#w_strasbBfm_085" word="Lodhuvigs" editionId="w_strasbBfm_085" editionNs="http://www.srcmf.org/editions/strasbBfm#" editionUri="http://www.srcmf.org/editions/strasbBfm#w_strasbBfm_085" form="prose" lemma="--" pos="NOMpro" q="n"/>
+<t id="http://www.srcmf.org/editions/strasbBfm#w_strasbBfm_086" word="sagrament" editionId="w_strasbBfm_086" editionNs="http://www.srcmf.org/editions/strasbBfm#" editionUri="http://www.srcmf.org/editions/strasbBfm#w_strasbBfm_086" form="prose" lemma="--" pos="NOMcom" q="n"/>
+<t id="http://www.srcmf.org/editions/strasbBfm#w_strasbBfm_088" word="que" editionId="w_strasbBfm_088" editionNs="http://www.srcmf.org/editions/strasbBfm#" editionUri="http://www.srcmf.org/editions/strasbBfm#w_strasbBfm_088" form="prose" lemma="_que2_que3_que_" pos="PROrel" q="n"/>
+<t id="http://www.srcmf.org/editions/strasbBfm#w_strasbBfm_088_dupl" word="*" editionId="w_strasbBfm_088_dupl" editionNs="http://www.srcmf.org/editions/strasbBfm#" editionUri="http://www.srcmf.org/editions/strasbBfm#w_strasbBfm_088_dupl" form="prose" lemma="_que2_que3_que_" pos="PROrel" q="n"/>
+<t id="http://www.srcmf.org/editions/strasbBfm#w_strasbBfm_089" word="son" editionId="w_strasbBfm_089" editionNs="http://www.srcmf.org/editions/strasbBfm#" editionUri="http://www.srcmf.org/editions/strasbBfm#w_strasbBfm_089" form="prose" lemma="_son4_son_" pos="DETpos" q="n"/>
+<t id="http://www.srcmf.org/editions/strasbBfm#w_strasbBfm_090" word="fradre" editionId="w_strasbBfm_090" editionNs="http://www.srcmf.org/editions/strasbBfm#" editionUri="http://www.srcmf.org/editions/strasbBfm#w_strasbBfm_090" form="prose" lemma="_frere_" pos="NOMcom" q="n"/>
+<t id="http://www.srcmf.org/editions/strasbBfm#w_strasbBfm_091" word="Karlo" editionId="w_strasbBfm_091" editionNs="http://www.srcmf.org/editions/strasbBfm#" editionUri="http://www.srcmf.org/editions/strasbBfm#w_strasbBfm_091" form="prose" lemma="--" pos="NOMpro" q="n"/>
+<t id="http://www.srcmf.org/editions/strasbBfm#w_strasbBfm_092" word="jurat" editionId="w_strasbBfm_092" editionNs="http://www.srcmf.org/editions/strasbBfm#" editionUri="http://www.srcmf.org/editions/strasbBfm#w_strasbBfm_092" form="prose" lemma="_jurer_" pos="VERcjg" q="n"/>
+<t id="http://www.srcmf.org/editions/strasbBfm#w_strasbBfm_094" word="conservat" editionId="w_strasbBfm_094" editionNs="http://www.srcmf.org/editions/strasbBfm#" editionUri="http://www.srcmf.org/editions/strasbBfm#w_strasbBfm_094" form="prose" lemma="_conserver_" pos="VERcjg" q="n"/>
+<t id="http://www.srcmf.org/editions/strasbBfm#w_strasbBfm_096" word="et" editionId="w_strasbBfm_096" editionNs="http://www.srcmf.org/editions/strasbBfm#" editionUri="http://www.srcmf.org/editions/strasbBfm#w_strasbBfm_096" form="prose" lemma="_et_" pos="CONcoo" q="n"/>
+<t id="http://www.srcmf.org/editions/strasbBfm#w_strasbBfm_097" word="Karlus" editionId="w_strasbBfm_097" editionNs="http://www.srcmf.org/editions/strasbBfm#" editionUri="http://www.srcmf.org/editions/strasbBfm#w_strasbBfm_097" form="prose" lemma="--" pos="NOMpro" q="n"/>
+<t id="http://www.srcmf.org/editions/strasbBfm#w_strasbBfm_099" word="meos" editionId="w_strasbBfm_099" editionNs="http://www.srcmf.org/editions/strasbBfm#" editionUri="http://www.srcmf.org/editions/strasbBfm#w_strasbBfm_099" form="prose" lemma="--" pos="DETpos" q="n"/>
+<t id="http://www.srcmf.org/editions/strasbBfm#w_strasbBfm_100" word="sendra" editionId="w_strasbBfm_100" editionNs="http://www.srcmf.org/editions/strasbBfm#" editionUri="http://www.srcmf.org/editions/strasbBfm#w_strasbBfm_100" form="prose" lemma="--" pos="NOMcom" q="n"/>
+<t id="http://www.srcmf.org/editions/strasbBfm#w_strasbBfm_102" word="de" editionId="w_strasbBfm_102" editionNs="http://www.srcmf.org/editions/strasbBfm#" editionUri="http://www.srcmf.org/editions/strasbBfm#w_strasbBfm_102" form="prose" lemma="_de_" pos="PRE" q="n"/>
+<t id="http://www.srcmf.org/editions/strasbBfm#w_strasbBfm_103" word="suo" editionId="w_strasbBfm_103" editionNs="http://www.srcmf.org/editions/strasbBfm#" editionUri="http://www.srcmf.org/editions/strasbBfm#w_strasbBfm_103" form="prose" lemma="--" pos="DETpos" q="n"/>
+<t id="http://www.srcmf.org/editions/strasbBfm#w_strasbBfm_104" word="part" editionId="w_strasbBfm_104" editionNs="http://www.srcmf.org/editions/strasbBfm#" editionUri="http://www.srcmf.org/editions/strasbBfm#w_strasbBfm_104" form="prose" lemma="_paroir_partir_" pos="NOMcom" q="n"/>
+<t id="http://www.srcmf.org/editions/strasbBfm#w_strasbBfm_105" word="non" editionId="w_strasbBfm_105" editionNs="http://www.srcmf.org/editions/strasbBfm#" editionUri="http://www.srcmf.org/editions/strasbBfm#w_strasbBfm_105" form="prose" lemma="_ne1_" pos="ADVneg" q="n"/>
+<t id="http://www.srcmf.org/editions/strasbBfm#w_strasbBfm_106" word="los" editionId="w_strasbBfm_106" editionNs="http://www.srcmf.org/editions/strasbBfm#" editionUri="http://www.srcmf.org/editions/strasbBfm#w_strasbBfm_106" form="prose" lemma="_le_" pos="PROper.PROper" q="n"/>
+<t id="http://www.srcmf.org/editions/strasbBfm#w_strasbBfm_106_dupl" word="*" editionId="w_strasbBfm_106_dupl" editionNs="http://www.srcmf.org/editions/strasbBfm#" editionUri="http://www.srcmf.org/editions/strasbBfm#w_strasbBfm_106_dupl" form="prose" lemma="_le_" pos="PROper.PROper" q="n"/>
+<t id="http://www.srcmf.org/editions/strasbBfm#w_strasbBfm_107" word="tanit" editionId="w_strasbBfm_107" editionNs="http://www.srcmf.org/editions/strasbBfm#" editionUri="http://www.srcmf.org/editions/strasbBfm#w_strasbBfm_107" form="prose" lemma="--" pos="VERcjg" q="n"/>
+<t id="http://www.srcmf.org/editions/strasbBfm#w_strasbBfm_109" word="si" editionId="w_strasbBfm_109" editionNs="http://www.srcmf.org/editions/strasbBfm#" editionUri="http://www.srcmf.org/editions/strasbBfm#w_strasbBfm_109" form="prose" lemma="_si_" pos="ADVgen" q="n"/>
+<t id="http://www.srcmf.org/editions/strasbBfm#w_strasbBfm_110" word="jo" editionId="w_strasbBfm_110" editionNs="http://www.srcmf.org/editions/strasbBfm#" editionUri="http://www.srcmf.org/editions/strasbBfm#w_strasbBfm_110" form="prose" lemma="_je_" pos="PROper" q="n"/>
+<t id="http://www.srcmf.org/editions/strasbBfm#w_strasbBfm_111" word="returnar" editionId="w_strasbBfm_111" editionNs="http://www.srcmf.org/editions/strasbBfm#" editionUri="http://www.srcmf.org/editions/strasbBfm#w_strasbBfm_111" form="prose" lemma="--" pos="VERinf" q="n"/>
+<t id="http://www.srcmf.org/editions/strasbBfm#w_strasbBfm_112" word="non" editionId="w_strasbBfm_112" editionNs="http://www.srcmf.org/editions/strasbBfm#" editionUri="http://www.srcmf.org/editions/strasbBfm#w_strasbBfm_112" form="prose" lemma="_ne1_" pos="ADVneg" q="n"/>
+<t id="http://www.srcmf.org/editions/strasbBfm#w_strasbBfm_113" word="l'" editionId="w_strasbBfm_113" editionNs="http://www.srcmf.org/editions/strasbBfm#" editionUri="http://www.srcmf.org/editions/strasbBfm#w_strasbBfm_113" form="prose" lemma="_il_" pos="PROper" q="n"/>
+<t id="http://www.srcmf.org/editions/strasbBfm#w_strasbBfm_114" word="int" editionId="w_strasbBfm_114" editionNs="http://www.srcmf.org/editions/strasbBfm#" editionUri="http://www.srcmf.org/editions/strasbBfm#w_strasbBfm_114" form="prose" lemma="--" pos="PROadv" q="n"/>
+<t id="http://www.srcmf.org/editions/strasbBfm#w_strasbBfm_115" word="pois" editionId="w_strasbBfm_115" editionNs="http://www.srcmf.org/editions/strasbBfm#" editionUri="http://www.srcmf.org/editions/strasbBfm#w_strasbBfm_115" form="prose" lemma="_puis_" pos="VERcjg" q="n"/>
+<t id="http://www.srcmf.org/annotations/strasbBfm#sophie/cp]strasbBfm_1439910494.11_fake" word="#" editionId="" editionNs="" editionUri="" form="--" lemma="--" pos="--" q="--"/>
+<t id="http://www.srcmf.org/editions/strasbBfm#w_strasbBfm_117" word="ne" editionId="w_strasbBfm_117" editionNs="http://www.srcmf.org/editions/strasbBfm#" editionUri="http://www.srcmf.org/editions/strasbBfm#w_strasbBfm_117" form="prose" lemma="_ni_" pos="CONcoo" q="n"/>
+<t id="http://www.srcmf.org/editions/strasbBfm#w_strasbBfm_118" word="jo" editionId="w_strasbBfm_118" editionNs="http://www.srcmf.org/editions/strasbBfm#" editionUri="http://www.srcmf.org/editions/strasbBfm#w_strasbBfm_118" form="prose" lemma="_je_" pos="PROper" q="n"/>
+<t id="http://www.srcmf.org/editions/strasbBfm#w_strasbBfm_119" word="ne" editionId="w_strasbBfm_119" editionNs="http://www.srcmf.org/editions/strasbBfm#" editionUri="http://www.srcmf.org/editions/strasbBfm#w_strasbBfm_119" form="prose" lemma="_en2_ne_" pos="CONcoo" q="n"/>
+<t id="http://www.srcmf.org/editions/strasbBfm#w_strasbBfm_120" word="neuls" editionId="w_strasbBfm_120" editionNs="http://www.srcmf.org/editions/strasbBfm#" editionUri="http://www.srcmf.org/editions/strasbBfm#w_strasbBfm_120" form="prose" lemma="--" pos="PROind" q="n"/>
+<t id="http://www.srcmf.org/editions/strasbBfm#w_strasbBfm_121" word="cui" editionId="w_strasbBfm_121" editionNs="http://www.srcmf.org/editions/strasbBfm#" editionUri="http://www.srcmf.org/editions/strasbBfm#w_strasbBfm_121" form="prose" lemma="_cui_qui_" pos="PROrel" q="n"/>
+<t id="http://www.srcmf.org/editions/strasbBfm#w_strasbBfm_121_dupl" word="*" editionId="w_strasbBfm_121_dupl" editionNs="http://www.srcmf.org/editions/strasbBfm#" editionUri="http://www.srcmf.org/editions/strasbBfm#w_strasbBfm_121_dupl" form="prose" lemma="_cui_qui_" pos="PROrel" q="n"/>
+<t id="http://www.srcmf.org/editions/strasbBfm#w_strasbBfm_122" word="eo" editionId="w_strasbBfm_122" editionNs="http://www.srcmf.org/editions/strasbBfm#" editionUri="http://www.srcmf.org/editions/strasbBfm#w_strasbBfm_122" form="prose" lemma="--" pos="PROper" q="n"/>
+<t id="http://www.srcmf.org/editions/strasbBfm#w_strasbBfm_123" word="returnar" editionId="w_strasbBfm_123" editionNs="http://www.srcmf.org/editions/strasbBfm#" editionUri="http://www.srcmf.org/editions/strasbBfm#w_strasbBfm_123" form="prose" lemma="--" pos="VERinf" q="n"/>
+<t id="http://www.srcmf.org/editions/strasbBfm#w_strasbBfm_124" word="int" editionId="w_strasbBfm_124" editionNs="http://www.srcmf.org/editions/strasbBfm#" editionUri="http://www.srcmf.org/editions/strasbBfm#w_strasbBfm_124" form="prose" lemma="--" pos="PROadv" q="n"/>
+<t id="http://www.srcmf.org/editions/strasbBfm#w_strasbBfm_125" word="pois" editionId="w_strasbBfm_125" editionNs="http://www.srcmf.org/editions/strasbBfm#" editionUri="http://www.srcmf.org/editions/strasbBfm#w_strasbBfm_125" form="prose" lemma="_puis_" pos="VERcjg" q="n"/>
+<t id="http://www.srcmf.org/editions/strasbBfm#w_strasbBfm_127" word="in" editionId="w_strasbBfm_127" editionNs="http://www.srcmf.org/editions/strasbBfm#" editionUri="http://www.srcmf.org/editions/strasbBfm#w_strasbBfm_127" form="prose" lemma="_en1_" pos="PRE" q="n"/>
+<t id="http://www.srcmf.org/editions/strasbBfm#w_strasbBfm_128" word="nulla" editionId="w_strasbBfm_128" editionNs="http://www.srcmf.org/editions/strasbBfm#" editionUri="http://www.srcmf.org/editions/strasbBfm#w_strasbBfm_128" form="prose" lemma="_nul_" pos="DETind" q="n"/>
+<t id="http://www.srcmf.org/editions/strasbBfm#w_strasbBfm_129" word="aiudha" editionId="w_strasbBfm_129" editionNs="http://www.srcmf.org/editions/strasbBfm#" editionUri="http://www.srcmf.org/editions/strasbBfm#w_strasbBfm_129" form="prose" lemma="_aiue_" pos="NOMcom" q="n"/>
+<t id="http://www.srcmf.org/editions/strasbBfm#w_strasbBfm_130" word="contra" editionId="w_strasbBfm_130" editionNs="http://www.srcmf.org/editions/strasbBfm#" editionUri="http://www.srcmf.org/editions/strasbBfm#w_strasbBfm_130" form="prose" lemma="_contre_" pos="PRE" q="n"/>
+<t id="http://www.srcmf.org/editions/strasbBfm#w_strasbBfm_131" word="Lodhuuig" editionId="w_strasbBfm_131" editionNs="http://www.srcmf.org/editions/strasbBfm#" editionUri="http://www.srcmf.org/editions/strasbBfm#w_strasbBfm_131" form="prose" lemma="--" pos="NOMpro" q="n"/>
+<t id="http://www.srcmf.org/editions/strasbBfm#w_strasbBfm_132" word="nun" editionId="w_strasbBfm_132" editionNs="http://www.srcmf.org/editions/strasbBfm#" editionUri="http://www.srcmf.org/editions/strasbBfm#w_strasbBfm_132" form="prose" lemma="_ne1_" pos="ADVneg" q="n"/>
+<t id="http://www.srcmf.org/editions/strasbBfm#w_strasbBfm_133" word="li" editionId="w_strasbBfm_133" editionNs="http://www.srcmf.org/editions/strasbBfm#" editionUri="http://www.srcmf.org/editions/strasbBfm#w_strasbBfm_133" form="prose" lemma="_ele_il_" pos="PROper" q="n"/>
+<t id="http://www.srcmf.org/editions/strasbBfm#w_strasbBfm_134" word="ju" editionId="w_strasbBfm_134" editionNs="http://www.srcmf.org/editions/strasbBfm#" editionUri="http://www.srcmf.org/editions/strasbBfm#w_strasbBfm_134" form="prose" lemma="_je_" pos="PROadv" q="n"/>
+<t id="http://www.srcmf.org/editions/strasbBfm#w_strasbBfm_135" word="er" editionId="w_strasbBfm_135" editionNs="http://www.srcmf.org/editions/strasbBfm#" editionUri="http://www.srcmf.org/editions/strasbBfm#w_strasbBfm_135" form="prose" lemma="_estre_" pos="VERcjg" q="n"/>
+</terminals>
+<nonterminals>
+<nt annotationFile="file:///home/tmr/svn/srcmf/annotations/trunk/analyse/correction/profond/strasbBfm/sophie/strasbBfm.n3" annotationUri="http://www.srcmf.org/annotations/strasbBfm#sophie/cp]strasbBfm_1439910437.94" cat="Snt" coord="--" dom="_Circ_Circ_Circ_Circ_Cmpl_Cmpl_Ng_SjPer_SjPer_" headlemma="_estre_" headpos="VERcjg" headword="er" id="http://www.srcmf.org/annotations/strasbBfm#sophie/cp]strasbBfm_1439910437.94" type="VFin" vlemma="_estre_" vword="er">
+<edge idref="http://www.srcmf.org/annotations/strasbBfm#sophie/cp]strasbBfm_1439910524.87" label="D"/>
+<edge idref="http://www.srcmf.org/annotations/strasbBfm#sophie/cp]strasbBfm_1439910527.24" label="D"/>
+<edge idref="http://www.srcmf.org/annotations/strasbBfm#sophie/cp]strasbBfm_1439910468.37" label="D"/>
+<edge idref="http://www.srcmf.org/annotations/strasbBfm#sophie/cp]strasbBfm_1439910496.39" label="D"/>
+<edge idref="http://www.srcmf.org/annotations/strasbBfm#sophie/cp]strasbBfm_1439910479.36" label="D"/>
+<edge idref="http://www.srcmf.org/annotations/strasbBfm#sophie/cp]strasbBfm_1439910470.75" label="D"/>
+<edge idref="http://www.srcmf.org/annotations/strasbBfm#sophie/cp]strasbBfm_1439910499.0" label="D"/>
+<edge idref="http://www.srcmf.org/annotations/strasbBfm#sophie/cp]strasbBfm_1439910510.47" label="D"/>
+<edge idref="http://www.srcmf.org/annotations/strasbBfm#sophie/cp]strasbBfm_1439910464.91" label="D"/>
+<edge idref="http://www.srcmf.org/editions/strasbBfm#w_strasbBfm_135" label="L"/>
+</nt>
+<nt annotationFile="file:///home/tmr/svn/srcmf/annotations/trunk/analyse/correction/profond/strasbBfm/sophie/strasbBfm.n3" annotationUri="http://www.srcmf.org/annotations/strasbBfm#sophie/cp]strasbBfm_1439910524.87" cat="Circ" coord="y" dom="_Obj_RelNC_SjPer_" headlemma="_conserver_" headpos="VERcjg" headword="conservat" id="http://www.srcmf.org/annotations/strasbBfm#sophie/cp]strasbBfm_1439910524.87" type="VFin" vlemma="_conserver_" vword="conservat">
+<edge idref="http://www.srcmf.org/annotations/strasbBfm#sophie/cp]strasbBfm_1439910657.6" label="R"/>
+<edge idref="http://www.srcmf.org/annotations/strasbBfm#sophie/cp]strasbBfm_1439910663.88" label="D"/>
+<edge idref="http://www.srcmf.org/annotations/strasbBfm#sophie/cp]strasbBfm_1439910660.81" label="D"/>
+<edge idref="http://www.srcmf.org/editions/strasbBfm#w_strasbBfm_094" label="L"/>
+</nt>
+<nt annotationFile="file:///home/tmr/svn/srcmf/annotations/trunk/analyse/correction/profond/strasbBfm/sophie/strasbBfm.n3" annotationUri="http://www.srcmf.org/annotations/strasbBfm#sophie/cp]strasbBfm_1439910657.6" cat="RelNC" coord="--" dom="--" headlemma="_si_" headpos="ADVgen" headword="Si" id="http://www.srcmf.org/annotations/strasbBfm#sophie/cp]strasbBfm_1439910657.6" type="nV" vlemma="--" vword="--">
+<edge idref="http://www.srcmf.org/editions/strasbBfm#w_strasbBfm_084" label="L"/>
+</nt>
+<nt annotationFile="file:///home/tmr/svn/srcmf/annotations/trunk/analyse/correction/profond/strasbBfm/sophie/strasbBfm.n3" annotationUri="http://www.srcmf.org/annotations/strasbBfm#sophie/cp]strasbBfm_1439910663.88" cat="Obj" coord="--" dom="_ModA_" headlemma="--" headpos="NOMcom" headword="sagrament" id="http://www.srcmf.org/annotations/strasbBfm#sophie/cp]strasbBfm_1439910663.88" type="nV" vlemma="--" vword="--">
+<edge idref="http://www.srcmf.org/editions/strasbBfm#w_strasbBfm_086" label="L"/>
+<edge idref="http://www.srcmf.org/annotations/strasbBfm#sophie/cp]strasbBfm_1439910670.15" label="D"/>
+</nt>
+<nt annotationFile="file:///home/tmr/svn/srcmf/annotations/trunk/analyse/correction/profond/strasbBfm/sophie/strasbBfm.n3" annotationUri="http://www.srcmf.org/annotations/strasbBfm#sophie/cp]strasbBfm_1439910670.15" cat="ModA" coord="--" dom="_Cmpl_Obj_RelNC_" headlemma="_jurer_" headpos="VERcjg" headword="jurat" id="http://www.srcmf.org/annotations/strasbBfm#sophie/cp]strasbBfm_1439910670.15" type="VFin" vlemma="_jurer_" vword="jurat">
+<edge idref="http://www.srcmf.org/annotations/strasbBfm#sophie/cp]strasbBfm_1439910679.8" label="R"/>
+<edge idref="http://www.srcmf.org/annotations/strasbBfm#sophie/cp]strasbBfm_1439910681.78" label="D"/>
+<edge idref="http://www.srcmf.org/annotations/strasbBfm#sophie/cp]strasbBfm_1439910685.14" label="D"/>
+<edge idref="http://www.srcmf.org/editions/strasbBfm#w_strasbBfm_092" label="L"/>
+</nt>
+<nt annotationFile="file:///home/tmr/svn/srcmf/annotations/trunk/analyse/correction/profond/strasbBfm/sophie/strasbBfm.n3" annotationUri="http://www.srcmf.org/annotations/strasbBfm#sophie/cp]strasbBfm_1439910679.8" cat="RelNC" coord="--" dom="--" headlemma="_que2_que3_que_" headpos="PROrel" headword="que" id="http://www.srcmf.org/annotations/strasbBfm#sophie/cp]strasbBfm_1439910679.8" type="nV" vlemma="--" vword="--">
+<edge idref="http://www.srcmf.org/editions/strasbBfm#w_strasbBfm_088" label="L"/>
+</nt>
+<nt annotationFile="file:///home/tmr/svn/srcmf/annotations/trunk/analyse/correction/profond/strasbBfm/sophie/strasbBfm.n3" annotationUri="http://www.srcmf.org/annotations/strasbBfm#sophie/cp]strasbBfm_1439910681.78" cat="Obj" coord="--" dom="--" headlemma="_que2_que3_que_" headpos="PROrel" headword="que" id="http://www.srcmf.org/annotations/strasbBfm#sophie/cp]strasbBfm_1439910681.78" type="nV" vlemma="--" vword="--">
+<edge idref="http://www.srcmf.org/editions/strasbBfm#w_strasbBfm_088_dupl" label="L"/>
+<secedge idref="http://www.srcmf.org/editions/strasbBfm#w_strasbBfm_088" label="dupl"/>
+</nt>
+<nt annotationFile="file:///home/tmr/svn/srcmf/annotations/trunk/analyse/correction/profond/strasbBfm/sophie/strasbBfm.n3" annotationUri="http://www.srcmf.org/annotations/strasbBfm#sophie/cp]strasbBfm_1439910685.14" cat="Cmpl" coord="--" dom="_ModA_ModA_" headlemma="_frere_" headpos="NOMcom" headword="fradre" id="http://www.srcmf.org/annotations/strasbBfm#sophie/cp]strasbBfm_1439910685.14" type="nV" vlemma="--" vword="--">
+<edge idref="http://www.srcmf.org/editions/strasbBfm#w_strasbBfm_090" label="L"/>
+<edge idref="http://www.srcmf.org/annotations/strasbBfm#sophie/cp]strasbBfm_1439910686.97" label="D"/>
+<edge idref="http://www.srcmf.org/annotations/strasbBfm#sophie/cp]strasbBfm_1439910689.07" label="D"/>
+</nt>
+<nt annotationFile="file:///home/tmr/svn/srcmf/annotations/trunk/analyse/correction/profond/strasbBfm/sophie/strasbBfm.n3" annotationUri="http://www.srcmf.org/annotations/strasbBfm#sophie/cp]strasbBfm_1439910686.97" cat="ModA" coord="--" dom="--" headlemma="_son4_son_" headpos="DETpos" headword="son" id="http://www.srcmf.org/annotations/strasbBfm#sophie/cp]strasbBfm_1439910686.97" type="nV" vlemma="--" vword="--">
+<edge idref="http://www.srcmf.org/editions/strasbBfm#w_strasbBfm_089" label="L"/>
+</nt>
+<nt annotationFile="file:///home/tmr/svn/srcmf/annotations/trunk/analyse/correction/profond/strasbBfm/sophie/strasbBfm.n3" annotationUri="http://www.srcmf.org/annotations/strasbBfm#sophie/cp]strasbBfm_1439910689.07" cat="ModA" coord="--" dom="--" headlemma="--" headpos="NOMpro" headword="Karlo" id="http://www.srcmf.org/annotations/strasbBfm#sophie/cp]strasbBfm_1439910689.07" type="nV" vlemma="--" vword="--">
+<edge idref="http://www.srcmf.org/editions/strasbBfm#w_strasbBfm_091" label="L"/>
+</nt>
+<nt annotationFile="file:///home/tmr/svn/srcmf/annotations/trunk/analyse/correction/profond/strasbBfm/sophie/strasbBfm.n3" annotationUri="http://www.srcmf.org/annotations/strasbBfm#sophie/cp]strasbBfm_1439910660.81" cat="SjPer" coord="--" dom="--" headlemma="--" headpos="NOMpro" headword="Lodhuvigs" id="http://www.srcmf.org/annotations/strasbBfm#sophie/cp]strasbBfm_1439910660.81" type="nV" vlemma="--" vword="--">
+<edge idref="http://www.srcmf.org/editions/strasbBfm#w_strasbBfm_085" label="L"/>
+</nt>
+<nt annotationFile="file:///home/tmr/svn/srcmf/annotations/trunk/analyse/correction/profond/strasbBfm/sophie/strasbBfm.n3" annotationUri="http://www.srcmf.org/annotations/strasbBfm#sophie/cp]strasbBfm_1439910527.24" cat="Circ" coord="y" dom="_Circ_Ng_Obj_RelC_Rfc_SjPer_" headlemma="--" headpos="VERcjg" headword="tanit" id="http://www.srcmf.org/annotations/strasbBfm#sophie/cp]strasbBfm_1439910527.24" type="VFin" vlemma="--" vword="tanit">
+<edge idref="http://www.srcmf.org/annotations/strasbBfm#sophie/cp]strasbBfm_1439910705.51" label="R"/>
+<edge idref="http://www.srcmf.org/annotations/strasbBfm#sophie/cp]strasbBfm_1439910724.65" label="D"/>
+<edge idref="http://www.srcmf.org/annotations/strasbBfm#sophie/cp]strasbBfm_1439910726.61" label="D"/>
+<edge idref="http://www.srcmf.org/annotations/strasbBfm#sophie/cp]strasbBfm_1439910702.07" label="D"/>
+<edge idref="http://www.srcmf.org/annotations/strasbBfm#sophie/cp]strasbBfm_1439910712.57" label="D"/>
+<edge idref="http://www.srcmf.org/annotations/strasbBfm#sophie/cp]strasbBfm_1439910718.0" label="D"/>
+<edge idref="http://www.srcmf.org/editions/strasbBfm#w_strasbBfm_107" label="L"/>
+</nt>
+<nt annotationFile="file:///home/tmr/svn/srcmf/annotations/trunk/analyse/correction/profond/strasbBfm/sophie/strasbBfm.n3" annotationUri="http://www.srcmf.org/annotations/strasbBfm#sophie/cp]strasbBfm_1439910705.51" cat="RelC" coord="--" dom="--" headlemma="_et_" headpos="CONcoo" headword="et" id="http://www.srcmf.org/annotations/strasbBfm#sophie/cp]strasbBfm_1439910705.51" type="nV" vlemma="--" vword="--">
+<edge idref="http://www.srcmf.org/editions/strasbBfm#w_strasbBfm_096" label="L"/>
+</nt>
+<nt annotationFile="file:///home/tmr/svn/srcmf/annotations/trunk/analyse/correction/profond/strasbBfm/sophie/strasbBfm.n3" annotationUri="http://www.srcmf.org/annotations/strasbBfm#sophie/cp]strasbBfm_1439910724.65" cat="Obj" coord="--" dom="--" headlemma="_le_" headpos="PROper.PROper" headword="los" id="http://www.srcmf.org/annotations/strasbBfm#sophie/cp]strasbBfm_1439910724.65" type="nV" vlemma="--" vword="--">
+<edge idref="http://www.srcmf.org/editions/strasbBfm#w_strasbBfm_106" label="L"/>
+</nt>
+<nt annotationFile="file:///home/tmr/svn/srcmf/annotations/trunk/analyse/correction/profond/strasbBfm/sophie/strasbBfm.n3" annotationUri="http://www.srcmf.org/annotations/strasbBfm#sophie/cp]strasbBfm_1439910726.61" cat="Rfc" coord="--" dom="--" headlemma="_le_" headpos="PROper.PROper" headword="los" id="http://www.srcmf.org/annotations/strasbBfm#sophie/cp]strasbBfm_1439910726.61" type="nV" vlemma="--" vword="--">
+<edge idref="http://www.srcmf.org/editions/strasbBfm#w_strasbBfm_106_dupl" label="L"/>
+<secedge idref="http://www.srcmf.org/editions/strasbBfm#w_strasbBfm_106" label="dupl"/>
+</nt>
+<nt annotationFile="file:///home/tmr/svn/srcmf/annotations/trunk/analyse/correction/profond/strasbBfm/sophie/strasbBfm.n3" annotationUri="http://www.srcmf.org/annotations/strasbBfm#sophie/cp]strasbBfm_1439910702.07" cat="Ng" coord="--" dom="--" headlemma="_ne1_" headpos="ADVneg" headword="non" id="http://www.srcmf.org/annotations/strasbBfm#sophie/cp]strasbBfm_1439910702.07" type="nV" vlemma="--" vword="--">
+<edge idref="http://www.srcmf.org/editions/strasbBfm#w_strasbBfm_105" label="L"/>
+</nt>
+<nt annotationFile="file:///home/tmr/svn/srcmf/annotations/trunk/analyse/correction/profond/strasbBfm/sophie/strasbBfm.n3" annotationUri="http://www.srcmf.org/annotations/strasbBfm#sophie/cp]strasbBfm_1439910712.57" cat="SjPer" coord="--" dom="_ModA_" headlemma="--" headpos="NOMpro" headword="Karlus" id="http://www.srcmf.org/annotations/strasbBfm#sophie/cp]strasbBfm_1439910712.57" type="nV" vlemma="--" vword="--">
+<edge idref="http://www.srcmf.org/editions/strasbBfm#w_strasbBfm_097" label="L"/>
+<edge idref="http://www.srcmf.org/annotations/strasbBfm#sophie/cp]strasbBfm_1439910736.02" label="D"/>
+</nt>
+<nt annotationFile="file:///home/tmr/svn/srcmf/annotations/trunk/analyse/correction/profond/strasbBfm/sophie/strasbBfm.n3" annotationUri="http://www.srcmf.org/annotations/strasbBfm#sophie/cp]strasbBfm_1439910736.02" cat="ModA" coord="--" dom="_ModA_" headlemma="--" headpos="NOMcom" headword="sendra" id="http://www.srcmf.org/annotations/strasbBfm#sophie/cp]strasbBfm_1439910736.02" type="nV" vlemma="--" vword="--">
+<edge idref="http://www.srcmf.org/editions/strasbBfm#w_strasbBfm_100" label="L"/>
+<edge idref="http://www.srcmf.org/annotations/strasbBfm#sophie/cp]strasbBfm_1439910737.97" label="D"/>
+</nt>
+<nt annotationFile="file:///home/tmr/svn/srcmf/annotations/trunk/analyse/correction/profond/strasbBfm/sophie/strasbBfm.n3" annotationUri="http://www.srcmf.org/annotations/strasbBfm#sophie/cp]strasbBfm_1439910737.97" cat="ModA" coord="--" dom="--" headlemma="--" headpos="DETpos" headword="meos" id="http://www.srcmf.org/annotations/strasbBfm#sophie/cp]strasbBfm_1439910737.97" type="nV" vlemma="--" vword="--">
+<edge idref="http://www.srcmf.org/editions/strasbBfm#w_strasbBfm_099" label="L"/>
+</nt>
+<nt annotationFile="file:///home/tmr/svn/srcmf/annotations/trunk/analyse/correction/profond/strasbBfm/sophie/strasbBfm.n3" annotationUri="http://www.srcmf.org/annotations/strasbBfm#sophie/cp]strasbBfm_1439910718.0" cat="Circ" coord="--" dom="_ModA_RelNC_" headlemma="_paroir_partir_" headpos="NOMcom" headword="part" id="http://www.srcmf.org/annotations/strasbBfm#sophie/cp]strasbBfm_1439910718.0" type="nV" vlemma="--" vword="--">
+<edge idref="http://www.srcmf.org/editions/strasbBfm#w_strasbBfm_104" label="L"/>
+<edge idref="http://www.srcmf.org/annotations/strasbBfm#sophie/cp]strasbBfm_1439910732.16" label="D"/>
+<edge idref="http://www.srcmf.org/annotations/strasbBfm#sophie/cp]strasbBfm_1439910730.56" label="R"/>
+</nt>
+<nt annotationFile="file:///home/tmr/svn/srcmf/annotations/trunk/analyse/correction/profond/strasbBfm/sophie/strasbBfm.n3" annotationUri="http://www.srcmf.org/annotations/strasbBfm#sophie/cp]strasbBfm_1439910732.16" cat="ModA" coord="--" dom="--" headlemma="--" headpos="DETpos" headword="suo" id="http://www.srcmf.org/annotations/strasbBfm#sophie/cp]strasbBfm_1439910732.16" type="nV" vlemma="--" vword="--">
+<edge idref="http://www.srcmf.org/editions/strasbBfm#w_strasbBfm_103" label="L"/>
+</nt>
+<nt annotationFile="file:///home/tmr/svn/srcmf/annotations/trunk/analyse/correction/profond/strasbBfm/sophie/strasbBfm.n3" annotationUri="http://www.srcmf.org/annotations/strasbBfm#sophie/cp]strasbBfm_1439910730.56" cat="RelNC" coord="--" dom="--" headlemma="_de_" headpos="PRE" headword="de" id="http://www.srcmf.org/annotations/strasbBfm#sophie/cp]strasbBfm_1439910730.56" type="nV" vlemma="--" vword="--">
+<edge idref="http://www.srcmf.org/editions/strasbBfm#w_strasbBfm_102" label="L"/>
+</nt>
+<nt annotationFile="file:///home/tmr/svn/srcmf/annotations/trunk/analyse/correction/profond/strasbBfm/sophie/strasbBfm.n3" annotationUri="http://www.srcmf.org/annotations/strasbBfm#sophie/cp]strasbBfm_1439910468.37" cat="Circ" coord="--" dom="--" headlemma="_je_" headpos="PROadv" headword="ju" id="http://www.srcmf.org/annotations/strasbBfm#sophie/cp]strasbBfm_1439910468.37" type="nV" vlemma="--" vword="--">
+<edge idref="http://www.srcmf.org/editions/strasbBfm#w_strasbBfm_134" label="L"/>
+</nt>
+<nt annotationFile="file:///home/tmr/svn/srcmf/annotations/trunk/analyse/correction/profond/strasbBfm/sophie/strasbBfm.n3" annotationUri="http://www.srcmf.org/annotations/strasbBfm#sophie/cp]strasbBfm_1439910496.39" cat="SjPer" coord="y" dom="_RelC_" headlemma="_je_" headpos="PROper" headword="jo" id="http://www.srcmf.org/annotations/strasbBfm#sophie/cp]strasbBfm_1439910496.39" type="nV" vlemma="--" vword="--">
+<edge idref="http://www.srcmf.org/editions/strasbBfm#w_strasbBfm_118" label="L"/>
+<edge idref="http://www.srcmf.org/annotations/strasbBfm#sophie/cp]strasbBfm_1439910572.45" label="R"/>
+</nt>
+<nt annotationFile="file:///home/tmr/svn/srcmf/annotations/trunk/analyse/correction/profond/strasbBfm/sophie/strasbBfm.n3" annotationUri="http://www.srcmf.org/annotations/strasbBfm#sophie/cp]strasbBfm_1439910572.45" cat="RelC" coord="--" dom="--" headlemma="_ni_" headpos="CONcoo" headword="ne" id="http://www.srcmf.org/annotations/strasbBfm#sophie/cp]strasbBfm_1439910572.45" type="nV" vlemma="--" vword="--">
+<edge idref="http://www.srcmf.org/editions/strasbBfm#w_strasbBfm_117" label="L"/>
+</nt>
+<nt annotationFile="file:///home/tmr/svn/srcmf/annotations/trunk/analyse/correction/profond/strasbBfm/sophie/strasbBfm.n3" annotationUri="http://www.srcmf.org/annotations/strasbBfm#sophie/cp]strasbBfm_1439910479.36" cat="Cmpl" coord="--" dom="_ModA_ModA_RelNC_" headlemma="_aiue_" headpos="NOMcom" headword="aiudha" id="http://www.srcmf.org/annotations/strasbBfm#sophie/cp]strasbBfm_1439910479.36" type="nV" vlemma="--" vword="--">
+<edge idref="http://www.srcmf.org/editions/strasbBfm#w_strasbBfm_129" label="L"/>
+<edge idref="http://www.srcmf.org/annotations/strasbBfm#sophie/cp]strasbBfm_1439910540.39" label="D"/>
+<edge idref="http://www.srcmf.org/annotations/strasbBfm#sophie/cp]strasbBfm_1439910536.88" label="D"/>
+<edge idref="http://www.srcmf.org/annotations/strasbBfm#sophie/cp]strasbBfm_1439910535.2" label="R"/>
+</nt>
+<nt annotationFile="file:///home/tmr/svn/srcmf/annotations/trunk/analyse/correction/profond/strasbBfm/sophie/strasbBfm.n3" annotationUri="http://www.srcmf.org/annotations/strasbBfm#sophie/cp]strasbBfm_1439910540.39" cat="ModA" coord="--" dom="_RelNC_" headlemma="--" headpos="NOMpro" headword="Lodhuuig" id="http://www.srcmf.org/annotations/strasbBfm#sophie/cp]strasbBfm_1439910540.39" type="nV" vlemma="--" vword="--">
+<edge idref="http://www.srcmf.org/editions/strasbBfm#w_strasbBfm_131" label="L"/>
+<edge idref="http://www.srcmf.org/annotations/strasbBfm#sophie/cp]strasbBfm_1439910542.39" label="R"/>
+</nt>
+<nt annotationFile="file:///home/tmr/svn/srcmf/annotations/trunk/analyse/correction/profond/strasbBfm/sophie/strasbBfm.n3" annotationUri="http://www.srcmf.org/annotations/strasbBfm#sophie/cp]strasbBfm_1439910542.39" cat="RelNC" coord="--" dom="--" headlemma="_contre_" headpos="PRE" headword="contra" id="http://www.srcmf.org/annotations/strasbBfm#sophie/cp]strasbBfm_1439910542.39" type="nV" vlemma="--" vword="--">
+<edge idref="http://www.srcmf.org/editions/strasbBfm#w_strasbBfm_130" label="L"/>
+</nt>
+<nt annotationFile="file:///home/tmr/svn/srcmf/annotations/trunk/analyse/correction/profond/strasbBfm/sophie/strasbBfm.n3" annotationUri="http://www.srcmf.org/annotations/strasbBfm#sophie/cp]strasbBfm_1439910536.88" cat="ModA" coord="--" dom="--" headlemma="_nul_" headpos="DETind" headword="nulla" id="http://www.srcmf.org/annotations/strasbBfm#sophie/cp]strasbBfm_1439910536.88" type="nV" vlemma="--" vword="--">
+<edge idref="http://www.srcmf.org/editions/strasbBfm#w_strasbBfm_128" label="L"/>
+</nt>
+<nt annotationFile="file:///home/tmr/svn/srcmf/annotations/trunk/analyse/correction/profond/strasbBfm/sophie/strasbBfm.n3" annotationUri="http://www.srcmf.org/annotations/strasbBfm#sophie/cp]strasbBfm_1439910535.2" cat="RelNC" coord="--" dom="--" headlemma="_en1_" headpos="PRE" headword="in" id="http://www.srcmf.org/annotations/strasbBfm#sophie/cp]strasbBfm_1439910535.2" type="nV" vlemma="--" vword="--">
+<edge idref="http://www.srcmf.org/editions/strasbBfm#w_strasbBfm_127" label="L"/>
+</nt>
+<nt annotationFile="file:///home/tmr/svn/srcmf/annotations/trunk/analyse/correction/profond/strasbBfm/sophie/strasbBfm.n3" annotationUri="http://www.srcmf.org/annotations/strasbBfm#sophie/cp]strasbBfm_1439910470.75" cat="Ng" coord="--" dom="--" headlemma="_ne1_" headpos="ADVneg" headword="nun" id="http://www.srcmf.org/annotations/strasbBfm#sophie/cp]strasbBfm_1439910470.75" type="nV" vlemma="--" vword="--">
+<edge idref="http://www.srcmf.org/editions/strasbBfm#w_strasbBfm_132" label="L"/>
+</nt>
+<nt annotationFile="file:///home/tmr/svn/srcmf/annotations/trunk/analyse/correction/profond/strasbBfm/sophie/strasbBfm.n3" annotationUri="http://www.srcmf.org/annotations/strasbBfm#sophie/cp]strasbBfm_1439910499.0" cat="SjPer" coord="y" dom="_ModA_RelC_" headlemma="--" headpos="PROind" headword="neuls" id="http://www.srcmf.org/annotations/strasbBfm#sophie/cp]strasbBfm_1439910499.0" type="nV" vlemma="--" vword="--">
+<edge idref="http://www.srcmf.org/editions/strasbBfm#w_strasbBfm_120" label="L"/>
+<edge idref="http://www.srcmf.org/annotations/strasbBfm#sophie/cp]strasbBfm_1439910581.16" label="D"/>
+<edge idref="http://www.srcmf.org/annotations/strasbBfm#sophie/cp]strasbBfm_1439910577.84" label="R"/>
+</nt>
+<nt annotationFile="file:///home/tmr/svn/srcmf/annotations/trunk/analyse/correction/profond/strasbBfm/sophie/strasbBfm.n3" annotationUri="http://www.srcmf.org/annotations/strasbBfm#sophie/cp]strasbBfm_1439910581.16" cat="ModA" coord="--" dom="_AuxA_Cmpl_Cmpl_RelNC_SjPer_" headlemma="_puis_" headpos="VERcjg" headword="pois" id="http://www.srcmf.org/annotations/strasbBfm#sophie/cp]strasbBfm_1439910581.16" type="VFin" vlemma="--" vword="returnar">
+<edge idref="http://www.srcmf.org/annotations/strasbBfm#sophie/cp]strasbBfm_1439910595.88" label="R"/>
+<edge idref="http://www.srcmf.org/annotations/strasbBfm#sophie/cp]strasbBfm_1439910607.55" label="D"/>
+<edge idref="http://www.srcmf.org/annotations/strasbBfm#sophie/cp]strasbBfm_1439910593.3" label="D"/>
+<edge idref="http://www.srcmf.org/annotations/strasbBfm#sophie/cp]strasbBfm_1439910599.64" label="D"/>
+<edge idref="http://www.srcmf.org/annotations/strasbBfm#sophie/cp]strasbBfm_1439910597.8" label="D"/>
+<edge idref="http://www.srcmf.org/editions/strasbBfm#w_strasbBfm_125" label="L"/>
+</nt>
+<nt annotationFile="file:///home/tmr/svn/srcmf/annotations/trunk/analyse/correction/profond/strasbBfm/sophie/strasbBfm.n3" annotationUri="http://www.srcmf.org/annotations/strasbBfm#sophie/cp]strasbBfm_1439910595.88" cat="RelNC" coord="--" dom="--" headlemma="_cui_qui_" headpos="PROrel" headword="cui" id="http://www.srcmf.org/annotations/strasbBfm#sophie/cp]strasbBfm_1439910595.88" type="nV" vlemma="--" vword="--">
+<edge idref="http://www.srcmf.org/editions/strasbBfm#w_strasbBfm_121" label="L"/>
+</nt>
+<nt annotationFile="file:///home/tmr/svn/srcmf/annotations/trunk/analyse/correction/profond/strasbBfm/sophie/strasbBfm.n3" annotationUri="http://www.srcmf.org/annotations/strasbBfm#sophie/cp]strasbBfm_1439910607.55" cat="Cmpl" coord="--" dom="--" headlemma="--" headpos="PROadv" headword="int" id="http://www.srcmf.org/annotations/strasbBfm#sophie/cp]strasbBfm_1439910607.55" type="nV" vlemma="--" vword="--">
+<edge idref="http://www.srcmf.org/editions/strasbBfm#w_strasbBfm_124" label="L"/>
+</nt>
+<nt annotationFile="file:///home/tmr/svn/srcmf/annotations/trunk/analyse/correction/profond/strasbBfm/sophie/strasbBfm.n3" annotationUri="http://www.srcmf.org/annotations/strasbBfm#sophie/cp]strasbBfm_1439910593.3" cat="Cmpl" coord="--" dom="--" headlemma="_cui_qui_" headpos="PROrel" headword="cui" id="http://www.srcmf.org/annotations/strasbBfm#sophie/cp]strasbBfm_1439910593.3" type="nV" vlemma="--" vword="--">
+<edge idref="http://www.srcmf.org/editions/strasbBfm#w_strasbBfm_121_dupl" label="L"/>
+<secedge idref="http://www.srcmf.org/editions/strasbBfm#w_strasbBfm_121" label="dupl"/>
+</nt>
+<nt annotationFile="file:///home/tmr/svn/srcmf/annotations/trunk/analyse/correction/profond/strasbBfm/sophie/strasbBfm.n3" annotationUri="http://www.srcmf.org/annotations/strasbBfm#sophie/cp]strasbBfm_1439910599.64" cat="AuxA" coord="--" dom="--" headlemma="--" headpos="VERinf" headword="returnar" id="http://www.srcmf.org/annotations/strasbBfm#sophie/cp]strasbBfm_1439910599.64" type="VInf" vlemma="--" vword="returnar">
+<edge idref="http://www.srcmf.org/editions/strasbBfm#w_strasbBfm_123" label="L"/>
+</nt>
+<nt annotationFile="file:///home/tmr/svn/srcmf/annotations/trunk/analyse/correction/profond/strasbBfm/sophie/strasbBfm.n3" annotationUri="http://www.srcmf.org/annotations/strasbBfm#sophie/cp]strasbBfm_1439910597.8" cat="SjPer" coord="--" dom="--" headlemma="--" headpos="PROper" headword="eo" id="http://www.srcmf.org/annotations/strasbBfm#sophie/cp]strasbBfm_1439910597.8" type="nV" vlemma="--" vword="--">
+<edge idref="http://www.srcmf.org/editions/strasbBfm#w_strasbBfm_122" label="L"/>
+</nt>
+<nt annotationFile="file:///home/tmr/svn/srcmf/annotations/trunk/analyse/correction/profond/strasbBfm/sophie/strasbBfm.n3" annotationUri="http://www.srcmf.org/annotations/strasbBfm#sophie/cp]strasbBfm_1439910577.84" cat="RelC" coord="--" dom="--" headlemma="_en2_ne_" headpos="CONcoo" headword="ne" id="http://www.srcmf.org/annotations/strasbBfm#sophie/cp]strasbBfm_1439910577.84" type="nV" vlemma="--" vword="--">
+<edge idref="http://www.srcmf.org/editions/strasbBfm#w_strasbBfm_119" label="L"/>
+</nt>
+<nt annotationFile="file:///home/tmr/svn/srcmf/annotations/trunk/analyse/correction/profond/strasbBfm/sophie/strasbBfm.n3" annotationUri="http://www.srcmf.org/annotations/strasbBfm#sophie/cp]strasbBfm_1439910510.47" cat="Circ" coord="--" dom="_AuxA_Cmpl_Cmpl_Ng_RelNC_SjPer_" headlemma="_puis_" headpos="VERcjg" headword="pois" id="http://www.srcmf.org/annotations/strasbBfm#sophie/cp]strasbBfm_1439910510.47" type="VFin" vlemma="--" vword="returnar">
+<edge idref="http://www.srcmf.org/annotations/strasbBfm#sophie/cp]strasbBfm_1439910640.11" label="R"/>
+<edge idref="http://www.srcmf.org/annotations/strasbBfm#sophie/cp]strasbBfm_1439910620.59" label="D"/>
+<edge idref="http://www.srcmf.org/annotations/strasbBfm#sophie/cp]strasbBfm_1439910636.37" label="D"/>
+<edge idref="http://www.srcmf.org/annotations/strasbBfm#sophie/cp]strasbBfm_1439910627.3" label="D"/>
+<edge idref="http://www.srcmf.org/annotations/strasbBfm#sophie/cp]strasbBfm_1439910623.24" label="D"/>
+<edge idref="http://www.srcmf.org/annotations/strasbBfm#sophie/cp]strasbBfm_1439910634.8" label="D"/>
+<edge idref="http://www.srcmf.org/editions/strasbBfm#w_strasbBfm_115" label="L"/>
+</nt>
+<nt annotationFile="file:///home/tmr/svn/srcmf/annotations/trunk/analyse/correction/profond/strasbBfm/sophie/strasbBfm.n3" annotationUri="http://www.srcmf.org/annotations/strasbBfm#sophie/cp]strasbBfm_1439910640.11" cat="RelNC" coord="--" dom="--" headlemma="_si_" headpos="ADVgen" headword="si" id="http://www.srcmf.org/annotations/strasbBfm#sophie/cp]strasbBfm_1439910640.11" type="nV" vlemma="--" vword="--">
+<edge idref="http://www.srcmf.org/editions/strasbBfm#w_strasbBfm_109" label="L"/>
+</nt>
+<nt annotationFile="file:///home/tmr/svn/srcmf/annotations/trunk/analyse/correction/profond/strasbBfm/sophie/strasbBfm.n3" annotationUri="http://www.srcmf.org/annotations/strasbBfm#sophie/cp]strasbBfm_1439910620.59" cat="SjPer" coord="--" dom="--" headlemma="_je_" headpos="PROper" headword="jo" id="http://www.srcmf.org/annotations/strasbBfm#sophie/cp]strasbBfm_1439910620.59" type="nV" vlemma="--" vword="--">
+<edge idref="http://www.srcmf.org/editions/strasbBfm#w_strasbBfm_110" label="L"/>
+</nt>
+<nt annotationFile="file:///home/tmr/svn/srcmf/annotations/trunk/analyse/correction/profond/strasbBfm/sophie/strasbBfm.n3" annotationUri="http://www.srcmf.org/annotations/strasbBfm#sophie/cp]strasbBfm_1439910636.37" cat="Cmpl" coord="--" dom="--" headlemma="--" headpos="PROadv" headword="int" id="http://www.srcmf.org/annotations/strasbBfm#sophie/cp]strasbBfm_1439910636.37" type="nV" vlemma="--" vword="--">
+<edge idref="http://www.srcmf.org/editions/strasbBfm#w_strasbBfm_114" label="L"/>
+</nt>
+<nt annotationFile="file:///home/tmr/svn/srcmf/annotations/trunk/analyse/correction/profond/strasbBfm/sophie/strasbBfm.n3" annotationUri="http://www.srcmf.org/annotations/strasbBfm#sophie/cp]strasbBfm_1439910627.3" cat="Ng" coord="--" dom="--" headlemma="_ne1_" headpos="ADVneg" headword="non" id="http://www.srcmf.org/annotations/strasbBfm#sophie/cp]strasbBfm_1439910627.3" type="nV" vlemma="--" vword="--">
+<edge idref="http://www.srcmf.org/editions/strasbBfm#w_strasbBfm_112" label="L"/>
+</nt>
+<nt annotationFile="file:///home/tmr/svn/srcmf/annotations/trunk/analyse/correction/profond/strasbBfm/sophie/strasbBfm.n3" annotationUri="http://www.srcmf.org/annotations/strasbBfm#sophie/cp]strasbBfm_1439910623.24" cat="AuxA" coord="--" dom="--" headlemma="--" headpos="VERinf" headword="returnar" id="http://www.srcmf.org/annotations/strasbBfm#sophie/cp]strasbBfm_1439910623.24" type="VInf" vlemma="--" vword="returnar">
+<edge idref="http://www.srcmf.org/editions/strasbBfm#w_strasbBfm_111" label="L"/>
+</nt>
+<nt annotationFile="file:///home/tmr/svn/srcmf/annotations/trunk/analyse/correction/profond/strasbBfm/sophie/strasbBfm.n3" annotationUri="http://www.srcmf.org/annotations/strasbBfm#sophie/cp]strasbBfm_1439910634.8" cat="Cmpl" coord="--" dom="--" headlemma="_il_" headpos="PROper" headword="l'" id="http://www.srcmf.org/annotations/strasbBfm#sophie/cp]strasbBfm_1439910634.8" type="nV" vlemma="--" vword="--">
+<edge idref="http://www.srcmf.org/editions/strasbBfm#w_strasbBfm_113" label="L"/>
+</nt>
+<nt annotationFile="file:///home/tmr/svn/srcmf/annotations/trunk/analyse/correction/profond/strasbBfm/sophie/strasbBfm.n3" annotationUri="http://www.srcmf.org/annotations/strasbBfm#sophie/cp]strasbBfm_1439910464.91" cat="Cmpl" coord="--" dom="--" headlemma="_ele_il_" headpos="PROper" headword="li" id="http://www.srcmf.org/annotations/strasbBfm#sophie/cp]strasbBfm_1439910464.91" type="nV" vlemma="--" vword="--">
+<edge idref="http://www.srcmf.org/editions/strasbBfm#w_strasbBfm_133" label="L"/>
+</nt>
+<nt annotationFile="file:///home/tmr/svn/srcmf/annotations/trunk/analyse/correction/profond/strasbBfm/sophie/strasbBfm.n3" annotationUri="http://www.srcmf.org/annotations/strasbBfm#sophie/cp]strasbBfm_1439910519.52" cat="Coo" coord="--" dom="--" headlemma="--" headpos="--" headword="#" id="http://www.srcmf.org/annotations/strasbBfm#sophie/cp]strasbBfm_1439910519.52" type="--" vlemma="--" vword="--">
+<edge idref="http://www.srcmf.org/annotations/strasbBfm#sophie/cp]strasbBfm_1439910519.52_fake" label="L"/>
+<secedge idref="http://www.srcmf.org/annotations/strasbBfm#sophie/cp]strasbBfm_1439910524.87" label="coord"/>
+<secedge idref="http://www.srcmf.org/annotations/strasbBfm#sophie/cp]strasbBfm_1439910527.24" label="coord"/>
+</nt>
+<nt annotationFile="file:///home/tmr/svn/srcmf/annotations/trunk/analyse/correction/profond/strasbBfm/sophie/strasbBfm.n3" annotationUri="http://www.srcmf.org/annotations/strasbBfm#sophie/cp]strasbBfm_1439910494.11" cat="Coo" coord="--" dom="--" headlemma="--" headpos="--" headword="#" id="http://www.srcmf.org/annotations/strasbBfm#sophie/cp]strasbBfm_1439910494.11" type="--" vlemma="--" vword="--">
+<edge idref="http://www.srcmf.org/annotations/strasbBfm#sophie/cp]strasbBfm_1439910494.11_fake" label="L"/>
+<secedge idref="http://www.srcmf.org/annotations/strasbBfm#sophie/cp]strasbBfm_1439910496.39" label="coord"/>
+<secedge idref="http://www.srcmf.org/annotations/strasbBfm#sophie/cp]strasbBfm_1439910499.0" label="coord"/>
+</nt>
+</nonterminals>
+</graph>
+</s>
+</subcorpus>

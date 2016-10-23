@@ -1,0 +1,260 @@
+<?xml version="1.0" encoding="ISO-8859-1" standalone="yes"?>
+
+<corpus id="Sample">
+
+<body>
+
+<s id="s4228">
+<graph root="s4228_507">
+<terminals>
+ <t id="s4228_1" word="In" pos="APPR" />
+ <t id="s4228_2" word="Japan" pos="NE" />
+ <t id="s4228_3" word="wird" pos="VAFIN" />
+ <t id="s4228_4" word="offenbar" pos="ADJD" />
+ <t id="s4228_5" word="die" pos="ART" />
+ <t id="s4228_6" word="Fusion" pos="NN" />
+ <t id="s4228_7" word="der" pos="ART" />
+ <t id="s4228_8" word="Geldkonzerne" pos="NN" />
+ <t id="s4228_9" word="Daiwa" pos="NE" />
+ <t id="s4228_10" word="und" pos="KON" />
+ <t id="s4228_11" word="Sumitomo" pos="NE" />
+ <t id="s4228_12" word="zur" pos="APPRART" />
+ <t id="s4228_13" word="größten" pos="ADJA" />
+ <t id="s4228_14" word="Bank" pos="NN" />
+ <t id="s4228_15" word="der" pos="ART" />
+ <t id="s4228_16" word="Welt" pos="NN" />
+ <t id="s4228_17" word="vorbereitet" pos="VVPP" />
+ <t id="s4228_18" word="." pos="$." />
+</terminals>
+<nonterminals>
+ <nt id="s4228_500" cat="PP">
+  <edge label="AC" idref="s4228_1" />
+  <edge label="NK" idref="s4228_2" />
+ </nt>
+ <nt id="s4228_501" cat="CNP">
+  <edge label="CJ" idref="s4228_9" />
+  <edge label="CD" idref="s4228_10" />
+  <edge label="CJ" idref="s4228_11" />
+ </nt>
+ <nt id="s4228_502" cat="NP">
+  <edge label="NK" idref="s4228_15" />
+  <edge label="NK" idref="s4228_16" />
+ </nt>
+ <nt id="s4228_503" cat="NP">
+  <edge label="NK" idref="s4228_7" />
+  <edge label="NK" idref="s4228_8" />
+  <edge label="NK" idref="s4228_501" />
+ </nt>
+ <nt id="s4228_504" cat="VP">
+  <edge label="MO" idref="s4228_4" />
+  <edge label="HD" idref="s4228_17" />
+  <edge label="MO" idref="s4228_500" />
+ </nt>
+ <nt id="s4228_505" cat="PP">
+  <edge label="AC" idref="s4228_12" />
+  <edge label="NK" idref="s4228_13" />
+  <edge label="NK" idref="s4228_14" />
+  <edge label="AG" idref="s4228_502" />
+ </nt>
+ <nt id="s4228_506" cat="NP">
+  <edge label="NK" idref="s4228_5" />
+  <edge label="NK" idref="s4228_6" />
+  <edge label="AG" idref="s4228_503" />
+  <edge label="MNR" idref="s4228_505" />
+ </nt>
+ <nt id="s4228_507" cat="S">
+  <edge label="HD" idref="s4228_3" />
+  <edge label="OC" idref="s4228_504" />
+  <edge label="SB" idref="s4228_506" />
+ </nt>
+</nonterminals>
+</graph>
+</s>
+
+<s id="s4229">
+<graph root="s4229_509">
+<terminals>
+ <t id="s4229_1" word="Hintergrund" pos="NN" />
+ <t id="s4229_2" word="sind" pos="VAFIN" />
+ <t id="s4229_3" word="die" pos="ART" />
+ <t id="s4229_4" word="geschäftlichen" pos="ADJA" />
+ <t id="s4229_5" word="Einschränkungen" pos="NN" />
+ <t id="s4229_6" word="und" pos="KON" />
+ <t id="s4229_7" word="Imageschäden" pos="NN" />
+ <t id="s4229_8" word="," pos="$," />
+ <t id="s4229_9" word="die" pos="PRELS" />
+ <t id="s4229_10" word="Daiwa" pos="NE" />
+ <t id="s4229_11" word="nach" pos="APPR" />
+ <t id="s4229_12" word="mutmaßlich" pos="ADJD" />
+ <t id="s4229_13" word="illegalen" pos="ADJA" />
+ <t id="s4229_14" word="und" pos="KON" />
+ <t id="s4229_15" word="zudem" pos="PROAV" />
+ <t id="s4229_16" word="lange" pos="ADV" />
+ <t id="s4229_17" word="vor" pos="APPR" />
+ <t id="s4229_18" word="den" pos="ART" />
+ <t id="s4229_19" word="Behörden" pos="NN" />
+ <t id="s4229_20" word="vertuschten" pos="ADJA" />
+ <t id="s4229_21" word="US-Transaktionen" pos="NN" />
+ <t id="s4229_22" word="international" pos="ADJD" />
+ <t id="s4229_23" word="drohen" pos="VVFIN" />
+ <t id="s4229_24" word="." pos="$." />
+</terminals>
+<nonterminals>
+ <nt id="s4229_500" cat="NP">
+  <edge label="NK" idref="s4229_4" />
+  <edge label="NK" idref="s4229_5" />
+ </nt>
+ <nt id="s4229_501" cat="AP">
+  <edge label="MO" idref="s4229_12" />
+  <edge label="HD" idref="s4229_13" />
+ </nt>
+ <nt id="s4229_502" cat="PP">
+  <edge label="AC" idref="s4229_17" />
+  <edge label="NK" idref="s4229_18" />
+  <edge label="NK" idref="s4229_19" />
+ </nt>
+ <nt id="s4229_503" cat="CNP">
+  <edge label="CD" idref="s4229_6" />
+  <edge label="CJ" idref="s4229_7" />
+  <edge label="CJ" idref="s4229_500" />
+ </nt>
+ <nt id="s4229_504" cat="AP">
+  <edge label="MO" idref="s4229_15" />
+  <edge label="MO" idref="s4229_16" />
+  <edge label="HD" idref="s4229_20" />
+  <edge label="MO" idref="s4229_502" />
+ </nt>
+ <nt id="s4229_505" cat="CAP">
+  <edge label="CD" idref="s4229_14" />
+  <edge label="CJ" idref="s4229_501" />
+  <edge label="CJ" idref="s4229_504" />
+ </nt>
+ <nt id="s4229_506" cat="PP">
+  <edge label="AC" idref="s4229_11" />
+  <edge label="NK" idref="s4229_21" />
+  <edge label="NK" idref="s4229_505" />
+ </nt>
+ <nt id="s4229_507" cat="S">
+  <edge label="SB" idref="s4229_9" />
+  <edge label="DA" idref="s4229_10" />
+  <edge label="MO" idref="s4229_22" />
+  <edge label="HD" idref="s4229_23" />
+  <edge label="MO" idref="s4229_506" />
+ </nt>
+ <nt id="s4229_508" cat="NP">
+  <edge label="NK" idref="s4229_3" />
+  <edge label="NK" idref="s4229_503" />
+  <edge label="RC" idref="s4229_507" />
+ </nt>
+ <nt id="s4229_509" cat="S">
+  <edge label="SB" idref="s4229_1" />
+  <edge label="HD" idref="s4229_2" />
+  <edge label="PD" idref="s4229_508" />
+ </nt>
+</nonterminals>
+</graph>
+</s>
+
+<s id="s4230">
+<graph root="s4230_513">
+<terminals>
+ <t id="s4230_1" word="Wie" pos="PWAV" />
+ <t id="s4230_2" word="am" pos="APPRART" />
+ <t id="s4230_3" word="Samstag" pos="NN" />
+ <t id="s4230_4" word="berichtet" pos="VVFIN" />
+ <t id="s4230_5" word="," pos="$," />
+ <t id="s4230_6" word="muß" pos="VMFIN" />
+ <t id="s4230_7" word="das" pos="ART" />
+ <t id="s4230_8" word="Institut" pos="NN" />
+ <t id="s4230_9" word="seine" pos="PPOSAT" />
+ <t id="s4230_10" word="Aktivitäten" pos="NN" />
+ <t id="s4230_11" word="in" pos="APPR" />
+ <t id="s4230_12" word="den" pos="ART" />
+ <t id="s4230_13" word="Vereinigten" pos="ADJA" />
+ <t id="s4230_14" word="Staaten" pos="NN" />
+ <t id="s4230_15" word="einstellen" pos="VVINF" />
+ <t id="s4230_16" word="und" pos="KON" />
+ <t id="s4230_17" word="eventuell" pos="ADJD" />
+ <t id="s4230_18" word="Geldstrafen" pos="NN" />
+ <t id="s4230_19" word="von" pos="APPR" />
+ <t id="s4230_20" word="mehr" pos="ADV" />
+ <t id="s4230_21" word="als" pos="KOKOM" />
+ <t id="s4230_22" word="einer" pos="ART" />
+ <t id="s4230_23" word="Milliarde" pos="NN" />
+ <t id="s4230_24" word="Dollar" pos="NN" />
+ <t id="s4230_25" word="zahlen" pos="VVINF" />
+ <t id="s4230_26" word="." pos="$." />
+</terminals>
+<nonterminals>
+ <nt id="s4230_500" cat="PP">
+  <edge label="AC" idref="s4230_2" />
+  <edge label="NK" idref="s4230_3" />
+ </nt>
+ <nt id="s4230_501" cat="NP">
+  <edge label="NK" idref="s4230_7" />
+  <edge label="NK" idref="s4230_8" />
+ </nt>
+ <nt id="s4230_502" cat="PP">
+  <edge label="AC" idref="s4230_11" />
+  <edge label="NK" idref="s4230_12" />
+  <edge label="NK" idref="s4230_13" />
+  <edge label="NK" idref="s4230_14" />
+ </nt>
+ <nt id="s4230_503" cat="NM">
+  <edge label="NMC" idref="s4230_22" />
+  <edge label="NMC" idref="s4230_23" />
+ </nt>
+ <nt id="s4230_504" cat="S">
+  <edge label="MO" idref="s4230_1" />
+  <edge label="HD" idref="s4230_4" />
+  <edge label="MO" idref="s4230_500" />
+ </nt>
+ <nt id="s4230_505" cat="NP">
+  <edge label="NK" idref="s4230_9" />
+  <edge label="NK" idref="s4230_10" />
+  <edge label="MNR" idref="s4230_502" />
+ </nt>
+ <nt id="s4230_506" cat="AP">
+  <edge label="CM" idref="s4230_21" />
+  <edge label="HD" idref="s4230_503" />
+ </nt>
+ <nt id="s4230_507" cat="VP">
+  <edge label="HD" idref="s4230_15" />
+  <edge label="OA" idref="s4230_505" />
+ </nt>
+ <nt id="s4230_508" cat="AP">
+  <edge label="HD" idref="s4230_20" />
+  <edge label="CC" idref="s4230_506" />
+ </nt>
+ <nt id="s4230_509" cat="PP">
+  <edge label="AC" idref="s4230_19" />
+  <edge label="NK" idref="s4230_24" />
+  <edge label="NK" idref="s4230_508" />
+ </nt>
+ <nt id="s4230_510" cat="NP">
+  <edge label="NK" idref="s4230_18" />
+  <edge label="MNR" idref="s4230_509" />
+ </nt>
+ <nt id="s4230_511" cat="VP">
+  <edge label="MO" idref="s4230_17" />
+  <edge label="HD" idref="s4230_25" />
+  <edge label="OA" idref="s4230_510" />
+ </nt>
+ <nt id="s4230_512" cat="CVP">
+  <edge label="CD" idref="s4230_16" />
+  <edge label="CJ" idref="s4230_507" />
+  <edge label="CJ" idref="s4230_511" />
+ </nt>
+ <nt id="s4230_513" cat="S">
+  <edge label="HD" idref="s4230_6" />
+  <edge label="SB" idref="s4230_501" />
+  <edge label="MO" idref="s4230_504" />
+  <edge label="OC" idref="s4230_512" />
+ </nt>
+</nonterminals>
+</graph>
+</s>
+
+</body>
+
+</corpus>
