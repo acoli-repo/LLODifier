@@ -21,18 +21,27 @@
     </xsl:template>
     
     <xsl:template name="get-collection-id">
+        <xsl:variable name="subcorpusid" select="ancestor-or-self::subcorpus[1]/@id"/>
+        <xsl:variable name="corpusid" select="ancestor-or-self::corpus[1]/@id"/>
+        <xsl:variable name="subcorpusname" select="ancestor-or-self::subcorpus[1]/@name"/>
         <xsl:choose>
-            <xsl:when test="ancestor-or-self::subcorpus[1]/@id!=''">                <!-- subcorpus with @id (should be @name, actually) -->
-                <xsl:text>:</xsl:text>
-                <xsl:value-of select="ancestor-or-self::subcorpus[1]/@id"/>
+            <xsl:when test="starts-with($subcorpusid,'http:/') or starts-with($subcorpusid,'https:/')"> <!-- subcorpus with HTTP URL -->
+                <xsl:value-of select="$subcorpusid"/>
             </xsl:when>
-            <xsl:when test="ancestor-or-self::subcorpus[1]/@name!=''">              <!-- subcorpus with @name -->
+            <xsl:when test="$subcorpusid!=''">                <!-- subcorpus with @id (should be @name, actually) -->
                 <xsl:text>:</xsl:text>
-                <xsl:value-of select="ancestor-or-self::subcorpus[1]/@name"/>
+                <xsl:value-of select="$subcorpusid"/>
+            </xsl:when>
+            <xsl:when test="$subcorpusname!=''">              <!-- subcorpus with @name -->
+                <xsl:text>:</xsl:text>
+                <xsl:value-of select="$subcorpusname"/>
             </xsl:when>
             <xsl:when test="count(ancestor-or-self::subcorpus[1])&gt;0">            <!-- subcorpus without attributes -->
                 <xsl:text>:subcorpus.</xsl:text>
                 <xsl:value-of select="count(./ancestor-or-self::subcorpus[1]/preceding::subcorpus)"/>
+            </xsl:when>
+            <xsl:when test="starts-with($corpusid,'http:/') or starts-with($corpusid,'https:/')">   <!-- corpus with HTTP URL -->
+                <xsl:value-of select="$corpusid"/>
             </xsl:when>
             <xsl:otherwise>                                                         <!-- corpus -->
                 <xsl:text>&lt;</xsl:text>
@@ -54,6 +63,12 @@
                 <xsl:text>"</xsl:text>
             </xsl:if>
         </xsl:for-each>
+        <xsl:if test="count(./ancestor::*[name()='corpus' or name()='subcorpus'][1])&gt;0">
+            <xsl:text>;&#10;  tiger:subcorpus </xsl:text>
+            <xsl:for-each select="..">
+                <xsl:call-template name="get-collection-id"/>
+            </xsl:for-each>
+        </xsl:if>
         <xsl:text>.&#10;&#10;</xsl:text>
         <xsl:apply-templates/>
     </xsl:template>
@@ -86,10 +101,14 @@
 
     <!-- ids for s nodes -->
     <xsl:template name="get-sentence-id">
+        <xsl:variable name="sid" select="./ancestor-or-self::s[1]/@id"/>
         <xsl:choose>
-            <xsl:when test="./ancestor-or-self::s[1]/@id!='' and not(contains(./ancestor-or-self::s[1]/@id,':'))">
+            <xsl:when test="starts-with($sid,'http:/') or starts-with($sid,'https:/')">
+                <xsl:value-of select="$sid"/>
+            </xsl:when>
+            <xsl:when test="$sid!='' and not(contains($sid,':'))">
                 <xsl:text>:</xsl:text>
-                <xsl:value-of select="./ancestor-or-self::s/@id"/>
+                <xsl:value-of select="$sid"/>
             </xsl:when>
             <xsl:when test="count(./ancestor-or-self::s[1])&gt;0">
                 <xsl:text>:s</xsl:text>
@@ -136,13 +155,16 @@
             <xsl:when test="count(./ancestor-or-self::*[name()='t' or name()='nt'][1])=0">
                 <xsl:message>warning get-node-id must be called on a t or nt node</xsl:message>
             </xsl:when>
+            <xsl:when test="starts-with(./ancestor-or-self::*[name()='t' or name()='nt'][1]/@id,'http:/') or starts-with(./ancestor-or-self::*[name()='t' or name()='nt'][1]/@id,'https:/')">
+                <xsl:value-of select="./ancestor-or-self::*[name()='t' or name()='nt'][1]/@id"/>
+            </xsl:when>
             <xsl:when test="./ancestor-or-self::*[name()='t' or name()='nt'][1]/@id!='' and not(contains(./ancestor-or-self::*[name()='t' or name()='nt'][1]/@id,':'))">
                 <xsl:text>:</xsl:text>
                 <xsl:value-of select="./ancestor-or-self::*[name()='t' or name()='nt'][1]/@id"/>
             </xsl:when>
             <xsl:otherwise>
                 <xsl:call-template name="get-sentence-id"/>
-                <xsl:text>.</xsl:text>
+                <xsl:text>_</xsl:text>
                 <xsl:value-of select="count(./preceding-sibling::nt)+count(./preceding-sibling::nt)+count(../preceding-sibling::terminals/t)+1"/>
             </xsl:otherwise>
         </xsl:choose>
@@ -158,7 +180,7 @@
         <xsl:if test="name()='t'">nif:Word</xsl:if>
         <xsl:if test="name()='nt'">nif:Phrase</xsl:if>
         <xsl:for-each select="@*">
-            <xsl:if test="not(contains(name(),':')) and string-length(string(.))&gt;0">
+            <xsl:if test="not(contains(name(),':')) and string-length(string(.))&gt;0 and string(.)!='--'">
                 <xsl:text>;&#10;  </xsl:text>
                 <xsl:choose>
                     <xsl:when test="name()='word'">

@@ -24,7 +24,6 @@ PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>PREFIX : <http://example.org
   rdfs:label "In";
   nif:lemma "in";
   nif:posTag "APPR";
-  tiger:morph "--";
   nif:nextWord :s4231_2.
 
       :s4231_2 a nif:Word;
@@ -96,7 +95,6 @@ PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>PREFIX : <http://example.org
   rdfs:label "und";
   nif:lemma "und";
   nif:posTag "KON";
-  tiger:morph "--";
   nif:nextWord :s4231_11.
 
       :s4231_11 a nif:Word;
@@ -158,9 +156,7 @@ PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>PREFIX : <http://example.org
       :s4231_18 a nif:Word;
   tiger:id "s4231_18";
   rdfs:label ".";
-  nif:lemma "--";
-  nif:posTag "$.";
-  tiger:morph "--".
+  nif:posTag "$.".
 
     
     
@@ -395,7 +391,6 @@ _:59 a rdfs:Statement;
   rdfs:label "und";
   nif:lemma "und";
   nif:posTag "KON";
-  tiger:morph "--";
   nif:nextWord :s4232_7.
 
       :s4232_7 a nif:Word;
@@ -409,9 +404,7 @@ _:59 a rdfs:Statement;
       :s4232_8 a nif:Word;
   tiger:id "s4232_8";
   rdfs:label ",";
-  nif:lemma "--";
   nif:posTag "$,";
-  tiger:morph "--";
   nif:nextWord :s4232_9.
 
       :s4232_9 a nif:Word;
@@ -435,7 +428,6 @@ _:59 a rdfs:Statement;
   rdfs:label "nach";
   nif:lemma "nach";
   nif:posTag "APPR";
-  tiger:morph "--";
   nif:nextWord :s4232_12.
 
       :s4232_12 a nif:Word;
@@ -459,7 +451,6 @@ _:59 a rdfs:Statement;
   rdfs:label "und";
   nif:lemma "und";
   nif:posTag "KON";
-  tiger:morph "--";
   nif:nextWord :s4232_15.
 
       :s4232_15 a nif:Word;
@@ -467,7 +458,6 @@ _:59 a rdfs:Statement;
   rdfs:label "zudem";
   nif:lemma "zudem";
   nif:posTag "PROAV";
-  tiger:morph "--";
   nif:nextWord :s4232_16.
 
       :s4232_16 a nif:Word;
@@ -475,7 +465,6 @@ _:59 a rdfs:Statement;
   rdfs:label "lange";
   nif:lemma "lange";
   nif:posTag "ADV";
-  tiger:morph "--";
   nif:nextWord :s4232_17.
 
       :s4232_17 a nif:Word;
@@ -483,7 +472,6 @@ _:59 a rdfs:Statement;
   rdfs:label "vor";
   nif:lemma "vor";
   nif:posTag "APPR";
-  tiger:morph "--";
   nif:nextWord :s4232_18.
 
       :s4232_18 a nif:Word;
@@ -537,9 +525,7 @@ _:59 a rdfs:Statement;
       :s4232_24 a nif:Word;
   tiger:id "s4232_24";
   rdfs:label ".";
-  nif:lemma "--";
-  nif:posTag "$.";
-  tiger:morph "--".
+  nif:posTag "$.".
 
     
     
@@ -783,7 +769,6 @@ _:132 a rdfs:Statement;
   rdfs:label "Wie";
   nif:lemma "wie";
   nif:posTag "PWAV";
-  tiger:morph "--";
   nif:nextWord :s4233_2.
 
       :s4233_2 a nif:Word;
@@ -813,9 +798,7 @@ _:132 a rdfs:Statement;
       :s4233_5 a nif:Word;
   tiger:id "s4233_5";
   rdfs:label ",";
-  nif:lemma "--";
   nif:posTag "$,";
-  tiger:morph "--";
   nif:nextWord :s4233_6.
 
       :s4233_6 a nif:Word;
@@ -863,7 +846,6 @@ _:132 a rdfs:Statement;
   rdfs:label "in";
   nif:lemma "in";
   nif:posTag "APPR";
-  tiger:morph "--";
   nif:nextWord :s4233_12.
 
       :s4233_12 a nif:Word;
@@ -903,7 +885,6 @@ _:132 a rdfs:Statement;
   rdfs:label "und";
   nif:lemma "und";
   nif:posTag "KON";
-  tiger:morph "--";
   nif:nextWord :s4233_17.
 
       :s4233_17 a nif:Word;
@@ -927,7 +908,6 @@ _:132 a rdfs:Statement;
   rdfs:label "von";
   nif:lemma "von";
   nif:posTag "APPR";
-  tiger:morph "--";
   nif:nextWord :s4233_20.
 
       :s4233_20 a nif:Word;
@@ -943,7 +923,6 @@ _:132 a rdfs:Statement;
   rdfs:label "als";
   nif:lemma "als";
   nif:posTag "KOKOM";
-  tiger:morph "--";
   nif:nextWord :s4233_22.
 
       :s4233_22 a nif:Word;
@@ -981,9 +960,7 @@ _:132 a rdfs:Statement;
       :s4233_26 a nif:Word;
   tiger:id "s4233_26";
   rdfs:label ".";
-  nif:lemma "--";
-  nif:posTag "$.";
-  tiger:morph "--".
+  nif:posTag "$.".
 
     
     
