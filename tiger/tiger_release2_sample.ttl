@@ -1,6 +1,8 @@
-PREFIX tiger: <http://www.ims.uni-stuttgart.de/forschung/ressourcen/korpora/TIGERCorpus/public/TigerXML.xsd#>
-PREFIX nif: <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#>
-PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>PREFIX : <http://example.org/PLEASE_PROVIDE_baseURI_PARAMETER#>
+@prefix tiger: <http://www.ims.uni-stuttgart.de/forschung/ressourcen/korpora/TIGERCorpus/public/TigerXML.xsd#>.
+@prefix nif: <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix : <http://example.org/PLEASE_PROVIDE_baseURI_PARAMETER#>.
 
 <http://example.org/PLEASE_PROVIDE_baseURI_PARAMETER> a tiger:corpus;
   tiger:id "Sample".
@@ -15,7 +17,8 @@ PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>PREFIX : <http://example.org
   tiger:root "s4231_VROOT";
   tiger:discontinuous "true";
   nif:firstWord :s4231_1;
-  nif:lastWord :s4231_18.
+  nif:lastWord :s4231_18;
+  nif:nextSentence :s4232.
 
   
     
@@ -162,176 +165,168 @@ PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>PREFIX : <http://example.org
     
       :s4231_500 a nif:Phrase;
   tiger:id "s4231_500";
-  tiger:cat "PP";
-  nif:nextWord :s4231_501.
-_:26 a rdfs:Statement;
-  rdfs:subject :s4231_500;
-  rdfs:predicate nif:subString;
-  rdfs:object :s4231_1;
+  tiger:cat "PP".
+_:edge_26 a rdf:Statement;
+  rdf:object :s4231_500;
+  rdf:predicate nif:subString;
+  rdf:subject :s4231_1;
   tiger:label "AC".
-_:27 a rdfs:Statement;
-  rdfs:subject :s4231_500;
-  rdfs:predicate nif:subString;
-  rdfs:object :s4231_2;
+_:edge_27 a rdf:Statement;
+  rdf:object :s4231_500;
+  rdf:predicate nif:subString;
+  rdf:subject :s4231_2;
   tiger:label "NK".
 
       :s4231_501 a nif:Phrase;
   tiger:id "s4231_501";
-  tiger:cat "CNP";
-  nif:nextWord :s4231_502.
-_:29 a rdfs:Statement;
-  rdfs:subject :s4231_501;
-  rdfs:predicate nif:subString;
-  rdfs:object :s4231_9;
+  tiger:cat "CNP".
+_:edge_29 a rdf:Statement;
+  rdf:object :s4231_501;
+  rdf:predicate nif:subString;
+  rdf:subject :s4231_9;
   tiger:label "CJ".
-_:30 a rdfs:Statement;
-  rdfs:subject :s4231_501;
-  rdfs:predicate nif:subString;
-  rdfs:object :s4231_10;
+_:edge_30 a rdf:Statement;
+  rdf:object :s4231_501;
+  rdf:predicate nif:subString;
+  rdf:subject :s4231_10;
   tiger:label "CD".
-_:31 a rdfs:Statement;
-  rdfs:subject :s4231_501;
-  rdfs:predicate nif:subString;
-  rdfs:object :s4231_11;
+_:edge_31 a rdf:Statement;
+  rdf:object :s4231_501;
+  rdf:predicate nif:subString;
+  rdf:subject :s4231_11;
   tiger:label "CJ".
 
       :s4231_502 a nif:Phrase;
   tiger:id "s4231_502";
-  tiger:cat "NP";
-  nif:nextWord :s4231_503.
-_:33 a rdfs:Statement;
-  rdfs:subject :s4231_502;
-  rdfs:predicate nif:subString;
-  rdfs:object :s4231_15;
+  tiger:cat "NP".
+_:edge_33 a rdf:Statement;
+  rdf:object :s4231_502;
+  rdf:predicate nif:subString;
+  rdf:subject :s4231_15;
   tiger:label "NK".
-_:34 a rdfs:Statement;
-  rdfs:subject :s4231_502;
-  rdfs:predicate nif:subString;
-  rdfs:object :s4231_16;
+_:edge_34 a rdf:Statement;
+  rdf:object :s4231_502;
+  rdf:predicate nif:subString;
+  rdf:subject :s4231_16;
   tiger:label "NK".
 
       :s4231_503 a nif:Phrase;
   tiger:id "s4231_503";
-  tiger:cat "NP";
-  nif:nextWord :s4231_504.
-_:36 a rdfs:Statement;
-  rdfs:subject :s4231_503;
-  rdfs:predicate nif:subString;
-  rdfs:object :s4231_7;
+  tiger:cat "NP".
+_:edge_36 a rdf:Statement;
+  rdf:object :s4231_503;
+  rdf:predicate nif:subString;
+  rdf:subject :s4231_7;
   tiger:label "NK".
-_:37 a rdfs:Statement;
-  rdfs:subject :s4231_503;
-  rdfs:predicate nif:subString;
-  rdfs:object :s4231_8;
+_:edge_37 a rdf:Statement;
+  rdf:object :s4231_503;
+  rdf:predicate nif:subString;
+  rdf:subject :s4231_8;
   tiger:label "NK".
-_:38 a rdfs:Statement;
-  rdfs:subject :s4231_503;
-  rdfs:predicate nif:subString;
-  rdfs:object :s4231_501;
+_:edge_38 a rdf:Statement;
+  rdf:object :s4231_503;
+  rdf:predicate nif:subString;
+  rdf:subject :s4231_501;
   tiger:label "NK".
 
       :s4231_504 a nif:Phrase;
   tiger:id "s4231_504";
-  tiger:cat "VP";
-  nif:nextWord :s4231_505.
-_:40 a rdfs:Statement;
-  rdfs:subject :s4231_504;
-  rdfs:predicate nif:subString;
-  rdfs:object :s4231_500;
+  tiger:cat "VP".
+_:edge_40 a rdf:Statement;
+  rdf:object :s4231_504;
+  rdf:predicate nif:subString;
+  rdf:subject :s4231_500;
   tiger:label "MO".
-_:41 a rdfs:Statement;
-  rdfs:subject :s4231_504;
-  rdfs:predicate nif:subString;
-  rdfs:object :s4231_4;
+_:edge_41 a rdf:Statement;
+  rdf:object :s4231_504;
+  rdf:predicate nif:subString;
+  rdf:subject :s4231_4;
   tiger:label "MO".
-_:42 a rdfs:Statement;
-  rdfs:subject :s4231_504;
-  rdfs:predicate nif:subString;
-  rdfs:object :s4231_17;
+_:edge_42 a rdf:Statement;
+  rdf:object :s4231_504;
+  rdf:predicate nif:subString;
+  rdf:subject :s4231_17;
   tiger:label "HD".
 
       :s4231_505 a nif:Phrase;
   tiger:id "s4231_505";
-  tiger:cat "PP";
-  nif:nextWord :s4231_506.
-_:44 a rdfs:Statement;
-  rdfs:subject :s4231_505;
-  rdfs:predicate nif:subString;
-  rdfs:object :s4231_12;
+  tiger:cat "PP".
+_:edge_44 a rdf:Statement;
+  rdf:object :s4231_505;
+  rdf:predicate nif:subString;
+  rdf:subject :s4231_12;
   tiger:label "AC".
-_:45 a rdfs:Statement;
-  rdfs:subject :s4231_505;
-  rdfs:predicate nif:subString;
-  rdfs:object :s4231_13;
+_:edge_45 a rdf:Statement;
+  rdf:object :s4231_505;
+  rdf:predicate nif:subString;
+  rdf:subject :s4231_13;
   tiger:label "NK".
-_:46 a rdfs:Statement;
-  rdfs:subject :s4231_505;
-  rdfs:predicate nif:subString;
-  rdfs:object :s4231_14;
+_:edge_46 a rdf:Statement;
+  rdf:object :s4231_505;
+  rdf:predicate nif:subString;
+  rdf:subject :s4231_14;
   tiger:label "NK".
-_:47 a rdfs:Statement;
-  rdfs:subject :s4231_505;
-  rdfs:predicate nif:subString;
-  rdfs:object :s4231_502;
+_:edge_47 a rdf:Statement;
+  rdf:object :s4231_505;
+  rdf:predicate nif:subString;
+  rdf:subject :s4231_502;
   tiger:label "AG".
 
       :s4231_506 a nif:Phrase;
   tiger:id "s4231_506";
-  tiger:cat "NP";
-  nif:nextWord :s4231_507.
-_:49 a rdfs:Statement;
-  rdfs:subject :s4231_506;
-  rdfs:predicate nif:subString;
-  rdfs:object :s4231_5;
+  tiger:cat "NP".
+_:edge_49 a rdf:Statement;
+  rdf:object :s4231_506;
+  rdf:predicate nif:subString;
+  rdf:subject :s4231_5;
   tiger:label "NK".
-_:50 a rdfs:Statement;
-  rdfs:subject :s4231_506;
-  rdfs:predicate nif:subString;
-  rdfs:object :s4231_6;
+_:edge_50 a rdf:Statement;
+  rdf:object :s4231_506;
+  rdf:predicate nif:subString;
+  rdf:subject :s4231_6;
   tiger:label "NK".
-_:51 a rdfs:Statement;
-  rdfs:subject :s4231_506;
-  rdfs:predicate nif:subString;
-  rdfs:object :s4231_503;
+_:edge_51 a rdf:Statement;
+  rdf:object :s4231_506;
+  rdf:predicate nif:subString;
+  rdf:subject :s4231_503;
   tiger:label "AG".
-_:52 a rdfs:Statement;
-  rdfs:subject :s4231_506;
-  rdfs:predicate nif:subString;
-  rdfs:object :s4231_505;
+_:edge_52 a rdf:Statement;
+  rdf:object :s4231_506;
+  rdf:predicate nif:subString;
+  rdf:subject :s4231_505;
   tiger:label "MNR".
 
       :s4231_507 a nif:Phrase;
   tiger:id "s4231_507";
-  tiger:cat "S";
-  nif:nextWord :s4231_VROOT.
-_:54 a rdfs:Statement;
-  rdfs:subject :s4231_507;
-  rdfs:predicate nif:subString;
-  rdfs:object :s4231_504;
+  tiger:cat "S".
+_:edge_54 a rdf:Statement;
+  rdf:object :s4231_507;
+  rdf:predicate nif:subString;
+  rdf:subject :s4231_504;
   tiger:label "OC".
-_:55 a rdfs:Statement;
-  rdfs:subject :s4231_507;
-  rdfs:predicate nif:subString;
-  rdfs:object :s4231_3;
+_:edge_55 a rdf:Statement;
+  rdf:object :s4231_507;
+  rdf:predicate nif:subString;
+  rdf:subject :s4231_3;
   tiger:label "HD".
-_:56 a rdfs:Statement;
-  rdfs:subject :s4231_507;
-  rdfs:predicate nif:subString;
-  rdfs:object :s4231_506;
+_:edge_56 a rdf:Statement;
+  rdf:object :s4231_507;
+  rdf:predicate nif:subString;
+  rdf:subject :s4231_506;
   tiger:label "SB".
 
       :s4231_VROOT a nif:Phrase;
   tiger:id "s4231_VROOT";
   tiger:cat "VROOT";
   nif:sentence :s4231.
-_:58 a rdfs:Statement;
-  rdfs:subject :s4231_VROOT;
-  rdfs:predicate nif:subString;
-  rdfs:object :s4231_507.
-_:59 a rdfs:Statement;
-  rdfs:subject :s4231_VROOT;
-  rdfs:predicate nif:subString;
-  rdfs:object :s4231_18.
+_:edge_58 a rdf:Statement;
+  rdf:object :s4231_VROOT;
+  rdf:predicate nif:subString;
+  rdf:subject :s4231_507.
+_:edge_59 a rdf:Statement;
+  rdf:object :s4231_VROOT;
+  rdf:predicate nif:subString;
+  rdf:subject :s4231_18.
 
     
   
@@ -342,7 +337,8 @@ _:59 a rdfs:Statement;
   tiger:id "s4232";
   tiger:root "s4232_VROOT";
   nif:firstWord :s4232_1;
-  nif:lastWord :s4232_24.
+  nif:lastWord :s4232_24;
+  nif:nextSentence :s4233.
 
   
     
@@ -531,225 +527,215 @@ _:59 a rdfs:Statement;
     
       :s4232_500 a nif:Phrase;
   tiger:id "s4232_500";
-  tiger:cat "NP";
-  nif:nextWord :s4232_501.
-_:89 a rdfs:Statement;
-  rdfs:subject :s4232_500;
-  rdfs:predicate nif:subString;
-  rdfs:object :s4232_4;
+  tiger:cat "NP".
+_:edge_89 a rdf:Statement;
+  rdf:object :s4232_500;
+  rdf:predicate nif:subString;
+  rdf:subject :s4232_4;
   tiger:label "NK".
-_:90 a rdfs:Statement;
-  rdfs:subject :s4232_500;
-  rdfs:predicate nif:subString;
-  rdfs:object :s4232_5;
+_:edge_90 a rdf:Statement;
+  rdf:object :s4232_500;
+  rdf:predicate nif:subString;
+  rdf:subject :s4232_5;
   tiger:label "NK".
 
       :s4232_501 a nif:Phrase;
   tiger:id "s4232_501";
-  tiger:cat "AP";
-  nif:nextWord :s4232_502.
-_:92 a rdfs:Statement;
-  rdfs:subject :s4232_501;
-  rdfs:predicate nif:subString;
-  rdfs:object :s4232_12;
+  tiger:cat "AP".
+_:edge_92 a rdf:Statement;
+  rdf:object :s4232_501;
+  rdf:predicate nif:subString;
+  rdf:subject :s4232_12;
   tiger:label "MO".
-_:93 a rdfs:Statement;
-  rdfs:subject :s4232_501;
-  rdfs:predicate nif:subString;
-  rdfs:object :s4232_13;
+_:edge_93 a rdf:Statement;
+  rdf:object :s4232_501;
+  rdf:predicate nif:subString;
+  rdf:subject :s4232_13;
   tiger:label "HD".
 
       :s4232_502 a nif:Phrase;
   tiger:id "s4232_502";
-  tiger:cat "PP";
-  nif:nextWord :s4232_503.
-_:95 a rdfs:Statement;
-  rdfs:subject :s4232_502;
-  rdfs:predicate nif:subString;
-  rdfs:object :s4232_17;
+  tiger:cat "PP".
+_:edge_95 a rdf:Statement;
+  rdf:object :s4232_502;
+  rdf:predicate nif:subString;
+  rdf:subject :s4232_17;
   tiger:label "AC".
-_:96 a rdfs:Statement;
-  rdfs:subject :s4232_502;
-  rdfs:predicate nif:subString;
-  rdfs:object :s4232_18;
+_:edge_96 a rdf:Statement;
+  rdf:object :s4232_502;
+  rdf:predicate nif:subString;
+  rdf:subject :s4232_18;
   tiger:label "NK".
-_:97 a rdfs:Statement;
-  rdfs:subject :s4232_502;
-  rdfs:predicate nif:subString;
-  rdfs:object :s4232_19;
+_:edge_97 a rdf:Statement;
+  rdf:object :s4232_502;
+  rdf:predicate nif:subString;
+  rdf:subject :s4232_19;
   tiger:label "NK".
 
       :s4232_503 a nif:Phrase;
   tiger:id "s4232_503";
-  tiger:cat "CNP";
-  nif:nextWord :s4232_504.
-_:99 a rdfs:Statement;
-  rdfs:subject :s4232_503;
-  rdfs:predicate nif:subString;
-  rdfs:object :s4232_500;
+  tiger:cat "CNP".
+_:edge_99 a rdf:Statement;
+  rdf:object :s4232_503;
+  rdf:predicate nif:subString;
+  rdf:subject :s4232_500;
   tiger:label "CJ".
-_:100 a rdfs:Statement;
-  rdfs:subject :s4232_503;
-  rdfs:predicate nif:subString;
-  rdfs:object :s4232_6;
+_:edge_100 a rdf:Statement;
+  rdf:object :s4232_503;
+  rdf:predicate nif:subString;
+  rdf:subject :s4232_6;
   tiger:label "CD".
-_:101 a rdfs:Statement;
-  rdfs:subject :s4232_503;
-  rdfs:predicate nif:subString;
-  rdfs:object :s4232_7;
+_:edge_101 a rdf:Statement;
+  rdf:object :s4232_503;
+  rdf:predicate nif:subString;
+  rdf:subject :s4232_7;
   tiger:label "CJ".
 
       :s4232_504 a nif:Phrase;
   tiger:id "s4232_504";
-  tiger:cat "AP";
-  nif:nextWord :s4232_505.
-_:103 a rdfs:Statement;
-  rdfs:subject :s4232_504;
-  rdfs:predicate nif:subString;
-  rdfs:object :s4232_15;
+  tiger:cat "AP".
+_:edge_103 a rdf:Statement;
+  rdf:object :s4232_504;
+  rdf:predicate nif:subString;
+  rdf:subject :s4232_15;
   tiger:label "MO".
-_:104 a rdfs:Statement;
-  rdfs:subject :s4232_504;
-  rdfs:predicate nif:subString;
-  rdfs:object :s4232_16;
+_:edge_104 a rdf:Statement;
+  rdf:object :s4232_504;
+  rdf:predicate nif:subString;
+  rdf:subject :s4232_16;
   tiger:label "MO".
-_:105 a rdfs:Statement;
-  rdfs:subject :s4232_504;
-  rdfs:predicate nif:subString;
-  rdfs:object :s4232_502;
+_:edge_105 a rdf:Statement;
+  rdf:object :s4232_504;
+  rdf:predicate nif:subString;
+  rdf:subject :s4232_502;
   tiger:label "MO".
-_:106 a rdfs:Statement;
-  rdfs:subject :s4232_504;
-  rdfs:predicate nif:subString;
-  rdfs:object :s4232_20;
+_:edge_106 a rdf:Statement;
+  rdf:object :s4232_504;
+  rdf:predicate nif:subString;
+  rdf:subject :s4232_20;
   tiger:label "HD".
 
       :s4232_505 a nif:Phrase;
   tiger:id "s4232_505";
-  tiger:cat "CAP";
-  nif:nextWord :s4232_506.
-_:108 a rdfs:Statement;
-  rdfs:subject :s4232_505;
-  rdfs:predicate nif:subString;
-  rdfs:object :s4232_501;
+  tiger:cat "CAP".
+_:edge_108 a rdf:Statement;
+  rdf:object :s4232_505;
+  rdf:predicate nif:subString;
+  rdf:subject :s4232_501;
   tiger:label "CJ".
-_:109 a rdfs:Statement;
-  rdfs:subject :s4232_505;
-  rdfs:predicate nif:subString;
-  rdfs:object :s4232_14;
+_:edge_109 a rdf:Statement;
+  rdf:object :s4232_505;
+  rdf:predicate nif:subString;
+  rdf:subject :s4232_14;
   tiger:label "CD".
-_:110 a rdfs:Statement;
-  rdfs:subject :s4232_505;
-  rdfs:predicate nif:subString;
-  rdfs:object :s4232_504;
+_:edge_110 a rdf:Statement;
+  rdf:object :s4232_505;
+  rdf:predicate nif:subString;
+  rdf:subject :s4232_504;
   tiger:label "CJ".
 
       :s4232_506 a nif:Phrase;
   tiger:id "s4232_506";
-  tiger:cat "PP";
-  nif:nextWord :s4232_507.
-_:112 a rdfs:Statement;
-  rdfs:subject :s4232_506;
-  rdfs:predicate nif:subString;
-  rdfs:object :s4232_11;
+  tiger:cat "PP".
+_:edge_112 a rdf:Statement;
+  rdf:object :s4232_506;
+  rdf:predicate nif:subString;
+  rdf:subject :s4232_11;
   tiger:label "AC".
-_:113 a rdfs:Statement;
-  rdfs:subject :s4232_506;
-  rdfs:predicate nif:subString;
-  rdfs:object :s4232_505;
+_:edge_113 a rdf:Statement;
+  rdf:object :s4232_506;
+  rdf:predicate nif:subString;
+  rdf:subject :s4232_505;
   tiger:label "NK".
-_:114 a rdfs:Statement;
-  rdfs:subject :s4232_506;
-  rdfs:predicate nif:subString;
-  rdfs:object :s4232_21;
+_:edge_114 a rdf:Statement;
+  rdf:object :s4232_506;
+  rdf:predicate nif:subString;
+  rdf:subject :s4232_21;
   tiger:label "NK".
 
       :s4232_507 a nif:Phrase;
   tiger:id "s4232_507";
-  tiger:cat "S";
-  nif:nextWord :s4232_508.
-_:116 a rdfs:Statement;
-  rdfs:subject :s4232_507;
-  rdfs:predicate nif:subString;
-  rdfs:object :s4232_9;
+  tiger:cat "S".
+_:edge_116 a rdf:Statement;
+  rdf:object :s4232_507;
+  rdf:predicate nif:subString;
+  rdf:subject :s4232_9;
   tiger:label "SB".
-_:117 a rdfs:Statement;
-  rdfs:subject :s4232_507;
-  rdfs:predicate nif:subString;
-  rdfs:object :s4232_10;
+_:edge_117 a rdf:Statement;
+  rdf:object :s4232_507;
+  rdf:predicate nif:subString;
+  rdf:subject :s4232_10;
   tiger:label "DA".
-_:118 a rdfs:Statement;
-  rdfs:subject :s4232_507;
-  rdfs:predicate nif:subString;
-  rdfs:object :s4232_506;
+_:edge_118 a rdf:Statement;
+  rdf:object :s4232_507;
+  rdf:predicate nif:subString;
+  rdf:subject :s4232_506;
   tiger:label "MO".
-_:119 a rdfs:Statement;
-  rdfs:subject :s4232_507;
-  rdfs:predicate nif:subString;
-  rdfs:object :s4232_22;
+_:edge_119 a rdf:Statement;
+  rdf:object :s4232_507;
+  rdf:predicate nif:subString;
+  rdf:subject :s4232_22;
   tiger:label "MO".
-_:120 a rdfs:Statement;
-  rdfs:subject :s4232_507;
-  rdfs:predicate nif:subString;
-  rdfs:object :s4232_23;
+_:edge_120 a rdf:Statement;
+  rdf:object :s4232_507;
+  rdf:predicate nif:subString;
+  rdf:subject :s4232_23;
   tiger:label "HD".
 
       :s4232_508 a nif:Phrase;
   tiger:id "s4232_508";
-  tiger:cat "NP";
-  nif:nextWord :s4232_509.
-_:122 a rdfs:Statement;
-  rdfs:subject :s4232_508;
-  rdfs:predicate nif:subString;
-  rdfs:object :s4232_3;
+  tiger:cat "NP".
+_:edge_122 a rdf:Statement;
+  rdf:object :s4232_508;
+  rdf:predicate nif:subString;
+  rdf:subject :s4232_3;
   tiger:label "NK".
-_:123 a rdfs:Statement;
-  rdfs:subject :s4232_508;
-  rdfs:predicate nif:subString;
-  rdfs:object :s4232_503;
+_:edge_123 a rdf:Statement;
+  rdf:object :s4232_508;
+  rdf:predicate nif:subString;
+  rdf:subject :s4232_503;
   tiger:label "NK".
-_:124 a rdfs:Statement;
-  rdfs:subject :s4232_508;
-  rdfs:predicate nif:subString;
-  rdfs:object :s4232_507;
+_:edge_124 a rdf:Statement;
+  rdf:object :s4232_508;
+  rdf:predicate nif:subString;
+  rdf:subject :s4232_507;
   tiger:label "RC".
 
       :s4232_509 a nif:Phrase;
   tiger:id "s4232_509";
-  tiger:cat "S";
-  nif:nextWord :s4232_VROOT.
-_:126 a rdfs:Statement;
-  rdfs:subject :s4232_509;
-  rdfs:predicate nif:subString;
-  rdfs:object :s4232_1;
+  tiger:cat "S".
+_:edge_126 a rdf:Statement;
+  rdf:object :s4232_509;
+  rdf:predicate nif:subString;
+  rdf:subject :s4232_1;
   tiger:label "PD".
-_:127 a rdfs:Statement;
-  rdfs:subject :s4232_509;
-  rdfs:predicate nif:subString;
-  rdfs:object :s4232_2;
+_:edge_127 a rdf:Statement;
+  rdf:object :s4232_509;
+  rdf:predicate nif:subString;
+  rdf:subject :s4232_2;
   tiger:label "HD".
-_:128 a rdfs:Statement;
-  rdfs:subject :s4232_509;
-  rdfs:predicate nif:subString;
-  rdfs:object :s4232_508;
+_:edge_128 a rdf:Statement;
+  rdf:object :s4232_509;
+  rdf:predicate nif:subString;
+  rdf:subject :s4232_508;
   tiger:label "SB".
 
       :s4232_VROOT a nif:Phrase;
   tiger:id "s4232_VROOT";
   tiger:cat "VROOT";
   nif:sentence :s4232.
-_:130 a rdfs:Statement;
-  rdfs:subject :s4232_VROOT;
-  rdfs:predicate nif:subString;
-  rdfs:object :s4232_509.
-_:131 a rdfs:Statement;
-  rdfs:subject :s4232_VROOT;
-  rdfs:predicate nif:subString;
-  rdfs:object :s4232_8.
-_:132 a rdfs:Statement;
-  rdfs:subject :s4232_VROOT;
-  rdfs:predicate nif:subString;
-  rdfs:object :s4232_24.
+_:edge_130 a rdf:Statement;
+  rdf:object :s4232_VROOT;
+  rdf:predicate nif:subString;
+  rdf:subject :s4232_509.
+_:edge_131 a rdf:Statement;
+  rdf:object :s4232_VROOT;
+  rdf:predicate nif:subString;
+  rdf:subject :s4232_8.
+_:edge_132 a rdf:Statement;
+  rdf:object :s4232_VROOT;
+  rdf:predicate nif:subString;
+  rdf:subject :s4232_24.
 
     
   
@@ -966,275 +952,261 @@ _:132 a rdfs:Statement;
     
       :s4233_500 a nif:Phrase;
   tiger:id "s4233_500";
-  tiger:cat "PP";
-  nif:nextWord :s4233_501.
-_:164 a rdfs:Statement;
-  rdfs:subject :s4233_500;
-  rdfs:predicate nif:subString;
-  rdfs:object :s4233_2;
+  tiger:cat "PP".
+_:edge_164 a rdf:Statement;
+  rdf:object :s4233_500;
+  rdf:predicate nif:subString;
+  rdf:subject :s4233_2;
   tiger:label "AC".
-_:165 a rdfs:Statement;
-  rdfs:subject :s4233_500;
-  rdfs:predicate nif:subString;
-  rdfs:object :s4233_3;
+_:edge_165 a rdf:Statement;
+  rdf:object :s4233_500;
+  rdf:predicate nif:subString;
+  rdf:subject :s4233_3;
   tiger:label "NK".
 
       :s4233_501 a nif:Phrase;
   tiger:id "s4233_501";
-  tiger:cat "NP";
-  nif:nextWord :s4233_502.
-_:167 a rdfs:Statement;
-  rdfs:subject :s4233_501;
-  rdfs:predicate nif:subString;
-  rdfs:object :s4233_7;
+  tiger:cat "NP".
+_:edge_167 a rdf:Statement;
+  rdf:object :s4233_501;
+  rdf:predicate nif:subString;
+  rdf:subject :s4233_7;
   tiger:label "NK".
-_:168 a rdfs:Statement;
-  rdfs:subject :s4233_501;
-  rdfs:predicate nif:subString;
-  rdfs:object :s4233_8;
+_:edge_168 a rdf:Statement;
+  rdf:object :s4233_501;
+  rdf:predicate nif:subString;
+  rdf:subject :s4233_8;
   tiger:label "NK".
 
       :s4233_502 a nif:Phrase;
   tiger:id "s4233_502";
-  tiger:cat "PP";
-  nif:nextWord :s4233_503.
-_:170 a rdfs:Statement;
-  rdfs:subject :s4233_502;
-  rdfs:predicate nif:subString;
-  rdfs:object :s4233_11;
+  tiger:cat "PP".
+_:edge_170 a rdf:Statement;
+  rdf:object :s4233_502;
+  rdf:predicate nif:subString;
+  rdf:subject :s4233_11;
   tiger:label "AC".
-_:171 a rdfs:Statement;
-  rdfs:subject :s4233_502;
-  rdfs:predicate nif:subString;
-  rdfs:object :s4233_12;
+_:edge_171 a rdf:Statement;
+  rdf:object :s4233_502;
+  rdf:predicate nif:subString;
+  rdf:subject :s4233_12;
   tiger:label "NK".
-_:172 a rdfs:Statement;
-  rdfs:subject :s4233_502;
-  rdfs:predicate nif:subString;
-  rdfs:object :s4233_13;
+_:edge_172 a rdf:Statement;
+  rdf:object :s4233_502;
+  rdf:predicate nif:subString;
+  rdf:subject :s4233_13;
   tiger:label "NK".
-_:173 a rdfs:Statement;
-  rdfs:subject :s4233_502;
-  rdfs:predicate nif:subString;
-  rdfs:object :s4233_14;
+_:edge_173 a rdf:Statement;
+  rdf:object :s4233_502;
+  rdf:predicate nif:subString;
+  rdf:subject :s4233_14;
   tiger:label "NK".
 
       :s4233_503 a nif:Phrase;
   tiger:id "s4233_503";
-  tiger:cat "NM";
-  nif:nextWord :s4233_504.
-_:175 a rdfs:Statement;
-  rdfs:subject :s4233_503;
-  rdfs:predicate nif:subString;
-  rdfs:object :s4233_22;
+  tiger:cat "NM".
+_:edge_175 a rdf:Statement;
+  rdf:object :s4233_503;
+  rdf:predicate nif:subString;
+  rdf:subject :s4233_22;
   tiger:label "NMC".
-_:176 a rdfs:Statement;
-  rdfs:subject :s4233_503;
-  rdfs:predicate nif:subString;
-  rdfs:object :s4233_23;
+_:edge_176 a rdf:Statement;
+  rdf:object :s4233_503;
+  rdf:predicate nif:subString;
+  rdf:subject :s4233_23;
   tiger:label "NMC".
 
       :s4233_504 a nif:Phrase;
   tiger:id "s4233_504";
-  tiger:cat "S";
-  nif:nextWord :s4233_505.
-_:178 a rdfs:Statement;
-  rdfs:subject :s4233_504;
-  rdfs:predicate nif:subString;
-  rdfs:object :s4233_1;
+  tiger:cat "S".
+_:edge_178 a rdf:Statement;
+  rdf:object :s4233_504;
+  rdf:predicate nif:subString;
+  rdf:subject :s4233_1;
   tiger:label "MO".
-_:179 a rdfs:Statement;
-  rdfs:subject :s4233_504;
-  rdfs:predicate nif:subString;
-  rdfs:object :s4233_500;
+_:edge_179 a rdf:Statement;
+  rdf:object :s4233_504;
+  rdf:predicate nif:subString;
+  rdf:subject :s4233_500;
   tiger:label "MO".
-_:180 a rdfs:Statement;
-  rdfs:subject :s4233_504;
-  rdfs:predicate nif:subString;
-  rdfs:object :s4233_4;
+_:edge_180 a rdf:Statement;
+  rdf:object :s4233_504;
+  rdf:predicate nif:subString;
+  rdf:subject :s4233_4;
   tiger:label "HD".
 
       :s4233_505 a nif:Phrase;
   tiger:id "s4233_505";
-  tiger:cat "NP";
-  nif:nextWord :s4233_506.
-_:182 a rdfs:Statement;
-  rdfs:subject :s4233_505;
-  rdfs:predicate nif:subString;
-  rdfs:object :s4233_9;
+  tiger:cat "NP".
+_:edge_182 a rdf:Statement;
+  rdf:object :s4233_505;
+  rdf:predicate nif:subString;
+  rdf:subject :s4233_9;
   tiger:label "NK".
-_:183 a rdfs:Statement;
-  rdfs:subject :s4233_505;
-  rdfs:predicate nif:subString;
-  rdfs:object :s4233_10;
+_:edge_183 a rdf:Statement;
+  rdf:object :s4233_505;
+  rdf:predicate nif:subString;
+  rdf:subject :s4233_10;
   tiger:label "NK".
-_:184 a rdfs:Statement;
-  rdfs:subject :s4233_505;
-  rdfs:predicate nif:subString;
-  rdfs:object :s4233_502;
+_:edge_184 a rdf:Statement;
+  rdf:object :s4233_505;
+  rdf:predicate nif:subString;
+  rdf:subject :s4233_502;
   tiger:label "MNR".
 
       :s4233_506 a nif:Phrase;
   tiger:id "s4233_506";
-  tiger:cat "AP";
-  nif:nextWord :s4233_507.
-_:186 a rdfs:Statement;
-  rdfs:subject :s4233_506;
-  rdfs:predicate nif:subString;
-  rdfs:object :s4233_21;
+  tiger:cat "AP".
+_:edge_186 a rdf:Statement;
+  rdf:object :s4233_506;
+  rdf:predicate nif:subString;
+  rdf:subject :s4233_21;
   tiger:label "CM".
-_:187 a rdfs:Statement;
-  rdfs:subject :s4233_506;
-  rdfs:predicate nif:subString;
-  rdfs:object :s4233_503;
+_:edge_187 a rdf:Statement;
+  rdf:object :s4233_506;
+  rdf:predicate nif:subString;
+  rdf:subject :s4233_503;
   tiger:label "HD".
 
       :s4233_507 a nif:Phrase;
   tiger:id "s4233_507";
-  tiger:cat "VP";
-  nif:nextWord :s4233_508.
-_:189 a rdfs:Statement;
-  rdfs:subject :s4233_507;
-  rdfs:predicate nif:subString;
-  rdfs:object :s4233_505;
+  tiger:cat "VP".
+_:edge_189 a rdf:Statement;
+  rdf:object :s4233_507;
+  rdf:predicate nif:subString;
+  rdf:subject :s4233_505;
   tiger:label "OA".
-_:190 a rdfs:Statement;
-  rdfs:subject :s4233_507;
-  rdfs:predicate nif:subString;
-  rdfs:object :s4233_15;
+_:edge_190 a rdf:Statement;
+  rdf:object :s4233_507;
+  rdf:predicate nif:subString;
+  rdf:subject :s4233_15;
   tiger:label "HD".
 
       :s4233_508 a nif:Phrase;
   tiger:id "s4233_508";
-  tiger:cat "AP";
-  nif:nextWord :s4233_509.
-_:192 a rdfs:Statement;
-  rdfs:subject :s4233_508;
-  rdfs:predicate nif:subString;
-  rdfs:object :s4233_20;
+  tiger:cat "AP".
+_:edge_192 a rdf:Statement;
+  rdf:object :s4233_508;
+  rdf:predicate nif:subString;
+  rdf:subject :s4233_20;
   tiger:label "HD".
-_:193 a rdfs:Statement;
-  rdfs:subject :s4233_508;
-  rdfs:predicate nif:subString;
-  rdfs:object :s4233_506;
+_:edge_193 a rdf:Statement;
+  rdf:object :s4233_508;
+  rdf:predicate nif:subString;
+  rdf:subject :s4233_506;
   tiger:label "CC".
 
       :s4233_509 a nif:Phrase;
   tiger:id "s4233_509";
-  tiger:cat "PP";
-  nif:nextWord :s4233_510.
-_:195 a rdfs:Statement;
-  rdfs:subject :s4233_509;
-  rdfs:predicate nif:subString;
-  rdfs:object :s4233_19;
+  tiger:cat "PP".
+_:edge_195 a rdf:Statement;
+  rdf:object :s4233_509;
+  rdf:predicate nif:subString;
+  rdf:subject :s4233_19;
   tiger:label "AC".
-_:196 a rdfs:Statement;
-  rdfs:subject :s4233_509;
-  rdfs:predicate nif:subString;
-  rdfs:object :s4233_508;
+_:edge_196 a rdf:Statement;
+  rdf:object :s4233_509;
+  rdf:predicate nif:subString;
+  rdf:subject :s4233_508;
   tiger:label "NK".
-_:197 a rdfs:Statement;
-  rdfs:subject :s4233_509;
-  rdfs:predicate nif:subString;
-  rdfs:object :s4233_24;
+_:edge_197 a rdf:Statement;
+  rdf:object :s4233_509;
+  rdf:predicate nif:subString;
+  rdf:subject :s4233_24;
   tiger:label "NK".
 
       :s4233_510 a nif:Phrase;
   tiger:id "s4233_510";
-  tiger:cat "NP";
-  nif:nextWord :s4233_511.
-_:199 a rdfs:Statement;
-  rdfs:subject :s4233_510;
-  rdfs:predicate nif:subString;
-  rdfs:object :s4233_18;
+  tiger:cat "NP".
+_:edge_199 a rdf:Statement;
+  rdf:object :s4233_510;
+  rdf:predicate nif:subString;
+  rdf:subject :s4233_18;
   tiger:label "NK".
-_:200 a rdfs:Statement;
-  rdfs:subject :s4233_510;
-  rdfs:predicate nif:subString;
-  rdfs:object :s4233_509;
+_:edge_200 a rdf:Statement;
+  rdf:object :s4233_510;
+  rdf:predicate nif:subString;
+  rdf:subject :s4233_509;
   tiger:label "MNR".
 
       :s4233_511 a nif:Phrase;
   tiger:id "s4233_511";
-  tiger:cat "VP";
-  nif:nextWord :s4233_512.
-_:202 a rdfs:Statement;
-  rdfs:subject :s4233_511;
-  rdfs:predicate nif:subString;
-  rdfs:object :s4233_17;
+  tiger:cat "VP".
+_:edge_202 a rdf:Statement;
+  rdf:object :s4233_511;
+  rdf:predicate nif:subString;
+  rdf:subject :s4233_17;
   tiger:label "MO".
-_:203 a rdfs:Statement;
-  rdfs:subject :s4233_511;
-  rdfs:predicate nif:subString;
-  rdfs:object :s4233_510;
+_:edge_203 a rdf:Statement;
+  rdf:object :s4233_511;
+  rdf:predicate nif:subString;
+  rdf:subject :s4233_510;
   tiger:label "OA".
-_:204 a rdfs:Statement;
-  rdfs:subject :s4233_511;
-  rdfs:predicate nif:subString;
-  rdfs:object :s4233_25;
+_:edge_204 a rdf:Statement;
+  rdf:object :s4233_511;
+  rdf:predicate nif:subString;
+  rdf:subject :s4233_25;
   tiger:label "HD".
 
       :s4233_512 a nif:Phrase;
   tiger:id "s4233_512";
-  tiger:cat "CVP";
-  nif:nextWord :s4233_513.
-_:206 a rdfs:Statement;
-  rdfs:subject :s4233_512;
-  rdfs:predicate nif:subString;
-  rdfs:object :s4233_507;
+  tiger:cat "CVP".
+_:edge_206 a rdf:Statement;
+  rdf:object :s4233_512;
+  rdf:predicate nif:subString;
+  rdf:subject :s4233_507;
   tiger:label "CJ".
-_:207 a rdfs:Statement;
-  rdfs:subject :s4233_512;
-  rdfs:predicate nif:subString;
-  rdfs:object :s4233_16;
+_:edge_207 a rdf:Statement;
+  rdf:object :s4233_512;
+  rdf:predicate nif:subString;
+  rdf:subject :s4233_16;
   tiger:label "CD".
-_:208 a rdfs:Statement;
-  rdfs:subject :s4233_512;
-  rdfs:predicate nif:subString;
-  rdfs:object :s4233_511;
+_:edge_208 a rdf:Statement;
+  rdf:object :s4233_512;
+  rdf:predicate nif:subString;
+  rdf:subject :s4233_511;
   tiger:label "CJ".
 
       :s4233_513 a nif:Phrase;
   tiger:id "s4233_513";
-  tiger:cat "S";
-  nif:nextWord :s4233_VROOT.
-_:210 a rdfs:Statement;
-  rdfs:subject :s4233_513;
-  rdfs:predicate nif:subString;
-  rdfs:object :s4233_504;
+  tiger:cat "S".
+_:edge_210 a rdf:Statement;
+  rdf:object :s4233_513;
+  rdf:predicate nif:subString;
+  rdf:subject :s4233_504;
   tiger:label "MO".
-_:211 a rdfs:Statement;
-  rdfs:subject :s4233_513;
-  rdfs:predicate nif:subString;
-  rdfs:object :s4233_6;
+_:edge_211 a rdf:Statement;
+  rdf:object :s4233_513;
+  rdf:predicate nif:subString;
+  rdf:subject :s4233_6;
   tiger:label "HD".
-_:212 a rdfs:Statement;
-  rdfs:subject :s4233_513;
-  rdfs:predicate nif:subString;
-  rdfs:object :s4233_501;
+_:edge_212 a rdf:Statement;
+  rdf:object :s4233_513;
+  rdf:predicate nif:subString;
+  rdf:subject :s4233_501;
   tiger:label "SB".
-_:213 a rdfs:Statement;
-  rdfs:subject :s4233_513;
-  rdfs:predicate nif:subString;
-  rdfs:object :s4233_512;
+_:edge_213 a rdf:Statement;
+  rdf:object :s4233_513;
+  rdf:predicate nif:subString;
+  rdf:subject :s4233_512;
   tiger:label "OC".
 
       :s4233_VROOT a nif:Phrase;
   tiger:id "s4233_VROOT";
   tiger:cat "VROOT";
   nif:sentence :s4233.
-_:215 a rdfs:Statement;
-  rdfs:subject :s4233_VROOT;
-  rdfs:predicate nif:subString;
-  rdfs:object :s4233_513.
-_:216 a rdfs:Statement;
-  rdfs:subject :s4233_VROOT;
-  rdfs:predicate nif:subString;
-  rdfs:object :s4233_5.
-_:217 a rdfs:Statement;
-  rdfs:subject :s4233_VROOT;
-  rdfs:predicate nif:subString;
-  rdfs:object :s4233_26.
+_:edge_215 a rdf:Statement;
+  rdf:object :s4233_VROOT;
+  rdf:predicate nif:subString;
+  rdf:subject :s4233_513.
+_:edge_216 a rdf:Statement;
+  rdf:object :s4233_VROOT;
+  rdf:predicate nif:subString;
+  rdf:subject :s4233_5.
+_:edge_217 a rdf:Statement;
+  rdf:object :s4233_VROOT;
+  rdf:predicate nif:subString;
+  rdf:subject :s4233_26.
 
     
   
