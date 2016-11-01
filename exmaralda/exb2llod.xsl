@@ -53,6 +53,7 @@
         </xsl:template>
             
      <xsl:template match="speakertable">
+         <xsl:if test="count(speaker[1])&gt;0">
          <xsl:text>&lt;</xsl:text>
          <xsl:value-of select="$baseURI"/>
          <xsl:text>&gt; </xsl:text>
@@ -81,13 +82,14 @@
              </xsl:for-each>
              <xsl:text>.&#10;&#10;</xsl:text>
          </xsl:for-each>
+         </xsl:if>
      </xsl:template>
             
     <!--
         common_timeline
         explicit encoding may seem redundant, but in a first conversion, we aim to stay isomorphic to Exmaralda, and only here, an absolute sequence of timepoints is given
     -->
-    <xsl:template match="common_timeline">
+    <xsl:template match="common-timeline">
         <xsl:text>&lt;</xsl:text>
         <xsl:value-of select="$baseURI"/>
         <xsl:text>&gt; exb:</xsl:text>

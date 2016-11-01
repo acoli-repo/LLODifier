@@ -1,0 +1,3326 @@
+PREFIX exb: <http://exmaralda.org/en/>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX : <http://example.org/PLEASE_PROVIDE_baseURI_PARAMETER#>
+
+<http://example.org/PLEASE_PROVIDE_baseURI_PARAMETER> a exb:basic-transcription.
+
+<http://example.org/PLEASE_PROVIDE_baseURI_PARAMETER> exb:common-timeline ( :T0 :T1 :T2 :T3 :T4 :T5 :T6 :T7 :T8 :T9 :T10 :T11 :T12 :T13 :T14 :T15 :T16 :T17 :T18 :T19 :T20 :T21 :T22 :T23 :T24 :T25 :T26 :T27 :T28 :T29 :T30 :T31 :T32 :T33 :T34 :T35 :T36 :T37 :T38 :T39 :T40 :T41 :T42 :T43 :T44 :T45 :T46 :T47 :T48 :T49 :T50 :T51 :T52 :T53 :T54 :T55 :T56 :T57 :T58 :T59 :T60 :T61 :T62 :T63 :T64 :T65 :T66 :T67 :T68 :T69 :T70 :T71 :T72 :T73 :T74 :T75 :T76 :T77 :T78 :T79 :T80 :T81 :T82 :T83 :T84 :T85 :T86 :T87 :T88 :T89 :T90 :T91 :T92 :T93 :T94 :T95 :T96 :T97 :T98 :T99 :T100 :T101 :T102 :T103 :T104 :T105 :T106 :T107 :T108 :T109 :T110 :T111 :T112 :T113 :T114 :T115 :T116 :T117 :T118 :T119 :T120 :T121 :T122 :T123 :T124 :T125 :T126 :T127 :T128 :T129 :T130 :T131 :T132 :T133 :T134 :T135 :T136 :T137 :T138 :T139 :T140 :T141 :T142 :T143 :T144 :T145 :T146 :T147 :T148 :T149 :T150 :T151 :T152 :T153 :T154 :T155 :T156 :T157 :T158 :T159 :T160 :T161 :T162 :T163 :T164 :T165 :T166 :T167 :T168 :T169 :T170 :T171 :T172 :T173 :T174 :T175 :T176 :T177 :T178 :T179 :T180 :T181 :T182 :T183 :T184 :T185 :T186 :T187).
+:T0 exb:time "0.0".
+:T1 exb:time "1.0".
+:T2 exb:time "2.0".
+:T3 exb:time "3.0".
+:T4 exb:time "4.0".
+:T5 exb:time "5.0".
+:T6 exb:time "6.0".
+:T7 exb:time "7.0".
+:T8 exb:time "8.0".
+:T9 exb:time "9.0".
+:T10 exb:time "10.0".
+:T11 exb:time "11.0".
+:T12 exb:time "12.0".
+:T13 exb:time "13.0".
+:T14 exb:time "14.0".
+:T15 exb:time "15.0".
+:T16 exb:time "16.0".
+:T17 exb:time "17.0".
+:T18 exb:time "18.0".
+:T19 exb:time "19.0".
+:T20 exb:time "20.0".
+:T21 exb:time "21.0".
+:T22 exb:time "22.0".
+:T23 exb:time "23.0".
+:T24 exb:time "24.0".
+:T25 exb:time "25.0".
+:T26 exb:time "26.0".
+:T27 exb:time "27.0".
+:T28 exb:time "28.0".
+:T29 exb:time "29.0".
+:T30 exb:time "30.0".
+:T31 exb:time "31.0".
+:T32 exb:time "32.0".
+:T33 exb:time "33.0".
+:T34 exb:time "34.0".
+:T35 exb:time "35.0".
+:T36 exb:time "36.0".
+:T37 exb:time "37.0".
+:T38 exb:time "38.0".
+:T39 exb:time "39.0".
+:T40 exb:time "40.0".
+:T41 exb:time "41.0".
+:T42 exb:time "42.0".
+:T43 exb:time "43.0".
+:T44 exb:time "44.0".
+:T45 exb:time "45.0".
+:T46 exb:time "46.0".
+:T47 exb:time "47.0".
+:T48 exb:time "48.0".
+:T49 exb:time "49.0".
+:T50 exb:time "50.0".
+:T51 exb:time "51.0".
+:T52 exb:time "52.0".
+:T53 exb:time "53.0".
+:T54 exb:time "54.0".
+:T55 exb:time "55.0".
+:T56 exb:time "56.0".
+:T57 exb:time "57.0".
+:T58 exb:time "58.0".
+:T59 exb:time "59.0".
+:T60 exb:time "60.0".
+:T61 exb:time "61.0".
+:T62 exb:time "62.0".
+:T63 exb:time "63.0".
+:T64 exb:time "64.0".
+:T65 exb:time "65.0".
+:T66 exb:time "66.0".
+:T67 exb:time "67.0".
+:T68 exb:time "68.0".
+:T69 exb:time "69.0".
+:T70 exb:time "70.0".
+:T71 exb:time "71.0".
+:T72 exb:time "72.0".
+:T73 exb:time "73.0".
+:T74 exb:time "74.0".
+:T75 exb:time "75.0".
+:T76 exb:time "76.0".
+:T77 exb:time "77.0".
+:T78 exb:time "78.0".
+:T79 exb:time "79.0".
+:T80 exb:time "80.0".
+:T81 exb:time "81.0".
+:T82 exb:time "82.0".
+:T83 exb:time "83.0".
+:T84 exb:time "84.0".
+:T85 exb:time "85.0".
+:T86 exb:time "86.0".
+:T87 exb:time "87.0".
+:T88 exb:time "88.0".
+:T89 exb:time "89.0".
+:T90 exb:time "90.0".
+:T91 exb:time "91.0".
+:T92 exb:time "92.0".
+:T93 exb:time "93.0".
+:T94 exb:time "94.0".
+:T95 exb:time "95.0".
+:T96 exb:time "96.0".
+:T97 exb:time "97.0".
+:T98 exb:time "98.0".
+:T99 exb:time "99.0".
+:T100 exb:time "100.0".
+:T101 exb:time "101.0".
+:T102 exb:time "102.0".
+:T103 exb:time "103.0".
+:T104 exb:time "104.0".
+:T105 exb:time "105.0".
+:T106 exb:time "106.0".
+:T107 exb:time "107.0".
+:T108 exb:time "108.0".
+:T109 exb:time "109.0".
+:T110 exb:time "110.0".
+:T111 exb:time "111.0".
+:T112 exb:time "112.0".
+:T113 exb:time "113.0".
+:T114 exb:time "114.0".
+:T115 exb:time "115.0".
+:T116 exb:time "116.0".
+:T117 exb:time "117.0".
+:T118 exb:time "118.0".
+:T119 exb:time "119.0".
+:T120 exb:time "120.0".
+:T121 exb:time "121.0".
+:T122 exb:time "122.0".
+:T123 exb:time "123.0".
+:T124 exb:time "124.0".
+:T125 exb:time "125.0".
+:T126 exb:time "126.0".
+:T127 exb:time "127.0".
+:T128 exb:time "128.0".
+:T129 exb:time "129.0".
+:T130 exb:time "130.0".
+:T131 exb:time "131.0".
+:T132 exb:time "132.0".
+:T133 exb:time "133.0".
+:T134 exb:time "134.0".
+:T135 exb:time "135.0".
+:T136 exb:time "136.0".
+:T137 exb:time "137.0".
+:T138 exb:time "138.0".
+:T139 exb:time "139.0".
+:T140 exb:time "140.0".
+:T141 exb:time "141.0".
+:T142 exb:time "142.0".
+:T143 exb:time "143.0".
+:T144 exb:time "144.0".
+:T145 exb:time "145.0".
+:T146 exb:time "146.0".
+:T147 exb:time "147.0".
+:T148 exb:time "148.0".
+:T149 exb:time "149.0".
+:T150 exb:time "150.0".
+:T151 exb:time "151.0".
+:T152 exb:time "152.0".
+:T153 exb:time "153.0".
+:T154 exb:time "154.0".
+:T155 exb:time "155.0".
+:T156 exb:time "156.0".
+:T157 exb:time "157.0".
+:T158 exb:time "158.0".
+:T159 exb:time "159.0".
+:T160 exb:time "160.0".
+:T161 exb:time "161.0".
+:T162 exb:time "162.0".
+:T163 exb:time "163.0".
+:T164 exb:time "164.0".
+:T165 exb:time "165.0".
+:T166 exb:time "166.0".
+:T167 exb:time "167.0".
+:T168 exb:time "168.0".
+:T169 exb:time "169.0".
+:T170 exb:time "170.0".
+:T171 exb:time "171.0".
+:T172 exb:time "172.0".
+:T173 exb:time "173.0".
+:T174 exb:time "174.0".
+:T175 exb:time "175.0".
+:T176 exb:time "176.0".
+:T177 exb:time "177.0".
+:T178 exb:time "178.0".
+:T179 exb:time "179.0".
+:T180 exb:time "180.0".
+:T181 exb:time "181.0".
+:T182 exb:time "182.0".
+:T183 exb:time "183.0".
+:T184 exb:time "184.0".
+:T185 exb:time "185.0".
+:T186 exb:time "186.0".
+:T187 exb:time "187.0".
+<http://example.org/PLEASE_PROVIDE_baseURI_PARAMETER> exb:tier :TIE0.
+:TIE0 a exb:tier;
+  exb:category "tok";
+  exb:type "t";
+  exb:display-name "[tok]".
+
+:TIE0 exb:event :event1.
+:event1 a exb:tok;
+  exb:start :T0;
+  exb:end :T1;
+  rdfs:label "Steilpass".
+
+:TIE0 exb:event :event2.
+:event2 a exb:tok;
+  exb:start :T1;
+  exb:end :T2;
+  rdfs:label "Wunder".
+
+:TIE0 exb:event :event3.
+:event3 a exb:tok;
+  exb:start :T2;
+  exb:end :T3;
+  rdfs:label "gibt".
+
+:TIE0 exb:event :event4.
+:event4 a exb:tok;
+  exb:start :T3;
+  exb:end :T4;
+  rdfs:label "es".
+
+:TIE0 exb:event :event5.
+:event5 a exb:tok;
+  exb:start :T4;
+  exb:end :T5;
+  rdfs:label "immer".
+
+:TIE0 exb:event :event6.
+:event6 a exb:tok;
+  exb:start :T5;
+  exb:end :T6;
+  rdfs:label "wieder".
+
+:TIE0 exb:event :event7.
+:event7 a exb:tok;
+  exb:start :T6;
+  exb:end :T7;
+  rdfs:label "!".
+
+:TIE0 exb:event :event8.
+:event8 a exb:tok;
+  exb:start :T7;
+  exb:end :T8;
+  rdfs:label "Erst".
+
+:TIE0 exb:event :event9.
+:event9 a exb:tok;
+  exb:start :T8;
+  exb:end :T9;
+  rdfs:label "spielen".
+
+:TIE0 exb:event :event10.
+:event10 a exb:tok;
+  exb:start :T9;
+  exb:end :T10;
+  rdfs:label "die".
+
+:TIE0 exb:event :event11.
+:event11 a exb:tok;
+  exb:start :T10;
+  exb:end :T11;
+  rdfs:label "Dallgower".
+
+:TIE0 exb:event :event12.
+:event12 a exb:tok;
+  exb:start :T11;
+  exb:end :T12;
+  rdfs:label "Gemeindevertreter".
+
+:TIE0 exb:event :event13.
+:event13 a exb:tok;
+  exb:start :T12;
+  exb:end :T13;
+  rdfs:label "so".
+
+:TIE0 exb:event :event14.
+:event14 a exb:tok;
+  exb:start :T13;
+  exb:end :T14;
+  rdfs:label "statisch".
+
+:TIE0 exb:event :event15.
+:event15 a exb:tok;
+  exb:start :T14;
+  exb:end :T15;
+  rdfs:label "und".
+
+:TIE0 exb:event :event16.
+:event16 a exb:tok;
+  exb:start :T15;
+  exb:end :T16;
+  rdfs:label "verzagt".
+
+:TIE0 exb:event :event17.
+:event17 a exb:tok;
+  exb:start :T16;
+  exb:end :T17;
+  rdfs:label "wie".
+
+:TIE0 exb:event :event18.
+:event18 a exb:tok;
+  exb:start :T17;
+  exb:end :T18;
+  rdfs:label "die".
+
+:TIE0 exb:event :event19.
+:event19 a exb:tok;
+  exb:start :T18;
+  exb:end :T19;
+  rdfs:label "deutsche".
+
+:TIE0 exb:event :event20.
+:event20 a exb:tok;
+  exb:start :T19;
+  exb:end :T20;
+  rdfs:label "Abwehrreihe".
+
+:TIE0 exb:event :event21.
+:event21 a exb:tok;
+  exb:start :T20;
+  exb:end :T21;
+  rdfs:label "der".
+
+:TIE0 exb:event :event22.
+:event22 a exb:tok;
+  exb:start :T21;
+  exb:end :T22;
+  rdfs:label "Fußballkicker".
+
+:TIE0 exb:event :event23.
+:event23 a exb:tok;
+  exb:start :T22;
+  exb:end :T23;
+  rdfs:label ".".
+
+:TIE0 exb:event :event24.
+:event24 a exb:tok;
+  exb:start :T23;
+  exb:end :T24;
+  rdfs:label "Und".
+
+:TIE0 exb:event :event25.
+:event25 a exb:tok;
+  exb:start :T24;
+  exb:end :T25;
+  rdfs:label "dann".
+
+:TIE0 exb:event :event26.
+:event26 a exb:tok;
+  exb:start :T25;
+  exb:end :T26;
+  rdfs:label "kommt".
+
+:TIE0 exb:event :event27.
+:event27 a exb:tok;
+  exb:start :T26;
+  exb:end :T27;
+  rdfs:label "aus".
+
+:TIE0 exb:event :event28.
+:event28 a exb:tok;
+  exb:start :T27;
+  exb:end :T28;
+  rdfs:label "der".
+
+:TIE0 exb:event :event29.
+:event29 a exb:tok;
+  exb:start :T28;
+  exb:end :T29;
+  rdfs:label "Tiefe".
+
+:TIE0 exb:event :event30.
+:event30 a exb:tok;
+  exb:start :T29;
+  exb:end :T30;
+  rdfs:label "solch".
+
+:TIE0 exb:event :event31.
+:event31 a exb:tok;
+  exb:start :T30;
+  exb:end :T31;
+  rdfs:label "ein".
+
+:TIE0 exb:event :event32.
+:event32 a exb:tok;
+  exb:start :T31;
+  exb:end :T32;
+  rdfs:label "fulminanter".
+
+:TIE0 exb:event :event33.
+:event33 a exb:tok;
+  exb:start :T32;
+  exb:end :T33;
+  rdfs:label "Steilpass".
+
+:TIE0 exb:event :event34.
+:event34 a exb:tok;
+  exb:start :T33;
+  exb:end :T34;
+  rdfs:label ",".
+
+:TIE0 exb:event :event35.
+:event35 a exb:tok;
+  exb:start :T34;
+  exb:end :T35;
+  rdfs:label "von".
+
+:TIE0 exb:event :event36.
+:event36 a exb:tok;
+  exb:start :T35;
+  exb:end :T36;
+  rdfs:label "dem".
+
+:TIE0 exb:event :event37.
+:event37 a exb:tok;
+  exb:start :T36;
+  exb:end :T37;
+  rdfs:label "man".
+
+:TIE0 exb:event :event38.
+:event38 a exb:tok;
+  exb:start :T37;
+  exb:end :T38;
+  rdfs:label "hofft".
+
+:TIE0 exb:event :event39.
+:event39 a exb:tok;
+  exb:start :T38;
+  exb:end :T39;
+  rdfs:label ",".
+
+:TIE0 exb:event :event40.
+:event40 a exb:tok;
+  exb:start :T39;
+  exb:end :T40;
+  rdfs:label "dass".
+
+:TIE0 exb:event :event41.
+:event41 a exb:tok;
+  exb:start :T40;
+  exb:end :T41;
+  rdfs:label "die".
+
+:TIE0 exb:event :event42.
+:event42 a exb:tok;
+  exb:start :T41;
+  exb:end :T42;
+  rdfs:label "Seeburger".
+
+:TIE0 exb:event :event43.
+:event43 a exb:tok;
+  exb:start :T42;
+  exb:end :T43;
+  rdfs:label "oder".
+
+:TIE0 exb:event :event44.
+:event44 a exb:tok;
+  exb:start :T43;
+  exb:end :T44;
+  rdfs:label "Groß-Glienicker".
+
+:TIE0 exb:event :event45.
+:event45 a exb:tok;
+  exb:start :T44;
+  exb:end :T45;
+  rdfs:label "Mitspieler".
+
+:TIE0 exb:event :event46.
+:event46 a exb:tok;
+  exb:start :T45;
+  exb:end :T46;
+  rdfs:label "ihn".
+
+:TIE0 exb:event :event47.
+:event47 a exb:tok;
+  exb:start :T46;
+  exb:end :T47;
+  rdfs:label "aufnehmen".
+
+:TIE0 exb:event :event48.
+:event48 a exb:tok;
+  exb:start :T47;
+  exb:end :T48;
+  rdfs:label "können".
+
+:TIE0 exb:event :event49.
+:event49 a exb:tok;
+  exb:start :T48;
+  exb:end :T49;
+  rdfs:label ".".
+
+:TIE0 exb:event :event50.
+:event50 a exb:tok;
+  exb:start :T49;
+  exb:end :T50;
+  rdfs:label "Ein".
+
+:TIE0 exb:event :event51.
+:event51 a exb:tok;
+  exb:start :T50;
+  exb:end :T51;
+  rdfs:label "Befreiungsschlag".
+
+:TIE0 exb:event :event52.
+:event52 a exb:tok;
+  exb:start :T51;
+  exb:end :T52;
+  rdfs:label "ist".
+
+:TIE0 exb:event :event53.
+:event53 a exb:tok;
+  exb:start :T52;
+  exb:end :T53;
+  rdfs:label "es".
+
+:TIE0 exb:event :event54.
+:event54 a exb:tok;
+  exb:start :T53;
+  exb:end :T54;
+  rdfs:label "allerdings".
+
+:TIE0 exb:event :event55.
+:event55 a exb:tok;
+  exb:start :T54;
+  exb:end :T55;
+  rdfs:label "nicht".
+
+:TIE0 exb:event :event56.
+:event56 a exb:tok;
+  exb:start :T55;
+  exb:end :T56;
+  rdfs:label ",".
+
+:TIE0 exb:event :event57.
+:event57 a exb:tok;
+  exb:start :T56;
+  exb:end :T57;
+  rdfs:label "weil".
+
+:TIE0 exb:event :event58.
+:event58 a exb:tok;
+  exb:start :T57;
+  exb:end :T58;
+  rdfs:label "es".
+
+:TIE0 exb:event :event59.
+:event59 a exb:tok;
+  exb:start :T58;
+  exb:end :T59;
+  rdfs:label "vorerst".
+
+:TIE0 exb:event :event60.
+:event60 a exb:tok;
+  exb:start :T59;
+  exb:end :T60;
+  rdfs:label "keine".
+
+:TIE0 exb:event :event61.
+:event61 a exb:tok;
+  exb:start :T60;
+  exb:end :T61;
+  rdfs:label "Gefahr".
+
+:TIE0 exb:event :event62.
+:event62 a exb:tok;
+  exb:start :T61;
+  exb:end :T62;
+  rdfs:label "fürs".
+
+:TIE0 exb:event :event63.
+:event63 a exb:tok;
+  exb:start :T62;
+  exb:end :T63;
+  rdfs:label "Dallgower".
+
+:TIE0 exb:event :event64.
+:event64 a exb:tok;
+  exb:start :T63;
+  exb:end :T64;
+  rdfs:label "Tor".
+
+:TIE0 exb:event :event65.
+:event65 a exb:tok;
+  exb:start :T64;
+  exb:end :T65;
+  rdfs:label "gab".
+
+:TIE0 exb:event :event66.
+:event66 a exb:tok;
+  exb:start :T65;
+  exb:end :T66;
+  rdfs:label ".".
+
+:TIE0 exb:event :event67.
+:event67 a exb:tok;
+  exb:start :T66;
+  exb:end :T67;
+  rdfs:label "Die".
+
+:TIE0 exb:event :event68.
+:event68 a exb:tok;
+  exb:start :T67;
+  exb:end :T68;
+  rdfs:label "Seeburger".
+
+:TIE0 exb:event :event69.
+:event69 a exb:tok;
+  exb:start :T68;
+  exb:end :T69;
+  rdfs:label "und".
+
+:TIE0 exb:event :event70.
+:event70 a exb:tok;
+  exb:start :T69;
+  exb:end :T70;
+  rdfs:label "einige".
+
+:TIE0 exb:event :event71.
+:event71 a exb:tok;
+  exb:start :T70;
+  exb:end :T71;
+  rdfs:label "Groß-Glienicker".
+
+:TIE0 exb:event :event72.
+:event72 a exb:tok;
+  exb:start :T71;
+  exb:end :T72;
+  rdfs:label "haben".
+
+:TIE0 exb:event :event73.
+:event73 a exb:tok;
+  exb:start :T72;
+  exb:end :T73;
+  rdfs:label "den".
+
+:TIE0 exb:event :event74.
+:event74 a exb:tok;
+  exb:start :T73;
+  exb:end :T74;
+  rdfs:label "Ball".
+
+:TIE0 exb:event :event75.
+:event75 a exb:tok;
+  exb:start :T74;
+  exb:end :T75;
+  rdfs:label "erst".
+
+:TIE0 exb:event :event76.
+:event76 a exb:tok;
+  exb:start :T75;
+  exb:end :T76;
+  rdfs:label "zurückgespielt".
+
+:TIE0 exb:event :event77.
+:event77 a exb:tok;
+  exb:start :T76;
+  exb:end :T77;
+  rdfs:label "und".
+
+:TIE0 exb:event :event78.
+:event78 a exb:tok;
+  exb:start :T77;
+  exb:end :T78;
+  rdfs:label "dann".
+
+:TIE0 exb:event :event79.
+:event79 a exb:tok;
+  exb:start :T78;
+  exb:end :T79;
+  rdfs:label "um".
+
+:TIE0 exb:event :event80.
+:event80 a exb:tok;
+  exb:start :T79;
+  exb:end :T80;
+  rdfs:label "so".
+
+:TIE0 exb:event :event81.
+:event81 a exb:tok;
+  exb:start :T80;
+  exb:end :T81;
+  rdfs:label "drängender".
+
+:TIE0 exb:event :event82.
+:event82 a exb:tok;
+  exb:start :T81;
+  exb:end :T82;
+  rdfs:label "wieder".
+
+:TIE0 exb:event :event83.
+:event83 a exb:tok;
+  exb:start :T82;
+  exb:end :T83;
+  rdfs:label "gefordert".
+
+:TIE0 exb:event :event84.
+:event84 a exb:tok;
+  exb:start :T83;
+  exb:end :T84;
+  rdfs:label ".".
+
+:TIE0 exb:event :event85.
+:event85 a exb:tok;
+  exb:start :T84;
+  exb:end :T85;
+  rdfs:label "Nun".
+
+:TIE0 exb:event :event86.
+:event86 a exb:tok;
+  exb:start :T85;
+  exb:end :T86;
+  rdfs:label "sollen".
+
+:TIE0 exb:event :event87.
+:event87 a exb:tok;
+  exb:start :T86;
+  exb:end :T87;
+  rdfs:label "sie".
+
+:TIE0 exb:event :event88.
+:event88 a exb:tok;
+  exb:start :T87;
+  exb:end :T88;
+  rdfs:label "zeigen".
+
+:TIE0 exb:event :event89.
+:event89 a exb:tok;
+  exb:start :T88;
+  exb:end :T89;
+  rdfs:label ",".
+
+:TIE0 exb:event :event90.
+:event90 a exb:tok;
+  exb:start :T89;
+  exb:end :T90;
+  rdfs:label "wie".
+
+:TIE0 exb:event :event91.
+:event91 a exb:tok;
+  exb:start :T90;
+  exb:end :T91;
+  rdfs:label "sie".
+
+:TIE0 exb:event :event92.
+:event92 a exb:tok;
+  exb:start :T91;
+  exb:end :T92;
+  rdfs:label "die".
+
+:TIE0 exb:event :event93.
+:event93 a exb:tok;
+  exb:start :T92;
+  exb:end :T93;
+  rdfs:label "Chance".
+
+:TIE0 exb:event :event94.
+:event94 a exb:tok;
+  exb:start :T93;
+  exb:end :T94;
+  rdfs:label "verwerten".
+
+:TIE0 exb:event :event95.
+:event95 a exb:tok;
+  exb:start :T94;
+  exb:end :T95;
+  rdfs:label ".".
+
+:TIE0 exb:event :event96.
+:event96 a exb:tok;
+  exb:start :T95;
+  exb:end :T96;
+  rdfs:label "Eine".
+
+:TIE0 exb:event :event97.
+:event97 a exb:tok;
+  exb:start :T96;
+  exb:end :T97;
+  rdfs:label "Diskussion".
+
+:TIE0 exb:event :event98.
+:event98 a exb:tok;
+  exb:start :T97;
+  exb:end :T98;
+  rdfs:label ",".
+
+:TIE0 exb:event :event99.
+:event99 a exb:tok;
+  exb:start :T98;
+  exb:end :T99;
+  rdfs:label "wo".
+
+:TIE0 exb:event :event100.
+:event100 a exb:tok;
+  exb:start :T99;
+  exb:end :T100;
+  rdfs:label "künftig".
+
+:TIE0 exb:event :event101.
+:event101 a exb:tok;
+  exb:start :T100;
+  exb:end :T101;
+  rdfs:label "die".
+
+:TIE0 exb:event :event102.
+:event102 a exb:tok;
+  exb:start :T101;
+  exb:end :T102;
+  rdfs:label "Trainerkabine".
+
+:TIE0 exb:event :event103.
+:event103 a exb:tok;
+  exb:start :T102;
+  exb:end :T103;
+  rdfs:label "stehen".
+
+:TIE0 exb:event :event104.
+:event104 a exb:tok;
+  exb:start :T103;
+  exb:end :T104;
+  rdfs:label "soll".
+
+:TIE0 exb:event :event105.
+:event105 a exb:tok;
+  exb:start :T104;
+  exb:end :T105;
+  rdfs:label ",".
+
+:TIE0 exb:event :event106.
+:event106 a exb:tok;
+  exb:start :T105;
+  exb:end :T106;
+  rdfs:label "wäre".
+
+:TIE0 exb:event :event107.
+:event107 a exb:tok;
+  exb:start :T106;
+  exb:end :T107;
+  rdfs:label "in".
+
+:TIE0 exb:event :event108.
+:event108 a exb:tok;
+  exb:start :T107;
+  exb:end :T108;
+  rdfs:label "der".
+
+:TIE0 exb:event :event109.
+:event109 a exb:tok;
+  exb:start :T108;
+  exb:end :T109;
+  rdfs:label "jetzigen".
+
+:TIE0 exb:event :event110.
+:event110 a exb:tok;
+  exb:start :T109;
+  exb:end :T110;
+  rdfs:label "Spielsituation".
+
+:TIE0 exb:event :event111.
+:event111 a exb:tok;
+  exb:start :T110;
+  exb:end :T111;
+  rdfs:label "verheerend".
+
+:TIE0 exb:event :event112.
+:event112 a exb:tok;
+  exb:start :T111;
+  exb:end :T112;
+  rdfs:label ".".
+
+:TIE0 exb:event :event113.
+:event113 a exb:tok;
+  exb:start :T112;
+  exb:end :T113;
+  rdfs:label "Und".
+
+:TIE0 exb:event :event114.
+:event114 a exb:tok;
+  exb:start :T113;
+  exb:end :T114;
+  rdfs:label "eine".
+
+:TIE0 exb:event :event115.
+:event115 a exb:tok;
+  exb:start :T114;
+  exb:end :T115;
+  rdfs:label "Parallele".
+
+:TIE0 exb:event :event116.
+:event116 a exb:tok;
+  exb:start :T115;
+  exb:end :T116;
+  rdfs:label "zu".
+
+:TIE0 exb:event :event117.
+:event117 a exb:tok;
+  exb:start :T116;
+  exb:end :T117;
+  rdfs:label "den".
+
+:TIE0 exb:event :event118.
+:event118 a exb:tok;
+  exb:start :T117;
+  exb:end :T118;
+  rdfs:label "deutschen".
+
+:TIE0 exb:event :event119.
+:event119 a exb:tok;
+  exb:start :T118;
+  exb:end :T119;
+  rdfs:label "Grotten-Kickern".
+
+:TIE0 exb:event :event120.
+:event120 a exb:tok;
+  exb:start :T119;
+  exb:end :T120;
+  rdfs:label "gibt".
+
+:TIE0 exb:event :event121.
+:event121 a exb:tok;
+  exb:start :T120;
+  exb:end :T121;
+  rdfs:label "es".
+
+:TIE0 exb:event :event122.
+:event122 a exb:tok;
+  exb:start :T121;
+  exb:end :T122;
+  rdfs:label "immer".
+
+:TIE0 exb:event :event123.
+:event123 a exb:tok;
+  exb:start :T122;
+  exb:end :T123;
+  rdfs:label "noch".
+
+:TIE0 exb:event :event124.
+:event124 a exb:tok;
+  exb:start :T123;
+  exb:end :T124;
+  rdfs:label ".".
+
+:TIE0 exb:event :event125.
+:event125 a exb:tok;
+  exb:start :T124;
+  exb:end :T125;
+  rdfs:label "Auch".
+
+:TIE0 exb:event :event126.
+:event126 a exb:tok;
+  exb:start :T125;
+  exb:end :T126;
+  rdfs:label "wenn".
+
+:TIE0 exb:event :event127.
+:event127 a exb:tok;
+  exb:start :T126;
+  exb:end :T127;
+  rdfs:label "die".
+
+:TIE0 exb:event :event128.
+:event128 a exb:tok;
+  exb:start :T127;
+  exb:end :T128;
+  rdfs:label "Spieler".
+
+:TIE0 exb:event :event129.
+:event129 a exb:tok;
+  exb:start :T128;
+  exb:end :T129;
+  rdfs:label "aus".
+
+:TIE0 exb:event :event130.
+:event130 a exb:tok;
+  exb:start :T129;
+  exb:end :T130;
+  rdfs:label "den".
+
+:TIE0 exb:event :event131.
+:event131 a exb:tok;
+  exb:start :T130;
+  exb:end :T131;
+  rdfs:label "verschiedenen".
+
+:TIE0 exb:event :event132.
+:event132 a exb:tok;
+  exb:start :T131;
+  exb:end :T132;
+  rdfs:label "Vereinen".
+
+:TIE0 exb:event :event133.
+:event133 a exb:tok;
+  exb:start :T132;
+  exb:end :T133;
+  rdfs:label "zusammengewürfelt".
+
+:TIE0 exb:event :event134.
+:event134 a exb:tok;
+  exb:start :T133;
+  exb:end :T134;
+  rdfs:label "sind".
+
+:TIE0 exb:event :event135.
+:event135 a exb:tok;
+  exb:start :T134;
+  exb:end :T135;
+  rdfs:label ",".
+
+:TIE0 exb:event :event136.
+:event136 a exb:tok;
+  exb:start :T135;
+  exb:end :T136;
+  rdfs:label "sie".
+
+:TIE0 exb:event :event137.
+:event137 a exb:tok;
+  exb:start :T136;
+  exb:end :T137;
+  rdfs:label "müssen".
+
+:TIE0 exb:event :event138.
+:event138 a exb:tok;
+  exb:start :T137;
+  exb:end :T138;
+  rdfs:label "sich".
+
+:TIE0 exb:event :event139.
+:event139 a exb:tok;
+  exb:start :T138;
+  exb:end :T139;
+  rdfs:label "daran".
+
+:TIE0 exb:event :event140.
+:event140 a exb:tok;
+  exb:start :T139;
+  exb:end :T140;
+  rdfs:label "gewöhnen".
+
+:TIE0 exb:event :event141.
+:event141 a exb:tok;
+  exb:start :T140;
+  exb:end :T141;
+  rdfs:label ",".
+
+:TIE0 exb:event :event142.
+:event142 a exb:tok;
+  exb:start :T141;
+  exb:end :T142;
+  rdfs:label "dass".
+
+:TIE0 exb:event :event143.
+:event143 a exb:tok;
+  exb:start :T142;
+  exb:end :T143;
+  rdfs:label "sie".
+
+:TIE0 exb:event :event144.
+:event144 a exb:tok;
+  exb:start :T143;
+  exb:end :T144;
+  rdfs:label "nun".
+
+:TIE0 exb:event :event145.
+:event145 a exb:tok;
+  exb:start :T144;
+  exb:end :T145;
+  rdfs:label "in".
+
+:TIE0 exb:event :event146.
+:event146 a exb:tok;
+  exb:start :T145;
+  exb:end :T146;
+  rdfs:label "einer".
+
+:TIE0 exb:event :event147.
+:event147 a exb:tok;
+  exb:start :T146;
+  exb:end :T147;
+  rdfs:label "Mannschaft".
+
+:TIE0 exb:event :event148.
+:event148 a exb:tok;
+  exb:start :T147;
+  exb:end :T148;
+  rdfs:label "'".
+
+:TIE0 exb:event :event149.
+:event149 a exb:tok;
+  exb:start :T148;
+  exb:end :T149;
+  rdfs:label "Döberitzer".
+
+:TIE0 exb:event :event150.
+:event150 a exb:tok;
+  exb:start :T149;
+  exb:end :T150;
+  rdfs:label "Heide".
+
+:TIE0 exb:event :event151.
+:event151 a exb:tok;
+  exb:start :T150;
+  exb:end :T151;
+  rdfs:label "'".
+
+:TIE0 exb:event :event152.
+:event152 a exb:tok;
+  exb:start :T151;
+  exb:end :T152;
+  rdfs:label "spielen".
+
+:TIE0 exb:event :event153.
+:event153 a exb:tok;
+  exb:start :T152;
+  exb:end :T153;
+  rdfs:label ".".
+
+:TIE0 exb:event :event154.
+:event154 a exb:tok;
+  exb:start :T153;
+  exb:end :T154;
+  rdfs:label "Und".
+
+:TIE0 exb:event :event155.
+:event155 a exb:tok;
+  exb:start :T154;
+  exb:end :T155;
+  rdfs:label "das".
+
+:TIE0 exb:event :event156.
+:event156 a exb:tok;
+  exb:start :T155;
+  exb:end :T156;
+  rdfs:label "heißt".
+
+:TIE0 exb:event :event157.
+:event157 a exb:tok;
+  exb:start :T156;
+  exb:end :T157;
+  rdfs:label "gemeinsam".
+
+:TIE0 exb:event :event158.
+:event158 a exb:tok;
+  exb:start :T157;
+  exb:end :T158;
+  rdfs:label "und".
+
+:TIE0 exb:event :event159.
+:event159 a exb:tok;
+  exb:start :T158;
+  exb:end :T159;
+  rdfs:label "nicht".
+
+:TIE0 exb:event :event160.
+:event160 a exb:tok;
+  exb:start :T159;
+  exb:end :T160;
+  rdfs:label "gegeneinander".
+
+:TIE0 exb:event :event161.
+:event161 a exb:tok;
+  exb:start :T160;
+  exb:end :T161;
+  rdfs:label ".".
+
+:TIE0 exb:event :event162.
+:event162 a exb:tok;
+  exb:start :T161;
+  exb:end :T162;
+  rdfs:label "Ermahnungen".
+
+:TIE0 exb:event :event163.
+:event163 a exb:tok;
+  exb:start :T162;
+  exb:end :T163;
+  rdfs:label "von".
+
+:TIE0 exb:event :event164.
+:event164 a exb:tok;
+  exb:start :T163;
+  exb:end :T164;
+  rdfs:label "der".
+
+:TIE0 exb:event :event165.
+:event165 a exb:tok;
+  exb:start :T164;
+  exb:end :T165;
+  rdfs:label "Seitenlinie".
+
+:TIE0 exb:event :event166.
+:event166 a exb:tok;
+  exb:start :T165;
+  exb:end :T166;
+  rdfs:label ",".
+
+:TIE0 exb:event :event167.
+:event167 a exb:tok;
+  exb:start :T166;
+  exb:end :T167;
+  rdfs:label "miteinander".
+
+:TIE0 exb:event :event168.
+:event168 a exb:tok;
+  exb:start :T167;
+  exb:end :T168;
+  rdfs:label "fair".
+
+:TIE0 exb:event :event169.
+:event169 a exb:tok;
+  exb:start :T168;
+  exb:end :T169;
+  rdfs:label "umzugehen".
+
+:TIE0 exb:event :event170.
+:event170 a exb:tok;
+  exb:start :T169;
+  exb:end :T170;
+  rdfs:label "und".
+
+:TIE0 exb:event :event171.
+:event171 a exb:tok;
+  exb:start :T170;
+  exb:end :T171;
+  rdfs:label "sich".
+
+:TIE0 exb:event :event172.
+:event172 a exb:tok;
+  exb:start :T171;
+  exb:end :T172;
+  rdfs:label "nicht".
+
+:TIE0 exb:event :event173.
+:event173 a exb:tok;
+  exb:start :T172;
+  exb:end :T173;
+  rdfs:label "beim".
+
+:TIE0 exb:event :event174.
+:event174 a exb:tok;
+  exb:start :T173;
+  exb:end :T174;
+  rdfs:label "kleinsten".
+
+:TIE0 exb:event :event175.
+:event175 a exb:tok;
+  exb:start :T174;
+  exb:end :T175;
+  rdfs:label "Schubser".
+
+:TIE0 exb:event :event176.
+:event176 a exb:tok;
+  exb:start :T175;
+  exb:end :T176;
+  rdfs:label "gegenseitig".
+
+:TIE0 exb:event :event177.
+:event177 a exb:tok;
+  exb:start :T176;
+  exb:end :T177;
+  rdfs:label "zu".
+
+:TIE0 exb:event :event178.
+:event178 a exb:tok;
+  exb:start :T177;
+  exb:end :T178;
+  rdfs:label "zerfleischen".
+
+:TIE0 exb:event :event179.
+:event179 a exb:tok;
+  exb:start :T178;
+  exb:end :T179;
+  rdfs:label ",".
+
+:TIE0 exb:event :event180.
+:event180 a exb:tok;
+  exb:start :T179;
+  exb:end :T180;
+  rdfs:label "sind".
+
+:TIE0 exb:event :event181.
+:event181 a exb:tok;
+  exb:start :T180;
+  exb:end :T181;
+  rdfs:label "normalerweise".
+
+:TIE0 exb:event :event182.
+:event182 a exb:tok;
+  exb:start :T181;
+  exb:end :T182;
+  rdfs:label "überflüssig".
+
+:TIE0 exb:event :event183.
+:event183 a exb:tok;
+  exb:start :T182;
+  exb:end :T183;
+  rdfs:label ".".
+
+:TIE0 exb:event :event184.
+:event184 a exb:tok;
+  exb:start :T183;
+  exb:end :T184;
+  rdfs:label "Vorerst".
+
+:TIE0 exb:event :event185.
+:event185 a exb:tok;
+  exb:start :T184;
+  exb:end :T185;
+  rdfs:label "allerdings".
+
+:TIE0 exb:event :event186.
+:event186 a exb:tok;
+  exb:start :T185;
+  exb:end :T186;
+  rdfs:label "hilfreich".
+
+:TIE0 exb:event :event187.
+:event187 a exb:tok;
+  exb:start :T186;
+  exb:end :T187;
+  rdfs:label ".".
+
+<http://example.org/PLEASE_PROVIDE_baseURI_PARAMETER> exb:tier :TIE1.
+:TIE1 a exb:tier;
+  exb:category "pos";
+  exb:type "t";
+  exb:display-name "[tiger:pos]".
+
+:TIE1 exb:event :event188.
+:event188 a exb:pos;
+  exb:start :T0;
+  exb:end :T1;
+  rdfs:label "NN".
+
+:TIE1 exb:event :event189.
+:event189 a exb:pos;
+  exb:start :T1;
+  exb:end :T2;
+  rdfs:label "NN".
+
+:TIE1 exb:event :event190.
+:event190 a exb:pos;
+  exb:start :T2;
+  exb:end :T3;
+  rdfs:label "VVFIN".
+
+:TIE1 exb:event :event191.
+:event191 a exb:pos;
+  exb:start :T3;
+  exb:end :T4;
+  rdfs:label "PPER".
+
+:TIE1 exb:event :event192.
+:event192 a exb:pos;
+  exb:start :T4;
+  exb:end :T5;
+  rdfs:label "ADV".
+
+:TIE1 exb:event :event193.
+:event193 a exb:pos;
+  exb:start :T5;
+  exb:end :T6;
+  rdfs:label "ADV".
+
+:TIE1 exb:event :event194.
+:event194 a exb:pos;
+  exb:start :T6;
+  exb:end :T7;
+  rdfs:label "$.".
+
+:TIE1 exb:event :event195.
+:event195 a exb:pos;
+  exb:start :T7;
+  exb:end :T8;
+  rdfs:label "ADV".
+
+:TIE1 exb:event :event196.
+:event196 a exb:pos;
+  exb:start :T8;
+  exb:end :T9;
+  rdfs:label "VVFIN".
+
+:TIE1 exb:event :event197.
+:event197 a exb:pos;
+  exb:start :T9;
+  exb:end :T10;
+  rdfs:label "ART".
+
+:TIE1 exb:event :event198.
+:event198 a exb:pos;
+  exb:start :T10;
+  exb:end :T11;
+  rdfs:label "ADJA".
+
+:TIE1 exb:event :event199.
+:event199 a exb:pos;
+  exb:start :T11;
+  exb:end :T12;
+  rdfs:label "NN".
+
+:TIE1 exb:event :event200.
+:event200 a exb:pos;
+  exb:start :T12;
+  exb:end :T13;
+  rdfs:label "ADV".
+
+:TIE1 exb:event :event201.
+:event201 a exb:pos;
+  exb:start :T13;
+  exb:end :T14;
+  rdfs:label "ADJD".
+
+:TIE1 exb:event :event202.
+:event202 a exb:pos;
+  exb:start :T14;
+  exb:end :T15;
+  rdfs:label "KON".
+
+:TIE1 exb:event :event203.
+:event203 a exb:pos;
+  exb:start :T15;
+  exb:end :T16;
+  rdfs:label "ADJD".
+
+:TIE1 exb:event :event204.
+:event204 a exb:pos;
+  exb:start :T16;
+  exb:end :T17;
+  rdfs:label "KOKOM".
+
+:TIE1 exb:event :event205.
+:event205 a exb:pos;
+  exb:start :T17;
+  exb:end :T18;
+  rdfs:label "ART".
+
+:TIE1 exb:event :event206.
+:event206 a exb:pos;
+  exb:start :T18;
+  exb:end :T19;
+  rdfs:label "ADJA".
+
+:TIE1 exb:event :event207.
+:event207 a exb:pos;
+  exb:start :T19;
+  exb:end :T20;
+  rdfs:label "NN".
+
+:TIE1 exb:event :event208.
+:event208 a exb:pos;
+  exb:start :T20;
+  exb:end :T21;
+  rdfs:label "ART".
+
+:TIE1 exb:event :event209.
+:event209 a exb:pos;
+  exb:start :T21;
+  exb:end :T22;
+  rdfs:label "NN".
+
+:TIE1 exb:event :event210.
+:event210 a exb:pos;
+  exb:start :T22;
+  exb:end :T23;
+  rdfs:label "$.".
+
+:TIE1 exb:event :event211.
+:event211 a exb:pos;
+  exb:start :T23;
+  exb:end :T24;
+  rdfs:label "KON".
+
+:TIE1 exb:event :event212.
+:event212 a exb:pos;
+  exb:start :T24;
+  exb:end :T25;
+  rdfs:label "ADV".
+
+:TIE1 exb:event :event213.
+:event213 a exb:pos;
+  exb:start :T25;
+  exb:end :T26;
+  rdfs:label "VVFIN".
+
+:TIE1 exb:event :event214.
+:event214 a exb:pos;
+  exb:start :T26;
+  exb:end :T27;
+  rdfs:label "APPR".
+
+:TIE1 exb:event :event215.
+:event215 a exb:pos;
+  exb:start :T27;
+  exb:end :T28;
+  rdfs:label "ART".
+
+:TIE1 exb:event :event216.
+:event216 a exb:pos;
+  exb:start :T28;
+  exb:end :T29;
+  rdfs:label "NN".
+
+:TIE1 exb:event :event217.
+:event217 a exb:pos;
+  exb:start :T29;
+  exb:end :T30;
+  rdfs:label "PIAT".
+
+:TIE1 exb:event :event218.
+:event218 a exb:pos;
+  exb:start :T30;
+  exb:end :T31;
+  rdfs:label "ART".
+
+:TIE1 exb:event :event219.
+:event219 a exb:pos;
+  exb:start :T31;
+  exb:end :T32;
+  rdfs:label "ADJA".
+
+:TIE1 exb:event :event220.
+:event220 a exb:pos;
+  exb:start :T32;
+  exb:end :T33;
+  rdfs:label "NN".
+
+:TIE1 exb:event :event221.
+:event221 a exb:pos;
+  exb:start :T33;
+  exb:end :T34;
+  rdfs:label "$,".
+
+:TIE1 exb:event :event222.
+:event222 a exb:pos;
+  exb:start :T34;
+  exb:end :T35;
+  rdfs:label "APPR".
+
+:TIE1 exb:event :event223.
+:event223 a exb:pos;
+  exb:start :T35;
+  exb:end :T36;
+  rdfs:label "PRELS".
+
+:TIE1 exb:event :event224.
+:event224 a exb:pos;
+  exb:start :T36;
+  exb:end :T37;
+  rdfs:label "PIS".
+
+:TIE1 exb:event :event225.
+:event225 a exb:pos;
+  exb:start :T37;
+  exb:end :T38;
+  rdfs:label "VVFIN".
+
+:TIE1 exb:event :event226.
+:event226 a exb:pos;
+  exb:start :T38;
+  exb:end :T39;
+  rdfs:label "$,".
+
+:TIE1 exb:event :event227.
+:event227 a exb:pos;
+  exb:start :T39;
+  exb:end :T40;
+  rdfs:label "KOUS".
+
+:TIE1 exb:event :event228.
+:event228 a exb:pos;
+  exb:start :T40;
+  exb:end :T41;
+  rdfs:label "ART".
+
+:TIE1 exb:event :event229.
+:event229 a exb:pos;
+  exb:start :T41;
+  exb:end :T42;
+  rdfs:label "ADJA".
+
+:TIE1 exb:event :event230.
+:event230 a exb:pos;
+  exb:start :T42;
+  exb:end :T43;
+  rdfs:label "KON".
+
+:TIE1 exb:event :event231.
+:event231 a exb:pos;
+  exb:start :T43;
+  exb:end :T44;
+  rdfs:label "ADJA".
+
+:TIE1 exb:event :event232.
+:event232 a exb:pos;
+  exb:start :T44;
+  exb:end :T45;
+  rdfs:label "NN".
+
+:TIE1 exb:event :event233.
+:event233 a exb:pos;
+  exb:start :T45;
+  exb:end :T46;
+  rdfs:label "PPER".
+
+:TIE1 exb:event :event234.
+:event234 a exb:pos;
+  exb:start :T46;
+  exb:end :T47;
+  rdfs:label "VVINF".
+
+:TIE1 exb:event :event235.
+:event235 a exb:pos;
+  exb:start :T47;
+  exb:end :T48;
+  rdfs:label "VMFIN".
+
+:TIE1 exb:event :event236.
+:event236 a exb:pos;
+  exb:start :T48;
+  exb:end :T49;
+  rdfs:label "$.".
+
+:TIE1 exb:event :event237.
+:event237 a exb:pos;
+  exb:start :T49;
+  exb:end :T50;
+  rdfs:label "ART".
+
+:TIE1 exb:event :event238.
+:event238 a exb:pos;
+  exb:start :T50;
+  exb:end :T51;
+  rdfs:label "NN".
+
+:TIE1 exb:event :event239.
+:event239 a exb:pos;
+  exb:start :T51;
+  exb:end :T52;
+  rdfs:label "VAFIN".
+
+:TIE1 exb:event :event240.
+:event240 a exb:pos;
+  exb:start :T52;
+  exb:end :T53;
+  rdfs:label "PPER".
+
+:TIE1 exb:event :event241.
+:event241 a exb:pos;
+  exb:start :T53;
+  exb:end :T54;
+  rdfs:label "ADV".
+
+:TIE1 exb:event :event242.
+:event242 a exb:pos;
+  exb:start :T54;
+  exb:end :T55;
+  rdfs:label "PTKNEG".
+
+:TIE1 exb:event :event243.
+:event243 a exb:pos;
+  exb:start :T55;
+  exb:end :T56;
+  rdfs:label "$,".
+
+:TIE1 exb:event :event244.
+:event244 a exb:pos;
+  exb:start :T56;
+  exb:end :T57;
+  rdfs:label "KOUS".
+
+:TIE1 exb:event :event245.
+:event245 a exb:pos;
+  exb:start :T57;
+  exb:end :T58;
+  rdfs:label "PPER".
+
+:TIE1 exb:event :event246.
+:event246 a exb:pos;
+  exb:start :T58;
+  exb:end :T59;
+  rdfs:label "ADV".
+
+:TIE1 exb:event :event247.
+:event247 a exb:pos;
+  exb:start :T59;
+  exb:end :T60;
+  rdfs:label "PIAT".
+
+:TIE1 exb:event :event248.
+:event248 a exb:pos;
+  exb:start :T60;
+  exb:end :T61;
+  rdfs:label "NN".
+
+:TIE1 exb:event :event249.
+:event249 a exb:pos;
+  exb:start :T61;
+  exb:end :T62;
+  rdfs:label "APPRART".
+
+:TIE1 exb:event :event250.
+:event250 a exb:pos;
+  exb:start :T62;
+  exb:end :T63;
+  rdfs:label "ADJA".
+
+:TIE1 exb:event :event251.
+:event251 a exb:pos;
+  exb:start :T63;
+  exb:end :T64;
+  rdfs:label "NN".
+
+:TIE1 exb:event :event252.
+:event252 a exb:pos;
+  exb:start :T64;
+  exb:end :T65;
+  rdfs:label "VVFIN".
+
+:TIE1 exb:event :event253.
+:event253 a exb:pos;
+  exb:start :T65;
+  exb:end :T66;
+  rdfs:label "$.".
+
+:TIE1 exb:event :event254.
+:event254 a exb:pos;
+  exb:start :T66;
+  exb:end :T67;
+  rdfs:label "ART".
+
+:TIE1 exb:event :event255.
+:event255 a exb:pos;
+  exb:start :T67;
+  exb:end :T68;
+  rdfs:label "NN".
+
+:TIE1 exb:event :event256.
+:event256 a exb:pos;
+  exb:start :T68;
+  exb:end :T69;
+  rdfs:label "KON".
+
+:TIE1 exb:event :event257.
+:event257 a exb:pos;
+  exb:start :T69;
+  exb:end :T70;
+  rdfs:label "PIAT".
+
+:TIE1 exb:event :event258.
+:event258 a exb:pos;
+  exb:start :T70;
+  exb:end :T71;
+  rdfs:label "NN".
+
+:TIE1 exb:event :event259.
+:event259 a exb:pos;
+  exb:start :T71;
+  exb:end :T72;
+  rdfs:label "VAFIN".
+
+:TIE1 exb:event :event260.
+:event260 a exb:pos;
+  exb:start :T72;
+  exb:end :T73;
+  rdfs:label "ART".
+
+:TIE1 exb:event :event261.
+:event261 a exb:pos;
+  exb:start :T73;
+  exb:end :T74;
+  rdfs:label "NN".
+
+:TIE1 exb:event :event262.
+:event262 a exb:pos;
+  exb:start :T74;
+  exb:end :T75;
+  rdfs:label "ADV".
+
+:TIE1 exb:event :event263.
+:event263 a exb:pos;
+  exb:start :T75;
+  exb:end :T76;
+  rdfs:label "VVPP".
+
+:TIE1 exb:event :event264.
+:event264 a exb:pos;
+  exb:start :T76;
+  exb:end :T77;
+  rdfs:label "KON".
+
+:TIE1 exb:event :event265.
+:event265 a exb:pos;
+  exb:start :T77;
+  exb:end :T78;
+  rdfs:label "ADV".
+
+:TIE1 exb:event :event266.
+:event266 a exb:pos;
+  exb:start :T78;
+  exb:end :T79;
+  rdfs:label "ADV".
+
+:TIE1 exb:event :event267.
+:event267 a exb:pos;
+  exb:start :T79;
+  exb:end :T80;
+  rdfs:label "ADV".
+
+:TIE1 exb:event :event268.
+:event268 a exb:pos;
+  exb:start :T80;
+  exb:end :T81;
+  rdfs:label "ADJD".
+
+:TIE1 exb:event :event269.
+:event269 a exb:pos;
+  exb:start :T81;
+  exb:end :T82;
+  rdfs:label "ADV".
+
+:TIE1 exb:event :event270.
+:event270 a exb:pos;
+  exb:start :T82;
+  exb:end :T83;
+  rdfs:label "VVPP".
+
+:TIE1 exb:event :event271.
+:event271 a exb:pos;
+  exb:start :T83;
+  exb:end :T84;
+  rdfs:label "$.".
+
+:TIE1 exb:event :event272.
+:event272 a exb:pos;
+  exb:start :T84;
+  exb:end :T85;
+  rdfs:label "ADV".
+
+:TIE1 exb:event :event273.
+:event273 a exb:pos;
+  exb:start :T85;
+  exb:end :T86;
+  rdfs:label "VMFIN".
+
+:TIE1 exb:event :event274.
+:event274 a exb:pos;
+  exb:start :T86;
+  exb:end :T87;
+  rdfs:label "PPER".
+
+:TIE1 exb:event :event275.
+:event275 a exb:pos;
+  exb:start :T87;
+  exb:end :T88;
+  rdfs:label "VVINF".
+
+:TIE1 exb:event :event276.
+:event276 a exb:pos;
+  exb:start :T88;
+  exb:end :T89;
+  rdfs:label "$,".
+
+:TIE1 exb:event :event277.
+:event277 a exb:pos;
+  exb:start :T89;
+  exb:end :T90;
+  rdfs:label "PWAV".
+
+:TIE1 exb:event :event278.
+:event278 a exb:pos;
+  exb:start :T90;
+  exb:end :T91;
+  rdfs:label "PPER".
+
+:TIE1 exb:event :event279.
+:event279 a exb:pos;
+  exb:start :T91;
+  exb:end :T92;
+  rdfs:label "ART".
+
+:TIE1 exb:event :event280.
+:event280 a exb:pos;
+  exb:start :T92;
+  exb:end :T93;
+  rdfs:label "NN".
+
+:TIE1 exb:event :event281.
+:event281 a exb:pos;
+  exb:start :T93;
+  exb:end :T94;
+  rdfs:label "VVFIN".
+
+:TIE1 exb:event :event282.
+:event282 a exb:pos;
+  exb:start :T94;
+  exb:end :T95;
+  rdfs:label "$.".
+
+:TIE1 exb:event :event283.
+:event283 a exb:pos;
+  exb:start :T95;
+  exb:end :T96;
+  rdfs:label "ART".
+
+:TIE1 exb:event :event284.
+:event284 a exb:pos;
+  exb:start :T96;
+  exb:end :T97;
+  rdfs:label "NN".
+
+:TIE1 exb:event :event285.
+:event285 a exb:pos;
+  exb:start :T97;
+  exb:end :T98;
+  rdfs:label "$,".
+
+:TIE1 exb:event :event286.
+:event286 a exb:pos;
+  exb:start :T98;
+  exb:end :T99;
+  rdfs:label "PWAV".
+
+:TIE1 exb:event :event287.
+:event287 a exb:pos;
+  exb:start :T99;
+  exb:end :T100;
+  rdfs:label "ADJD".
+
+:TIE1 exb:event :event288.
+:event288 a exb:pos;
+  exb:start :T100;
+  exb:end :T101;
+  rdfs:label "ART".
+
+:TIE1 exb:event :event289.
+:event289 a exb:pos;
+  exb:start :T101;
+  exb:end :T102;
+  rdfs:label "NN".
+
+:TIE1 exb:event :event290.
+:event290 a exb:pos;
+  exb:start :T102;
+  exb:end :T103;
+  rdfs:label "VVINF".
+
+:TIE1 exb:event :event291.
+:event291 a exb:pos;
+  exb:start :T103;
+  exb:end :T104;
+  rdfs:label "VMFIN".
+
+:TIE1 exb:event :event292.
+:event292 a exb:pos;
+  exb:start :T104;
+  exb:end :T105;
+  rdfs:label "$,".
+
+:TIE1 exb:event :event293.
+:event293 a exb:pos;
+  exb:start :T105;
+  exb:end :T106;
+  rdfs:label "VAFIN".
+
+:TIE1 exb:event :event294.
+:event294 a exb:pos;
+  exb:start :T106;
+  exb:end :T107;
+  rdfs:label "APPR".
+
+:TIE1 exb:event :event295.
+:event295 a exb:pos;
+  exb:start :T107;
+  exb:end :T108;
+  rdfs:label "ART".
+
+:TIE1 exb:event :event296.
+:event296 a exb:pos;
+  exb:start :T108;
+  exb:end :T109;
+  rdfs:label "ADJA".
+
+:TIE1 exb:event :event297.
+:event297 a exb:pos;
+  exb:start :T109;
+  exb:end :T110;
+  rdfs:label "NN".
+
+:TIE1 exb:event :event298.
+:event298 a exb:pos;
+  exb:start :T110;
+  exb:end :T111;
+  rdfs:label "ADJD".
+
+:TIE1 exb:event :event299.
+:event299 a exb:pos;
+  exb:start :T111;
+  exb:end :T112;
+  rdfs:label "$.".
+
+:TIE1 exb:event :event300.
+:event300 a exb:pos;
+  exb:start :T112;
+  exb:end :T113;
+  rdfs:label "KON".
+
+:TIE1 exb:event :event301.
+:event301 a exb:pos;
+  exb:start :T113;
+  exb:end :T114;
+  rdfs:label "ART".
+
+:TIE1 exb:event :event302.
+:event302 a exb:pos;
+  exb:start :T114;
+  exb:end :T115;
+  rdfs:label "NN".
+
+:TIE1 exb:event :event303.
+:event303 a exb:pos;
+  exb:start :T115;
+  exb:end :T116;
+  rdfs:label "APPR".
+
+:TIE1 exb:event :event304.
+:event304 a exb:pos;
+  exb:start :T116;
+  exb:end :T117;
+  rdfs:label "ART".
+
+:TIE1 exb:event :event305.
+:event305 a exb:pos;
+  exb:start :T117;
+  exb:end :T118;
+  rdfs:label "ADJA".
+
+:TIE1 exb:event :event306.
+:event306 a exb:pos;
+  exb:start :T118;
+  exb:end :T119;
+  rdfs:label "NN".
+
+:TIE1 exb:event :event307.
+:event307 a exb:pos;
+  exb:start :T119;
+  exb:end :T120;
+  rdfs:label "VVFIN".
+
+:TIE1 exb:event :event308.
+:event308 a exb:pos;
+  exb:start :T120;
+  exb:end :T121;
+  rdfs:label "PPER".
+
+:TIE1 exb:event :event309.
+:event309 a exb:pos;
+  exb:start :T121;
+  exb:end :T122;
+  rdfs:label "ADV".
+
+:TIE1 exb:event :event310.
+:event310 a exb:pos;
+  exb:start :T122;
+  exb:end :T123;
+  rdfs:label "ADV".
+
+:TIE1 exb:event :event311.
+:event311 a exb:pos;
+  exb:start :T123;
+  exb:end :T124;
+  rdfs:label "$.".
+
+:TIE1 exb:event :event312.
+:event312 a exb:pos;
+  exb:start :T124;
+  exb:end :T125;
+  rdfs:label "ADV".
+
+:TIE1 exb:event :event313.
+:event313 a exb:pos;
+  exb:start :T125;
+  exb:end :T126;
+  rdfs:label "KOUS".
+
+:TIE1 exb:event :event314.
+:event314 a exb:pos;
+  exb:start :T126;
+  exb:end :T127;
+  rdfs:label "ART".
+
+:TIE1 exb:event :event315.
+:event315 a exb:pos;
+  exb:start :T127;
+  exb:end :T128;
+  rdfs:label "NN".
+
+:TIE1 exb:event :event316.
+:event316 a exb:pos;
+  exb:start :T128;
+  exb:end :T129;
+  rdfs:label "APPR".
+
+:TIE1 exb:event :event317.
+:event317 a exb:pos;
+  exb:start :T129;
+  exb:end :T130;
+  rdfs:label "ART".
+
+:TIE1 exb:event :event318.
+:event318 a exb:pos;
+  exb:start :T130;
+  exb:end :T131;
+  rdfs:label "ADJA".
+
+:TIE1 exb:event :event319.
+:event319 a exb:pos;
+  exb:start :T131;
+  exb:end :T132;
+  rdfs:label "NN".
+
+:TIE1 exb:event :event320.
+:event320 a exb:pos;
+  exb:start :T132;
+  exb:end :T133;
+  rdfs:label "VVPP".
+
+:TIE1 exb:event :event321.
+:event321 a exb:pos;
+  exb:start :T133;
+  exb:end :T134;
+  rdfs:label "VAFIN".
+
+:TIE1 exb:event :event322.
+:event322 a exb:pos;
+  exb:start :T134;
+  exb:end :T135;
+  rdfs:label "$,".
+
+:TIE1 exb:event :event323.
+:event323 a exb:pos;
+  exb:start :T135;
+  exb:end :T136;
+  rdfs:label "PPER".
+
+:TIE1 exb:event :event324.
+:event324 a exb:pos;
+  exb:start :T136;
+  exb:end :T137;
+  rdfs:label "VMFIN".
+
+:TIE1 exb:event :event325.
+:event325 a exb:pos;
+  exb:start :T137;
+  exb:end :T138;
+  rdfs:label "PRF".
+
+:TIE1 exb:event :event326.
+:event326 a exb:pos;
+  exb:start :T138;
+  exb:end :T139;
+  rdfs:label "PROAV".
+
+:TIE1 exb:event :event327.
+:event327 a exb:pos;
+  exb:start :T139;
+  exb:end :T140;
+  rdfs:label "VVINF".
+
+:TIE1 exb:event :event328.
+:event328 a exb:pos;
+  exb:start :T140;
+  exb:end :T141;
+  rdfs:label "$,".
+
+:TIE1 exb:event :event329.
+:event329 a exb:pos;
+  exb:start :T141;
+  exb:end :T142;
+  rdfs:label "KOUS".
+
+:TIE1 exb:event :event330.
+:event330 a exb:pos;
+  exb:start :T142;
+  exb:end :T143;
+  rdfs:label "PPER".
+
+:TIE1 exb:event :event331.
+:event331 a exb:pos;
+  exb:start :T143;
+  exb:end :T144;
+  rdfs:label "ADV".
+
+:TIE1 exb:event :event332.
+:event332 a exb:pos;
+  exb:start :T144;
+  exb:end :T145;
+  rdfs:label "APPR".
+
+:TIE1 exb:event :event333.
+:event333 a exb:pos;
+  exb:start :T145;
+  exb:end :T146;
+  rdfs:label "ART".
+
+:TIE1 exb:event :event334.
+:event334 a exb:pos;
+  exb:start :T146;
+  exb:end :T147;
+  rdfs:label "NN".
+
+:TIE1 exb:event :event335.
+:event335 a exb:pos;
+  exb:start :T147;
+  exb:end :T148;
+  rdfs:label "$(".
+
+:TIE1 exb:event :event336.
+:event336 a exb:pos;
+  exb:start :T148;
+  exb:end :T149;
+  rdfs:label "ADJA".
+
+:TIE1 exb:event :event337.
+:event337 a exb:pos;
+  exb:start :T149;
+  exb:end :T150;
+  rdfs:label "NN".
+
+:TIE1 exb:event :event338.
+:event338 a exb:pos;
+  exb:start :T150;
+  exb:end :T151;
+  rdfs:label "$(".
+
+:TIE1 exb:event :event339.
+:event339 a exb:pos;
+  exb:start :T151;
+  exb:end :T152;
+  rdfs:label "VVFIN".
+
+:TIE1 exb:event :event340.
+:event340 a exb:pos;
+  exb:start :T152;
+  exb:end :T153;
+  rdfs:label "$.".
+
+:TIE1 exb:event :event341.
+:event341 a exb:pos;
+  exb:start :T153;
+  exb:end :T154;
+  rdfs:label "KON".
+
+:TIE1 exb:event :event342.
+:event342 a exb:pos;
+  exb:start :T154;
+  exb:end :T155;
+  rdfs:label "PDS".
+
+:TIE1 exb:event :event343.
+:event343 a exb:pos;
+  exb:start :T155;
+  exb:end :T156;
+  rdfs:label "VVFIN".
+
+:TIE1 exb:event :event344.
+:event344 a exb:pos;
+  exb:start :T156;
+  exb:end :T157;
+  rdfs:label "ADJD".
+
+:TIE1 exb:event :event345.
+:event345 a exb:pos;
+  exb:start :T157;
+  exb:end :T158;
+  rdfs:label "KON".
+
+:TIE1 exb:event :event346.
+:event346 a exb:pos;
+  exb:start :T158;
+  exb:end :T159;
+  rdfs:label "PTKNEG".
+
+:TIE1 exb:event :event347.
+:event347 a exb:pos;
+  exb:start :T159;
+  exb:end :T160;
+  rdfs:label "ADV".
+
+:TIE1 exb:event :event348.
+:event348 a exb:pos;
+  exb:start :T160;
+  exb:end :T161;
+  rdfs:label "$.".
+
+:TIE1 exb:event :event349.
+:event349 a exb:pos;
+  exb:start :T161;
+  exb:end :T162;
+  rdfs:label "NN".
+
+:TIE1 exb:event :event350.
+:event350 a exb:pos;
+  exb:start :T162;
+  exb:end :T163;
+  rdfs:label "APPR".
+
+:TIE1 exb:event :event351.
+:event351 a exb:pos;
+  exb:start :T163;
+  exb:end :T164;
+  rdfs:label "ART".
+
+:TIE1 exb:event :event352.
+:event352 a exb:pos;
+  exb:start :T164;
+  exb:end :T165;
+  rdfs:label "NN".
+
+:TIE1 exb:event :event353.
+:event353 a exb:pos;
+  exb:start :T165;
+  exb:end :T166;
+  rdfs:label "$,".
+
+:TIE1 exb:event :event354.
+:event354 a exb:pos;
+  exb:start :T166;
+  exb:end :T167;
+  rdfs:label "ADV".
+
+:TIE1 exb:event :event355.
+:event355 a exb:pos;
+  exb:start :T167;
+  exb:end :T168;
+  rdfs:label "ADJD".
+
+:TIE1 exb:event :event356.
+:event356 a exb:pos;
+  exb:start :T168;
+  exb:end :T169;
+  rdfs:label "VVIZU".
+
+:TIE1 exb:event :event357.
+:event357 a exb:pos;
+  exb:start :T169;
+  exb:end :T170;
+  rdfs:label "KON".
+
+:TIE1 exb:event :event358.
+:event358 a exb:pos;
+  exb:start :T170;
+  exb:end :T171;
+  rdfs:label "PRF".
+
+:TIE1 exb:event :event359.
+:event359 a exb:pos;
+  exb:start :T171;
+  exb:end :T172;
+  rdfs:label "PTKNEG".
+
+:TIE1 exb:event :event360.
+:event360 a exb:pos;
+  exb:start :T172;
+  exb:end :T173;
+  rdfs:label "APPRART".
+
+:TIE1 exb:event :event361.
+:event361 a exb:pos;
+  exb:start :T173;
+  exb:end :T174;
+  rdfs:label "ADJA".
+
+:TIE1 exb:event :event362.
+:event362 a exb:pos;
+  exb:start :T174;
+  exb:end :T175;
+  rdfs:label "NN".
+
+:TIE1 exb:event :event363.
+:event363 a exb:pos;
+  exb:start :T175;
+  exb:end :T176;
+  rdfs:label "ADJD".
+
+:TIE1 exb:event :event364.
+:event364 a exb:pos;
+  exb:start :T176;
+  exb:end :T177;
+  rdfs:label "PTKZU".
+
+:TIE1 exb:event :event365.
+:event365 a exb:pos;
+  exb:start :T177;
+  exb:end :T178;
+  rdfs:label "VVINF".
+
+:TIE1 exb:event :event366.
+:event366 a exb:pos;
+  exb:start :T178;
+  exb:end :T179;
+  rdfs:label "$,".
+
+:TIE1 exb:event :event367.
+:event367 a exb:pos;
+  exb:start :T179;
+  exb:end :T180;
+  rdfs:label "VAFIN".
+
+:TIE1 exb:event :event368.
+:event368 a exb:pos;
+  exb:start :T180;
+  exb:end :T181;
+  rdfs:label "ADV".
+
+:TIE1 exb:event :event369.
+:event369 a exb:pos;
+  exb:start :T181;
+  exb:end :T182;
+  rdfs:label "ADJD".
+
+:TIE1 exb:event :event370.
+:event370 a exb:pos;
+  exb:start :T182;
+  exb:end :T183;
+  rdfs:label "$.".
+
+:TIE1 exb:event :event371.
+:event371 a exb:pos;
+  exb:start :T183;
+  exb:end :T184;
+  rdfs:label "ADV".
+
+:TIE1 exb:event :event372.
+:event372 a exb:pos;
+  exb:start :T184;
+  exb:end :T185;
+  rdfs:label "ADV".
+
+:TIE1 exb:event :event373.
+:event373 a exb:pos;
+  exb:start :T185;
+  exb:end :T186;
+  rdfs:label "ADJD".
+
+:TIE1 exb:event :event374.
+:event374 a exb:pos;
+  exb:start :T186;
+  exb:end :T187;
+  rdfs:label "$.".
+
+<http://example.org/PLEASE_PROVIDE_baseURI_PARAMETER> exb:tier :TIE2.
+:TIE2 a exb:tier;
+  exb:category "syntax";
+  exb:type "t";
+  exb:display-name "[tiger:syntax]".
+
+:TIE2 exb:event :event375.
+:event375 a exb:syntax;
+  exb:start :T4;
+  exb:end :T6;
+  rdfs:label "AVP".
+
+:TIE2 exb:event :event376.
+:event376 a exb:syntax;
+  exb:start :T9;
+  exb:end :T12;
+  rdfs:label "NP".
+
+:TIE2 exb:event :event377.
+:event377 a exb:syntax;
+  exb:start :T12;
+  exb:end :T22;
+  rdfs:label "AP".
+
+:TIE2 exb:event :event378.
+:event378 a exb:syntax;
+  exb:start :T26;
+  exb:end :T29;
+  rdfs:label "PP".
+
+:TIE2 exb:event :event379.
+:event379 a exb:syntax;
+  exb:start :T29;
+  exb:end :T48;
+  rdfs:label "NP".
+
+:TIE2 exb:event :event380.
+:event380 a exb:syntax;
+  exb:start :T49;
+  exb:end :T51;
+  rdfs:label "NP".
+
+:TIE2 exb:event :event381.
+:event381 a exb:syntax;
+  exb:start :T56;
+  exb:end :T65;
+  rdfs:label "S".
+
+:TIE2 exb:event :event382.
+:event382 a exb:syntax;
+  exb:start :T66;
+  exb:end :T71;
+  rdfs:label "CNP".
+
+:TIE2 exb:event :event383.
+:event383 a exb:syntax;
+  exb:start :T72;
+  exb:end :T83;
+  rdfs:label "CVP".
+
+:TIE2 exb:event :event384.
+:event384 a exb:syntax;
+  exb:start :T87;
+  exb:end :T94;
+  rdfs:label "VP".
+
+:TIE2 exb:event :event385.
+:event385 a exb:syntax;
+  exb:start :T95;
+  exb:end :T104;
+  rdfs:label "NP".
+
+:TIE2 exb:event :event386.
+:event386 a exb:syntax;
+  exb:start :T106;
+  exb:end :T110;
+  rdfs:label "PP".
+
+:TIE2 exb:event :event387.
+:event387 a exb:syntax;
+  exb:start :T113;
+  exb:end :T119;
+  rdfs:label "NP".
+
+:TIE2 exb:event :event388.
+:event388 a exb:syntax;
+  exb:start :T121;
+  exb:end :T123;
+  rdfs:label "AVP".
+
+:TIE2 exb:event :event389.
+:event389 a exb:syntax;
+  exb:start :T124;
+  exb:end :T134;
+  rdfs:label "S".
+
+:TIE2 exb:event :event390.
+:event390 a exb:syntax;
+  exb:start :T137;
+  exb:end :T152;
+  rdfs:label "VP".
+
+:TIE2 exb:event :event391.
+:event391 a exb:syntax;
+  exb:start :T156;
+  exb:end :T160;
+  rdfs:label "CO".
+
+:TIE2 exb:event :event392.
+:event392 a exb:syntax;
+  exb:start :T161;
+  exb:end :T178;
+  rdfs:label "NP".
+
+<http://example.org/PLEASE_PROVIDE_baseURI_PARAMETER> exb:tier :TIE4.
+:TIE4 a exb:tier;
+  exb:category "syntax";
+  exb:type "t";
+  exb:display-name "[tiger:syntax]".
+
+:TIE4 exb:event :event393.
+:event393 a exb:syntax;
+  exb:start :T12;
+  exb:end :T22;
+  rdfs:label "AVP".
+
+:TIE4 exb:event :event394.
+:event394 a exb:syntax;
+  exb:start :T34;
+  exb:end :T36;
+  rdfs:label "PP".
+
+:TIE4 exb:event :event395.
+:event395 a exb:syntax;
+  exb:start :T39;
+  exb:end :T48;
+  rdfs:label "S".
+
+:TIE4 exb:event :event396.
+:event396 a exb:syntax;
+  exb:start :T59;
+  exb:end :T64;
+  rdfs:label "NP".
+
+:TIE4 exb:event :event397.
+:event397 a exb:syntax;
+  exb:start :T66;
+  exb:end :T68;
+  rdfs:label "NP".
+
+:TIE4 exb:event :event398.
+:event398 a exb:syntax;
+  exb:start :T69;
+  exb:end :T71;
+  rdfs:label "NP".
+
+:TIE4 exb:event :event399.
+:event399 a exb:syntax;
+  exb:start :T72;
+  exb:end :T76;
+  rdfs:label "VP".
+
+:TIE4 exb:event :event400.
+:event400 a exb:syntax;
+  exb:start :T78;
+  exb:end :T80;
+  rdfs:label "AVP".
+
+:TIE4 exb:event :event401.
+:event401 a exb:syntax;
+  exb:start :T89;
+  exb:end :T94;
+  rdfs:label "S".
+
+:TIE4 exb:event :event402.
+:event402 a exb:syntax;
+  exb:start :T98;
+  exb:end :T103;
+  rdfs:label "VP".
+
+:TIE4 exb:event :event403.
+:event403 a exb:syntax;
+  exb:start :T115;
+  exb:end :T119;
+  rdfs:label "PP".
+
+:TIE4 exb:event :event404.
+:event404 a exb:syntax;
+  exb:start :T124;
+  exb:end :T133;
+  rdfs:label "VP".
+
+:TIE4 exb:event :event405.
+:event405 a exb:syntax;
+  exb:start :T148;
+  exb:end :T150;
+  rdfs:label "NP".
+
+:TIE4 exb:event :event406.
+:event406 a exb:syntax;
+  exb:start :T158;
+  exb:end :T160;
+  rdfs:label "AVP".
+
+:TIE4 exb:event :event407.
+:event407 a exb:syntax;
+  exb:start :T162;
+  exb:end :T165;
+  rdfs:label "PP".
+
+:TIE4 exb:event :event408.
+:event408 a exb:syntax;
+  exb:start :T166;
+  exb:end :T169;
+  rdfs:label "VP".
+
+:TIE4 exb:event :event409.
+:event409 a exb:syntax;
+  exb:start :T170;
+  exb:end :T178;
+  rdfs:label "VP".
+
+<http://example.org/PLEASE_PROVIDE_baseURI_PARAMETER> exb:tier :TIE5.
+:TIE5 a exb:tier;
+  exb:category "syntax";
+  exb:type "t";
+  exb:display-name "[tiger:syntax]".
+
+:TIE5 exb:event :event410.
+:event410 a exb:syntax;
+  exb:start :T13;
+  exb:end :T16;
+  rdfs:label "CAP".
+
+:TIE5 exb:event :event411.
+:event411 a exb:syntax;
+  exb:start :T16;
+  exb:end :T22;
+  rdfs:label "NP".
+
+:TIE5 exb:event :event412.
+:event412 a exb:syntax;
+  exb:start :T34;
+  exb:end :T48;
+  rdfs:label "S".
+
+:TIE5 exb:event :event413.
+:event413 a exb:syntax;
+  exb:start :T61;
+  exb:end :T64;
+  rdfs:label "PP".
+
+:TIE5 exb:event :event414.
+:event414 a exb:syntax;
+  exb:start :T72;
+  exb:end :T74;
+  rdfs:label "NP".
+
+:TIE5 exb:event :event415.
+:event415 a exb:syntax;
+  exb:start :T77;
+  exb:end :T83;
+  rdfs:label "VP".
+
+:TIE5 exb:event :event416.
+:event416 a exb:syntax;
+  exb:start :T91;
+  exb:end :T93;
+  rdfs:label "NP".
+
+:TIE5 exb:event :event417.
+:event417 a exb:syntax;
+  exb:start :T98;
+  exb:end :T104;
+  rdfs:label "S".
+
+:TIE5 exb:event :event418.
+:event418 a exb:syntax;
+  exb:start :T126;
+  exb:end :T128;
+  rdfs:label "NP".
+
+:TIE5 exb:event :event419.
+:event419 a exb:syntax;
+  exb:start :T128;
+  exb:end :T132;
+  rdfs:label "PP".
+
+:TIE5 exb:event :event420.
+:event420 a exb:syntax;
+  exb:start :T138;
+  exb:end :T152;
+  rdfs:label "PP".
+
+:TIE5 exb:event :event421.
+:event421 a exb:syntax;
+  exb:start :T166;
+  exb:end :T178;
+  rdfs:label "CVP".
+
+<http://example.org/PLEASE_PROVIDE_baseURI_PARAMETER> exb:tier :TIE6.
+:TIE6 a exb:tier;
+  exb:category "syntax";
+  exb:type "t";
+  exb:display-name "[tiger:syntax]".
+
+:TIE6 exb:event :event422.
+:event422 a exb:syntax;
+  exb:start :T20;
+  exb:end :T22;
+  rdfs:label "NP".
+
+:TIE6 exb:event :event423.
+:event423 a exb:syntax;
+  exb:start :T40;
+  exb:end :T45;
+  rdfs:label "NP".
+
+:TIE6 exb:event :event424.
+:event424 a exb:syntax;
+  exb:start :T45;
+  exb:end :T47;
+  rdfs:label "VP".
+
+:TIE6 exb:event :event425.
+:event425 a exb:syntax;
+  exb:start :T78;
+  exb:end :T81;
+  rdfs:label "AP".
+
+:TIE6 exb:event :event426.
+:event426 a exb:syntax;
+  exb:start :T100;
+  exb:end :T102;
+  rdfs:label "NP".
+
+:TIE6 exb:event :event427.
+:event427 a exb:syntax;
+  exb:start :T141;
+  exb:end :T152;
+  rdfs:label "S".
+
+:TIE6 exb:event :event428.
+:event428 a exb:syntax;
+  exb:start :T172;
+  exb:end :T175;
+  rdfs:label "PP".
+
+:TIE6 exb:event :event429.
+:event429 a exb:syntax;
+  exb:start :T176;
+  exb:end :T178;
+  rdfs:label "VZ".
+
+<http://example.org/PLEASE_PROVIDE_baseURI_PARAMETER> exb:tier :TIE7.
+:TIE7 a exb:tier;
+  exb:category "syntax";
+  exb:type "t";
+  exb:display-name "[tiger:syntax]".
+
+:TIE7 exb:event :event430.
+:event430 a exb:syntax;
+  exb:start :T41;
+  exb:end :T44;
+  rdfs:label "CAP".
+
+:TIE7 exb:event :event431.
+:event431 a exb:syntax;
+  exb:start :T144;
+  exb:end :T150;
+  rdfs:label "PP".
+
+<http://example.org/PLEASE_PROVIDE_baseURI_PARAMETER> exb:tier :TIE8.
+:TIE8 a exb:tier;
+  exb:category "syntax";
+  exb:type "t";
+  exb:display-name "[tiger:syntax]".
+
+:TIE8 exb:event :event432.
+:event432 a exb:syntax;
+  exb:start :T148;
+  exb:end :T150;
+  rdfs:label "PN".
+
+<http://example.org/PLEASE_PROVIDE_baseURI_PARAMETER> exb:tier :TIE3.
+:TIE3 a exb:tier;
+  exb:category "sentence";
+  exb:type "t";
+  exb:display-name "[tiger:sentence]".
+
+:TIE3 exb:event :event433.
+:event433 a exb:sentence;
+  exb:start :T0;
+  exb:end :T1.
+
+:TIE3 exb:event :event434.
+:event434 a exb:sentence;
+  exb:start :T1;
+  exb:end :T7.
+
+:TIE3 exb:event :event435.
+:event435 a exb:sentence;
+  exb:start :T7;
+  exb:end :T23.
+
+:TIE3 exb:event :event436.
+:event436 a exb:sentence;
+  exb:start :T23;
+  exb:end :T49.
+
+:TIE3 exb:event :event437.
+:event437 a exb:sentence;
+  exb:start :T49;
+  exb:end :T66.
+
+:TIE3 exb:event :event438.
+:event438 a exb:sentence;
+  exb:start :T66;
+  exb:end :T84.
+
+:TIE3 exb:event :event439.
+:event439 a exb:sentence;
+  exb:start :T84;
+  exb:end :T95.
+
+:TIE3 exb:event :event440.
+:event440 a exb:sentence;
+  exb:start :T95;
+  exb:end :T112.
+
+:TIE3 exb:event :event441.
+:event441 a exb:sentence;
+  exb:start :T112;
+  exb:end :T124.
+
+:TIE3 exb:event :event442.
+:event442 a exb:sentence;
+  exb:start :T124;
+  exb:end :T153.
+
+:TIE3 exb:event :event443.
+:event443 a exb:sentence;
+  exb:start :T153;
+  exb:end :T161.
+
+:TIE3 exb:event :event444.
+:event444 a exb:sentence;
+  exb:start :T161;
+  exb:end :T183.
+
+:TIE3 exb:event :event445.
+:event445 a exb:sentence;
+  exb:start :T183;
+  exb:end :T187.
+
+<http://example.org/PLEASE_PROVIDE_baseURI_PARAMETER> exb:tier :TIE9.
+:TIE9 a exb:tier;
+  exb:category "sentence";
+  exb:type "t";
+  exb:display-name "[tiger:sentence]".
+
+:TIE9 exb:event :event446.
+:event446 a exb:sentence;
+  exb:start :T1;
+  exb:end :T6;
+  rdfs:label "S".
+
+:TIE9 exb:event :event447.
+:event447 a exb:sentence;
+  exb:start :T7;
+  exb:end :T22;
+  rdfs:label "S".
+
+:TIE9 exb:event :event448.
+:event448 a exb:sentence;
+  exb:start :T23;
+  exb:end :T48;
+  rdfs:label "S".
+
+:TIE9 exb:event :event449.
+:event449 a exb:sentence;
+  exb:start :T49;
+  exb:end :T65;
+  rdfs:label "S".
+
+:TIE9 exb:event :event450.
+:event450 a exb:sentence;
+  exb:start :T66;
+  exb:end :T83;
+  rdfs:label "S".
+
+:TIE9 exb:event :event451.
+:event451 a exb:sentence;
+  exb:start :T84;
+  exb:end :T94;
+  rdfs:label "S".
+
+:TIE9 exb:event :event452.
+:event452 a exb:sentence;
+  exb:start :T95;
+  exb:end :T111;
+  rdfs:label "S".
+
+:TIE9 exb:event :event453.
+:event453 a exb:sentence;
+  exb:start :T112;
+  exb:end :T123;
+  rdfs:label "S".
+
+:TIE9 exb:event :event454.
+:event454 a exb:sentence;
+  exb:start :T124;
+  exb:end :T152;
+  rdfs:label "S".
+
+:TIE9 exb:event :event455.
+:event455 a exb:sentence;
+  exb:start :T153;
+  exb:end :T160;
+  rdfs:label "S".
+
+:TIE9 exb:event :event456.
+:event456 a exb:sentence;
+  exb:start :T161;
+  exb:end :T182;
+  rdfs:label "S".
+
+:TIE9 exb:event :event457.
+:event457 a exb:sentence;
+  exb:start :T183;
+  exb:end :T186;
+  rdfs:label "S".
+
+<http://example.org/PLEASE_PROVIDE_baseURI_PARAMETER> exb:tier :TIE10.
+:TIE10 a exb:tier;
+  exb:category "SEGMENT";
+  exb:type "a";
+  exb:display-name "[SEGMENT]".
+
+:TIE10 exb:event :event458.
+:event458 a exb:SEGMENT;
+  exb:start :T0;
+  exb:end :T1;
+  rdfs:label "HSF".
+
+:TIE10 exb:event :event459.
+:event459 a exb:SEGMENT;
+  exb:start :T1;
+  exb:end :T7;
+  rdfs:label "HS".
+
+:TIE10 exb:event :event460.
+:event460 a exb:SEGMENT;
+  exb:start :T7;
+  exb:end :T23;
+  rdfs:label "HS".
+
+:TIE10 exb:event :event461.
+:event461 a exb:SEGMENT;
+  exb:start :T23;
+  exb:end :T49;
+  rdfs:label "HS".
+
+:TIE10 exb:event :event462.
+:event462 a exb:SEGMENT;
+  exb:start :T49;
+  exb:end :T66;
+  rdfs:label "HS".
+
+:TIE10 exb:event :event463.
+:event463 a exb:SEGMENT;
+  exb:start :T66;
+  exb:end :T84;
+  rdfs:label "HS".
+
+:TIE10 exb:event :event464.
+:event464 a exb:SEGMENT;
+  exb:start :T84;
+  exb:end :T95;
+  rdfs:label "HS".
+
+:TIE10 exb:event :event465.
+:event465 a exb:SEGMENT;
+  exb:start :T95;
+  exb:end :T112;
+  rdfs:label "HS".
+
+:TIE10 exb:event :event466.
+:event466 a exb:SEGMENT;
+  exb:start :T112;
+  exb:end :T124;
+  rdfs:label "HS".
+
+:TIE10 exb:event :event467.
+:event467 a exb:SEGMENT;
+  exb:start :T124;
+  exb:end :T153;
+  rdfs:label "HS".
+
+:TIE10 exb:event :event468.
+:event468 a exb:SEGMENT;
+  exb:start :T153;
+  exb:end :T161;
+  rdfs:label "HS".
+
+:TIE10 exb:event :event469.
+:event469 a exb:SEGMENT;
+  exb:start :T161;
+  exb:end :T183;
+  rdfs:label "HS".
+
+:TIE10 exb:event :event470.
+:event470 a exb:SEGMENT;
+  exb:start :T183;
+  exb:end :T187;
+  rdfs:label "HSF".
+
+<http://example.org/PLEASE_PROVIDE_baseURI_PARAMETER> exb:tier :TIE11.
+:TIE11 a exb:tier;
+  exb:category "SEGMENT-1";
+  exb:type "a";
+  exb:display-name "[SEGMENT-1]".
+
+:TIE11 exb:event :event471.
+:event471 a exb:SEGMENT-1;
+  exb:start :T34;
+  exb:end :T49;
+  rdfs:label "ARR".
+
+:TIE11 exb:event :event472.
+:event472 a exb:SEGMENT-1;
+  exb:start :T56;
+  exb:end :T66;
+  rdfs:label "ADV".
+
+:TIE11 exb:event :event473.
+:event473 a exb:SEGMENT-1;
+  exb:start :T66;
+  exb:end :T76;
+  rdfs:label "HS".
+
+:TIE11 exb:event :event474.
+:event474 a exb:SEGMENT-1;
+  exb:start :T76;
+  exb:end :T84;
+  rdfs:label "HSF".
+
+:TIE11 exb:event :event475.
+:event475 a exb:SEGMENT-1;
+  exb:start :T89;
+  exb:end :T95;
+  rdfs:label "OBJ".
+
+:TIE11 exb:event :event476.
+:event476 a exb:SEGMENT-1;
+  exb:start :T98;
+  exb:end :T105;
+  rdfs:label "ATT".
+
+:TIE11 exb:event :event477.
+:event477 a exb:SEGMENT-1;
+  exb:start :T124;
+  exb:end :T135;
+  rdfs:label "ADV".
+
+:TIE11 exb:event :event478.
+:event478 a exb:SEGMENT-1;
+  exb:start :T141;
+  exb:end :T153;
+  rdfs:label "OBJ".
+
+:TIE11 exb:event :event479.
+:event479 a exb:SEGMENT-1;
+  exb:start :T166;
+  exb:end :T169;
+  rdfs:label "SUB".
+
+:TIE11 exb:event :event480.
+:event480 a exb:SEGMENT-1;
+  exb:start :T169;
+  exb:end :T179;
+  rdfs:label "SUB".
+
+<http://example.org/PLEASE_PROVIDE_baseURI_PARAMETER> exb:tier :TIE12.
+:TIE12 a exb:tier;
+  exb:category "SEGMENT-2";
+  exb:type "t";
+  exb:display-name "[SEGMENT-2]".
+
+:TIE12 exb:event :event481.
+:event481 a exb:SEGMENT-2;
+  exb:start :T39;
+  exb:end :T49;
+  rdfs:label "OBJ".
+
+<http://example.org/PLEASE_PROVIDE_baseURI_PARAMETER> exb:tier :TIE13.
+:TIE13 a exb:tier;
+  exb:category "THETICITY";
+  exb:type "a";
+  exb:display-name "[THETICITY]".
+
+:TIE13 exb:event :event482.
+:event482 a exb:THETICITY;
+  exb:start :T0;
+  exb:end :T1;
+  rdfs:label "THETIC".
+
+:TIE13 exb:event :event483.
+:event483 a exb:THETICITY;
+  exb:start :T1;
+  exb:end :T7;
+  rdfs:label "THETIC-entity".
+
+:TIE13 exb:event :event484.
+:event484 a exb:THETICITY;
+  exb:start :T7;
+  exb:end :T23;
+  rdfs:label "THETIC-event".
+
+:TIE13 exb:event :event485.
+:event485 a exb:THETICITY;
+  exb:start :T23;
+  exb:end :T49;
+  rdfs:label "THETIC-event".
+
+:TIE13 exb:event :event486.
+:event486 a exb:THETICITY;
+  exb:start :T49;
+  exb:end :T66;
+  rdfs:label "NON-THETIC".
+
+:TIE13 exb:event :event487.
+:event487 a exb:THETICITY;
+  exb:start :T66;
+  exb:end :T84;
+  rdfs:label "NON-THETIC".
+
+:TIE13 exb:event :event488.
+:event488 a exb:THETICITY;
+  exb:start :T84;
+  exb:end :T95;
+  rdfs:label "NON-THETIC".
+
+:TIE13 exb:event :event489.
+:event489 a exb:THETICITY;
+  exb:start :T95;
+  exb:end :T112;
+  rdfs:label "THETIC-event".
+
+:TIE13 exb:event :event490.
+:event490 a exb:THETICITY;
+  exb:start :T112;
+  exb:end :T124;
+  rdfs:label "THETIC-entity".
+
+:TIE13 exb:event :event491.
+:event491 a exb:THETICITY;
+  exb:start :T124;
+  exb:end :T153;
+  rdfs:label "NON-THETIC".
+
+:TIE13 exb:event :event492.
+:event492 a exb:THETICITY;
+  exb:start :T153;
+  exb:end :T161;
+  rdfs:label "NON-THETIC".
+
+:TIE13 exb:event :event493.
+:event493 a exb:THETICITY;
+  exb:start :T161;
+  exb:end :T183;
+  rdfs:label "THETIC-event".
+
+:TIE13 exb:event :event494.
+:event494 a exb:THETICITY;
+  exb:start :T183;
+  exb:end :T187;
+  rdfs:label "NON-THETIC".
+
+<http://example.org/PLEASE_PROVIDE_baseURI_PARAMETER> exb:tier :TIE14.
+:TIE14 a exb:tier;
+  exb:category "THETICITY-1";
+  exb:type "a";
+  exb:display-name "[THETICITY-1]".
+
+:TIE14 exb:event :event495.
+:event495 a exb:THETICITY-1;
+  exb:start :T56;
+  exb:end :T66;
+  rdfs:label "NON-THETIC".
+
+:TIE14 exb:event :event496.
+:event496 a exb:THETICITY-1;
+  exb:start :T66;
+  exb:end :T76;
+  rdfs:label "NON-THETIC".
+
+:TIE14 exb:event :event497.
+:event497 a exb:THETICITY-1;
+  exb:start :T76;
+  exb:end :T84;
+  rdfs:label "NON-THETIC".
+
+:TIE14 exb:event :event498.
+:event498 a exb:THETICITY-1;
+  exb:start :T124;
+  exb:end :T135;
+  rdfs:label "NON-THETIC".
+
+<http://example.org/PLEASE_PROVIDE_baseURI_PARAMETER> exb:tier :TIE15.
+:TIE15 a exb:tier;
+  exb:category "THETICITY-2";
+  exb:type "a";
+  exb:display-name "[THETICITY-2]".
+
+<http://example.org/PLEASE_PROVIDE_baseURI_PARAMETER> exb:tier :TIE16.
+:TIE16 a exb:tier;
+  exb:category "TOPIC";
+  exb:type "a";
+  exb:display-name "[TOPIC]".
+
+:TIE16 exb:event :event499.
+:event499 a exb:TOPIC;
+  exb:start :T52;
+  exb:end :T53;
+  rdfs:label "AB".
+
+:TIE16 exb:event :event500.
+:event500 a exb:TOPIC;
+  exb:start :T61;
+  exb:end :T64;
+  rdfs:label "AB".
+
+:TIE16 exb:event :event501.
+:event501 a exb:TOPIC;
+  exb:start :T66;
+  exb:end :T71;
+  rdfs:label "AB".
+
+:TIE16 exb:event :event502.
+:event502 a exb:TOPIC;
+  exb:start :T86;
+  exb:end :T87;
+  rdfs:label "AB".
+
+:TIE16 exb:event :event503.
+:event503 a exb:TOPIC;
+  exb:start :T106;
+  exb:end :T110;
+  rdfs:label "FS".
+
+:TIE16 exb:event :event504.
+:event504 a exb:TOPIC;
+  exb:start :T126;
+  exb:end :T132;
+  rdfs:label "AB".
+
+:TIE16 exb:event :event505.
+:event505 a exb:TOPIC;
+  exb:start :T135;
+  exb:end :T136;
+  rdfs:label "AB".
+
+:TIE16 exb:event :event506.
+:event506 a exb:TOPIC;
+  exb:start :T154;
+  exb:end :T155;
+  rdfs:label "AB".
+
+<http://example.org/PLEASE_PROVIDE_baseURI_PARAMETER> exb:tier :TIE17.
+:TIE17 a exb:tier;
+  exb:category "CO-TOPIC";
+  exb:type "a";
+  exb:display-name "[CO-TOPIC]".
+
