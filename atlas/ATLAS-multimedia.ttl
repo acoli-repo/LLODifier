@@ -1,0 +1,87 @@
+PREFIX dc: <http://purl.org/dc/elements/1.1/>
+PREFIX xlink: <http://www.w3.org/1999/xlink/>
+PREFIX atlas: <http://www.ldc.upenn.edu/atlas/ag/>
+PREFIX : <http://example.org/PLEASE_PROVIDE_baseURI_PARAMETER#>
+
+<http://example.org/PLEASE_PROVIDE_baseURI_PARAMETER> atlas:agset :MM1.
+:MM1 a atlas:AGSet;
+  atlas:version "1.0";
+  dc:title "Annotation of a multimedia signal".
+
+:MM1 atlas:timeline :T1.
+:T1 a atlas:Timeline.
+
+:T1 atlas:signal :S1.
+:S1 a atlas:Signal;
+  atlas:mimeClass "audio";
+  atlas:mimeType "wav";
+  atlas:encoding "wav";
+  atlas:unit "16kHz";
+  xlink:href "audio1.wav";
+  xlink:type "simple".
+
+:T1 atlas:signal :S2.
+:S2 a atlas:Signal;
+  atlas:mimeClass "audio";
+  atlas:mimeType "wav";
+  atlas:encoding "wav";
+  atlas:unit "22050Hz";
+  xlink:href "audio2.wav";
+  xlink:type "simple".
+
+:T1 atlas:signal :S3.
+:S3 a atlas:Signal;
+  atlas:mimeClass "video";
+  atlas:mimeType "mpeg";
+  atlas:encoding "mpeg2";
+  atlas:unit "sec";
+  xlink:href "video.mpeg";
+  xlink:type "simple".
+
+:MM1 atlas:ag :t1.
+:t1 a atlas:AG;
+  atlas:timeline :T1;
+  atlas:type "multimedia".
+
+:t1 atlas:anchor :A0.
+:A0 a atlas:Anchor;
+  atlas:offset "1.42";
+  atlas:unit "sec".
+
+:t1 atlas:anchor :A1.
+:A1 a atlas:Anchor;
+  atlas:offset "2.62";
+  atlas:unit "sec".
+
+:t1 atlas:anchor :A2.
+:A2 a atlas:Anchor;
+  atlas:signals "S1 S2";
+  atlas:offset "3000";
+  atlas:unit "16kHz".
+
+:t1 atlas:anchor :A3.
+:A3 a atlas:Anchor;
+  atlas:signals "S1 S2";
+  atlas:offset "4600";
+  atlas:unit "16kHz".
+
+:t1 atlas:annotation :Ann0.
+:Ann0 a atlas:Annotation;
+  atlas:start :A0;
+  atlas:end :A1;
+  atlas:type "transcription";
+  atlas:start "A0";
+  atlas:end "A1".
+
+:Ann0 atlas:trans "event in all three signals".
+
+:t1 atlas:annotation :Ann1.
+:Ann1 a atlas:Annotation;
+  atlas:start :A2;
+  atlas:end :A3;
+  atlas:type "transcription";
+  atlas:start "A2";
+  atlas:end "A3".
+
+:Ann1 atlas:trans "event in autido signals".
+

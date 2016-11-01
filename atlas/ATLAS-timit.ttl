@@ -1,0 +1,183 @@
+PREFIX dc: <http://purl.org/dc/elements/1.1/>
+PREFIX xlink: <http://www.w3.org/1999/xlink/>
+PREFIX atlas: <http://www.ldc.upenn.edu/atlas/ag/>
+PREFIX : <http://example.org/PLEASE_PROVIDE_baseURI_PARAMETER#>
+
+<http://example.org/PLEASE_PROVIDE_baseURI_PARAMETER> atlas:agset :Timit.
+:Timit a atlas:AGSet;
+  atlas:version "1.0";
+  dc:title "The AIF representation for the TIMIT fragment included
+	in Bird & Liberman's annotation graph paper. ".
+
+:Timit atlas:timeline :T1.
+:T1 a atlas:Timeline.
+
+:T1 atlas:signal :S1.
+:S1 a atlas:Signal;
+  atlas:mimeClass "audio";
+  atlas:mimeType "wav";
+  atlas:encoding "wav";
+  atlas:unit "16kHz";
+  xlink:href "TIMIT/train/dr1/fjsp0/sa1.wav";
+  xlink:type "simple".
+
+:Timit atlas:ag :t1.
+:t1 a atlas:AG;
+  atlas:timeline :T1;
+  atlas:type "transcription".
+
+:t1 atlas:anchor :A0.
+:A0 a atlas:Anchor;
+  atlas:offset "0";
+  atlas:unit "16kHz".
+
+:t1 atlas:anchor :A1.
+:A1 a atlas:Anchor;
+  atlas:offset "2360";
+  atlas:unit "16kHz".
+
+:t1 atlas:anchor :A2.
+:A2 a atlas:Anchor;
+  atlas:offset "3270";
+  atlas:unit "16kHz".
+
+:t1 atlas:anchor :A3.
+:A3 a atlas:Anchor;
+  atlas:offset "5200";
+  atlas:unit "16kHz".
+
+:t1 atlas:anchor :A4.
+:A4 a atlas:Anchor;
+  atlas:offset "6160";
+  atlas:unit "16kHz".
+
+:t1 atlas:anchor :A5.
+:A5 a atlas:Anchor;
+  atlas:offset "8720";
+  atlas:unit "16kHz".
+
+:t1 atlas:anchor :A6.
+:A6 a atlas:Anchor;
+  atlas:offset "9680";
+  atlas:unit "16kHz".
+
+:t1 atlas:anchor :A7.
+:A7 a atlas:Anchor;
+  atlas:offset "10173";
+  atlas:unit "16kHz".
+
+:t1 atlas:anchor :A8.
+:A8 a atlas:Anchor;
+  atlas:offset "11077";
+  atlas:unit "16kHz".
+
+:t1 atlas:annotation :Ann1.
+:Ann1 a atlas:Annotation;
+  atlas:start :A0;
+  atlas:end :A1;
+  atlas:type "P";
+  atlas:start "A0";
+  atlas:end "A1".
+
+:Ann1 atlas:label "h#".
+
+:t1 atlas:annotation :Ann2.
+:Ann2 a atlas:Annotation;
+  atlas:start :A1;
+  atlas:end :A2;
+  atlas:type "P";
+  atlas:start "A1";
+  atlas:end "A2".
+
+:Ann2 atlas:label "sh".
+
+:t1 atlas:annotation :Ann3.
+:Ann3 a atlas:Annotation;
+  atlas:start :A2;
+  atlas:end :A3;
+  atlas:type "P";
+  atlas:start "A2";
+  atlas:end "A3".
+
+:Ann3 atlas:label "iy".
+
+:t1 atlas:annotation :Ann4.
+:Ann4 a atlas:Annotation;
+  atlas:start :A3;
+  atlas:end :A4;
+  atlas:type "P";
+  atlas:start "A3";
+  atlas:end "A4".
+
+:Ann4 atlas:label "hv".
+
+:t1 atlas:annotation :Ann5.
+:Ann5 a atlas:Annotation;
+  atlas:start :A4;
+  atlas:end :A5;
+  atlas:type "P";
+  atlas:start "A4";
+  atlas:end "A5".
+
+:Ann5 atlas:label "ae".
+
+:t1 atlas:annotation :Ann6.
+:Ann6 a atlas:Annotation;
+  atlas:start :A5;
+  atlas:end :A6;
+  atlas:type "P";
+  atlas:start "A5";
+  atlas:end "A6".
+
+:Ann6 atlas:label "dcl".
+
+:t1 atlas:annotation :Ann7.
+:Ann7 a atlas:Annotation;
+  atlas:start :A6;
+  atlas:end :A7;
+  atlas:type "P";
+  atlas:start "A6";
+  atlas:end "A7".
+
+:Ann7 atlas:label "y".
+
+:t1 atlas:annotation :Ann8.
+:Ann8 a atlas:Annotation;
+  atlas:start :A7;
+  atlas:end :A8;
+  atlas:type "P";
+  atlas:start "A7";
+  atlas:end "A8".
+
+:Ann8 atlas:label "axr".
+
+:t1 atlas:annotation :Ann9.
+:Ann9 a atlas:Annotation;
+  atlas:start :A1;
+  atlas:end :A3;
+  atlas:type "W";
+  atlas:start "A1";
+  atlas:end "A3".
+
+:Ann9 atlas:label "she".
+
+:t1 atlas:annotation :Ann10.
+:Ann10 a atlas:Annotation;
+  atlas:start :A3;
+  atlas:end :A6;
+  atlas:type "W";
+  atlas:start "A3";
+  atlas:end "A6".
+
+:Ann10 atlas:label "had".
+
+:t1 atlas:annotation :Ann11.
+:Ann11 a atlas:Annotation;
+  atlas:start :A6;
+  atlas:end :A8;
+  atlas:type "W";
+  atlas:start "A6";
+  atlas:end "A8".
+
+:Ann11 atlas:label "your".
+

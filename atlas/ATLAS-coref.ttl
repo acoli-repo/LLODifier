@@ -1,0 +1,69 @@
+PREFIX dc: <http://purl.org/dc/elements/1.1/>
+PREFIX xlink: <http://www.w3.org/1999/xlink/>
+PREFIX atlas: <http://www.ldc.upenn.edu/atlas/ag/>
+PREFIX : <http://example.org/PLEASE_PROVIDE_baseURI_PARAMETER#>
+
+<http://example.org/PLEASE_PROVIDE_baseURI_PARAMETER> atlas:agset :COREF1.
+:COREF1 a atlas:AGSet;
+  atlas:version "1.0";
+  dc:title "An example of coreference annotation".
+
+:COREF1 atlas:timeline :T1.
+:T1 a atlas:Timeline.
+
+:T1 atlas:signal :S1.
+:S1 a atlas:Signal;
+  atlas:mimeClass "text";
+  atlas:mimeType "simpletext";
+  atlas:encoding "utf8";
+  atlas:unit "byte";
+  xlink:href "textfile.utf8";
+  xlink:type "simple".
+
+:COREF1 atlas:ag :t1.
+:t1 a atlas:AG;
+  atlas:timeline :T1;
+  atlas:type "coref".
+
+:t1 atlas:anchor :A0.
+:A0 a atlas:Anchor;
+  atlas:offset "1";
+  atlas:unit "byte".
+
+:t1 atlas:anchor :A1.
+:A1 a atlas:Anchor;
+  atlas:offset "9";
+  atlas:unit "byte".
+
+:t1 atlas:anchor :A8.
+:A8 a atlas:Anchor;
+  atlas:offset "23";
+  atlas:unit "byte".
+
+:t1 atlas:anchor :A9.
+:A9 a atlas:Anchor;
+  atlas:offset "25";
+  atlas:unit "byte".
+
+:t1 atlas:annotation :Ann0.
+:Ann0 a atlas:Annotation;
+  atlas:start :A0;
+  atlas:end :A1;
+  atlas:type "transcription";
+  atlas:start "A0";
+  atlas:end "A1".
+
+:Ann0 atlas:trans "The woman".
+
+:t1 atlas:annotation :Ann8.
+:Ann8 a atlas:Annotation;
+  atlas:start :A8;
+  atlas:end :A9;
+  atlas:type "transcription";
+  atlas:start "A8";
+  atlas:end "A9".
+
+:Ann8 atlas:trans "She".
+
+:Ann8 atlas:coref :Ann0.
+
