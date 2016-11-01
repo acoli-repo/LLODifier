@@ -1,0 +1,597 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- (c) http://www.rrz.uni-hamburg.de/exmaralda -->
+<basic-transcription>
+    <head>
+        <meta-information>
+            <project-name/>
+            <transcription-name/>
+            <referenced-file url="LaToyaJacksonInterpretingIsFun.avi"/>
+            <referenced-file url="LaToyaJacksonInterpretingIsFun.wav"/>
+            <referenced-file url="LaToyaJacksonInterpretingIsFun.mp3"/>
+            <referenced-file url="LaToyaJacksonInterpretingIsFun.ogg"/>
+            <ud-meta-information>
+                <ud-information attribute-name="AutoSave"
+                    >;C:\Users\fetx033\EXMARaLDA_AutoBackup_2014_10_07_12_41_16.exb at
+                    2014_10_07_01_42_17;C:\Users\fetx033\EXMARaLDA_AutoBackup_2014_10_07_12_41_16.exb
+                    at
+                    2014_10_07_02_43_17;C:\Users\fetx033\EXMARaLDA_AutoBackup_2014_10_10_08_58_02.exb
+                    at
+                    2014_10_10_10_01_05;C:\Users\fetx033\EXMARaLDA_AutoBackup_2014_10_10_08_58_02.exb
+                    at
+                    2014_10_10_11_02_05;C:\Users\fetx033\EXMARaLDA_AutoBackup_2014_10_10_08_58_02.exb
+                    at
+                    2014_10_10_12_03_05;C:\Users\fetx033\EXMARaLDA_AutoBackup_2014_10_10_08_58_02.exb
+                    at
+                    2014_10_10_01_04_05;C:\Users\fetx033\EXMARaLDA_AutoBackup_2014_10_10_08_58_02.exb
+                    at
+                    2014_10_10_02_05_05;C:\Users\fetx033\EXMARaLDA_AutoBackup_2014_11_18_10_57_23.exb
+                    at
+                    2014_11_18_12_12_58;C:\Users\fetx033\EXMARaLDA_AutoBackup_2014_11_18_10_57_23.exb
+                    at
+                    2014_11_18_01_13_58;C:\Users\fetx033\EXMARaLDA_AutoBackup_2014_11_18_10_57_23.exb
+                    at
+                    2014_11_18_02_14_58;C:\Users\fetx033\EXMARaLDA_AutoBackup_2014_11_18_10_57_23.exb
+                    at 2014_11_18_03_15_58</ud-information>
+            </ud-meta-information>
+            <comment/>
+            <transcription-convention/>
+        </meta-information>
+        <speakertable>
+            <speaker id="SPK0">
+                <abbreviation>LJ</abbreviation>
+                <sex value="f"/>
+                <languages-used/>
+                <l1/>
+                <l2/>
+                <ud-speaker-information> </ud-speaker-information>
+                <comment/>
+            </speaker>
+            <speaker id="SPK2">
+                <abbreviation>ASP</abbreviation>
+                <sex value="u"/>
+                <languages-used/>
+                <l1/>
+                <l2/>
+                <ud-speaker-information> </ud-speaker-information>
+                <comment/>
+            </speaker>
+            <speaker id="SPK1">
+                <abbreviation>UEB</abbreviation>
+                <sex value="u"/>
+                <languages-used/>
+                <l1/>
+                <l2/>
+                <ud-speaker-information> </ud-speaker-information>
+                <comment/>
+            </speaker>
+            <speaker id="SPK3">
+                <abbreviation>ON</abbreviation>
+                <sex value="u"/>
+                <languages-used/>
+                <l1/>
+                <l2/>
+                <ud-speaker-information> </ud-speaker-information>
+                <comment/>
+            </speaker>
+        </speakertable>
+    </head>
+    <basic-body>
+        <common-timeline>
+            <tli id="T3" time="4.573191494222258"/>
+            <tli id="T8" time="5.073175987030815"/>
+            <tli id="T12" time="5.506495880798229"/>
+            <tli id="T2" time="6.059812052839699"/>
+            <tli id="T18" time="7.053114578552696"/>
+            <tli id="T4" time="8.393073019279626"/>
+            <tli id="T41" time="8.746395394197673"/>
+            <tli id="T7" time="9.53970412278725"/>
+            <tli id="T42" time="10.533006648500246"/>
+            <tli id="T21" time="10.93299424274709"/>
+            <tli id="T9" time="11.332981836993936"/>
+            <tli id="T30" time="11.899630928843631"/>
+            <tli id="T47" time="12.952931593693659"/>
+            <tli id="T43" time="13.179591230433534"/>
+            <tli id="T50" time="13.489581615974839"/>
+            <tli id="T46" time="14.532882590968693"/>
+            <tli id="T11" time="17.219465932326667"/>
+            <tli id="T48" time="18.05943988024504"/>
+            <tli id="T14" time="20.85935303997296"/>
+            <tli id="T13" time="22.48596925657679"/>
+            <tli id="T55" time="22.76596057254958"/>
+            <tli id="T66" time="23.359275504015734" type="intp"/>
+            <tli id="T15" time="23.952590435481888"/>
+            <tli id="T6" time="28.185792474594326"/>
+            <tli id="T116" time="28.812439705581053"/>
+            <tli id="T67" time="30.472388221705458"/>
+            <tli id="T49" time="31.91901002089821"/>
+            <tli id="T17" time="33.67895543558433"/>
+            <tli id="T51" time="34.52559584340682"/>
+            <tli id="T52" time="35.09891139516063"/>
+            <tli id="T90" time="36.11221330058597"/>
+            <tli id="T119" time="37.34550838284707"/>
+            <tli id="T16" time="37.85215933555974"/>
+            <tli id="T68" time="37.8788251751762"/>
+            <tli id="T56" time="40.51874329720538"/>
+            <tli id="T117" time="41.392049544644316"/>
+            <tli id="T121" time="42.77867320470005"/>
+            <tli id="T122" time="43.911971388399444"/>
+            <tli id="T124" time="45.48525592577037"/>
+            <tli id="T71" time="45.91190935963367"/>
+            <tli id="T61" time="45.97190749877069"/>
+            <tli id="T126" time="47.97184547000492"/>
+            <tli id="T0" time="49.15847533293722"/>
+            <tli id="T128" time="49.85178716296508"/>
+            <tli id="T132" time="53.11835251598099"/>
+            <tli id="T44" time="53.625003468693656"/>
+            <tli id="T133" time="55.88493337618833"/>
+            <tli id="T62" time="56.138258852544666"/>
+            <tli id="T80" time="57.498216672983936"/>
+            <tli id="T77" time="59.13149934949188"/>
+            <tli id="T54" time="59.38482482584822"/>
+            <tli id="T100" time="59.69148198143746"/>
+            <tli id="T113" time="61.991410648356826"/>
+            <tli id="T111" time="62.62805756919972"/>
+            <tli id="T107" time="63.94468340026226"/>
+            <tli id="T102" time="64.12901362069691"/>
+            <tli id="T10" time="64.43133497326258"/>
+            <tli id="T184" time="64.92465300616702"/>
+            <tli id="T103" time="66.46460524401738"/>
+            <tli id="T69" time="68.13122022004589"/>
+            <tli id="T114" time="68.51120843458038"/>
+            <tli id="T19" time="68.73120161141617"/>
+            <tli id="T185" time="69.28451778345763"/>
+            <tli id="T70" time="71.84443838663744"/>
+            <tli id="T63" time="73.69104778007704"/>
+            <tli id="T187" time="75.31766399668088"/>
+            <tli id="T74" time="76.45096218038026"/>
+            <tli id="T125" time="76.76428579587363"/>
+            <tli id="T118" time="80.59750024073922"/>
+            <tli id="T20" time="81.8641276225209"/>
+            <tli id="T120" time="82.77743262938452"/>
+            <tli id="T5" time="84.52404512426243"/>
+            <tli id="T123" time="85.72400790700296" type="intp"/>
+            <tli id="T45" time="86.92397068974348"/>
+            <tli id="T76" time="89.09723661848467"/>
+            <tli id="T182" time="90.79718389403376" type="intp"/>
+            <tli id="T75" time="92.49713116958284"/>
+            <tli id="T186" time="93.20377591941896"/>
+            <tli id="T112" time="94.27707596398132"/>
+            <tli id="T58" time="94.53040144033766"/>
+            <tli id="T108" time="95.95035739991395"/>
+            <tli id="T79" time="96.00368907914687"/>
+            <tli id="T22" time="97.76363449383297"/>
+            <tli id="T64" time="99.96356626219062"/>
+            <tli id="T59" time="101.21352749421202" type="intp"/>
+            <tli id="T139" time="102.46348872623341"/>
+            <tli id="T127" time="102.83347725091173" type="intp"/>
+            <tli id="T53" time="103.20346577559006"/>
+            <tli id="T65" time="103.9560270700587"/>
+            <tli id="T91" time="104.37117695445853"/>
+            <tli id="T101" time="105.05746426277102"/>
+            <tli id="T109" time="105.7619997030281"/>
+            <tli id="T140" time="107.36333675575725"/>
+            <tli id="T83" time="108.62329767763481"/>
+            <tli id="T129" time="110.48323999088265"/>
+            <tli id="T84" time="112.70983759885674"/>
+            <tli id="T24" time="113.03649413415835"/>
+            <tli id="T130" time="113.24749019420945"/>
+            <tli id="T131" time="115.04309856529666"/>
+            <tli id="T85" time="115.22309298270777"/>
+            <tli id="T23" time="118.34966267773726"/>
+            <tli id="T141" time="119.54295900057369"/>
+            <tli id="T137" time="120.42959816782084"/>
+            <tli id="T151" time="120.91958297077323"/>
+            <tli id="T134" time="121.5428969718079"/>
+            <tli id="T146" time="122.26287464145221"/>
+            <tli id="T87" time="122.32287278058924"/>
+            <tli id="T153" time="122.84952311301426"/>
+            <tli id="T138" time="123.34284114591868"/>
+            <tli id="T152" time="123.7161629005491"/>
+            <tli id="T26" time="123.92282315757664"/>
+            <tli id="T73" time="124.63613436731684"/>
+            <tli id="T27" time="124.6694666668374"/>
+            <tli id="T78" time="127.53604442560646"/>
+            <tli id="T154" time="127.8360351212916"/>
+            <tli id="T86" time="128.329353154196"/>
+            <tli id="T81" time="130.54928430226602"/>
+            <tli id="T28" time="134.81581864089904"/>
+            <tli id="T29" time="137.735728078901"/>
+            <tli id="T155" time="137.9290554161203"/>
+            <tli id="T142" time="138.16904797266844"/>
+            <tli id="T156" time="139.6690014510941"/>
+            <tli id="T157" time="140.67563689661532"/>
+            <tli id="T158" time="141.34894934693082"/>
+            <tli id="T143" time="141.79560216050646"/>
+            <tli id="T94" time="144.32219046416574"/>
+            <tli id="T89" time="145.90880792134487"/>
+            <tli id="T159" time="146.3787933445849" type="intp"/>
+            <tli id="T95" time="146.84877876782494"/>
+            <tli id="T92" time="148.60205772260696"/>
+            <tli id="T31" time="149.30870247244306"/>
+            <tli id="T160" time="150.0486795217997"/>
+            <tli id="T93" time="150.74199135182758"/>
+            <tli id="T97" time="153.46857345261023"/>
+            <tli id="T164" time="154.4552095184191"/>
+            <tli id="T96" time="155.19518656777575"/>
+            <tli id="T98" time="156.71513942591378"/>
+            <tli id="T162" time="157.52178107431158"/>
+            <tli id="T161" time="158.4284196212711"/>
+            <tli id="T33" time="161.51499055687594"/>
+            <tli id="T115" time="162.8349496178905"/>
+            <tli id="T165" time="163.5349279078225"/>
+            <tli id="T167" time="164.75489007027534"/>
+            <tli id="T34" time="166.6148323835232"/>
+            <tli id="T35" time="168.7480995528397"/>
+            <tli id="T135" time="169.57474058094985"/>
+            <tli id="T168" time="169.70067417507602"/>
+            <tli id="T169" time="172.3013226817325"/>
+            <tli id="T36" time="173.28795874754138"/>
+            <tli id="T170" time="173.88794013891166"/>
+            <tli id="T37" time="175.12123522117278"/>
+            <tli id="T104" time="176.06787252755697"/>
+            <tli id="T171" time="177.24783593058515"/>
+            <tli id="T99" time="178.89445152690135"/>
+            <tli id="T144" time="179.35443726028518"/>
+            <tli id="T172" time="179.6277621163539"/>
+            <tli id="T173" time="180.6410640217792"/>
+            <tli id="T145" time="181.92102432336912"/>
+            <tli id="T39" time="183.9476281342198"/>
+            <tli id="T174" time="184.1165161252672"/>
+            <tli id="T106" time="186.0808953035363"/>
+            <tli id="T38" time="186.63421147557776"/>
+            <tli id="T176" time="187.89417239745535"/>
+            <tli id="T177" time="188.86080908355186"/>
+            <tli id="T147" time="190.8674135146902"/>
+            <tli id="T148" time="192.8940173255409"/>
+            <tli id="T40" time="193.7006589739387"/>
+            <tli id="T178" time="196.0672522398992"/>
+            <tli id="T149" time="197.50720757918785"/>
+            <tli id="T180" time="197.7205342961195"/>
+            <tli id="T110" time="199.28048591368218"/>
+            <tli id="T179" time="200.22712322006637"/>
+            <tli id="T181" time="200.62188962208364"/>
+            <tli id="T150" time="202.00040155456074"/>
+            <tli id="T25" time="215.88420077728037" type="intp"/>
+            <tli id="T1" time="229.768"/>
+        </common-timeline>
+        <tier id="TIE0" speaker="SPK0" category="v" type="t" display-name="LJ [v]">
+            <event start="T3" end="T8">I am… </event>
+            <event start="T8" end="T18">((2s)) </event>
+            <event start="T18" end="T4">Oh, how lovely! </event>
+            <event start="T4" end="T7">((1,1s)) </event>
+            <event start="T7" end="T42">How lovely! </event>
+            <event start="T42" end="T21">((0,3s)) </event>
+            <event start="T21" end="T9">Look at… </event>
+            <event start="T9" end="T30">((0,5s)) </event>
+            <event start="T30" end="T47">How lovely! </event>
+            <event start="T47" end="T43">((0,3s)) </event>
+            <event start="T43" end="T46">Can you see that? </event>
+            <event start="T46" end="T11">((2,8s)) </event>
+            <event start="T11" end="T48">Look at that! </event>
+            <event start="T48" end="T14">((2,8s)) </event>
+            <event start="T14" end="T13">Absolutely beautiful! </event>
+            <event start="T13" end="T15">((1,46s)) </event>
+            <event start="T15" end="T116">I ((1s)) I must say that it is truly an honour to be here
+                tonight </event>
+            <event start="T116" end="T67">((2s)) </event>
+            <event start="T67" end="T49"> on the behalf of my brother </event>
+            <event start="T49" end="T52">to except this lovely lovely award </event>
+            <event start="T52" end="T119">((0,8s)) from the opera house </event>
+            <event start="T119" end="T68">((0,9s)) </event>
+            <event start="T68" end="T56">from Dresden from this event! </event>
+            <event start="T56" end="T117">((1s)) </event>
+            <event start="T117" end="T124">I don't know if you knew the Michael that we all knew. </event>
+            <event start="T124" end="T61">((0,5s)) </event>
+            <event start="T61" end="T126">You know a lot about him. </event>
+            <event start="T126" end="T0">You know that </event>
+            <event start="T0" end="T132">((0,4s)) he had/ he was giving actually to thirty-nine
+                charities. </event>
+            <event start="T132" end="T44">((0,5s)) </event>
+            <event start="T44" end="T133">But he gave so much more than that! </event>
+            <event start="T133" end="T62">((holt hörbar Luft, 0,3s)) </event>
+            <event start="T62" end="T77"> He gave his heart to people that he would see on the
+                street. </event>
+            <event start="T77" end="T54">((holt hörbar Luft, 0,3s)) </event>
+            <event start="T54" end="T102">People that were on the streets crying sometimes he would
+                invite them to come to his house and stay for the night </event>
+            <event start="T102" end="T10">((holt hörbar Luft, 0,3s)) </event>
+            <event start="T10" end="T103">until he could find a place for them to stay </event>
+            <event start="T103" end="T114">((holt hörbar Luft, 0,2s)) the following day and the day
+                after that. </event>
+            <event start="T114" end="T63">((holt hörbar Luft, 0,5s)) So to except this award means
+                so much to me to my family, to him. </event>
+            <event start="T63" end="T74">((holt hörbar Luft, 0,5s)) He's given so much to the world: </event>
+            <event start="T74" end="T20">((0,4s)) more than over threehundred (million) dollars to
+                different charititable events and different charities. </event>
+            <event start="T20" end="T5">((holt hörbar Luft, 0,2s)) Which is quite commendable to
+                give so much </event>
+            <event start="T5" end="T45">((holt hörbar Luft, 0,3s)) from such a small person </event>
+            <event start="T45" end="T76">((holt hörbar Luft, 0,3s)) but yet a large heart </event>
+            <event start="T76" end="T75">((holt hörbar Luft, 0,4s)) that I feel that all of us
+                should try (and) emulate </event>
+            <event start="T75" end="T112"> because it shows the goodness </event>
+            <event start="T112" end="T108">((holt hörbar Luft, 0,3s)) from this individual. </event>
+            <event start="T108" end="T59">((holt hörbar Luft, 0,2s)) His heart was so big that none
+                of us could possibly imagine the (thought) </event>
+            <event start="T59" end="T139">that he thought every single day. </event>
+            <event start="T139" end="T53">((0,7s)) </event>
+            <event start="T53" end="T65">My mother </event>
+            <event start="T65" end="T91">and </event>
+            <event start="T91" end="T101">my brother </event>
+            <event start="T101" end="T109">and </event>
+            <event start="T109" end="T83">myself, we would sit down and we watched television </event>
+            <event start="T83" end="T129">((holt hörbar Luft, 0,3s)) and watched the kids starving </event>
+            <event start="T129" end="T84">((1s)) in all the different countries. </event>
+            <event start="T84" end="T130">((holt hörbar Luft, 0,5s)) </event>
+            <event start="T130" end="T85">And we would sit there and we would cry. </event>
+            <event start="T85" end="T23">((holt hörbar Luft, 0,9)) Michael would cry, my mother
+                would cry, we would all </event>
+            <event start="T23" end="T141">cry and cry. </event>
+            <event start="T141" end="T151">And he would say: </event>
+            <event start="T151" end="T87">((1,4s)) </event>
+            <event start="T87" end="T152">"What good is the crying doing </event>
+            <event start="T152" end="T26">((0,2s)) </event>
+            <event start="T26" end="T27">for all of us? </event>
+            <event start="T27" end="T78">((0,8s)) Let's give, let's do something about it!". </event>
+            <event start="T78" end="T86">((0,8s)) </event>
+            <event start="T86" end="T81">And he would pick up the phone and he would </event>
+            <event start="T81" end="T28">say: ((0,2s)) "Send them a check for a million dollars,
+                send this one a check for a million dollars!". </event>
+            <event start="T28" end="T29">((holt hörbar Luft, 0,3s)) And he would say: "Let's go over
+                and donate our time!". </event>
+            <event start="T29" end="T142">((holt hörbar Luft, 0,4)) </event>
+            <event start="T142" end="T156">So we've made the point </event>
+            <event start="T156" end="T157">((1s)) </event>
+            <event start="T157" end="T143">wherever we go </event>
+            <event start="T143" end="T89"> ((0,3s)) to try and visit the children who are in need,
+                children who are sick, </event>
+            <event start="T89" end="T95">the children just </event>
+            <event start="T95" end="T31"> ((0,3s)) who need love, care and attention. </event>
+            <event start="T31" end="T160">((0,7s)) </event>
+            <event start="T160" end="T97">We've also made it a point at a very young age — at the
+                age of ähm </event>
+            <event start="T97" end="T96">((0,3)) sixteen and even younger — </event>
+            <event start="T96" end="T98">we would go to the hospitals </event>
+            <event start="T98" end="T161">((0,4s)) and we would visit the elderly </event>
+            <event start="T161" end="T33">((0,2s)) and feed them and just sit there and play games. </event>
+            <event start="T33" end="T167">((holt hörbar Luft, 0,2s)) Michael and I would play games
+                for two, three, four hours. </event>
+            <event start="T167" end="T34">((0,3s)) And I ((unverständlich, 0,5s)) to the studio. </event>
+            <event start="T34" end="T35">((holt hörbar Luft, 0,3s)) And he says: "But you don't. You
+                can stay longer.". </event>
+            <event start="T35" end="T135">((0,3s)) ((lacht, 0,3s)) </event>
+            <event start="T135" end="T36">And so I would I would stay longer and I
+                ((unverständlich)) just spent my time with them. </event>
+            <event start="T36" end="T37">((holt hörbar Luft, 0,3s)) So coming from a family </event>
+            <event start="T37" end="T171"> ((0,5s)) and coming from the individual </event>
+            <event start="T171" end="T144">((0,5s)) who gave the way he gave: </event>
+            <event start="T144" end="T145">((0,3s)) from his heart more than anything else. </event>
+            <event start="T145" end="T174">((holt hörbar Luft, 0,5s)) I really thank all of you </event>
+            <event start="T174" end="T38">((0,2s)) and I accept this award on his behalf. </event>
+            <event start="T38" end="T147">((holt hörbar Luft, 0,5s)) He's smiling right now at us
+                because he knows this is what he want. </event>
+            <event start="T147" end="T40"> So from here he's smiling at all of us right now. </event>
+            <event start="T40" end="T178">((holt hörbar Luft, 0,4)) So: I thank you so very much for
+                this! </event>
+            <event start="T178" end="T149">((holt hörbar Luft, 0,3s)) This is so wonderful! </event>
+            <event start="T149" end="T110">((0,2s)) On the behalf of my brother</event>
+            <event start="T110" end="T179"> ((0,5s)) I thank you! </event>
+            <event start="T179" end="T150">((1s)) Thank you very much!</event>
+        </tier>
+        <tier id="TIE10" speaker="SPK0" category="k" type="a" display-name="LJ [k]">
+            <event start="T44" end="T133">flüsternd </event>
+            <event start="T65" end="T91">stotternd </event>
+            <event start="T101" end="T109">stotternd </event>
+        </tier>
+        <tier id="TIE4" speaker="SPK0" category="ger" type="a" display-name="LJ [ger]">
+            <event start="T3" end="T8">Ich bin… </event>
+            <event start="T8" end="T18">((2s)) </event>
+            <event start="T18" end="T4">Oh, wie schön! </event>
+            <event start="T4" end="T7">((1,1s)) </event>
+            <event start="T7" end="T42">Wie schön! </event>
+            <event start="T42" end="T21">((0,3s)) </event>
+            <event start="T21" end="T9">Sehen Sie … </event>
+            <event start="T9" end="T30">((0,5s)) </event>
+            <event start="T30" end="T47">Wie schön! </event>
+            <event start="T47" end="T43">((0,3s)) </event>
+            <event start="T43" end="T46">Können Sie das sehen? </event>
+            <event start="T46" end="T11">((2,8s)) </event>
+            <event start="T11" end="T48">Sehen Sie sich das an! </event>
+            <event start="T48" end="T14">((2,8s)) </event>
+            <event start="T14" end="T13">Absolut schön! </event>
+            <event start="T13" end="T15">((1,46s)) </event>
+            <event start="T15" end="T116">Ich ((1s)) Ich muss sagen, dass es wirklich eine Ehre ist,
+                heute hier zu sein, </event>
+            <event start="T116" end="T67">((2s)) </event>
+            <event start="T67" end="T49">um im Namen meines Bruders </event>
+            <event start="T49" end="T52"> diese schöne schöne Auszeichnung anzunehmen </event>
+            <event start="T52" end="T119">((0,8s)) von diesem Opernhaus </event>
+            <event start="T119" end="T68">((0,9s)) </event>
+            <event start="T68" end="T56"> (aus/von) Dresden von diesem Event! </event>
+            <event start="T56" end="T117">((1s)) </event>
+            <event start="T117" end="T124">Ich weiß nicht, ob Sie den Michael kannten, den wir alle
+                kannten. </event>
+            <event start="T124" end="T61">((0,5s)) </event>
+            <event start="T61" end="T126">Sie wissen viel über ihn. </event>
+            <event start="T126" end="T0">Sie wissen, dass </event>
+            <event start="T0" end="T132">((0,4s)) er tatsächlich für neununddreißig Organisationen
+                gespendet hat. </event>
+            <event start="T132" end="T44">((0,5s)) </event>
+            <event start="T44" end="T133">Aber er gab so viel mehr als das! </event>
+            <event start="T133" end="T62">((holt hörbar Luft, 0,3s)) </event>
+            <event start="T62" end="T77">Er gab sein Herz den Menschen, die er auf der Straße sah. </event>
+            <event start="T77" end="T54">((holt hörbar Luft, 0,3s)) </event>
+            <event start="T54" end="T102">Menschen, die auf den Straßen weinten, lud er manchmal
+                ein, zu seinem Haus zu kommen und dort zu übernachten, </event>
+            <event start="T102" end="T10">((holt hörbar Luft, 3s)) </event>
+            <event start="T10" end="T114">bis er einen Platz für sie zum Verbringen des Folgetages
+                und des auf diesen folgenden Tages gefunden hätte. </event>
+            <event start="T114" end="T63">((holt hörbar Luft, 0,5s)) Diese Auszeichnung anzunehmen,
+                bedeutet also sehr viel für mich, für meine Familie, für ihn. </event>
+            <event start="T63" end="T74">((holt hörbar Luft, 0,5s)) Er hat der Welt so viel gegeben: </event>
+            <event start="T74" end="T20">((0,4s)) mehr als über dreihundert (Millionen) Dollar für
+                verschiedene wohltätigen Veranstaltungen und verschiedenen wohltätigen
+                Organisationen. </event>
+            <event start="T20" end="T5">((holt hörbar Luft, 0,2s)) Was sehr anerkennenswert ist, so
+                viel zu geben </event>
+            <event start="T5" end="T76">((holt hörbar Luft,0,3s)) von einem Menschen, der so klein
+                ist, ((holt hörbar Luft, 0,3s)) aber dennoch ein großes Herz hatte. </event>
+            <event start="T76" end="T108">Sodass ich denke, dass wir alle versuchen sollten
+                nachzuahmen, weil es die Güte dieses Individuums verdeutlicht. </event>
+            <event start="T108" end="T139">((holt hörbar Luft, 0,2s)) Sein Herz war so groß, dass
+                keiner von uns sich jemals den Gedanken vorstellen kann, den er an jedem einzelnen
+                Tag gedacht hat. </event>
+            <event start="T139" end="T53">((0,7s)) </event>
+            <event start="T53" end="T83">Meine Mutter, mein Bruder und ich setzten uns hin, und wir
+                sahen fern, </event>
+            <event start="T83" end="T129"> ((holt hörbar Luft, 0,3s)) und wir sahen die Kinder
+                verhungern </event>
+            <event start="T129" end="T84">((1s)) in all den verschiedenen Ländern. </event>
+            <event start="T84" end="T130">((holt hörbar Luft, 0,5s)) </event>
+            <event start="T130" end="T85">Und wir saßen dort und weinten. </event>
+            <event start="T85" end="T141">((holt hörbar Luft, 0,9)) Michael weinte, meine Mutter
+                weinte, wir alle weinten und weinten. </event>
+            <event start="T141" end="T151">Und er sagte dann: </event>
+            <event start="T151" end="T87">((1,4s)) </event>
+            <event start="T87" end="T27">"Welchen Nutzen bringt uns allen das Weinen? </event>
+            <event start="T27" end="T78">Lasst uns (etwas) geben, lasst uns etwas dagegen
+                unternehmen!". </event>
+            <event start="T78" end="T86">((0,8s)) </event>
+            <event start="T86" end="T81">Und er nahm dann das Telefon und er </event>
+            <event start="T81" end="T28">sagte: ((0,2s)) "Schicke ihnen einen Scheck über eine
+                Million Dollar, schick denen einen Scheck über eine Million Dollar!". </event>
+            <event start="T28" end="T29">((holt hörbar Luft, 0,3s)) Und er sagte: "Lasst uns dort
+                hinüber gehen und etwas von unserer Zeit opfern!". </event>
+            <event start="T29" end="T142">((holt hörbar Luft, 0,4)) </event>
+            <event start="T142" end="T156">Also haben wir beschlossen </event>
+            <event start="T156" end="T157">((1s)) </event>
+            <event start="T157" end="T143">wo auch immer wir hingehen </event>
+            <event start="T143" end="T89"> ((0,3s)) zu versuchen, Kinder zu besuchen, die Hilfe
+                brauchen, Kinder, die krank sind, </event>
+            <event start="T89" end="T95">einfach die Kinder, </event>
+            <event start="T95" end="T31"> ((0,3s)) die Liebe, Geborgenheit und Aufmerksamkeit
+                brauchen. </event>
+            <event start="T31" end="T160">((0,7s)) </event>
+            <event start="T160" end="T96">Wir haben auch beschlossen, als wir sehr jung waren — als
+                wir sechzehn Jahre alt und sogar noch jünger waren —, </event>
+            <event start="T96" end="T98">dass wir in Krankenhäuser gehen würden </event>
+            <event start="T98" end="T161"> ((0,4s)) und wir besuchten dort die Senioren </event>
+            <event start="T161" end="T33"> ((0,2s)) und fütterten sie und saßen einfach mit ihnen da
+                und spielten Spiele. </event>
+            <event start="T33" end="T167">((holt hörbar Luft, 0,2s)) Michael und ich spielten dann
+                Spiele mit ihnen für zwei, drei, vier Stunden. </event>
+            <event start="T167" end="T34">((0,3s)) Und ich ((unverständlich, 0,5s)) zum Studio. </event>
+            <event start="T34" end="T35">((holt hörbar Luft, 0,3s)) Und er sagte: "Aber du nicht. Du
+                kannst doch noch bleiben.". </event>
+            <event start="T35" end="T135">((0,3s)) ((lacht, 0,3s)) </event>
+            <event start="T135" end="T36">Und ich blieb ich blieb länger und ((unverständlich))
+                verbrachte einfach meine Zeit mit ihnen. </event>
+            <event start="T36" end="T37">((Übersetzung dieses Abschnittes wegen inhaltlicher
+                Unverständlichkeit nicht möglich))</event>
+            <event start="T37" end="T171">((Übersetzung dieses Abschnittes wegen inhaltlicher
+                Unverständlichkeit nicht möglich))</event>
+            <event start="T171" end="T144">das so gegeben hat, wie er es hat: </event>
+            <event start="T144" end="T145">((0,3s)) von seinem Herzen, mehr als von irgendetwas
+                anderem. </event>
+            <event start="T145" end="T174">((holt hörbar Luft, 0,5s)) Ich danke einem jeden von euch </event>
+            <event start="T174" end="T38"> ((0,2s)) und ich nehme diese Auszeichnung in seinem Namen
+                an. </event>
+            <event start="T38" end="T147">((holt hörbar Luft, 0,5s)) Er lächelt uns in diesem Moment
+                zu, weil er weiß, dass dies das ist, was er will. </event>
+            <event start="T147" end="T40"> Er lächelt gerade einem jeden von uns zu. </event>
+            <event start="T40" end="T178">((holt hörbar Luft, 0,4)) Also: Ich danke Ihnen so sehr
+                dafür! </event>
+            <event start="T178" end="T149">((holt hörbar Luft, 0,3s)) Das ist so wunderbar! </event>
+            <event start="T149" end="T110">((0,2s)) Im Namen meines Bruders </event>
+            <event start="T110" end="T179">((0,5s)) danke ich Ihnen! </event>
+            <event start="T179" end="T150">((1s)) Ich danke Ihnen sehr! </event>
+        </tier>
+        <tier id="TIE2" speaker="SPK2" category="v" type="t" display-name="ASP [v]">
+            <event start="T41" end="T42">Wie ((0,2s)) wie reizend! </event>
+            <event start="T50" end="T46">Wie reizend! </event>
+            <event start="T55" end="T66">Wie schön! </event>
+            <event start="T6" end="T49">Ich muss sagen, es ist wirklich eine Ehre hier zu sein. </event>
+            <event start="T17" end="T51">Ich möchte das </event>
+            <event start="T51" end="T90">((0,6s)) Reizende </event>
+            <event start="T90" end="T16"> ((0,4s)) akzeptieren </event>
+            <event start="T16" end="T56">((1,8s)) aus Dresden. </event>
+            <event start="T121" end="T122">Ich weiß nicht, </event>
+            <event start="T122" end="T71"> ((2s)) </event>
+            <event start="T71" end="T126">ob ob Michael das gewusst hat. </event>
+            <event start="T0" end="T128">Sie wissen, </event>
+            <event start="T128" end="T132">((3,5s)) </event>
+            <event start="T132" end="T133">Er gab uns neununddreißig… </event>
+            <event start="T80" end="T100">Er gab sein Herz für die Menschen </event>
+            <event start="T113" end="T111">Die Leute </event>
+            <event start="T111" end="T107">tanzten </event>
+            <event start="T107" end="T184">bei ihm. </event>
+            <event start="T69" end="T114">Und </event>
+            <event start="T114" end="T19">((0,2s)) </event>
+            <event start="T19" end="T185">äh </event>
+            <event start="T185" end="T70">(oftmals) blieben sie noch bis zum nächsten Tag. </event>
+            <event start="T187" end="T74">Er freut sich, </event>
+            <event start="T74" end="T125">((0,3s)) </event>
+            <event start="T125" end="T118">äh dass er so viel den Menschen hat geben können. </event>
+            <event start="T120" end="T5">Und seine Charity, </event>
+            <event start="T5" end="T123">((0,5s)) </event>
+            <event start="T123" end="T45">von der er so viel gegeben hat! </event>
+            <event start="T182" end="T186">Äh äh er hatte ein großes Herz und das hat er den
+                Menschen gegeben. </event>
+            <event start="T58" end="T79">Es zeigt die Güte. </event>
+            <event start="T22" end="T64">Sein Herz war so groß. </event>
+            <event start="T127" end="T140">Er dachte: ((0,8s))"Alles, ((0,5s)) Meine Mutter,
+                ((0,2s)) Mein Bruder.". </event>
+            <event start="T24" end="T131">Auch in anderen, (verschiedenen) Ländern </event>
+            <event start="T23" end="T141">Meine Mutter würde </event>
+            <event start="T141" end="T137">äh schreien, </event>
+            <event start="T137" end="T134">mein äh Bruder </event>
+            <event start="T134" end="T146">würde schreien </event>
+            <event start="T146" end="T153">((0,6s)) </event>
+            <event start="T153" end="T138">(m)äh </event>
+            <event start="T138" end="T26">((0,6s)) </event>
+            <event start="T26" end="T73">Meine Schwester. </event>
+            <event start="T154" end="T86">Lass </event>
+            <event start="T86" end="T81">uns dafür etwas tun! </event>
+            <event start="T155" end="T158">Äh er würde sagen: ((0,4s)) "Machen wir äh ne Spende!. </event>
+            <event start="T158" end="T94">((3s)) </event>
+            <event start="T94" end="T159">Und, wir sollten den Kindern helfen! </event>
+            <event start="T159" end="T92">((2,5s)) </event>
+            <event start="T92" end="T31">Kindern </event>
+            <event start="T31" end="T93"> ((0,2s)) die Liebe brauchen!". </event>
+            <event start="T97" end="T164">Und das in einem </event>
+            <event start="T164" end="T96">so j/ jüng/ </event>
+            <event start="T96" end="T162">in einem jungen Alter, sehr jungen Alter! </event>
+            <event start="T115" end="T165">((unverständlich, 0,7s.)) </event>
+            <event start="T165" end="T34">((0,3s)) sch/ zu spielen, sich mit ihnen sich hinsetzen. </event>
+            <event start="T168" end="T169"> Und er würde sagen: "Ihr könnt noch jünger werden, </event>
+            <event start="T169" end="T170">((0,3s)) ihr könnt jünger bleiben.". </event>
+            <event start="T104" end="T99">Kommt herein! Seid mit mir eine Familie! </event>
+            <event start="T172" end="T173">(Was würde er sagen)? </event>
+            <event start="T39" end="T106">Ich danke a/ wirklich allen von Ihnen! </event>
+            <event start="T176" end="T177">In seinem Namen… </event>
+            <event start="T177" end="T147"> ((0,4s)) Sein Löchel/ Lächeln, </event>
+            <event start="T147" end="T148"> ((0,6s)) das ist mit uns hier. </event>
+            <event start="T180" end="T110">Äh ich danke Ihnen so sehr. </event>
+            <event start="T110" end="T181">((0,2s)) (Häh) ich </event>
+            <event start="T181" end="T150">((0,2s)) das ist wunderbar! </event>
+            <event start="T150" end="T25">((0,2s)) Dankeschön! </event>
+        </tier>
+        <tier id="TIE11" speaker="SPK2" category="k" type="a" display-name="ASP [k]">
+            <event start="T111" end="T107">stotternd </event>
+            <event start="T19" end="T185">stotternd </event>
+            <event start="T137" end="T134">stotternd </event>
+            <event start="T164" end="T96">stotternd </event>
+        </tier>
+        <tier id="TIE3" speaker="SPK1" category="nv" type="d" display-name="UEB [nv]">
+            <event start="T8" end="T2">((Übergeben der Auszeichnung))</event>
+        </tier>
+        <tier id="TIE7" speaker="SPK3" category="v" type="t" display-name="ON [v]">
+            <event start="T8" end="T12">(Im Moment)… </event>
+            <event start="T12" end="T2">(Oh, I like)… </event>
+        </tier>
+        <tier id="TIE5" category="nn" type="d" display-name="[nn]">
+            <event start="T9" end="T13">((Applaudieren, 13s)) </event>
+            <event start="T179" end="T25">((stärker werdendes Applaudieren, 3s)) </event>
+        </tier>
+    </basic-body>
+</basic-transcription>
