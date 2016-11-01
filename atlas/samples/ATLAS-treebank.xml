@@ -21,7 +21,7 @@ The brown fox
 
   <Timeline id="T1">
     <Signal id="S1" mimeClass="text" mimeType="simpletext" encoding="utf8"
-        unit="byte" xlink:href="textfile.utf8" name="S1"/>
+        unit="byte" xlink:href="textfile.utf8"/>
   </Timeline>
 
   <AG id="t1" type="treebank" timeline="T1">

@@ -7,10 +7,10 @@ This example illustrates the alignment of two annotation of two signals
 using AnnotationRef.   
 
 Example:
-       r0 (Ann0)
------******-------------------- Japanese speech (S1)
-                r1 (Ann1)
---------------******----------- English speech (S2)
+          r0 (Ann0)
+- - - - - ****** - - - - - - - - - - - - - - - - - -  - - Japanese speech (S1)
+                           r1 (Ann1)
+- - - - - - - - - - - - - - ****** - - - - - - - - - - - English speech (S2)
 
 The annotation (Ann1) refers not directly to the region (r0) in S1
 but to Ann0.

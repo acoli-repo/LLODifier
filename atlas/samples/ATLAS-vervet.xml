@@ -14,7 +14,7 @@
     </Metadata>
 
     <Signal id="S1" mimeClass="audio" mimeType="wav" encoding="wav"
-       unit="16kHz" xlink:href="vervet1.wav" name="audio"/>
+       unit="16kHz" xlink:href="vervet1.wav"/>
   </Timeline>
 
   <AG id="t1" type="ethology" timeline="T1">
@@ -32,5 +32,5 @@
       <Feature name="REC_QUALITY">good</Feature>
       <Feature name="REMARKS"/>
     </Annotation>
-  </Analysis>
+  </AG>
 </AGSet>

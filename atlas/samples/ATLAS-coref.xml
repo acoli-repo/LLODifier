@@ -4,7 +4,7 @@
 <!-- Coreference
 
 The woman .....           She ....
----------                 ---
+- - - - -                 - -
    ann0                   ann8
 "She" (ann8) refers to "The woman" (ann0) using AnnotationRef.
 

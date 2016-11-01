@@ -6,7 +6,7 @@
 
   <Metadata>
     <dc:title>The AIF representation for the TIMIT fragment included
-	in Bird & Liberman's annotation graph paper. </dc:title>
+	in Bird &amp; Liberman's annotation graph paper. </dc:title>
   </Metadata>
 
   <Timeline id="T1">
@@ -30,47 +30,47 @@
     <Anchor id="A7" offset="10173" unit="16kHz"/>
     <Anchor id="A8" offset="11077" unit="16kHz"/>
 
-    <Annotation id="Ann1" type="P" start="A0" end="A1"/>
+    <Annotation id="Ann1" type="P" start="A0" end="A1">
       <Feature name="label">h#</Feature>
     </Annotation>
 
-    <Annotation id="Ann2" type="P" start="A1" end="A2"/>
+    <Annotation id="Ann2" type="P" start="A1" end="A2">
       <Feature name="label">sh</Feature>
     </Annotation>
 
-    <Annotation id="Ann3" type="P" start="A2" end="A3"/>
+    <Annotation id="Ann3" type="P" start="A2" end="A3">
       <Feature name="label">iy</Feature>
     </Annotation>
 
-    <Annotation id="Ann3" type="P" start="A3" end="A4"/>
+    <Annotation id="Ann4" type="P" start="A3" end="A4">
       <Feature name="label">hv</Feature>
     </Annotation>
 
-    <Annotation id="Ann4" type="P" start="A4" end="A5"/>
+    <Annotation id="Ann5" type="P" start="A4" end="A5">
       <Feature name="label">ae</Feature>
     </Annotation>
 
-    <Annotation id="Ann5" type="P" start="A5" end="A6"/>
+    <Annotation id="Ann6" type="P" start="A5" end="A6">
       <Feature name="label">dcl</Feature>
     </Annotation>
 
-    <Annotation id="Ann6" type="P" start="A6" end="A7"/>
+    <Annotation id="Ann7" type="P" start="A6" end="A7">
       <Feature name="label">y</Feature>
     </Annotation>
 
-    <Annotation id="Ann7" type="P" start="A7" end="A8"/>
+    <Annotation id="Ann8" type="P" start="A7" end="A8">
       <Feature name="label">axr</Feature>
     </Annotation>
 
-    <Annotation id="Ann8" type="W" start="A1" end="A3"/>
+    <Annotation id="Ann9" type="W" start="A1" end="A3">
       <Feature name="label">she</Feature>
     </Annotation>
 
-    <Annotation id="Ann9" type="W" start="A3" end="A6"/>
+    <Annotation id="Ann10" type="W" start="A3" end="A6">
       <Feature name="label">had</Feature>
     </Annotation>
 
-    <Annotation id="Ann10" type="W" start="A6" end="A8"/>
+    <Annotation id="Ann11" type="W" start="A6" end="A8">
       <Feature name="label">your</Feature>
     </Annotation>
 
