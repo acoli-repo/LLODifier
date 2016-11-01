@@ -1,0 +1,50 @@
+<?xml version="1.0"?>
+<!DOCTYPE AGSet SYSTEM "ag.dtd">
+
+<!-- Treebank
+
+The brown fox
+0123456789012
+
+(NP (DT The)
+    (JJ brown)
+    (NN fox))
+
+-->
+
+<AGSet id="treebank1" version="1.0" xmlns="http://www.ldc.upenn.edu/atlas/ag/" 
+	xmlns:xlink="http://www.w3.org/1999/xlink">
+
+  <Metadata>
+    <dc:title>An example of treebank annotation</dc:title>
+  </Metadata>
+
+  <Timeline id="T1">
+    <Signal id="S1" mimeClass="text" mimeType="simpletext" encoding="utf8"
+        unit="byte" xlink:href="textfile.utf8" name="S1"/>
+  </Timeline>
+
+  <AG id="t1" type="treebank" timeline="T1">
+
+    <Anchor id="A0" offset="0" unit="byte"/>
+    <Anchor id="A1" offset="3" unit="byte"/>
+    <Anchor id="A2" offset="4" unit="byte"/>
+    <Anchor id="A3" offset="9" unit="byte"/>
+    <Anchor id="A4" offset="10" unit="byte"/>
+    <Anchor id="A5" offset="13" unit="byte"/>
+
+    <Annotation id="Ann0" type="syn" start="A0" end="A1">
+      <Feature name="pos-tag">DT</Feature>
+    </Annotation>
+    <Annotation id="Ann1" type="syn" start="A2" end="A3">
+      <Feature name="pos-tag">JJ</Feature>
+    </Annotation>
+    <Annotation id="Ann2" type="syn" start="A4" end="A5">
+      <Feature name="pos-tag">NN</Feature>
+    </Annotation>
+    <Annotation id="Ann3" type="syn" start="A0" end="A5">
+      <Feature name="pos-tag">NP</Feature>
+    </Annotation>
+  </AG>
+
+</AGSet>

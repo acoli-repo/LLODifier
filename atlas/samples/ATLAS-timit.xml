@@ -1,0 +1,78 @@
+<?xml version="1.0"?>
+<!DOCTYPE AGSet SYSTEM "ag.dtd">
+
+<AGSet id="Timit" version="1.0" xmlns="http://www.ldc.upenn.edu/atlas/ag/" 
+	xmlns:xlink="http://www.w3.org/1999/xlink">
+
+  <Metadata>
+    <dc:title>The AIF representation for the TIMIT fragment included
+	in Bird & Liberman's annotation graph paper. </dc:title>
+  </Metadata>
+
+  <Timeline id="T1">
+    <Metadata>
+       <dc:language>English</dc:language>
+    </Metadata>
+
+    <Signal id="S1" mimeClass="audio" mimeType="wav" encoding="wav"
+        unit="16kHz" xlink:href="TIMIT/train/dr1/fjsp0/sa1.wav"/>
+  </Timeline>      
+
+  <AG id="t1" type="transcription" timeline="T1">
+
+    <Anchor id="A0" offset="0" unit="16kHz"/>
+    <Anchor id="A1" offset="2360" unit="16kHz"/>
+    <Anchor id="A2" offset="3270" unit="16kHz"/>
+    <Anchor id="A3" offset="5200" unit="16kHz"/>
+    <Anchor id="A4" offset="6160" unit="16kHz"/>
+    <Anchor id="A5" offset="8720" unit="16kHz"/>
+    <Anchor id="A6" offset="9680" unit="16kHz"/>
+    <Anchor id="A7" offset="10173" unit="16kHz"/>
+    <Anchor id="A8" offset="11077" unit="16kHz"/>
+
+    <Annotation id="Ann1" type="P" start="A0" end="A1"/>
+      <Feature name="label">h#</Feature>
+    </Annotation>
+
+    <Annotation id="Ann2" type="P" start="A1" end="A2"/>
+      <Feature name="label">sh</Feature>
+    </Annotation>
+
+    <Annotation id="Ann3" type="P" start="A2" end="A3"/>
+      <Feature name="label">iy</Feature>
+    </Annotation>
+
+    <Annotation id="Ann3" type="P" start="A3" end="A4"/>
+      <Feature name="label">hv</Feature>
+    </Annotation>
+
+    <Annotation id="Ann4" type="P" start="A4" end="A5"/>
+      <Feature name="label">ae</Feature>
+    </Annotation>
+
+    <Annotation id="Ann5" type="P" start="A5" end="A6"/>
+      <Feature name="label">dcl</Feature>
+    </Annotation>
+
+    <Annotation id="Ann6" type="P" start="A6" end="A7"/>
+      <Feature name="label">y</Feature>
+    </Annotation>
+
+    <Annotation id="Ann7" type="P" start="A7" end="A8"/>
+      <Feature name="label">axr</Feature>
+    </Annotation>
+
+    <Annotation id="Ann8" type="W" start="A1" end="A3"/>
+      <Feature name="label">she</Feature>
+    </Annotation>
+
+    <Annotation id="Ann9" type="W" start="A3" end="A6"/>
+      <Feature name="label">had</Feature>
+    </Annotation>
+
+    <Annotation id="Ann10" type="W" start="A6" end="A8"/>
+      <Feature name="label">your</Feature>
+    </Annotation>
+
+  </AG>
+</AGSet>

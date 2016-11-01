@@ -1,0 +1,51 @@
+<?xml version="1.0"?>
+<!DOCTYPE AGSet SYSTEM "ag.dtd">
+
+<!-- Alignment
+
+This example illustrates the alignment of two annotation of two signals
+using AnnotationRef.   
+
+Example:
+       r0 (Ann0)
+-----******-------------------- Japanese speech (S1)
+                r1 (Ann1)
+--------------******----------- English speech (S2)
+
+The annotation (Ann1) refers not directly to the region (r0) in S1
+but to Ann0.
+-->
+
+<AGSet id="AL1" version="1.0" xmlns="http://www.ldc.upenn.edu/atlas/ag/" 
+	xmlns:xlink="http://www.w3.org/1999/xlink">
+
+  <Metadata>
+    <dc:title>Alignment of annotations of two signals</dc:title>
+  </Metadata>
+
+  <Timeline id="T1">
+    <Signal id="S1" mimeClass="audio" mimeType="wav" encoding="wav"
+        unit="16kHz" xlink:href="japanese.wav"/>         
+    <Signal id="S2" mimeClass="audio" mimeType="wav" encoding="wav"
+        unit="16kHz" xlink:href="english.wav"/>         
+  </Timeline>
+
+  <AG id="t1" type="alignment" timeline="T1">
+
+    <Anchor id="A0" signals="S1" offset="10000" unit="16kHz"/>
+    <Anchor id="A1" signals="S1" offset="26000" unit="16kHz"/>
+
+    <Anchor id="A2" signals="S2" offset="30000" unit="16kHz"/>
+    <Anchor id="A3" signals="S2" offset="46000" unit="16kHz"/>
+
+    <Annotation id="Ann0" type="transcription" start="A0" end="A1">
+      <Feature name="trans">Kore-wa neko-desu</Feature>
+    </Annotation>
+
+    <Annotation id="Ann1" type="transcription" start="A2" end="A3">
+      <Feature name="trans">This is a cat.</Feature>
+      <Feature name="align">Ann0</Feature>
+    </Annotation>
+  </AG>
+
+</AGSet>

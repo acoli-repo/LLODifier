@@ -1,0 +1,215 @@
+Standard DTD
+
+              <!-- 
+
+              A DTD for ATLAS Interchange Format, a means of interchanging
+              annotations.
+
+              Version History
+
+              Date        Version  Authors
+                                  
+                                   Following joint discussions with
+                                   Bird (LDC), Garofolo (NIST), Laprun (NIST),
+                                   Henderson (MITRE) and Day (MITRE).
+              2000-07-11   v1.0b   Christophe Laprun (NIST)
+              2000-09-08   v1.0b2  Christophe Laprun (NIST)
+              2000-09-22   v1.0b3  Steven Bird (LDC)
+              2000-09-27   v1.0b4  David Day (MITRE)
+              2000-09-28   v1.0b5  Steven Bird (LDC)
+              2000-09-28   v1.0b6  Christophe Laprun (NIST)
+              2000-09-28   v1.0b7  Christophe Laprun (NIST)
+              2000-10-03   v1.0b8  Christophe Laprun (NIST)
+              -->
+
+              <!-- Overview:
+
+                          Corpus := Metadata Analysis*
+                                 [attrs: id, version, xmlns, xmlns:xlink]
+                        Metadata := DCES* OtherMetadata*
+                   OtherMetadata := PCDATA
+                                 [attrs: name]
+
+                        Analysis := Metadata? SignalInfo Annotation*
+                                 [attrs: id, type]
+                                 [aka: AnnotationLayer, AnnotationLevel]
+
+                      SignalInfo := Metadata? Signal+ AnchorSet RegionSet
+                                 [aka: AnnotationSubstrate]
+                          Signal := EMPTY
+                                 [attrs: id, mimeClass, mimeType, encoding,
+                                  xlink:type, xlink:href, role]
+                       AnchorSet := Anchor*
+                          Anchor := Parameter+
+                                 [attrs: id, type, role, signals]
+                       AnchorRef := EMPTY
+                                 [attrs: xlink:type, xlink:href, role]
+                       RegionSet := Region*
+                          Region := ( RegionRef | AnchorRef )*
+                                 [attrs: id, type, role]
+                       RegionRef := EMPTY
+                                 [attrs: xlink:type, xlink:href, role]
+
+                      Annotation := RegionRef Content
+                                 [attrs: id, type]
+                         Content := FeatureData | RegionRef
+                                 [attrs: type]
+                     FeatureData := ( Feature | Parameter | AnnotationRef | Reference )+
+                         Feature := FeatureData
+                                 [attrs: name, type]
+                       Parameter := PCDATA
+                                 [attrs: id, type, datatype, role, unit]
+                   AnnotationRef := EMPTY
+                                 [attrs: xlink:type, xlink:href, role]
+
+                       Reference := EMPTY
+                                 [attrs: xlink:type, xlink:href, role, type]
+              -->
+
+              <!ENTITY % MetadataDef SYSTEM "metadata.dtd"> %MetadataDef;
+
+              <!ENTITY % DataTypes "(boolean | char | float | int | string | other)">
+
+              <!ENTITY % FeatureData "(Feature  | Parameter | AnnotationRef | Reference)+">
+
+              <!ELEMENT Corpus
+                ( Metadata, Analysis* )>
+              <!ATTLIST Corpus
+                  id          ID     #REQUIRED
+                  version     CDATA  #FIXED    "1.0"
+                  xmlns       CDATA  #FIXED    "http://www.nist.gov/speech/atlas"
+                  xmlns:xlink CDATA  #FIXED    "http://www.w3.org/1999/xlink"
+              >
+
+              <!ELEMENT Analysis
+                ( Metadata?, SignalInfo, Annotation* )>
+              <!ATTLIST Analysis
+                  id          ID       #REQUIRED
+                  type        NMTOKEN  #IMPLIED
+              >
+
+              <!ELEMENT SignalInfo
+                ( Metadata?, Signal+, AnchorSet, RegionSet )>
+
+              <!ELEMENT RegionSet ( Region* )>
+
+              <!ELEMENT AnchorSet ( Anchor* )>
+
+              <!ELEMENT Signal EMPTY>
+              <!ATTLIST Signal
+                  id          ID         #REQUIRED
+                  mimeClass   CDATA      #REQUIRED
+                  mimeType    CDATA      #REQUIRED
+                  encoding    CDATA      #REQUIRED
+                  xlink:type  CDATA      #FIXED        "simple"
+                  xlink:href  CDATA      #IMPLIED
+                  role        NMTOKEN    #IMPLIED
+              >
+
+              <!ELEMENT Annotation ( RegionRef, Content )>
+              <!ATTLIST Annotation
+                  id         ID         #REQUIRED
+                  type       NMTOKEN    #REQUIRED
+              >
+
+              <!ELEMENT Content ( %FeatureData; | RegionRef )>
+              <!ATTLIST Content
+                  type       NMTOKEN    #IMPLIED
+              >
+
+              <!ELEMENT Feature %FeatureData;>
+              <!ATTLIST Feature
+                  name        NMTOKEN    #REQUIRED
+                  type        NMTOKEN    #IMPLIED     
+              >
+
+              <!ELEMENT Region ( RegionRef | AnchorRef )*>
+              <!ATTLIST Region
+                  id          ID         #REQUIRED
+                  type        NMTOKEN    #REQUIRED
+                  role        NMTOKEN    #IMPLIED
+              >
+
+              <!ELEMENT Anchor (Parameter+)>
+              <!ATTLIST Anchor
+                  id          ID        #REQUIRED
+                  type        NMTOKEN   #REQUIRED
+                  role        NMTOKEN   #IMPLIED
+                  signals     IDREFS    #REQUIRED
+              >
+
+              <!ELEMENT Parameter (#PCDATA)>
+              <!ATTLIST Parameter
+                  type        NMTOKEN     #IMPLIED
+                  datatype    %DataTypes; #REQUIRED 
+                  role        NMTOKEN     #IMPLIED    
+                  unit        NMTOKEN     #IMPLIED
+              >
+
+              <!ELEMENT AnnotationRef EMPTY>
+              <!ATTLIST AnnotationRef
+                  xlink:type    CDATA    #FIXED     "simple"
+                  xlink:href    CDATA    #REQUIRED
+                  role          NMTOKEN  #IMPLIED
+              >
+
+              <!ELEMENT Reference EMPTY>
+              <!ATTLIST Reference
+                  xlink:type    CDATA    #FIXED     "simple"
+                  xlink:href    CDATA    #REQUIRED
+                  role          NMTOKEN  #IMPLIED
+                  type          NMTOKEN  #REQUIRED
+              >
+
+              <!ELEMENT RegionRef EMPTY>
+              <!ATTLIST RegionRef
+                  xlink:type    CDATA      #FIXED      "simple"
+                  xlink:href    CDATA      #REQUIRED
+                  role          NMTOKEN    #IMPLIED
+              >
+
+              <!ELEMENT AnchorRef EMPTY>
+              <!ATTLIST AnchorRef
+                  xlink:type    CDATA      #FIXED    "simple"
+                  xlink:href    CDATA      #REQUIRED
+                  role          NMTOKEN    #REQUIRED    
+              >
+
+
+
+              <!-- The Metadata element will conform to future ISLE specification.
+                   For now, we include the Dublin Core elements, plus room for
+                   extensions.  Later we will distinguish between ATLAS
+                   and private extensions, conforming with the Open Archives Initiative.
+              -->
+
+              <!ATTLIST Corpus
+                  xmlns:dc CDATA  #FIXED    "http://purl.org/DC/documents/rec-dces-19990702.htm"
+              >
+
+              <!ENTITY % dces "dc:title | dc:creator | dc:subject | dc:description |
+               dc:publisher | dc:contributor | dc:date | dc:type | dc:format |
+               dc:identifier | dc:source | dc:language | dc:relation | dc:coverage |
+               dc:rights" >
+
+              <!ELEMENT Metadata ((%dces;)*, OtherMetadata*)>
+              <!ELEMENT dc:title (#PCDATA)>
+              <!ELEMENT dc:creator (#PCDATA)>
+              <!ELEMENT dc:subject (#PCDATA)>
+              <!ELEMENT dc:description (#PCDATA)>
+              <!ELEMENT dc:publisher (#PCDATA)>
+              <!ELEMENT dc:contributor (#PCDATA)>
+              <!ELEMENT dc:date (#PCDATA)>
+              <!ELEMENT dc:type (#PCDATA)>
+              <!ELEMENT dc:format (#PCDATA)>
+              <!ELEMENT dc:identifier (#PCDATA)>
+              <!ELEMENT dc:source (#PCDATA)>
+              <!ELEMENT dc:language (#PCDATA)>
+              <!ELEMENT dc:relation (#PCDATA)>
+              <!ELEMENT dc:coverage (#PCDATA)>
+              <!ELEMENT dc:rights (#PCDATA)>
+
+              <!ELEMENT OtherMetadata (#PCDATA)>
+              <!ATTLIST OtherMetadata
+                  name        NMTOKEN  #REQUIRED
+              >

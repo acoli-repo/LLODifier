@@ -1,0 +1,43 @@
+<?xml version="1.0"?>
+<!DOCTYPE AGSet SYSTEM "ag.dtd">
+
+<!-- Coreference
+
+The woman .....           She ....
+---------                 ---
+   ann0                   ann8
+"She" (ann8) refers to "The woman" (ann0) using AnnotationRef.
+
+-->
+
+<AGSet id="COREF1" version="1.0" xmlns="http://www.ldc.upenn.edu/atlas/ag/" 
+	xmlns:xlink="http://www.w3.org/1999/xlink">
+
+  <Metadata>
+    <dc:title>An example of coreference annotation</dc:title>
+  </Metadata>
+
+  <Timeline id="T1">
+    <Signal id="S1" mimeClass="text" mimeType="simpletext" encoding="utf8"
+        unit="byte" xlink:href="textfile.utf8"/>
+  </Timeline>
+
+  <AG id="t1" type="coref" timeline="T1">
+
+    <Anchor id="A0" offset="1" unit="byte"/>
+    <Anchor id="A1" offset="9" unit="byte"/>
+    <!-- ... -->
+    <Anchor id="A8" offset="23" unit="byte"/>
+    <Anchor id="A9" offset="25" unit="byte"/>
+
+    <Annotation id="Ann0" type="transcription" start="A0" end="A1">
+      <Feature name="trans">The woman</Feature>
+    </Annotation>
+    <!-- ... -->
+    <Annotation id="Ann8" type="transcription" start="A8" end="A9">
+      <Feature name="trans">She</Feature>
+      <Feature name="coref">Ann0</Feature>  <!-- not an official link -->
+    </Annotation>
+  </AG>
+
+</AGSet>

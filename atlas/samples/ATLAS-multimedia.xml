@@ -1,0 +1,43 @@
+<?xml version="1.0"?>
+<!DOCTYPE AGSet SYSTEM "ag.dtd">
+
+<!-- Multiple signals of different media types and sampling rates can be
+represented, but mediating offsets between them all is the province of
+software, and there is a risk of problems caused by these conversions
+(e.g. from rounding in floating point representations).  More attention will be
+given to these cases once we have gained more experience with them. -->
+
+<AGSet id="MM1" version="1.0" xmlns="http://www.ldc.upenn.edu/atlas/ag/" 
+	xmlns:xlink="http://www.w3.org/1999/xlink">
+
+  <Metadata>
+    <dc:title>Annotation of a multimedia signal</dc:title>
+  </Metadata>
+
+  <Timeline id="T1">
+    <Signal id="S1" mimeClass="audio" mimeType="wav" encoding="wav"
+        unit="16kHz" xlink:href="audio1.wav"/>
+    <Signal id="S2" mimeClass="audio" mimeType="wav" encoding="wav"
+        unit="22050Hz" xlink:href="audio2.wav"/>
+    <Signal id="S3" mimeClass="video" mimeType="mpeg" encoding="mpeg2"
+        unit="sec" xlink:href="video.mpeg"/>
+  </Timeline>
+
+  <AG id="t1" type="multimedia" timeline="T1">
+
+    <Anchor id="A0" offset="1.42" unit="sec"/>
+    <Anchor id="A1" offset="2.62" unit="sec"/>
+
+    <Anchor id="A2" signals="S1 S2" offset="3000" unit="16kHz"/>
+    <Anchor id="A3" signals="S1 S2" offset="4600" unit="16kHz"/>
+
+    <Annotation id="Ann0" type="transcription" start="A0" end="A1">
+      <Feature name="trans">event in all three signals</Feature>
+    </Annotation>
+
+    <Annotation id="Ann1" type="transcription" start="A2" end="A3">
+      <Feature name="trans">event in autido signals</Feature>
+    </Annotation>
+  </AG>
+
+</AGSet>

@@ -1,0 +1,36 @@
+<?xml version="1.0"?>
+<!DOCTYPE AGSet SYSTEM "ag.dtd">
+
+<AGSet id="Vervet1" version="1.0" xmlns="http://www.ldc.upenn.edu/atlas/ag/" 
+	xmlns:xlink="http://www.w3.org/1999/xlink">
+
+  <Metadata>
+    <dc:title>Vervet annotation sample</dc:title>
+  </Metadata>
+
+  <Timeline id="T1">
+    <Metadata>
+      <dc:language>Vervet Monkey Vocalization</dc:language>
+    </Metadata>
+
+    <Signal id="S1" mimeClass="audio" mimeType="wav" encoding="wav"
+       unit="16kHz" xlink:href="vervet1.wav" name="audio"/>
+  </Timeline>
+
+  <AG id="t1" type="ethology" timeline="T1">
+
+    <Anchor id="A0" offset="20000" unit="16kHz"/>
+    <Anchor id="A1" offset="36000" unit="16kHz"/>
+
+    <Annotation id="Ann1" type="ethology" start="A0" end="A1">
+      <Feature name="DATE">10/1</Feature>
+      <Feature name="TIME">12:31</Feature>
+      <Feature name="INDIVIDUAL">Billy</Feature>
+      <Feature name="OBSERVER">KM</Feature>
+      <Feature name="CONTEXT">forage</Feature>
+      <Feature name="CALL_TYPE">chutter</Feature>
+      <Feature name="REC_QUALITY">good</Feature>
+      <Feature name="REMARKS"/>
+    </Annotation>
+  </Analysis>
+</AGSet>
