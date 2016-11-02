@@ -1,61 +1,59 @@
 PREFIX dc: <http://purl.org/dc/elements/1.1/>
 PREFIX xlink: <http://www.w3.org/1999/xlink/>
-PREFIX atlas: <http://www.ldc.upenn.edu/atlas/ag/>
+PREFIX ag: <http://www.ldc.upenn.edu/atlas/ag/>
 PREFIX : <http://example.org/PLEASE_PROVIDE_baseURI_PARAMETER#>
 
-<http://example.org/PLEASE_PROVIDE_baseURI_PARAMETER> atlas:agset :Vervet1.
-:Vervet1 a atlas:AGSet;
-  atlas:version "1.0";
+<http://example.org/PLEASE_PROVIDE_baseURI_PARAMETER> ag:agset :Vervet1.
+:Vervet1 a ag:AGSet;
+  ag:version "1.0";
   dc:title "Vervet annotation sample".
 
-:Vervet1 atlas:timeline :T1.
-:T1 a atlas:Timeline.
+:Vervet1 ag:timeline :T1.
+:T1 a ag:Timeline.
 
-:T1 atlas:signal :S1.
-:S1 a atlas:Signal;
-  atlas:mimeClass "audio";
-  atlas:mimeType "wav";
-  atlas:encoding "wav";
-  atlas:unit "16kHz";
+:T1 ag:signal :S1.
+:S1 a ag:Signal;
+  ag:mimeClass "audio";
+  ag:mimeType "wav";
+  ag:encoding "wav";
+  ag:unit "16kHz";
   xlink:href "vervet1.wav";
   xlink:type "simple".
 
-:Vervet1 atlas:ag :t1.
-:t1 a atlas:AG;
-  atlas:timeline :T1;
-  atlas:type "ethology".
+:Vervet1 ag:ag :t1.
+:t1 a ag:AG;
+  ag:timeline :T1;
+  ag:type "ethology".
 
-:t1 atlas:anchor :A0.
-:A0 a atlas:Anchor;
-  atlas:offset "20000";
-  atlas:unit "16kHz".
+:t1 ag:anchor :A0.
+:A0 a ag:Anchor;
+  ag:offset "20000";
+  ag:unit "16kHz".
 
-:t1 atlas:anchor :A1.
-:A1 a atlas:Anchor;
-  atlas:offset "36000";
-  atlas:unit "16kHz".
+:t1 ag:anchor :A1.
+:A1 a ag:Anchor;
+  ag:offset "36000";
+  ag:unit "16kHz".
 
-:t1 atlas:annotation :Ann1.
-:Ann1 a atlas:Annotation;
-  atlas:start :A0;
-  atlas:end :A1;
-  atlas:type "ethology";
-  atlas:start "A0";
-  atlas:end "A1".
+:t1 ag:annotation :Ann1.
+:Ann1 a ag:Annotation;
+  ag:start :A0;
+  ag:end :A1;
+  ag:type "ethology".
 
-:Ann1 atlas:DATE "10/1".
+:Ann1 ag:DATE "10/1".
 
-:Ann1 atlas:TIME "12:31".
+:Ann1 ag:TIME "12:31".
 
-:Ann1 atlas:INDIVIDUAL "Billy".
+:Ann1 ag:INDIVIDUAL "Billy".
 
-:Ann1 atlas:OBSERVER "KM".
+:Ann1 ag:OBSERVER "KM".
 
-:Ann1 atlas:CONTEXT "forage".
+:Ann1 ag:CONTEXT "forage".
 
-:Ann1 atlas:CALL_TYPE "chutter".
+:Ann1 ag:CALL_TYPE "chutter".
 
-:Ann1 atlas:REC_QUALITY "good".
+:Ann1 ag:REC_QUALITY "good".
 
-:Ann1 atlas:REMARKS "".
+:Ann1 ag:REMARKS "".
 

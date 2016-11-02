@@ -1,87 +1,83 @@
 PREFIX dc: <http://purl.org/dc/elements/1.1/>
 PREFIX xlink: <http://www.w3.org/1999/xlink/>
-PREFIX atlas: <http://www.ldc.upenn.edu/atlas/ag/>
+PREFIX ag: <http://www.ldc.upenn.edu/atlas/ag/>
 PREFIX : <http://example.org/PLEASE_PROVIDE_baseURI_PARAMETER#>
 
-<http://example.org/PLEASE_PROVIDE_baseURI_PARAMETER> atlas:agset :MM1.
-:MM1 a atlas:AGSet;
-  atlas:version "1.0";
+<http://example.org/PLEASE_PROVIDE_baseURI_PARAMETER> ag:agset :MM1.
+:MM1 a ag:AGSet;
+  ag:version "1.0";
   dc:title "Annotation of a multimedia signal".
 
-:MM1 atlas:timeline :T1.
-:T1 a atlas:Timeline.
+:MM1 ag:timeline :T1.
+:T1 a ag:Timeline.
 
-:T1 atlas:signal :S1.
-:S1 a atlas:Signal;
-  atlas:mimeClass "audio";
-  atlas:mimeType "wav";
-  atlas:encoding "wav";
-  atlas:unit "16kHz";
+:T1 ag:signal :S1.
+:S1 a ag:Signal;
+  ag:mimeClass "audio";
+  ag:mimeType "wav";
+  ag:encoding "wav";
+  ag:unit "16kHz";
   xlink:href "audio1.wav";
   xlink:type "simple".
 
-:T1 atlas:signal :S2.
-:S2 a atlas:Signal;
-  atlas:mimeClass "audio";
-  atlas:mimeType "wav";
-  atlas:encoding "wav";
-  atlas:unit "22050Hz";
+:T1 ag:signal :S2.
+:S2 a ag:Signal;
+  ag:mimeClass "audio";
+  ag:mimeType "wav";
+  ag:encoding "wav";
+  ag:unit "22050Hz";
   xlink:href "audio2.wav";
   xlink:type "simple".
 
-:T1 atlas:signal :S3.
-:S3 a atlas:Signal;
-  atlas:mimeClass "video";
-  atlas:mimeType "mpeg";
-  atlas:encoding "mpeg2";
-  atlas:unit "sec";
+:T1 ag:signal :S3.
+:S3 a ag:Signal;
+  ag:mimeClass "video";
+  ag:mimeType "mpeg";
+  ag:encoding "mpeg2";
+  ag:unit "sec";
   xlink:href "video.mpeg";
   xlink:type "simple".
 
-:MM1 atlas:ag :t1.
-:t1 a atlas:AG;
-  atlas:timeline :T1;
-  atlas:type "multimedia".
+:MM1 ag:ag :t1.
+:t1 a ag:AG;
+  ag:timeline :T1;
+  ag:type "multimedia".
 
-:t1 atlas:anchor :A0.
-:A0 a atlas:Anchor;
-  atlas:offset "1.42";
-  atlas:unit "sec".
+:t1 ag:anchor :A0.
+:A0 a ag:Anchor;
+  ag:offset "1.42";
+  ag:unit "sec".
 
-:t1 atlas:anchor :A1.
-:A1 a atlas:Anchor;
-  atlas:offset "2.62";
-  atlas:unit "sec".
+:t1 ag:anchor :A1.
+:A1 a ag:Anchor;
+  ag:offset "2.62";
+  ag:unit "sec".
 
-:t1 atlas:anchor :A2.
-:A2 a atlas:Anchor;
-  atlas:signals "S1 S2";
-  atlas:offset "3000";
-  atlas:unit "16kHz".
+:t1 ag:anchor :A2.
+:A2 a ag:Anchor;
+  ag:signals "S1 S2";
+  ag:offset "3000";
+  ag:unit "16kHz".
 
-:t1 atlas:anchor :A3.
-:A3 a atlas:Anchor;
-  atlas:signals "S1 S2";
-  atlas:offset "4600";
-  atlas:unit "16kHz".
+:t1 ag:anchor :A3.
+:A3 a ag:Anchor;
+  ag:signals "S1 S2";
+  ag:offset "4600";
+  ag:unit "16kHz".
 
-:t1 atlas:annotation :Ann0.
-:Ann0 a atlas:Annotation;
-  atlas:start :A0;
-  atlas:end :A1;
-  atlas:type "transcription";
-  atlas:start "A0";
-  atlas:end "A1".
+:t1 ag:annotation :Ann0.
+:Ann0 a ag:Annotation;
+  ag:start :A0;
+  ag:end :A1;
+  ag:type "transcription".
 
-:Ann0 atlas:trans "event in all three signals".
+:Ann0 ag:trans "event in all three signals".
 
-:t1 atlas:annotation :Ann1.
-:Ann1 a atlas:Annotation;
-  atlas:start :A2;
-  atlas:end :A3;
-  atlas:type "transcription";
-  atlas:start "A2";
-  atlas:end "A3".
+:t1 ag:annotation :Ann1.
+:Ann1 a ag:Annotation;
+  ag:start :A2;
+  ag:end :A3;
+  ag:type "transcription".
 
-:Ann1 atlas:trans "event in autido signals".
+:Ann1 ag:trans "event in autido signals".
 

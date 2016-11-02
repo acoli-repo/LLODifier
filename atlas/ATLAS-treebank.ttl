@@ -1,97 +1,89 @@
 PREFIX dc: <http://purl.org/dc/elements/1.1/>
 PREFIX xlink: <http://www.w3.org/1999/xlink/>
-PREFIX atlas: <http://www.ldc.upenn.edu/atlas/ag/>
+PREFIX ag: <http://www.ldc.upenn.edu/atlas/ag/>
 PREFIX : <http://example.org/PLEASE_PROVIDE_baseURI_PARAMETER#>
 
-<http://example.org/PLEASE_PROVIDE_baseURI_PARAMETER> atlas:agset :treebank1.
-:treebank1 a atlas:AGSet;
-  atlas:version "1.0";
+<http://example.org/PLEASE_PROVIDE_baseURI_PARAMETER> ag:agset :treebank1.
+:treebank1 a ag:AGSet;
+  ag:version "1.0";
   dc:title "An example of treebank annotation".
 
-:treebank1 atlas:timeline :T1.
-:T1 a atlas:Timeline.
+:treebank1 ag:timeline :T1.
+:T1 a ag:Timeline.
 
-:T1 atlas:signal :S1.
-:S1 a atlas:Signal;
-  atlas:mimeClass "text";
-  atlas:mimeType "simpletext";
-  atlas:encoding "utf8";
-  atlas:unit "byte";
+:T1 ag:signal :S1.
+:S1 a ag:Signal;
+  ag:mimeClass "text";
+  ag:mimeType "simpletext";
+  ag:encoding "utf8";
+  ag:unit "byte";
   xlink:href "textfile.utf8";
   xlink:type "simple".
 
-:treebank1 atlas:ag :t1.
-:t1 a atlas:AG;
-  atlas:timeline :T1;
-  atlas:type "treebank".
+:treebank1 ag:ag :t1.
+:t1 a ag:AG;
+  ag:timeline :T1;
+  ag:type "treebank".
 
-:t1 atlas:anchor :A0.
-:A0 a atlas:Anchor;
-  atlas:offset "0";
-  atlas:unit "byte".
+:t1 ag:anchor :A0.
+:A0 a ag:Anchor;
+  ag:offset "0";
+  ag:unit "byte".
 
-:t1 atlas:anchor :A1.
-:A1 a atlas:Anchor;
-  atlas:offset "3";
-  atlas:unit "byte".
+:t1 ag:anchor :A1.
+:A1 a ag:Anchor;
+  ag:offset "3";
+  ag:unit "byte".
 
-:t1 atlas:anchor :A2.
-:A2 a atlas:Anchor;
-  atlas:offset "4";
-  atlas:unit "byte".
+:t1 ag:anchor :A2.
+:A2 a ag:Anchor;
+  ag:offset "4";
+  ag:unit "byte".
 
-:t1 atlas:anchor :A3.
-:A3 a atlas:Anchor;
-  atlas:offset "9";
-  atlas:unit "byte".
+:t1 ag:anchor :A3.
+:A3 a ag:Anchor;
+  ag:offset "9";
+  ag:unit "byte".
 
-:t1 atlas:anchor :A4.
-:A4 a atlas:Anchor;
-  atlas:offset "10";
-  atlas:unit "byte".
+:t1 ag:anchor :A4.
+:A4 a ag:Anchor;
+  ag:offset "10";
+  ag:unit "byte".
 
-:t1 atlas:anchor :A5.
-:A5 a atlas:Anchor;
-  atlas:offset "13";
-  atlas:unit "byte".
+:t1 ag:anchor :A5.
+:A5 a ag:Anchor;
+  ag:offset "13";
+  ag:unit "byte".
 
-:t1 atlas:annotation :Ann0.
-:Ann0 a atlas:Annotation;
-  atlas:start :A0;
-  atlas:end :A1;
-  atlas:type "syn";
-  atlas:start "A0";
-  atlas:end "A1".
+:t1 ag:annotation :Ann0.
+:Ann0 a ag:Annotation;
+  ag:start :A0;
+  ag:end :A1;
+  ag:type "syn".
 
-:Ann0 atlas:pos-tag "DT".
+:Ann0 ag:pos-tag "DT".
 
-:t1 atlas:annotation :Ann1.
-:Ann1 a atlas:Annotation;
-  atlas:start :A2;
-  atlas:end :A3;
-  atlas:type "syn";
-  atlas:start "A2";
-  atlas:end "A3".
+:t1 ag:annotation :Ann1.
+:Ann1 a ag:Annotation;
+  ag:start :A2;
+  ag:end :A3;
+  ag:type "syn".
 
-:Ann1 atlas:pos-tag "JJ".
+:Ann1 ag:pos-tag "JJ".
 
-:t1 atlas:annotation :Ann2.
-:Ann2 a atlas:Annotation;
-  atlas:start :A4;
-  atlas:end :A5;
-  atlas:type "syn";
-  atlas:start "A4";
-  atlas:end "A5".
+:t1 ag:annotation :Ann2.
+:Ann2 a ag:Annotation;
+  ag:start :A4;
+  ag:end :A5;
+  ag:type "syn".
 
-:Ann2 atlas:pos-tag "NN".
+:Ann2 ag:pos-tag "NN".
 
-:t1 atlas:annotation :Ann3.
-:Ann3 a atlas:Annotation;
-  atlas:start :A0;
-  atlas:end :A5;
-  atlas:type "syn";
-  atlas:start "A0";
-  atlas:end "A5".
+:t1 ag:annotation :Ann3.
+:Ann3 a ag:Annotation;
+  ag:start :A0;
+  ag:end :A5;
+  ag:type "syn".
 
-:Ann3 atlas:pos-tag "NP".
+:Ann3 ag:pos-tag "NP".
 

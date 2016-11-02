@@ -1,69 +1,65 @@
 PREFIX dc: <http://purl.org/dc/elements/1.1/>
 PREFIX xlink: <http://www.w3.org/1999/xlink/>
-PREFIX atlas: <http://www.ldc.upenn.edu/atlas/ag/>
+PREFIX ag: <http://www.ldc.upenn.edu/atlas/ag/>
 PREFIX : <http://example.org/PLEASE_PROVIDE_baseURI_PARAMETER#>
 
-<http://example.org/PLEASE_PROVIDE_baseURI_PARAMETER> atlas:agset :COREF1.
-:COREF1 a atlas:AGSet;
-  atlas:version "1.0";
+<http://example.org/PLEASE_PROVIDE_baseURI_PARAMETER> ag:agset :COREF1.
+:COREF1 a ag:AGSet;
+  ag:version "1.0";
   dc:title "An example of coreference annotation".
 
-:COREF1 atlas:timeline :T1.
-:T1 a atlas:Timeline.
+:COREF1 ag:timeline :T1.
+:T1 a ag:Timeline.
 
-:T1 atlas:signal :S1.
-:S1 a atlas:Signal;
-  atlas:mimeClass "text";
-  atlas:mimeType "simpletext";
-  atlas:encoding "utf8";
-  atlas:unit "byte";
+:T1 ag:signal :S1.
+:S1 a ag:Signal;
+  ag:mimeClass "text";
+  ag:mimeType "simpletext";
+  ag:encoding "utf8";
+  ag:unit "byte";
   xlink:href "textfile.utf8";
   xlink:type "simple".
 
-:COREF1 atlas:ag :t1.
-:t1 a atlas:AG;
-  atlas:timeline :T1;
-  atlas:type "coref".
+:COREF1 ag:ag :t1.
+:t1 a ag:AG;
+  ag:timeline :T1;
+  ag:type "coref".
 
-:t1 atlas:anchor :A0.
-:A0 a atlas:Anchor;
-  atlas:offset "1";
-  atlas:unit "byte".
+:t1 ag:anchor :A0.
+:A0 a ag:Anchor;
+  ag:offset "1";
+  ag:unit "byte".
 
-:t1 atlas:anchor :A1.
-:A1 a atlas:Anchor;
-  atlas:offset "9";
-  atlas:unit "byte".
+:t1 ag:anchor :A1.
+:A1 a ag:Anchor;
+  ag:offset "9";
+  ag:unit "byte".
 
-:t1 atlas:anchor :A8.
-:A8 a atlas:Anchor;
-  atlas:offset "23";
-  atlas:unit "byte".
+:t1 ag:anchor :A8.
+:A8 a ag:Anchor;
+  ag:offset "23";
+  ag:unit "byte".
 
-:t1 atlas:anchor :A9.
-:A9 a atlas:Anchor;
-  atlas:offset "25";
-  atlas:unit "byte".
+:t1 ag:anchor :A9.
+:A9 a ag:Anchor;
+  ag:offset "25";
+  ag:unit "byte".
 
-:t1 atlas:annotation :Ann0.
-:Ann0 a atlas:Annotation;
-  atlas:start :A0;
-  atlas:end :A1;
-  atlas:type "transcription";
-  atlas:start "A0";
-  atlas:end "A1".
+:t1 ag:annotation :Ann0.
+:Ann0 a ag:Annotation;
+  ag:start :A0;
+  ag:end :A1;
+  ag:type "transcription".
 
-:Ann0 atlas:trans "The woman".
+:Ann0 ag:trans "The woman".
 
-:t1 atlas:annotation :Ann8.
-:Ann8 a atlas:Annotation;
-  atlas:start :A8;
-  atlas:end :A9;
-  atlas:type "transcription";
-  atlas:start "A8";
-  atlas:end "A9".
+:t1 ag:annotation :Ann8.
+:Ann8 a ag:Annotation;
+  ag:start :A8;
+  ag:end :A9;
+  ag:type "transcription".
 
-:Ann8 atlas:trans "She".
+:Ann8 ag:trans "She".
 
-:Ann8 atlas:coref :Ann0.
+:Ann8 ag:coref :Ann0.
 
