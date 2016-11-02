@@ -28,27 +28,32 @@ PREFIX : <http://example.org/PLEASE_PROVIDE_baseURI_PARAMETER#>
 :t1 ag:anchor :A0.
 :A0 a ag:Anchor;
   ag:offset "0";
-  ag:unit "byte".
+  ag:unit "byte";
+  ag:nextAnchor :A1.
 
 :t1 ag:anchor :A1.
 :A1 a ag:Anchor;
   ag:offset "3";
-  ag:unit "byte".
+  ag:unit "byte";
+  ag:nextAnchor :A2.
 
 :t1 ag:anchor :A2.
 :A2 a ag:Anchor;
   ag:offset "4";
-  ag:unit "byte".
+  ag:unit "byte";
+  ag:nextAnchor :A3.
 
 :t1 ag:anchor :A3.
 :A3 a ag:Anchor;
   ag:offset "9";
-  ag:unit "byte".
+  ag:unit "byte";
+  ag:nextAnchor :A4.
 
 :t1 ag:anchor :A4.
 :A4 a ag:Anchor;
   ag:offset "10";
-  ag:unit "byte".
+  ag:unit "byte";
+  ag:nextAnchor :A5.
 
 :t1 ag:anchor :A5.
 :A5 a ag:Anchor;

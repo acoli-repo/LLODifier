@@ -138,11 +138,10 @@
         
         <!-- next anchor -->
         <xsl:variable name="signals" select="@signals"/>
-        <xsl:for-each select="./following-sibling::anchor[@signals=$signals][1]">
+        <xsl:for-each select="./following-sibling::ag:Anchor[concat(' ',@signals)=concat(' ',$signals)][1]">
             <xsl:text>;&#10;  ag:nextAnchor :</xsl:text>
             <xsl:value-of select="@id"/>
         </xsl:for-each>
-        
         <xsl:text>.&#10;&#10;</xsl:text>
         <xsl:apply-templates/>
     </xsl:template>

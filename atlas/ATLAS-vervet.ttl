@@ -28,7 +28,8 @@ PREFIX : <http://example.org/PLEASE_PROVIDE_baseURI_PARAMETER#>
 :t1 ag:anchor :A0.
 :A0 a ag:Anchor;
   ag:offset "20000";
-  ag:unit "16kHz".
+  ag:unit "16kHz";
+  ag:nextAnchor :A1.
 
 :t1 ag:anchor :A1.
 :A1 a ag:Anchor;

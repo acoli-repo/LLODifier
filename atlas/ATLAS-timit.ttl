@@ -29,42 +29,50 @@ PREFIX : <http://example.org/PLEASE_PROVIDE_baseURI_PARAMETER#>
 :t1 ag:anchor :A0.
 :A0 a ag:Anchor;
   ag:offset "0";
-  ag:unit "16kHz".
+  ag:unit "16kHz";
+  ag:nextAnchor :A1.
 
 :t1 ag:anchor :A1.
 :A1 a ag:Anchor;
   ag:offset "2360";
-  ag:unit "16kHz".
+  ag:unit "16kHz";
+  ag:nextAnchor :A2.
 
 :t1 ag:anchor :A2.
 :A2 a ag:Anchor;
   ag:offset "3270";
-  ag:unit "16kHz".
+  ag:unit "16kHz";
+  ag:nextAnchor :A3.
 
 :t1 ag:anchor :A3.
 :A3 a ag:Anchor;
   ag:offset "5200";
-  ag:unit "16kHz".
+  ag:unit "16kHz";
+  ag:nextAnchor :A4.
 
 :t1 ag:anchor :A4.
 :A4 a ag:Anchor;
   ag:offset "6160";
-  ag:unit "16kHz".
+  ag:unit "16kHz";
+  ag:nextAnchor :A5.
 
 :t1 ag:anchor :A5.
 :A5 a ag:Anchor;
   ag:offset "8720";
-  ag:unit "16kHz".
+  ag:unit "16kHz";
+  ag:nextAnchor :A6.
 
 :t1 ag:anchor :A6.
 :A6 a ag:Anchor;
   ag:offset "9680";
-  ag:unit "16kHz".
+  ag:unit "16kHz";
+  ag:nextAnchor :A7.
 
 :t1 ag:anchor :A7.
 :A7 a ag:Anchor;
   ag:offset "10173";
-  ag:unit "16kHz".
+  ag:unit "16kHz";
+  ag:nextAnchor :A8.
 
 :t1 ag:anchor :A8.
 :A8 a ag:Anchor;
