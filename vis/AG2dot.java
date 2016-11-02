@@ -40,131 +40,122 @@ public class AG2dot {
 		}
 		for(Statement removable : removables)
 			model.remove(removable);
+
+		 System.out.println("digraph G {\n"
+		 		+ "overlap=false;");
+		 
+		 // fetch all anchors
+		 System.out.println("subgraph ag_Anchors {\n"
+				+ "node [shape=plaintext];\n"
+				+ "rank=same;");
 		
 		String query = 
-			"PREFIX atlas: <http://www.ldc.upenn.edu/atlas/ag/>\n"+
-			"SELECT ?initialSentence "
-			+ "WHERE { ?initialSentence a nif:Sentence. "
-					+ "FILTER(NOT EXISTS { [] nif:nextSentence ?initialSentence })"
-			+ "} ORDER BY ?initialSentence LIMIT 1";
-		  try (QueryExecution qexec = QueryExecutionFactory.create(QueryFactory.create(query),model)) {
-			ResultSet initialSentences = qexec.execSelect() ;
-			while( initialSentences.hasNext() ) {
-			  Resource initialSentence = initialSentences.nextSolution().getResource("initialSentence");
-
-			  System.out.println("digraph G {\n"
-					+ "subgraph nif_Words {\n"
-					+ "node [shape=plaintext];\n"
-					+ "rank=same;");
-			  
-			  // fetch all Words of the current sentence and their annotations
-			  query =
-				"PREFIX nif: <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#>\n"+
-				"PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>\n"+
-				"SELECT ?word ?label ?anno ?nextWord\n"
-				+ "WHERE { <"+initialSentence+"> nif:firstWord/nif:nextWord* ?word.\n"
-						+ "OPTIONAL { ?word rdfs:label ?label. }\n"
-						+ "OPTIONAL { ?word nif:nextWord ?nextWord. }\n"
-						+ "{ SELECT ?word ( group_concat ( distinct ?val;separator=\"<BR/>\" ) as ?anno )\n"
-						  + "WHERE { OPTIONAL { ?word rdfs:label ?string }\n"
-						          + "?word ?rel ?obj.\n"
-						          + "FILTER isLiteral(?obj)\n";
-			  if(!keepIDs)
-				  query = query   + "FILTER (!regex(str(?rel),'.*[#/]id$'))\n";
-			  query=query         + "FILTER (?rel!=rdfs:label) \n"
-						          //+ "BIND(concat(replace(str(?rel),'.*[#/]',''),'=',?obj) AS ?val)\n"
-						          + "BIND(?obj AS ?val)\n"
-						  + "} GROUP BY ?word ORDER BY ?word ?rel ?val\n"
-					    + "}\n"
-					    //+ "BIND(concat(?label,'<BR/>',?anno) AS ?node_label)\n"
-						//+ "BIND(concat(?label,'<BR/><FONT POINT-SIZE=\\'8\\'>',?anno,'</FONT>') AS ?node_label)\n"
-				+ "}";
-			  ResultSet words = QueryExecutionFactory.create(QueryFactory.create(query), model).execSelect();
-				
-				while(words.hasNext()) {
-					QuerySolution word = words.next();
-					System.out.println(escapeURI(word.get("word"))+
-							" [label=<"+escapeLabel(word.get("label"))+
-							"<BR/><FONT POINT-SIZE=\"10\">"+escapeAnno(word.get("anno"))+"</FONT>>];");
-					if(word.get("nextWord")!=null) System.out.println(escapeURI(word.get("word"))+" -> "+escapeURI(word.get("nextWord"))+" [color=none];");
-				}
-				
-				System.out.println("}");
+				"PREFIX ag: <http://www.ldc.upenn.edu/atlas/ag/>\n"+
+					"SELECT ?a ?anno ?next\n"+
+					"WHERE {\n"+
+					  "?a a ag:Anchor.\n"+
+					  "OPTIONAL { ?a ag:nextAnchor ?next }\n"+
+					  "{ SELECT ?a (group_concat(?val;separator='<BR/>') AS ?anno)\n"+
+					    "WHERE {\n"+
+					      "?a ?dprop ?literal.\n"+
+					      "FILTER isLiteral(?literal)\n";
+		if(!keepIDs) query = query + 
+				          "FILTER (!regex(str(?dprop),'.*[#/]id$'))\n";
+		query=query +     "BIND(concat(replace(str(?dprop),'.*[/#]',''),'=',?literal) AS ?val)\n"+
+					    "} GROUP BY ?a ORDER BY ?a ?dprop ?literal\n"+
+					  "}\n"+
+					"}\n";
 		
-				System.out.println("subgraph nif_Phrases {\n");
-				// System.out.println("splines=ortho");	// nicer edges, but don't go together with edge labels
+		try (QueryExecution qexec = QueryExecutionFactory.create(QueryFactory.create(query),model)) {
+			ResultSet anchors = qexec.execSelect() ;
+			while( anchors.hasNext() ) {
+			  QuerySolution anchor = anchors.nextSolution();
+			  System.out.println(escapeURI(anchor.get("a"))+" [label=<"+escapeAnno(anchor.get("anno"))+">];");
+			  if(anchor.get("next")!=null) 
+				  System.out.println(escapeURI(anchor.get("a"))+" -> "+escapeURI(anchor.get("next"))+" [color=none];");
+			}
+		}
 				
-				// flatten reification
-				RSIterator reifications = model.listReifiedStatements();
-				while(reifications.hasNext()) {
-					ReifiedStatement r = reifications.next();
-					model.add(r.getStatement());
-					//System.out.println(r.getStatement());
+		System.out.println("}");
+		
+		// retrieve Annotation types (=> one subgraph per type
+		query = "PREFIX ag: <http://www.ldc.upenn.edu/atlas/ag/>\n"
+				+ "SELECT DISTINCT ?t\n"
+				+ "WHERE {\n"
+				+ "?x a ag:Annotation.\n"
+				+ "?x ag:type ?t\n"
+				+ "}";
+		ResultSet result = QueryExecutionFactory.create(QueryFactory.create(query), model).execSelect();
+		ArrayList<String> types = new ArrayList<String>();
+		while(result.hasNext())
+			types.add(result.next().get("t").toString());
+		
+		for(int i = 0; i<types.size(); i++) {
+			String type = types.get(i);
+			System.out.println("subgraph "+/*"cluster_"+*/type+" {\n"
+					+ "graph[style=dotted];");
+				// System.out.println("splines=ortho");	// nicer edges (I presume)
+		
+				// write Annotation nodes
+				query=	"PREFIX ag: <http://www.ldc.upenn.edu/atlas/ag/>\n"+
+						"SELECT ?x ?anno\n"+
+						"WHERE {\n"+
+						  "?x a ag:Annotation.\n"+
+						  "?x ag:type '"+type+"'.\n"+
+						  "{ SELECT ?x (group_concat(?val;separator='<BR/>') as ?anno)\n"+
+						    "WHERE {\n"+
+						      "?x ?dprop ?literal.\n"+
+						      "FILTER (isLiteral(?literal))\n"+
+						      "FILTER (?dprop!=ag:type)\n"+
+						      "BIND(concat(replace(str(?dprop),'.*[#/]',''),'=',?literal) AS ?val)\n"+
+						    "} GROUP BY ?x ORDER BY ?x ?dprop ?literal\n"+
+							"}\n"+
+						  "}\n";
+				ResultSet annos = QueryExecutionFactory.create(QueryFactory.create(query), model).execSelect();
+				while(annos.hasNext()) {
+					QuerySolution anno= annos.next();
+					System.out.println(escapeURI(anno.get("x"))+" [label=<"+escapeAnno(anno.get("anno"))+">];");
+					}
+				
+				// write relations
+				query=	"PREFIX ag: <http://www.ldc.upenn.edu/atlas/ag/>\n"+
+						"PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>\n"+
+						"SELECT ?x ?rel ?tgt\n"+
+						"WHERE {\n"+
+						  "?x a ag:Annotation.\n"+
+						  "?x ag:type '"+type+"'.\n"+
+						  "?x ?oprop ?tgt.\n"+
+						  "FILTER(!isLiteral(?tgt))\n"+
+						  "FILTER(?oprop!=rdf:type)\n"+
+						  "BIND(replace(str(?oprop),'.*[#/]','') AS ?rel)\n"+
+						"}";
+				ResultSet rels = QueryExecutionFactory.create(QueryFactory.create(query), model).execSelect();
+						
+				while(rels.hasNext()) {
+					QuerySolution rel= rels.next();
+					System.out.print(escapeURI(rel.get("x"))+" -> "+escapeURI(rel.get("tgt"))+" [xlabel=\""+rel.get("rel")+"\"];\n");
 				}
 				
-				// write phrase nodes
-				query=	"PREFIX nif: <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#>\n"+
-						"PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>\n"+
-						"SELECT DISTINCT ?phrase ?label ?anno\n"
-						+ "WHERE { <"+initialSentence+"> nif:firstWord/nif:nextWord*/nif:subString+ ?phrase.\n"
-								+ "OPTIONAL { ?phrase rdfs:label ?label . }\n"
-								+ "OPTIONAL { "
-								+ "SELECT ?phrase (group_concat(distinct ?val;separator='<BR/>') AS ?anno)\n"
-								+ "WHERE { ?phrase ?prop ?val.\n"
-								+ "         FILTER isLiteral(?val)\n";
-				  if(!keepIDs)
-					  query = query   
-					  			+ "			FILTER (!regex(str(?prop),'.*[#/]id$'))\n";
-				  query=query   + "} GROUP BY ?phrase ORDER BY ?phrase ?rel\n"
-								+ "}\n"
-						+ "}\n";
-						ResultSet phrases = QueryExecutionFactory.create(QueryFactory.create(query), model).execSelect();
-						
-						while(phrases.hasNext()) {
-							QuerySolution phrase = phrases.next();
-							System.out.print(escapeURI(phrase.get("phrase"))+" [label=<");
-							if(phrase.get("label")==null && phrase.get("anno")==null)
-								System.out.print("&nbsp;");
-							if(phrase.get("label")!=null)
-								System.out.print(escapeLabel(phrase.get("label")));
-							if(phrase.get("label")!=null && phrase.get("anno")!=null)
-								System.out.print("<BR/>");
-							if(phrase.get("anno")!=null)
-								//System.out.print("<FONT POINT-SIZE=\"10\">"+phrase.get("anno")+"</FONT>");
-								System.out.print(escapeAnno(phrase.get("anno")));
-							System.out.println(">];");
-						}
-				
-				// write edges
-				query=	"PREFIX nif: <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#>\n"+
-						"PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>\n"+
-						"PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>\n"+
-						"SELECT DISTINCT ?phrase ?child ?anno\n"
-						+ "WHERE { <"+initialSentence+"> nif:firstWord/nif:nextWord*/nif:subString+ ?phrase.\n"
-								+ "?child nif:subString ?phrase.\n"
-								+ "OPTIONAL { "
-								+ "SELECT ?child ?phrase (group_concat(distinct ?val;separator='<BR/>') AS ?anno)\n"
-								+ "WHERE { ?child ^rdf:subject ?rel. ?rel rdf:predicate nif:subString; rdf:object ?parent.\n"
-								+ "			?rel ?prop ?val.\n"
-								+ "         FILTER isLiteral(?val)\n"
-								+ "} GROUP BY ?child ?phrase ORDER BY ?child ?phrase ?rel\n"
-								+ "}\n"
-						+ "}\n";
-						phrases = QueryExecutionFactory.create(QueryFactory.create(query), model).execSelect();
-						
-						while(phrases.hasNext()) {
-							QuerySolution phrase = phrases.next();
-							System.out.print(escapeURI(phrase.get("phrase"))+" -> "+escapeURI(phrase.get("child"))+" [arrowhead=none");
-							if(phrase.get("anno")!=null)
-								System.out.print(",xlabel=<"+escapeAnno(phrase.get("anno"))+">");	// xlabel is a little bit more compact than label
-							System.out.println("];");
-						}
-
 				System.out.println("}");
-				  
-				System.out.println("}");
-			}
-		  }
+		}
+		
+		// draw invisible edges to rank subgraphs
+		query="PREFIX ag: <http://www.ldc.upenn.edu/atlas/ag/>\n"
+				+ "SELECT ?x ?y\n"
+				+ "WHERE {\n"
+				+ "  ?x a ag:Annotation.\n"
+				+ "  ?x ag:start/ag:nextAnchor*/^ag:start ?y.\n"
+				+ "  ?x ag:end/(^ag:nextAnchor)*/^ag:end ?y.\n"
+				+ "  FILTER (?x != ?y)\n"
+				+ "}";
+		
+		ResultSet rels = QueryExecutionFactory.create(QueryFactory.create(query), model).execSelect();
+		while(rels.hasNext()) {
+			QuerySolution rel= rels.next();
+			System.out.print(escapeURI(rel.get("x"))+" -> "+escapeURI(rel.get("y"))+" [style=invisible, arrowhead=none]"+";\n");
+		}
+		
+		System.out.println("}");
 	}
 
 	private static String escapeAnno(RDFNode rdfNode) {

@@ -50,7 +50,7 @@
                 </xsl:if>
                 <xsl:value-of select="name()"/>
                 <xsl:text> "</xsl:text>
-                <xsl:value-of select="."/>
+                <xsl:value-of select="normalize-space(.)"/>
                 <xsl:text>"</xsl:text>
             </xsl:if>
         </xsl:for-each>

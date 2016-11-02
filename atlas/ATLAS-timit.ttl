@@ -6,8 +6,7 @@ PREFIX : <http://example.org/PLEASE_PROVIDE_baseURI_PARAMETER#>
 <http://example.org/PLEASE_PROVIDE_baseURI_PARAMETER> ag:agset :Timit.
 :Timit a ag:AGSet;
   ag:version "1.0";
-  dc:title "The AIF representation for the TIMIT fragment included
-	in Bird & Liberman's annotation graph paper. ".
+  dc:title "The AIF representation for the TIMIT fragment included in Bird & Liberman's annotation graph paper.".
 
 :Timit ag:timeline :T1.
 :T1 a ag:Timeline.
