@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform" version="1.0">
 
-    <!-- ELAN LLODifier 
-        Note that, following Schmidt et al. (2009), we use Annotation Graph datatypes for elementary data types
-    -->
+    <!-- ELAN LLODifier -->
     <xsl:output method="text" indent="no"/>
     
     <xsl:param name="baseURI">http://example.org/PLEASE_PROVIDE_baseURI_PARAMETER</xsl:param>
@@ -13,7 +11,6 @@
         <xsl:text>PREFIX elan: &lt;</xsl:text>
         <xsl:value-of xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" select="/ANNOTATION_DOCUMENT/@xsi:noNamespaceSchemaLocation"/>
         <xsl:text>#&gt;&#10;</xsl:text>
-        <xsl:text>PREFIX ag: &lt;http://www.ldc.upenn.edu/atlas/ag/&gt;&#10;</xsl:text>
         <xsl:text>PREFIX : &lt;</xsl:text>
         <xsl:value-of select="$baseURI"/>
         <xsl:text>#&gt;&#10;</xsl:text>
@@ -92,25 +89,22 @@
     <xsl:template match="TIME_ORDER">
         <xsl:text>&lt;</xsl:text>
         <xsl:value-of select="$baseURI"/>
-        <xsl:text>&gt; ag:anchor </xsl:text>
+        <xsl:text>&gt; elan:</xsl:text>
+        <xsl:value-of select="name()"/>
+        <xsl:text> ( </xsl:text>
         <xsl:for-each select="TIME_SLOT">
             <xsl:text>:</xsl:text>
             <xsl:value-of select="@TIME_SLOT_ID"/>
             <xsl:if test="count(./following-sibling::TIME_SLOT[1])&gt;0">
-                <xsl:text>, </xsl:text>
+                <xsl:text> </xsl:text>
             </xsl:if>
         </xsl:for-each>
-        <xsl:text>.&#10;</xsl:text>
+        <xsl:text>).&#10;</xsl:text>
         <xsl:for-each select="TIME_SLOT">
             <xsl:for-each select="@*[name()!='TIME_SLOT_ID'][string-length(normalize-space(string(.)))&gt;0]">
                 <xsl:text>:</xsl:text>
                 <xsl:value-of select="../@TIME_SLOT_ID"/>
-                <xsl:text> a ag:Anchor</xsl:text>
-                <xsl:if test="count(../following-sibling::TIME_SLOT[1])&gt;0">
-                    <xsl:text>;&#10;  ag:nextAnchor :</xsl:text>
-                    <xsl:value-of select="../following-sibling::TIME_SLOT[1]/@TIME_SLOT_ID"/>
-                </xsl:if>
-                <xsl:text>;&#10;  elan:</xsl:text>
+                <xsl:text> elan:</xsl:text>
                 <xsl:value-of select="name()"/>
                 <xsl:text> "</xsl:text>
                 <xsl:value-of select="."/>
@@ -143,32 +137,23 @@
         <xsl:for-each select="ANNOTATION//@ANNOTATION_ID">
             <xsl:choose>
                 <xsl:when test="../@ANNOTATION_REF!=''">        <!-- property encoding for higher layers -->
+                    <xsl:text>:</xsl:text>
+                    <xsl:value-of select="../@ANNOTATION_REF"/>
+                    <xsl:text> elan:</xsl:text>
+                    <xsl:value-of select="./ancestor::*/@TIER_ID[1]"/>
                     <xsl:text> :</xsl:text>
                     <xsl:value-of select="."/>
-                    <xsl:text> a ag:Annotation</xsl:text>
-                    <xsl:text>;&#10;  ag:type "</xsl:text>          <!-- for compliancy with annotation graphs, we also add the tier id as a literal -->
-                    <xsl:value-of select="./ancestor::*/@TIER_ID[1]"/>
-                    <xsl:text>";&#10;  elan:</xsl:text>
-                    <xsl:value-of select="./ancestor::*/@TIER_ID[1]"/>
-                    <xsl:text> :</xsl:text>
-                    <xsl:value-of select="../@ANNOTATION_REF"/>
                     <xsl:text>.&#10;</xsl:text>
                 </xsl:when>
                 <xsl:when test="../@TIME_SLOT_REF1!=''">            <!-- class encoding for transcription layer(s), only if not referring to other annotations -->
                     <xsl:text>:</xsl:text>
                     <xsl:value-of select="."/>
-                    <xsl:text> a ag:Annotation</xsl:text>
-                    <xsl:text>;&#10;  ag:type "</xsl:text>          <!-- for compliancy with annotation graphs, we also add the tier id as a literal -->
+                    <xsl:text> a elan:</xsl:text>                   <!-- note: leads to a type class if transcription and annotation are not poperly distinguished -->
                     <xsl:value-of select="./ancestor::*/@TIER_ID[1]"/>
-                    <xsl:text>"</xsl:text>
-                    <xsl:text>;&#10;  a elan:</xsl:text>                   <!-- note: leads to a type class if transcription and annotation are not poperly distinguished -->
-                    <xsl:value-of select="./ancestor::*/@TIER_ID[1]"/>
-                    <!--xsl:text>;&#10;  elan:TIME_SLOT_REF1 :</xsl:text-->
-                    <xsl:text>;&#10;  ag:start :</xsl:text>
+                    <xsl:text>;&#10;  elan:TIME_SLOT_REF1 :</xsl:text>
                     <xsl:value-of select="../@TIME_SLOT_REF1"/>
                     <xsl:if test="../@TIME_SLOT_REF2!=''">
-                        <!--xsl:text>;&#10;  elan:TIME_SLOT_REF2 :</xsl:text-->
-                        <xsl:text>;&#10;  ag:end :</xsl:text>
+                        <xsl:text>;&#10;  elan:TIME_SLOT_REF2 :</xsl:text>
                         <xsl:value-of select="../@TIME_SLOT_REF2"/>
                     </xsl:if>
                     <xsl:text>.&#10;</xsl:text>

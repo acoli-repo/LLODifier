@@ -1,4 +1,5 @@
 PREFIX elan: <http://www.mpi.nl/tools/elan/EAFv2.8.xsd#>
+PREFIX ag: <http://www.ldc.upenn.edu/atlas/ag/>
 PREFIX : <http://example.org/PLEASE_PROVIDE_baseURI_PARAMETER#>
 
 <http://example.org/PLEASE_PROVIDE_baseURI_PARAMETER> a elan:ANNOTATION_DOCUMENT;
@@ -17,31 +18,78 @@ PREFIX : <http://example.org/PLEASE_PROVIDE_baseURI_PARAMETER#>
 <file:///Users/hilariacruz/Dropbox/Chatino_GORILLA/Chatino_1/SJQ_20150616_HC_10.wav> elan:RELATIVE_MEDIA_URL "./SJQ_20150616_HC_10.wav".
 
     
-    <http://example.org/PLEASE_PROVIDE_baseURI_PARAMETER> elan:TIME_ORDER ( :ts1 :ts2 :ts3 :ts4 :ts5 :ts6 :ts7 :ts8 :ts9 :ts10 :ts11 :ts12 :ts13 :ts14 :ts15 :ts16 :ts17 :ts18 :ts19 :ts20 :ts21 :ts22 :ts23 :ts24).
-:ts1 elan:TIME_VALUE "17760".
-:ts2 elan:TIME_VALUE "18760".
-:ts3 elan:TIME_VALUE "21405".
-:ts4 elan:TIME_VALUE "22850".
-:ts5 elan:TIME_VALUE "23715".
-:ts6 elan:TIME_VALUE "24845".
-:ts7 elan:TIME_VALUE "25870".
-:ts8 elan:TIME_VALUE "28110".
-:ts9 elan:TIME_VALUE "28820".
-:ts10 elan:TIME_VALUE "30170".
-:ts11 elan:TIME_VALUE "31285".
-:ts12 elan:TIME_VALUE "32805".
-:ts13 elan:TIME_VALUE "35471".
-:ts14 elan:TIME_VALUE "36801".
-:ts15 elan:TIME_VALUE "37345".
-:ts16 elan:TIME_VALUE "38815".
-:ts17 elan:TIME_VALUE "39780".
-:ts18 elan:TIME_VALUE "40770".
-:ts19 elan:TIME_VALUE "41255".
-:ts20 elan:TIME_VALUE "42235".
-:ts21 elan:TIME_VALUE "48205".
-:ts22 elan:TIME_VALUE "49295".
-:ts23 elan:TIME_VALUE "50220".
-:ts24 elan:TIME_VALUE "51090".
+    <http://example.org/PLEASE_PROVIDE_baseURI_PARAMETER> ag:anchor :ts1, :ts2, :ts3, :ts4, :ts5, :ts6, :ts7, :ts8, :ts9, :ts10, :ts11, :ts12, :ts13, :ts14, :ts15, :ts16, :ts17, :ts18, :ts19, :ts20, :ts21, :ts22, :ts23, :ts24.
+:ts1 a ag:Anchor;
+  ag:nextAnchor :ts2;
+  elan:TIME_VALUE "17760".
+:ts2 a ag:Anchor;
+  ag:nextAnchor :ts3;
+  elan:TIME_VALUE "18760".
+:ts3 a ag:Anchor;
+  ag:nextAnchor :ts4;
+  elan:TIME_VALUE "21405".
+:ts4 a ag:Anchor;
+  ag:nextAnchor :ts5;
+  elan:TIME_VALUE "22850".
+:ts5 a ag:Anchor;
+  ag:nextAnchor :ts6;
+  elan:TIME_VALUE "23715".
+:ts6 a ag:Anchor;
+  ag:nextAnchor :ts7;
+  elan:TIME_VALUE "24845".
+:ts7 a ag:Anchor;
+  ag:nextAnchor :ts8;
+  elan:TIME_VALUE "25870".
+:ts8 a ag:Anchor;
+  ag:nextAnchor :ts9;
+  elan:TIME_VALUE "28110".
+:ts9 a ag:Anchor;
+  ag:nextAnchor :ts10;
+  elan:TIME_VALUE "28820".
+:ts10 a ag:Anchor;
+  ag:nextAnchor :ts11;
+  elan:TIME_VALUE "30170".
+:ts11 a ag:Anchor;
+  ag:nextAnchor :ts12;
+  elan:TIME_VALUE "31285".
+:ts12 a ag:Anchor;
+  ag:nextAnchor :ts13;
+  elan:TIME_VALUE "32805".
+:ts13 a ag:Anchor;
+  ag:nextAnchor :ts14;
+  elan:TIME_VALUE "35471".
+:ts14 a ag:Anchor;
+  ag:nextAnchor :ts15;
+  elan:TIME_VALUE "36801".
+:ts15 a ag:Anchor;
+  ag:nextAnchor :ts16;
+  elan:TIME_VALUE "37345".
+:ts16 a ag:Anchor;
+  ag:nextAnchor :ts17;
+  elan:TIME_VALUE "38815".
+:ts17 a ag:Anchor;
+  ag:nextAnchor :ts18;
+  elan:TIME_VALUE "39780".
+:ts18 a ag:Anchor;
+  ag:nextAnchor :ts19;
+  elan:TIME_VALUE "40770".
+:ts19 a ag:Anchor;
+  ag:nextAnchor :ts20;
+  elan:TIME_VALUE "41255".
+:ts20 a ag:Anchor;
+  ag:nextAnchor :ts21;
+  elan:TIME_VALUE "42235".
+:ts21 a ag:Anchor;
+  ag:nextAnchor :ts22;
+  elan:TIME_VALUE "48205".
+:ts22 a ag:Anchor;
+  ag:nextAnchor :ts23;
+  elan:TIME_VALUE "49295".
+:ts23 a ag:Anchor;
+  ag:nextAnchor :ts24;
+  elan:TIME_VALUE "50220".
+:ts24 a ag:Anchor;
+  elan:TIME_VALUE "51090".
 
     <http://example.org/PLEASE_PROVIDE_baseURI_PARAMETER> elan:TIER :SJQ.
 :SJQ a elan:TIER;
@@ -49,53 +97,77 @@ PREFIX : <http://example.org/PLEASE_PROVIDE_baseURI_PARAMETER#>
   elan:LINGUISTIC_TYPE_REF "default-lt";
   elan:PARTICIPANT "Hilaria Cruz";
   elan:TIER_ID "SJQ".
-:a1 a elan:SJQ;
-  elan:TIME_SLOT_REF1 :ts1;
-  elan:TIME_SLOT_REF2 :ts2.
+:a1 a ag:Annotation;
+  ag:type "SJQ";
+  a elan:SJQ;
+  ag:start :ts1;
+  ag:end :ts2.
 :a1 elan:ANNOTATION_VALUE "qan1 ndwiq24 yu24 re2".
-:a2 a elan:SJQ;
-  elan:TIME_SLOT_REF1 :ts3;
-  elan:TIME_SLOT_REF2 :ts4.
+:a2 a ag:Annotation;
+  ag:type "SJQ";
+  a elan:SJQ;
+  ag:start :ts3;
+  ag:end :ts4.
 :a2 elan:ANNOTATION_VALUE "chaq3 tyqwi24 chaq3-tlyu2 riq2   qwan1".
-:a3 a elan:SJQ;
-  elan:TIME_SLOT_REF1 :ts5;
-  elan:TIME_SLOT_REF2 :ts6.
+:a3 a ag:Annotation;
+  ag:type "SJQ";
+  a elan:SJQ;
+  ag:start :ts5;
+  ag:end :ts6.
 :a3 elan:ANNOTATION_VALUE "qan1 nka24    tye32   qwan4".
-:a4 a elan:SJQ;
-  elan:TIME_SLOT_REF1 :ts7;
-  elan:TIME_SLOT_REF2 :ts8.
+:a4 a ag:Annotation;
+  ag:type "SJQ";
+  a elan:SJQ;
+  ag:start :ts7;
+  ag:end :ts8.
 :a4 elan:ANNOTATION_VALUE "nkwa2    wan1          yaq2 qna42".
-:a5 a elan:SJQ;
-  elan:TIME_SLOT_REF1 :ts9;
-  elan:TIME_SLOT_REF2 :ts10.
+:a5 a ag:Annotation;
+  ag:type "SJQ";
+  a elan:SJQ;
+  ag:start :ts9;
+  ag:end :ts10.
 :a5 elan:ANNOTATION_VALUE "nkwa2    wan1          yaq2 qna42".
-:a6 a elan:SJQ;
-  elan:TIME_SLOT_REF1 :ts11;
-  elan:TIME_SLOT_REF2 :ts12.
+:a6 a ag:Annotation;
+  ag:type "SJQ";
+  a elan:SJQ;
+  ag:start :ts11;
+  ag:end :ts12.
 :a6 elan:ANNOTATION_VALUE "nkwa2    wan1          yaq2 qna42".
-:a37 a elan:SJQ;
-  elan:TIME_SLOT_REF1 :ts13;
-  elan:TIME_SLOT_REF2 :ts14.
+:a37 a ag:Annotation;
+  ag:type "SJQ";
+  a elan:SJQ;
+  ag:start :ts13;
+  ag:end :ts14.
 :a37 elan:ANNOTATION_VALUE "nkwa2    wan1          yaq2 qna42".
-:a7 a elan:SJQ;
-  elan:TIME_SLOT_REF1 :ts15;
-  elan:TIME_SLOT_REF2 :ts16.
+:a7 a ag:Annotation;
+  ag:type "SJQ";
+  a elan:SJQ;
+  ag:start :ts15;
+  ag:end :ts16.
 :a7 elan:ANNOTATION_VALUE "nkwa2    wan1       kyaq24 qna42,  in20 ".
-:a8 a elan:SJQ;
-  elan:TIME_SLOT_REF1 :ts17;
-  elan:TIME_SLOT_REF2 :ts18.
+:a8 a ag:Annotation;
+  ag:type "SJQ";
+  a elan:SJQ;
+  ag:start :ts17;
+  ag:end :ts18.
 :a8 elan:ANNOTATION_VALUE "lo24                wan32     qna42".
-:a9 a elan:SJQ;
-  elan:TIME_SLOT_REF1 :ts19;
-  elan:TIME_SLOT_REF2 :ts20.
+:a9 a ag:Annotation;
+  ag:type "SJQ";
+  a elan:SJQ;
+  ag:start :ts19;
+  ag:end :ts20.
 :a9 elan:ANNOTATION_VALUE "jen2               wan1      qna42   ".
-:a10 a elan:SJQ;
-  elan:TIME_SLOT_REF1 :ts21;
-  elan:TIME_SLOT_REF2 :ts22.
+:a10 a ag:Annotation;
+  ag:type "SJQ";
+  a elan:SJQ;
+  ag:start :ts21;
+  ag:end :ts22.
 :a10 elan:ANNOTATION_VALUE "lo24                wan32     qna42".
-:a11 a elan:SJQ;
-  elan:TIME_SLOT_REF1 :ts23;
-  elan:TIME_SLOT_REF2 :ts24.
+:a11 a ag:Annotation;
+  ag:type "SJQ";
+  a elan:SJQ;
+  ag:start :ts23;
+  ag:end :ts24.
 :a11 elan:ANNOTATION_VALUE "jen2               wan1      qna42   ".
 
     <http://example.org/PLEASE_PROVIDE_baseURI_PARAMETER> elan:TIER :pos.
@@ -105,29 +177,53 @@ PREFIX : <http://example.org/PLEASE_PROVIDE_baseURI_PARAMETER#>
   elan:PARENT_REF "SJQ";
   elan:PARTICIPANT "Hilaria Cruz";
   elan:TIER_ID "pos".
-:a1 elan:pos :a12.
+ :a12 a ag:Annotation;
+  ag:type "pos";
+  elan:pos :a1.
 :a12 elan:ANNOTATION_VALUE "as          HAB_say    man     here".
-:a2 elan:pos :a13.
+ :a13 a ag:Annotation;
+  ag:type "pos";
+  elan:pos :a2.
 :a13 elan:ANNOTATION_VALUE "so.that     POT_have  forgiveness         essence  to.you(pl)".
-:a3 elan:pos :a14.
+ :a14 a ag:Annotation;
+  ag:type "pos";
+  elan:pos :a3.
 :a14 elan:ANNOTATION_VALUE "as         PROG_be  essense    to.you(pl)".
-:a4 elan:pos :a15.
+ :a15 a ag:Annotation;
+  ag:type "pos";
+  elan:pos :a4.
 :a15 elan:ANNOTATION_VALUE "COMPL_be  you(pl subj)   hand    us (INCL)".
-:a5 elan:pos :a16.
+ :a16 a ag:Annotation;
+  ag:type "pos";
+  elan:pos :a5.
 :a16 elan:ANNOTATION_VALUE "COMPL_be  you(pl subj)   hand    us (INCL)".
-:a6 elan:pos :a17.
+ :a17 a ag:Annotation;
+  ag:type "pos";
+  elan:pos :a6.
 :a17 elan:ANNOTATION_VALUE "COMPL_be  you(pl subj)   hand    us (INCL)".
-:a37 elan:pos :a38.
+ :a38 a ag:Annotation;
+  ag:type "pos";
+  elan:pos :a37.
 :a38 elan:ANNOTATION_VALUE "COMPL_be  you(pl subj)   hand    us (INCL)".
-:a7 elan:pos :a18.
+ :a18 a ag:Annotation;
+  ag:type "pos";
+  elan:pos :a7.
 :a18 elan:ANNOTATION_VALUE "COMPL_be  you(pl subj)   feet           us (INCL) hm?       ".
-:a8 elan:pos :a19.
+ :a19 a ag:Annotation;
+  ag:type "pos";
+  elan:pos :a8.
 :a19 elan:ANNOTATION_VALUE "COMPL_bring.out  you(pl subj)   us(INCL)".
-:a9 elan:pos :a20.
+ :a20 a ag:Annotation;
+  ag:type "pos";
+  elan:pos :a9.
 :a20 elan:ANNOTATION_VALUE "COMPL_bring.out  you(pl subj)  us(INCL) ".
-:a10 elan:pos :a21.
+ :a21 a ag:Annotation;
+  ag:type "pos";
+  elan:pos :a10.
 :a21 elan:ANNOTATION_VALUE "COMPL_bring.out  you(pl subj)   us(INCL)".
-:a11 elan:pos :a22.
+ :a22 a ag:Annotation;
+  ag:type "pos";
+  elan:pos :a11.
 :a22 elan:ANNOTATION_VALUE "COMPL_bring.out  you(pl subj)  us(INCL) ".
 
     <http://example.org/PLEASE_PROVIDE_baseURI_PARAMETER> elan:TIER :en.
@@ -137,29 +233,53 @@ PREFIX : <http://example.org/PLEASE_PROVIDE_baseURI_PARAMETER#>
   elan:PARENT_REF "SJQ";
   elan:PARTICIPANT "Hilaria Cruz";
   elan:TIER_ID "en".
-:a1 elan:en :a23.
+ :a23 a ag:Annotation;
+  ag:type "en";
+  elan:en :a1.
 :a23 elan:ANNOTATION_VALUE "So  this man says".
-:a2 elan:en :a24.
+ :a24 a ag:Annotation;
+  ag:type "en";
+  elan:en :a2.
 :a24 elan:ANNOTATION_VALUE "may you have forgiveness".
-:a3 elan:en :a25.
+ :a25 a ag:Annotation;
+  ag:type "en";
+  elan:en :a3.
 :a25 elan:ANNOTATION_VALUE "As it is in you".
-:a4 elan:en :a26.
+ :a26 a ag:Annotation;
+  ag:type "en";
+  elan:en :a4.
 :a26 elan:ANNOTATION_VALUE "you were our hands".
-:a5 elan:en :a27.
+ :a27 a ag:Annotation;
+  ag:type "en";
+  elan:en :a5.
 :a27 elan:ANNOTATION_VALUE "you were our hands".
-:a6 elan:en :a28.
+ :a28 a ag:Annotation;
+  ag:type "en";
+  elan:en :a6.
 :a28 elan:ANNOTATION_VALUE "you were our hands".
-:a37 elan:en :a39.
+ :a39 a ag:Annotation;
+  ag:type "en";
+  elan:en :a37.
 :a39 elan:ANNOTATION_VALUE "you were our hands".
-:a7 elan:en :a29.
+ :a29 a ag:Annotation;
+  ag:type "en";
+  elan:en :a7.
 :a29 elan:ANNOTATION_VALUE "You were our feet, hm? ".
-:a8 elan:en :a30.
+ :a30 a ag:Annotation;
+  ag:type "en";
+  elan:en :a8.
 :a30 elan:ANNOTATION_VALUE "You brought us out".
-:a9 elan:en :a41.
+ :a41 a ag:Annotation;
+  ag:type "en";
+  elan:en :a9.
 :a41 elan:ANNOTATION_VALUE "˜you passed us through".
-:a10 elan:en :a31.
+ :a31 a ag:Annotation;
+  ag:type "en";
+  elan:en :a10.
 :a31 elan:ANNOTATION_VALUE "You brought us out".
-:a11 elan:en :a42.
+ :a42 a ag:Annotation;
+  ag:type "en";
+  elan:en :a11.
 :a42 elan:ANNOTATION_VALUE "˜you brought us thru".
 
     <http://example.org/PLEASE_PROVIDE_baseURI_PARAMETER> elan:TIER :note.
@@ -170,17 +290,29 @@ PREFIX : <http://example.org/PLEASE_PROVIDE_baseURI_PARAMETER#>
   elan:PARENT_REF "SJQ";
   elan:PARTICIPANT "Hilaria Cruz";
   elan:TIER_ID "note".
-:a5 elan:note :a32.
+ :a32 a ag:Annotation;
+  ag:type "note";
+  elan:note :a5.
 :a32 elan:ANNOTATION_VALUE "Line 4 repeated".
-:a6 elan:note :a33.
+ :a33 a ag:Annotation;
+  ag:type "note";
+  elan:note :a6.
 :a33 elan:ANNOTATION_VALUE "Line 4 repeated".
-:a37 elan:note :a40.
+ :a40 a ag:Annotation;
+  ag:type "note";
+  elan:note :a37.
 :a40 elan:ANNOTATION_VALUE "Line 4 repeated".
-:a9 elan:note :a34.
+ :a34 a ag:Annotation;
+  ag:type "note";
+  elan:note :a9.
 :a34 elan:ANNOTATION_VALUE "Partial line 8".
-:a10 elan:note :a35.
+ :a35 a ag:Annotation;
+  ag:type "note";
+  elan:note :a10.
 :a35 elan:ANNOTATION_VALUE "Line 7 repeated".
-:a11 elan:note :a36.
+ :a36 a ag:Annotation;
+  ag:type "note";
+  elan:note :a11.
 :a36 elan:ANNOTATION_VALUE "Partial line 8".
 
     
