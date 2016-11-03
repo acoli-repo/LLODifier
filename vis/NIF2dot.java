@@ -92,7 +92,8 @@ public class NIF2dot {
 				
 				System.out.println("}");
 		
-				System.out.println("subgraph nif_Phrases {\n");
+				System.out.println("subgraph nif_Phrases {\n"
+						+ "node [shape=box];");
 				// System.out.println("splines=ortho");	// nicer edges, but don't go together with edge labels
 				
 				// flatten reification

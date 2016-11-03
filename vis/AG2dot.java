@@ -3,23 +3,35 @@ import java.util.*;
 import org.apache.jena.rdf.model.*;
 import org.apache.jena.query.*;
 import org.apache.commons.lang3.StringEscapeUtils;
+import org.apache.jena.update.*;
+
 
 public class AG2dot {
 
 	public static void main(String[] argv) throws Exception {
-		if(argv.length==0 || Arrays.asList(argv).toString().contains("-?")) 
-			System.err.println("AG2dot [URL|File] [-?] [-keepIDs] [-skip prop1[..n]]\n"+
+		if(argv.length==0 || Arrays.asList(argv).toString().contains("-?"))
+			System.err.println("AG2dot [URL|File] [-?] [-keepIDs] [-skip prop1[..n]] [-anchors INT | -anchors all]\n"+
 				"\tFile     RDF file\n"+
 				"\tURL      URL of an RDF file\n"+
 				"\t-?       this text\n"+
 				"\t-keepIDs keep attributes with local name \"id\" (by default suppressed)\n"+
 				"\t-skip    skip the following properties from the output\n"+
+				"\t-anchors keep only the first INT anchors (default: 10)\n"+
+				"\t     all keep all anchors"+
 				"reads from file and writes Dot file *of the complete document* to stdout\n");
 		
 		boolean keepIDs = Arrays.asList(argv).toString().toLowerCase().contains("-keepids"); 
 		String url = argv[0];
 		Model model = ModelFactory.createDefaultModel();
 		model.read(url);
+		
+		int anchorLimit = 10;
+		if(Arrays.asList(argv).toString().toLowerCase().contains("-anchors, all")) {
+			anchorLimit=-1;
+		} else 
+			for(int i = 1; i<argv.length; i++)
+				if(argv[i-1].toLowerCase().equals("-anchors"))
+					anchorLimit=Integer.parseInt(argv[i]);			
 		
 		// skip removable properties
 		int arg = 0;
@@ -40,7 +52,104 @@ public class AG2dot {
 		}
 		for(Statement removable : removables)
 			model.remove(removable);
-
+		
+		if(anchorLimit>0) {
+			// todo: keep only the first anchorLimit Anchors and their annotations
+			// note: this may actually require some heavy transformation
+			String update =
+				"PREFIX ag: <http://www.ldc.upenn.edu/atlas/ag/>\n"+
+				"PREFIX tmp: <http://example.org/tmp/>\n"+
+				"\n"+
+				"# mark the first anchor as tmp:Anchor\n"+
+				"INSERT { ?a a tmp:Anchor }\n"+
+				"WHERE {\n"+
+				"	SELECT distinct ?a\n"+
+				"	WHERE {\n"+
+				"      ?a a ag:Anchor.\n"+
+				"      FILTER(NOT EXISTS { [] ag:nextAnchor ?a } )\n"+
+				"    } GROUP BY ?a LIMIT 1\n"+
+				"  };\n";
+			
+			update=update+"\n"+
+					"# mark following anchors as tmp:Anchor\n";
+					
+			for(int i = 0; i<anchorLimit; i++)
+				update=update+
+					"INSERT { ?b a tmp:Anchor }\n"+
+					"WHERE {\n"+
+					"  ?a a tmp:Anchor.\n"+
+					"  ?a ag:nextAnchor ?b.\n"+
+					"  FILTER(NOT EXISTS{ ?b a tmp:Anchor })\n"+
+					"};\n";
+	
+			/* with explicit distances, rather slow
+				"PREFIX ag: <http://www.ldc.upenn.edu/atlas/ag/>\n"+
+				"PREFIX tmp: <http://example.org/tmp/>\n"+
+				"\n"+
+				"# mark the first 20 anchors as tmp:Anchor\n"+
+				"INSERT { ?a a tmp:Anchor }\n"+
+				"WHERE {\n"+
+				"	SELECT distinct ?a (COUNT(DISTINCT ?tmp) AS ?distance)\n"+
+				"	WHERE {\n"+
+				"      ?firstAnchor a ag:Anchor.\n"+
+				"      FILTER(NOT EXISTS { [] ag:nextAnchor ?firstAnchor } )\n"+
+				"      ?firstAnchor ag:nextAnchor* ?a.\n"+
+				"      OPTIONAL {\n"+
+				"        ?firstAnchor ag:nextAnchor* ?tmp.\n"+
+				"		?tmp ag:nextAnchor* ?a.\n"+
+				"      }\n"+
+				"    } GROUP BY ?firstAnchor ?a ORDER BY ?distance LIMIT 10\n"+
+				"  };\n" */
+			
+			update=update+
+					"\n"+
+					"# create tmp:point_to relations between all Annotations that are connected to each other\n"+
+					"INSERT { ?anno1 tmp:point_to ?anno2 }\n"+
+					"WHERE {\n"+
+					"	?anno1 a ag:Annotation.\n"+
+					"	?anno1 ?rel ?anno2.\n"+
+					"	?anno2 a ag:Annotation.\n"+
+					"};\n"+
+					"		\n"+
+					"# mark annotations that point directly or indirectly to an tmp:Anchor as tmp:Annotation\n"+
+					"INSERT { ?anno a tmp:Annotation }\n"+
+					"WHERE {\n"+
+					"	?anno a ag:Annotation.\n"+
+					"	{ ?anno tmp:point_to*/(ag:end|ag:start)/a tmp:Anchor. } UNION \n"+
+					"	{ ?anno (^tmp:point_to)*/(ag:end|ag:start)/a tmp:Anchor .}\n"+
+					"};\n"+
+					"\n"+
+					"# delete all Annotations that are no tmp:Annotation\n"+
+					"DELETE { ?a ?b ?anno. ?anno ?c ?d }\n"+
+					"WHERE {\n"+
+					"  ?anno a ag:Annotation.\n"+
+					"  FILTER(NOT EXISTS { ?anno a tmp:Annotation })\n"+
+					"  { ?a ?b ?anno } UNION { ?anno ?c ?d }\n"+
+					"};\n"+
+					"\n"+
+					"# delete all Anchors that are no tmp:Anchor\n"+
+					"DELETE { ?a ?b ?anchor. ?anchor ?c ?d }\n"+
+					"WHERE {\n"+
+					"  ?anchor a ag:Anchor.\n"+
+					"  FILTER(NOT EXISTS { ?anchor a tmp:Anchor })\n"+
+					"  { ?a ?b ?anchor } UNION { ?anchor ?c ?d }\n"+
+					"};\n"+
+					"\n"+
+					"# delete tmp:Anchor\n"+
+					"DELETE { ?a a tmp:Anchor }\n"+
+					"WHERE { ?a a tmp:Anchor };\n"+
+					"\n"+
+					"# delete tmp:Annotation\n"+
+					"DELETE { ?a a tmp:Annotation }\n"+
+					"WHERE { ?a a tmp:Annotation };\n"+
+					"\n"+
+					"# delete tmp:point_to\n"+
+					"DELETE { ?a tmp:point_to ?b }\n"+
+					"WHERE { ?a tmp:point_to ?b }";
+			
+			UpdateAction.parseExecute( update, model );
+		 }
+		
 		 System.out.println("digraph G {\n"
 		 		+ "overlap=false;");
 		 
@@ -92,7 +201,8 @@ public class AG2dot {
 		
 		for(int i = 0; i<types.size(); i++) {
 			String type = types.get(i);
-			System.out.println("subgraph "+/*"cluster_"+*/type+" {\n"
+			System.out.println("subgraph "+/*"cluster_"+*/type.replaceAll("[^a-zA-Z0-9]+", "_")+" {\n"
+					+ "node [shape=box];\n"
 					+ "graph[style=dotted];");
 				// System.out.println("splines=ortho");	// nicer edges (I presume)
 		
@@ -102,19 +212,19 @@ public class AG2dot {
 						"WHERE {\n"+
 						  "?x a ag:Annotation.\n"+
 						  "?x ag:type '"+type+"'.\n"+
-						  "{ SELECT ?x (group_concat(?val;separator='<BR/>') as ?anno)\n"+
+						  "OPTIONAL { SELECT ?x (group_concat(?val;separator='<BR/>') as ?anno)\n"+
 						    "WHERE {\n"+
 						      "?x ?dprop ?literal.\n"+
 						      "FILTER (isLiteral(?literal))\n"+
 						      "FILTER (?dprop!=ag:type)\n"+
-						      "BIND(concat(replace(str(?dprop),'.*[#/]',''),'=',?literal) AS ?val)\n"+
+						      "BIND(concat(replace(str(?dprop),'.*[#/]',''),'<BR/>',?literal,'<BR/>') AS ?val)\n"+
 						    "} GROUP BY ?x ORDER BY ?x ?dprop ?literal\n"+
 							"}\n"+
 						  "}\n";
 				ResultSet annos = QueryExecutionFactory.create(QueryFactory.create(query), model).execSelect();
 				while(annos.hasNext()) {
 					QuerySolution anno= annos.next();
-					System.out.println(escapeURI(anno.get("x"))+" [label=<"+escapeAnno(anno.get("anno"))+">];");
+					System.out.println(escapeURI(anno.get("x"))+" [label=<"+type+"<BR/><BR/>"+escapeAnno(anno.get("anno"))+">];");
 					}
 				
 				// write relations
@@ -144,8 +254,11 @@ public class AG2dot {
 				+ "SELECT ?x ?y\n"
 				+ "WHERE {\n"
 				+ "  ?x a ag:Annotation.\n"
-				+ "  ?x ag:start/ag:nextAnchor*/^ag:start ?y.\n"
-				+ "  ?x ag:end/(^ag:nextAnchor)*/^ag:end ?y.\n"
+				+ "  { ?x ag:start/ag:nextAnchor*/^ag:start ?y.\n"
+				+ "    ?x ag:end/(^ag:nextAnchor)*/^ag:end ?y.\n"
+				+ "  } UNION {\n"
+				+ "    ?x ?rel ?y. ?y a ag:Annotation.\n"
+				+ "  }"
 				+ "  FILTER (?x != ?y)\n"
 				+ "}";
 		
@@ -159,6 +272,7 @@ public class AG2dot {
 	}
 
 	private static String escapeAnno(RDFNode rdfNode) {
+		if(rdfNode==null) return "";
 		return StringEscapeUtils.escapeHtml4(rdfNode.toString())
 				.replaceAll("&lt;","<")
 				.replaceAll("&gt;",">")
