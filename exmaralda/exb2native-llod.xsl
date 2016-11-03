@@ -9,7 +9,6 @@
     <xsl:template match="/">
         <!-- write TTL header -->
         <xsl:text>PREFIX exb: &lt;http://exmaralda.org/en/&gt;&#10;</xsl:text>
-        <xsl:text>PREFIX ag: &lt;http://www.ldc.upenn.edu/atlas/ag/&gt;&#10;</xsl:text>
         <xsl:text>PREFIX rdfs: &lt;http://www.w3.org/2000/01/rdf-schema#&gt;&#10;</xsl:text>
         <xsl:text>PREFIX : &lt;</xsl:text>
         <xsl:value-of select="$baseURI"/>
@@ -93,31 +92,27 @@
     <xsl:template match="common-timeline">
         <xsl:text>&lt;</xsl:text>
         <xsl:value-of select="$baseURI"/>
-        <xsl:text>&gt; ag:anchor </xsl:text>
+        <xsl:text>&gt; exb:</xsl:text>
+        <xsl:value-of select="name()"/>
+        <xsl:text> ( </xsl:text>
         <xsl:for-each select="tli">
             <xsl:text>:</xsl:text>
             <xsl:value-of select="@id"/>
             <xsl:if test="count(./following-sibling::tli[1])&gt;0">
-                <xsl:text>, </xsl:text>
+                <xsl:text> </xsl:text>
             </xsl:if>
         </xsl:for-each>
-        <xsl:text>.&#10;</xsl:text>
+        <xsl:text>).&#10;</xsl:text>
         <xsl:for-each select="tli">
-            <xsl:text>:</xsl:text>
-            <xsl:value-of select="@id"/>
-            <xsl:text> a ag:Anchor</xsl:text>
-            <xsl:for-each select="./following-sibling::tli[1]">
-                <xsl:text>;&#10;  ag:nextAnchor :</xsl:text>
-                <xsl:value-of select="@id"/>
-            </xsl:for-each>
             <xsl:for-each select="@*[name()!='id'][string-length(normalize-space(string(.)))&gt;0]">
-                <xsl:text>;&#10;  exb:</xsl:text>
+                <xsl:text>:</xsl:text>
+                <xsl:value-of select="../@id"/>
+                <xsl:text> exb:</xsl:text>
                 <xsl:value-of select="name()"/>
                 <xsl:text> "</xsl:text>
                 <xsl:value-of select="."/>
-                <xsl:text>"</xsl:text>
+                <xsl:text>".&#10;</xsl:text>
             </xsl:for-each>
-            <xsl:text>.&#10;&#10;</xsl:text>
         </xsl:for-each>
     </xsl:template>
     
@@ -163,17 +158,14 @@
             <xsl:value-of select="$id"/>
             <xsl:text>.&#10;</xsl:text>
             <xsl:value-of select="$id"/>
-            <xsl:text> a ag:Annotation</xsl:text>
-            <xsl:text>;&#10;   ag:type "</xsl:text> <!-- for atlas compliancy -->
-            <xsl:value-of select="../@category"/>
-            <xsl:text>";&#10;   a exb:</xsl:text>
+            <xsl:text> a exb:</xsl:text>
             <xsl:value-of select="../@category"/>
             <xsl:if test="@start!=''">
-                <xsl:text>;&#10;  ag:start :</xsl:text>
+                <xsl:text>;&#10;  exb:start :</xsl:text>
                 <xsl:value-of select="@start"/>
             </xsl:if>
             <xsl:if test="@end!=''">
-                <xsl:text>;&#10;  ag:end :</xsl:text>
+                <xsl:text>;&#10;  exb:end :</xsl:text>
                 <xsl:value-of select="@end"/>
             </xsl:if>
             <xsl:for-each select="@*[name()!='start' and name()!='end' and string-length(.)&gt;0]">
