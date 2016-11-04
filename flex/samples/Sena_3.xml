@@ -1,0 +1,408 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<document xsi:noNamespaceSchemaLocation="file:FlexInterlinear.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <interlinear-text guid="b2dcff53-e557-49a2-9867-e5d43073739b">
+    <item type="title" lang="en">In the Garden</item>
+    <item type="title" lang="pt">Na Machamba</item>
+    <item type="title" lang="seh">M'munda</item>
+    <item type="comment" lang="en">"M'munda" ("In the Garden") a language learning text, (c) Luís Nyazeze, used by permission.</item>
+    <item type="comment" lang="pt">"M'munda" ("In the Garden") a language learning text, (c) Luís Nyazeze, used by permission.</item>
+    <paragraphs>
+      <paragraph>
+        <phrases>
+          <word><words>
+              <word><item type="txt" lang="seh">Babanga</item><item type="gls" lang="pt">pai meu</item><item type="pos" lang="pt">N</item></word>
+              <word><item type="txt" lang="seh">ana</item><item type="gls" lang="pt" /><item type="pos" lang="pt">Irreg-na</item></word>
+              <word><item type="txt" lang="seh">munda</item><item type="gls" lang="pt">machamba</item><item type="pos" lang="pt">N</item></word>
+              <word><item type="txt" lang="seh">ukulu</item><item type="gls" lang="pt">grande</item><item type="pos" lang="pt">Adj</item></word>
+              <word><item type="punct" lang="seh">.</item></word>
+            </words><item type="segnum" lang="en">1</item><item type="gls" lang="pt" /></word>
+        </phrases>
+      </paragraph>
+      <paragraph>
+        <phrases>
+          <word><words>
+              <word><item type="txt" lang="seh">Mwenemo</item><item type="gls" lang="pt">lá</item><item type="pos" lang="pt">dem6</item></word>
+              <word><item type="txt" lang="seh">muna</item><item type="gls" lang="pt">tem</item><item type="pos" lang="pt">Irreg-na</item></word>
+              <word><item type="txt" lang="seh">miti</item><item type="gls" lang="pt">árvoras</item><item type="pos" lang="pt">N</item></word>
+              <word><item type="txt" lang="seh">mizinji</item><item type="gls" lang="pt">muitas</item><item type="pos" lang="pt">Adj</item></word>
+              <word><item type="punct" lang="seh">.</item></word>
+            </words><item type="segnum" lang="en">2</item><item type="gls" lang="pt" /></word>
+        </phrases>
+      </paragraph>
+      <paragraph>
+        <phrases>
+          <word><words>
+              <word><item type="txt" lang="seh">Muna</item><item type="gls" lang="pt" /><item type="pos" lang="pt">Irreg-na</item></word>
+              <word><item type="txt" lang="seh">milaranja</item><item type="gls" lang="pt">laranjeiras</item><item type="pos" lang="pt">N</item></word>
+              <word><item type="punct" lang="seh">,</item></word>
+              <word><item type="txt" lang="seh">mifigu</item><item type="gls" lang="pt" /><item type="pos" lang="pt">N</item></word>
+              <word><item type="punct" lang="seh">,</item></word>
+              <word><item type="txt" lang="seh">mindimu</item><item type="gls" lang="pt" /><item type="pos" lang="pt">N</item></word>
+              <word><item type="txt" lang="seh">na</item><item type="gls" lang="pt">e</item><item type="pos" lang="pt">Conj</item></word>
+              <word><item type="txt" lang="seh">mimanga</item><item type="gls" lang="pt">mangeira</item><item type="pos" lang="pt">N</item></word>
+              <word><item type="punct" lang="seh">.</item></word>
+            </words><item type="segnum" lang="en">3</item><item type="gls" lang="pt" /></word>
+        </phrases>
+      </paragraph>
+      <paragraph>
+        <phrases>
+          <word><words>
+              <word><item type="txt" lang="seh">Ikhalipo</item><item type="gls" lang="pt" /><item type="pos" lang="pt">Irreg-li</item></word>
+              <word><item type="txt" lang="seh">minga</item><item type="gls" lang="pt">espinho</item><item type="pos" lang="pt">N</item></word>
+              <word><item type="txt" lang="seh">m'munda</item><item type="gls" lang="pt">na machamba</item><item type="pos" lang="pt">N</item></word>
+              <word><item type="punct" lang="seh">.</item></word>
+            </words><item type="segnum" lang="en">4</item><item type="gls" lang="pt" /></word>
+        </phrases>
+      </paragraph>
+      <paragraph>
+        <phrases>
+          <word><words>
+              <word><item type="txt" lang="seh">Baba</item><item type="gls" lang="pt" /><item type="pos" lang="pt">N</item></word>
+              <word><item type="txt" lang="seh">aipisa</item><item type="gls" lang="pt">queimou-os</item><item type="pos" lang="pt">V</item></word>
+              <word><item type="punct" lang="seh">.</item></word>
+            </words><item type="segnum" lang="en">5</item><item type="gls" lang="pt" /></word>
+        </phrases>
+      </paragraph>
+      <paragraph>
+        <phrases>
+          <word><words>
+              <word><item type="txt" lang="seh">Mwezi</item><item type="gls" lang="pt">mês</item><item type="pos" lang="pt">N</item></word>
+              <word><item type="txt" lang="seh">wa</item><item type="gls" lang="pt">de</item><item type="pos" lang="pt">Assoc</item></word>
+              <word><item type="txt" lang="seh">khumi</item><item type="gls" lang="pt">dez</item><item type="pos" lang="pt">Num</item></word>
+              <word><item type="txt" lang="seh">na</item><item type="gls" lang="pt">e</item><item type="pos" lang="pt">Conj</item></word>
+              <word><item type="txt" lang="seh">ubodzi</item><item type="pos" lang="pt">Num</item></word>
+              <word><item type="txt" lang="seh">abzwala</item><item type="gls" lang="pt">semeou</item><item type="pos" lang="pt">V</item></word>
+              <word><item type="txt" lang="seh">maningi</item><item type="gls" lang="pt">muito</item><item type="pos" lang="pt">Adv</item></word>
+              <word><item type="txt" lang="seh">mpunga</item><item type="gls" lang="pt" /><item type="pos" lang="pt">N</item></word>
+              <word><item type="punct" lang="seh">.</item></word>
+            </words><item type="segnum" lang="en">6</item><item type="gls" lang="pt" /></word>
+        </phrases>
+      </paragraph>
+      <paragraph>
+        <phrases>
+          <word><words>
+              <word><item type="txt" lang="seh">Mpunga</item><item type="gls" lang="pt" /><item type="pos" lang="pt">N</item></word>
+              <word><item type="txt" lang="seh">wabuluka</item><item type="gls" lang="pt" /><item type="pos" lang="pt">V</item></word>
+              <word><item type="txt" lang="seh">maningi</item><item type="gls" lang="pt">muito</item><item type="pos" lang="pt">Adv</item></word>
+              <word><item type="punct" lang="seh">.</item></word>
+            </words><item type="segnum" lang="en">7</item><item type="gls" lang="pt" /></word>
+        </phrases>
+      </paragraph>
+    </paragraphs>
+    <languages>
+      <language lang="en" font="Times New Roman" />
+      <language lang="pt" font="Times New Roman" />
+      <language lang="seh" font="Charis SIL" vernacular="true" />
+    </languages>
+  </interlinear-text>
+  <interlinear-text guid="f84bf76e-bb4a-4a6f-bf93-30e2fb66d023">
+    <item type="title" lang="en">Have courage</item>
+    <item type="title" lang="pt">Tenha coragem</item>
+    <item type="title" lang="seh">Phatani ntima</item>
+    <item type="comment" lang="en">  "Phatani ntima" ("Have courage") (c) Luís Nyazeze, used by permission.</item>
+    <item type="comment" lang="pt">"Phatani ntima" ("Have courage") (c) Luís Nyazeze, used by permission.</item>
+    <paragraphs>
+      <paragraph>
+        <phrases>
+          <word><words>
+              <word><item type="txt" lang="seh">Pisapha</item><item type="gls" lang="pt">estas coisas doem</item><item type="pos" lang="pt">V</item></word>
+              <word><item type="punct" lang="seh">,</item></word>
+              <word><item type="txt" lang="seh">mbwenye</item><item type="gls" lang="pt" /><item type="pos" lang="pt">Conj</item></word>
+              <word><item type="txt" lang="seh">pinafunika</item><item type="gls" lang="pt">o que é necessário</item><item type="pos" lang="pt">V</item></word>
+              <word><item type="txt" lang="seh">n'khuphata</item><item type="gls" lang="pt" /></word>
+              <word><item type="txt" lang="seh">ntima</item><item type="gls" lang="pt" /><item type="pos" lang="pt">N</item></word>
+              <word><item type="punct" lang="seh">.</item></word>
+            </words><item type="segnum" lang="en">1.1</item><item type="gls" lang="pt">Estas coisas doem mas o que é necessário é ter coragem. Pois nós todos vamos morrer.</item></word>
+          <word><words>
+              <word><item type="txt" lang="seh">Tonsene</item><item type="gls" lang="pt">nós todos </item><item type="pos" lang="pt">Adj</item></word>
+              <word><item type="txt" lang="seh">njira</item><item type="gls" lang="pt" /><item type="pos" lang="pt">N</item></word>
+              <word><item type="txt" lang="seh">yathu</item><item type="gls" lang="pt" /><item type="pos" lang="pt">Poss</item></word>
+              <word><item type="txt" lang="seh">ndjeneyi</item><item type="gls" lang="pt" /></word>
+              <word><item type="punct" lang="seh">.</item></word>
+            </words><item type="segnum" lang="en">1.2</item><item type="gls" lang="pt" /></word>
+        </phrases>
+      </paragraph>
+    </paragraphs>
+    <languages>
+      <language lang="en" font="Times New Roman" />
+      <language lang="pt" font="Times New Roman" />
+      <language lang="seh" font="Charis SIL" vernacular="true" />
+    </languages>
+  </interlinear-text>
+  <interlinear-text guid="db094e82-30fd-4f62-81e8-9c4015bfbd7f">
+    <item type="title" lang="en">The Hyena and the Girl</item>
+    <item type="title" lang="pt">O Hiena e a Rapariga</item>
+    <item type="title" lang="seh">Thika na Ntsikana</item>
+    <item type="comment" lang="seh">Thika na Ntsikana ("The Hyena and the Girl") (c) Madalena Lede, used by permission</item>
+    <paragraphs>
+      <paragraph>
+        <phrases>
+          <word><words>
+              <word><item type="txt" lang="seh">Ngwa</item><item type="gls" lang="pt">era</item><item type="pos" lang="pt">Cop</item></word>
+              <word><item type="txt" lang="seh">pyacitwa</item><item type="gls" lang="pt">aconteceu</item><item type="pos" lang="pt">V</item></word>
+              <word><item type="punct" lang="seh">,</item></word>
+              <word><item type="txt" lang="seh">pyacitwa</item><item type="gls" lang="pt">aconteceu</item><item type="pos" lang="pt">V</item></word>
+              <word><item type="txt" lang="seh">na</item><item type="gls" lang="pt">com</item><item type="pos" lang="pt">Conj</item></word>
+              <word><item type="txt" lang="seh">nkazi</item><item type="gls" lang="pt">mulher</item><item type="pos" lang="pt">N</item></word>
+              <word><item type="txt" lang="seh">na</item><item type="gls" lang="pt">e</item><item type="pos" lang="pt">Conj</item></word>
+              <word><item type="txt" lang="seh">mamuna</item><item type="gls" lang="pt">marido</item><item type="pos" lang="pt">N</item></word>
+              <word><item type="txt" lang="seh">abala</item><item type="gls" lang="pt">deu a luz</item><item type="pos" lang="pt">V</item></word>
+              <word><item type="txt" lang="seh">mwana</item><item type="gls" lang="pt">criança</item><item type="pos" lang="pt">N</item></word>
+              <word><item type="txt" lang="seh">wawo</item><item type="gls" lang="pt">deles</item><item type="pos" lang="pt">Poss</item></word>
+              <word><item type="txt" lang="seh">m'bodzi</item><item type="gls" lang="pt">uma</item><item type="pos" lang="pt">Num</item></word>
+              <word><item type="punct" lang="seh">.</item></word>
+            </words><item type="segnum" lang="en">1</item><item type="gls" lang="pt">Era uma vez aconteceu que mulher e homem deu a luz criança deles um.</item></word>
+        </phrases>
+      </paragraph>
+      <paragraph>
+        <phrases>
+          <word><words>
+              <word><item type="txt" lang="seh">Iwo</item><item type="gls" lang="pt">eles</item><item type="pos" lang="pt">Ppron</item></word>
+              <word><item type="txt" lang="seh">mbalonga</item><item type="gls" lang="pt">disseram</item><item type="pos" lang="pt">V</item></word>
+              <word><item type="txt" lang="seh">tenepa</item><item type="gls" lang="pt">assim</item><item type="pos" lang="pt">Adv</item></word>
+              <word><item type="punct" lang="seh">:</item></word>
+              <word><item type="punct" lang="seh">"</item></word>
+              <word><item type="txt" lang="seh">Mwanathu</item><item type="gls" lang="pt">criança nossa</item><item type="pos" lang="pt">N</item></word>
+              <word><item type="txt" lang="seh">uxu</item><item type="gls" lang="pt">esta</item><item type="pos" lang="pt">dem1</item></word>
+              <word><item type="punct" lang="seh">,</item></word>
+              <word><item type="txt" lang="seh">anafuna</item><item type="gls" lang="pt">aquele que quer</item><item type="pos" lang="pt">Vrel</item></word>
+              <word><item type="txt" lang="seh">kunsemba</item><item type="gls" lang="pt">casar</item><item type="pos" lang="pt">V</item></word>
+              <word><item type="txt" lang="seh">mwanathu</item><item type="gls" lang="pt">criança nossa</item><item type="pos" lang="pt">N</item></word>
+              <word><item type="txt" lang="seh">akhale</item><item type="gls" lang="pt">deve ser</item><item type="pos" lang="pt">Vsub</item></word>
+              <word><item type="txt" lang="seh">munthu</item><item type="gls" lang="pt">pessoa</item><item type="pos" lang="pt">N</item></word>
+              <word><item type="txt" lang="seh">ana</item><item type="gls" lang="pt">que tem</item><item type="pos" lang="pt">Vrel</item></word>
+              <word><item type="txt" lang="seh">anji</item><item type="gls" lang="pt">que?</item><item type="pos" lang="pt">Inter</item></word>
+              <word><item type="punct" lang="seh">?</item></word>
+            </words><item type="segnum" lang="en">2.1</item><item type="gls" lang="pt">Eles disseram assim: "Este nossa filha, aquele que quer casar a nossa filha deve ser um homem que tem o quê?</item></word>
+          <word><words>
+              <word><item type="txt" lang="seh">Ana</item><item type="gls" lang="pt">que tem</item><item type="pos" lang="pt">Vrel</item></word>
+              <word><item type="txt" lang="seh">mpfuma</item><item type="gls" lang="pt">riqueza</item><item type="pos" lang="pt">N</item></word>
+              <word><item type="punct" lang="seh">."</item></word>
+            </words><item type="segnum" lang="en">2.2</item><item type="gls" lang="pt">Que tem riqueza."</item></word>
+        </phrases>
+      </paragraph>
+      <paragraph>
+        <phrases>
+          <word><words>
+              <word><item type="txt" lang="seh">Mbakhabwera</item><item type="gls" lang="pt">vieram</item><item type="pos" lang="pt">V</item></word>
+              <word><item type="txt" lang="seh">aphale</item><item type="gls" lang="pt">jovens</item><item type="pos" lang="pt">N</item></word>
+              <word><item type="txt" lang="seh">penepo</item><item type="gls" lang="pt">lá</item><item type="pos" lang="pt">dem6</item></word>
+              <word><item type="punct" lang="seh">.</item></word>
+            </words><item type="segnum" lang="en">3</item><item type="gls" lang="pt">Vieram muitos jovens para lá.</item></word>
+        </phrases>
+      </paragraph>
+      <paragraph>
+        <phrases>
+          <word><words>
+              <word><item type="txt" lang="seh">Iwo</item><item type="gls" lang="pt">eles</item><item type="pos" lang="pt">Ppron</item></word>
+              <word><item type="txt" lang="seh">akhakhonda</item><item type="gls" lang="pt">recusaram</item><item type="pos" lang="pt">V</item></word>
+              <word><item type="punct" lang="seh">.</item></word>
+            </words><item type="segnum" lang="en">4</item><item type="gls" lang="pt">Eles negavam.</item></word>
+        </phrases>
+      </paragraph>
+      <paragraph>
+        <phrases>
+          <word><words>
+              <word><item type="txt" lang="seh">Pai</item><item type="gls" lang="pt">pai</item><item type="pos" lang="pt">N</item></word>
+              <word><item type="txt" lang="seh">wace</item><item type="gls" lang="pt">dela</item><item type="pos" lang="pt">Poss</item></word>
+              <word><item type="txt" lang="seh">akhalonga</item><item type="gls" lang="pt">dizia</item><item type="pos" lang="pt">V</item></word>
+              <word><item type="txt" lang="seh">kuti</item><item type="gls" lang="pt">dizendo</item><item type="pos" lang="pt">Or</item></word>
+              <word><item type="punct" lang="seh">:</item></word>
+              <word><item type="punct" lang="seh">"</item></word>
+              <word><item type="txt" lang="seh">Iwe</item><item type="gls" lang="pt">você</item><item type="pos" lang="pt">Ppron</item></word>
+              <word><item type="txt" lang="seh">una</item><item type="gls" lang="pt">tens</item><item type="pos" lang="pt">Irreg-na</item></word>
+              <word><item type="txt" lang="seh">mpfuma</item><item type="gls" lang="pt">riqueza</item><item type="pos" lang="pt">N</item></word>
+              <word><item type="punct" lang="seh">?"</item></word>
+            </words><item type="segnum" lang="en">5</item><item type="gls" lang="pt">Pai dela dizia: "Tens riqueza?"</item></word>
+        </phrases>
+      </paragraph>
+      <paragraph>
+        <phrases>
+          <word><words>
+              <word><item type="txt" lang="seh">Iye</item><item type="gls" lang="pt">ele</item><item type="pos" lang="pt">Ppron</item></word>
+              <word><item type="txt" lang="seh">ati</item><item type="gls" lang="pt">disse</item><item type="pos" lang="pt">V</item></word>
+              <word><item type="punct" lang="seh">:</item></word>
+              <word><item type="punct" lang="seh">"</item></word>
+              <word><item type="txt" lang="seh">Nkhabe</item><item type="gls" lang="pt">não</item></word>
+              <word><item type="punct" lang="seh">."</item></word>
+            </words><item type="segnum" lang="en">6.1</item><item type="gls" lang="pt">Ele disse, "Não."</item></word>
+          <word><words>
+              <word><item type="txt" lang="seh">Mbakhonda</item><item type="gls" lang="pt">recusaram</item><item type="pos" lang="pt">V</item></word>
+              <word><item type="punct" lang="seh">.</item></word>
+            </words><item type="segnum" lang="en">6.2</item><item type="gls" lang="pt">E eles recusaram.</item></word>
+        </phrases>
+      </paragraph>
+      <paragraph>
+        <phrases>
+          <word><words>
+              <word><item type="txt" lang="seh">Mbabwera</item><item type="gls" lang="pt">veio</item><item type="pos" lang="pt">V</item></word>
+              <word><item type="txt" lang="seh">unango</item><item type="gls" lang="pt">outro</item><item type="pos" lang="pt">N</item></word>
+              <word><item type="txt" lang="seh">wa</item><item type="gls" lang="pt">de</item><item type="pos" lang="pt">Assoc</item></word>
+              <word><item type="txt" lang="seh">ciwiri</item><item type="gls" lang="pt">dois</item><item type="pos" lang="pt">Num</item></word>
+              <word><item type="punct" lang="seh">,</item></word>
+              <word><item type="txt" lang="seh">mbakhonda</item><item type="gls" lang="pt">recusaram</item><item type="pos" lang="pt">V</item></word>
+              <word><item type="punct" lang="seh">.</item></word>
+            </words><item type="segnum" lang="en">7</item><item type="gls" lang="pt">Veio segundo, e eles recusaram.</item></word>
+        </phrases>
+      </paragraph>
+      <paragraph>
+        <phrases>
+          <word><words>
+              <word><item type="txt" lang="seh">Ntsiku</item><item type="gls" lang="pt">dia</item><item type="pos" lang="pt">N</item></word>
+              <word><item type="txt" lang="seh">inango</item><item type="gls" lang="pt">outro</item><item type="pos" lang="pt">Adj</item></word>
+              <word><item type="txt" lang="seh">abwera</item><item type="gls" lang="pt">veio</item><item type="pos" lang="pt">V</item></word>
+              <word><item type="txt" lang="seh">thika</item><item type="gls" lang="pt">hiena</item><item type="pos" lang="pt">N</item></word>
+              <word><item type="punct" lang="seh">.</item></word>
+            </words><item type="segnum" lang="en">8</item><item type="gls" lang="pt">Um outro dia veio hiena.</item></word>
+        </phrases>
+      </paragraph>
+      <paragraph>
+        <phrases>
+          <word><words>
+              <word><item type="txt" lang="seh">Thika</item><item type="gls" lang="pt">hiena</item><item type="pos" lang="pt">N</item></word>
+              <word><item type="txt" lang="seh">ule</item><item type="gls" lang="pt">aquele</item><item type="pos" lang="pt">dem4</item></word>
+              <word><item type="txt" lang="seh">asanduka</item><item type="gls" lang="pt">transformou</item><item type="pos" lang="pt">V</item></word>
+              <word><item type="punct" lang="seh">.</item></word>
+            </words><item type="segnum" lang="en">9.1</item><item type="gls" lang="pt">Hiena transformou.</item></word>
+          <word><words>
+              <word><item type="txt" lang="seh">Abwera</item><item type="gls" lang="pt">veio</item><item type="pos" lang="pt">V</item></word>
+              <word><item type="txt" lang="seh">munthu</item><item type="gls" lang="pt">pessoa</item><item type="pos" lang="pt">N</item></word>
+              <word><item type="punct" lang="seh">.</item></word>
+            </words><item type="segnum" lang="en">9.2</item><item type="gls" lang="pt">Tornou-se uma pessoa.</item></word>
+        </phrases>
+      </paragraph>
+      <paragraph>
+        <phrases>
+          <word><words>
+              <word><item type="txt" lang="seh">Pidabwereye</item><item type="gls" lang="pt">quando ele veio</item><item type="pos" lang="pt">Vrel</item></word>
+              <word><item type="punct" lang="seh">,</item></word>
+              <word><item type="txt" lang="seh">iye</item><item type="gls" lang="pt">ela</item><item type="pos" lang="pt">Ppron</item></word>
+              <word><item type="txt" lang="seh">mbafika</item><item type="gls" lang="pt">chegou</item><item type="pos" lang="pt">V</item></word>
+              <word><item type="punct" lang="seh">,</item></word>
+              <word><item type="txt" lang="seh">mbalonga</item><item type="gls" lang="pt">disse</item><item type="pos" lang="pt">V</item></word>
+              <word><item type="txt" lang="seh">kuti</item><item type="gls" lang="pt">dizendo</item><item type="pos" lang="pt">Or</item></word>
+              <word><item type="punct" lang="seh">:</item></word>
+              <word><item type="punct" lang="seh">"</item></word>
+              <word><item type="txt" lang="seh">Pai</item><item type="gls" lang="pt">pai</item></word>
+              <word><item type="punct" lang="seh">,</item></word>
+              <word><item type="txt" lang="seh">mamuna</item><item type="gls" lang="pt">marido</item><item type="pos" lang="pt">N</item></word>
+              <word><item type="txt" lang="seh">anafunene</item><item type="gls" lang="pt">que quero</item><item type="pos" lang="pt">Vrel</item></word>
+              <word><item type="txt" lang="seh">ndule</item><item type="gls" lang="pt">é aquele</item><item type="pos" lang="pt">Cop</item></word>
+              <word><item type="punct" lang="seh">."</item></word>
+            </words><item type="segnum" lang="en">10</item><item type="gls" lang="pt">Quando ele veio, ela chegou e disse: "Pai, o marido que eu quero é aquele."</item></word>
+        </phrases>
+      </paragraph>
+      <paragraph>
+        <phrases>
+          <word><words>
+              <word><item type="txt" lang="seh">Mwana</item><item type="gls" lang="pt">criança</item><item type="pos" lang="pt">N</item></word>
+              <word><item type="txt" lang="seh">ule</item><item type="gls" lang="pt">aquele</item><item type="pos" lang="pt">dem4</item></word>
+              <word><item type="punct" lang="seh">,</item></word>
+              <word><item type="txt" lang="seh">pidalongeye</item><item type="gls" lang="pt">quando ela disse</item><item type="pos" lang="pt">Vrel</item></word>
+              <word><item type="txt" lang="seh">tenepa</item><item type="gls" lang="pt">assim</item><item type="pos" lang="pt">Adv</item></word>
+              <word><item type="txt" lang="seh">mwana</item><item type="gls" lang="pt">criança</item><item type="pos" lang="pt">N</item></word>
+              <word><item type="txt" lang="seh">kuti</item><item type="gls" lang="pt">que</item><item type="pos" lang="pt">Or</item></word>
+              <word><item type="punct" lang="seh">"</item></word>
+              <word><item type="txt" lang="seh">Mamuna</item><item type="gls" lang="pt">marido</item><item type="pos" lang="pt">N</item></word>
+              <word><item type="txt" lang="seh">anafunene</item><item type="gls" lang="pt">que quero</item><item type="pos" lang="pt">Vrel</item></word>
+              <word><item type="txt" lang="seh">ndule</item><item type="gls" lang="pt">é aquele</item><item type="pos" lang="pt">Cop</item></word>
+              <word><item type="punct" lang="seh">",</item></word>
+              <word><item type="txt" lang="seh">apai</item><item type="gls" lang="pt">pais</item><item type="pos" lang="pt">N</item></word>
+              <word><item type="txt" lang="seh">wace</item><item type="gls" lang="pt">dela</item><item type="pos" lang="pt">Poss</item></word>
+              <word><item type="txt" lang="seh">atawirambo</item><item type="gls" lang="pt">aceitou também</item><item type="pos" lang="pt">V</item></word>
+              <word><item type="punct" lang="seh">,</item></word>
+            </words><item type="segnum" lang="en">11</item><item type="gls" lang="pt">Aquela filha, quando a criança disse assim que "O marido que eu quero é aquele, os pais dela aceitou também,</item></word>
+        </phrases>
+      </paragraph>
+      <paragraph>
+        <phrases>
+          <word><words>
+              <word><item type="txt" lang="seh">mbalonga</item><item type="gls" lang="pt">disse</item><item type="pos" lang="pt">V</item></word>
+              <word><item type="punct" lang="seh">,</item></word>
+              <word><item type="punct" lang="seh">"</item></word>
+              <word><item type="txt" lang="seh">Ande</item><item type="gls" lang="pt">sim</item></word>
+              <word><item type="punct" lang="seh">,</item></word>
+              <word><item type="txt" lang="seh">ife</item><item type="gls" lang="pt">nos</item><item type="pos" lang="pt">Ppron</item></word>
+              <word><item type="txt" lang="seh">tiri</item><item type="gls" lang="pt">estamos</item><item type="pos" lang="pt">Vaux</item></word>
+              <word><item type="txt" lang="seh">kumuonadi</item><item type="gls" lang="pt">a ver verdadeiramente</item><item type="pos" lang="pt">V</item></word>
+              <word><item type="txt" lang="seh">kuti</item><item type="gls" lang="pt">que</item><item type="pos" lang="pt">Or</item></word>
+              <word><item type="txt" lang="seh">unowu</item><item type="gls" lang="pt">aquele</item><item type="pos" lang="pt">dem5</item></word>
+              <word><item type="txt" lang="seh">ndi</item><item type="gls" lang="pt">é</item><item type="pos" lang="pt">Cop</item></word>
+              <word><item type="txt" lang="seh">wanji</item><item type="gls" lang="pt">o que?</item><item type="pos" lang="pt">Inter</item></word>
+              <word><item type="punct" lang="seh">?</item></word>
+            </words><item type="segnum" lang="en">12.1</item><item type="gls" lang="pt">e disse, "Sim, nós estamos a ver verdadeiramente que aquele é o quê?</item></word>
+          <word><words>
+              <word><item type="txt" lang="seh">Ndwa</item><item type="gls" lang="pt">ele é</item><item type="pos" lang="pt">Cop</item></word>
+              <word><item type="txt" lang="seh">kupfuma</item><item type="gls" lang="pt">rico</item><item type="pos" lang="pt">Vadj</item></word>
+              <word><item type="punct" lang="seh">."</item></word>
+              <word><item type="punct" lang="seh">...</item></word>
+            </words><item type="segnum" lang="en">12.2</item><item type="gls" lang="pt">"É rico."</item></word>
+        </phrases>
+      </paragraph>
+    </paragraphs>
+    <languages>
+      <language lang="en" font="Times New Roman" />
+      <language lang="pt" font="Times New Roman" />
+      <language lang="seh" font="Charis SIL" vernacular="true" />
+    </languages>
+  </interlinear-text>
+  <interlinear-text guid="cdddea6f-82f6-40b9-b7eb-2c8700eef348">
+    <item type="title" lang="en">Canoe trip</item>
+    <item type="title" lang="pt">Embarcou canoa</item>
+    <item type="title" lang="seh">Wapakila m'mwadia</item>
+    <item type="comment" lang="en">From Anderson. 1897. Sena Grammar.</item>
+    <item type="comment" lang="pt">Anderson, W.G.  1897. An Introductory Grammar of the Sena Language Spoken on the Lower Zambesi.  London:  Society for Promoting Christian Knowledge. p. 27.</item>
+    <paragraphs>
+      <paragraph>
+        <phrases>
+          <word><words>
+              <word><item type="txt" lang="seh">Wapakila</item><item type="gls" lang="pt" /><item type="pos" lang="pt">V</item></word>
+              <word><item type="txt" lang="seh">m'mwadia</item><item type="gls" lang="pt">canoa</item><item type="pos" lang="pt">N</item></word>
+              <word><item type="punct" lang="seh">,</item></word>
+              <word><item type="txt" lang="seh">mbakwira</item><item type="gls" lang="pt" /><item type="pos" lang="pt">V</item></word>
+              <word><item type="txt" lang="seh">pa</item><item type="gls" lang="pt" /><item type="pos" lang="pt">Assoc</item></word>
+              <word><item type="txt" lang="seh">mudi</item></word>
+              <word><item type="txt" lang="seh">na</item><item type="gls" lang="pt">em</item><item type="pos" lang="pt">Prep</item></word>
+              <word><item type="txt" lang="seh">maulo</item><item type="gls" lang="pt" /><item type="pos" lang="pt">N</item></word>
+              <word><item type="punct" lang="seh">,</item></word>
+              <word><item type="txt" lang="seh">dzuwa</item><item type="gls" lang="pt" /><item type="pos" lang="pt">N</item></word>
+              <word><item type="txt" lang="seh">mbidadoka</item><item type="gls" lang="pt" /><item type="pos" lang="pt">V</item></word>
+              <word><item type="punct" lang="seh">;</item></word>
+              <word><item type="txt" lang="seh">mbatsama</item><item type="gls" lang="pt" /><item type="pos" lang="pt">V</item></word>
+              <word><item type="txt" lang="seh">penepo</item><item type="gls" lang="pt" /><item type="pos" lang="pt">dem6</item></word>
+              <word><item type="punct" lang="seh">.</item></word>
+            </words><item type="segnum" lang="en">1</item><item type="gls" lang="pt" /></word>
+        </phrases>
+      </paragraph>
+      <paragraph>
+        <phrases>
+          <word><words>
+              <word><item type="txt" lang="seh">Na</item><item type="gls" lang="pt" /><item type="pos" lang="pt">Prep</item></word>
+              <word><item type="txt" lang="seh">masiku</item><item type="gls" lang="pt" /><item type="pos" lang="pt">N</item></word>
+              <word><item type="txt" lang="seh">mbazidza</item><item type="gls" lang="pt" /><item type="pos" lang="pt">V</item></word>
+              <word><item type="txt" lang="seh">nkhalamu</item><item type="gls" lang="pt" /><item type="pos" lang="pt">N</item></word>
+              <word><item type="txt" lang="seh">ziwiri</item><item type="gls" lang="pt" /><item type="pos" lang="pt">Num</item></word>
+              <word><item type="punct" lang="seh">,</item></word>
+              <word><item type="txt" lang="seh">mbazirira</item><item type="gls" lang="pt" /><item type="pos" lang="pt">V</item></word>
+              <word><item type="punct" lang="seh">;</item></word>
+              <word><item type="txt" lang="seh">mbagopa</item><item type="gls" lang="pt" /><item type="pos" lang="pt">V</item></word>
+              <word><item type="punct" lang="seh">,</item></word>
+              <word><item type="txt" lang="seh">mbapakila</item><item type="gls" lang="pt" /><item type="pos" lang="pt">V</item></word>
+              <word><item type="txt" lang="seh">pontho</item><item type="gls" lang="pt" /><item type="pos" lang="pt">Adv</item></word>
+              <word><item type="txt" lang="seh">m'mwadia</item><item type="gls" lang="pt" /><item type="pos" lang="pt">N</item></word>
+              <word><item type="punct" lang="seh">,</item></word>
+              <word><item type="txt" lang="seh">mbawambuka</item><item type="gls" lang="pt" /><item type="pos" lang="pt">V</item></word>
+              <word><item type="txt" lang="seh">ku</item><item type="gls" lang="pt" /><item type="pos" lang="pt">Prep</item></word>
+              <word><item type="txt" lang="seh">nsua</item><item type="gls" lang="pt" /><item type="pos" lang="pt">N</item></word>
+              <word><item type="punct" lang="seh">.</item></word>
+            </words><item type="segnum" lang="en">2</item><item type="gls" lang="pt" /></word>
+        </phrases>
+      </paragraph>
+    </paragraphs>
+    <languages>
+      <language lang="en" font="Times New Roman" />
+      <language lang="pt" font="Times New Roman" />
+      <language lang="seh" font="Charis SIL" vernacular="true" />
+    </languages>
+  </interlinear-text>
+</document>
