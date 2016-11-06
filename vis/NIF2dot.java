@@ -1,6 +1,7 @@
 import java.io.*;
 import java.util.*;
 import org.apache.jena.rdf.model.*;
+import org.apache.jena.update.UpdateAction;
 import org.apache.jena.query.*;
 import org.apache.commons.lang3.StringEscapeUtils;
 
@@ -41,6 +42,20 @@ public class NIF2dot {
 		for(Statement removable : removables)
 			model.remove(removable);
 		
+		// get inverse for nif:superString, if used
+		
+		String update =
+				"PREFIX nif: <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#>\n"+
+				"\n"+
+				"# get inverses for nif:superString\n"+
+				"INSERT { ?sub nif:subString ?super .}\n"+
+				"WHERE {\n"+
+				"	{ ?sub a nif:Word } UNION {  ?sub a nif:Phrase }\n"+
+				" ?super nif:superString ?sub.\n"+
+				" { ?super a nif:Phrase } UNION { ?super a nif:Sentence }.\n"+ // we don't do nif:Paragraph, here, to keep it readable
+				" };\n";
+		UpdateAction.parseExecute( update, model );
+		
 		// fetch first sentence
 		String query = 
 			"PREFIX nif: <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#>\n"+
@@ -66,16 +81,16 @@ public class NIF2dot {
 				+ "WHERE { <"+initialSentence+"> nif:firstWord/nif:nextWord* ?word.\n"
 						+ "OPTIONAL { ?word rdfs:label ?label. }\n"
 						+ "OPTIONAL { ?word nif:nextWord ?nextWord. }\n"
-						+ "{ SELECT ?word ( group_concat ( distinct ?val;separator=\"<BR/>\" ) as ?anno )\n"
-						  + "WHERE { OPTIONAL { ?word rdfs:label ?string }\n"
+						+ "OPTIONAL { SELECT ?word ( group_concat ( distinct ?val;separator=\"<BR/>\" ) as ?anno )\n"
+						  + "WHERE { \n"
 						          + "?word ?rel ?obj.\n"
 						          + "FILTER isLiteral(?obj)\n";
 			  if(!keepIDs)
 				  query = query   + "FILTER (!regex(str(?rel),'.*[#/]id$'))\n";
 			  query=query         + "FILTER (?rel!=rdfs:label) \n"
-						          //+ "BIND(concat(replace(str(?rel),'.*[#/]',''),'=',?obj) AS ?val)\n"
-						          + "BIND(?obj AS ?val)\n"
-						  + "} GROUP BY ?word ORDER BY ?word ?rel ?val\n"
+						          + "BIND(concat(replace(str(?rel),'.*[#/]',''),'=',?obj) AS ?val)\n"
+						          //+ "BIND(?obj AS ?val)\n"
+						  + "} GROUP BY ?word ORDER BY ?val \n"
 					    + "}\n"
 					    //+ "BIND(concat(?label,'<BR/>',?anno) AS ?node_label)\n"
 						//+ "BIND(concat(?label,'<BR/><FONT POINT-SIZE=\\'8\\'>',?anno,'</FONT>') AS ?node_label)\n"
@@ -87,7 +102,7 @@ public class NIF2dot {
 					System.out.println(escapeURI(word.get("word"))+
 							" [label=<"+escapeLabel(word.get("label"))+
 							"<BR/><FONT POINT-SIZE=\"10\">"+escapeAnno(word.get("anno"))+"</FONT>>];");
-					if(word.get("nextWord")!=null) System.out.println(escapeURI(word.get("word"))+" -> "+escapeURI(word.get("nextWord"))+" [color=none];");
+					if(word.get("nextWord")!=null) System.out.println(escapeURI(word.get("word"))+" -> "+escapeURI(word.get("nextWord"))+" [color=invis];");
 				}
 				
 				System.out.println("}");
@@ -170,20 +185,25 @@ public class NIF2dot {
 	}
 
 	private static String escapeAnno(RDFNode rdfNode) {
-		return StringEscapeUtils.escapeHtml4(rdfNode.toString())
+		if(rdfNode==null) return " ";
+		String result=
+			StringEscapeUtils.escapeHtml4(rdfNode.toString())
 				.replaceAll("&lt;","<")
 				.replaceAll("&gt;",">")
 				.replaceAll("&quot;","\"")
 				.replaceAll("&amp;","&");
+		if(result.equals("")) result=" ";
+		return result;
 	}
 
 	private static String escapeLabel(RDFNode rdfNode) {
+		if(rdfNode==null) return " ";
 		return StringEscapeUtils.escapeHtml4(rdfNode.toString());
 		//.replaceAll("ö","oe").replaceAll("ß", "ss");
 	}
 
 	private static String escapeURI(RDFNode rdfNode) {
-		return rdfNode.toString().replaceAll("[/:#\\.]", "");
+		return rdfNode.toString().replaceAll("[/:#\\.-]+", "_");
 	}
 }
 

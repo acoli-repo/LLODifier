@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform" version="1.0">
 
-    <!-- FLEx ITG LLODifier, using the ITG XML export (cf. FlexInterlinear.xsd packaged with the tool -->
+    <!-- 
+        FLEx ITG LLODifier, using the ITG XML export (cf. FlexInterlinear.xsd packaged with the tool 
+        partial NIF compliance for visualization: rendering morph (if available) as nif:Word
+    -->
     <xsl:output method="text" indent="no"/>
     
     <xsl:param name="baseURI">http://example.org/PLEASE_PROVIDE_baseURI_PARAMETER</xsl:param>
@@ -12,6 +15,7 @@
             <!-- this is only an informative site, the actual xsd schema is not online accessible, but available only within a package -->
         <xsl:text>PREFIX owl: &lt;http://www.w3.org/2002/07/owl#&gt;&#10;</xsl:text>    <!-- we use owl:sameAs for media/@location as this has to be a URI -->
         <xsl:text>PREFIX rdfs: &lt;http://www.w3.org/2000/01/rdf-schema#&gt;&#10;</xsl:text>
+        <xsl:text>PREFIX nif: &lt;http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#&gt;&#10;</xsl:text>
         <xsl:text>PREFIX : &lt;</xsl:text>
         <xsl:value-of select="$baseURI"/>
         <xsl:text>#&gt;&#10;</xsl:text>
@@ -119,37 +123,88 @@
         <xsl:text>.&#10;</xsl:text>
     </xsl:template>
     
+    <!-- note that we have to conflate txt and punct to get the full string -->
     <xsl:template match="item[count(@*[name()!='type' and name()!='lang'])=0]">
         <xsl:for-each select="..">
             <xsl:call-template name="get-id"/>
         </xsl:for-each>
-        <xsl:text> flex:</xsl:text>
-        <xsl:value-of select="@type"/>
+        <xsl:choose>
+            <xsl:when test="@type='txt' or @type='punct'">
+                <xsl:text> rdfs:label</xsl:text>
+            </xsl:when>
+            <xsl:otherwise>
+                <xsl:text> flex:</xsl:text>
+                <xsl:value-of select="@type"/>
+            </xsl:otherwise>
+        </xsl:choose>
         <xsl:text> "</xsl:text>
         <xsl:value-of select="translate(text(),'&quot;',&quot;&apos;&quot;)"/>
         <xsl:text>"@</xsl:text>
         <xsl:value-of select="@lang"/>
-        <xsl:text>.&#10;</xsl:text>
+        <xsl:text>.&#10;&#10;</xsl:text>
     </xsl:template>
     
-    
+    <!-- note that flex "phrases" are usually not phrases in a syntactic sense, but "utterances", hence modeled as nif:Sentence <br/>
+         similarly, flex:words can be recursive (for MWEs), and are thus modeled as nif:Phrases, this is tag abuse, though
+    -->
     <xsl:template match="paragraph|phrase|word|scrMilestone|morph">
         <xsl:variable name="name" select="name()"/>
+        <xsl:variable name="nifName">
+            <xsl:choose>
+                <xsl:when test="(name()='word' or name()='morph') and (count(.//word[1])+count(.//morph[1])&gt;0)">
+                    <xsl:text>nif:Phrase</xsl:text>
+                </xsl:when>
+                <xsl:when test="name()='phrase'">
+                    <xsl:text>nif:Sentence</xsl:text>
+                </xsl:when>
+                <xsl:when test="name()='morph'">
+                    <xsl:text>nif:Word</xsl:text>
+                </xsl:when>
+                <xsl:when test="name()='word' or name()='paragraph'">
+                    <xsl:text>nif:</xsl:text>
+                    <xsl:value-of select="translate(substring(name(),1,1),'abcdefghijklmnopqrstuvwxyz','ABCDEFGHIJKLMNOPQRSTUVWXYZ')"/>
+                    <xsl:value-of select="substring(name(),2)"/>
+                </xsl:when>
+                <xsl:otherwise>
+                    <xsl:text>flex:</xsl:text>
+                    <xsl:value-of select="name()"/>
+                </xsl:otherwise>
+            </xsl:choose>
+        </xsl:variable>
         <xsl:for-each select="./ancestor::*[name()='interlinear-text' or name()='paragraph' or name()='phrase' or name()='word' or name()='morph'][1]">
             <!-- special treatment for words to account for scrMilestone -->
             <xsl:call-template name="get-id"/>
         </xsl:for-each>
-        <xsl:text> flex:has_</xsl:text>
-        <xsl:value-of select="name()"/>
-        <xsl:text> </xsl:text>
+        <xsl:choose>
+            <xsl:when test="starts-with($nifName,'nif:')">
+                <xsl:text> nif:superString </xsl:text>
+            </xsl:when>
+            <xsl:otherwise>
+                <xsl:text> flex:has_</xsl:text>
+                <xsl:value-of select="name()"/>
+                <xsl:text> </xsl:text>
+            </xsl:otherwise>
+        </xsl:choose>
         <xsl:call-template name="get-id"/>
         <xsl:text>.&#10;</xsl:text>
         <xsl:call-template name="get-id"/>
-        <xsl:text> a flex:</xsl:text>
-        <xsl:value-of select="name()"/>
+        <xsl:text> a </xsl:text>
+        <xsl:value-of select="$nifName"/>
         <xsl:if test="@type!=''">
             <xsl:text>;&#10;  a flex:</xsl:text>
             <xsl:value-of select="@type"/>
+        </xsl:if>
+        <xsl:if test="count(ancestor::word[1])&gt;0">
+            <xsl:text>;&#10;  nif:subString </xsl:text>
+            <xsl:for-each select="ancestor::word[1]">
+                <xsl:call-template name="get-id"/>
+            </xsl:for-each>
+        </xsl:if>
+        <xsl:if test="$nifName='nif:Sentence'">
+            <xsl:text>;&#10;  nif:firstWord </xsl:text>
+            <xsl:for-each select="(.//*[name()='word' or name()='morph'][count(.//word[1])+count(.//morph[1])=0])[1]">
+                <xsl:call-template name="get-id"/>
+            </xsl:for-each>
         </xsl:if>
         <xsl:for-each select="@*[name()!='guid' and name()!='type' and string-length(normalize-space(.))&gt;0]">
             <xsl:text>;&#10;  flex:</xsl:text>
@@ -158,6 +213,24 @@
             <xsl:value-of select="."/>
             <xsl:text>"</xsl:text>
         </xsl:for-each>
+        <xsl:if test="$nifName='nif:Word'">
+            <!-- note that we skip scrMilestones but we a flex:morph as a nif:Word -->
+            <xsl:if test="count(./ancestor-or-self::*[name()='morph' or name()='word']/following-sibling::*[name()='morph' or name()='word']/descendant-or-self::*[name()='morph' or name()='word'][1])&gt;0">
+                <xsl:text>;&#10;  nif:nextWord </xsl:text>
+                <xsl:for-each select="(./ancestor-or-self::*[name()='morph' or name()='word']/following-sibling::*/descendant-or-self::*[name()='morph' or name()='word'][count(.//word[1])+count(.//morph[1])=0])[1]">
+                    <xsl:call-template name="get-id"/>
+                </xsl:for-each>
+            </xsl:if>
+        </xsl:if>
+        <xsl:if test="$nifName='nif:Sentence'">
+            <!-- note that these are flex:phrases (!) -->
+            <xsl:if test="count(following-sibling::phrase[1])&gt;0">
+                <xsl:text>;&#10;  nif:nextSentence </xsl:text>
+                <xsl:for-each select="following-sibling::phrase[1]">
+                    <xsl:call-template name="get-id"/>
+                </xsl:for-each>
+            </xsl:if>
+        </xsl:if>
         <xsl:if test="count(following-sibling::*[name()=$name or name()='scrMilestone'][1])&gt;0">
             <!-- special treatment of scrMilestone and Word, because these are alternating -->
             <xsl:text>;&#10;  flex:next_</xsl:text>
@@ -178,6 +251,7 @@
         <xsl:apply-templates/>
     </xsl:template>
     
+    <!-- guid seems to refer to types, not tokens, hence disabled -->
     <xsl:template name="get-id">
         <xsl:choose>
             <xsl:when test="name()='document'">
@@ -185,10 +259,10 @@
                 <xsl:value-of select="$baseURI"/>
                 <xsl:text>&gt;</xsl:text>
             </xsl:when>
-            <xsl:when test="@guid!=''">
+            <!--xsl:when test="@guid!=''">
                 <xsl:text>:</xsl:text>
                 <xsl:value-of select="@guid"/>
-            </xsl:when>
+            </xsl:when-->
             <xsl:otherwise>
                 <xsl:variable name="name" select="name()"/>
                 <xsl:text>:</xsl:text>
