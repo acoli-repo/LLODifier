@@ -1,0 +1,1631 @@
+PREFIX flex: <http://fieldworks.sil.org/flex/interlinear/>
+PREFIX owl: <http://www.w3.org/2002/07/owl#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX : <http://example.org/PLEASE_PROVIDE_baseURI_PARAMETER#>
+
+<http://example.org/PLEASE_PROVIDE_baseURI_PARAMETER> a flex:document.
+
+<http://example.org/PLEASE_PROVIDE_baseURI_PARAMETER> flex:has_interlinear-text :b2dcff53-e557-49a2-9867-e5d43073739b.
+:b2dcff53-e557-49a2-9867-e5d43073739b a flex:interlinear-text .
+
+:b2dcff53-e557-49a2-9867-e5d43073739b flex:title "In the Garden"@en.
+:b2dcff53-e557-49a2-9867-e5d43073739b flex:title "Na Machamba"@pt.
+:b2dcff53-e557-49a2-9867-e5d43073739b flex:title "M'munda"@seh.
+:b2dcff53-e557-49a2-9867-e5d43073739b flex:comment "'M'munda' ('In the Garden') a language learning text, (c) Luís Nyazeze, used by permission."@en.
+:b2dcff53-e557-49a2-9867-e5d43073739b flex:comment "'M'munda' ('In the Garden') a language learning text, (c) Luís Nyazeze, used by permission."@pt.
+:b2dcff53-e557-49a2-9867-e5d43073739b flex:has_paragraph :paragraph_1.
+:paragraph_1 a flex:paragraph;
+  flex:next_paragraph :paragraph_2.
+
+:paragraph_1 flex:has_word :word_1.
+:word_1 a flex:word.
+
+:word_1 flex:has_word :word_2.
+:word_2 a flex:word;
+  flex:next_word :word_3.
+
+:word_2 flex:txt "Babanga"@seh.
+:word_2 flex:gls "pai meu"@pt.
+:word_2 flex:pos "N"@pt.
+:word_1 flex:has_word :word_3.
+:word_3 a flex:word;
+  flex:next_word :word_4.
+
+:word_3 flex:txt "ana"@seh.
+:word_3 flex:gls ""@pt.
+:word_3 flex:pos "Irreg-na"@pt.
+:word_1 flex:has_word :word_4.
+:word_4 a flex:word;
+  flex:next_word :word_5.
+
+:word_4 flex:txt "munda"@seh.
+:word_4 flex:gls "machamba"@pt.
+:word_4 flex:pos "N"@pt.
+:word_1 flex:has_word :word_5.
+:word_5 a flex:word;
+  flex:next_word :word_6.
+
+:word_5 flex:txt "ukulu"@seh.
+:word_5 flex:gls "grande"@pt.
+:word_5 flex:pos "Adj"@pt.
+:word_1 flex:has_word :word_6.
+:word_6 a flex:word.
+
+:word_6 flex:punct "."@seh.
+:word_1 flex:segnum "1"@en.
+:word_1 flex:gls ""@pt.
+:b2dcff53-e557-49a2-9867-e5d43073739b flex:has_paragraph :paragraph_2.
+:paragraph_2 a flex:paragraph;
+  flex:next_paragraph :paragraph_3.
+
+:paragraph_2 flex:has_word :word_7.
+:word_7 a flex:word.
+
+:word_7 flex:has_word :word_8.
+:word_8 a flex:word;
+  flex:next_word :word_9.
+
+:word_8 flex:txt "Mwenemo"@seh.
+:word_8 flex:gls "lá"@pt.
+:word_8 flex:pos "dem6"@pt.
+:word_7 flex:has_word :word_9.
+:word_9 a flex:word;
+  flex:next_word :word_10.
+
+:word_9 flex:txt "muna"@seh.
+:word_9 flex:gls "tem"@pt.
+:word_9 flex:pos "Irreg-na"@pt.
+:word_7 flex:has_word :word_10.
+:word_10 a flex:word;
+  flex:next_word :word_11.
+
+:word_10 flex:txt "miti"@seh.
+:word_10 flex:gls "árvoras"@pt.
+:word_10 flex:pos "N"@pt.
+:word_7 flex:has_word :word_11.
+:word_11 a flex:word;
+  flex:next_word :word_12.
+
+:word_11 flex:txt "mizinji"@seh.
+:word_11 flex:gls "muitas"@pt.
+:word_11 flex:pos "Adj"@pt.
+:word_7 flex:has_word :word_12.
+:word_12 a flex:word.
+
+:word_12 flex:punct "."@seh.
+:word_7 flex:segnum "2"@en.
+:word_7 flex:gls ""@pt.
+:b2dcff53-e557-49a2-9867-e5d43073739b flex:has_paragraph :paragraph_3.
+:paragraph_3 a flex:paragraph;
+  flex:next_paragraph :paragraph_4.
+
+:paragraph_3 flex:has_word :word_13.
+:word_13 a flex:word.
+
+:word_13 flex:has_word :word_14.
+:word_14 a flex:word;
+  flex:next_word :word_15.
+
+:word_14 flex:txt "Muna"@seh.
+:word_14 flex:gls ""@pt.
+:word_14 flex:pos "Irreg-na"@pt.
+:word_13 flex:has_word :word_15.
+:word_15 a flex:word;
+  flex:next_word :word_16.
+
+:word_15 flex:txt "milaranja"@seh.
+:word_15 flex:gls "laranjeiras"@pt.
+:word_15 flex:pos "N"@pt.
+:word_13 flex:has_word :word_16.
+:word_16 a flex:word;
+  flex:next_word :word_17.
+
+:word_16 flex:punct ","@seh.
+:word_13 flex:has_word :word_17.
+:word_17 a flex:word;
+  flex:next_word :word_18.
+
+:word_17 flex:txt "mifigu"@seh.
+:word_17 flex:gls ""@pt.
+:word_17 flex:pos "N"@pt.
+:word_13 flex:has_word :word_18.
+:word_18 a flex:word;
+  flex:next_word :word_19.
+
+:word_18 flex:punct ","@seh.
+:word_13 flex:has_word :word_19.
+:word_19 a flex:word;
+  flex:next_word :word_20.
+
+:word_19 flex:txt "mindimu"@seh.
+:word_19 flex:gls ""@pt.
+:word_19 flex:pos "N"@pt.
+:word_13 flex:has_word :word_20.
+:word_20 a flex:word;
+  flex:next_word :word_21.
+
+:word_20 flex:txt "na"@seh.
+:word_20 flex:gls "e"@pt.
+:word_20 flex:pos "Conj"@pt.
+:word_13 flex:has_word :word_21.
+:word_21 a flex:word;
+  flex:next_word :word_22.
+
+:word_21 flex:txt "mimanga"@seh.
+:word_21 flex:gls "mangeira"@pt.
+:word_21 flex:pos "N"@pt.
+:word_13 flex:has_word :word_22.
+:word_22 a flex:word.
+
+:word_22 flex:punct "."@seh.
+:word_13 flex:segnum "3"@en.
+:word_13 flex:gls ""@pt.
+:b2dcff53-e557-49a2-9867-e5d43073739b flex:has_paragraph :paragraph_4.
+:paragraph_4 a flex:paragraph;
+  flex:next_paragraph :paragraph_5.
+
+:paragraph_4 flex:has_word :word_23.
+:word_23 a flex:word.
+
+:word_23 flex:has_word :word_24.
+:word_24 a flex:word;
+  flex:next_word :word_25.
+
+:word_24 flex:txt "Ikhalipo"@seh.
+:word_24 flex:gls ""@pt.
+:word_24 flex:pos "Irreg-li"@pt.
+:word_23 flex:has_word :word_25.
+:word_25 a flex:word;
+  flex:next_word :word_26.
+
+:word_25 flex:txt "minga"@seh.
+:word_25 flex:gls "espinho"@pt.
+:word_25 flex:pos "N"@pt.
+:word_23 flex:has_word :word_26.
+:word_26 a flex:word;
+  flex:next_word :word_27.
+
+:word_26 flex:txt "m'munda"@seh.
+:word_26 flex:gls "na machamba"@pt.
+:word_26 flex:pos "N"@pt.
+:word_23 flex:has_word :word_27.
+:word_27 a flex:word.
+
+:word_27 flex:punct "."@seh.
+:word_23 flex:segnum "4"@en.
+:word_23 flex:gls ""@pt.
+:b2dcff53-e557-49a2-9867-e5d43073739b flex:has_paragraph :paragraph_5.
+:paragraph_5 a flex:paragraph;
+  flex:next_paragraph :paragraph_6.
+
+:paragraph_5 flex:has_word :word_28.
+:word_28 a flex:word.
+
+:word_28 flex:has_word :word_29.
+:word_29 a flex:word;
+  flex:next_word :word_30.
+
+:word_29 flex:txt "Baba"@seh.
+:word_29 flex:gls ""@pt.
+:word_29 flex:pos "N"@pt.
+:word_28 flex:has_word :word_30.
+:word_30 a flex:word;
+  flex:next_word :word_31.
+
+:word_30 flex:txt "aipisa"@seh.
+:word_30 flex:gls "queimou-os"@pt.
+:word_30 flex:pos "V"@pt.
+:word_28 flex:has_word :word_31.
+:word_31 a flex:word.
+
+:word_31 flex:punct "."@seh.
+:word_28 flex:segnum "5"@en.
+:word_28 flex:gls ""@pt.
+:b2dcff53-e557-49a2-9867-e5d43073739b flex:has_paragraph :paragraph_6.
+:paragraph_6 a flex:paragraph;
+  flex:next_paragraph :paragraph_7.
+
+:paragraph_6 flex:has_word :word_32.
+:word_32 a flex:word.
+
+:word_32 flex:has_word :word_33.
+:word_33 a flex:word;
+  flex:next_word :word_34.
+
+:word_33 flex:txt "Mwezi"@seh.
+:word_33 flex:gls "mês"@pt.
+:word_33 flex:pos "N"@pt.
+:word_32 flex:has_word :word_34.
+:word_34 a flex:word;
+  flex:next_word :word_35.
+
+:word_34 flex:txt "wa"@seh.
+:word_34 flex:gls "de"@pt.
+:word_34 flex:pos "Assoc"@pt.
+:word_32 flex:has_word :word_35.
+:word_35 a flex:word;
+  flex:next_word :word_36.
+
+:word_35 flex:txt "khumi"@seh.
+:word_35 flex:gls "dez"@pt.
+:word_35 flex:pos "Num"@pt.
+:word_32 flex:has_word :word_36.
+:word_36 a flex:word;
+  flex:next_word :word_37.
+
+:word_36 flex:txt "na"@seh.
+:word_36 flex:gls "e"@pt.
+:word_36 flex:pos "Conj"@pt.
+:word_32 flex:has_word :word_37.
+:word_37 a flex:word;
+  flex:next_word :word_38.
+
+:word_37 flex:txt "ubodzi"@seh.
+:word_37 flex:pos "Num"@pt.
+:word_32 flex:has_word :word_38.
+:word_38 a flex:word;
+  flex:next_word :word_39.
+
+:word_38 flex:txt "abzwala"@seh.
+:word_38 flex:gls "semeou"@pt.
+:word_38 flex:pos "V"@pt.
+:word_32 flex:has_word :word_39.
+:word_39 a flex:word;
+  flex:next_word :word_40.
+
+:word_39 flex:txt "maningi"@seh.
+:word_39 flex:gls "muito"@pt.
+:word_39 flex:pos "Adv"@pt.
+:word_32 flex:has_word :word_40.
+:word_40 a flex:word;
+  flex:next_word :word_41.
+
+:word_40 flex:txt "mpunga"@seh.
+:word_40 flex:gls ""@pt.
+:word_40 flex:pos "N"@pt.
+:word_32 flex:has_word :word_41.
+:word_41 a flex:word.
+
+:word_41 flex:punct "."@seh.
+:word_32 flex:segnum "6"@en.
+:word_32 flex:gls ""@pt.
+:b2dcff53-e557-49a2-9867-e5d43073739b flex:has_paragraph :paragraph_7.
+:paragraph_7 a flex:paragraph.
+
+:paragraph_7 flex:has_word :word_42.
+:word_42 a flex:word.
+
+:word_42 flex:has_word :word_43.
+:word_43 a flex:word;
+  flex:next_word :word_44.
+
+:word_43 flex:txt "Mpunga"@seh.
+:word_43 flex:gls ""@pt.
+:word_43 flex:pos "N"@pt.
+:word_42 flex:has_word :word_44.
+:word_44 a flex:word;
+  flex:next_word :word_45.
+
+:word_44 flex:txt "wabuluka"@seh.
+:word_44 flex:gls ""@pt.
+:word_44 flex:pos "V"@pt.
+:word_42 flex:has_word :word_45.
+:word_45 a flex:word;
+  flex:next_word :word_46.
+
+:word_45 flex:txt "maningi"@seh.
+:word_45 flex:gls "muito"@pt.
+:word_45 flex:pos "Adv"@pt.
+:word_42 flex:has_word :word_46.
+:word_46 a flex:word.
+
+:word_46 flex:punct "."@seh.
+:word_42 flex:segnum "7"@en.
+:word_42 flex:gls ""@pt.
+:b2dcff53-e557-49a2-9867-e5d43073739b flex:has_language :language_1.
+:language_1 a flex:language;
+  flex:lang "en";
+  flex:font "Times New Roman".
+
+:b2dcff53-e557-49a2-9867-e5d43073739b flex:has_language :language_2.
+:language_2 a flex:language;
+  flex:lang "pt";
+  flex:font "Times New Roman".
+
+:b2dcff53-e557-49a2-9867-e5d43073739b flex:has_language :language_3.
+:language_3 a flex:language;
+  flex:lang "seh";
+  flex:font "Charis SIL";
+  flex:vernacular "true".
+
+<http://example.org/PLEASE_PROVIDE_baseURI_PARAMETER> flex:has_interlinear-text :f84bf76e-bb4a-4a6f-bf93-30e2fb66d023.
+:f84bf76e-bb4a-4a6f-bf93-30e2fb66d023 a flex:interlinear-text .
+
+:f84bf76e-bb4a-4a6f-bf93-30e2fb66d023 flex:title "Have courage"@en.
+:f84bf76e-bb4a-4a6f-bf93-30e2fb66d023 flex:title "Tenha coragem"@pt.
+:f84bf76e-bb4a-4a6f-bf93-30e2fb66d023 flex:title "Phatani ntima"@seh.
+:f84bf76e-bb4a-4a6f-bf93-30e2fb66d023 flex:comment "  'Phatani ntima' ('Have courage') (c) Luís Nyazeze, used by permission."@en.
+:f84bf76e-bb4a-4a6f-bf93-30e2fb66d023 flex:comment "'Phatani ntima' ('Have courage') (c) Luís Nyazeze, used by permission."@pt.
+:f84bf76e-bb4a-4a6f-bf93-30e2fb66d023 flex:has_paragraph :paragraph_8.
+:paragraph_8 a flex:paragraph.
+
+:paragraph_8 flex:has_word :word_47.
+:word_47 a flex:word;
+  flex:next_word :word_55.
+
+:word_47 flex:has_word :word_48.
+:word_48 a flex:word;
+  flex:next_word :word_49.
+
+:word_48 flex:txt "Pisapha"@seh.
+:word_48 flex:gls "estas coisas doem"@pt.
+:word_48 flex:pos "V"@pt.
+:word_47 flex:has_word :word_49.
+:word_49 a flex:word;
+  flex:next_word :word_50.
+
+:word_49 flex:punct ","@seh.
+:word_47 flex:has_word :word_50.
+:word_50 a flex:word;
+  flex:next_word :word_51.
+
+:word_50 flex:txt "mbwenye"@seh.
+:word_50 flex:gls ""@pt.
+:word_50 flex:pos "Conj"@pt.
+:word_47 flex:has_word :word_51.
+:word_51 a flex:word;
+  flex:next_word :word_52.
+
+:word_51 flex:txt "pinafunika"@seh.
+:word_51 flex:gls "o que é necessário"@pt.
+:word_51 flex:pos "V"@pt.
+:word_47 flex:has_word :word_52.
+:word_52 a flex:word;
+  flex:next_word :word_53.
+
+:word_52 flex:txt "n'khuphata"@seh.
+:word_52 flex:gls ""@pt.
+:word_47 flex:has_word :word_53.
+:word_53 a flex:word;
+  flex:next_word :word_54.
+
+:word_53 flex:txt "ntima"@seh.
+:word_53 flex:gls ""@pt.
+:word_53 flex:pos "N"@pt.
+:word_47 flex:has_word :word_54.
+:word_54 a flex:word.
+
+:word_54 flex:punct "."@seh.
+:word_47 flex:segnum "1.1"@en.
+:word_47 flex:gls "Estas coisas doem mas o que é necessário é ter coragem. Pois nós todos vamos morrer."@pt.
+:paragraph_8 flex:has_word :word_55.
+:word_55 a flex:word.
+
+:word_55 flex:has_word :word_56.
+:word_56 a flex:word;
+  flex:next_word :word_57.
+
+:word_56 flex:txt "Tonsene"@seh.
+:word_56 flex:gls "nós todos "@pt.
+:word_56 flex:pos "Adj"@pt.
+:word_55 flex:has_word :word_57.
+:word_57 a flex:word;
+  flex:next_word :word_58.
+
+:word_57 flex:txt "njira"@seh.
+:word_57 flex:gls ""@pt.
+:word_57 flex:pos "N"@pt.
+:word_55 flex:has_word :word_58.
+:word_58 a flex:word;
+  flex:next_word :word_59.
+
+:word_58 flex:txt "yathu"@seh.
+:word_58 flex:gls ""@pt.
+:word_58 flex:pos "Poss"@pt.
+:word_55 flex:has_word :word_59.
+:word_59 a flex:word;
+  flex:next_word :word_60.
+
+:word_59 flex:txt "ndjeneyi"@seh.
+:word_59 flex:gls ""@pt.
+:word_55 flex:has_word :word_60.
+:word_60 a flex:word.
+
+:word_60 flex:punct "."@seh.
+:word_55 flex:segnum "1.2"@en.
+:word_55 flex:gls ""@pt.
+:f84bf76e-bb4a-4a6f-bf93-30e2fb66d023 flex:has_language :language_4.
+:language_4 a flex:language;
+  flex:lang "en";
+  flex:font "Times New Roman".
+
+:f84bf76e-bb4a-4a6f-bf93-30e2fb66d023 flex:has_language :language_5.
+:language_5 a flex:language;
+  flex:lang "pt";
+  flex:font "Times New Roman".
+
+:f84bf76e-bb4a-4a6f-bf93-30e2fb66d023 flex:has_language :language_6.
+:language_6 a flex:language;
+  flex:lang "seh";
+  flex:font "Charis SIL";
+  flex:vernacular "true".
+
+<http://example.org/PLEASE_PROVIDE_baseURI_PARAMETER> flex:has_interlinear-text :db094e82-30fd-4f62-81e8-9c4015bfbd7f.
+:db094e82-30fd-4f62-81e8-9c4015bfbd7f a flex:interlinear-text .
+
+:db094e82-30fd-4f62-81e8-9c4015bfbd7f flex:title "The Hyena and the Girl"@en.
+:db094e82-30fd-4f62-81e8-9c4015bfbd7f flex:title "O Hiena e a Rapariga"@pt.
+:db094e82-30fd-4f62-81e8-9c4015bfbd7f flex:title "Thika na Ntsikana"@seh.
+:db094e82-30fd-4f62-81e8-9c4015bfbd7f flex:comment "Thika na Ntsikana ('The Hyena and the Girl') (c) Madalena Lede, used by permission"@seh.
+:db094e82-30fd-4f62-81e8-9c4015bfbd7f flex:has_paragraph :paragraph_9.
+:paragraph_9 a flex:paragraph;
+  flex:next_paragraph :paragraph_10.
+
+:paragraph_9 flex:has_word :word_61.
+:word_61 a flex:word.
+
+:word_61 flex:has_word :word_62.
+:word_62 a flex:word;
+  flex:next_word :word_63.
+
+:word_62 flex:txt "Ngwa"@seh.
+:word_62 flex:gls "era"@pt.
+:word_62 flex:pos "Cop"@pt.
+:word_61 flex:has_word :word_63.
+:word_63 a flex:word;
+  flex:next_word :word_64.
+
+:word_63 flex:txt "pyacitwa"@seh.
+:word_63 flex:gls "aconteceu"@pt.
+:word_63 flex:pos "V"@pt.
+:word_61 flex:has_word :word_64.
+:word_64 a flex:word;
+  flex:next_word :word_65.
+
+:word_64 flex:punct ","@seh.
+:word_61 flex:has_word :word_65.
+:word_65 a flex:word;
+  flex:next_word :word_66.
+
+:word_65 flex:txt "pyacitwa"@seh.
+:word_65 flex:gls "aconteceu"@pt.
+:word_65 flex:pos "V"@pt.
+:word_61 flex:has_word :word_66.
+:word_66 a flex:word;
+  flex:next_word :word_67.
+
+:word_66 flex:txt "na"@seh.
+:word_66 flex:gls "com"@pt.
+:word_66 flex:pos "Conj"@pt.
+:word_61 flex:has_word :word_67.
+:word_67 a flex:word;
+  flex:next_word :word_68.
+
+:word_67 flex:txt "nkazi"@seh.
+:word_67 flex:gls "mulher"@pt.
+:word_67 flex:pos "N"@pt.
+:word_61 flex:has_word :word_68.
+:word_68 a flex:word;
+  flex:next_word :word_69.
+
+:word_68 flex:txt "na"@seh.
+:word_68 flex:gls "e"@pt.
+:word_68 flex:pos "Conj"@pt.
+:word_61 flex:has_word :word_69.
+:word_69 a flex:word;
+  flex:next_word :word_70.
+
+:word_69 flex:txt "mamuna"@seh.
+:word_69 flex:gls "marido"@pt.
+:word_69 flex:pos "N"@pt.
+:word_61 flex:has_word :word_70.
+:word_70 a flex:word;
+  flex:next_word :word_71.
+
+:word_70 flex:txt "abala"@seh.
+:word_70 flex:gls "deu a luz"@pt.
+:word_70 flex:pos "V"@pt.
+:word_61 flex:has_word :word_71.
+:word_71 a flex:word;
+  flex:next_word :word_72.
+
+:word_71 flex:txt "mwana"@seh.
+:word_71 flex:gls "criança"@pt.
+:word_71 flex:pos "N"@pt.
+:word_61 flex:has_word :word_72.
+:word_72 a flex:word;
+  flex:next_word :word_73.
+
+:word_72 flex:txt "wawo"@seh.
+:word_72 flex:gls "deles"@pt.
+:word_72 flex:pos "Poss"@pt.
+:word_61 flex:has_word :word_73.
+:word_73 a flex:word;
+  flex:next_word :word_74.
+
+:word_73 flex:txt "m'bodzi"@seh.
+:word_73 flex:gls "uma"@pt.
+:word_73 flex:pos "Num"@pt.
+:word_61 flex:has_word :word_74.
+:word_74 a flex:word.
+
+:word_74 flex:punct "."@seh.
+:word_61 flex:segnum "1"@en.
+:word_61 flex:gls "Era uma vez aconteceu que mulher e homem deu a luz criança deles um."@pt.
+:db094e82-30fd-4f62-81e8-9c4015bfbd7f flex:has_paragraph :paragraph_10.
+:paragraph_10 a flex:paragraph;
+  flex:next_paragraph :paragraph_11.
+
+:paragraph_10 flex:has_word :word_75.
+:word_75 a flex:word;
+  flex:next_word :word_92.
+
+:word_75 flex:has_word :word_76.
+:word_76 a flex:word;
+  flex:next_word :word_77.
+
+:word_76 flex:txt "Iwo"@seh.
+:word_76 flex:gls "eles"@pt.
+:word_76 flex:pos "Ppron"@pt.
+:word_75 flex:has_word :word_77.
+:word_77 a flex:word;
+  flex:next_word :word_78.
+
+:word_77 flex:txt "mbalonga"@seh.
+:word_77 flex:gls "disseram"@pt.
+:word_77 flex:pos "V"@pt.
+:word_75 flex:has_word :word_78.
+:word_78 a flex:word;
+  flex:next_word :word_79.
+
+:word_78 flex:txt "tenepa"@seh.
+:word_78 flex:gls "assim"@pt.
+:word_78 flex:pos "Adv"@pt.
+:word_75 flex:has_word :word_79.
+:word_79 a flex:word;
+  flex:next_word :word_80.
+
+:word_79 flex:punct ":"@seh.
+:word_75 flex:has_word :word_80.
+:word_80 a flex:word;
+  flex:next_word :word_81.
+
+:word_80 flex:punct "'"@seh.
+:word_75 flex:has_word :word_81.
+:word_81 a flex:word;
+  flex:next_word :word_82.
+
+:word_81 flex:txt "Mwanathu"@seh.
+:word_81 flex:gls "criança nossa"@pt.
+:word_81 flex:pos "N"@pt.
+:word_75 flex:has_word :word_82.
+:word_82 a flex:word;
+  flex:next_word :word_83.
+
+:word_82 flex:txt "uxu"@seh.
+:word_82 flex:gls "esta"@pt.
+:word_82 flex:pos "dem1"@pt.
+:word_75 flex:has_word :word_83.
+:word_83 a flex:word;
+  flex:next_word :word_84.
+
+:word_83 flex:punct ","@seh.
+:word_75 flex:has_word :word_84.
+:word_84 a flex:word;
+  flex:next_word :word_85.
+
+:word_84 flex:txt "anafuna"@seh.
+:word_84 flex:gls "aquele que quer"@pt.
+:word_84 flex:pos "Vrel"@pt.
+:word_75 flex:has_word :word_85.
+:word_85 a flex:word;
+  flex:next_word :word_86.
+
+:word_85 flex:txt "kunsemba"@seh.
+:word_85 flex:gls "casar"@pt.
+:word_85 flex:pos "V"@pt.
+:word_75 flex:has_word :word_86.
+:word_86 a flex:word;
+  flex:next_word :word_87.
+
+:word_86 flex:txt "mwanathu"@seh.
+:word_86 flex:gls "criança nossa"@pt.
+:word_86 flex:pos "N"@pt.
+:word_75 flex:has_word :word_87.
+:word_87 a flex:word;
+  flex:next_word :word_88.
+
+:word_87 flex:txt "akhale"@seh.
+:word_87 flex:gls "deve ser"@pt.
+:word_87 flex:pos "Vsub"@pt.
+:word_75 flex:has_word :word_88.
+:word_88 a flex:word;
+  flex:next_word :word_89.
+
+:word_88 flex:txt "munthu"@seh.
+:word_88 flex:gls "pessoa"@pt.
+:word_88 flex:pos "N"@pt.
+:word_75 flex:has_word :word_89.
+:word_89 a flex:word;
+  flex:next_word :word_90.
+
+:word_89 flex:txt "ana"@seh.
+:word_89 flex:gls "que tem"@pt.
+:word_89 flex:pos "Vrel"@pt.
+:word_75 flex:has_word :word_90.
+:word_90 a flex:word;
+  flex:next_word :word_91.
+
+:word_90 flex:txt "anji"@seh.
+:word_90 flex:gls "que?"@pt.
+:word_90 flex:pos "Inter"@pt.
+:word_75 flex:has_word :word_91.
+:word_91 a flex:word.
+
+:word_91 flex:punct "?"@seh.
+:word_75 flex:segnum "2.1"@en.
+:word_75 flex:gls "Eles disseram assim: 'Este nossa filha, aquele que quer casar a nossa filha deve ser um homem que tem o quê?"@pt.
+:paragraph_10 flex:has_word :word_92.
+:word_92 a flex:word.
+
+:word_92 flex:has_word :word_93.
+:word_93 a flex:word;
+  flex:next_word :word_94.
+
+:word_93 flex:txt "Ana"@seh.
+:word_93 flex:gls "que tem"@pt.
+:word_93 flex:pos "Vrel"@pt.
+:word_92 flex:has_word :word_94.
+:word_94 a flex:word;
+  flex:next_word :word_95.
+
+:word_94 flex:txt "mpfuma"@seh.
+:word_94 flex:gls "riqueza"@pt.
+:word_94 flex:pos "N"@pt.
+:word_92 flex:has_word :word_95.
+:word_95 a flex:word.
+
+:word_95 flex:punct ".'"@seh.
+:word_92 flex:segnum "2.2"@en.
+:word_92 flex:gls "Que tem riqueza.'"@pt.
+:db094e82-30fd-4f62-81e8-9c4015bfbd7f flex:has_paragraph :paragraph_11.
+:paragraph_11 a flex:paragraph;
+  flex:next_paragraph :paragraph_12.
+
+:paragraph_11 flex:has_word :word_96.
+:word_96 a flex:word.
+
+:word_96 flex:has_word :word_97.
+:word_97 a flex:word;
+  flex:next_word :word_98.
+
+:word_97 flex:txt "Mbakhabwera"@seh.
+:word_97 flex:gls "vieram"@pt.
+:word_97 flex:pos "V"@pt.
+:word_96 flex:has_word :word_98.
+:word_98 a flex:word;
+  flex:next_word :word_99.
+
+:word_98 flex:txt "aphale"@seh.
+:word_98 flex:gls "jovens"@pt.
+:word_98 flex:pos "N"@pt.
+:word_96 flex:has_word :word_99.
+:word_99 a flex:word;
+  flex:next_word :word_100.
+
+:word_99 flex:txt "penepo"@seh.
+:word_99 flex:gls "lá"@pt.
+:word_99 flex:pos "dem6"@pt.
+:word_96 flex:has_word :word_100.
+:word_100 a flex:word.
+
+:word_100 flex:punct "."@seh.
+:word_96 flex:segnum "3"@en.
+:word_96 flex:gls "Vieram muitos jovens para lá."@pt.
+:db094e82-30fd-4f62-81e8-9c4015bfbd7f flex:has_paragraph :paragraph_12.
+:paragraph_12 a flex:paragraph;
+  flex:next_paragraph :paragraph_13.
+
+:paragraph_12 flex:has_word :word_101.
+:word_101 a flex:word.
+
+:word_101 flex:has_word :word_102.
+:word_102 a flex:word;
+  flex:next_word :word_103.
+
+:word_102 flex:txt "Iwo"@seh.
+:word_102 flex:gls "eles"@pt.
+:word_102 flex:pos "Ppron"@pt.
+:word_101 flex:has_word :word_103.
+:word_103 a flex:word;
+  flex:next_word :word_104.
+
+:word_103 flex:txt "akhakhonda"@seh.
+:word_103 flex:gls "recusaram"@pt.
+:word_103 flex:pos "V"@pt.
+:word_101 flex:has_word :word_104.
+:word_104 a flex:word.
+
+:word_104 flex:punct "."@seh.
+:word_101 flex:segnum "4"@en.
+:word_101 flex:gls "Eles negavam."@pt.
+:db094e82-30fd-4f62-81e8-9c4015bfbd7f flex:has_paragraph :paragraph_13.
+:paragraph_13 a flex:paragraph;
+  flex:next_paragraph :paragraph_14.
+
+:paragraph_13 flex:has_word :word_105.
+:word_105 a flex:word.
+
+:word_105 flex:has_word :word_106.
+:word_106 a flex:word;
+  flex:next_word :word_107.
+
+:word_106 flex:txt "Pai"@seh.
+:word_106 flex:gls "pai"@pt.
+:word_106 flex:pos "N"@pt.
+:word_105 flex:has_word :word_107.
+:word_107 a flex:word;
+  flex:next_word :word_108.
+
+:word_107 flex:txt "wace"@seh.
+:word_107 flex:gls "dela"@pt.
+:word_107 flex:pos "Poss"@pt.
+:word_105 flex:has_word :word_108.
+:word_108 a flex:word;
+  flex:next_word :word_109.
+
+:word_108 flex:txt "akhalonga"@seh.
+:word_108 flex:gls "dizia"@pt.
+:word_108 flex:pos "V"@pt.
+:word_105 flex:has_word :word_109.
+:word_109 a flex:word;
+  flex:next_word :word_110.
+
+:word_109 flex:txt "kuti"@seh.
+:word_109 flex:gls "dizendo"@pt.
+:word_109 flex:pos "Or"@pt.
+:word_105 flex:has_word :word_110.
+:word_110 a flex:word;
+  flex:next_word :word_111.
+
+:word_110 flex:punct ":"@seh.
+:word_105 flex:has_word :word_111.
+:word_111 a flex:word;
+  flex:next_word :word_112.
+
+:word_111 flex:punct "'"@seh.
+:word_105 flex:has_word :word_112.
+:word_112 a flex:word;
+  flex:next_word :word_113.
+
+:word_112 flex:txt "Iwe"@seh.
+:word_112 flex:gls "você"@pt.
+:word_112 flex:pos "Ppron"@pt.
+:word_105 flex:has_word :word_113.
+:word_113 a flex:word;
+  flex:next_word :word_114.
+
+:word_113 flex:txt "una"@seh.
+:word_113 flex:gls "tens"@pt.
+:word_113 flex:pos "Irreg-na"@pt.
+:word_105 flex:has_word :word_114.
+:word_114 a flex:word;
+  flex:next_word :word_115.
+
+:word_114 flex:txt "mpfuma"@seh.
+:word_114 flex:gls "riqueza"@pt.
+:word_114 flex:pos "N"@pt.
+:word_105 flex:has_word :word_115.
+:word_115 a flex:word.
+
+:word_115 flex:punct "?'"@seh.
+:word_105 flex:segnum "5"@en.
+:word_105 flex:gls "Pai dela dizia: 'Tens riqueza?'"@pt.
+:db094e82-30fd-4f62-81e8-9c4015bfbd7f flex:has_paragraph :paragraph_14.
+:paragraph_14 a flex:paragraph;
+  flex:next_paragraph :paragraph_15.
+
+:paragraph_14 flex:has_word :word_116.
+:word_116 a flex:word;
+  flex:next_word :word_123.
+
+:word_116 flex:has_word :word_117.
+:word_117 a flex:word;
+  flex:next_word :word_118.
+
+:word_117 flex:txt "Iye"@seh.
+:word_117 flex:gls "ele"@pt.
+:word_117 flex:pos "Ppron"@pt.
+:word_116 flex:has_word :word_118.
+:word_118 a flex:word;
+  flex:next_word :word_119.
+
+:word_118 flex:txt "ati"@seh.
+:word_118 flex:gls "disse"@pt.
+:word_118 flex:pos "V"@pt.
+:word_116 flex:has_word :word_119.
+:word_119 a flex:word;
+  flex:next_word :word_120.
+
+:word_119 flex:punct ":"@seh.
+:word_116 flex:has_word :word_120.
+:word_120 a flex:word;
+  flex:next_word :word_121.
+
+:word_120 flex:punct "'"@seh.
+:word_116 flex:has_word :word_121.
+:word_121 a flex:word;
+  flex:next_word :word_122.
+
+:word_121 flex:txt "Nkhabe"@seh.
+:word_121 flex:gls "não"@pt.
+:word_116 flex:has_word :word_122.
+:word_122 a flex:word.
+
+:word_122 flex:punct ".'"@seh.
+:word_116 flex:segnum "6.1"@en.
+:word_116 flex:gls "Ele disse, 'Não.'"@pt.
+:paragraph_14 flex:has_word :word_123.
+:word_123 a flex:word.
+
+:word_123 flex:has_word :word_124.
+:word_124 a flex:word;
+  flex:next_word :word_125.
+
+:word_124 flex:txt "Mbakhonda"@seh.
+:word_124 flex:gls "recusaram"@pt.
+:word_124 flex:pos "V"@pt.
+:word_123 flex:has_word :word_125.
+:word_125 a flex:word.
+
+:word_125 flex:punct "."@seh.
+:word_123 flex:segnum "6.2"@en.
+:word_123 flex:gls "E eles recusaram."@pt.
+:db094e82-30fd-4f62-81e8-9c4015bfbd7f flex:has_paragraph :paragraph_15.
+:paragraph_15 a flex:paragraph;
+  flex:next_paragraph :paragraph_16.
+
+:paragraph_15 flex:has_word :word_126.
+:word_126 a flex:word.
+
+:word_126 flex:has_word :word_127.
+:word_127 a flex:word;
+  flex:next_word :word_128.
+
+:word_127 flex:txt "Mbabwera"@seh.
+:word_127 flex:gls "veio"@pt.
+:word_127 flex:pos "V"@pt.
+:word_126 flex:has_word :word_128.
+:word_128 a flex:word;
+  flex:next_word :word_129.
+
+:word_128 flex:txt "unango"@seh.
+:word_128 flex:gls "outro"@pt.
+:word_128 flex:pos "N"@pt.
+:word_126 flex:has_word :word_129.
+:word_129 a flex:word;
+  flex:next_word :word_130.
+
+:word_129 flex:txt "wa"@seh.
+:word_129 flex:gls "de"@pt.
+:word_129 flex:pos "Assoc"@pt.
+:word_126 flex:has_word :word_130.
+:word_130 a flex:word;
+  flex:next_word :word_131.
+
+:word_130 flex:txt "ciwiri"@seh.
+:word_130 flex:gls "dois"@pt.
+:word_130 flex:pos "Num"@pt.
+:word_126 flex:has_word :word_131.
+:word_131 a flex:word;
+  flex:next_word :word_132.
+
+:word_131 flex:punct ","@seh.
+:word_126 flex:has_word :word_132.
+:word_132 a flex:word;
+  flex:next_word :word_133.
+
+:word_132 flex:txt "mbakhonda"@seh.
+:word_132 flex:gls "recusaram"@pt.
+:word_132 flex:pos "V"@pt.
+:word_126 flex:has_word :word_133.
+:word_133 a flex:word.
+
+:word_133 flex:punct "."@seh.
+:word_126 flex:segnum "7"@en.
+:word_126 flex:gls "Veio segundo, e eles recusaram."@pt.
+:db094e82-30fd-4f62-81e8-9c4015bfbd7f flex:has_paragraph :paragraph_16.
+:paragraph_16 a flex:paragraph;
+  flex:next_paragraph :paragraph_17.
+
+:paragraph_16 flex:has_word :word_134.
+:word_134 a flex:word.
+
+:word_134 flex:has_word :word_135.
+:word_135 a flex:word;
+  flex:next_word :word_136.
+
+:word_135 flex:txt "Ntsiku"@seh.
+:word_135 flex:gls "dia"@pt.
+:word_135 flex:pos "N"@pt.
+:word_134 flex:has_word :word_136.
+:word_136 a flex:word;
+  flex:next_word :word_137.
+
+:word_136 flex:txt "inango"@seh.
+:word_136 flex:gls "outro"@pt.
+:word_136 flex:pos "Adj"@pt.
+:word_134 flex:has_word :word_137.
+:word_137 a flex:word;
+  flex:next_word :word_138.
+
+:word_137 flex:txt "abwera"@seh.
+:word_137 flex:gls "veio"@pt.
+:word_137 flex:pos "V"@pt.
+:word_134 flex:has_word :word_138.
+:word_138 a flex:word;
+  flex:next_word :word_139.
+
+:word_138 flex:txt "thika"@seh.
+:word_138 flex:gls "hiena"@pt.
+:word_138 flex:pos "N"@pt.
+:word_134 flex:has_word :word_139.
+:word_139 a flex:word.
+
+:word_139 flex:punct "."@seh.
+:word_134 flex:segnum "8"@en.
+:word_134 flex:gls "Um outro dia veio hiena."@pt.
+:db094e82-30fd-4f62-81e8-9c4015bfbd7f flex:has_paragraph :paragraph_17.
+:paragraph_17 a flex:paragraph;
+  flex:next_paragraph :paragraph_18.
+
+:paragraph_17 flex:has_word :word_140.
+:word_140 a flex:word;
+  flex:next_word :word_145.
+
+:word_140 flex:has_word :word_141.
+:word_141 a flex:word;
+  flex:next_word :word_142.
+
+:word_141 flex:txt "Thika"@seh.
+:word_141 flex:gls "hiena"@pt.
+:word_141 flex:pos "N"@pt.
+:word_140 flex:has_word :word_142.
+:word_142 a flex:word;
+  flex:next_word :word_143.
+
+:word_142 flex:txt "ule"@seh.
+:word_142 flex:gls "aquele"@pt.
+:word_142 flex:pos "dem4"@pt.
+:word_140 flex:has_word :word_143.
+:word_143 a flex:word;
+  flex:next_word :word_144.
+
+:word_143 flex:txt "asanduka"@seh.
+:word_143 flex:gls "transformou"@pt.
+:word_143 flex:pos "V"@pt.
+:word_140 flex:has_word :word_144.
+:word_144 a flex:word.
+
+:word_144 flex:punct "."@seh.
+:word_140 flex:segnum "9.1"@en.
+:word_140 flex:gls "Hiena transformou."@pt.
+:paragraph_17 flex:has_word :word_145.
+:word_145 a flex:word.
+
+:word_145 flex:has_word :word_146.
+:word_146 a flex:word;
+  flex:next_word :word_147.
+
+:word_146 flex:txt "Abwera"@seh.
+:word_146 flex:gls "veio"@pt.
+:word_146 flex:pos "V"@pt.
+:word_145 flex:has_word :word_147.
+:word_147 a flex:word;
+  flex:next_word :word_148.
+
+:word_147 flex:txt "munthu"@seh.
+:word_147 flex:gls "pessoa"@pt.
+:word_147 flex:pos "N"@pt.
+:word_145 flex:has_word :word_148.
+:word_148 a flex:word.
+
+:word_148 flex:punct "."@seh.
+:word_145 flex:segnum "9.2"@en.
+:word_145 flex:gls "Tornou-se uma pessoa."@pt.
+:db094e82-30fd-4f62-81e8-9c4015bfbd7f flex:has_paragraph :paragraph_18.
+:paragraph_18 a flex:paragraph;
+  flex:next_paragraph :paragraph_19.
+
+:paragraph_18 flex:has_word :word_149.
+:word_149 a flex:word.
+
+:word_149 flex:has_word :word_150.
+:word_150 a flex:word;
+  flex:next_word :word_151.
+
+:word_150 flex:txt "Pidabwereye"@seh.
+:word_150 flex:gls "quando ele veio"@pt.
+:word_150 flex:pos "Vrel"@pt.
+:word_149 flex:has_word :word_151.
+:word_151 a flex:word;
+  flex:next_word :word_152.
+
+:word_151 flex:punct ","@seh.
+:word_149 flex:has_word :word_152.
+:word_152 a flex:word;
+  flex:next_word :word_153.
+
+:word_152 flex:txt "iye"@seh.
+:word_152 flex:gls "ela"@pt.
+:word_152 flex:pos "Ppron"@pt.
+:word_149 flex:has_word :word_153.
+:word_153 a flex:word;
+  flex:next_word :word_154.
+
+:word_153 flex:txt "mbafika"@seh.
+:word_153 flex:gls "chegou"@pt.
+:word_153 flex:pos "V"@pt.
+:word_149 flex:has_word :word_154.
+:word_154 a flex:word;
+  flex:next_word :word_155.
+
+:word_154 flex:punct ","@seh.
+:word_149 flex:has_word :word_155.
+:word_155 a flex:word;
+  flex:next_word :word_156.
+
+:word_155 flex:txt "mbalonga"@seh.
+:word_155 flex:gls "disse"@pt.
+:word_155 flex:pos "V"@pt.
+:word_149 flex:has_word :word_156.
+:word_156 a flex:word;
+  flex:next_word :word_157.
+
+:word_156 flex:txt "kuti"@seh.
+:word_156 flex:gls "dizendo"@pt.
+:word_156 flex:pos "Or"@pt.
+:word_149 flex:has_word :word_157.
+:word_157 a flex:word;
+  flex:next_word :word_158.
+
+:word_157 flex:punct ":"@seh.
+:word_149 flex:has_word :word_158.
+:word_158 a flex:word;
+  flex:next_word :word_159.
+
+:word_158 flex:punct "'"@seh.
+:word_149 flex:has_word :word_159.
+:word_159 a flex:word;
+  flex:next_word :word_160.
+
+:word_159 flex:txt "Pai"@seh.
+:word_159 flex:gls "pai"@pt.
+:word_149 flex:has_word :word_160.
+:word_160 a flex:word;
+  flex:next_word :word_161.
+
+:word_160 flex:punct ","@seh.
+:word_149 flex:has_word :word_161.
+:word_161 a flex:word;
+  flex:next_word :word_162.
+
+:word_161 flex:txt "mamuna"@seh.
+:word_161 flex:gls "marido"@pt.
+:word_161 flex:pos "N"@pt.
+:word_149 flex:has_word :word_162.
+:word_162 a flex:word;
+  flex:next_word :word_163.
+
+:word_162 flex:txt "anafunene"@seh.
+:word_162 flex:gls "que quero"@pt.
+:word_162 flex:pos "Vrel"@pt.
+:word_149 flex:has_word :word_163.
+:word_163 a flex:word;
+  flex:next_word :word_164.
+
+:word_163 flex:txt "ndule"@seh.
+:word_163 flex:gls "é aquele"@pt.
+:word_163 flex:pos "Cop"@pt.
+:word_149 flex:has_word :word_164.
+:word_164 a flex:word.
+
+:word_164 flex:punct ".'"@seh.
+:word_149 flex:segnum "10"@en.
+:word_149 flex:gls "Quando ele veio, ela chegou e disse: 'Pai, o marido que eu quero é aquele.'"@pt.
+:db094e82-30fd-4f62-81e8-9c4015bfbd7f flex:has_paragraph :paragraph_19.
+:paragraph_19 a flex:paragraph;
+  flex:next_paragraph :paragraph_20.
+
+:paragraph_19 flex:has_word :word_165.
+:word_165 a flex:word.
+
+:word_165 flex:has_word :word_166.
+:word_166 a flex:word;
+  flex:next_word :word_167.
+
+:word_166 flex:txt "Mwana"@seh.
+:word_166 flex:gls "criança"@pt.
+:word_166 flex:pos "N"@pt.
+:word_165 flex:has_word :word_167.
+:word_167 a flex:word;
+  flex:next_word :word_168.
+
+:word_167 flex:txt "ule"@seh.
+:word_167 flex:gls "aquele"@pt.
+:word_167 flex:pos "dem4"@pt.
+:word_165 flex:has_word :word_168.
+:word_168 a flex:word;
+  flex:next_word :word_169.
+
+:word_168 flex:punct ","@seh.
+:word_165 flex:has_word :word_169.
+:word_169 a flex:word;
+  flex:next_word :word_170.
+
+:word_169 flex:txt "pidalongeye"@seh.
+:word_169 flex:gls "quando ela disse"@pt.
+:word_169 flex:pos "Vrel"@pt.
+:word_165 flex:has_word :word_170.
+:word_170 a flex:word;
+  flex:next_word :word_171.
+
+:word_170 flex:txt "tenepa"@seh.
+:word_170 flex:gls "assim"@pt.
+:word_170 flex:pos "Adv"@pt.
+:word_165 flex:has_word :word_171.
+:word_171 a flex:word;
+  flex:next_word :word_172.
+
+:word_171 flex:txt "mwana"@seh.
+:word_171 flex:gls "criança"@pt.
+:word_171 flex:pos "N"@pt.
+:word_165 flex:has_word :word_172.
+:word_172 a flex:word;
+  flex:next_word :word_173.
+
+:word_172 flex:txt "kuti"@seh.
+:word_172 flex:gls "que"@pt.
+:word_172 flex:pos "Or"@pt.
+:word_165 flex:has_word :word_173.
+:word_173 a flex:word;
+  flex:next_word :word_174.
+
+:word_173 flex:punct "'"@seh.
+:word_165 flex:has_word :word_174.
+:word_174 a flex:word;
+  flex:next_word :word_175.
+
+:word_174 flex:txt "Mamuna"@seh.
+:word_174 flex:gls "marido"@pt.
+:word_174 flex:pos "N"@pt.
+:word_165 flex:has_word :word_175.
+:word_175 a flex:word;
+  flex:next_word :word_176.
+
+:word_175 flex:txt "anafunene"@seh.
+:word_175 flex:gls "que quero"@pt.
+:word_175 flex:pos "Vrel"@pt.
+:word_165 flex:has_word :word_176.
+:word_176 a flex:word;
+  flex:next_word :word_177.
+
+:word_176 flex:txt "ndule"@seh.
+:word_176 flex:gls "é aquele"@pt.
+:word_176 flex:pos "Cop"@pt.
+:word_165 flex:has_word :word_177.
+:word_177 a flex:word;
+  flex:next_word :word_178.
+
+:word_177 flex:punct "',"@seh.
+:word_165 flex:has_word :word_178.
+:word_178 a flex:word;
+  flex:next_word :word_179.
+
+:word_178 flex:txt "apai"@seh.
+:word_178 flex:gls "pais"@pt.
+:word_178 flex:pos "N"@pt.
+:word_165 flex:has_word :word_179.
+:word_179 a flex:word;
+  flex:next_word :word_180.
+
+:word_179 flex:txt "wace"@seh.
+:word_179 flex:gls "dela"@pt.
+:word_179 flex:pos "Poss"@pt.
+:word_165 flex:has_word :word_180.
+:word_180 a flex:word;
+  flex:next_word :word_181.
+
+:word_180 flex:txt "atawirambo"@seh.
+:word_180 flex:gls "aceitou também"@pt.
+:word_180 flex:pos "V"@pt.
+:word_165 flex:has_word :word_181.
+:word_181 a flex:word.
+
+:word_181 flex:punct ","@seh.
+:word_165 flex:segnum "11"@en.
+:word_165 flex:gls "Aquela filha, quando a criança disse assim que 'O marido que eu quero é aquele, os pais dela aceitou também,"@pt.
+:db094e82-30fd-4f62-81e8-9c4015bfbd7f flex:has_paragraph :paragraph_20.
+:paragraph_20 a flex:paragraph.
+
+:paragraph_20 flex:has_word :word_182.
+:word_182 a flex:word;
+  flex:next_word :word_196.
+
+:word_182 flex:has_word :word_183.
+:word_183 a flex:word;
+  flex:next_word :word_184.
+
+:word_183 flex:txt "mbalonga"@seh.
+:word_183 flex:gls "disse"@pt.
+:word_183 flex:pos "V"@pt.
+:word_182 flex:has_word :word_184.
+:word_184 a flex:word;
+  flex:next_word :word_185.
+
+:word_184 flex:punct ","@seh.
+:word_182 flex:has_word :word_185.
+:word_185 a flex:word;
+  flex:next_word :word_186.
+
+:word_185 flex:punct "'"@seh.
+:word_182 flex:has_word :word_186.
+:word_186 a flex:word;
+  flex:next_word :word_187.
+
+:word_186 flex:txt "Ande"@seh.
+:word_186 flex:gls "sim"@pt.
+:word_182 flex:has_word :word_187.
+:word_187 a flex:word;
+  flex:next_word :word_188.
+
+:word_187 flex:punct ","@seh.
+:word_182 flex:has_word :word_188.
+:word_188 a flex:word;
+  flex:next_word :word_189.
+
+:word_188 flex:txt "ife"@seh.
+:word_188 flex:gls "nos"@pt.
+:word_188 flex:pos "Ppron"@pt.
+:word_182 flex:has_word :word_189.
+:word_189 a flex:word;
+  flex:next_word :word_190.
+
+:word_189 flex:txt "tiri"@seh.
+:word_189 flex:gls "estamos"@pt.
+:word_189 flex:pos "Vaux"@pt.
+:word_182 flex:has_word :word_190.
+:word_190 a flex:word;
+  flex:next_word :word_191.
+
+:word_190 flex:txt "kumuonadi"@seh.
+:word_190 flex:gls "a ver verdadeiramente"@pt.
+:word_190 flex:pos "V"@pt.
+:word_182 flex:has_word :word_191.
+:word_191 a flex:word;
+  flex:next_word :word_192.
+
+:word_191 flex:txt "kuti"@seh.
+:word_191 flex:gls "que"@pt.
+:word_191 flex:pos "Or"@pt.
+:word_182 flex:has_word :word_192.
+:word_192 a flex:word;
+  flex:next_word :word_193.
+
+:word_192 flex:txt "unowu"@seh.
+:word_192 flex:gls "aquele"@pt.
+:word_192 flex:pos "dem5"@pt.
+:word_182 flex:has_word :word_193.
+:word_193 a flex:word;
+  flex:next_word :word_194.
+
+:word_193 flex:txt "ndi"@seh.
+:word_193 flex:gls "é"@pt.
+:word_193 flex:pos "Cop"@pt.
+:word_182 flex:has_word :word_194.
+:word_194 a flex:word;
+  flex:next_word :word_195.
+
+:word_194 flex:txt "wanji"@seh.
+:word_194 flex:gls "o que?"@pt.
+:word_194 flex:pos "Inter"@pt.
+:word_182 flex:has_word :word_195.
+:word_195 a flex:word.
+
+:word_195 flex:punct "?"@seh.
+:word_182 flex:segnum "12.1"@en.
+:word_182 flex:gls "e disse, 'Sim, nós estamos a ver verdadeiramente que aquele é o quê?"@pt.
+:paragraph_20 flex:has_word :word_196.
+:word_196 a flex:word.
+
+:word_196 flex:has_word :word_197.
+:word_197 a flex:word;
+  flex:next_word :word_198.
+
+:word_197 flex:txt "Ndwa"@seh.
+:word_197 flex:gls "ele é"@pt.
+:word_197 flex:pos "Cop"@pt.
+:word_196 flex:has_word :word_198.
+:word_198 a flex:word;
+  flex:next_word :word_199.
+
+:word_198 flex:txt "kupfuma"@seh.
+:word_198 flex:gls "rico"@pt.
+:word_198 flex:pos "Vadj"@pt.
+:word_196 flex:has_word :word_199.
+:word_199 a flex:word;
+  flex:next_word :word_200.
+
+:word_199 flex:punct ".'"@seh.
+:word_196 flex:has_word :word_200.
+:word_200 a flex:word.
+
+:word_200 flex:punct "..."@seh.
+:word_196 flex:segnum "12.2"@en.
+:word_196 flex:gls "'É rico.'"@pt.
+:db094e82-30fd-4f62-81e8-9c4015bfbd7f flex:has_language :language_7.
+:language_7 a flex:language;
+  flex:lang "en";
+  flex:font "Times New Roman".
+
+:db094e82-30fd-4f62-81e8-9c4015bfbd7f flex:has_language :language_8.
+:language_8 a flex:language;
+  flex:lang "pt";
+  flex:font "Times New Roman".
+
+:db094e82-30fd-4f62-81e8-9c4015bfbd7f flex:has_language :language_9.
+:language_9 a flex:language;
+  flex:lang "seh";
+  flex:font "Charis SIL";
+  flex:vernacular "true".
+
+<http://example.org/PLEASE_PROVIDE_baseURI_PARAMETER> flex:has_interlinear-text :cdddea6f-82f6-40b9-b7eb-2c8700eef348.
+:cdddea6f-82f6-40b9-b7eb-2c8700eef348 a flex:interlinear-text .
+
+:cdddea6f-82f6-40b9-b7eb-2c8700eef348 flex:title "Canoe trip"@en.
+:cdddea6f-82f6-40b9-b7eb-2c8700eef348 flex:title "Embarcou canoa"@pt.
+:cdddea6f-82f6-40b9-b7eb-2c8700eef348 flex:title "Wapakila m'mwadia"@seh.
+:cdddea6f-82f6-40b9-b7eb-2c8700eef348 flex:comment "From Anderson. 1897. Sena Grammar."@en.
+:cdddea6f-82f6-40b9-b7eb-2c8700eef348 flex:comment "Anderson, W.G.  1897. An Introductory Grammar of the Sena Language Spoken on the Lower Zambesi.  London:  Society for Promoting Christian Knowledge. p. 27."@pt.
+:cdddea6f-82f6-40b9-b7eb-2c8700eef348 flex:has_paragraph :paragraph_21.
+:paragraph_21 a flex:paragraph;
+  flex:next_paragraph :paragraph_22.
+
+:paragraph_21 flex:has_word :word_201.
+:word_201 a flex:word.
+
+:word_201 flex:has_word :word_202.
+:word_202 a flex:word;
+  flex:next_word :word_203.
+
+:word_202 flex:txt "Wapakila"@seh.
+:word_202 flex:gls ""@pt.
+:word_202 flex:pos "V"@pt.
+:word_201 flex:has_word :word_203.
+:word_203 a flex:word;
+  flex:next_word :word_204.
+
+:word_203 flex:txt "m'mwadia"@seh.
+:word_203 flex:gls "canoa"@pt.
+:word_203 flex:pos "N"@pt.
+:word_201 flex:has_word :word_204.
+:word_204 a flex:word;
+  flex:next_word :word_205.
+
+:word_204 flex:punct ","@seh.
+:word_201 flex:has_word :word_205.
+:word_205 a flex:word;
+  flex:next_word :word_206.
+
+:word_205 flex:txt "mbakwira"@seh.
+:word_205 flex:gls ""@pt.
+:word_205 flex:pos "V"@pt.
+:word_201 flex:has_word :word_206.
+:word_206 a flex:word;
+  flex:next_word :word_207.
+
+:word_206 flex:txt "pa"@seh.
+:word_206 flex:gls ""@pt.
+:word_206 flex:pos "Assoc"@pt.
+:word_201 flex:has_word :word_207.
+:word_207 a flex:word;
+  flex:next_word :word_208.
+
+:word_207 flex:txt "mudi"@seh.
+:word_201 flex:has_word :word_208.
+:word_208 a flex:word;
+  flex:next_word :word_209.
+
+:word_208 flex:txt "na"@seh.
+:word_208 flex:gls "em"@pt.
+:word_208 flex:pos "Prep"@pt.
+:word_201 flex:has_word :word_209.
+:word_209 a flex:word;
+  flex:next_word :word_210.
+
+:word_209 flex:txt "maulo"@seh.
+:word_209 flex:gls ""@pt.
+:word_209 flex:pos "N"@pt.
+:word_201 flex:has_word :word_210.
+:word_210 a flex:word;
+  flex:next_word :word_211.
+
+:word_210 flex:punct ","@seh.
+:word_201 flex:has_word :word_211.
+:word_211 a flex:word;
+  flex:next_word :word_212.
+
+:word_211 flex:txt "dzuwa"@seh.
+:word_211 flex:gls ""@pt.
+:word_211 flex:pos "N"@pt.
+:word_201 flex:has_word :word_212.
+:word_212 a flex:word;
+  flex:next_word :word_213.
+
+:word_212 flex:txt "mbidadoka"@seh.
+:word_212 flex:gls ""@pt.
+:word_212 flex:pos "V"@pt.
+:word_201 flex:has_word :word_213.
+:word_213 a flex:word;
+  flex:next_word :word_214.
+
+:word_213 flex:punct ";"@seh.
+:word_201 flex:has_word :word_214.
+:word_214 a flex:word;
+  flex:next_word :word_215.
+
+:word_214 flex:txt "mbatsama"@seh.
+:word_214 flex:gls ""@pt.
+:word_214 flex:pos "V"@pt.
+:word_201 flex:has_word :word_215.
+:word_215 a flex:word;
+  flex:next_word :word_216.
+
+:word_215 flex:txt "penepo"@seh.
+:word_215 flex:gls ""@pt.
+:word_215 flex:pos "dem6"@pt.
+:word_201 flex:has_word :word_216.
+:word_216 a flex:word.
+
+:word_216 flex:punct "."@seh.
+:word_201 flex:segnum "1"@en.
+:word_201 flex:gls ""@pt.
+:cdddea6f-82f6-40b9-b7eb-2c8700eef348 flex:has_paragraph :paragraph_22.
+:paragraph_22 a flex:paragraph.
+
+:paragraph_22 flex:has_word :word_217.
+:word_217 a flex:word.
+
+:word_217 flex:has_word :word_218.
+:word_218 a flex:word;
+  flex:next_word :word_219.
+
+:word_218 flex:txt "Na"@seh.
+:word_218 flex:gls ""@pt.
+:word_218 flex:pos "Prep"@pt.
+:word_217 flex:has_word :word_219.
+:word_219 a flex:word;
+  flex:next_word :word_220.
+
+:word_219 flex:txt "masiku"@seh.
+:word_219 flex:gls ""@pt.
+:word_219 flex:pos "N"@pt.
+:word_217 flex:has_word :word_220.
+:word_220 a flex:word;
+  flex:next_word :word_221.
+
+:word_220 flex:txt "mbazidza"@seh.
+:word_220 flex:gls ""@pt.
+:word_220 flex:pos "V"@pt.
+:word_217 flex:has_word :word_221.
+:word_221 a flex:word;
+  flex:next_word :word_222.
+
+:word_221 flex:txt "nkhalamu"@seh.
+:word_221 flex:gls ""@pt.
+:word_221 flex:pos "N"@pt.
+:word_217 flex:has_word :word_222.
+:word_222 a flex:word;
+  flex:next_word :word_223.
+
+:word_222 flex:txt "ziwiri"@seh.
+:word_222 flex:gls ""@pt.
+:word_222 flex:pos "Num"@pt.
+:word_217 flex:has_word :word_223.
+:word_223 a flex:word;
+  flex:next_word :word_224.
+
+:word_223 flex:punct ","@seh.
+:word_217 flex:has_word :word_224.
+:word_224 a flex:word;
+  flex:next_word :word_225.
+
+:word_224 flex:txt "mbazirira"@seh.
+:word_224 flex:gls ""@pt.
+:word_224 flex:pos "V"@pt.
+:word_217 flex:has_word :word_225.
+:word_225 a flex:word;
+  flex:next_word :word_226.
+
+:word_225 flex:punct ";"@seh.
+:word_217 flex:has_word :word_226.
+:word_226 a flex:word;
+  flex:next_word :word_227.
+
+:word_226 flex:txt "mbagopa"@seh.
+:word_226 flex:gls ""@pt.
+:word_226 flex:pos "V"@pt.
+:word_217 flex:has_word :word_227.
+:word_227 a flex:word;
+  flex:next_word :word_228.
+
+:word_227 flex:punct ","@seh.
+:word_217 flex:has_word :word_228.
+:word_228 a flex:word;
+  flex:next_word :word_229.
+
+:word_228 flex:txt "mbapakila"@seh.
+:word_228 flex:gls ""@pt.
+:word_228 flex:pos "V"@pt.
+:word_217 flex:has_word :word_229.
+:word_229 a flex:word;
+  flex:next_word :word_230.
+
+:word_229 flex:txt "pontho"@seh.
+:word_229 flex:gls ""@pt.
+:word_229 flex:pos "Adv"@pt.
+:word_217 flex:has_word :word_230.
+:word_230 a flex:word;
+  flex:next_word :word_231.
+
+:word_230 flex:txt "m'mwadia"@seh.
+:word_230 flex:gls ""@pt.
+:word_230 flex:pos "N"@pt.
+:word_217 flex:has_word :word_231.
+:word_231 a flex:word;
+  flex:next_word :word_232.
+
+:word_231 flex:punct ","@seh.
+:word_217 flex:has_word :word_232.
+:word_232 a flex:word;
+  flex:next_word :word_233.
+
+:word_232 flex:txt "mbawambuka"@seh.
+:word_232 flex:gls ""@pt.
+:word_232 flex:pos "V"@pt.
+:word_217 flex:has_word :word_233.
+:word_233 a flex:word;
+  flex:next_word :word_234.
+
+:word_233 flex:txt "ku"@seh.
+:word_233 flex:gls ""@pt.
+:word_233 flex:pos "Prep"@pt.
+:word_217 flex:has_word :word_234.
+:word_234 a flex:word;
+  flex:next_word :word_235.
+
+:word_234 flex:txt "nsua"@seh.
+:word_234 flex:gls ""@pt.
+:word_234 flex:pos "N"@pt.
+:word_217 flex:has_word :word_235.
+:word_235 a flex:word.
+
+:word_235 flex:punct "."@seh.
+:word_217 flex:segnum "2"@en.
+:word_217 flex:gls ""@pt.
+:cdddea6f-82f6-40b9-b7eb-2c8700eef348 flex:has_language :language_10.
+:language_10 a flex:language;
+  flex:lang "en";
+  flex:font "Times New Roman".
+
+:cdddea6f-82f6-40b9-b7eb-2c8700eef348 flex:has_language :language_11.
+:language_11 a flex:language;
+  flex:lang "pt";
+  flex:font "Times New Roman".
+
+:cdddea6f-82f6-40b9-b7eb-2c8700eef348 flex:has_language :language_12.
+:language_12 a flex:language;
+  flex:lang "seh";
+  flex:font "Charis SIL";
+  flex:vernacular "true".
+
