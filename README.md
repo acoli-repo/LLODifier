@@ -15,6 +15,8 @@ We distinguish two major types of corpus formalisms
 
 A third group are interlinear glosses (e.g., flex) as produced in language documentation and linguistic typology. Traditionally, FLEx (and its predecessors Toolbox and Shoebox) export to anchor-based formats (e.g., ELAN), as they may include multimedia content, but mapping to a word-based model is also possible. We provide two approximative renderings based on NIF, but there are massive conceptual mismatches that render this a heuristic approximation, at best (we map FLEx morphs or terminal words to NIF words, FLEx phrases to NIF sentences, FLEx non-terminal words to NIF phrases). NIF rendering is recommended to be used for visualization only, otherwise, stay with the naive model.
 
+Finally, we provide an RDF representation of the original XML data model, applicable for converting TEI data.
+
 Future work will aim at providing a generalization over these different data models, to be implemented with SPARQL Update.
 
 Directory vis/ contains visualization routines with sample output (restricted to the first few ag:anchors, resp. the first nif:Sentence).

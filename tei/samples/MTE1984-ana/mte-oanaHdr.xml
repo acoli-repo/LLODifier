@@ -1,0 +1,358 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?oxygen RNGSchema="schema/tei_mte.rnc" type="compact"?>
+<teiHeader xmlns="http://www.tei-c.org/ns/1.0" type="corpus" xml:lang="en" xml:id="mte-oana.teiHeader">
+  <fileDesc>
+    <titleStmt>
+      <title xml:id="mte-oana.title">MULTEXT-East word-level annotated multilingual corpus: Nineteen Eighty-Four</title>
+      <respStmt>
+        <name>Tomaž Erjavec, IJS</name> 
+        <resp>TEI encoding</resp>
+      </respStmt>
+      <respStmt><name>Nancy Ide, Vassar</name> <resp>English data</resp></respStmt>
+      <respStmt><name>Dan Tufiş, RACAI</name> <resp>Romanian data</resp></respStmt>
+      <respStmt><name>Heiki-Jaan Kaalep, TU</name> <resp>Estonian data</resp></respStmt>
+      <respStmt><name>Csaba Oravecz, HAS</name> <resp>Hungarian data</resp></respStmt>
+      <respStmt><name>Vladimír Petkevič, ITCL</name> <resp>Czech data</resp></respStmt>
+      <respStmt><name>Ludmila Dimitrova, BAS</name> <resp>Bulgarian data</resp></respStmt>
+      <respStmt><name>Cvetana Krstev, Duško Vitas</name> <resp>Serbian data</resp></respStmt>
+      <respStmt><name>Tomaž Erjavec, IJS</name> <resp>Slovene data</resp></respStmt>
+      <respStmt><name>Katerina Zdravkova</name> <resp>Macedonian</resp></respStmt>
+      <respStmt><name>Behrang QasemiZadeh</name> <resp>Persian data</resp></respStmt>
+      <respStmt><name>Natalia Kotsyba</name> <resp>Polish data</resp></respStmt>
+      <respStmt><name>Radovan Garabik</name> <resp>Slovak data</resp></respStmt>
+      <funder>EU Copernicus Project COP106 "MULTEXT-East"</funder>
+      <funder>EU Copernicus Concerted Action "TELRI"</funder>
+      <funder>EU Copernicus Project PL96-1142 "Concede"</funder>
+      <funder>EU Capacities Project GA 211938 "MondiLex"</funder>
+      <funder>Individual partners' grants and contracts</funder>
+    </titleStmt>
+    <editionStmt><edition>MULTEXT-East, Version 4</edition></editionStmt>
+    <extent>
+      <measure type="words">968,354 word tokens</measure>
+    </extent>
+    <publicationStmt>
+      <distributor>MULTEXT-East Web site</distributor>
+      <address>
+        <addrLine>
+          <ref target="http://nl.ijs.si/ME/V4/">http://nl.ijs.si/ME/V4/</ref>
+        </addrLine>
+      </address>
+      <distributor>Individual partners, c.f. component headers</distributor>
+      <availability>
+        <p>Available for research purposes upon receipt of agreement. 
+	  In published work based on this resource please cite the appropriate publication from the home page of the project.</p>
+      </availability>
+      </publicationStmt>
+      <sourceDesc>
+	<biblFull>
+	  <titleStmt>
+	    <title>Multext-East/Concede: Nineteen Eighty-Four, Multilingual</title>
+	    <funder>EU Copernicus Project PL96-1142 "Concede"</funder>
+	    <funder>EU Copernicus Project COP106 "MULTEXT-East"</funder>
+	    <funder>Individual partners' grants and contracts.</funder>
+	  </titleStmt>
+	  <editionStmt>
+	    <edition>Version 3</edition>
+	  </editionStmt>
+	  <publicationStmt>
+	    <distributor>MULTEXT-East Web site</distributor>
+	    <address>
+	      <addrLine>http://nl.ijs.si/ME/V3/</addrLine>
+	    </address>
+	    <availability>
+	      <p>Available for research purposes upon receipt of signed agreement.</p>
+	    </availability>
+	    <date when="2004-05-10">2004-05-10</date>
+	  </publicationStmt>
+	  <sourceDesc>
+	    <biblFull>
+	      <titleStmt>
+		<title>Multext-East cesAna: Nineteen Eighty-Four</title>
+		<funder>EU Copernicus Project COP106 "MULTEXT-East"</funder>
+		<funder>EU Copernicus Action "TELRI"</funder>
+	      </titleStmt>
+	      <editionStmt>
+		<edition>MULTEXT-East Final Release</edition>
+	      </editionStmt>
+	      <publicationStmt>
+		<distributor>TRACTOR: TELRI Research Archive of Computational Tools and Resources</distributor>
+		<pubPlace>"East meets West" CD-ROM, ISBN 3-922641-46-6</pubPlace>
+		<distributor>MULTEXT-East Web site</distributor>
+		<address>
+		  <addrLine>http://nl.ijs.si/ME/CD/</addrLine>
+		</address>
+		<date when="1998-01-01">January 1st, 1998</date>
+	      </publicationStmt>
+	      <sourceDesc>
+		<listBibl>
+		  <biblStruct xml:lang="en">
+		    <monogr>
+		      <title>1984</title>
+		      <author>George Orwell</author>
+		      <imprint>
+			<date>1949; reprinted 1961</date>
+			<publisher>New American Library</publisher>
+			<pubPlace>New York</pubPlace>
+		      </imprint>
+		    </monogr>
+		  </biblStruct>
+		  <biblStruct xml:lang="bg">
+		    <monogr>
+		      <title>1984</title> 
+		      <author>George Orwell</author>
+                      <respStmt>
+                        <name>Lydia Bozhilova</name>
+			<resp>Translator</resp>
+                      </respStmt>
+		      <imprint>
+			<date>1989</date> 
+			<publisher>Profizdat</publisher> 
+			<pubPlace>Sofia</pubPlace>
+		      </imprint>
+		    </monogr>
+		  </biblStruct>
+		  <biblStruct xml:lang="cs">
+		    <monogr>
+		      <title>1984</title>
+		      <author>George Orwell</author>
+                      <respStmt>
+                        <name>Eva Šimečková</name>
+                        <resp>Translator</resp>
+                      </respStmt>
+		      <imprint>
+			<date>1991</date>
+			<publisher>Naše vojsko</publisher>
+			<pubPlace>Prague</pubPlace>
+		      </imprint>
+		    </monogr>
+		  </biblStruct>
+		  <biblStruct xml:lang="et">
+		    <monogr>
+		      <title>1984</title>
+		      <author>George Orwell</author>
+                      <respStmt>
+                        <name>Elias Treeman</name>
+                        <resp>Translator</resp>
+                      </respStmt>
+		      <imprint>
+			<date>1990</date>
+			<publisher>Loomingu Raamatukogu nr. 48-51</publisher>
+			<publisher>Perioodika</publisher>
+			<pubPlace>Tallinn</pubPlace>
+		      </imprint>
+		    </monogr>
+		  </biblStruct>
+		  <biblStruct xml:lang="fa">
+		    <monogr>
+		      <title>هزار و نهصد و هشتاد و چهار</title>
+		      <author>George Orwell</author>
+                      <respStmt>
+                        <name>Saleh Hoseini</name>
+                        <resp>Translator</resp>
+                      </respStmt>
+		      <imprint>
+			<date>2006</date>
+			<publisher>Niloofar Publishing</publisher>
+			<pubPlace>Tehran, Iran</pubPlace>
+		      </imprint>
+		    </monogr>
+		  </biblStruct>
+		  <biblStruct xml:lang="hu">
+		    <monogr>
+		      <title>1984</title>
+		      <author>George Orwell</author>
+		      <imprint>
+			<date>1989</date>
+			<publisher>Európa Könyvkiadó</publisher>
+			<pubPlace>Budapest</pubPlace>
+		      </imprint>
+		    </monogr>
+		  </biblStruct>
+		  <biblStruct xml:lang="mk">
+		    <monogr>
+		      <title>1984</title>
+		      <author>George Orwell</author>
+                      <respStmt>
+                        <name>Nevenka Mitrevska</name>
+                        <resp>Translator</resp>
+                      </respStmt>
+		      <imprint>
+			<date>1998</date>
+			<publisher>Detska Radost</publisher>
+			<pubPlace>Skopje, Macedonia</pubPlace>
+		      </imprint>
+		    </monogr>
+		  </biblStruct>
+		  <biblStruct xml:lang="pl">
+		    <monogr>
+		      <title>1984</title>
+		      <author>George Orwell</author>
+                      <respStmt>
+                        <name>Tomasz Mirkowicz</name>
+                        <resp>Translator</resp>
+                      </respStmt>
+		      <imprint>
+			<date>1993</date>
+			<publisher>Da Capo</publisher>
+			<pubPlace>Warsaw, Poland</pubPlace>
+		      </imprint>
+		    </monogr>
+		  </biblStruct>
+		  <biblStruct xml:lang="ro">
+		    <monogr>
+		      <title>O mie nouă sute optzeci şi patru</title>
+		      <author>George Orwell</author>
+                      <respStmt>
+                        <name>Mihnea Gafiţa</name>
+                        <resp>Translator</resp>
+                      </respStmt>
+		      <imprint>
+			<date>1991</date>
+			<publisher>Editura Univers</publisher>
+			<pubPlace>Bucharest</pubPlace>
+		      </imprint>
+		    </monogr>
+		  </biblStruct>
+		  <biblStruct xml:lang="sk">
+		    <monogr>
+		      <title>Tisíc deväťsto osemdesiatštyri</title>
+		      <author>George Orwell</author>
+                      <respStmt>
+                        <name>Juraj Vojtek</name>
+                        <resp>Translator</resp>
+                      </respStmt>
+		      <imprint>
+			<date>1998</date>
+			<publisher>Slovart</publisher>
+			<pubPlace>Bratislava, Slovak Republic</pubPlace>
+		      </imprint>
+		    </monogr>
+		  </biblStruct>
+		  <biblStruct xml:lang="sl">
+		    <monogr>
+		      <title>1984</title>
+		      <author>George Orwell</author>
+                      <respStmt>
+                        <name>Alenka Puhar</name>
+                        <resp>Translator</resp>
+                      </respStmt>
+		      <imprint>
+			<date>1983</date>
+			<publisher>Knjižnica Kondor</publisher>
+			<publisher>Mladinska knjiga</publisher>
+			<pubPlace>Ljubljana</pubPlace>
+		      </imprint>
+		    </monogr>
+		  </biblStruct>
+		  <biblStruct xml:lang="sr">
+		    <monogr>
+		      <title>1984</title>
+		      <author>George Orwell</author>
+                      <respStmt>
+                        <name>Vlada Stojiljković</name>
+                        <resp>Translator</resp>
+                      </respStmt>
+		      <imprint>
+			<date>1989</date>
+			<publisher>Beogradski izdavačko-grafički zavod</publisher>
+			<pubPlace>Beograd</pubPlace>
+		      </imprint>
+		    </monogr>
+		  </biblStruct>
+		</listBibl>
+	      </sourceDesc>
+	    </biblFull>
+	  </sourceDesc>
+	</biblFull>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+    <projectDesc>
+      <p>MULTEXT-East: 
+         Multilingual Text Tools and Corpora for 
+         Central and Eastern European Languages. 
+         <ptr target="http://nl.ijs.si/ME/"/>
+      </p>
+    </projectDesc>
+    <editorialDecl>
+      <correction method="silent">
+        <p>Since the CD-ROM release of the 1984s, many errors
+        of linguistic annotations have been corrected in the
+        individual texts.</p> 
+        <p>In the process of conversion to TEI, various format errors were
+        detected and corrected.</p>
+      </correction>
+      <normalization method="silent">
+        <p>The novels have their markup normalised: a) structure
+        annotation with div and p (attributes xml:id and type); b)
+        segmentation annotation with s (attribute xml:id); c) tokenisation
+        annotation with w, c, (attribute type) d) linguistic
+        annotation with w attributes lemma and ana.</p>
+        <p>All the novels use UTF-8 encoding.</p>
+      </normalization>
+      <quotation marks="all" form="unknown">
+        <p>quote elements have been in general changed to P</p>
+        <p>q markup has been in some novels (see individual Headers) 
+         omitted, while it is in others present as quote.</p>
+      </quotation>
+      <segmentation>
+        <p>Segmentation into paragraphs follows the printed sources;
+	  it therefore not 1-1 with the English original. Segmentation into
+	  sentences was performed automatically and then hand-validated.</p>
+        <p>Tokenisation into words and punctuation symbols was perfumed
+	  on the basis of MULTEXT-East lexica, mostly with the MULTEXT tools
+	  'mtseg' and then hand-validated.</p>
+      </segmentation>
+      <hyphenation>
+        <p>No end-of-line hyphenation present in texts.</p>
+      </hyphenation>
+      <interpretation>
+        <p>The linguistic interpretation of the text consists of
+	  marking up the word tokens with their context disambiguated lemma and 
+	  MULTEXT-East morphosyntactic description. The various texts have
+	  undergone various amounts of validation, so error-rates between
+	  them differ.</p>
+      </interpretation>
+      <stdVals>
+        <p>The two-letter language codes follow ISO 639.</p>
+        <p>The MULTEXT-East morphosyntactic descriptions (MSDs) follow
+	  the revised common tables of lexical specifications
+	  MULTEXT-East/Mondilex. The lexical MSDs have been converted to a fslib,
+	  a feature-structure library, while their decomposition into features
+	  is given in a flib, a feature library. 
+	  The words in the texts have theirs MSD encoded as the value
+	  of the ana (#IDREF) attribute. This attribute refers to a fs, which, in
+	  turn, refers via its #IDREFS feats to the f elemetns that define it.</p>
+      </stdVals>
+    </editorialDecl>
+  </encodingDesc>
+  <profileDesc>
+    <langUsage>
+      <language ident="bg">Bulgarian</language>      <!--SLAVIC-->
+      <language ident="cs">Czech</language>          <!--SLAVIC-->
+      <language ident="en">English</language>        <!--GERMANIC-->
+      <language ident="et">Estonian</language>       <!--FINNO-UGRIC-->
+      <language ident="hr">Croatian</language>       <!--SLAVIC-->
+      <language ident="hu">Hungarian</language>      <!--FINNO-UGRIC-->
+      <language ident="mk">Macedonian</language>     <!--SLAVIC-->
+      <language ident="pl">Polish</language>         <!--SLAVIC-->
+      <language ident="ro">Romanian</language>       <!--ROMANCE-->
+      <language ident="ru">Russian</language>        <!--SLAVIC-->
+      <language ident="sh">Serbo-Croatian</language> <!--SLAVIC-->
+      <language ident="sk">Slovak</language>         <!--SLAVIC-->
+      <language ident="sl">Slovene</language>        <!--SLAVIC-->
+      <language ident="sl-rozaj">Resian (dialect of Slovene)</language>
+      <language ident="sr">Serbian</language>        <!--SLAVIC-->
+      <language ident="uk">Ukrainian</language>      <!--SLAVIC-->
+    </langUsage>
+  </profileDesc>
+  <revisionDesc>
+    <change><date>2010-05-09</date><name>Tomaž Erjavec</name>Conversion to MULTEXT-East V4 / TEI P5.</change>
+    <change><date>2004-05-10</date><name>Tomaž Erjavec</name>From BETA to FINAL V3</change>
+    <change><date>2004-04-09</date><name>Tomaž Erjavec</name>Added Serbian</change>
+    <change><date>2004-02-27</date><name>Tomaž Erjavec</name>Harmonised with TELRI/cesDoc corpus.</change>
+    <change><date>2003-02-11</date><name>Tomaž Erjavec</name>Conversion to TEI P4 XML</change>
+    <change><date>2001-03-19</date><name>Tomaž Erjavec</name>Modifications to teiHeaders; new MSD library</change>
+    <change><date>2000-10-30</date><name>Tomaž Erjavec</name>Conversion to TEI, initial teiHeader</change>
+</revisionDesc>
+</teiHeader>

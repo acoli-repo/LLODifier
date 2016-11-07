@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?oxygen RNGSchema="schema/tei_mte.rnc" type="compact"?>
+<!DOCTYPE TEI SYSTEM "schema/tei_mte.dtd" [
+  <!ENTITY oalg-ana  SYSTEM "oalg-bgcsenethumkroslsr.xml">
+  <!ENTITY oalg-bgcs SYSTEM "oalg-bgcs.xml">
+  <!ENTITY oalg-bgen SYSTEM "oalg-bgen.xml">
+  <!ENTITY oalg-bget SYSTEM "oalg-bget.xml">
+  <!ENTITY oalg-bghu SYSTEM "oalg-bghu.xml">
+  <!ENTITY oalg-bgmk SYSTEM "oalg-bgmk.xml">
+  <!ENTITY oalg-bgro SYSTEM "oalg-bgro.xml">
+  <!ENTITY oalg-bgsl SYSTEM "oalg-bgsl.xml">
+  <!ENTITY oalg-bgsr SYSTEM "oalg-bgsr.xml">
+  <!ENTITY oalg-csen SYSTEM "oalg-csen.xml">
+  <!ENTITY oalg-cset SYSTEM "oalg-cset.xml">
+  <!ENTITY oalg-cshu SYSTEM "oalg-cshu.xml">
+  <!ENTITY oalg-csmk SYSTEM "oalg-csmk.xml">
+  <!ENTITY oalg-csro SYSTEM "oalg-csro.xml">
+  <!ENTITY oalg-cssl SYSTEM "oalg-cssl.xml">
+  <!ENTITY oalg-cssr SYSTEM "oalg-cssr.xml">
+  <!ENTITY oalg-enet SYSTEM "oalg-enet.xml">
+  <!ENTITY oalg-enhu SYSTEM "oalg-enhu.xml">
+  <!ENTITY oalg-enmk SYSTEM "oalg-enmk.xml">
+  <!ENTITY oalg-enro SYSTEM "oalg-enro.xml">
+  <!ENTITY oalg-ensl SYSTEM "oalg-ensl.xml">
+  <!ENTITY oalg-ensr SYSTEM "oalg-ensr.xml">
+  <!ENTITY oalg-ethu SYSTEM "oalg-ethu.xml">
+  <!ENTITY oalg-etmk SYSTEM "oalg-etmk.xml">
+  <!ENTITY oalg-etro SYSTEM "oalg-etro.xml">
+  <!ENTITY oalg-etsl SYSTEM "oalg-etsl.xml">
+  <!ENTITY oalg-etsr SYSTEM "oalg-etsr.xml">
+  <!ENTITY oalg-humk SYSTEM "oalg-humk.xml">
+  <!ENTITY oalg-huro SYSTEM "oalg-huro.xml">
+  <!ENTITY oalg-husl SYSTEM "oalg-husl.xml">
+  <!ENTITY oalg-husr SYSTEM "oalg-husr.xml">
+  <!ENTITY oalg-mkro SYSTEM "oalg-mkro.xml">
+  <!ENTITY oalg-mksl SYSTEM "oalg-mksl.xml">
+  <!ENTITY oalg-mksr SYSTEM "oalg-mksr.xml">
+  <!ENTITY oalg-rosl SYSTEM "oalg-rosl.xml">
+  <!ENTITY oalg-rosr SYSTEM "oalg-rosr.xml">
+  <!ENTITY oalg-slsr SYSTEM "oalg-slsr.xml">
+]>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" >
+<teiHeader xml:lang="en">
+  <fileDesc>
+    <titleStmt>
+      <title>MULTEXT-East sentence-level alignments for multilingual corpus: Nineteen Eighty-Four</title>
+      <respStmt>
+        <name>Tomaž Erjavec, IJS</name> 
+        <resp>TEI encoding</resp>
+      </respStmt>
+      <respStmt>
+        <name>Darko Cerepnalkoski, IJS</name> 
+        <resp>Procedure for computing alignments based on en-xx alignments</resp>
+      </respStmt>
+      <respStmt><name>Dan Tufiş, RACAI</name> <resp>Romanian data</resp></respStmt>
+      <respStmt><name>Heiki-Jaan Kaalep, TU</name> <resp>Estonian data</resp></respStmt>
+      <respStmt><name>Csaba Oravecz, HAS</name> <resp>Hungarian data</resp></respStmt>
+      <respStmt><name>Andrius Utka</name> <resp>Lithuanian data</resp></respStmt>
+      <respStmt><name>Vladimír Petkevič, ITCL</name> <resp>Czech data</resp></respStmt>
+      <respStmt><name>Ludmila Dimitrova, BAS</name> <resp>Bulgarian data</resp></respStmt>
+      <respStmt><name>Cvetana Krstev, Duško Vitas</name> <resp>Serbian data</resp></respStmt>
+      <respStmt><name>Tomaž Erjavec, IJS</name> <resp>Slovene data</resp></respStmt>
+      <respStmt><name>Katerina Zdravkova</name> <resp>Macedonian</resp></respStmt>
+      <funder>EU Copernicus Project COP106 "MULTEXT-East"</funder>
+      <funder>EU Copernicus Concerted Action "TELRI"</funder>
+      <funder>EU Copernicus Project PL96-1142 "Concede"</funder>
+      <funder>EU Capacities Project GA 211938 "MondiLex"</funder>
+      <funder>Individual partners' grants and contracts</funder>
+    </titleStmt>
+    <editionStmt><edition>MULTEXT-East, Version 4</edition></editionStmt>
+    <publicationStmt>
+      <distributor>MULTEXT-East Web site</distributor>
+      <address>
+        <addrLine>
+          <ref target="http://nl.ijs.si/ME/V4/">http://nl.ijs.si/ME/V4/</ref>
+        </addrLine>
+      </address>
+      <availability>
+        <p>Available for research purposes upon receipt of agreement. 
+	  In published work based on this resource please cite the appropriate publication from the home page of the project.</p>
+      </availability>
+      </publicationStmt>
+      <sourceDesc>
+	<biblFull>
+	  <titleStmt>
+	    <title>Multext-East: Nineteen Eighty-Four, Multilingual</title>
+	  </titleStmt>
+	  <publicationStmt>
+	    <distributor>MULTEXT-East Web site</distributor>
+	    <address>
+	      <addrLine>http://nl.ijs.si/ME/V3/</addrLine>
+	    </address>
+	    <availability>
+	      <p>Available for research purposes upon receipt of signed agreement.</p>
+	    </availability>
+	    <date when="2004-05-10">2004-05-10</date>
+	  </publicationStmt>
+	</biblFull>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+    <projectDesc>
+      <p>MULTEXT-East: 
+         Multilingual Text Tools and Corpora for 
+         Central and Eastern European Languages. 
+         <ptr target="http://nl.ijs.si/ME/"/>
+      </p>
+    </projectDesc>
+    <editorialDecl>
+        <p>This "corpus" contains the sentence level alignments of the 
+          "1984" MULTEXT-East corpus. The pair-wise alignments of the translations
+          with the English original were automatically produced and then hand validated.
+	  The other alignments were automatically produced from the alignemts with English,
+          using a program developed by Darko Cerepnalkoski.
+	</p>
+    </editorialDecl>
+  </encodingDesc>
+  <profileDesc>
+    <langUsage>
+      <language ident="bg">Bulgarian</language>      <!--SLAVIC-->
+      <language ident="cs">Czech</language>          <!--SLAVIC-->
+      <language ident="en">English</language>        <!--GERMANIC-->
+      <language ident="et">Estonian</language>       <!--FINNO-UGRIC-->
+      <language ident="hr">Croatian</language>       <!--SLAVIC-->
+      <language ident="hu">Hungarian</language>      <!--FINNO-UGRIC-->
+      <language ident="mk">Macedonian</language>     <!--SLAVIC-->
+      <language ident="pl">Polish</language>         <!--SLAVIC-->
+      <language ident="ro">Romanian</language>       <!--ROMANCE-->
+      <language ident="ru">Russian</language>        <!--SLAVIC-->
+      <language ident="sh">Serbo-Croatian</language> <!--SLAVIC-->
+      <language ident="sk">Slovak</language>         <!--SLAVIC-->
+      <language ident="sl">Slovene</language>        <!--SLAVIC-->
+      <language ident="sl-rozaj">Resian (dialect of Slovene)</language>
+      <language ident="sr">Serbian</language>        <!--SLAVIC-->
+      <language ident="uk">Ukrainian</language>      <!--SLAVIC-->
+    </langUsage>
+  </profileDesc>
+  <revisionDesc>
+    <change><date>2010-05-09</date><name>Tomaž Erjavec</name> Removed oalg-10, as it is not valid either in oana or doc.</change>
+    <change><date>2010-04-23</date><name>Tomaž Erjavec</name> Made header and alignments for V4.</change>
+</revisionDesc>
+</teiHeader>
+<text>
+<body>
+<div>&oalg-ana;</div>
+<div>&oalg-bgcs;</div>
+<div>&oalg-bgen;</div>
+<div>&oalg-bget;</div>
+<div>&oalg-bghu;</div>
+<div>&oalg-bgmk;</div>
+<div>&oalg-bgro;</div>
+<div>&oalg-bgsl;</div>
+<div>&oalg-bgsr;</div>
+<div>&oalg-csen;</div>
+<div>&oalg-cset;</div>
+<div>&oalg-cshu;</div>
+<div>&oalg-csmk;</div>
+<div>&oalg-csro;</div>
+<div>&oalg-cssl;</div>
+<div>&oalg-cssr;</div>
+<div>&oalg-enet;</div>
+<div>&oalg-enhu;</div>
+<div>&oalg-enmk;</div>
+<div>&oalg-enro;</div>
+<div>&oalg-ensl;</div>
+<div>&oalg-ensr;</div>
+<div>&oalg-ethu;</div>
+<div>&oalg-etmk;</div>
+<div>&oalg-etro;</div>
+<div>&oalg-etsl;</div>
+<div>&oalg-etsr;</div>
+<div>&oalg-humk;</div>
+<div>&oalg-huro;</div>
+<div>&oalg-husl;</div>
+<div>&oalg-husr;</div>
+<div>&oalg-mkro;</div>
+<div>&oalg-mksl;</div>
+<div>&oalg-mksr;</div>
+<div>&oalg-rosl;</div>
+<div>&oalg-rosr;</div>
+<div>&oalg-slsr;</div>
+</body>
+</text>
+</TEI>
