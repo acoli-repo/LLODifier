@@ -16,6 +16,7 @@
         <!-- write TTL header -->
         <xsl:text>PREFIX dc: &lt;http://purl.org/dc/elements/1.1/&gt;&#10;</xsl:text>
         <xsl:text>PREFIX tei: &lt;http://www.tei-c.org/ns/1.0/&gt;&#10;</xsl:text>
+        <xsl:text>PREFIX rdfs: &lt;http://www.w3.org/2000/01/rdf-schema#&gt;&#10;</xsl:text>
         <xsl:text>PREFIX xml: &lt;http://www.w3.org/XML/1998/namespace/&gt;&#10;</xsl:text>
         <xsl:text>PREFIX : &lt;</xsl:text>
         <xsl:value-of select="$baseURI"/>
@@ -40,11 +41,11 @@
         <xsl:text> a tei:</xsl:text>
         <xsl:value-of select="name()"/>
         <xsl:for-each select="..[name()!='']">
-            <xsl:text>;&#10;  xml:parent </xsl:text>
+            <xsl:text> ;&#10;  xml:parent </xsl:text>
             <xsl:call-template name="get-id"/>
         </xsl:for-each>
         <xsl:for-each select="@*[string-length(normalize-space(.))&gt;0][not(contains(name(),':'))]">
-            <xsl:text>;&#10;  tei:</xsl:text>
+            <xsl:text> ;&#10;  tei:</xsl:text>
             <xsl:value-of select="name()"/>
             <xsl:text> </xsl:text>
             <xsl:choose>
@@ -68,7 +69,7 @@
             </xsl:choose>
         </xsl:for-each>
         <xsl:for-each select="./following-sibling::node()[string(.)='' or normalize-space(.)!=''][1]">
-            <xsl:text>;&#10;  xml:following-sibling </xsl:text>
+            <xsl:text> ;&#10;  xml:following-sibling </xsl:text>
             <xsl:choose>
                 <xsl:when test="name()!=''">
                     <xsl:call-template name="get-id"/>
@@ -90,19 +91,19 @@
             <xsl:text>_:cdata_</xsl:text>
             <xsl:value-of select="count(preceding::text())+count(ancestor-or-self::text())"/>
             <xsl:text> a xml:CDATA</xsl:text>
-            <xsl:text>;&#10;  rdfs:label "</xsl:text>
+            <xsl:text> ;&#10;  rdfs:label "</xsl:text>
             <xsl:value-of select="replace(replace(normalize-space(.),'&amp;','&amp;&amp;'),'&quot;','&amp;quot;')"/>
             <xsl:text>"</xsl:text>
             <xsl:for-each select="(./ancestor::*[@xml:lang!=''])[1]/@xml:lang">
                 <xsl:text>@</xsl:text>
                 <xsl:value-of select="."/>
             </xsl:for-each>
-            <xsl:text>;&#10;  xml:parent </xsl:text>
+            <xsl:text> ;&#10;  xml:parent </xsl:text>
             <xsl:for-each select="..">
                 <xsl:call-template name="get-id"/>
             </xsl:for-each>
             <xsl:for-each select="./following-sibling::node()[string(.)='' or normalize-space(.)!=''][1]">
-                <xsl:text>;&#10;  xml:following-sibling </xsl:text>
+                <xsl:text> ;&#10;  xml:following-sibling </xsl:text>
                 <xsl:choose>
                     <xsl:when test="name()!=''">
                         <xsl:call-template name="get-id"/>
@@ -122,7 +123,7 @@
         <xsl:choose>
             <xsl:when test="@xml:id!=''">
                 <xsl:text>:</xsl:text>
-                <xsl:value-of select="replace(@xml:id,'.$','_')"/>
+                <xsl:value-of select="replace(@xml:id,'\.$','_')"/>
             </xsl:when>
             <xsl:otherwise>
                 <xsl:variable name="name" select="name()"/>

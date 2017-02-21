@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform" version="1.0">
+<xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform" version="2.0">
 
     <!-- 
         FLEx ITG LLODifier, using the ITG XML export (cf. FlexInterlinear.xsd packaged with the tool 
@@ -84,7 +84,7 @@
         <xsl:value-of select="name()"/>
         <xsl:if test="@location!=''">
             <xsl:text>;&#10;  owl:sameAs &lt;</xsl:text>
-            <xsl:value-of select="@location"/>
+            <xsl:value-of select="replace(@location,' ','%20')"/>
             <xsl:text>&gt;</xsl:text>
         </xsl:if>
         <xsl:for-each select="../@*|@*[name()!='location' and name()!='guid']">
