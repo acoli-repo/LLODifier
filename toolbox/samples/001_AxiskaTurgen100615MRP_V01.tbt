@@ -1,0 +1,61 @@
+\_sh v3.0  400  Text
+
+\id 001
+\ref 0:00:00.6
+\per
+\tx abʊ      bøjk   kyʧyk   kælɪnɪmɪz               bʊ       da   bɞjʏk kɛlɪnɪmɪz               jʊ
+\ltr abu       böjk   küčük kälinimiz                  bu        da   böjük kälinimiz                  ju
+\mb abu       böjük küčük kälin          -(I)mIz     bu        dA   böjük kälin          -(I)mIz     ju
+\ge this      big     small    daughter-in-law -poss.1pl   this      also big     daughter-in-law -poss.1pl   interjection
+\ps pron(dem) adj     adj      n               -pron(poss) pron(dem) ptcl adj     n               -pron(poss) interjection
+
+\ft This is our big (corr.) small daughter-in-law, this is our big daughter-in-law.
+\nt
+
+\id 001
+\ref 0:00:04.5
+\per
+\tx bu        bɞjk   kyʧʏk  kɜlənɪmɪz               bu        dɐ  qajnanasɪ
+\ltr bu        böjk   küčük kälïnimiz                 bu        da   qajnanasi
+\mb bu        böjük küčük kälin          -(I)mIz     bu        dA   qajnana       -(s)I(n)
+\ge this      big     small    daughter-in-law -poss.1pl   this      also mother-in-law -poss.3sg
+\ps pron(dem) adj     adj      n               -pron(poss) pron(dem) ptcl n             -pron(poss)
+
+\ft This is our big (corr.) small daughter-in-law, this is her mother-in-law.
+\nt
+
+\id 001
+\ref 0:00:09.2
+\per
+\tx bujʊrʊn             jɛjɪn        xinkalɯməzɯ
+\ltr bujurun               jäjin         xinkalïmïzï
+\mb bujur      -(j)In(Iz) jä -(j)In(Iz) xinkal -(I)mIz     -(j)I
+\ge condescend -imp.2pl   eat -imp.2pl   Xinkal -poss.1pl   -akk
+\ps v          -imp       v   -imp       n      -pron(poss) -case
+
+\ft Please eat our Xinkal.
+\nt buyurmak can be translated as 'please'
+
+\id 001
+\ref 0:00:11.0
+\per
+\tx bujʊrʊrsɯz
+\ltr bujurursïz
+\mb bujur      -(A/I)r -sIz
+\ge condescend -aorist -2pl
+\ps v          -tense  -pers.end
+
+\ft Please (sit down).
+\nt 00:12.0 - 00:13.6  russisch
+
+\id 001
+\ref 0:00:13.6
+\per
+\tx xaβaɫɛ gɛtʏrə xɪnkalɪ    belɛ gɛtʊr bi jɛnɪ          dɛ  dɤvɐj bʊ       sʊfrajɤ   dɐ  bujrʊn               gɛlɪn         belɛ
+\ltr xavalä   gätürï xinkali      belä gätur  bi jäni           dä  dïvaj  bu        sufrajï    da   bujrun                gälin          belä
+\mb xavalä   gätur    xinkal -(j)I belä gätur  bu jän      -(j)I dA   davaj   bu        sufra -(j)A dA   bujur      -(j)In(Iz) gäl -(j)In(Iz) belä
+\ge so        bring     Xinkal -akk  so    bring   thimove.down -akk  also imp     this      table -dat  also condescend -imp.2pl   come -imp.2pl   so
+\ps adv       v         n      -case adv   v       prov         -case ptcl ptcl    pron(dem) n     -case ptcl v          -imp       v    -imp       adv
+
+\ft So bring the Xinkal, bring it here, sit down at table, come here.
+\nt
