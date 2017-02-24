@@ -1,0 +1,267 @@
+PREFIX flex: <http://fieldworks.sil.org/flex/interlinear/>
+PREFIX toolbox: <http://www-01.sil.org/computing/toolbox/>
+PREFIX owl: <http://www.w3.org/2002/07/owl#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX : <file:samples/001_AxiskaTurgen100615MRP_V01.tbt#>
+
+<file:samples/001_AxiskaTurgen100615MRP_V01.tbt> a flex:document;
+ flex:has_interlinear-text _:interlinear-text.
+
+_:interlinear-text a flex:interlinear-text;;
+ toolbox:_sh "v3.0  400  Text".
+
+
+_:interlinear-text flex:has_phrase :s1. :s1 a flex:phrase; flex:next_phrase :s2.
+:s1 flex:has_word :s1_id1. :s1_id1 a flex:word; toolbox:id "001".
+
+:s1 toolbox:ref "0:00:00.6".
+:s1 flex:has_word :s1_tx1. :s1_tx1 a flex:word; toolbox:tx "abʊ"; flex:next_word :s1_tx2.
+:s1 flex:has_word :s1_tx2. :s1_tx2 a flex:word; toolbox:tx "bøjk"; flex:next_word :s1_tx3.
+:s1 flex:has_word :s1_tx3. :s1_tx3 a flex:word; toolbox:tx "kyʧyk"; flex:next_word :s1_tx4.
+:s1 flex:has_word :s1_tx4. :s1_tx4 a flex:word; toolbox:tx "kælɪnɪmɪz"; flex:next_word :s1_tx5.
+:s1 flex:has_word :s1_tx5. :s1_tx5 a flex:word; toolbox:tx "bʊ"; flex:next_word :s1_tx6.
+:s1 flex:has_word :s1_tx6. :s1_tx6 a flex:word; toolbox:tx "da"; flex:next_word :s1_tx7.
+:s1 flex:has_word :s1_tx7. :s1_tx7 a flex:word; toolbox:tx "bɞjʏk"; flex:next_word :s1_tx8.
+:s1 flex:has_word :s1_tx8. :s1_tx8 a flex:word; toolbox:tx "kɛlɪnɪmɪz"; flex:next_word :s1_tx9.
+:s1 flex:has_word :s1_tx9. :s1_tx9 a flex:word; toolbox:tx "jʊ".
+
+:s1_tx1 toolbox:ltr "abu".
+:s1_tx2 toolbox:ltr "böjk".
+:s1_tx3 toolbox:ltr "küčük".
+:s1_tx4 toolbox:ltr "kälinimiz".
+:s1_tx5 toolbox:ltr "bu".
+:s1_tx6 toolbox:ltr "da".
+:s1_tx7 toolbox:ltr "böjük".
+:s1_tx8 toolbox:ltr "kälinimiz".
+:s1_tx9 toolbox:ltr "ju".
+
+:s1 toolbox:has_morph :s1_mb1. :s1_mb1 a flex:morph; toolbox:mb "abu"; flex:next_morph :s1_mb2.
+:s1 toolbox:has_morph :s1_mb2. :s1_mb2 a flex:morph; toolbox:mb "böjük"; flex:next_morph :s1_mb3.
+:s1 toolbox:has_morph :s1_mb3. :s1_mb3 a flex:morph; toolbox:mb "küčük"; flex:next_morph :s1_mb4.
+:s1 toolbox:has_morph :s1_mb4. :s1_mb4 a flex:morph; toolbox:mb "kälin"; flex:next_morph :s1_mb5.
+:s1 toolbox:has_morph :s1_mb5. :s1_mb5 a flex:morph; toolbox:mb "-(I)mIz"; flex:next_morph :s1_mb6.
+:s1 toolbox:has_morph :s1_mb6. :s1_mb6 a flex:morph; toolbox:mb "bu"; flex:next_morph :s1_mb7.
+:s1 toolbox:has_morph :s1_mb7. :s1_mb7 a flex:morph; toolbox:mb "dA"; flex:next_morph :s1_mb8.
+:s1 toolbox:has_morph :s1_mb8. :s1_mb8 a flex:morph; toolbox:mb "böjük"; flex:next_morph :s1_mb9.
+:s1 toolbox:has_morph :s1_mb9. :s1_mb9 a flex:morph; toolbox:mb "kälin"; flex:next_morph :s1_mb10.
+:s1 toolbox:has_morph :s1_mb10. :s1_mb10 a flex:morph; toolbox:mb "-(I)mIz"; flex:next_morph :s1_mb11.
+:s1 toolbox:has_morph :s1_mb11. :s1_mb11 a flex:morph; toolbox:mb "ju".
+
+:s1_mb1 toolbox:ge "this".
+:s1_mb2 toolbox:ge "big".
+:s1_mb3 toolbox:ge "small".
+:s1_mb4 toolbox:ge "daughter-in-law".
+:s1_mb5 toolbox:ge "-poss.1pl".
+:s1_mb6 toolbox:ge "this".
+:s1_mb7 toolbox:ge "also".
+:s1_mb8 toolbox:ge "big".
+:s1_mb9 toolbox:ge "daughter-in-law".
+:s1_mb10 toolbox:ge "-poss.1pl".
+:s1_mb11 toolbox:ge "interjection".
+
+:s1_mb1 toolbox:ps "pron(dem)".
+:s1_mb2 toolbox:ps "adj".
+:s1_mb3 toolbox:ps "adj".
+:s1_mb4 toolbox:ps "n".
+:s1_mb5 toolbox:ps "-pron(poss)".
+:s1_mb6 toolbox:ps "pron(dem)".
+:s1_mb7 toolbox:ps "ptcl".
+:s1_mb8 toolbox:ps "adj".
+:s1_mb9 toolbox:ps "n".
+:s1_mb10 toolbox:ps "-pron(poss)".
+:s1_mb11 toolbox:ps "interjection".
+
+:s1 toolbox:ft "This is our big (corr.) small daughter-in-law, this is our big daughter-in-law.".
+
+_:interlinear-text flex:has_phrase :s2. :s2 a flex:phrase; flex:next_phrase :s3.
+:s2 flex:has_word :s2_id1. :s2_id1 a flex:word; toolbox:id "001".
+
+:s2 toolbox:ref "0:00:04.5".
+:s2 flex:has_word :s2_tx1. :s2_tx1 a flex:word; toolbox:tx "bu"; flex:next_word :s2_tx2.
+:s2 flex:has_word :s2_tx2. :s2_tx2 a flex:word; toolbox:tx "bɞjk"; flex:next_word :s2_tx3.
+:s2 flex:has_word :s2_tx3. :s2_tx3 a flex:word; toolbox:tx "kyʧʏk"; flex:next_word :s2_tx4.
+:s2 flex:has_word :s2_tx4. :s2_tx4 a flex:word; toolbox:tx "kɜlənɪmɪz"; flex:next_word :s2_tx5.
+:s2 flex:has_word :s2_tx5. :s2_tx5 a flex:word; toolbox:tx "bu"; flex:next_word :s2_tx6.
+:s2 flex:has_word :s2_tx6. :s2_tx6 a flex:word; toolbox:tx "dɐ"; flex:next_word :s2_tx7.
+:s2 flex:has_word :s2_tx7. :s2_tx7 a flex:word; toolbox:tx "qajnanasɪ".
+
+:s2_tx1 toolbox:ltr "bu".
+:s2_tx2 toolbox:ltr "böjk".
+:s2_tx3 toolbox:ltr "küčük".
+:s2_tx4 toolbox:ltr "kälïnimiz".
+:s2_tx5 toolbox:ltr "bu".
+:s2_tx6 toolbox:ltr "da".
+:s2_tx7 toolbox:ltr "qajnanasi".
+
+:s2 toolbox:has_morph :s2_mb1. :s2_mb1 a flex:morph; toolbox:mb "bu"; flex:next_morph :s2_mb2.
+:s2 toolbox:has_morph :s2_mb2. :s2_mb2 a flex:morph; toolbox:mb "böjük"; flex:next_morph :s2_mb3.
+:s2 toolbox:has_morph :s2_mb3. :s2_mb3 a flex:morph; toolbox:mb "küčük"; flex:next_morph :s2_mb4.
+:s2 toolbox:has_morph :s2_mb4. :s2_mb4 a flex:morph; toolbox:mb "kälin"; flex:next_morph :s2_mb5.
+:s2 toolbox:has_morph :s2_mb5. :s2_mb5 a flex:morph; toolbox:mb "-(I)mIz"; flex:next_morph :s2_mb6.
+:s2 toolbox:has_morph :s2_mb6. :s2_mb6 a flex:morph; toolbox:mb "bu"; flex:next_morph :s2_mb7.
+:s2 toolbox:has_morph :s2_mb7. :s2_mb7 a flex:morph; toolbox:mb "dA"; flex:next_morph :s2_mb8.
+:s2 toolbox:has_morph :s2_mb8. :s2_mb8 a flex:morph; toolbox:mb "qajnana"; flex:next_morph :s2_mb9.
+:s2 toolbox:has_morph :s2_mb9. :s2_mb9 a flex:morph; toolbox:mb "-(s)I(n)".
+
+:s2_mb1 toolbox:ge "this".
+:s2_mb2 toolbox:ge "big".
+:s2_mb3 toolbox:ge "small".
+:s2_mb4 toolbox:ge "daughter-in-law".
+:s2_mb5 toolbox:ge "-poss.1pl".
+:s2_mb6 toolbox:ge "this".
+:s2_mb7 toolbox:ge "also".
+:s2_mb8 toolbox:ge "mother-in-law".
+:s2_mb9 toolbox:ge "-poss.3sg".
+
+:s2_mb1 toolbox:ps "pron(dem)".
+:s2_mb2 toolbox:ps "adj".
+:s2_mb3 toolbox:ps "adj".
+:s2_mb4 toolbox:ps "n".
+:s2_mb5 toolbox:ps "-pron(poss)".
+:s2_mb6 toolbox:ps "pron(dem)".
+:s2_mb7 toolbox:ps "ptcl".
+:s2_mb8 toolbox:ps "n".
+:s2_mb9 toolbox:ps "-pron(poss)".
+
+:s2 toolbox:ft "This is our big (corr.) small daughter-in-law, this is her mother-in-law.".
+
+_:interlinear-text flex:has_phrase :s3. :s3 a flex:phrase; flex:next_phrase :s4.
+:s3 flex:has_word :s3_id1. :s3_id1 a flex:word; toolbox:id "001".
+
+:s3 toolbox:ref "0:00:09.2".
+:s3 flex:has_word :s3_tx1. :s3_tx1 a flex:word; toolbox:tx "bujʊrʊn"; flex:next_word :s3_tx2.
+:s3 flex:has_word :s3_tx2. :s3_tx2 a flex:word; toolbox:tx "jɛjɪn"; flex:next_word :s3_tx3.
+:s3 flex:has_word :s3_tx3. :s3_tx3 a flex:word; toolbox:tx "xinkalɯməzɯ".
+
+:s3_tx1 toolbox:ltr "bujurun".
+:s3_tx2 toolbox:ltr "jäjin".
+:s3_tx3 toolbox:ltr "xinkalïmïzï".
+
+:s3 toolbox:has_morph :s3_mb1. :s3_mb1 a flex:morph; toolbox:mb "bujur"; flex:next_morph :s3_mb2.
+:s3 toolbox:has_morph :s3_mb2. :s3_mb2 a flex:morph; toolbox:mb "-(j)In(Iz)"; flex:next_morph :s3_mb3.
+:s3 toolbox:has_morph :s3_mb3. :s3_mb3 a flex:morph; toolbox:mb "jä"; flex:next_morph :s3_mb4.
+:s3 toolbox:has_morph :s3_mb4. :s3_mb4 a flex:morph; toolbox:mb "-(j)In(Iz)"; flex:next_morph :s3_mb5.
+:s3 toolbox:has_morph :s3_mb5. :s3_mb5 a flex:morph; toolbox:mb "xinkal"; flex:next_morph :s3_mb6.
+:s3 toolbox:has_morph :s3_mb6. :s3_mb6 a flex:morph; toolbox:mb "-(I)mIz"; flex:next_morph :s3_mb7.
+:s3 toolbox:has_morph :s3_mb7. :s3_mb7 a flex:morph; toolbox:mb "-(j)I".
+
+:s3_mb1 toolbox:ge "condescend".
+:s3_mb2 toolbox:ge "-imp.2pl".
+:s3_mb3 toolbox:ge "eat".
+:s3_mb4 toolbox:ge "-imp.2pl".
+:s3_mb5 toolbox:ge "Xinkal".
+:s3_mb6 toolbox:ge "-poss.1pl".
+:s3_mb7 toolbox:ge "-akk".
+
+:s3_mb1 toolbox:ps "v".
+:s3_mb2 toolbox:ps "-imp".
+:s3_mb3 toolbox:ps "v".
+:s3_mb4 toolbox:ps "-imp".
+:s3_mb5 toolbox:ps "n".
+:s3_mb6 toolbox:ps "-pron(poss)".
+:s3_mb7 toolbox:ps "-case".
+
+:s3 toolbox:ft "Please eat our Xinkal.".
+:s3 toolbox:nt "buyurmak can be translated as 'please'".
+
+_:interlinear-text flex:has_phrase :s4. :s4 a flex:phrase; flex:next_phrase :s5.
+:s4 flex:has_word :s4_id1. :s4_id1 a flex:word; toolbox:id "001".
+
+:s4 toolbox:ref "0:00:11.0".
+:s4 flex:has_word :s4_id1. :s4_id1 a flex:word; toolbox:tx "bujʊrʊrsɯz".
+
+:s4 toolbox:ltr "bujurursïz".
+:s4 flex:has_word :s4_mb1. :s4_mb1 a flex:word; toolbox:mb "bujur"; flex:next_word :s4_mb2.
+:s4 flex:has_word :s4_mb2. :s4_mb2 a flex:word; toolbox:mb "-(A/I)r"; flex:next_word :s4_mb3.
+:s4 flex:has_word :s4_mb3. :s4_mb3 a flex:word; toolbox:mb "-sIz".
+
+:s4_mb1 toolbox:ge "condescend".
+:s4_mb2 toolbox:ge "-aorist".
+:s4_mb3 toolbox:ge "-2pl".
+
+:s4_mb1 toolbox:ps "v".
+:s4_mb2 toolbox:ps "-tense".
+:s4_mb3 toolbox:ps "-pers.end".
+
+:s4 toolbox:ft "Please (sit down).".
+:s4 toolbox:nt "00:12.0 - 00:13.6 russisch".
+
+_:interlinear-text flex:has_phrase :s5. :s5 a flex:phrase.
+:s5 flex:has_word :s5_id1. :s5_id1 a flex:word; toolbox:id "001".
+
+:s5 toolbox:ref "0:00:13.6".
+:s5 flex:has_word :s5_tx1. :s5_tx1 a flex:word; toolbox:tx "xaβaɫɛ"; flex:next_word :s5_tx2.
+:s5 flex:has_word :s5_tx2. :s5_tx2 a flex:word; toolbox:tx "gɛtʏrə"; flex:next_word :s5_tx3.
+:s5 flex:has_word :s5_tx3. :s5_tx3 a flex:word; toolbox:tx "xɪnkalɪ"; flex:next_word :s5_tx4.
+:s5 flex:has_word :s5_tx4. :s5_tx4 a flex:word; toolbox:tx "belɛ"; flex:next_word :s5_tx5.
+:s5 flex:has_word :s5_tx5. :s5_tx5 a flex:word; toolbox:tx "gɛtʊr"; flex:next_word :s5_tx6.
+:s5 flex:has_word :s5_tx6. :s5_tx6 a flex:word; toolbox:tx "bi"; flex:next_word :s5_tx7.
+:s5 flex:has_word :s5_tx7. :s5_tx7 a flex:word; toolbox:tx "jɛnɪ"; flex:next_word :s5_tx8.
+:s5 flex:has_word :s5_tx8. :s5_tx8 a flex:word; toolbox:tx "dɛ"; flex:next_word :s5_tx9.
+:s5 flex:has_word :s5_tx9. :s5_tx9 a flex:word; toolbox:tx "dɤvɐj"; flex:next_word :s5_tx10.
+:s5 flex:has_word :s5_tx10. :s5_tx10 a flex:word; toolbox:tx "bʊ"; flex:next_word :s5_tx11.
+:s5 flex:has_word :s5_tx11. :s5_tx11 a flex:word; toolbox:tx "sʊfrajɤ"; flex:next_word :s5_tx12.
+:s5 flex:has_word :s5_tx12. :s5_tx12 a flex:word; toolbox:tx "dɐ"; flex:next_word :s5_tx13.
+:s5 flex:has_word :s5_tx13. :s5_tx13 a flex:word; toolbox:tx "bujrʊn"; flex:next_word :s5_tx14.
+:s5 flex:has_word :s5_tx14. :s5_tx14 a flex:word; toolbox:tx "gɛlɪn"; flex:next_word :s5_tx15.
+:s5 flex:has_word :s5_tx15. :s5_tx15 a flex:word; toolbox:tx "belɛ".
+
+:s5_tx1 toolbox:ltr "xavalä".
+:s5_tx2 toolbox:ltr "gätürï".
+:s5_tx3 toolbox:ltr "xinkali".
+:s5_tx4 toolbox:ltr "belä".
+:s5_tx5 toolbox:ltr "gätur".
+:s5_tx6 toolbox:ltr "bi".
+:s5_tx7 toolbox:ltr "jäni".
+:s5_tx8 toolbox:ltr "dä".
+:s5_tx9 toolbox:ltr "dïvaj".
+:s5_tx10 toolbox:ltr "bu".
+:s5_tx11 toolbox:ltr "sufrajï".
+:s5_tx12 toolbox:ltr "da".
+:s5_tx13 toolbox:ltr "bujrun".
+:s5_tx14 toolbox:ltr "gälin".
+:s5_tx15 toolbox:ltr "belä".
+
+:s5 toolbox:has_morph :s5_mb1. :s5_mb1 a flex:morph; toolbox:mb "xavalä"; flex:next_morph :s5_mb2.
+:s5 toolbox:has_morph :s5_mb2. :s5_mb2 a flex:morph; toolbox:mb "gätur"; flex:next_morph :s5_mb3.
+:s5 toolbox:has_morph :s5_mb3. :s5_mb3 a flex:morph; toolbox:mb "xinkal"; flex:next_morph :s5_mb4.
+:s5 toolbox:has_morph :s5_mb4. :s5_mb4 a flex:morph; toolbox:mb "-(j)I"; flex:next_morph :s5_mb5.
+:s5 toolbox:has_morph :s5_mb5. :s5_mb5 a flex:morph; toolbox:mb "belä"; flex:next_morph :s5_mb6.
+:s5 toolbox:has_morph :s5_mb6. :s5_mb6 a flex:morph; toolbox:mb "gätur"; flex:next_morph :s5_mb7.
+:s5 toolbox:has_morph :s5_mb7. :s5_mb7 a flex:morph; toolbox:mb "bu"; flex:next_morph :s5_mb8.
+:s5 toolbox:has_morph :s5_mb8. :s5_mb8 a flex:morph; toolbox:mb "jän"; flex:next_morph :s5_mb9.
+:s5 toolbox:has_morph :s5_mb9. :s5_mb9 a flex:morph; toolbox:mb "-(j)I"; flex:next_morph :s5_mb10.
+:s5 toolbox:has_morph :s5_mb10. :s5_mb10 a flex:morph; toolbox:mb "dA"; flex:next_morph :s5_mb11.
+:s5 toolbox:has_morph :s5_mb11. :s5_mb11 a flex:morph; toolbox:mb "davaj"; flex:next_morph :s5_mb12.
+:s5 toolbox:has_morph :s5_mb12. :s5_mb12 a flex:morph; toolbox:mb "bu"; flex:next_morph :s5_mb13.
+:s5 toolbox:has_morph :s5_mb13. :s5_mb13 a flex:morph; toolbox:mb "sufra"; flex:next_morph :s5_mb14.
+:s5 toolbox:has_morph :s5_mb14. :s5_mb14 a flex:morph; toolbox:mb "-(j)A"; flex:next_morph :s5_mb15.
+:s5 toolbox:has_morph :s5_mb15. :s5_mb15 a flex:morph; toolbox:mb "dA"; flex:next_morph :s5_mb16.
+:s5 toolbox:has_morph :s5_mb16. :s5_mb16 a flex:morph; toolbox:mb "bujur"; flex:next_morph :s5_mb17.
+:s5 toolbox:has_morph :s5_mb17. :s5_mb17 a flex:morph; toolbox:mb "-(j)In(Iz)"; flex:next_morph :s5_mb18.
+:s5 toolbox:has_morph :s5_mb18. :s5_mb18 a flex:morph; toolbox:mb "gäl"; flex:next_morph :s5_mb19.
+:s5 toolbox:has_morph :s5_mb19. :s5_mb19 a flex:morph; toolbox:mb "-(j)In(Iz)"; flex:next_morph :s5_mb20.
+:s5 toolbox:has_morph :s5_mb20. :s5_mb20 a flex:morph; toolbox:mb "belä".
+
+:s5 toolbox:ge "so bring Xinkal -akk so bring thimove.down -akk also imp this table -dat also condescend -imp.2pl come -imp.2pl so".
+:s5_ge1 toolbox:ps "adv".
+:s5_ge2 toolbox:ps "v".
+:s5_ge3 toolbox:ps "n".
+:s5_ge4 toolbox:ps "-case".
+:s5_ge5 toolbox:ps "adv".
+:s5_ge6 toolbox:ps "v".
+:s5_ge7 toolbox:ps "prov".
+:s5_ge8 toolbox:ps "-case".
+:s5_ge9 toolbox:ps "ptcl".
+:s5_ge10 toolbox:ps "ptcl".
+:s5_ge11 toolbox:ps "pron(dem)".
+:s5_ge12 toolbox:ps "n".
+:s5_ge13 toolbox:ps "-case".
+:s5_ge14 toolbox:ps "ptcl".
+:s5_ge15 toolbox:ps "v".
+:s5_ge16 toolbox:ps "-imp".
+:s5_ge17 toolbox:ps "v".
+:s5_ge18 toolbox:ps "-imp".
+:s5_ge19 toolbox:ps "adv".
+
+:s5 toolbox:ft "So bring the Xinkal, bring it here, sit down at table, come here.".

@@ -38,3 +38,29 @@ Data
 ----
 
 Axiska/Meskhet sample, provided by Irina Nevskaya and Monika Rind-Pawlowski, Goethe University Frankfurt
+
+file structure:
+Toolbox layers ("markers") can be freely defined. We do thus not know what is a marker and what is a 
+
+Axiska sample:
+1 \_sh	text meta data
+
+5 \ft	recurring elements (i.e., IGT markers)
+5 \ge
+5 \id
+5 \ltr
+5 \mb
+5 \nt
+5 \per
+5 \ps
+5 \ref
+5 \tx
+
+no straight-forward interpretation in terms of FLex.
+
+simplification:
+- no paragraphs
+- list IGT markers as arguments, as soon as this order is violated, we know we're in a new flex:Phrase
+
+conversion:
+trivial XML conversion, logic in XSLT
