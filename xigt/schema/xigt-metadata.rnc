@@ -1,0 +1,33 @@
+start = element metadata {
+    attribute id { Metadata.id }?,
+    BaseAttrs,
+    Metadata.subtype
+}
+
+Metadata.id = parent Metadata.id
+
+Metadata.subtype =
+    attribute type { Metadata.type }?,
+    Metadata.attrs,
+    Metadata.metas
+
+Metadata.type = parent Metadata.type
+Metadata.attrs = parent Metadata.attrs
+Metadata.metas = (Meta | LocalMeta)*
+
+LocalMeta = grammar { include "xigt-meta.rnc" }
+
+# keep these in scope
+Id = parent Id
+IdRef = parent IdRef
+IdRefs = parent IdRefs
+AlgnExpr = parent AlgnExpr
+
+BaseAttrs = parent BaseAttrs
+
+Meta = parent Meta
+
+Meta.id = parent Meta.id
+Meta.type = parent Meta.type
+Meta.attrs = parent Meta.attrs
+

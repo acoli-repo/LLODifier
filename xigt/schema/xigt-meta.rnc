@@ -1,0 +1,32 @@
+start = element meta {
+    attribute id { Meta.id }?,
+    BaseAttrs,
+    Meta.subtype
+}
+
+Meta.id = parent Meta.id
+
+Meta.subtype =
+    attribute type { Meta.type }?,
+    Meta.attrs,
+    Meta.content
+
+Meta.type = parent Meta.type
+Meta.attrs = parent Meta.attrs
+Meta.content = mixed { AnyElement }*
+
+AnyElement = element * {
+    (attribute * { text }
+     | text
+     | AnyElement)*
+}
+
+# keep these in scope
+
+Id = parent Id
+IdRef = parent IdRef
+IdRefs = parent IdRefs
+AlgnExpr = parent AlgnExpr
+
+BaseAttrs = parent BaseAttrs
+

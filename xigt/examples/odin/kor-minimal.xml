@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+stage3_lang_chosen: korean (kor)
+lang_code: korean (kor) || seoul (kor) || japanese (jpn) || inuit (ike) || french (fra) || malayalam (mal)
+note: lang_chosen_idx=0
+line=959 tag=L:   1 Nay-ka ai-eykey pap-ul mek-i-ess-ta
+line=960 tag=G:     I-Nom child-Dat rice-Acc eat-Caus-Pst-Dec
+line=961 tag=T:     `I made the child eat rice.'
+-->
+<xigt-corpus>
+  <metadata type="xigt-meta">
+    <meta type="language" name="korean" iso-639-3="kor"
+          tiers="phrases words morphemes"/>
+    <meta type="language" name="english" iso-639-3="eng"
+          tiers="glosses translations"/>
+  </metadata>
+  <igt id="igt1" doc-id="397" line-range="959 961" tag-types="L G T">
+    <tier type="odin" id="r" state="raw">
+      <item id="r1" line="959" tag="L">   1 Nay-ka ai-eykey pap-ul mek-i-ess-ta</item>
+      <item id="r2" line="960" tag="G">     I-Nom child-Dat rice-Acc eat-Caus-Pst-Dec</item>
+      <item id="r3" line="961" tag="T">     `I made the child eat rice.'</item>
+    </tier>
+    <tier type="odin" id="c" state="cleaned" alignment="r">
+      <item id="c1" alignment="r1" line="959" tag="L">   1 Nay-ka ai-eykey pap-ul mek-i-ess-ta</item>
+      <item id="c2" alignment="r2" line="960" tag="G">     I-Nom child-Dat rice-Acc eat-Caus-Pst-Dec</item>
+      <item id="c3" alignment="r3" line="961" tag="T">     `I made the child eat rice.'</item>
+    </tier>
+    <tier type="odin" id="n" state="normalized" alignment="c">
+      <item id="n1" alignment="c1" line="959" tag="L">Nay-ka ai-eykey pap-ul mek-i-ess-ta</item>
+      <item id="n2" alignment="c2" line="960" tag="G">I-Nom child-Dat rice-Acc eat-Caus-Pst-Dec</item>
+      <item id="n3" alignment="c3" line="961" tag="T">I made the child eat rice.</item>
+    </tier>
+    <tier type="phrases" id="p" content="n">
+      <item id="p1" content="n1"/>
+    </tier>
+    <tier type="glosses" id="g" alignment="p" content="n">
+      <item id="g1" alignment="p1" content="n2"/>
+    </tier>
+    <tier type="translations" id="t" alignment="p" content="n">
+      <item id="t1" alignment="p1" content="n3"/>
+    </tier>
+  </igt>
+</xigt-corpus>

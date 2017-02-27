@@ -1,0 +1,74 @@
+#--------------
+#--- Basics ---
+#--------------
+
+#--- Attribute and Element Types
+
+# The id and ref attributes are used by <tier> and <item> elements to establish
+# alignments amongst the data. <item> elements may use Alignment Expressions to
+# establish one-to-many relationships.
+Id = xsd:string { pattern="[A-Za-z][\-_.\w]*" }
+
+IdRef = xsd:string { pattern="[A-Za-z][\-_.\w]*" }
+
+IdRefs = xsd:string { pattern="[A-Za-z][\-_.\w]*(\s+[A-Za-z][\-_.\w]*)*" }
+
+AlgnExpr = xsd:string {
+    pattern="[A-Za-z][\-_.\w]*(\[\d+:\d+([,+]\d+:\d+)*\])?([,+][A-Za-z][\-_.\w]*(\[\d+:\d+([,+]\d+:\d+)*\])?)*"
+}
+
+#--- Base Attributes (inherited from any level and overridable)
+
+BaseAttrs =
+  attribute xml:lang { text }?,
+  attribute xml:space { "default" | "preserve" }?
+
+#------------------------------
+#--- Structural Definitions ---
+#------------------------------
+
+# many of these definitions exist here so you can override the defaults
+# for an entire document, e.g. to enforce conventions in the form of IDs
+# or restrict the textual content of Items, etc.
+
+Item.id = Id
+Item.type = empty
+Item.alnref = AlgnExpr
+Item.cntref = AlgnExpr
+Item.segref = AlgnExpr
+Item.attrs = empty
+Item = notAllowed
+
+Tier.id = Id
+Tier.type = empty
+Tier.alnref = IdRef
+Tier.cntref = IdRef
+Tier.segref = IdRef
+Tier.attrs = empty
+Tier.metadata = Metadata*
+Tier = notAllowed
+
+Meta.id = Id
+Meta.type = empty
+Meta.attrs = empty
+Meta = notAllowed
+
+Metadata.id = Id
+Metadata.type = empty
+Metadata.attrs = empty
+Metadata = notAllowed
+
+Igt.id = Id
+Igt.type = empty
+Igt.attrs = empty
+Igt.metadata = Metadata*
+Igt = notAllowed
+
+Corpus.id = Id
+Corpus.type = empty
+Corpus.attrs = empty
+Corpus.metadata = Metadata*
+Corpus = grammar { include "xigt-corpus.rnc" }
+
+# Root element
+start = Corpus

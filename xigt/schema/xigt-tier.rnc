@@ -1,0 +1,61 @@
+start = element tier {
+    attribute id { Tier.id },
+    BaseAttrs,
+    Tier.refs,
+    Tier.subtype
+}
+
+Tier.id = parent Tier.id
+
+# There are three default ref types, but 'segmentation' cannot cooccur with
+# 'alignment' and/or 'content'.
+Tier.refs = ( attribute alignment { Tier.alnref }?,
+              attribute content { Tier.cntref }? )
+            | attribute segmentation { Tier.segref }?
+Tier.alnref = parent Tier.alnref
+Tier.cntref = parent Tier.cntref
+Tier.segref = parent Tier.segref
+
+# all other attributes, types of metadata and the type of content
+# can be selected by the 'type' attribute. If an extension wants to
+# block subtyping of tiers, it can redefine Tier.subtype
+Tier.subtype = attribute type { Tier.type }?,
+               Tier.attrs,
+               Tier.metadata,
+               Tier.items
+Tier.type = notAllowed
+Tier.attrs = parent Tier.attrs
+
+Tier.metadata = (parent Tier.metadata | Metadata | LocalMetadata)*
+Tier.items = (Item | LocalItem)*
+
+LocalItem = grammar { include "xigt-item.rnc" }
+LocalMetadata = grammar { include "xigt-metadata.rnc" }
+
+# keep these in scope
+Id = parent Id
+IdRef = parent IdRef
+IdRefs = parent IdRefs
+AlgnExpr = parent AlgnExpr
+
+BaseAttrs = parent BaseAttrs
+
+Item = parent Item
+Metadata = parent Metadata
+Meta = parent Meta
+
+Item.id = parent Item.id
+Item.type = parent Item.type
+Item.alnref = parent Item.alnref
+Item.cntref = parent Item.cntref
+Item.segref = parent Item.segref
+Item.attrs = parent Item.attrs
+
+Metadata.id = parent Metadata.id
+Metadata.type = parent Metadata.type
+Metadata.attrs = parent Metadata.attrs
+
+Meta.id = parent Meta.id
+Meta.type = parent Meta.type
+Meta.attrs = parent Meta.attrs
+
