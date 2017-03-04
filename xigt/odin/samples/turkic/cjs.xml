@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xigt-corpus>
+<igt id="i118034">
+  <metadata type="xigt-meta">
+    <meta type="language" name="shor" iso-639-3="cjs" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3657" line-range="1630-1633" line-types="M+AC+LN L G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="1630" tag="M+AC+LN">  (6)   Khakas (Baskakov 1975: 198)</item>
+    <item id="o2" line="1631" tag="L">        Pis tee           pol-ys-xaj-bys</item>
+    <item id="o3" line="1632" tag="G">        we well           be-Rec-GAJ-1Pl</item>
+    <item id="o4" line="1633" tag="T">        Ok, we'll help (if nobody else can)</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="1630" tag="M+AC+LN">Khakas (Baskakov 1975: 198</item>
+    <item id="c2" line="1631" tag="L">Pis tee           pol-ys-xaj-bys</item>
+    <item id="c3" line="1632" tag="G">we well           be-Rec-GAJ-1Pl</item>
+    <item id="c4" line="1633" tag="T">Ok, we'll help (if nobody else can)</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c2[0:32]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:32]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c4[0:35]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i118035">
+  <metadata type="xigt-meta">
+    <meta type="language" name="shor" iso-639-3="cjs" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3657" line-range="1634-1637" line-types="M+AC+LN L G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="1634" tag="M+AC+LN">  (7)   Shor (Dyrenkova 1941: 176)</item>
+    <item id="o2" line="1635" tag="L">        andig       pol-gaj</item>
+    <item id="o3" line="1636" tag="G">        so          be-GAJ</item>
+    <item id="o4" line="1637" tag="T">        Ok, let it be so</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="1634" tag="M+AC+LN">Shor (Dyrenkova 1941: 176</item>
+    <item id="c2" line="1635" tag="L">andig       pol-gaj</item>
+    <item id="c3" line="1636" tag="G">so          be-GAJ</item>
+    <item id="c4" line="1637" tag="T">Ok, let it be so</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c2[0:19]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:18]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c4[0:16]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i155745">
+  <metadata type="xigt-meta">
+    <meta type="language" name="shor" iso-639-3="cjs" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3307" line-range="7101-7107" line-types="M+LN L G L G T T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="7101" tag="M+LN">  Shor</item>
+    <item id="o2" line="7102" tag="L">  (4) Aqs-i-ni             qan-i         ayri pol-ip,</item>
+    <item id="o3" line="7103" tag="G">      mouth-POSS3-GEN      blood-POSS3 river become-GER</item>
+    <item id="o4" line="7104" tag="L">      köks-i-ni            qan-i         köl pol-ca.</item>
+    <item id="o5" line="7105" tag="G">      chest-POSS3-GEN      blood-POSS3 lake become-PRS</item>
+    <item id="o6" line="7106" tag="T">        `The blood from   the mouth turned into a river, the blood from the breast turned into a</item>
+    <item id="o7" line="7107" tag="T">         lake.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="7101" tag="M+LN">Shor</item>
+    <item id="c2" line="7102" tag="L">Aqs-i-ni             qan-i         ayri pol-ip,</item>
+    <item id="c3" line="7103" tag="G">mouth-POSS3-GEN      blood-POSS3 river become-GER</item>
+    <item id="c4" line="7104" tag="L">köks-i-ni            qan-i         köl pol-ca.</item>
+    <item id="c5" line="7105" tag="G">chest-POSS3-GEN      blood-POSS3 lake become-PRS</item>
+    <item id="c6" line="7106" tag="T">The blood from   the mouth turned into a river, the blood from the breast turned into a</item>
+    <item id="c7" line="7107" tag="T">lake.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c2[0:47]"/>
+    <item id="p1" content="c4[0:46]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:49]" alignment="p1"/>
+    <item id="g1" content="c5[0:48]" alignment="p2"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c6[0:87]" alignment="p2"/>
+    <item id="t1" content="c7[0:5]" alignment="p2"/>
+  </tier>
+</igt>
+<igt id="i155746">
+  <metadata type="xigt-meta">
+    <meta type="language" name="shor" iso-639-3="cjs" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3307" line-range="7108-7110" line-types="L G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="7108" tag="L">  (5) Qarasqi pol-ip,     iir       tüz-übüs-ken.</item>
+    <item id="o2" line="7109" tag="G">      darkness be-GER     evening fall- PERF-PF</item>
+    <item id="o3" line="7110" tag="T">       `The evening came and it got dark.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="7108" tag="L">Qarasqi pol-ip,     iir       tüz-übüs-ken.</item>
+    <item id="c2" line="7109" tag="G">darkness be-GER     evening fall-PERF-PF</item>
+    <item id="c3" line="7110" tag="T">The evening came and it got dark.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:43]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:40]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:33]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i155747">
+  <metadata type="xigt-meta">
+    <meta type="language" name="shor" iso-639-3="cjs" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3307" line-range="7111-7114" line-types="L G+CR G+CR T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="7111" tag="L">  (6) Ol par-an        o-zi-ba/poz-i-ba,                              kel-be-d-i.</item>
+    <item id="o2" line="7112" tag="G+CR">      he go-PF.PART DEM3-POSS3-INST/self-                3-           come-NEG-           -3</item>
+    <item id="o3" line="7113" tag="G+CR">                                                  POSS        INSTR                 PST</item>
+    <item id="o4" line="7114" tag="T">       `He went away and did not come back.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="7111" tag="L">Ol par-an        o-zi-ba/poz-i-ba,                              kel-be-d-i.</item>
+    <item id="c2" line="7112 7113" tag="G+CR">he go-PF.PART DEM3-POSS3-INST/self-POSS   3-INSTR   come-NEG-PST-3</item>
+    <item id="c4" line="7114" tag="T">He went away and did not come back.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:75]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:66]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c4[0:35]" alignment="p1"/>
+  </tier>
+</igt>
+</xigt-corpus>

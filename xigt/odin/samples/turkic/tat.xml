@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xigt-corpus>
+<igt id="i66293">
+  <metadata type="xigt-meta">
+    <meta type="language" name="tatar" iso-639-3="tat" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="1411" line-range="1498-1500" line-types="L G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="1498" tag="L">     (2)     Janggyr bet-kach,          bala      uram-ga        chyq-ty.</item>
+    <item id="o2" line="1499" tag="G">             rain     finish-CONV       child     street-DAT     go.out-PST.3s</item>
+    <item id="o3" line="1500" tag="T">                 `After it had stopped raining, the child went   out.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="1498" tag="L">Janggyr bet-kach,          bala      uram-ga        chyq-ty.</item>
+    <item id="c2" line="1499" tag="G">rain     finish-CONV       child     street-DAT     go.out-PST.3s</item>
+    <item id="c3" line="1500" tag="T">After it had stopped raining, the child went   out.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:60]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:65]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:51]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i118036">
+  <metadata type="xigt-meta">
+    <meta type="language" name="tatar" iso-639-3="tat" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3657" line-range="1638-1641" line-types="M+AC+LN L G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="1638" tag="M+AC+LN">  (8)   Black Tatar (Baskakov 1966: 83)</item>
+    <item id="o2" line="1639" tag="L">        d'je,       kozo          bar-gaj-zaar</item>
+    <item id="o3" line="1640" tag="G">        well        together go-GAJ-2Pl</item>
+    <item id="o4" line="1641" tag="T">        Ok, come with me</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="1638" tag="M+AC+LN">Black Tatar (Baskakov 1966: 83</item>
+    <item id="c2" line="1639" tag="L">d'je,       kozo          bar-gaj-zaar</item>
+    <item id="c3" line="1640" tag="G">well        together go-GAJ-2Pl</item>
+    <item id="c4" line="1641" tag="T">Ok, come with me</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c2[0:38]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:31]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c4[0:16]" alignment="p1"/>
+  </tier>
+</igt>
+</xigt-corpus>

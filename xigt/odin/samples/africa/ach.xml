@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xigt-corpus>
+<igt id="i114195">
+  <metadata type="xigt-meta">
+    <meta type="language" name="acholi" iso-639-3="ach" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3403" line-range="1181-1184" line-types="M+LN L G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="1181" tag="M+LN">        (61) Acholi</item>
+    <item id="o2" line="1182" tag="L">             a. lok-i</item>
+    <item id="o3" line="1183" tag="G">                turn-2.SG.IMP</item>
+    <item id="o4" line="1184" tag="T">                `Turn!'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="1181" tag="M+LN">Acholi</item>
+    <item id="c2" line="1182" tag="L">lok-i</item>
+    <item id="c3" line="1183" tag="G">turn-2.SG.IMP</item>
+    <item id="c4" line="1184" tag="T">Turn!</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c2[0:5]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:13]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c4[0:5]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i114196">
+  <metadata type="xigt-meta">
+    <meta type="language" name="acholi" iso-639-3="ach" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3403" line-range="1185-1187" line-types="L G T+SY"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="1185" tag="L">             b. lok-wu</item>
+    <item id="o2" line="1186" tag="G">                turn-2.PL.IMP</item>
+    <item id="o3" line="1187" tag="T+SY">                `Turn (pl.)!'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="1185" tag="L">lok-wu</item>
+    <item id="c2" line="1186" tag="G">turn-2.PL.IMP</item>
+    <item id="c3" line="1187" tag="T+SY">Turn (pl.)!</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:6]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:13]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:11]" alignment="p1"/>
+  </tier>
+</igt>
+</xigt-corpus>

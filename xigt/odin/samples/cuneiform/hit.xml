@@ -1,0 +1,420 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xigt-corpus>
+<igt id="i38896">
+  <metadata type="xigt-meta">
+    <meta type="language" name="hittite" iso-639-3="hit" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="1177" line-range="124-127" line-types="L B G T+AC"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="124" tag="L">       appanti kunanti =ya</item>
+    <item id="o2" line="125" tag="B">  a.</item>
+    <item id="o3" line="126" tag="G">       prisoners killed     and</item>
+    <item id="o4" line="127" tag="T+AC">             "the prisoners and the dead"                                         (KBo III 4 IV 20 f.)</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="124" tag="L">appanti kunanti =ya</item>
+    <item id="c2" line="125" tag="B">a.</item>
+    <item id="c3" line="126" tag="G">prisoners killed     and</item>
+    <item id="c4" line="127" tag="T+AC">the prisoners and the dead"                                         (KBo III 4 IV 20 f.)</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:19]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:24]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c4[0:88]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i38897">
+  <metadata type="xigt-meta">
+    <meta type="language" name="hittite" iso-639-3="hit" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="1177" line-range="129-131" line-types="L G T+AC"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="129" tag="L">  b.    nepis     tekann =a</item>
+    <item id="o2" line="130" tag="G">        heaven earth       and</item>
+    <item id="o3" line="131" tag="T+AC">              "heaven and earth"                                                  (KUB 36.12 iii.53)</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="129" tag="L">nepis     tekann =a</item>
+    <item id="c2" line="130" tag="G">heaven earth       and</item>
+    <item id="c3" line="131" tag="T+AC">heaven and earth"                                                  (KUB 36.12 iii.53)</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:19]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:22]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:85]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i38898">
+  <metadata type="xigt-meta">
+    <meta type="language" name="hittite" iso-639-3="hit" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="1177" line-range="133-135" line-types="L G T+AC"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="133" tag="L">  c.    ginuwas       GAD.HI.A      patann =a              GÌR.   GUB</item>
+    <item id="o2" line="134" tag="G">        for.knees     veils         of.feet and         stool</item>
+    <item id="o3" line="135" tag="T+AC">              "veils for the knees and a stool for the feet."                      (StBoT 25.25 I 10)</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="133" tag="L">ginuwas       GAD.HI.A      patann =a              GÌR.   GUB</item>
+    <item id="c2" line="134" tag="G">for.knees     veils         of.feet and         stool</item>
+    <item id="c3" line="135" tag="T+AC">veils for the knees and a stool for the feet."                      (StBoT 25.25 I 10)</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:61]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:53]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:86]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i38899">
+  <metadata type="xigt-meta">
+    <meta type="language" name="hittite" iso-639-3="hit" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="1177" line-range="137-141" line-types="M+CN L+CR L+CR G T+AC"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="137" tag="M+CN">  [Clausal conjunction]</item>
+    <item id="o2" line="138" tag="L+CR">       ...apass =a         ARAD DINGIR-LIM eesdu</item>
+    <item id="o3" line="139" tag="L+CR">  d.</item>
+    <item id="o4" line="140" tag="G">       ...he     and       servant of deity         become</item>
+    <item id="o5" line="141" tag="T+AC">             "...and let him (too) be a servant of the deity!"                        (StBot 24 iv 79)</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="137" tag="M+CN">[Clausal conjunction]</item>
+    <item id="c2" line="138 139" tag="L+CR">...apass =a         ARAD DINGIR-LIM eesdu</item>
+    <item id="c4" line="140" tag="G">...he     and       servant of deity         become</item>
+    <item id="c5" line="141" tag="T+AC">...and let him (too) be a servant of the deity!"                        (StBot 24 iv 79)</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c2[0:41]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c4[0:51]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c5[0:88]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i38900">
+  <metadata type="xigt-meta">
+    <meta type="language" name="hittite" iso-639-3="hit" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="1177" line-range="143-145" line-types="L G T+AC"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="143" tag="L">  e.    ...apiya        =ya =at          QATAMMA=pat            taparta</item>
+    <item id="o2" line="144" tag="G">        ...at that time and     =it      in the same way        ruled</item>
+    <item id="o3" line="145" tag="T+AC">            "...and at that time he ruled it in the very same manner."            (KUB 14.4 i 11-12)</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="143" tag="L">...apiya        =ya =at          QATAMMA=pat            taparta</item>
+    <item id="c2" line="144" tag="G">...at that time and     =it      in the same way        ruled</item>
+    <item id="c3" line="145" tag="T+AC">...and at that time he ruled it in the very same manner."            (KUB 14.4 i 11-12)</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:63]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:61]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:87]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i38901">
+  <metadata type="xigt-meta">
+    <meta type="language" name="hittite" iso-639-3="hit" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="1177" line-range="147-150" line-types="M+CN L G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="147" tag="M+CN">  [Non-2p conjunction]</item>
+    <item id="o2" line="148" tag="L">  f.      nu =kán Mursilin kuennir nu eshar ieir              nu Hantilis nahsariyatati</item>
+    <item id="o3" line="149" tag="G">          and =prt Mursilis they.killed and blood they.shed and Hantilis he.feared</item>
+    <item id="o4" line="150" tag="T">          "And they killed Mursilis and they shed blood and Hantilis was afraid"</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="147" tag="M+CN">[Non-2p conjunction]</item>
+    <item id="c2" line="148" tag="L">nu =kán Mursilin kuennir nu eshar ieir              nu Hantilis nahsariyatati</item>
+    <item id="c3" line="149" tag="G">and =prt Mursilis they.killed and blood they.shed and Hantilis he.feared</item>
+    <item id="c4" line="150" tag="T">And they killed Mursilis and they shed blood and Hantilis was afraid</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c2[0:77]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:72]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c4[0:68]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i38904">
+  <metadata type="xigt-meta">
+    <meta type="language" name="hittite" iso-639-3="hit" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="1177" line-range="329-331" line-types="L G T+AC"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="329" tag="L">  a.        apiya        =ya =at         QATAMMA=pat                   taparta</item>
+    <item id="o2" line="330" tag="G">            at that time and    it       in the same way               ruled</item>
+    <item id="o3" line="331" tag="T+AC">            "...and at that time he ruled it in the very same manner."         (KUB 14.4 i 11-12)</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="329" tag="L">apiya        =ya =at         QATAMMA=pat                   taparta</item>
+    <item id="c2" line="330" tag="G">at that time and    it       in the same way               ruled</item>
+    <item id="c3" line="331" tag="T+AC">...and at that time he ruled it in the very same manner."         (KUB 14.4 i 11-12)</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:66]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:64]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:84]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i38905">
+  <metadata type="xigt-meta">
+    <meta type="language" name="hittite" iso-639-3="hit" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="1177" line-range="333-335" line-types="L G T+AC"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="333" tag="L">  b.        sessar =ma =wa        =si akuwanna          udandu</item>
+    <item id="o2" line="334" tag="G">            beer but Quote him drinking                 they.bring</item>
+    <item id="o3" line="335" tag="T+AC">            "...but `they will bring him beer for drinking' he said"         (KUB 33 102 C II 26)</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="333" tag="L">sessar =ma =wa        =si akuwanna          udandu</item>
+    <item id="c2" line="334" tag="G">beer but Quote him drinking                 they.bring</item>
+    <item id="c3" line="335" tag="T+AC">...but `they will bring him beer for drinking' he said"         (KUB 33 102 C II 26)</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:50]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:54]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:84]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i38912">
+  <metadata type="xigt-meta">
+    <meta type="language" name="hittite" iso-639-3="hit" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="1177" line-range="529-533" line-types="M+LN B L G T+AC"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="529" tag="M+LN">  (38) Hittite</item>
+    <item id="o2" line="530" tag="B"></item>
+    <item id="o3" line="531" tag="L">  a.         [UD.KAM-ti] GE6.KAM-ti =ya               [t]</item>
+    <item id="o4" line="532" tag="G">              by.day       by.night and</item>
+    <item id="o5" line="533" tag="T+AC">             "by day and by night"                                                  (KUB 33.98 ii 11)</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="529" tag="M+LN">Hittite</item>
+    <item id="c2" line="530" tag="B"/>
+    <item id="c3" line="531" tag="L">[UD.KAM-ti] GE6.KAM-ti =ya               [t]</item>
+    <item id="c4" line="532" tag="G">by.day       by.night and</item>
+    <item id="c5" line="533" tag="T+AC">by day and by night"                                                  (KUB 33.98 ii 11)</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c3[0:44]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c4[0:25]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c5[0:87]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i38913">
+  <metadata type="xigt-meta">
+    <meta type="language" name="hittite" iso-639-3="hit" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="1177" line-range="535-538" line-types="L+CR L+CR G T+AC"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="535" tag="L+CR">             [nepis] tekann =a [t]</item>
+    <item id="o2" line="536" tag="L+CR">  b.</item>
+    <item id="o3" line="537" tag="G">              heaven earth     and</item>
+    <item id="o4" line="538" tag="T+AC">             "heaven and earth"                                                    (KBo 6.29 ii 12-13)</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="535 536" tag="L+CR">[nepis] tekann =a [t]</item>
+    <item id="c3" line="537" tag="G">heaven earth     and</item>
+    <item id="c4" line="538" tag="T+AC">heaven and earth"                                                    (KBo 6.29 ii 12-13)</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:21]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:20]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c4[0:88]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i38918">
+  <metadata type="xigt-meta">
+    <meta type="language" name="hittite" iso-639-3="hit" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="1177" line-range="580-583" line-types="L+CR L+CR G T+AC"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="580" tag="L+CR">           [ginuwas GAD.HI.A] patann =a [t GISGÌR.                 ]</item>
+    <item id="o2" line="581" tag="L+CR">  a.                                                         GUB</item>
+    <item id="o3" line="582" tag="G">           for.knees veils        of.feet and        stool</item>
+    <item id="o4" line="583" tag="T+AC">           "veils for the knees and a stool for the feet."                            (StBoT 25.25 I 10)</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="580 581" tag="L+CR">[ginuwas GAD.HI.A] patann =a [t GISGÌR.          GUB    ]</item>
+    <item id="c3" line="582" tag="G">for.knees veils        of.feet and        stool</item>
+    <item id="c4" line="583" tag="T+AC">veils for the knees and a stool for the feet."                            (StBoT 25.25 I 10)</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:57]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:47]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c4[0:92]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i38919">
+  <metadata type="xigt-meta">
+    <meta type="language" name="hittite" iso-639-3="hit" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="1177" line-range="585-588" line-types="L+CR L+CR G T+AC"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="585" tag="L+CR">           [ANSU.KUR.RA.MES] LÚ.MESIS.GUSKIN =ya [t</item>
+    <item id="o2" line="586" tag="L+CR">  b.                                                                   humandan]</item>
+    <item id="o3" line="587" tag="G">           charioteers            golden.grooms and                    all</item>
+    <item id="o4" line="588" tag="T+AC">           "charioteers and all the golden grooms"                                   (StBoT 24 ii 60-61)</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="585 586" tag="L+CR">[ANSU.KUR.RA.MES] LÚ.MESIS.GUSKIN =ya [t                   humandan]</item>
+    <item id="c3" line="587" tag="G">charioteers            golden.grooms and                    all</item>
+    <item id="c4" line="588" tag="T+AC">charioteers and all the golden grooms"                                   (StBoT 24 ii 60-61)</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:68]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:63]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c4[0:92]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i96232">
+  <metadata type="xigt-meta">
+    <meta type="language" name="hittite" iso-639-3="hit" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="384" line-range="3047-3053" line-types="L B G B G B T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="3047" tag="L">  (67)   [Nu kwit LUGAL-us tezzi] nu apat iyami.</item>
+    <item id="o2" line="3048" tag="B"></item>
+    <item id="o3" line="3049" tag="G">         CONN REL:ACC.SG.INAN king-NOM says CONN D3:ACC.SG.INAN</item>
+    <item id="o4" line="3050" tag="B"></item>
+    <item id="o5" line="3051" tag="G">         do</item>
+    <item id="o6" line="3052" tag="B"></item>
+    <item id="o7" line="3053" tag="T">         'And what the king says, that I do.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="3047" tag="L">[Nu kwit LUGAL-us tezzi] nu apat iyami.</item>
+    <item id="c2" line="3048" tag="B"/>
+    <item id="c3" line="3049" tag="G">CONN REL:ACC.SG.INAN king-NOM says CONN D3:ACC.SG.INAN</item>
+    <item id="c4" line="3050" tag="B"/>
+    <item id="c5" line="3051" tag="G">do</item>
+    <item id="c6" line="3052" tag="B"/>
+    <item id="c7" line="3053" tag="T">And what the king says, that I do.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:39]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:54]" alignment="p1"/>
+    <item id="g1" content="c5[0:2]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c7[0:34]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i143283">
+  <metadata type="xigt-meta">
+    <meta type="language" name="hittite" iso-639-3="hit" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="2353" line-range="2414-2418" line-types="L+EX G+CR G+CR G+CR T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="2414" tag="L+EX">       d.   [Nu kwit             LUGALu-s           tezzi] nu       apa¤t     iyami.           [correlative]</item>
+    <item id="o2" line="2415" tag="G+CR">            CON REL:ACC.         king-              says            D3.ACC. do:I</item>
+    <item id="o3" line="2416" tag="G+CR">                                         NOM                  CON</item>
+    <item id="o4" line="2417" tag="G+CR">                SG.NLIV                                             SG.NLIV</item>
+    <item id="o5" line="2418" tag="T">            `What the king says, I do even that.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="2414" tag="L+EX">[Nu kwit             LUGALu-s           tezzi] nu       apa¤t     iyami.           [correlative]</item>
+    <item id="c2" line="2415 2416" tag="G+CR">CON REL:ACC.         king-NOM        says      CON   D3.ACC. do:I</item>
+    <item id="c5" line="2418" tag="T">What the king says, I do even that.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:96]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:65]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c5[0:35]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i155996">
+  <metadata type="xigt-meta">
+    <meta type="language" name="hittite" iso-639-3="hit" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3287" line-range="2448-2451" line-types="L M+SY G T+AC+CR"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="2448" tag="L">  3. ISTU KUR uruKÙ. BABBAR-ti lúMUNABTUM EGI R-pa piy anna L ra</item>
+    <item id="o2" line="2449" tag="M+SY">     abl. nom. prev. inf. neg. adv.</item>
+    <item id="o3" line="2450" tag="G">     Hatti fugitive back to give not right</item>
+    <item id="o4" line="2451" tag="T+AC+CR">     `a fugitiv e is not right to giv e back (= to be given back) from Hatti' (KBo V 4 Obv. 38)</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="2448" tag="L">ISTU KUR uruKÙ. BABBAR-ti lúMUNABTUM EGI R-pa piy anna L ra</item>
+    <item id="c2" line="2449" tag="M+SY">abl. nom. prev. inf. neg. adv.</item>
+    <item id="c3" line="2450" tag="G">Hatti fugitive back to give not right</item>
+    <item id="c4" line="2451" tag="T+AC+CR">a fugitiv e is not right to giv e back (= to be given back) from Hatti' (KBo V 4 Obv. 38)</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:59]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:37]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c4[0:89]" alignment="p1"/>
+  </tier>
+</igt>
+</xigt-corpus>

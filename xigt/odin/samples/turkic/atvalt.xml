@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xigt-corpus>
+<igt id="i155744">
+  <metadata type="xigt-meta">
+    <meta type="language" name="altay" iso-639-3="atv:alt" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3307" line-range="7096-7100" line-types="M+LN L G T T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="7096" tag="M+LN">  Altay</item>
+    <item id="o2" line="7097" tag="L">  (3) Alip      caqsi-ni aqs-i            süd-ü            at       üstünde cör-e ari-ca</item>
+    <item id="o3" line="7098" tag="G">        warrior good-GEN mouth-POSS3 milk-POSS3 horse POST                    go-GER dry-IMPF</item>
+    <item id="o4" line="7099" tag="T">          `Best warriors get grown up riding a horse (lit.: dry the milk of their mouth riding a</item>
+    <item id="o5" line="7100" tag="T">           horse).'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="7096" tag="M+LN">Altay</item>
+    <item id="c2" line="7097" tag="L">Alip      caqsi-ni aqs-i            süd-ü            at       üstünde cör-e ari-ca</item>
+    <item id="c3" line="7098" tag="G">warrior good-GEN mouth-POSS3 milk-POSS3 horse POST                    go-GER dry-IMPF</item>
+    <item id="c4" line="7099" tag="T">Best warriors get grown up riding a horse (lit.: dry the milk of their mouth riding a</item>
+    <item id="c5" line="7100" tag="T">horse).</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c2[0:82]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:85]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c4[0:85]" alignment="p1"/>
+    <item id="t1" content="c5[0:7]" alignment="p1"/>
+  </tier>
+</igt>
+</xigt-corpus>

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xigt-corpus>
+<igt id="i25753">
+  <metadata type="xigt-meta">
+    <meta type="language" name="orkhon turkic" iso-639-3="oui" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3878" line-range="1335-1346" line-types="L+CR L+CR B L+CR+AL L+CR+AL B B B B G T M+AC"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="1335" tag="L+CR">   (18)   orkhon turkic [Kul Tegin]</item>
+    <item id="o2" line="1336" tag="L+CR">                          ¨</item>
+    <item id="o3" line="1337" tag="B"></item>
+    <item id="o4" line="1338" tag="L+CR+AL">          olur-tu-muz al-t -miz</item>
+    <item id="o5" line="1339" tag="L+CR+AL">          ¨¨ ¨ ¨</item>
+    <item id="o6" line="1340" tag="B"></item>
+    <item id="o7" line="1341" tag="B"></item>
+    <item id="o8" line="1342" tag="B"></item>
+    <item id="o9" line="1343" tag="B"></item>
+    <item id="o10" line="1344" tag="G">          kill-pst-1pl sub j.vers-pst-1pl</item>
+    <item id="o11" line="1345" tag="T">          `we killed us...'</item>
+    <item id="o12" line="1346" tag="M+AC">          (von Gabain 1974: 279 l.3)</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="1335" tag="L+CR">orkhon turkic [Kul Tegin]</item>
+    <item id="c3" line="1337" tag="B"/>
+    <item id="c4" line="1338" tag="L+CR+AL">olur-tu-muz al-t-miz</item>
+    <item id="c6" line="1340" tag="B"/>
+    <item id="c7" line="1341" tag="B"/>
+    <item id="c8" line="1342" tag="B"/>
+    <item id="c9" line="1343" tag="B"/>
+    <item id="c10" line="1344" tag="G">kill-pst-1pl sub j.vers-pst-1pl</item>
+    <item id="c11" line="1345" tag="T">we killed us...</item>
+    <item id="c12" line="1346" tag="M+AC">von Gabain 1974: 279 l.3</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:25]"/>
+    <item id="p1" content="c4[0:20]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c10[0:31]" alignment="p2"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c11[0:15]" alignment="p2"/>
+  </tier>
+</igt>
+</xigt-corpus>

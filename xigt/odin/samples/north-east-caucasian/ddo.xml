@@ -1,0 +1,2992 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xigt-corpus>
+<igt id="i6404">
+  <metadata type="xigt-meta">
+    <meta type="language" name="tsez" iso-639-3="ddo" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="1702" line-range="88-92" line-types="M+AC+LN L+CR+SY L+CR G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="88" tag="M+AC+LN">  Bsp. Tsesisch (Comrie &amp; Polinsky)</item>
+    <item id="o2" line="89" tag="L+CR+SY">               [u«z---a               b---ac'-ru-li]</item>
+    <item id="o3" line="90" tag="L+CR">  a. eni-r                magalu                         b-iy-xo.</item>
+    <item id="o4" line="91" tag="G">    mother-DAT [boy-ERG bread.III.NOM III-eat-PP-NZR     III-know-PRES</item>
+    <item id="o5" line="92" tag="T">      `The mother knows the boy ate the bread.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="88" tag="M+AC+LN">Bsp. Tsesisch (Comrie &amp; Polinsky)</item>
+    <item id="c2" line="89 90" tag="L+CR+SY">eni-r     [u«z---a  magalu       b---ac'-ru-li]    b-iy-xo.</item>
+    <item id="c4" line="91" tag="G">mother-DAT [boy-ERG bread.III.NOM III-eat-PP-NZR     III-know-PRES</item>
+    <item id="c5" line="92" tag="T">The mother knows the boy ate the bread.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c2[0:59]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c4[0:66]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c5[0:39]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i6405">
+  <metadata type="xigt-meta">
+    <meta type="language" name="tsez" iso-639-3="ddo" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="1702" line-range="93-96" line-types="L+CR+SY L+CR G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="93" tag="L+CR+SY">               [u«zi      ø---ay-ru-li]</item>
+    <item id="o2" line="94" tag="L+CR">  b. eni-r                                ø-iy-xo.</item>
+    <item id="o3" line="95" tag="G">    mother-DAT [boy.I.NOM I-arrive-PP-NZR] I-know-PRES</item>
+    <item id="o4" line="96" tag="T">     `The mother knows that the boy arrived.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="93 94" tag="L+CR+SY">eni-r     [u«zi      ø---ay-ru-li] ø-iy-xo.</item>
+    <item id="c3" line="95" tag="G">mother-DAT [boy.I.NOM I-arrive-PP-NZR] I-know-PRES</item>
+    <item id="c4" line="96" tag="T">The mother knows that the boy arrived.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:43]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:50]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c4[0:38]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i59680">
+  <metadata type="xigt-meta">
+    <meta type="language" name="tsez" iso-639-3="ddo" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3016" line-range="1047-1052" line-types="M+LN+EX L G+CR G+CR B T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="1047" tag="M+LN+EX">              Tsez20</item>
+    <item id="o2" line="1048" tag="L">  (22)        a. kid              y-ik'i-x</item>
+    <item id="o3" line="1049" tag="G+CR">                 girl.         .II II-go-PR</item>
+    <item id="o4" line="1050" tag="G+CR">                         ABS                  ES</item>
+    <item id="o5" line="1051" tag="B"></item>
+    <item id="o6" line="1052" tag="T">                 `The girl goes.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="1047" tag="M+LN+EX">Tsez20</item>
+    <item id="c2" line="1048" tag="L">kid              y-ik'i-x</item>
+    <item id="c3" line="1049 1050" tag="G+CR">girl.   ABS   .II II-go-PR   ES</item>
+    <item id="c5" line="1051" tag="B"/>
+    <item id="c6" line="1052" tag="T">The girl goes.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c2[0:25]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:31]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c6[0:14]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i59681">
+  <metadata type="xigt-meta">
+    <meta type="language" name="tsez" iso-639-3="ddo" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3016" line-range="1053-1058" line-types="L G+CR G+CR B T M+AC"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="1053" tag="L">              b. uz-            bikori               b-exu-r-si.</item>
+    <item id="o2" line="1054" tag="G+CR">                 boy-           snake.         .III III-die-    CAUS-PSTWIT</item>
+    <item id="o3" line="1055" tag="G+CR">                         ERG             ABS</item>
+    <item id="o4" line="1056" tag="B"></item>
+    <item id="o5" line="1057" tag="T">                 `The boy killed the snake.'</item>
+    <item id="o6" line="1058" tag="M+AC">                 (Comrie 2003: 323)</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="1053" tag="L">uz-bikori               b-exu-r-si.</item>
+    <item id="c2" line="1054 1055" tag="G+CR">boy-ERG    snake.   ABS   .III III-die-CAUS-PSTWIT</item>
+    <item id="c4" line="1056" tag="B"/>
+    <item id="c5" line="1057" tag="T">The boy killed the snake.</item>
+    <item id="c6" line="1058" tag="M+AC">323</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:35]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:50]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c5[0:25]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i59682">
+  <metadata type="xigt-meta">
+    <meta type="language" name="tsez" iso-639-3="ddo" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3016" line-range="1067-1071" line-types="L G L G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="1067" tag="L">  (23) a. eni-r                  [ uz-             magalu              b-c'-ru-li]</item>
+    <item id="o2" line="1068" tag="G">                mother-DAT boy-ERG bread.ABS.III III-eat-PSTPRT-NMLZ-ABS</item>
+    <item id="o3" line="1069" tag="L">                r-iy-xo.</item>
+    <item id="o4" line="1070" tag="G">                IV-know-PRES</item>
+    <item id="o5" line="1071" tag="T">                `The mother knows that the boy ate the bread.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="1067" tag="L">eni-r                  [ uz-magalu              b-c'-ru-li]</item>
+    <item id="c2" line="1068" tag="G">mother-DAT boy-ERG bread.ABS.III III-eat-PSTPRT-NMLZ-ABS</item>
+    <item id="c3" line="1069" tag="L">r-iy-xo.</item>
+    <item id="c4" line="1070" tag="G">IV-know-PRES</item>
+    <item id="c5" line="1071" tag="T">The mother knows that the boy ate the bread.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:59]"/>
+    <item id="p1" content="c3[0:8]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:56]" alignment="p1"/>
+    <item id="g1" content="c4[0:12]" alignment="p2"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c5[0:44]" alignment="p2"/>
+  </tier>
+</igt>
+<igt id="i59683">
+  <metadata type="xigt-meta">
+    <meta type="language" name="tsez" iso-639-3="ddo" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3016" line-range="1072-1077" line-types="L G L G T M+AC"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="1072" tag="L">             b. eni-r            [ uz-             magalu              b-c'-ru-li]</item>
+    <item id="o2" line="1073" tag="G">                mother-DAT boy-ERG bread.ABS.III III-eat-PSTPRT-NMLZ-ABS</item>
+    <item id="o3" line="1074" tag="L">                b-iy-xo.</item>
+    <item id="o4" line="1075" tag="G">                III-know-PRES</item>
+    <item id="o5" line="1076" tag="T">                `The mother knows that the boy ate the bread.'</item>
+    <item id="o6" line="1077" tag="M+AC">                (Polinsky &amp; Potsdam 2001: 584)</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="1072" tag="L">eni-r            [ uz-magalu              b-c'-ru-li]</item>
+    <item id="c2" line="1073" tag="G">mother-DAT boy-ERG bread.ABS.III III-eat-PSTPRT-NMLZ-ABS</item>
+    <item id="c3" line="1074" tag="L">b-iy-xo.</item>
+    <item id="c4" line="1075" tag="G">III-know-PRES</item>
+    <item id="c5" line="1076" tag="T">The mother knows that the boy ate the bread.</item>
+    <item id="c6" line="1077" tag="M+AC">Polinsky &amp; Potsdam 2001: 584</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:53]"/>
+    <item id="p1" content="c3[0:8]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:56]" alignment="p1"/>
+    <item id="g1" content="c4[0:13]" alignment="p2"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c5[0:44]" alignment="p2"/>
+  </tier>
+</igt>
+<igt id="i59684">
+  <metadata type="xigt-meta">
+    <meta type="language" name="tsez" iso-639-3="ddo" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3016" line-range="1112-1117" line-types="L G+CR G+CR B T M+AC"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="1112" tag="L">  (24)      *eni-r          [ t'ek-kin              y-igu    yl-ru-li]          y-iy-xo.</item>
+    <item id="o2" line="1113" tag="G+CR">             mother-         book.II.    ABS-FOC    II-good be-   PSTPRT-NMLZ   II-know-</item>
+    <item id="o3" line="1114" tag="G+CR">                       DAT                                                                 PRES</item>
+    <item id="o4" line="1115" tag="B"></item>
+    <item id="o5" line="1116" tag="T">             `The mother knows that the BOOK is good.'</item>
+    <item id="o6" line="1117" tag="M+AC">             (Polinsky &amp; Potsdam 2001: 611)</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="1112" tag="L">*eni-r          [ t'ek-kin              y-igu    yl-ru-li]          y-iy-xo.</item>
+    <item id="c2" line="1113 1114" tag="G+CR">mother-DAT   book.II.    ABS-FOC    II-good be-PSTPRT-NMLZ   II-know-PRES</item>
+    <item id="c4" line="1115" tag="B"/>
+    <item id="c5" line="1116" tag="T">The mother knows that the BOOK is good.</item>
+    <item id="c6" line="1117" tag="M+AC">Polinsky &amp; Potsdam 2001: 611</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:76]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:73]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c5[0:39]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i59685">
+  <metadata type="xigt-meta">
+    <meta type="language" name="tsez" iso-639-3="ddo" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3016" line-range="1119-1126" line-types="L G+CR G+CR B L G B T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="1119" tag="L">  (25)      a. eni-r             [ uz-         ul           magalu</item>
+    <item id="o2" line="1120" tag="G+CR">                mother-          boy-          yesterday bread.III.</item>
+    <item id="o3" line="1121" tag="G+CR">                           DAT          ERG                              ABS</item>
+    <item id="o4" line="1122" tag="B"></item>
+    <item id="o5" line="1123" tag="L">                b-c'rul-li]                    r/b-iy-xo.</item>
+    <item id="o6" line="1124" tag="G">                III-eat-   PSTPRT-NMLZ        IV/III-know-   PRES</item>
+    <item id="o7" line="1125" tag="B"></item>
+    <item id="o8" line="1126" tag="T">                `The mother knows that the boy ate bread yesterday.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="1119" tag="L">eni-r             [ uz-ul           magalu</item>
+    <item id="c2" line="1120 1121" tag="G+CR">mother-DAT   boy-ERG    yesterday bread.III.      ABS</item>
+    <item id="c4" line="1122" tag="B"/>
+    <item id="c5" line="1123" tag="L">b-c'rul-li]                    r/b-iy-xo.</item>
+    <item id="c6" line="1124" tag="G">III-eat-PSTPRT-NMLZ        IV/III-know-PRES</item>
+    <item id="c7" line="1125" tag="B"/>
+    <item id="c8" line="1126" tag="T">The mother knows that the boy ate bread yesterday.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:42]"/>
+    <item id="p1" content="c5[0:41]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:53]" alignment="p1"/>
+    <item id="g1" content="c6[0:43]" alignment="p2"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c8[0:50]" alignment="p2"/>
+  </tier>
+</igt>
+<igt id="i59686">
+  <metadata type="xigt-meta">
+    <meta type="language" name="tsez" iso-639-3="ddo" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3016" line-range="1127-1134" line-types="L G+CR G+CR B L G B T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="1127" tag="L">            b. eni-r             [ ul            uz-        magalu</item>
+    <item id="o2" line="1128" tag="G+CR">                mother-          yesterday boy-             bread.III.</item>
+    <item id="o3" line="1129" tag="G+CR">                           DAT                        ERG                ABS</item>
+    <item id="o4" line="1130" tag="B"></item>
+    <item id="o5" line="1131" tag="L">                b-c'rul-li]                   r/*b-iy-xo.</item>
+    <item id="o6" line="1132" tag="G">                III-eat-   PSTPRT-NMLZ        IV/III-know-   PRES</item>
+    <item id="o7" line="1133" tag="B"></item>
+    <item id="o8" line="1134" tag="T">                `The mother knows that the boy ate bread yesterday.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="1127" tag="L">eni-r             [ ul            uz-magalu</item>
+    <item id="c2" line="1128 1129" tag="G+CR">mother-DAT   yesterday boy-ERG   bread.III.   ABS</item>
+    <item id="c4" line="1130" tag="B"/>
+    <item id="c5" line="1131" tag="L">b-c'rul-li]                   r/*b-iy-xo.</item>
+    <item id="c6" line="1132" tag="G">III-eat-PSTPRT-NMLZ        IV/III-know-PRES</item>
+    <item id="c7" line="1133" tag="B"/>
+    <item id="c8" line="1134" tag="T">The mother knows that the boy ate bread yesterday.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:43]"/>
+    <item id="p1" content="c5[0:41]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:49]" alignment="p1"/>
+    <item id="g1" content="c6[0:43]" alignment="p2"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c8[0:50]" alignment="p2"/>
+  </tier>
+</igt>
+<igt id="i59687">
+  <metadata type="xigt-meta">
+    <meta type="language" name="tsez" iso-639-3="ddo" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3016" line-range="1163-1167" line-types="M+LN L B G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="1163" tag="M+LN">       Tsez</item>
+    <item id="o2" line="1164" tag="L">  (26) a. [ kidb kaat                t't'ruli]   y-iyx        uzir.</item>
+    <item id="o3" line="1165" tag="B"></item>
+    <item id="o4" line="1166" tag="G">              girl     letter.II.ABS read        II-knows boy</item>
+    <item id="o5" line="1167" tag="T">              `The boy knows that the girl has read the letter.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="1163" tag="M+LN">Tsez</item>
+    <item id="c2" line="1164" tag="L">[ kidb kaat                t't'ruli]   y-iyx        uzir.</item>
+    <item id="c3" line="1165" tag="B"/>
+    <item id="c4" line="1166" tag="G">girl     letter.II.ABS read        II-knows boy</item>
+    <item id="c5" line="1167" tag="T">The boy knows that the girl has read the letter.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c2[0:57]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c4[0:47]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c5[0:48]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i59688">
+  <metadata type="xigt-meta">
+    <meta type="language" name="tsez" iso-639-3="ddo" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3016" line-range="1168-1172" line-types="L B G T M+AC"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="1168" tag="L">       b. uzir       y-iyx    [ kidb kaat                t't'ruli].</item>
+    <item id="o2" line="1169" tag="B"></item>
+    <item id="o3" line="1170" tag="G">          boy        II-knows girl     letter.II.ABS read</item>
+    <item id="o4" line="1171" tag="T">          `The boy knows that the girl has read the letter.'</item>
+    <item id="o5" line="1172" tag="M+AC">          (Polinsky 2003: 302)</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="1168" tag="L">uzir       y-iyx    [ kidb kaat                t't'ruli].</item>
+    <item id="c2" line="1169" tag="B"/>
+    <item id="c3" line="1170" tag="G">boy        II-knows girl     letter.II.ABS read</item>
+    <item id="c4" line="1171" tag="T">The boy knows that the girl has read the letter.</item>
+    <item id="c5" line="1172" tag="M+AC">302</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:57]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:47]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c4[0:48]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i59689">
+  <metadata type="xigt-meta">
+    <meta type="language" name="tsez" iso-639-3="ddo" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3016" line-range="1180-1183" line-types="L B G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="1180" tag="L">  (27) a. [ kidb kaat                t'et'r-änc'i-ru-li]          y-iyx       uzir.</item>
+    <item id="o2" line="1181" tag="B"></item>
+    <item id="o3" line="1182" tag="G">              girl     letter.II.ABS read-NEG-PSTPRT-NMLZ II-knows boy</item>
+    <item id="o4" line="1183" tag="T">              `The boy knows that the girl has not read the letter.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="1180" tag="L">[ kidb kaat                t'et'r-änc'i-ru-li]          y-iyx       uzir.</item>
+    <item id="c2" line="1181" tag="B"/>
+    <item id="c3" line="1182" tag="G">girl     letter.II.ABS read-NEG-PSTPRT-NMLZ II-knows boy</item>
+    <item id="c4" line="1183" tag="T">The boy knows that the girl has not read the letter.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:73]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:56]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c4[0:52]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i59690">
+  <metadata type="xigt-meta">
+    <meta type="language" name="tsez" iso-639-3="ddo" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3016" line-range="1184-1188" line-types="L B G T M+AC"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="1184" tag="L">       b. [ kidb kaat                t't'ruli] y-iy-x-nu                  uzir.</item>
+    <item id="o2" line="1185" tag="B"></item>
+    <item id="o3" line="1186" tag="G">              girl     letter.II.ABS read        II-knows-PRES-NEG boy</item>
+    <item id="o4" line="1187" tag="T">              `The boy does not know that the girl has read the letter.'</item>
+    <item id="o5" line="1188" tag="M+AC">              (Polinsky 2003: 303)</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="1184" tag="L">[ kidb kaat                t't'ruli] y-iy-x-nu                  uzir.</item>
+    <item id="c2" line="1185" tag="B"/>
+    <item id="c3" line="1186" tag="G">girl     letter.II.ABS read        II-knows-PRES-NEG boy</item>
+    <item id="c4" line="1187" tag="T">The boy does not know that the girl has read the letter.</item>
+    <item id="c5" line="1188" tag="M+AC">303</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:69]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:56]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c4[0:56]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i59691">
+  <metadata type="xigt-meta">
+    <meta type="language" name="tsez" iso-639-3="ddo" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3016" line-range="1213-1218" line-types="M+LN L B G M T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="1213" tag="M+LN">       Tsez</item>
+    <item id="o2" line="1214" tag="L">  (28) a. sibaw ÷way-          sis     k'et'u   han-si.</item>
+    <item id="o3" line="1215" tag="B"></item>
+    <item id="o4" line="1216" tag="G">           every dog-ERG one cat-ABS bite-PSTWIT</item>
+    <item id="o5" line="1217" tag="M">                                       (dog &gt; cat, cat &gt; dog)</item>
+    <item id="o6" line="1218" tag="T">           `Every dog bit a cat.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="1213" tag="M+LN">Tsez</item>
+    <item id="c2" line="1214" tag="L">sibaw ÷way-sis     k'et'u   han-si.</item>
+    <item id="c3" line="1215" tag="B"/>
+    <item id="c4" line="1216" tag="G">every dog-ERG one cat-ABS bite-PSTWIT</item>
+    <item id="c5" line="1217" tag="M">dog &gt; cat, cat &gt; dog</item>
+    <item id="c6" line="1218" tag="T">Every dog bit a cat.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c2[0:35]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c4[0:37]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c6[0:20]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i59692">
+  <metadata type="xigt-meta">
+    <meta type="language" name="tsez" iso-639-3="ddo" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3016" line-range="1219-1224" line-types="L+CR L+CR B G M T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="1219" tag="L+CR">                     ÷way-       sibaw      k'et'u     han-si.</item>
+    <item id="o2" line="1220" tag="L+CR">       b. sida</item>
+    <item id="o3" line="1221" tag="B"></item>
+    <item id="o4" line="1222" tag="G">           one-OBL dog-ERG every           cat-ABS     bite-PSTWIT</item>
+    <item id="o5" line="1223" tag="M">                                       (dog &gt; cat, cat &gt; dog)</item>
+    <item id="o6" line="1224" tag="T">           `A dog bit every cat.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="1219 1220" tag="L+CR">sida       ÷way-sibaw      k'et'u     han-si.</item>
+    <item id="c3" line="1221" tag="B"/>
+    <item id="c4" line="1222" tag="G">one-OBL dog-ERG every           cat-ABS     bite-PSTWIT</item>
+    <item id="c5" line="1223" tag="M">dog &gt; cat, cat &gt; dog</item>
+    <item id="c6" line="1224" tag="T">A dog bit every cat.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:45]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c4[0:55]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c6[0:20]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i59693">
+  <metadata type="xigt-meta">
+    <meta type="language" name="tsez" iso-639-3="ddo" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3016" line-range="1232-1242" line-types="M+LN L G T T+AL+EX M B M B T+AL M"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="1232" tag="M+LN">       Tsez</item>
+    <item id="o2" line="1233" tag="L">  (29) a. sis    uciteler [ sibaw uzi                ø-ik'ixosi-li] r-iyxo.</item>
+    <item id="o3" line="1234" tag="G">           one teacher       every boy-I.ABS I-go-NMLZ             IV-know</item>
+    <item id="o4" line="1235" tag="T">           `Some teacher knows that every boy is going.'</item>
+    <item id="o5" line="1236" tag="T+AL+EX">       b. ok: `Some teacher is such that he knows that every boy is going.'</item>
+    <item id="o6" line="1237" tag="M">                 (teacher &gt; boy)</item>
+    <item id="o7" line="1238" tag="B"></item>
+    <item id="o8" line="1239" tag="M">  Chapter 3                                                                                    102</item>
+    <item id="o9" line="1240" tag="B"></item>
+    <item id="o10" line="1241" tag="T+AL">           c. *     `Every boy is such that some teacher knows that he is going.'</item>
+    <item id="o11" line="1242" tag="M">                     (*boy &gt; teacher)</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="1232" tag="M+LN">Tsez</item>
+    <item id="c2" line="1233" tag="L">sis    uciteler [ sibaw uzi                ø-ik'ixosi-li] r-iyxo.</item>
+    <item id="c3" line="1234" tag="G">one teacher       every boy-I.ABS I-go-NMLZ             IV-know</item>
+    <item id="c4" line="1235" tag="T">Some teacher knows that every boy is going.</item>
+    <item id="c5" line="1236" tag="T+AL+EX">`Some teacher is such that he knows that every boy is going.</item>
+    <item id="c6" line="1237" tag="M">teacher &gt; boy</item>
+    <item id="c7" line="1238" tag="B"/>
+    <item id="c8" line="1239" tag="M">Chapter 3                                                                                    102</item>
+    <item id="c9" line="1240" tag="B"/>
+    <item id="c10" line="1241" tag="T+AL">*     `Every boy is such that some teacher knows that he is going.</item>
+    <item id="c11" line="1242" tag="M">*boy &gt; teacher</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c2[0:65]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:63]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c4[0:43]" alignment="p1"/>
+    <item id="t1" content="c5[0:60]" alignment="p1"/>
+    <item id="t2" content="c10[0:66]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i59694">
+  <metadata type="xigt-meta">
+    <meta type="language" name="tsez" iso-639-3="ddo" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3016" line-range="1252-1259" line-types="M+LN L G T T+AL+EX M T+AL M"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="1252" tag="M+LN">           Tsez</item>
+    <item id="o2" line="1253" tag="L">  (30) a. sis        uciteler [ sibaw uzi                ø-ik'ixosi-li] ø-iyxo.</item>
+    <item id="o3" line="1254" tag="G">               one teacher         every boy-I.ABS I-go-NMLZ           I-know</item>
+    <item id="o4" line="1255" tag="T">               `Some teacher knows that every boy is going.'</item>
+    <item id="o5" line="1256" tag="T+AL+EX">           b. ok: `Some teacher is such that he knows that every boy is going.'</item>
+    <item id="o6" line="1257" tag="M">                    (teacher &gt; boy)</item>
+    <item id="o7" line="1258" tag="T+AL">           c. *     `Every boy is such that some teacher knows that he is going.'</item>
+    <item id="o8" line="1259" tag="M">                    (*boy &gt; teacher)</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="1252" tag="M+LN">Tsez</item>
+    <item id="c2" line="1253" tag="L">sis        uciteler [ sibaw uzi                ø-ik'ixosi-li] ø-iyxo.</item>
+    <item id="c3" line="1254" tag="G">one teacher         every boy-I.ABS I-go-NMLZ           I-know</item>
+    <item id="c4" line="1255" tag="T">Some teacher knows that every boy is going.</item>
+    <item id="c5" line="1256" tag="T+AL+EX">`Some teacher is such that he knows that every boy is going.</item>
+    <item id="c6" line="1257" tag="M">teacher &gt; boy</item>
+    <item id="c7" line="1258" tag="T+AL">*     `Every boy is such that some teacher knows that he is going.</item>
+    <item id="c8" line="1259" tag="M">*boy &gt; teacher</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c2[0:69]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:62]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c4[0:43]" alignment="p1"/>
+    <item id="t1" content="c5[0:60]" alignment="p1"/>
+    <item id="t2" content="c7[0:66]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i59695">
+  <metadata type="xigt-meta">
+    <meta type="language" name="tsez" iso-639-3="ddo" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3016" line-range="1377-1381" line-types="L G L G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="1377" tag="L">  (33) eni-r        [ uz-        magalu      b-c'-ru-li]</item>
+    <item id="o2" line="1378" tag="G">       mother-DAT boy-ERG bread.ABS.III III-eat-PSTPRT-NMLZ-ABS</item>
+    <item id="o3" line="1379" tag="L">       b-iy-xo.</item>
+    <item id="o4" line="1380" tag="G">       III-know-PRES</item>
+    <item id="o5" line="1381" tag="T">       `The mother knows that the boy ate the bread.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="1377" tag="L">eni-r        [ uz-magalu      b-c'-ru-li]</item>
+    <item id="c2" line="1378" tag="G">mother-DAT boy-ERG bread.ABS.III III-eat-PSTPRT-NMLZ-ABS</item>
+    <item id="c3" line="1379" tag="L">b-iy-xo.</item>
+    <item id="c4" line="1380" tag="G">III-know-PRES</item>
+    <item id="c5" line="1381" tag="T">The mother knows that the boy ate the bread.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:41]"/>
+    <item id="p1" content="c3[0:8]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:56]" alignment="p1"/>
+    <item id="g1" content="c4[0:13]" alignment="p2"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c5[0:44]" alignment="p2"/>
+  </tier>
+</igt>
+<igt id="i59698">
+  <metadata type="xigt-meta">
+    <meta type="language" name="tsez" iso-639-3="ddo" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3016" line-range="2056-2061" line-types="M+LN L G L G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="2056" tag="M+LN">       Tsez</item>
+    <item id="o2" line="2057" tag="L">  (46) a. eni-r         [ uz-          magalu   b-c'-ru-li]</item>
+    <item id="o3" line="2058" tag="G">           mother-DAT boy-ERG bread.ABS.III III-eat-PSTPRT-NMLZ-ABS</item>
+    <item id="o4" line="2059" tag="L">           r-iy-xo.</item>
+    <item id="o5" line="2060" tag="G">           IV-know-PRES</item>
+    <item id="o6" line="2061" tag="T">           `The mother knows that the boy ate the bread.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="2056" tag="M+LN">Tsez</item>
+    <item id="c2" line="2057" tag="L">eni-r         [ uz-magalu   b-c'-ru-li]</item>
+    <item id="c3" line="2058" tag="G">mother-DAT boy-ERG bread.ABS.III III-eat-PSTPRT-NMLZ-ABS</item>
+    <item id="c4" line="2059" tag="L">r-iy-xo.</item>
+    <item id="c5" line="2060" tag="G">IV-know-PRES</item>
+    <item id="c6" line="2061" tag="T">The mother knows that the boy ate the bread.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c2[0:39]"/>
+    <item id="p1" content="c4[0:8]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:56]" alignment="p1"/>
+    <item id="g1" content="c5[0:12]" alignment="p2"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c6[0:44]" alignment="p2"/>
+  </tier>
+</igt>
+<igt id="i59699">
+  <metadata type="xigt-meta">
+    <meta type="language" name="tsez" iso-639-3="ddo" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3016" line-range="2062-2067" line-types="L G L G T M+AC"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="2062" tag="L">       b. eni-r         [ uz-          magalu   b-c'-ru-li]</item>
+    <item id="o2" line="2063" tag="G">           mother-DAT boy-ERG bread.ABS.III III-eat-PSTPRT-NMLZ-ABS</item>
+    <item id="o3" line="2064" tag="L">           b-iy-xo.</item>
+    <item id="o4" line="2065" tag="G">           III-know-PRES</item>
+    <item id="o5" line="2066" tag="T">           `The mother knows that the boy ate the bread.'</item>
+    <item id="o6" line="2067" tag="M+AC">           (Polinsky &amp; Potsdam 2001: 584)</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="2062" tag="L">eni-r         [ uz-magalu   b-c'-ru-li]</item>
+    <item id="c2" line="2063" tag="G">mother-DAT boy-ERG bread.ABS.III III-eat-PSTPRT-NMLZ-ABS</item>
+    <item id="c3" line="2064" tag="L">b-iy-xo.</item>
+    <item id="c4" line="2065" tag="G">III-know-PRES</item>
+    <item id="c5" line="2066" tag="T">The mother knows that the boy ate the bread.</item>
+    <item id="c6" line="2067" tag="M+AC">Polinsky &amp; Potsdam 2001: 584</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:39]"/>
+    <item id="p1" content="c3[0:8]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:56]" alignment="p1"/>
+    <item id="g1" content="c4[0:13]" alignment="p2"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c5[0:44]" alignment="p2"/>
+  </tier>
+</igt>
+<igt id="i63215">
+  <metadata type="xigt-meta">
+    <meta type="language" name="tsez" iso-639-3="ddo" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="2566" line-range="1563-1569" line-types="L+CR L+CR L+CR G L+CR G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="1563" tag="L+CR">                                       ta-ru ]</item>
+    <item id="o2" line="1564" tag="L+CR">                           gagali                        uzi</item>
+    <item id="o3" line="1565" tag="L+CR">  (9)       [kid-b-er                   ¯</item>
+    <item id="o4" line="1566" tag="G">             girl-TH - DAT flower-ABS give-PA S T PA RT boy-ABS</item>
+    <item id="o5" line="1567" tag="L+CR">            qoqoi-s</item>
+    <item id="o6" line="1568" tag="G">            laugh-PA S TEV</item>
+    <item id="o7" line="1569" tag="T">            `The boy who gave a flower to the girl laughed.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="1563 1564" tag="L+CR">gagali      ta-ru ]           uzi</item>
+    <item id="c4" line="1566" tag="G">girl-TH-DAT flower-ABS give-PA S T PA RT boy-ABS</item>
+    <item id="c5" line="1567" tag="L+CR">qoqoi-s</item>
+    <item id="c6" line="1568" tag="G">laugh-PA S TEV</item>
+    <item id="c7" line="1569" tag="T">The boy who gave a flower to the girl laughed.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:33]"/>
+    <item id="p1" content="c5[0:7]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c4[0:48]" alignment="p1"/>
+    <item id="g1" content="c6[0:14]" alignment="p2"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c7[0:46]" alignment="p2"/>
+  </tier>
+</igt>
+<igt id="i67628">
+  <metadata type="xigt-meta">
+    <meta type="language" name="tsez" iso-639-3="ddo" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="1439" line-range="364-368" line-types="L+CR L+CR L+CR G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="364" tag="L+CR">  (10) a. Eni-r              [u       ¯</item>
+    <item id="o2" line="365" tag="L+CR">                                      ay-ru-i]                     iy-xo.</item>
+    <item id="o3" line="366" tag="L+CR">                               zi</item>
+    <item id="o4" line="367" tag="G">               mother-dat boy.abs i.arrive-pt.part-nmlz i-know-pres</item>
+    <item id="o5" line="368" tag="T">               `The mother knows that the boy arrived.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="364 366" tag="L+CR">Eni-r              [uzi     ¯</item>
+    <item id="c4" line="367" tag="G">mother-dat boy.abs i.arrive-pt.part-nmlz i-know-pres</item>
+    <item id="c5" line="368" tag="T">The mother knows that the boy arrived.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:29]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c4[0:52]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c5[0:38]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i67629">
+  <metadata type="xigt-meta">
+    <meta type="language" name="tsez" iso-639-3="ddo" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="1439" line-range="369-375" line-types="L+CR L+CR L+CR G L G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="369" tag="L+CR">           b. Eni-r          [u a</item>
+    <item id="o2" line="370" tag="L+CR">                               z-¯                      b-¯ac'-ru=i]</item>
+    <item id="o3" line="371" tag="L+CR">                                       magalu</item>
+    <item id="o4" line="372" tag="G">               mother-dat boy-erg bread.iii.abs iii-eat-pt.part-nmlz</item>
+    <item id="o5" line="373" tag="L">               b-iy-xo.</item>
+    <item id="o6" line="374" tag="G">               iii-know-pres</item>
+    <item id="o7" line="375" tag="T">               `The mother knows that the boy ate the bread.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="369 371" tag="L+CR">Eni-r          [u a      magalu</item>
+    <item id="c4" line="372" tag="G">mother-dat boy-erg bread.iii.abs iii-eat-pt.part-nmlz</item>
+    <item id="c5" line="373" tag="L">b-iy-xo.</item>
+    <item id="c6" line="374" tag="G">iii-know-pres</item>
+    <item id="c7" line="375" tag="T">The mother knows that the boy ate the bread.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:31]"/>
+    <item id="p1" content="c5[0:8]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c4[0:53]" alignment="p1"/>
+    <item id="g1" content="c6[0:13]" alignment="p2"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c7[0:44]" alignment="p2"/>
+  </tier>
+</igt>
+<igt id="i79855">
+  <metadata type="xigt-meta">
+    <meta type="language" name="tsez" iso-639-3="ddo" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="1641" line-range="1706-1713" line-types="M+LN L+CR L+CR L+CR L+CR G+CR G+CR T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="1706" tag="M+LN">                                                                                                          (Tsez)</item>
+    <item id="o2" line="1707" tag="L+CR">                                      b¯c'ruli] b-iyxo.</item>
+    <item id="o3" line="1708" tag="L+CR">                                       a</item>
+    <item id="o4" line="1709" tag="L+CR">          c. enir  [uz¯ magalu</item>
+    <item id="o5" line="1710" tag="L+CR">                      a</item>
+    <item id="o6" line="1711" tag="G+CR">                                                III-know</item>
+    <item id="o7" line="1712" tag="G+CR">             mother boy bread.III.abs ate</item>
+    <item id="o8" line="1713" tag="T">             `The mother knows the boy ate the bread.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="1706" tag="M+LN">Tsez</item>
+    <item id="c2" line="1707 1709" tag="L+CR">enir  [uz¯ magalu       b¯c'ruli] b-iyxo.</item>
+    <item id="c6" line="1711 1712" tag="G+CR">mother boy bread.III.abs ate       III-know</item>
+    <item id="c8" line="1713" tag="T">The mother knows the boy ate the bread.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c2[0:41]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c6[0:43]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c8[0:39]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i79864">
+  <metadata type="xigt-meta">
+    <meta type="language" name="tsez" iso-639-3="ddo" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="1641" line-range="1788-1792" line-types="L+CR L+CR L+CR G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="1788" tag="L+CR">   (88)   a.     enir  [neti c'ohor-¯ micxir</item>
+    <item id="o2" line="1789" tag="L+CR">                                     a           b-ok'¯k'-ru-li]</item>
+    <item id="o3" line="1790" tag="L+CR">                                                       a               r/*b-iyxo</item>
+    <item id="o4" line="1791" tag="G">                 mother when thief-erg money.III III-steal-pstprt-nmlz IV/*III-knows</item>
+    <item id="o5" line="1792" tag="T">                 `The mother knows when the thief stole the money.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="1788 1790" tag="L+CR">enir  [neti c'ohor-¯ micxir          a               r/*b-iyxo</item>
+    <item id="c4" line="1791" tag="G">mother when thief-erg money.III III-steal-pstprt-nmlz IV/*III-knows</item>
+    <item id="c5" line="1792" tag="T">The mother knows when the thief stole the money.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:62]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c4[0:67]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c5[0:48]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i79865">
+  <metadata type="xigt-meta">
+    <meta type="language" name="tsez" iso-639-3="ddo" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="1641" line-range="1793-1798" line-types="L+CR L+CR L+CR L+CR G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="1793" tag="L+CR">                                                                        b-iy-xo</item>
+    <item id="o2" line="1794" tag="L+CR">                                                  b-ac'-si-lin]</item>
+    <item id="o3" line="1795" tag="L+CR">          b.   * eni-r     [uz-¯</item>
+    <item id="o4" line="1796" tag="L+CR">                               a    magalu</item>
+    <item id="o5" line="1797" tag="G">                 mother-dat boy-erg bread.III.abs III-eat-pst.evid-COMP III-know</item>
+    <item id="o6" line="1798" tag="T">                 `The mother knows that the boy ate bread.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="1793 1794 1795" tag="L+CR">* eni-r     [uz-¯                 b-ac'-si-lin]         b-iy-xo</item>
+    <item id="c5" line="1797" tag="G">mother-dat boy-erg bread.III.abs III-eat-pst.evid-COMP III-know</item>
+    <item id="c6" line="1798" tag="T">The mother knows that the boy ate bread.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:63]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c5[0:63]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c6[0:40]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i79869">
+  <metadata type="xigt-meta">
+    <meta type="language" name="tsez" iso-639-3="ddo" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="1641" line-range="1869-1873" line-types="L+CR L+CR L+CR G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="1869" tag="L+CR">   (92)   enir  [uz¯ magalu</item>
+    <item id="o2" line="1870" tag="L+CR">                   a               b¯c'ruli] b-iyxo.</item>
+    <item id="o3" line="1871" tag="L+CR">                                    a</item>
+    <item id="o4" line="1872" tag="G">          mother boy bread.III.abs ate       III-know</item>
+    <item id="o5" line="1873" tag="T">          `The mother knows the boy ate the bread.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="1869 1871" tag="L+CR">enir  [uz¯ magalu        a</item>
+    <item id="c4" line="1872" tag="G">mother boy bread.III.abs ate       III-know</item>
+    <item id="c5" line="1873" tag="T">The mother knows the boy ate the bread.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:26]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c4[0:43]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c5[0:39]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i79870">
+  <metadata type="xigt-meta">
+    <meta type="language" name="tsez" iso-639-3="ddo" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="1641" line-range="1914-1917" line-types="L+CR L+CR G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="1914" tag="L+CR">   (94)   a. enir  [uz¯ magalu b¯c'ruli] b-iyxo.</item>
+    <item id="o2" line="1915" tag="L+CR">                      a            a</item>
+    <item id="o3" line="1916" tag="G">             mother boy bread.III ate     knows.III</item>
+    <item id="o4" line="1917" tag="T">             'The mother knows the boy ate the bread.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="1914" tag="L+CR">enir  [uz¯ magalu b¯c'ruli] b-iyxo.</item>
+    <item id="c3" line="1916" tag="G">mother boy bread.III ate     knows.III</item>
+    <item id="c4" line="1917" tag="T">The mother knows the boy ate the bread.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:35]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:38]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c4[0:39]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i79871">
+  <metadata type="xigt-meta">
+    <meta type="language" name="tsez" iso-639-3="ddo" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="1641" line-range="1918-1922" line-types="L+CR L+CR L+CR G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="1918" tag="L+CR">                                               yol- in] e is</item>
+    <item id="o2" line="1919" tag="L+CR">          b. nel¯</item>
+    <item id="o3" line="1920" tag="L+CR">                a    [za r-igu/*b-igu</item>
+    <item id="o4" line="1921" tag="G">             she-erg this IV-good/*III-good is-COMP said</item>
+    <item id="o5" line="1922" tag="T">             `She says it (= that the boy ate the bread) is good.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="1918 1919" tag="L+CR">nel¯                             yol-in] e is</item>
+    <item id="c4" line="1921" tag="G">she-erg this IV-good/*III-good is-COMP said</item>
+    <item id="c5" line="1922" tag="T">She says it (= that the boy ate the bread) is good.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:45]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c4[0:43]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c5[0:51]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i83698">
+  <metadata type="xigt-meta">
+    <meta type="language" name="tsez" iso-639-3="ddo" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3616" line-range="419-423" line-types="L B G B T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="419" tag="L">  (10)   a.   kid              y-ik'is</item>
+    <item id="o2" line="420" tag="B"></item>
+    <item id="o3" line="421" tag="G">              girl.II.ABS      II-went</item>
+    <item id="o4" line="422" tag="B"></item>
+    <item id="o5" line="423" tag="T">              `The girl went.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="419" tag="L">kid              y-ik'is</item>
+    <item id="c2" line="420" tag="B"/>
+    <item id="c3" line="421" tag="G">girl.II.ABS      II-went</item>
+    <item id="c4" line="422" tag="B"/>
+    <item id="c5" line="423" tag="T">The girl went.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:24]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:24]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c5[0:14]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i83699">
+  <metadata type="xigt-meta">
+    <meta type="language" name="tsez" iso-639-3="ddo" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3616" line-range="427-431" line-types="L B G B T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="427" tag="L">           b. kid-b    corpa             b-oys</item>
+    <item id="o2" line="428" tag="B"></item>
+    <item id="o3" line="429" tag="G">              girl.ERG soup.III.ABS      III-made</item>
+    <item id="o4" line="430" tag="B"></item>
+    <item id="o5" line="431" tag="T">              `The girl made soup.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="427" tag="L">kid-b    corpa             b-oys</item>
+    <item id="c2" line="428" tag="B"/>
+    <item id="c3" line="429" tag="G">girl.ERG soup.III.ABS      III-made</item>
+    <item id="c4" line="430" tag="B"/>
+    <item id="c5" line="431" tag="T">The girl made soup.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:32]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:35]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c5[0:19]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i83700">
+  <metadata type="xigt-meta">
+    <meta type="language" name="tsez" iso-639-3="ddo" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3616" line-range="441-449" line-types="L B M B B B G B T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="441" tag="L">  (11)   a.   kid-b    corpa             b-od-a         y-oqsi/*b-oqsi</item>
+    <item id="o2" line="442" tag="B"></item>
+    <item id="o3" line="443" tag="M">                                                                                                          10</item>
+    <item id="o4" line="444" tag="B"></item>
+    <item id="o5" line="445" tag="B"></item>
+    <item id="o6" line="446" tag="B"></item>
+    <item id="o7" line="447" tag="G">               girl.ERG soup.III.ABS    III-make-INF       II-began/*III-began</item>
+    <item id="o8" line="448" tag="B"></item>
+    <item id="o9" line="449" tag="T">               `The girl began to make soup.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="441" tag="L">kid-b    corpa             b-od-a         y-oqsi/*b-oqsi</item>
+    <item id="c2" line="442" tag="B"/>
+    <item id="c3" line="443" tag="M">10</item>
+    <item id="c4" line="444" tag="B"/>
+    <item id="c5" line="445" tag="B"/>
+    <item id="c6" line="446" tag="B"/>
+    <item id="c7" line="447" tag="G">girl.ERG soup.III.ABS    III-make-INF       II-began/*III-began</item>
+    <item id="c8" line="448" tag="B"/>
+    <item id="c9" line="449" tag="T">The girl began to make soup.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:56]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c7[0:63]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c9[0:28]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i83701">
+  <metadata type="xigt-meta">
+    <meta type="language" name="tsez" iso-639-3="ddo" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3616" line-range="451-455" line-types="L B G B T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="451" tag="L">           b. kid-b     corpa           b-od-a             y-icis/*b-icis</item>
+    <item id="o2" line="452" tag="B"></item>
+    <item id="o3" line="453" tag="G">               girl.ERG soup.III.ABS    III-make-INF       II-continued/*III-continued</item>
+    <item id="o4" line="454" tag="B"></item>
+    <item id="o5" line="455" tag="T">               `The girl continued to make soup.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="451" tag="L">kid-b     corpa           b-od-a             y-icis/*b-icis</item>
+    <item id="c2" line="452" tag="B"/>
+    <item id="c3" line="453" tag="G">girl.ERG soup.III.ABS    III-make-INF       II-continued/*III-continued</item>
+    <item id="c4" line="454" tag="B"/>
+    <item id="c5" line="455" tag="T">The girl continued to make soup.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:59]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:71]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c5[0:32]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i83702">
+  <metadata type="xigt-meta">
+    <meta type="language" name="tsez" iso-639-3="ddo" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3616" line-range="471-475" line-types="L B G B T+DB+LT"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="471" tag="L">  (12)    a.   ak'za-xosi            hah-        rig    iixosi               yol</item>
+    <item id="o2" line="472" tag="B"></item>
+    <item id="o3" line="473" tag="G">               sharpen-PRES.PRT      mill-ERG    well grind-PRES.PRT is</item>
+    <item id="o4" line="474" tag="B"></item>
+    <item id="o5" line="475" tag="T+DB+LT">               `S/he thinks clearly.' (lit.: a well-sharpened mill grinds well')</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="471" tag="L">ak'za-xosi            hah-rig    iixosi               yol</item>
+    <item id="c2" line="472" tag="B"/>
+    <item id="c3" line="473" tag="G">sharpen-PRES.PRT      mill-ERG    well grind-PRES.PRT is</item>
+    <item id="c4" line="474" tag="B"/>
+    <item id="c5" line="475" tag="T+DB+LT">S/he thinks clearly.' (lit.: a well-sharpened mill grinds well')</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:57]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:56]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c5[0:64]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i83703">
+  <metadata type="xigt-meta">
+    <meta type="language" name="tsez" iso-639-3="ddo" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3616" line-range="477-483" line-types="L B G B T B T+AL"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="477" tag="L">          b.   ak'za-xosi            hah-        rig    i-a         roq-si</item>
+    <item id="o2" line="478" tag="B"></item>
+    <item id="o3" line="479" tag="G">               sharpen-PRES.PRT      mill-ERG    well grind-INF     began</item>
+    <item id="o4" line="480" tag="B"></item>
+    <item id="o5" line="481" tag="T">               *`S/he began to think clearly.'</item>
+    <item id="o6" line="482" tag="B"></item>
+    <item id="o7" line="483" tag="T+AL">               OK: `A sharp mill began to grind well.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="477" tag="L">ak'za-xosi            hah-rig    i-a         roq-si</item>
+    <item id="c2" line="478" tag="B"/>
+    <item id="c3" line="479" tag="G">sharpen-PRES.PRT      mill-ERG    well grind-INF     began</item>
+    <item id="c4" line="480" tag="B"/>
+    <item id="c5" line="481" tag="T">*`S/he began to think clearly.</item>
+    <item id="c6" line="482" tag="B"/>
+    <item id="c7" line="483" tag="T+AL">`A sharp mill began to grind well.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:51]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:58]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c5[0:30]" alignment="p1"/>
+    <item id="t1" content="c7[0:34]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i83704">
+  <metadata type="xigt-meta">
+    <meta type="language" name="tsez" iso-639-3="ddo" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3616" line-range="495-499" line-types="L B G B T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="495" tag="L">  (13)   *kid       [nel/pro     corpa          b-od-a]            y-oqsi</item>
+    <item id="o2" line="496" tag="B"></item>
+    <item id="o3" line="497" tag="G">         girl.ABS she.ERG        soup.III.ABS   III-make-INF       II-began</item>
+    <item id="o4" line="498" tag="B"></item>
+    <item id="o5" line="499" tag="T">         (`The girl began to have her/someone make soup.')</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="495" tag="L">*kid       [nel/pro     corpa          b-od-a]            y-oqsi</item>
+    <item id="c2" line="496" tag="B"/>
+    <item id="c3" line="497" tag="G">girl.ABS she.ERG        soup.III.ABS   III-make-INF       II-began</item>
+    <item id="c4" line="498" tag="B"/>
+    <item id="c5" line="499" tag="T">The girl began to have her/someone make soup.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:64]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:66]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c5[0:45]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i83705">
+  <metadata type="xigt-meta">
+    <meta type="language" name="tsez" iso-639-3="ddo" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3616" line-range="523-528" line-types="L+CR L+CR B G B T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="523" tag="L+CR">                              agarawyo-r</item>
+    <item id="o2" line="524" tag="L+CR">  (14)   [yesi   zek'                        utku         roda]       nes nesir       oqsi</item>
+    <item id="o3" line="525" tag="B"></item>
+    <item id="o4" line="526" tag="G">         this    man.I.ERG relative-DAT house.ABS build.INF           REFL.DAT        began</item>
+    <item id="o5" line="527" tag="B"></item>
+    <item id="o6" line="528" tag="T">           `The man began for himself (~for his own sake), to build a house for his relative.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="523 524" tag="L+CR">[yesi   zek'         agarawyo-r     utku         roda]       nes nesir       oqsi</item>
+    <item id="c3" line="525" tag="B"/>
+    <item id="c4" line="526" tag="G">this    man.I.ERG relative-DAT house.ABS build.INF           REFL.DAT        began</item>
+    <item id="c5" line="527" tag="B"/>
+    <item id="c6" line="528" tag="T">The man began for himself (~for his own sake), to build a house for his relative.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:81]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c4[0:82]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c6[0:81]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i83706">
+  <metadata type="xigt-meta">
+    <meta type="language" name="tsez" iso-639-3="ddo" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3616" line-range="542-548" line-types="L B G M M B T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="542" tag="L">  (15)         kid       [kid-b     corpa             b-od-a ]          y-oqsi</item>
+    <item id="o2" line="543" tag="B"></item>
+    <item id="o3" line="544" tag="G">               girl.ABS girl.ERG    soup.III.ABS      III-make-INF      II-began</item>
+    <item id="o4" line="545" tag="M"></item>
+    <item id="o5" line="546" tag="M">                    |__________________Agree _________________|</item>
+    <item id="o6" line="547" tag="B"></item>
+    <item id="o7" line="548" tag="T">               `The girl began to make soup.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="542" tag="L">kid       [kid-b     corpa             b-od-a ]          y-oqsi</item>
+    <item id="c2" line="543" tag="B"/>
+    <item id="c3" line="544" tag="G">girl.ABS girl.ERG    soup.III.ABS      III-make-INF      II-began</item>
+    <item id="c4" line="545" tag="M"/>
+    <item id="c5" line="546" tag="M">|__________________Agree _________________|</item>
+    <item id="c6" line="547" tag="B"/>
+    <item id="c7" line="548" tag="T">The girl began to make soup.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:63]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:65]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c7[0:28]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i83707">
+  <metadata type="xigt-meta">
+    <meta type="language" name="tsez" iso-639-3="ddo" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3616" line-range="562-568" line-types="L B G M M B T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="562" tag="L">  (16)    a.   kid-b     [kid-ba corpa          bod-a ]      akarat     nelsi          FORWARD CONTROL</item>
+    <item id="o2" line="563" tag="B"></item>
+    <item id="o3" line="564" tag="G">               girl-ERG girl-ERG soup.ABS       make-INF attempt        gave</item>
+    <item id="o4" line="565" tag="M"></item>
+    <item id="o5" line="566" tag="M">                  |____A-chain__|</item>
+    <item id="o6" line="567" tag="B"></item>
+    <item id="o7" line="568" tag="T">               `The girl tried to make soup.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="562" tag="L">kid-b     [kid-ba corpa          bod-a ]      akarat     nelsi          FORWARD CONTROL</item>
+    <item id="c2" line="563" tag="B"/>
+    <item id="c3" line="564" tag="G">girl-ERG girl-ERG soup.ABS       make-INF attempt        gave</item>
+    <item id="c4" line="565" tag="M"/>
+    <item id="c5" line="566" tag="M">|____A-chain__|</item>
+    <item id="c6" line="567" tag="B"/>
+    <item id="c7" line="568" tag="T">The girl tried to make soup.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:87]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:61]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c7[0:28]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i83708">
+  <metadata type="xigt-meta">
+    <meta type="language" name="tsez" iso-639-3="ddo" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3616" line-range="570-577" line-types="L B G+CR G+CR B M B T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="570" tag="L">         b. kid          [kid-b     corpa          bod-a ]     y-oqsi              BACKWARD CONTROL</item>
+    <item id="o2" line="571" tag="B"></item>
+    <item id="o3" line="572" tag="G+CR">                         girl-ERG   soup.ABS       make-INF II-began</item>
+    <item id="o4" line="573" tag="G+CR">           girl.ABS</item>
+    <item id="o5" line="574" tag="B"></item>
+    <item id="o6" line="575" tag="M">           |____A-chain__|</item>
+    <item id="o7" line="576" tag="B"></item>
+    <item id="o8" line="577" tag="T">               `The girl began to make soup.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="570" tag="L">kid          [kid-b     corpa          bod-a ]     y-oqsi              BACKWARD CONTROL</item>
+    <item id="c2" line="571" tag="B"/>
+    <item id="c3" line="572 573" tag="G+CR">girl.ABS      girl-ERG   soup.ABS       make-INF II-began</item>
+    <item id="c5" line="574" tag="B"/>
+    <item id="c6" line="575" tag="M">|____A-chain__|</item>
+    <item id="c7" line="576" tag="B"/>
+    <item id="c8" line="577" tag="T">The girl began to make soup.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:87]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:57]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c8[0:28]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i87008">
+  <metadata type="xigt-meta">
+    <meta type="language" name="tsez" iso-639-3="ddo" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3269" line-range="635-639" line-types="M+LN+EX L+CR L+CR G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="635" tag="M+LN+EX">  (17) Tsez (A stands for a long /a/; II indicates Class II)</item>
+    <item id="o2" line="636" tag="L+CR">                     kidbA kaat</item>
+    <item id="o3" line="637" tag="L+CR">       uzir y-iyx                        t'At'ruli</item>
+    <item id="o4" line="638" tag="G">       boy II-knows girl letter.II.ABS read</item>
+    <item id="o5" line="639" tag="T">      `The boy knows that the girl has read the letter.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="635" tag="M+LN+EX">Tsez (A stands for a long /a/; II indicates Class II</item>
+    <item id="c2" line="636 637" tag="L+CR">uzir y-iyx    kidbA kaat          t'At'ruli</item>
+    <item id="c4" line="638" tag="G">boy II-knows girl letter.II.ABS read</item>
+    <item id="c5" line="639" tag="T">The boy knows that the girl has read the letter.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c2[0:43]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c4[0:36]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c5[0:48]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i87013">
+  <metadata type="xigt-meta">
+    <meta type="language" name="tsez" iso-639-3="ddo" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3261" line-range="273-275" line-types="L G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="273" tag="L">  (10)        a.     kid              y-ik'is</item>
+    <item id="o2" line="274" tag="G">                     girl.II.ABS      II-went</item>
+    <item id="o3" line="275" tag="T">                     `The girl went.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="273" tag="L">kid              y-ik'is</item>
+    <item id="c2" line="274" tag="G">girl.II.ABS      II-went</item>
+    <item id="c3" line="275" tag="T">The girl went.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:24]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:24]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:14]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i87014">
+  <metadata type="xigt-meta">
+    <meta type="language" name="tsez" iso-639-3="ddo" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3261" line-range="278-280" line-types="L G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="278" tag="L">                   b. kid-b        corpa           b-oys</item>
+    <item id="o2" line="279" tag="G">                     girl.ERG soup.III.ABS III-made</item>
+    <item id="o3" line="280" tag="T">                     `The girl made soup.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="278" tag="L">kid-b        corpa           b-oys</item>
+    <item id="c2" line="279" tag="G">girl.ERG soup.III.ABS III-made</item>
+    <item id="c3" line="280" tag="T">The girl made soup.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:34]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:30]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:19]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i87015">
+  <metadata type="xigt-meta">
+    <meta type="language" name="tsez" iso-639-3="ddo" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3261" line-range="287-289" line-types="L G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="287" tag="L">  (11)        a.     kid-b         corpa           b-od-a            y-oqsi/*b-oqsi</item>
+    <item id="o2" line="288" tag="G">                     girl.ERG soup.III.ABS III-make-INF              II-began/*III-began</item>
+    <item id="o3" line="289" tag="T">                     `The girl began to make soup.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="287" tag="L">kid-b         corpa           b-od-a            y-oqsi/*b-oqsi</item>
+    <item id="c2" line="288" tag="G">girl.ERG soup.III.ABS III-make-INF              II-began/*III-began</item>
+    <item id="c3" line="289" tag="T">The girl began to make soup.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:62]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:67]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:28]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i87016">
+  <metadata type="xigt-meta">
+    <meta type="language" name="tsez" iso-639-3="ddo" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3261" line-range="290-292" line-types="L G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="290" tag="L">                   b. kid-b        corpa           b-od-a            y-icis/*b-icis</item>
+    <item id="o2" line="291" tag="G">                     girl.ERG soup.III.ABS III-make-INF              II-continued/*III-continued</item>
+    <item id="o3" line="292" tag="T">                     `The girl continued to make soup.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="290" tag="L">kid-b        corpa           b-od-a            y-icis/*b-icis</item>
+    <item id="c2" line="291" tag="G">girl.ERG soup.III.ABS III-make-INF              II-continued/*III-continued</item>
+    <item id="c3" line="292" tag="T">The girl continued to make soup.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:61]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:75]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:32]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i87017">
+  <metadata type="xigt-meta">
+    <meta type="language" name="tsez" iso-639-3="ddo" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3261" line-range="301-303" line-types="L G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="301" tag="L">  (12)        a.     ak'za-xosi                 hah-        rig   iixosi              yol</item>
+    <item id="o2" line="302" tag="G">                     sharpen-PRES.PRT           mill-ERG well     grind-PRES.PRT is</item>
+    <item id="o3" line="303" tag="T">                     `S/he thinks clearly.' (lit.: a well-sharpened mill grinds well')</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="301" tag="L">ak'za-xosi                 hah-rig   iixosi              yol</item>
+    <item id="c2" line="302" tag="G">sharpen-PRES.PRT           mill-ERG well     grind-PRES.PRT is</item>
+    <item id="c3" line="303" tag="T">S/he thinks clearly.' (lit.: a well-sharpened mill grinds well')</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:60]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:62]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:64]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i87018">
+  <metadata type="xigt-meta">
+    <meta type="language" name="tsez" iso-639-3="ddo" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3261" line-range="304-307" line-types="L G T T+AL"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="304" tag="L">              b.     ak'za-xosi                 hah-        rig   i-a       roq-si</item>
+    <item id="o2" line="305" tag="G">                     sharpen-PRES.PRT           mill-ERG well     grind-INF began</item>
+    <item id="o3" line="306" tag="T">                     *`S/he began to think clearly.'</item>
+    <item id="o4" line="307" tag="T+AL">                     OK: `A sharp mill began to grind well.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="304" tag="L">ak'za-xosi                 hah-rig   i-a       roq-si</item>
+    <item id="c2" line="305" tag="G">sharpen-PRES.PRT           mill-ERG well     grind-INF began</item>
+    <item id="c3" line="306" tag="T">*`S/he began to think clearly.</item>
+    <item id="c4" line="307" tag="T+AL">`A sharp mill began to grind well.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:53]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:60]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:30]" alignment="p1"/>
+    <item id="t1" content="c4[0:34]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i87019">
+  <metadata type="xigt-meta">
+    <meta type="language" name="tsez" iso-639-3="ddo" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3261" line-range="316-318" line-types="L G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="316" tag="L">  (13)       *kid            [nel/pro corpa            b-od-a ]           y-oqsi</item>
+    <item id="o2" line="317" tag="G">             girl.ABS        she.ERG soup.III.ABS III-make-INF            II-began</item>
+    <item id="o3" line="318" tag="T">             (`The girl began to have her/someone make soup.')</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="316" tag="L">*kid            [nel/pro corpa            b-od-a ]           y-oqsi</item>
+    <item id="c2" line="317" tag="G">girl.ABS        she.ERG soup.III.ABS III-make-INF            II-began</item>
+    <item id="c3" line="318" tag="T">The girl began to have her/someone make soup.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:67]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:69]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:45]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i87020">
+  <metadata type="xigt-meta">
+    <meta type="language" name="tsez" iso-639-3="ddo" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3261" line-range="330-333" line-types="L+CR L+CR G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="330" tag="L+CR">                                    agarawyo-r utku</item>
+    <item id="o2" line="331" tag="L+CR">  (14)       [yesi zek'                                           roda]            nes nesir   oqsi</item>
+    <item id="o3" line="332" tag="G">             this man.I.ERG         relative-DAT house.ABS        build.INF        REFL.DAT    began</item>
+    <item id="o4" line="333" tag="T">                  `The man began for himself (~for his own sake), to build a house for his relative.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="330 331" tag="L+CR">[yesi zek'             agarawyo-r utku               roda]            nes nesir   oqsi</item>
+    <item id="c3" line="332" tag="G">this man.I.ERG         relative-DAT house.ABS        build.INF        REFL.DAT    began</item>
+    <item id="c4" line="333" tag="T">The man began for himself (~for his own sake), to build a house for his relative.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:86]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:87]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c4[0:81]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i87021">
+  <metadata type="xigt-meta">
+    <meta type="language" name="tsez" iso-639-3="ddo" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3261" line-range="343-348" line-types="L G M B B T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="343" tag="L">  (15)               kid        [kid-b         corpa          b-od-a ]             y-oqsi</item>
+    <item id="o2" line="344" tag="G">                     girl.ABS girl.ERG         soup.III.ABS III-make-INF           II-began</item>
+    <item id="o3" line="345" tag="M">                           |__________________Agree _________________|</item>
+    <item id="o4" line="346" tag="B"></item>
+    <item id="o5" line="347" tag="B"></item>
+    <item id="o6" line="348" tag="T">                     `The girl began to make soup.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="343" tag="L">kid        [kid-b         corpa          b-od-a ]             y-oqsi</item>
+    <item id="c2" line="344" tag="G">girl.ABS girl.ERG         soup.III.ABS III-make-INF           II-began</item>
+    <item id="c3" line="345" tag="M">|__________________Agree _________________|</item>
+    <item id="c4" line="346" tag="B"/>
+    <item id="c5" line="347" tag="B"/>
+    <item id="c6" line="348" tag="T">The girl began to make soup.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:68]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:70]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c6[0:28]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i87022">
+  <metadata type="xigt-meta">
+    <meta type="language" name="tsez" iso-639-3="ddo" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3261" line-range="355-358" line-types="L+EX G M T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="355" tag="L+EX">  (16)       a.      kid-b      [kid-ba    corpa          bod-a ]    akarat            nelsi            FORWARD CONTROL</item>
+    <item id="o2" line="356" tag="G">                     girl-ERG girl-ERG soup.ABS           make-INF        attempt      gave</item>
+    <item id="o3" line="357" tag="M">                      |____A-chain__|</item>
+    <item id="o4" line="358" tag="T">                     `The girl tried to make soup.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="355" tag="L+EX">kid-b      [kid-ba    corpa          bod-a ]    akarat            nelsi            FORWARD CONTROL</item>
+    <item id="c2" line="356" tag="G">girl-ERG girl-ERG soup.ABS           make-INF        attempt      gave</item>
+    <item id="c3" line="357" tag="M">|____A-chain__|</item>
+    <item id="c4" line="358" tag="T">The girl tried to make soup.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:98]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:70]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c4[0:28]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i87023">
+  <metadata type="xigt-meta">
+    <meta type="language" name="tsez" iso-639-3="ddo" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3261" line-range="359-362" line-types="L+EX G M T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="359" tag="L+EX">                  b. kid        [kid-b         corpa          bod-a ]         y-oqsi                    BACKWARD CONTROL</item>
+    <item id="o2" line="360" tag="G">                     girl.ABS girl-ERG         soup.ABS       make-INF        II-began</item>
+    <item id="o3" line="361" tag="M">                       |____A-chain__|</item>
+    <item id="o4" line="362" tag="T">                     `The girl began to make soup.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="359" tag="L+EX">kid        [kid-b         corpa          bod-a ]         y-oqsi                    BACKWARD CONTROL</item>
+    <item id="c2" line="360" tag="G">girl.ABS girl-ERG         soup.ABS       make-INF        II-began</item>
+    <item id="c3" line="361" tag="M">|____A-chain__|</item>
+    <item id="c4" line="362" tag="T">The girl began to make soup.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:99]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:65]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c4[0:28]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i87895">
+  <metadata type="xigt-meta">
+    <meta type="language" name="tsez" iso-639-3="ddo" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3262" line-range="1-4" line-types="L+DB M+DB G+DB T+DB"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="1" tag="L+DB">                                                                                               (2)      kid-b          ziya               b-iser-si</item>
+    <item id="o2" line="2" tag="M+DB">                        Variation in Control Structures</item>
+    <item id="o3" line="3" tag="G+DB">                                                                                                        girl-ERG       cow. CLASS III.ABS III-feed-PAST</item>
+    <item id="o4" line="4" tag="T+DB">                      Maria Polinsky, Shin Fukuda, Laura Kertz                                          `The girl fed the/a cow.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="1" tag="L+DB">kid-b          ziya               b-iser-si</item>
+    <item id="c2" line="2" tag="M+DB">Variation in Control Structures</item>
+    <item id="c3" line="3" tag="G+DB">girl-ERG       cow. CLASS III.ABS III-feed-PAST</item>
+    <item id="c4" line="4" tag="T+DB">Maria Polinsky, Shin Fukuda, Laura Kertz                                          `The girl fed the/a cow.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:43]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:47]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c4[0:106]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i87896">
+  <metadata type="xigt-meta">
+    <meta type="language" name="tsez" iso-639-3="ddo" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3262" line-range="12-14" line-types="L+DB G+DB T+DB"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="12" tag="L+DB">            (Jackendoff and Culicover 2003: 519)                                               (4)    a. kid-b                ziya                   bisra      y-oqsi</item>
+    <item id="o2" line="13" tag="G+DB">                                                                                                         girl.CLASS II-ERG cow. CLASS III.ABS        feed.INF   III-began</item>
+    <item id="o3" line="14" tag="T+DB">  1. Introduction: The puzzle                                                                            `The girl began to feed the cow.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="12" tag="L+DB">(Jackendoff and Culicover 2003: 519)                                               (4)    a. kid-b                ziya                   bisra      y-oqsi</item>
+    <item id="c2" line="13" tag="G+DB">girl.CLASS II-ERG cow. CLASS III.ABS        feed.INF   III-began</item>
+    <item id="c3" line="14" tag="T+DB">The puzzle                                                                            `The girl began to feed the cow.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:154]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:64]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:118]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i87897">
+  <metadata type="xigt-meta">
+    <meta type="language" name="tsez" iso-639-3="ddo" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3262" line-range="15-17" line-types="L+DB M+DB G+DB"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="15" tag="L+DB">                                                                                                      b. *kid-b               ziya                   bisra      b-oqsi</item>
+    <item id="o2" line="16" tag="M+DB">                                    1</item>
+    <item id="o3" line="17" tag="G+DB">  ·     Tsez (Nakh-Daghestanian)                                                                         girl.CLASS II-ERG cow. CLASS III.ABS        feed.INF   II-began</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="15" tag="L+DB">*kid-b               ziya                   bisra      b-oqsi</item>
+    <item id="c2" line="16" tag="M+DB">1</item>
+    <item id="c3" line="17" tag="G+DB">·     Tsez (Nakh-Daghestanian)                                                                         girl.CLASS II-ERG cow. CLASS III.ABS        feed.INF   II-began</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:61]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:166]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i87898">
+  <metadata type="xigt-meta">
+    <meta type="language" name="tsez" iso-639-3="ddo" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3262" line-range="18-20" line-types="L+DB G+DB T+DB"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="18" tag="L+DB">                                                                                                      c. *kid-b ziya               bisra           r-oqsi</item>
+    <item id="o2" line="19" tag="G+DB">            SOV basic word order                                                                         [girl-ERG cow.ABS         feed.INF]. IV   IV-began</item>
+    <item id="o3" line="20" tag="T+DB">            relatively free in root clauses                                                                sentential complement. CLASS IV</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="18" tag="L+DB">*kid-b ziya               bisra           r-oqsi</item>
+    <item id="c2" line="19" tag="G+DB">SOV basic word order                                                                         [girl-ERG cow.ABS         feed.INF]. IV   IV-began</item>
+    <item id="c3" line="20" tag="T+DB">relatively free in root clauses                                                                sentential complement. CLASS IV</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:48]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:143]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:126]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i87899">
+  <metadata type="xigt-meta">
+    <meta type="language" name="tsez" iso-639-3="ddo" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3262" line-range="37-40" line-types="M+CN L+DB G+DB T+CN+DB"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="37" tag="M+CN">          Verb obligatorily agrees with its absolutive argument in noun class</item>
+    <item id="o2" line="38" tag="L+DB">  (1)     kid                  y-ik'i-s                                                              § 5 Control as movement</item>
+    <item id="o3" line="39" tag="G+DB">          girl.CLASS II.ABS II-go-PAST                                                                argues that BC provides empirical evidence for a movement analysis of</item>
+    <item id="o4" line="40" tag="T+CN+DB">          `The girl went away.' (intransitive predicate)                                              Control resulting in the unification of Control and Raising</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="37" tag="M+CN">Verb obligatorily agrees with its absolutive argument in noun class</item>
+    <item id="c2" line="38" tag="L+DB">kid                  y-ik'i-s                                                              § 5 Control as movement</item>
+    <item id="c3" line="39" tag="G+DB">girl.CLASS II.ABS II-go-PAST                                                                argues that BC provides empirical evidence for a movement analysis of</item>
+    <item id="c4" line="40" tag="T+CN+DB">The girl went away.' (intransitive predicate)                                              Control resulting in the unification of Control and Raising</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c2[0:114]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:161]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c4[0:150]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i87900">
+  <metadata type="xigt-meta">
+    <meta type="language" name="tsez" iso-639-3="ddo" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3262" line-range="56-59" line-types="L+DB G+DB M+DB T+DB"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="56" tag="L+DB">                                                                                         (7)   a. t'ont'o-        buq         bac'xo</item>
+    <item id="o2" line="57" tag="G+DB">                                                                                                  darkness-ERG sun.ABS           eat.PRES</item>
+    <item id="o3" line="58" tag="M+DB">  Proposal: the ergative NP is in the embedded clause; it is co-indexed with an</item>
+    <item id="o4" line="59" tag="T+DB">                                                                                                  `The sun has eclipsed.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="56" tag="L+DB">t'ont'o-buq         bac'xo</item>
+    <item id="c2" line="57" tag="G+DB">darkness-ERG sun.ABS           eat.PRES</item>
+    <item id="c3" line="58" tag="M+DB">the ergative NP is in the embedded clause; it is co-indexed with an</item>
+    <item id="c4" line="59" tag="T+DB">The sun has eclipsed.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:26]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:39]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c4[0:21]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i87901">
+  <metadata type="xigt-meta">
+    <meta type="language" name="tsez" iso-639-3="ddo" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3262" line-range="65-68" line-types="L+DB M+DB G+DB T+DB"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="65" tag="L+DB">  (5)   a. kid-b      ziya          b-isr-a          y-oq-si</item>
+    <item id="o2" line="66" tag="M+DB">                                                                                                  (`The sun will begin to eclipse.')</item>
+    <item id="o3" line="67" tag="G+DB">           girl-ERG cow.ABS         III-feed-INF II-begin-PAST.EVID</item>
+    <item id="o4" line="68" tag="T+DB">           `The girl began to feed the cow.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="65" tag="L+DB">kid-b      ziya          b-isr-a          y-oq-si</item>
+    <item id="c2" line="66" tag="M+DB">The sun will begin to eclipse.</item>
+    <item id="c3" line="67" tag="G+DB">girl-ERG cow.ABS         III-feed-INF II-begin-PAST.EVID</item>
+    <item id="c4" line="68" tag="T+DB">The girl began to feed the cow.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:49]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:56]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c4[0:31]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i87902">
+  <metadata type="xigt-meta">
+    <meta type="language" name="tsez" iso-639-3="ddo" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3262" line-range="70-72" line-types="L+DB M+DB G+DB"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="70" tag="L+DB">        b. i      [ kid-bi        ziya        bisra] yoqsi</item>
+    <item id="o2" line="71" tag="M+DB">                                                                                         subject (Polinsky 2000; Polinsky and Potsdam 2002)</item>
+    <item id="o3" line="72" tag="G+DB">           EC girl.ERG          cow.ABS feed         began</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="70" tag="L+DB">i      [ kid-bi        ziya        bisra] yoqsi</item>
+    <item id="c2" line="71" tag="M+DB">subject (Polinsky 2000; Polinsky and Potsdam 2002)</item>
+    <item id="c3" line="72" tag="G+DB">EC girl.ERG          cow.ABS feed         began</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:47]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:47]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i87903">
+  <metadata type="xigt-meta">
+    <meta type="language" name="tsez" iso-639-3="ddo" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3262" line-range="83-86" line-types="L+DB G+DB M+DB T+DB"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="83" tag="L+DB">                                                                                         (8) a. kidb          buy ziya         bisersi</item>
+    <item id="o2" line="84" tag="G+DB">                                                                                                 girl.ERG VAL cow.ABS fed</item>
+    <item id="o3" line="85" tag="M+DB">           Thematic subject</item>
+    <item id="o4" line="86" tag="T+DB">                                                                                                 `The girl indeed fed the cow.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="83" tag="L+DB">kidb          buy ziya         bisersi</item>
+    <item id="c2" line="84" tag="G+DB">girl.ERG VAL cow.ABS fed</item>
+    <item id="c3" line="85" tag="M+DB">Thematic subject</item>
+    <item id="c4" line="86" tag="T+DB">The girl indeed fed the cow.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:38]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:24]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c4[0:28]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i87904">
+  <metadata type="xigt-meta">
+    <meta type="language" name="tsez" iso-639-3="ddo" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3262" line-range="88-90" line-types="L+DB M+DB G+DB"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="88" tag="L+DB">                                                                                              b. (*buy) kidb ziya (*buy)            bisersi (*buy)</item>
+    <item id="o2" line="89" tag="M+DB">           Co-indexed arguments: one overt, one unexpressed</item>
+    <item id="o3" line="90" tag="G+DB">                                                                                                           girl cow VAL             fed</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="88" tag="L+DB">(*buy) kidb ziya (*buy)            bisersi (*buy)</item>
+    <item id="c2" line="89" tag="M+DB">Co-indexed arguments: one overt, one unexpressed</item>
+    <item id="c3" line="90" tag="G+DB">girl cow VAL             fed</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:49]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:28]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i87905">
+  <metadata type="xigt-meta">
+    <meta type="language" name="tsez" iso-639-3="ddo" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3262" line-range="95-98" line-types="L+DB M+DB G+DB T+DB"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="95" tag="L+DB">                                                                                         (9) a. [kidb          (*buy)    ziya        bisra]     enir    retix</item>
+    <item id="o2" line="96" tag="M+DB">           CONTROLLER           CONTROLLEE</item>
+    <item id="o3" line="97" tag="G+DB">                                                                                                    [girl.ERG VAL      cow.ABS feed.INF]        mother wants</item>
+    <item id="o4" line="98" tag="T+DB">                                                                                                   `The mother wants [the girl to (*indeed) feed the cow].'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="95" tag="L+DB">[kidb          (*buy)    ziya        bisra]     enir    retix</item>
+    <item id="c2" line="96" tag="M+DB">CONTROLLER           CONTROLLEE</item>
+    <item id="c3" line="97" tag="G+DB">[girl.ERG VAL      cow.ABS feed.INF]        mother wants</item>
+    <item id="c4" line="98" tag="T+DB">The mother wants [the girl to (*indeed) feed the cow].</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:61]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:56]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c4[0:54]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i87906">
+  <metadata type="xigt-meta">
+    <meta type="language" name="tsez" iso-639-3="ddo" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3262" line-range="100-104" line-types="L+DB G+DB M+DB M+DB T+DB"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="100" tag="L+DB">                                                                                               b. [t'ekmabi      (*ruy) t'et'ra]       rigu yol</item>
+    <item id="o2" line="101" tag="G+DB">                                                                                                   [books                read.INF]     good is</item>
+    <item id="o3" line="102" tag="M+DB">                                                                                                                 VAL</item>
+    <item id="o4" line="103" tag="M+DB">           `begin' is a control predicate, it has a thematic subject position</item>
+    <item id="o5" line="104" tag="T+DB">                                                                                                   `[To (*indeed) read books] is good.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="100" tag="L+DB">[t'ekmabi      (*ruy) t'et'ra]       rigu yol</item>
+    <item id="c2" line="101" tag="G+DB">[books                read.INF]     good is</item>
+    <item id="c3" line="102" tag="M+DB">VAL</item>
+    <item id="c4" line="103" tag="M+DB">begin' is a control predicate, it has a thematic subject position</item>
+    <item id="c5" line="104" tag="T+DB">[To (*indeed) read books] is good.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:45]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:43]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c5[0:34]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i87907">
+  <metadata type="xigt-meta">
+    <meta type="language" name="tsez" iso-639-3="ddo" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3262" line-range="111-113" line-types="L G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="111" tag="L">                                                                                         (10)      [kidb (*buy) ziya bisra]            yoqsi</item>
+    <item id="o2" line="112" tag="G">                                                                                                   girl.ERG VAL      cow feed.INF began</item>
+    <item id="o3" line="113" tag="T">                                                                                                   `The girl (*indeed) began to feed the cow.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="111" tag="L">[kidb (*buy) ziya bisra]            yoqsi</item>
+    <item id="c2" line="112" tag="G">girl.ERG VAL      cow feed.INF began</item>
+    <item id="c3" line="113" tag="T">The girl (*indeed) began to feed the cow.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:41]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:36]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:41]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i87908">
+  <metadata type="xigt-meta">
+    <meta type="language" name="tsez" iso-639-3="ddo" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3262" line-range="121-123" line-types="L+DB G+DB T+DB"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="121" tag="L+DB">  (11)     [kidb       ziya bisra]      yuy yoqsi                                      3.6 Obligatory vs. Non-Obligatory Control</item>
+    <item id="o2" line="122" tag="G+DB">           girl.ERG cow feed.INF VAL began</item>
+    <item id="o3" line="123" tag="T+DB">           `The girl indeed began to feed the cow.'                                    Obligatory (OC) versus Non-obligatory (NOC) distinction:</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="121" tag="L+DB">[kidb       ziya bisra]      yuy yoqsi                                      3.6 Obligatory vs. Non-Obligatory Control</item>
+    <item id="c2" line="122" tag="G+DB">girl.ERG cow feed.INF VAL began</item>
+    <item id="c3" line="123" tag="T+DB">The girl indeed began to feed the cow.'                                    Obligatory (OC) versus Non-obligatory (NOC) distinction:</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:117]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:31]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:131]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i87909">
+  <metadata type="xigt-meta">
+    <meta type="language" name="tsez" iso-639-3="ddo" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3262" line-range="139-143" line-types="L+DB M+DB G+DB M+DB T+DB"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="139" tag="L+DB">  (12)     i                    [kid-bi      ziya     bisra]    y-oqsi</item>
+    <item id="o2" line="140" tag="M+DB">                                                                                              d.   allows a non-local antecedent</item>
+    <item id="o3" line="141" tag="G+DB">           EC.CLASS II.ABS        girl-ERG     cow.ABS feed-INF II-began</item>
+    <item id="o4" line="142" tag="M+DB">                                                                                              e.   allows a non-c-commanding antecedent</item>
+    <item id="o5" line="143" tag="T+DB">           `The girl began to feed the cow.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="139" tag="L+DB">i                    [kid-bi      ziya     bisra]    y-oqsi</item>
+    <item id="c2" line="140" tag="M+DB">allows a non-local antecedent</item>
+    <item id="c3" line="141" tag="G+DB">EC.CLASS II.ABS        girl-ERG     cow.ABS feed-INF II-began</item>
+    <item id="c4" line="142" tag="M+DB">allows a non-c-commanding antecedent</item>
+    <item id="c5" line="143" tag="T+DB">The girl began to feed the cow.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:59]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:61]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c5[0:31]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i87910">
+  <metadata type="xigt-meta">
+    <meta type="language" name="tsez" iso-639-3="ddo" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3262" line-range="149-155" line-types="L+DB M+DB G+DB M+DB M+DB M+DB T+DB"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="149" tag="L+DB">  (13) a. enir      [uz            nes nesir       utku      roda]      etin</item>
+    <item id="o2" line="150" tag="M+DB">                                                                                       (17)   *pro/uzi/uzk              [kidbi      ziya       bisra]         o q si</item>
+    <item id="o3" line="151" tag="G+DB">           mother boy.I.ERG REFL.I.DAT house.ABS build.INF wanted</item>
+    <item id="o4" line="152" tag="M+DB">                                                                                              pro/boy.ABS/boy.ERG       girl.ERG cow.ABS feed.INF             began</item>
+    <item id="o5" line="153" tag="M+DB">                    antecedent        anaphor</item>
+    <item id="o6" line="154" tag="M+DB">                                                                                              (`The boy began to have the girl feed the cow.')</item>
+    <item id="o7" line="155" tag="T+DB">           `The mother wanted the boy to build himself a house.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="149" tag="L+DB">enir      [uz            nes nesir       utku      roda]      etin</item>
+    <item id="c2" line="150" tag="M+DB">*pro/uzi/uzk              [kidbi      ziya       bisra]         o q si</item>
+    <item id="c3" line="151" tag="G+DB">mother boy.I.ERG REFL.I.DAT house.ABS build.INF wanted</item>
+    <item id="c4" line="152" tag="M+DB">pro/boy.ABS/boy.ERG       girl.ERG cow.ABS feed.INF             began</item>
+    <item id="c5" line="153" tag="M+DB">antecedent        anaphor</item>
+    <item id="c6" line="154" tag="M+DB">The boy began to have the girl feed the cow.</item>
+    <item id="c7" line="155" tag="T+DB">The mother wanted the boy to build himself a house.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:66]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:54]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c7[0:51]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i87911">
+  <metadata type="xigt-meta">
+    <meta type="language" name="tsez" iso-639-3="ddo" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3262" line-range="156-162" line-types="L+DB M+DB G+DB M+DB M+DB M+DB T+DB"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="156" tag="L+DB">       b. *enir     [uz            utku         roda]    nes nesir      etin</item>
+    <item id="o2" line="157" tag="M+DB">                                                                                       pronominal paraphrase not allowed</item>
+    <item id="o3" line="158" tag="G+DB">           mother boy.I.ERG house.ABS build.INF REFL.I.DAT wanted</item>
+    <item id="o4" line="159" tag="M+DB">                                                                                       (18)   *za/kidi                 [kidbi/neli         ziya    bisra]       o q si</item>
+    <item id="o5" line="160" tag="M+DB">                    antecedent                  boundary anaphor</item>
+    <item id="o6" line="161" tag="M+DB">                                                                                              pro/boy.ABS/boy.ERG girl.ERG                 cow.ABS feed.INF     began</item>
+    <item id="o7" line="162" tag="T+DB">           (`The mother wanted for him that the boy should build a house.')</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="156" tag="L+DB">*enir     [uz            utku         roda]    nes nesir      etin</item>
+    <item id="c2" line="157" tag="M+DB">pronominal paraphrase not allowed</item>
+    <item id="c3" line="158" tag="G+DB">mother boy.I.ERG house.ABS build.INF REFL.I.DAT wanted</item>
+    <item id="c4" line="159" tag="M+DB">*za/kidi                 [kidbi/neli         ziya    bisra]       o q si</item>
+    <item id="c5" line="160" tag="M+DB">antecedent                  boundary anaphor</item>
+    <item id="c6" line="161" tag="M+DB">pro/boy.ABS/boy.ERG girl.ERG                 cow.ABS feed.INF     began</item>
+    <item id="c7" line="162" tag="T+DB">The mother wanted for him that the boy should build a house.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:66]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:54]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c7[0:60]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i87912">
+  <metadata type="xigt-meta">
+    <meta type="language" name="tsez" iso-639-3="ddo" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3262" line-range="168-179" line-types="L+DB+CR L+DB+CR M+DB G+DB M+DB M+DB M+DB L+DB G+DB M+DB T+DB T+DB"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="168" tag="L+DB+CR">                                 agarawyo-r utku</item>
+    <item id="o2" line="169" tag="L+DB+CR">  (14)       [yesi zek'i                                       roda]</item>
+    <item id="o3" line="170" tag="M+DB">                                                                                                                                           `continue</item>
+    <item id="o4" line="171" tag="G+DB">            this man.I.ERG relative-DAT house.ABS build.INF</item>
+    <item id="o5" line="172" tag="M+DB">                                                                                                                                           '</item>
+    <item id="o6" line="173" tag="M+DB">            antecedent                                       boundary</item>
+    <item id="o7" line="174" tag="M+DB">                                                                                       allows PROarb reading (no antecedent)</item>
+    <item id="o8" line="175" tag="L+DB">            i              nes nesir oqsi</item>
+    <item id="o9" line="176" tag="G+DB">            EC             REFL.DAT began                                              permits strict reading under ellipsis</item>
+    <item id="o10" line="177" tag="M+DB">            antecedent anaphor                                                         paraphrasable with a pronoun</item>
+    <item id="o11" line="178" tag="T+DB">            `The man began for himself (~for his own sake), to build a house for       allows a non-local antecedent</item>
+    <item id="o12" line="179" tag="T+DB">            his relative.'                                                             allows a non-c-commanding</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="168 169" tag="L+DB+CR">[yesi zek'i         agarawyo-r utku               roda]</item>
+    <item id="c3" line="170" tag="M+DB">continue</item>
+    <item id="c4" line="171" tag="G+DB">this man.I.ERG relative-DAT house.ABS build.INF</item>
+    <item id="c5" line="172" tag="M+DB"></item>
+    <item id="c6" line="173" tag="M+DB">antecedent                                       boundary</item>
+    <item id="c7" line="174" tag="M+DB">allows PROarb reading (no antecedent)</item>
+    <item id="c8" line="175" tag="L+DB">i              nes nesir oqsi</item>
+    <item id="c9" line="176" tag="G+DB">EC             REFL.DAT began                                              permits strict reading under ellipsis</item>
+    <item id="c10" line="177" tag="M+DB">antecedent anaphor                                                         paraphrasable with a pronoun</item>
+    <item id="c11" line="178" tag="T+DB">The man began for himself (~for his own sake), to build a house for       allows a non-local antecedent</item>
+    <item id="c12" line="179" tag="T+DB">his relative.'                                                             allows a non-c-commanding</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:55]"/>
+    <item id="p1" content="c8[0:29]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c4[0:47]" alignment="p1"/>
+    <item id="g1" content="c9[0:112]" alignment="p2"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c11[0:103]" alignment="p2"/>
+    <item id="t1" content="c12[0:100]" alignment="p2"/>
+  </tier>
+</igt>
+<igt id="i87913">
+  <metadata type="xigt-meta">
+    <meta type="language" name="tsez" iso-639-3="ddo" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3262" line-range="198-202" line-types="L+DB+CR L+DB+CR M+DB G+DB T+DB"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="198" tag="L+DB+CR">                   [kidbi      ziya        bisra]    yoqsi</item>
+    <item id="o2" line="199" tag="L+DB+CR">  (21)       i</item>
+    <item id="o3" line="200" tag="M+DB">                                                                                          4.3 EC as a null pronoun (pro)</item>
+    <item id="o4" line="201" tag="G+DB">             EC girl.ERG cow.ABS feed.INF            began</item>
+    <item id="o5" line="202" tag="T+DB">             `The girl began to feed the cow.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="198 199" tag="L+DB+CR">i     [kidbi      ziya        bisra]    yoqsi</item>
+    <item id="c3" line="200" tag="M+DB">4.3 EC as a null pronoun (pro)</item>
+    <item id="c4" line="201" tag="G+DB">EC girl.ERG cow.ABS feed.INF            began</item>
+    <item id="c5" line="202" tag="T+DB">The girl began to feed the cow.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:45]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c4[0:45]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c5[0:31]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i87914">
+  <metadata type="xigt-meta">
+    <meta type="language" name="tsez" iso-639-3="ddo" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3262" line-range="218-221" line-types="L+DB M+DB G+DB T+DB"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="218" tag="L+DB">  (23)       PROi       [kidbi        ziya     bisra]        y-oqsi</item>
+    <item id="o2" line="219" tag="M+DB">                                                                                                         the silent element is not pro</item>
+    <item id="o3" line="220" tag="G+DB">             PRO.II     girl.II.ERG cow.ABS feed.INF         II-began</item>
+    <item id="o4" line="221" tag="T+DB">             `The girl began to feed the cow.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="218" tag="L+DB">PROi       [kidbi        ziya     bisra]        y-oqsi</item>
+    <item id="c2" line="219" tag="M+DB">the silent element is not pro</item>
+    <item id="c3" line="220" tag="G+DB">PRO.II     girl.II.ERG cow.ABS feed.INF         II-began</item>
+    <item id="c4" line="221" tag="T+DB">The girl began to feed the cow.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:54]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:56]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c4[0:31]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i87915">
+  <metadata type="xigt-meta">
+    <meta type="language" name="tsez" iso-639-3="ddo" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3262" line-range="240-244" line-types="L+DB+CR L+DB+CR G+DB T+DB T+DB+AL"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="240" tag="L+DB+CR">           PROarb [kidbi         ziya         bisra]      yoqsi</item>
+    <item id="o2" line="241" tag="L+DB+CR">  (25)</item>
+    <item id="o3" line="242" tag="G+DB">                     girl.ERG cow.ABS         feed.INF began</item>
+    <item id="o4" line="243" tag="T+DB">           `The girl began to feed the cow.'</item>
+    <item id="o5" line="244" tag="T+DB+AL">           *'Someone began to have the girl feed the cow.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="240 241" tag="L+DB+CR">PROarb [kidbi         ziya         bisra]      yoqsi</item>
+    <item id="c3" line="242" tag="G+DB">girl.ERG cow.ABS         feed.INF began</item>
+    <item id="c4" line="243" tag="T+DB">The girl began to feed the cow.</item>
+    <item id="c5" line="244" tag="T+DB+AL">*'Someone began to have the girl feed the cow.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:52]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:39]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c4[0:31]" alignment="p1"/>
+    <item id="t1" content="c5[0:46]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i87916">
+  <metadata type="xigt-meta">
+    <meta type="language" name="tsez" iso-639-3="ddo" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3262" line-range="252-256" line-types="L+DB M+DB G+DB M+DB T+DB"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="252" tag="L+DB">                                                                                           (31) a. kidbi [i ziya             bisra]      akarat nelsi</item>
+    <item id="o2" line="253" tag="M+DB">  (28) a. The girl tried to leave.</item>
+    <item id="o3" line="254" tag="G+DB">                                                                                                   girl.ERG</item>
+    <item id="o4" line="255" tag="M+DB">       b. The girli tried ti/*PROi to leave                                                                       cow.ABS feed.INF attempt gave</item>
+    <item id="o5" line="256" tag="T+DB">                                                                                                   `The girl tried to feed the cow.' (Forward)</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="252" tag="L+DB">kidbi [i ziya             bisra]      akarat nelsi</item>
+    <item id="c2" line="253" tag="M+DB">The girl tried to leave.</item>
+    <item id="c3" line="254" tag="G+DB">girl.ERG</item>
+    <item id="c4" line="255" tag="M+DB">The girli tried ti/*PROi to leave                                                                       cow.ABS feed.INF attempt gave</item>
+    <item id="c5" line="256" tag="T+DB">The girl tried to feed the cow.' (Forward)</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:50]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:8]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c5[0:42]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i87917">
+  <metadata type="xigt-meta">
+    <meta type="language" name="tsez" iso-639-3="ddo" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3262" line-range="257-261" line-types="L+DB M+DB G+DB M+DB T+DB"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="257" tag="L+DB">                                                                                                b. i      [kidbi       ziya       bisra]    yoqsi</item>
+    <item id="o2" line="258" tag="M+DB">  (29) Control</item>
+    <item id="o3" line="259" tag="G+DB">                                                                                                          girl.ERG cow.ABS feed.INF began</item>
+    <item id="o4" line="260" tag="M+DB">       [IP The girl   [VP    t tried [IP   t to           [VP    t       leave]]]]</item>
+    <item id="o5" line="261" tag="T+DB">                                                                                                   `The girl began to feed the cow.' (Backward)</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="257" tag="L+DB">i      [kidbi       ziya       bisra]    yoqsi</item>
+    <item id="c2" line="258" tag="M+DB">Control</item>
+    <item id="c3" line="259" tag="G+DB">girl.ERG cow.ABS feed.INF began</item>
+    <item id="c4" line="260" tag="M+DB">[IP The girl   [VP    t tried [IP   t to           [VP    t       leave]]]]</item>
+    <item id="c5" line="261" tag="T+DB">The girl began to feed the cow.' (Backward)</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:46]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:31]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c5[0:43]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i87924">
+  <metadata type="xigt-meta">
+    <meta type="language" name="tsez" iso-639-3="ddo" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3262" line-range="464-466" line-types="L+DB G+DB T+DB"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="464" tag="L+DB">  (40)  i        [kidbi      ziya     bisra]     yoqsi</item>
+    <item id="o2" line="465" tag="G+DB">        EC       girl.ERG cow.ABS feed.INF       began                                   (41)       Correlates of the Forward/Backward Subject Control alternation</item>
+    <item id="o3" line="466" tag="T+DB">        `The    girl began to feed the cow.'                                                    a. Case marking of subjects in control complements</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="464" tag="L+DB">i        [kidbi      ziya     bisra]     yoqsi</item>
+    <item id="c2" line="465" tag="G+DB">EC       girl.ERG cow.ABS feed.INF       began                                   (41)       Correlates of the Forward/Backward Subject Control alternation</item>
+    <item id="c3" line="466" tag="T+DB">The    girl began to feed the cow.'                                                    a. Case marking of subjects in control complements</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:46]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:154]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:137]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i97134">
+  <metadata type="xigt-meta">
+    <meta type="language" name="tsez" iso-639-3="ddo" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="2608" line-range="4315-4320" line-types="M+LN L G+CR G+CR B T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="4315" tag="M+LN">              Tsez20</item>
+    <item id="o2" line="4316" tag="L">  (22)        a. kid              y-ik'i-x</item>
+    <item id="o3" line="4317" tag="G+CR">                 girl.         .II II-go-PR</item>
+    <item id="o4" line="4318" tag="G+CR">                         ABS                  ES</item>
+    <item id="o5" line="4319" tag="B"></item>
+    <item id="o6" line="4320" tag="T">                 `The girl goes.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="4315" tag="M+LN">Tsez20</item>
+    <item id="c2" line="4316" tag="L">kid              y-ik'i-x</item>
+    <item id="c3" line="4317 4318" tag="G+CR">girl.   ABS   .II II-go-PR   ES</item>
+    <item id="c5" line="4319" tag="B"/>
+    <item id="c6" line="4320" tag="T">The girl goes.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c2[0:25]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:31]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c6[0:14]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i97135">
+  <metadata type="xigt-meta">
+    <meta type="language" name="tsez" iso-639-3="ddo" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="2608" line-range="4321-4326" line-types="L G+CR G+CR B T M+AC"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="4321" tag="L">              b. uz-            bikori               b-exu-r-si.</item>
+    <item id="o2" line="4322" tag="G+CR">                 boy-           snake.         .III III-die-    CAUS-PSTWIT</item>
+    <item id="o3" line="4323" tag="G+CR">                         ERG             ABS</item>
+    <item id="o4" line="4324" tag="B"></item>
+    <item id="o5" line="4325" tag="T">                 `The boy killed the snake.'</item>
+    <item id="o6" line="4326" tag="M+AC">                 (Comrie 2003: 323)</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="4321" tag="L">uz-bikori               b-exu-r-si.</item>
+    <item id="c2" line="4322 4323" tag="G+CR">boy-ERG    snake.   ABS   .III III-die-CAUS-PSTWIT</item>
+    <item id="c4" line="4324" tag="B"/>
+    <item id="c5" line="4325" tag="T">The boy killed the snake.</item>
+    <item id="c6" line="4326" tag="M+AC">323</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:35]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:50]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c5[0:25]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i97136">
+  <metadata type="xigt-meta">
+    <meta type="language" name="tsez" iso-639-3="ddo" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="2608" line-range="4335-4339" line-types="L G L G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="4335" tag="L">  (23) a. eni-r                  [ uz-             magalu              b-c'-ru-li]</item>
+    <item id="o2" line="4336" tag="G">                mother-DAT boy-ERG bread.ABS.III III-eat-PSTPRT-NMLZ-ABS</item>
+    <item id="o3" line="4337" tag="L">                r-iy-xo.</item>
+    <item id="o4" line="4338" tag="G">                IV-know-PRES</item>
+    <item id="o5" line="4339" tag="T">                `The mother knows that the boy ate the bread.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="4335" tag="L">eni-r                  [ uz-magalu              b-c'-ru-li]</item>
+    <item id="c2" line="4336" tag="G">mother-DAT boy-ERG bread.ABS.III III-eat-PSTPRT-NMLZ-ABS</item>
+    <item id="c3" line="4337" tag="L">r-iy-xo.</item>
+    <item id="c4" line="4338" tag="G">IV-know-PRES</item>
+    <item id="c5" line="4339" tag="T">The mother knows that the boy ate the bread.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:59]"/>
+    <item id="p1" content="c3[0:8]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:56]" alignment="p1"/>
+    <item id="g1" content="c4[0:12]" alignment="p2"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c5[0:44]" alignment="p2"/>
+  </tier>
+</igt>
+<igt id="i97137">
+  <metadata type="xigt-meta">
+    <meta type="language" name="tsez" iso-639-3="ddo" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="2608" line-range="4340-4345" line-types="L G L G T M+AC"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="4340" tag="L">             b. eni-r            [ uz-             magalu              b-c'-ru-li]</item>
+    <item id="o2" line="4341" tag="G">                mother-DAT boy-ERG bread.ABS.III III-eat-PSTPRT-NMLZ-ABS</item>
+    <item id="o3" line="4342" tag="L">                b-iy-xo.</item>
+    <item id="o4" line="4343" tag="G">                III-know-PRES</item>
+    <item id="o5" line="4344" tag="T">                `The mother knows that the boy ate the bread.'</item>
+    <item id="o6" line="4345" tag="M+AC">                (Polinsky &amp; Potsdam 2001: 584)</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="4340" tag="L">eni-r            [ uz-magalu              b-c'-ru-li]</item>
+    <item id="c2" line="4341" tag="G">mother-DAT boy-ERG bread.ABS.III III-eat-PSTPRT-NMLZ-ABS</item>
+    <item id="c3" line="4342" tag="L">b-iy-xo.</item>
+    <item id="c4" line="4343" tag="G">III-know-PRES</item>
+    <item id="c5" line="4344" tag="T">The mother knows that the boy ate the bread.</item>
+    <item id="c6" line="4345" tag="M+AC">Polinsky &amp; Potsdam 2001: 584</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:53]"/>
+    <item id="p1" content="c3[0:8]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:56]" alignment="p1"/>
+    <item id="g1" content="c4[0:13]" alignment="p2"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c5[0:44]" alignment="p2"/>
+  </tier>
+</igt>
+<igt id="i97138">
+  <metadata type="xigt-meta">
+    <meta type="language" name="tsez" iso-639-3="ddo" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="2608" line-range="4380-4385" line-types="L G+CR G+CR B T M+AC"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="4380" tag="L">  (24)      *eni-r          [ t'ek-kin              y-igu    yl-ru-li]          y-iy-xo.</item>
+    <item id="o2" line="4381" tag="G+CR">             mother-         book.II.    ABS-FOC    II-good be-   PSTPRT-NMLZ   II-know-</item>
+    <item id="o3" line="4382" tag="G+CR">                       DAT                                                                 PRES</item>
+    <item id="o4" line="4383" tag="B"></item>
+    <item id="o5" line="4384" tag="T">             `The mother knows that the BOOK is good.'</item>
+    <item id="o6" line="4385" tag="M+AC">             (Polinsky &amp; Potsdam 2001: 611)</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="4380" tag="L">*eni-r          [ t'ek-kin              y-igu    yl-ru-li]          y-iy-xo.</item>
+    <item id="c2" line="4381 4382" tag="G+CR">mother-DAT   book.II.    ABS-FOC    II-good be-PSTPRT-NMLZ   II-know-PRES</item>
+    <item id="c4" line="4383" tag="B"/>
+    <item id="c5" line="4384" tag="T">The mother knows that the BOOK is good.</item>
+    <item id="c6" line="4385" tag="M+AC">Polinsky &amp; Potsdam 2001: 611</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:76]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:73]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c5[0:39]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i97139">
+  <metadata type="xigt-meta">
+    <meta type="language" name="tsez" iso-639-3="ddo" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="2608" line-range="4387-4394" line-types="L G+CR G+CR B L G B T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="4387" tag="L">  (25)      a. eni-r             [ uz-         ul           magalu</item>
+    <item id="o2" line="4388" tag="G+CR">                mother-          boy-          yesterday bread.III.</item>
+    <item id="o3" line="4389" tag="G+CR">                           DAT          ERG                              ABS</item>
+    <item id="o4" line="4390" tag="B"></item>
+    <item id="o5" line="4391" tag="L">                b-c'rul-li]                    r/b-iy-xo.</item>
+    <item id="o6" line="4392" tag="G">                III-eat-   PSTPRT-NMLZ        IV/III-know-   PRES</item>
+    <item id="o7" line="4393" tag="B"></item>
+    <item id="o8" line="4394" tag="T">                `The mother knows that the boy ate bread yesterday.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="4387" tag="L">eni-r             [ uz-ul           magalu</item>
+    <item id="c2" line="4388 4389" tag="G+CR">mother-DAT   boy-ERG    yesterday bread.III.      ABS</item>
+    <item id="c4" line="4390" tag="B"/>
+    <item id="c5" line="4391" tag="L">b-c'rul-li]                    r/b-iy-xo.</item>
+    <item id="c6" line="4392" tag="G">III-eat-PSTPRT-NMLZ        IV/III-know-PRES</item>
+    <item id="c7" line="4393" tag="B"/>
+    <item id="c8" line="4394" tag="T">The mother knows that the boy ate bread yesterday.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:42]"/>
+    <item id="p1" content="c5[0:41]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:53]" alignment="p1"/>
+    <item id="g1" content="c6[0:43]" alignment="p2"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c8[0:50]" alignment="p2"/>
+  </tier>
+</igt>
+<igt id="i97140">
+  <metadata type="xigt-meta">
+    <meta type="language" name="tsez" iso-639-3="ddo" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="2608" line-range="4395-4402" line-types="L G+CR G+CR B L G B T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="4395" tag="L">            b. eni-r             [ ul            uz-        magalu</item>
+    <item id="o2" line="4396" tag="G+CR">                mother-          yesterday boy-             bread.III.</item>
+    <item id="o3" line="4397" tag="G+CR">                           DAT                        ERG                ABS</item>
+    <item id="o4" line="4398" tag="B"></item>
+    <item id="o5" line="4399" tag="L">                b-c'rul-li]                   r/*b-iy-xo.</item>
+    <item id="o6" line="4400" tag="G">                III-eat-   PSTPRT-NMLZ        IV/III-know-   PRES</item>
+    <item id="o7" line="4401" tag="B"></item>
+    <item id="o8" line="4402" tag="T">                `The mother knows that the boy ate bread yesterday.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="4395" tag="L">eni-r             [ ul            uz-magalu</item>
+    <item id="c2" line="4396 4397" tag="G+CR">mother-DAT   yesterday boy-ERG   bread.III.   ABS</item>
+    <item id="c4" line="4398" tag="B"/>
+    <item id="c5" line="4399" tag="L">b-c'rul-li]                   r/*b-iy-xo.</item>
+    <item id="c6" line="4400" tag="G">III-eat-PSTPRT-NMLZ        IV/III-know-PRES</item>
+    <item id="c7" line="4401" tag="B"/>
+    <item id="c8" line="4402" tag="T">The mother knows that the boy ate bread yesterday.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:43]"/>
+    <item id="p1" content="c5[0:41]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:49]" alignment="p1"/>
+    <item id="g1" content="c6[0:43]" alignment="p2"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c8[0:50]" alignment="p2"/>
+  </tier>
+</igt>
+<igt id="i97141">
+  <metadata type="xigt-meta">
+    <meta type="language" name="tsez" iso-639-3="ddo" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="2608" line-range="4431-4435" line-types="M+LN L B G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="4431" tag="M+LN">       Tsez</item>
+    <item id="o2" line="4432" tag="L">  (26) a. [ kidb kaat                t't'ruli]   y-iyx        uzir.</item>
+    <item id="o3" line="4433" tag="B"></item>
+    <item id="o4" line="4434" tag="G">              girl     letter.II.ABS read        II-knows boy</item>
+    <item id="o5" line="4435" tag="T">              `The boy knows that the girl has read the letter.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="4431" tag="M+LN">Tsez</item>
+    <item id="c2" line="4432" tag="L">[ kidb kaat                t't'ruli]   y-iyx        uzir.</item>
+    <item id="c3" line="4433" tag="B"/>
+    <item id="c4" line="4434" tag="G">girl     letter.II.ABS read        II-knows boy</item>
+    <item id="c5" line="4435" tag="T">The boy knows that the girl has read the letter.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c2[0:57]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c4[0:47]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c5[0:48]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i97142">
+  <metadata type="xigt-meta">
+    <meta type="language" name="tsez" iso-639-3="ddo" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="2608" line-range="4436-4440" line-types="L B G T M+AC"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="4436" tag="L">       b. uzir       y-iyx    [ kidb kaat                t't'ruli].</item>
+    <item id="o2" line="4437" tag="B"></item>
+    <item id="o3" line="4438" tag="G">          boy        II-knows girl     letter.II.ABS read</item>
+    <item id="o4" line="4439" tag="T">          `The boy knows that the girl has read the letter.'</item>
+    <item id="o5" line="4440" tag="M+AC">          (Polinsky 2003: 302)</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="4436" tag="L">uzir       y-iyx    [ kidb kaat                t't'ruli].</item>
+    <item id="c2" line="4437" tag="B"/>
+    <item id="c3" line="4438" tag="G">boy        II-knows girl     letter.II.ABS read</item>
+    <item id="c4" line="4439" tag="T">The boy knows that the girl has read the letter.</item>
+    <item id="c5" line="4440" tag="M+AC">302</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:57]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:47]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c4[0:48]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i97143">
+  <metadata type="xigt-meta">
+    <meta type="language" name="tsez" iso-639-3="ddo" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="2608" line-range="4448-4451" line-types="L B G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="4448" tag="L">  (27) a. [ kidb kaat                t'et'r-änc'i-ru-li]          y-iyx       uzir.</item>
+    <item id="o2" line="4449" tag="B"></item>
+    <item id="o3" line="4450" tag="G">              girl     letter.II.ABS read-NEG-PSTPRT-NMLZ II-knows boy</item>
+    <item id="o4" line="4451" tag="T">              `The boy knows that the girl has not read the letter.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="4448" tag="L">[ kidb kaat                t'et'r-änc'i-ru-li]          y-iyx       uzir.</item>
+    <item id="c2" line="4449" tag="B"/>
+    <item id="c3" line="4450" tag="G">girl     letter.II.ABS read-NEG-PSTPRT-NMLZ II-knows boy</item>
+    <item id="c4" line="4451" tag="T">The boy knows that the girl has not read the letter.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:73]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:56]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c4[0:52]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i97144">
+  <metadata type="xigt-meta">
+    <meta type="language" name="tsez" iso-639-3="ddo" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="2608" line-range="4452-4456" line-types="L B G T M+AC"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="4452" tag="L">       b. [ kidb kaat                t't'ruli] y-iy-x-nu                  uzir.</item>
+    <item id="o2" line="4453" tag="B"></item>
+    <item id="o3" line="4454" tag="G">              girl     letter.II.ABS read        II-knows-PRES-NEG boy</item>
+    <item id="o4" line="4455" tag="T">              `The boy does not know that the girl has read the letter.'</item>
+    <item id="o5" line="4456" tag="M+AC">              (Polinsky 2003: 303)</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="4452" tag="L">[ kidb kaat                t't'ruli] y-iy-x-nu                  uzir.</item>
+    <item id="c2" line="4453" tag="B"/>
+    <item id="c3" line="4454" tag="G">girl     letter.II.ABS read        II-knows-PRES-NEG boy</item>
+    <item id="c4" line="4455" tag="T">The boy does not know that the girl has read the letter.</item>
+    <item id="c5" line="4456" tag="M+AC">303</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:69]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:56]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c4[0:56]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i97145">
+  <metadata type="xigt-meta">
+    <meta type="language" name="tsez" iso-639-3="ddo" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="2608" line-range="4481-4486" line-types="M+LN L B G M T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="4481" tag="M+LN">       Tsez</item>
+    <item id="o2" line="4482" tag="L">  (28) a. sibaw ÷way-          sis     k'et'u   han-si.</item>
+    <item id="o3" line="4483" tag="B"></item>
+    <item id="o4" line="4484" tag="G">           every dog-ERG one cat-ABS bite-PSTWIT</item>
+    <item id="o5" line="4485" tag="M">                                       (dog &gt; cat, cat &gt; dog)</item>
+    <item id="o6" line="4486" tag="T">           `Every dog bit a cat.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="4481" tag="M+LN">Tsez</item>
+    <item id="c2" line="4482" tag="L">sibaw ÷way-sis     k'et'u   han-si.</item>
+    <item id="c3" line="4483" tag="B"/>
+    <item id="c4" line="4484" tag="G">every dog-ERG one cat-ABS bite-PSTWIT</item>
+    <item id="c5" line="4485" tag="M">dog &gt; cat, cat &gt; dog</item>
+    <item id="c6" line="4486" tag="T">Every dog bit a cat.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c2[0:35]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c4[0:37]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c6[0:20]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i97146">
+  <metadata type="xigt-meta">
+    <meta type="language" name="tsez" iso-639-3="ddo" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="2608" line-range="4487-4492" line-types="L+CR L+CR B G M T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="4487" tag="L+CR">                     ÷way-       sibaw      k'et'u     han-si.</item>
+    <item id="o2" line="4488" tag="L+CR">       b. sida</item>
+    <item id="o3" line="4489" tag="B"></item>
+    <item id="o4" line="4490" tag="G">           one-OBL dog-ERG every           cat-ABS     bite-PSTWIT</item>
+    <item id="o5" line="4491" tag="M">                                       (dog &gt; cat, cat &gt; dog)</item>
+    <item id="o6" line="4492" tag="T">           `A dog bit every cat.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="4487 4488" tag="L+CR">sida       ÷way-sibaw      k'et'u     han-si.</item>
+    <item id="c3" line="4489" tag="B"/>
+    <item id="c4" line="4490" tag="G">one-OBL dog-ERG every           cat-ABS     bite-PSTWIT</item>
+    <item id="c5" line="4491" tag="M">dog &gt; cat, cat &gt; dog</item>
+    <item id="c6" line="4492" tag="T">A dog bit every cat.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:45]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c4[0:55]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c6[0:20]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i97147">
+  <metadata type="xigt-meta">
+    <meta type="language" name="tsez" iso-639-3="ddo" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="2608" line-range="4500-4509" line-types="M+LN L G T T+AL+EX M B M B T+AL"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="4500" tag="M+LN">       Tsez</item>
+    <item id="o2" line="4501" tag="L">  (29) a. sis    uciteler [ sibaw uzi                ø-ik'ixosi-li] r-iyxo.</item>
+    <item id="o3" line="4502" tag="G">           one teacher       every boy-I.ABS I-go-NMLZ             IV-know</item>
+    <item id="o4" line="4503" tag="T">           `Some teacher knows that every boy is going.'</item>
+    <item id="o5" line="4504" tag="T+AL+EX">       b. ok: `Some teacher is such that he knows that every boy is going.'</item>
+    <item id="o6" line="4505" tag="M">                 (teacher &gt; boy)</item>
+    <item id="o7" line="4506" tag="B"></item>
+    <item id="o8" line="4507" tag="M">  Chapter 3                                                                                    102</item>
+    <item id="o9" line="4508" tag="B"></item>
+    <item id="o10" line="4509" tag="T+AL">           c. *     `Every boy is such that some teacher knows that he is going.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="4500" tag="M+LN">Tsez</item>
+    <item id="c2" line="4501" tag="L">sis    uciteler [ sibaw uzi                ø-ik'ixosi-li] r-iyxo.</item>
+    <item id="c3" line="4502" tag="G">one teacher       every boy-I.ABS I-go-NMLZ             IV-know</item>
+    <item id="c4" line="4503" tag="T">Some teacher knows that every boy is going.</item>
+    <item id="c5" line="4504" tag="T+AL+EX">`Some teacher is such that he knows that every boy is going.</item>
+    <item id="c6" line="4505" tag="M">teacher &gt; boy</item>
+    <item id="c7" line="4506" tag="B"/>
+    <item id="c8" line="4507" tag="M">Chapter 3                                                                                    102</item>
+    <item id="c9" line="4508" tag="B"/>
+    <item id="c10" line="4509" tag="T+AL">*     `Every boy is such that some teacher knows that he is going.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c2[0:65]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:63]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c4[0:43]" alignment="p1"/>
+    <item id="t1" content="c5[0:60]" alignment="p1"/>
+    <item id="t2" content="c10[0:66]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i97148">
+  <metadata type="xigt-meta">
+    <meta type="language" name="tsez" iso-639-3="ddo" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="2608" line-range="4520-4526" line-types="M+LN L G T T+AL+EX M T+AL"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="4520" tag="M+LN">           Tsez</item>
+    <item id="o2" line="4521" tag="L">  (30) a. sis        uciteler [ sibaw uzi                ø-ik'ixosi-li] ø-iyxo.</item>
+    <item id="o3" line="4522" tag="G">               one teacher         every boy-I.ABS I-go-NMLZ           I-know</item>
+    <item id="o4" line="4523" tag="T">               `Some teacher knows that every boy is going.'</item>
+    <item id="o5" line="4524" tag="T+AL+EX">           b. ok: `Some teacher is such that he knows that every boy is going.'</item>
+    <item id="o6" line="4525" tag="M">                    (teacher &gt; boy)</item>
+    <item id="o7" line="4526" tag="T+AL">           c. *     `Every boy is such that some teacher knows that he is going.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="4520" tag="M+LN">Tsez</item>
+    <item id="c2" line="4521" tag="L">sis        uciteler [ sibaw uzi                ø-ik'ixosi-li] ø-iyxo.</item>
+    <item id="c3" line="4522" tag="G">one teacher         every boy-I.ABS I-go-NMLZ           I-know</item>
+    <item id="c4" line="4523" tag="T">Some teacher knows that every boy is going.</item>
+    <item id="c5" line="4524" tag="T+AL+EX">`Some teacher is such that he knows that every boy is going.</item>
+    <item id="c6" line="4525" tag="M">teacher &gt; boy</item>
+    <item id="c7" line="4526" tag="T+AL">*     `Every boy is such that some teacher knows that he is going.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c2[0:69]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:62]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c4[0:43]" alignment="p1"/>
+    <item id="t1" content="c5[0:60]" alignment="p1"/>
+    <item id="t2" content="c7[0:66]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i97149">
+  <metadata type="xigt-meta">
+    <meta type="language" name="tsez" iso-639-3="ddo" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="2608" line-range="4645-4649" line-types="L G L G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="4645" tag="L">  (33) eni-r        [ uz-        magalu      b-c'-ru-li]</item>
+    <item id="o2" line="4646" tag="G">       mother-DAT boy-ERG bread.ABS.III III-eat-PSTPRT-NMLZ-ABS</item>
+    <item id="o3" line="4647" tag="L">       b-iy-xo.</item>
+    <item id="o4" line="4648" tag="G">       III-know-PRES</item>
+    <item id="o5" line="4649" tag="T">       `The mother knows that the boy ate the bread.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="4645" tag="L">eni-r        [ uz-magalu      b-c'-ru-li]</item>
+    <item id="c2" line="4646" tag="G">mother-DAT boy-ERG bread.ABS.III III-eat-PSTPRT-NMLZ-ABS</item>
+    <item id="c3" line="4647" tag="L">b-iy-xo.</item>
+    <item id="c4" line="4648" tag="G">III-know-PRES</item>
+    <item id="c5" line="4649" tag="T">The mother knows that the boy ate the bread.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:41]"/>
+    <item id="p1" content="c3[0:8]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:56]" alignment="p1"/>
+    <item id="g1" content="c4[0:13]" alignment="p2"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c5[0:44]" alignment="p2"/>
+  </tier>
+</igt>
+<igt id="i97152">
+  <metadata type="xigt-meta">
+    <meta type="language" name="tsez" iso-639-3="ddo" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="2608" line-range="5324-5329" line-types="M+LN L G L G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="5324" tag="M+LN">       Tsez</item>
+    <item id="o2" line="5325" tag="L">  (46) a. eni-r         [ uz-          magalu   b-c'-ru-li]</item>
+    <item id="o3" line="5326" tag="G">           mother-DAT boy-ERG bread.ABS.III III-eat-PSTPRT-NMLZ-ABS</item>
+    <item id="o4" line="5327" tag="L">           r-iy-xo.</item>
+    <item id="o5" line="5328" tag="G">           IV-know-PRES</item>
+    <item id="o6" line="5329" tag="T">           `The mother knows that the boy ate the bread.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="5324" tag="M+LN">Tsez</item>
+    <item id="c2" line="5325" tag="L">eni-r         [ uz-magalu   b-c'-ru-li]</item>
+    <item id="c3" line="5326" tag="G">mother-DAT boy-ERG bread.ABS.III III-eat-PSTPRT-NMLZ-ABS</item>
+    <item id="c4" line="5327" tag="L">r-iy-xo.</item>
+    <item id="c5" line="5328" tag="G">IV-know-PRES</item>
+    <item id="c6" line="5329" tag="T">The mother knows that the boy ate the bread.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c2[0:39]"/>
+    <item id="p1" content="c4[0:8]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:56]" alignment="p1"/>
+    <item id="g1" content="c5[0:12]" alignment="p2"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c6[0:44]" alignment="p2"/>
+  </tier>
+</igt>
+<igt id="i97153">
+  <metadata type="xigt-meta">
+    <meta type="language" name="tsez" iso-639-3="ddo" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="2608" line-range="5330-5335" line-types="L G L G T M+AC"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="5330" tag="L">       b. eni-r         [ uz-          magalu   b-c'-ru-li]</item>
+    <item id="o2" line="5331" tag="G">           mother-DAT boy-ERG bread.ABS.III III-eat-PSTPRT-NMLZ-ABS</item>
+    <item id="o3" line="5332" tag="L">           b-iy-xo.</item>
+    <item id="o4" line="5333" tag="G">           III-know-PRES</item>
+    <item id="o5" line="5334" tag="T">           `The mother knows that the boy ate the bread.'</item>
+    <item id="o6" line="5335" tag="M+AC">           (Polinsky &amp; Potsdam 2001: 584)</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="5330" tag="L">eni-r         [ uz-magalu   b-c'-ru-li]</item>
+    <item id="c2" line="5331" tag="G">mother-DAT boy-ERG bread.ABS.III III-eat-PSTPRT-NMLZ-ABS</item>
+    <item id="c3" line="5332" tag="L">b-iy-xo.</item>
+    <item id="c4" line="5333" tag="G">III-know-PRES</item>
+    <item id="c5" line="5334" tag="T">The mother knows that the boy ate the bread.</item>
+    <item id="c6" line="5335" tag="M+AC">Polinsky &amp; Potsdam 2001: 584</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:39]"/>
+    <item id="p1" content="c3[0:8]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:56]" alignment="p1"/>
+    <item id="g1" content="c4[0:13]" alignment="p2"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c5[0:44]" alignment="p2"/>
+  </tier>
+</igt>
+<igt id="i114155">
+  <metadata type="xigt-meta">
+    <meta type="language" name="tsez" iso-639-3="ddo" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3403" line-range="540-542" line-types="M+LN L G"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="540" tag="M+LN">        (21) Tsez</item>
+    <item id="o2" line="541" tag="L">             a. Kid        mek'u-n.</item>
+    <item id="o3" line="542" tag="G">                girl.ABS   be hungry-     PAST.UNWITNESSED</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="540" tag="M+LN">Tsez</item>
+    <item id="c2" line="541" tag="L">Kid        mek'u-n.</item>
+    <item id="c3" line="542" tag="G">girl.ABS   be hungry-PAST.UNWITNESSED</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c2[0:19]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:37]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i114156">
+  <metadata type="xigt-meta">
+    <meta type="language" name="tsez" iso-639-3="ddo" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3403" line-range="543-545" line-types="L G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="543" tag="L">             b. Kid         mek'u-s</item>
+    <item id="o2" line="544" tag="G">                girl.ABS   be hungry-     PAST.WITNESSED</item>
+    <item id="o3" line="545" tag="T">                `The girl was hungry'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="543" tag="L">Kid         mek'u-s</item>
+    <item id="c2" line="544" tag="G">girl.ABS   be hungry-PAST.WITNESSED</item>
+    <item id="c3" line="545" tag="T">The girl was hungry</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:19]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:35]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:19]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i125578">
+  <metadata type="xigt-meta">
+    <meta type="language" name="tsez" iso-639-3="ddo" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="4057" line-range="696-699" line-types="L+CR L+CR G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="696" tag="L+CR">                                                          bc'rui ]</item>
+    <item id="o2" line="697" tag="L+CR">  (26) a.        enir      [ uz magalu                                                  r-iyxo</item>
+    <item id="o3" line="698" tag="G">                 mother    [ boy bread.III.ABS            ate ].IV                      IV-know</item>
+    <item id="o4" line="699" tag="T">                 `The mother knows [ (that) the boy ate the bread.]</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="696 697" tag="L+CR">enir      [ uz magalu                    bc'rui ]                      r-iyxo</item>
+    <item id="c3" line="698" tag="G">mother    [ boy bread.III.ABS            ate ].IV                      IV-know</item>
+    <item id="c4" line="699" tag="T">The mother knows [ (that) the boy ate the bread.]</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:77]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:78]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c4[0:49]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i125579">
+  <metadata type="xigt-meta">
+    <meta type="language" name="tsez" iso-639-3="ddo" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="4057" line-range="700-703" line-types="L+CR L+CR G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="700" tag="L+CR">                                                          bc'rui ]</item>
+    <item id="o2" line="701" tag="L+CR">          b.     enir      [ uz magalu                                                  b-iyxo</item>
+    <item id="o3" line="702" tag="G">                 mother    [ boy bread.III.ABS            ate ].IV                      III-know</item>
+    <item id="o4" line="703" tag="T">                 `The mother knows [ (that) the boy ate the bread.]</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="700 701" tag="L+CR">enir      [ uz magalu                    bc'rui ]                      b-iyxo</item>
+    <item id="c3" line="702" tag="G">mother    [ boy bread.III.ABS            ate ].IV                      III-know</item>
+    <item id="c4" line="703" tag="T">The mother knows [ (that) the boy ate the bread.]</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:77]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:79]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c4[0:49]" alignment="p1"/>
+  </tier>
+</igt>
+</xigt-corpus>

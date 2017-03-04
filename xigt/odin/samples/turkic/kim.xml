@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xigt-corpus>
+<igt id="i25750">
+  <metadata type="xigt-meta">
+    <meta type="language" name="tofa" iso-639-3="kim" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3878" line-range="1312-1323" line-types="M+LN M L+CR L+CR L+CR B B B B G T M+AC"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="1312" tag="M+LN">   (16)   tofa</item>
+    <item id="o2" line="1313" tag="M"></item>
+    <item id="o3" line="1314" tag="L+CR">          dil i oluk      bar p broeoe y pyl       tut-ka al- an.</item>
+    <item id="o4" line="1315" tag="L+CR">                                                     `</item>
+    <item id="o5" line="1316" tag="L+CR">                                                ¡                ¢</item>
+    <item id="o6" line="1317" tag="B"></item>
+    <item id="o7" line="1318" tag="B"></item>
+    <item id="o8" line="1319" tag="B"></item>
+    <item id="o9" line="1320" tag="B"></item>
+    <item id="o10" line="1321" tag="G">          fox right.away go-cv one hazel.grouse catch-ss sub j.vers-pst</item>
+    <item id="o11" line="1322" tag="T">          `Right away the fox caught a hazel grouse'</item>
+    <item id="o12" line="1323" tag="M+AC">          (Rassadin 1994: 198)</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="1312" tag="M+LN">tofa</item>
+    <item id="c2" line="1313" tag="M"/>
+    <item id="c3" line="1314 1316" tag="L+CR">dil i oluk      bar p broeoe y pyl    ¡ tut-ka al-an. ¢</item>
+    <item id="c6" line="1317" tag="B"/>
+    <item id="c7" line="1318" tag="B"/>
+    <item id="c8" line="1319" tag="B"/>
+    <item id="c9" line="1320" tag="B"/>
+    <item id="c10" line="1321" tag="G">fox right.away go-cv one hazel.grouse catch-ss sub j.vers-pst</item>
+    <item id="c11" line="1322" tag="T">Right away the fox caught a hazel grouse</item>
+    <item id="c12" line="1323" tag="M+AC">198</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c3[0:55]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c10[0:61]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c11[0:40]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i25755">
+  <metadata type="xigt-meta">
+    <meta type="language" name="tofa" iso-639-3="kim" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3878" line-range="1374-1378" line-types="M+LN L G T M+AC"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="1374" tag="M+LN">   (20)   tofa</item>
+    <item id="o2" line="1375" tag="L">          onu      sooda-p beer          be</item>
+    <item id="o3" line="1376" tag="G">          s/he.acc say-ger ob j.vers.p/f q</item>
+    <item id="o4" line="1377" tag="T">          `Should I say it (again for you)?'</item>
+    <item id="o5" line="1378" tag="M+AC">          (ASLEP Field Notes [PVB], cited in (Anderson and Gurevich 2005))</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="1374" tag="M+LN">tofa</item>
+    <item id="c2" line="1375" tag="L">onu      sooda-p beer          be</item>
+    <item id="c3" line="1376" tag="G">s/he.acc say-ger ob j.vers.p/f q</item>
+    <item id="c4" line="1377" tag="T">Should I say it (again for you)?</item>
+    <item id="c5" line="1378" tag="M+AC">ASLEP Field Notes [PVB], cited in (Anderson and Gurevich 2005)</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c2[0:33]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:32]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c4[0:32]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i27152">
+  <metadata type="xigt-meta">
+    <meta type="language" name="tofa" iso-639-3="kim" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3884" line-range="457-461" line-types="M+LN L G+CR T M+AC"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="457" tag="M+LN">  (21)   T O FA</item>
+    <item id="o2" line="458" tag="L">         onu       sooda-p beer                      be</item>
+    <item id="o3" line="459" tag="G+CR">         s/he.AC C say-G E R O B J . V E R S . P / F Q</item>
+    <item id="o4" line="460" tag="T">         `Should I say it (again for you)?'</item>
+    <item id="o5" line="461" tag="M+AC">         (ASLEP Field Notes [PVB])</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="457" tag="M+LN">T O FA</item>
+    <item id="c2" line="458" tag="L">onu       sooda-p beer                      be</item>
+    <item id="c3" line="459" tag="G+CR">s/he.AC C say-G E R O B J . V E R S . P / F Q</item>
+    <item id="c4" line="460" tag="T">Should I say it (again for you)?</item>
+    <item id="c5" line="461" tag="M+AC">ASLEP Field Notes [PVB]</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c2[0:46]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:45]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c4[0:32]" alignment="p1"/>
+  </tier>
+</igt>
+</xigt-corpus>

@@ -1,0 +1,1876 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xigt-corpus>
+<igt id="i6032">
+  <metadata type="xigt-meta">
+    <meta type="language" name="kurdish" iso-639-3="kmr" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="1696" line-range="1048-1055" line-types="L+CR L+CR L+CR L+CR G L G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="1048" tag="L+CR">  (57) Xwi¸ u</item>
+    <item id="o2" line="1049" tag="L+CR">            sk ^     bira-k-i                         w^ ^</item>
+    <item id="o3" line="1050" tag="L+CR">                                                       e=yen pi¸uk</item>
+    <item id="o4" line="1051" tag="L+CR">                                                               c^</item>
+    <item id="o5" line="1052" tag="G">       sister and brother-INDEF-EZ.M.SG.INDEF her=EZ.PL little</item>
+    <item id="o6" line="1053" tag="L">       he-ne.</item>
+    <item id="o7" line="1054" tag="G">       exist.</item>
+    <item id="o8" line="1055" tag="T">       "She has little sisters and a little brother."</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="1048 1050" tag="L+CR">Xwi¸ u                                         e=yen pi¸uk</item>
+    <item id="c5" line="1052" tag="G">sister and brother-INDEF-EZ.M.SG.INDEF her=EZ.PL little</item>
+    <item id="c6" line="1053" tag="L">he-ne.</item>
+    <item id="c7" line="1054" tag="G">exist.</item>
+    <item id="c8" line="1055" tag="T">She has little sisters and a little brother.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:58]"/>
+    <item id="p1" content="c6[0:6]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c5[0:55]" alignment="p1"/>
+    <item id="g1" content="c7[0:6]" alignment="p2"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c8[0:44]" alignment="p2"/>
+  </tier>
+</igt>
+<igt id="i27213">
+  <metadata type="xigt-meta">
+    <meta type="language" name="kurmanji" iso-639-3="kmr" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3886" line-range="373-378" line-types="M+LN+CR M+CR B L+DB G+DB T+DB"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="373" tag="M+LN+CR">        Kurdish (Kurmanji)</item>
+    <item id="o2" line="374" tag="M+CR">  (4)</item>
+    <item id="o3" line="375" tag="B"></item>
+    <item id="o4" line="376" tag="L+DB">    a. Ez        Sînem-ê      dibîn-im         / Min            Sînem dît-Ø</item>
+    <item id="o5" line="377" tag="G+DB">        PRO1SG   Sinem-OBL    see.   IPF-1SG     PRO1SG.OBL     Sinem    see.PF-3SG</item>
+    <item id="o6" line="378" tag="T+DB">        `I see Sinem'                            `I saw Sinem'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="373 374" tag="M+LN+CR">Kurdish (Kurmanji</item>
+    <item id="c3" line="375" tag="B"/>
+    <item id="c4" line="376" tag="L+DB">Ez        Sînem-ê      dibîn-im         / Min            Sînem dît-Ø</item>
+    <item id="c5" line="377" tag="G+DB">PRO1SG   Sinem-OBL    see.   IPF-1SG     PRO1SG.OBL     Sinem    see.PF-3SG</item>
+    <item id="c6" line="378" tag="T+DB">I see Sinem'                            `I saw Sinem</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c4[0:68]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c5[0:75]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c6[0:52]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i27214">
+  <metadata type="xigt-meta">
+    <meta type="language" name="kurmanji" iso-639-3="kmr" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3886" line-range="380-382" line-types="L+DB G+DB T+DB"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="380" tag="L+DB">    b. Tu        Sînem-ê      dibîn-î          / Te             Sînem dît-Ø</item>
+    <item id="o2" line="381" tag="G+DB">        PRO2SG   Sinem-OBL    see.   IPF-2SG     PRO2SG.OBL     Sinem    see.PF-3SG</item>
+    <item id="o3" line="382" tag="T+DB">        `You see Sinem'                          `You saw Sinem'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="380" tag="L+DB">Tu        Sînem-ê      dibîn-î          / Te             Sînem dît-Ø</item>
+    <item id="c2" line="381" tag="G+DB">PRO2SG   Sinem-OBL    see.   IPF-2SG     PRO2SG.OBL     Sinem    see.PF-3SG</item>
+    <item id="c3" line="382" tag="T+DB">You see Sinem'                          `You saw Sinem</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:68]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:75]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:54]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i27215">
+  <metadata type="xigt-meta">
+    <meta type="language" name="kurmanji" iso-639-3="kmr" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3886" line-range="384-388" line-types="L+DB G+DB+CR G+DB+CR B T+DB"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="384" tag="L+DB">    c. Sînem min              dibîn-e          / Sînem-ê        ez       dît-im</item>
+    <item id="o2" line="385" tag="G+DB+CR">        Sinem    PRO1SG.OBL   see.   IPF-3SG     Sinem-         PRO1SG   see.PF-1SG</item>
+    <item id="o3" line="386" tag="G+DB+CR">                                                          OBL</item>
+    <item id="o4" line="387" tag="B"></item>
+    <item id="o5" line="388" tag="T+DB">        `Sinem sees me'                          `Sinem saw me'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="384" tag="L+DB">Sînem min              dibîn-e          / Sînem-ê        ez       dît-im</item>
+    <item id="c4" line="387" tag="B"/>
+    <item id="c5" line="388" tag="T+DB">Sinem sees me'                          `Sinem saw me</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:72]"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c5[0:53]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i27216">
+  <metadata type="xigt-meta">
+    <meta type="language" name="kurmanji" iso-639-3="kmr" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3886" line-range="390-394" line-types="L+DB G+DB+CR G+DB+CR B T+DB"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="390" tag="L+DB">    d. Sînem te               dibîn-e          / Sînem-ê        tu       dît-î</item>
+    <item id="o2" line="391" tag="G+DB+CR">        Sinem    PRO2SG.OBL   see.   IPF-3SG     Sinem-         PRO2SG   see.PF-2SG</item>
+    <item id="o3" line="392" tag="G+DB+CR">                                                          OBL</item>
+    <item id="o4" line="393" tag="B"></item>
+    <item id="o5" line="394" tag="T+DB">        `Sinem sees you'                         `Sinem saw you'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="390" tag="L+DB">Sînem te               dibîn-e          / Sînem-ê        tu       dît-î</item>
+    <item id="c4" line="393" tag="B"/>
+    <item id="c5" line="394" tag="T+DB">Sinem sees you'                         `Sinem saw you</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:71]"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c5[0:54]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i57847">
+  <metadata type="xigt-meta">
+    <meta type="language" name="bahdinani kurdish" iso-639-3="kmr" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="2722" line-range="1808-1812" line-types="L+CR L+CR L+CR G T+AC"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="1808" tag="L+CR">  (77) a. m¯r-e</item>
+    <item id="o2" line="1809" tag="L+CR">            e                p¯r</item>
+    <item id="o3" line="1810" tag="L+CR">                              i</item>
+    <item id="o4" line="1811" tag="G">          man-IZ.MASC.SG old</item>
+    <item id="o5" line="1812" tag="T+AC">          `the old man' (Jardine 1922)</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="1808 1810" tag="L+CR">m¯r-e              i</item>
+    <item id="c4" line="1811" tag="G">man-IZ.MASC.SG old</item>
+    <item id="c5" line="1812" tag="T+AC">the old man' (Jardine 1922)</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:20]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c4[0:18]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c5[0:27]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i57848">
+  <metadata type="xigt-meta">
+    <meta type="language" name="bahdinani kurdish" iso-639-3="kmr" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="2722" line-range="1813-1817" line-types="L+CR L+CR L+CR G T+AC"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="1813" tag="L+CR">        b. m¯l-et</item>
+    <item id="o2" line="1814" tag="L+CR">             a          gund</item>
+    <item id="o3" line="1815" tag="L+CR">                          ¯</item>
+    <item id="o4" line="1816" tag="G">           house-IZ.PL village</item>
+    <item id="o5" line="1817" tag="T+AC">           `the houses of the village' (Jardine 1922)</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="1813 1815" tag="L+CR">m¯l-et        ¯</item>
+    <item id="c4" line="1816" tag="G">house-IZ.PL village</item>
+    <item id="c5" line="1817" tag="T+AC">the houses of the village' (Jardine 1922)</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:15]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c4[0:19]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c5[0:41]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i57849">
+  <metadata type="xigt-meta">
+    <meta type="language" name="bahdinani kurdish" iso-639-3="kmr" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="2722" line-range="1822-1825" line-types="L+CR L+CR G T+AC"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="1822" tag="L+CR">  (78) dilovani u ciwani-ya</item>
+    <item id="o2" line="1823" tag="L+CR">                 ^                          w^i</item>
+    <item id="o3" line="1824" tag="G">       kindness &amp; beauty-IZ.SG (*IZ.PL) his</item>
+    <item id="o4" line="1825" tag="T+AC">       `his [kindness and beauty]' (N. Hirori, p.c.)</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="1822 1823" tag="L+CR">dilovani u^ciwani-ya                 w^i</item>
+    <item id="c3" line="1824" tag="G">kindness &amp; beauty-IZ.SG (*IZ.PL) his</item>
+    <item id="c4" line="1825" tag="T+AC">his [kindness and beauty]' (N. Hirori, p.c.)</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:40]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:36]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c4[0:44]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i57850">
+  <metadata type="xigt-meta">
+    <meta type="language" name="bahdinani kurdish" iso-639-3="kmr" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="2722" line-range="1828-1832" line-types="L+CR L+CR L+CR G T+AC"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="1828" tag="L+CR">  (79) deyk u bab-et</item>
+    <item id="o2" line="1829" tag="L+CR">                ^                         w^</item>
+    <item id="o3" line="1830" tag="L+CR">                                           i</item>
+    <item id="o4" line="1831" tag="G">       mother &amp; father-IZ.PL (*IZ.SG) his</item>
+    <item id="o5" line="1832" tag="T+AC">       `'his [mother and father] (= his parents)' (N. Hirori, p.c.)</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="1828 1830" tag="L+CR">deyk u bab-et                       i</item>
+    <item id="c4" line="1831" tag="G">mother &amp; father-IZ.PL (*IZ.SG) his</item>
+    <item id="c5" line="1832" tag="T+AC">his [mother and father] (= his parents)' (N. Hirori, p.c.)</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:37]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c4[0:34]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c5[0:58]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i57851">
+  <metadata type="xigt-meta">
+    <meta type="language" name="bahdinani kurdish" iso-639-3="kmr" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="2722" line-range="1839-1842" line-types="L+CR L+CR G T+AC"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="1839" tag="L+CR">  (80) kulav u cakit-e</item>
+    <item id="o2" line="1840" tag="L+CR">              ^¸            w^i</item>
+    <item id="o3" line="1841" tag="G">       hat &amp; coat-IZ.SG hi</item>
+    <item id="o4" line="1842" tag="T+AC">       `his hat and coat' (N. Hirori, p.c.)</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="1839" tag="L+CR">kulav u cakit-e</item>
+    <item id="c3" line="1841" tag="G">hat &amp; coat-IZ.SG hi</item>
+    <item id="c4" line="1842" tag="T+AC">his hat and coat' (N. Hirori, p.c.)</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:15]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:19]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c4[0:35]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i57852">
+  <metadata type="xigt-meta">
+    <meta type="language" name="bahdinani kurdish" iso-639-3="kmr" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="2722" line-range="1843-1846" line-types="L+CR L+CR G T+AC"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="1843" tag="L+CR">  (81) kulav u cakit-et</item>
+    <item id="o2" line="1844" tag="L+CR">              ^¸            w^i</item>
+    <item id="o3" line="1845" tag="G">       hat &amp; coat-IZ.PL his</item>
+    <item id="o4" line="1846" tag="T+AC">       `his hat and coat' (N. Hirori, p.c.)</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="1843" tag="L+CR">kulav u cakit-et</item>
+    <item id="c3" line="1845" tag="G">hat &amp; coat-IZ.PL his</item>
+    <item id="c4" line="1846" tag="T+AC">his hat and coat' (N. Hirori, p.c.)</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:16]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:20]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c4[0:35]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i75278">
+  <metadata type="xigt-meta">
+    <meta type="language" name="kurmanji" iso-639-3="kmr" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3673" line-range="491-497" line-types="M+CR+EX M+LN+CR C+EX L+CR L+CR G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="491" tag="M+CR+EX">                      (Kurdish, Northern) (Indo-European, Indo-Iranian, Iranian,</item>
+    <item id="o2" line="492" tag="M+LN+CR">  (11) Kurmanji</item>
+    <item id="o3" line="493" tag="C+EX">                      Western, Northwestern, Kurdish)</item>
+    <item id="o4" line="494" tag="L+CR">             ez            me-îm</item>
+    <item id="o5" line="495" tag="L+CR">        a.</item>
+    <item id="o6" line="496" tag="G">             1SG.ABS       walk-PST.1SG</item>
+    <item id="o7" line="497" tag="T">             `I walked.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="491 492" tag="M+CR+EX+LN">Kurmanji       (Kurdish, Northern) (Indo-European, Indo-Iranian, Iranian,</item>
+    <item id="c3" line="493" tag="C+EX">Western, Northwestern, Kurdish)</item>
+    <item id="c4" line="494 495" tag="L+CR">ez            me-îm</item>
+    <item id="c6" line="496" tag="G">1SG.ABS       walk-PST.1SG</item>
+    <item id="c7" line="497" tag="T">I walked.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c4[0:19]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c6[0:26]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c7[0:9]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i75279">
+  <metadata type="xigt-meta">
+    <meta type="language" name="kurmanji" iso-639-3="kmr" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3673" line-range="498-501" line-types="L+CR L+CR G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="498" tag="L+CR">             tu            me-î</item>
+    <item id="o2" line="499" tag="L+CR">        b.</item>
+    <item id="o3" line="500" tag="G">             2SG.ABS       walk-PST.2SG</item>
+    <item id="o4" line="501" tag="T">             `You walked.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="498 499" tag="L+CR">tu            me-î</item>
+    <item id="c3" line="500" tag="G">2SG.ABS       walk-PST.2SG</item>
+    <item id="c4" line="501" tag="T">You walked.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:18]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:26]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c4[0:11]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i75280">
+  <metadata type="xigt-meta">
+    <meta type="language" name="kurmanji" iso-639-3="kmr" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3673" line-range="502-505" line-types="L+CR L+CR G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="502" tag="L+CR">             min           tu         û-t-î</item>
+    <item id="o2" line="503" tag="L+CR">        c.</item>
+    <item id="o3" line="504" tag="G">             1SG.ERG       2SG.ABS    wash-PST-2SG</item>
+    <item id="o4" line="505" tag="T">             `I washed you.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="502 503" tag="L+CR">min           tu         û-t-î</item>
+    <item id="c3" line="504" tag="G">1SG.ERG       2SG.ABS    wash-PST-2SG</item>
+    <item id="c4" line="505" tag="T">I washed you.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:30]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:37]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c4[0:13]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i75281">
+  <metadata type="xigt-meta">
+    <meta type="language" name="kurmanji" iso-639-3="kmr" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3673" line-range="506-510" line-types="L+CR L+CR G T M+AC"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="506" tag="L+CR">             te            ez         û-t-im</item>
+    <item id="o2" line="507" tag="L+CR">        d.</item>
+    <item id="o3" line="508" tag="G">             2SG.ERG       1SG.ABS    wash-PST-1SG</item>
+    <item id="o4" line="509" tag="T">             `You washed me.'</item>
+    <item id="o5" line="510" tag="M+AC">                                                                       (Subhî Ahmed)</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="506 507" tag="L+CR">te            ez         û-t-im</item>
+    <item id="c3" line="508" tag="G">2SG.ERG       1SG.ABS    wash-PST-1SG</item>
+    <item id="c4" line="509" tag="T">You washed me.</item>
+    <item id="c5" line="510" tag="M+AC">Subhî Ahmed</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:31]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:37]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c4[0:14]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i75302">
+  <metadata type="xigt-meta">
+    <meta type="language" name="kurmanji" iso-639-3="kmr" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3673" line-range="955-959" line-types="M+LN+CN+EX L+CR L+CR G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="955" tag="M+LN+CN+EX">  (21) Kurmanji: past tense clauses (repeated from (11))</item>
+    <item id="o2" line="956" tag="L+CR">            ez            me-îm</item>
+    <item id="o3" line="957" tag="L+CR">       a.</item>
+    <item id="o4" line="958" tag="G">            1SG.ABS       walk-PST.1SG</item>
+    <item id="o5" line="959" tag="T">            `I walked.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="955" tag="M+LN+CN+EX">past tense clauses (repeated from (11)</item>
+    <item id="c2" line="956 957" tag="L+CR">ez            me-îm</item>
+    <item id="c4" line="958" tag="G">1SG.ABS       walk-PST.1SG</item>
+    <item id="c5" line="959" tag="T">I walked.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c2[0:19]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c4[0:26]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c5[0:9]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i75303">
+  <metadata type="xigt-meta">
+    <meta type="language" name="kurmanji" iso-639-3="kmr" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3673" line-range="960-963" line-types="L+CR L+CR G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="960" tag="L+CR">            tu            me-î</item>
+    <item id="o2" line="961" tag="L+CR">       b.</item>
+    <item id="o3" line="962" tag="G">            2SG.ABS       walk-PST.2SG</item>
+    <item id="o4" line="963" tag="T">            `You walked.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="960 961" tag="L+CR">tu            me-î</item>
+    <item id="c3" line="962" tag="G">2SG.ABS       walk-PST.2SG</item>
+    <item id="c4" line="963" tag="T">You walked.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:18]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:26]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c4[0:11]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i75304">
+  <metadata type="xigt-meta">
+    <meta type="language" name="kurmanji" iso-639-3="kmr" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3673" line-range="964-967" line-types="L+CR L+CR G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="964" tag="L+CR">            min           tu        û-t-î</item>
+    <item id="o2" line="965" tag="L+CR">       c.</item>
+    <item id="o3" line="966" tag="G">            1SG.ERG       2SG.ABS   wash-PST-2SG</item>
+    <item id="o4" line="967" tag="T">            `I washed you.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="964 965" tag="L+CR">min           tu        û-t-î</item>
+    <item id="c3" line="966" tag="G">1SG.ERG       2SG.ABS   wash-PST-2SG</item>
+    <item id="c4" line="967" tag="T">I washed you.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:29]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:36]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c4[0:13]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i75305">
+  <metadata type="xigt-meta">
+    <meta type="language" name="kurmanji" iso-639-3="kmr" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3673" line-range="968-971" line-types="L+CR L+CR G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="968" tag="L+CR">            te            ez        û-t-im</item>
+    <item id="o2" line="969" tag="L+CR">       d.</item>
+    <item id="o3" line="970" tag="G">            2SG.ERG       1SG.ABS   wash-PST-1SG</item>
+    <item id="o4" line="971" tag="T">            `You washed me.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="968 969" tag="L+CR">te            ez        û-t-im</item>
+    <item id="c3" line="970" tag="G">2SG.ERG       1SG.ABS   wash-PST-1SG</item>
+    <item id="c4" line="971" tag="T">You washed me.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:30]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:36]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c4[0:14]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i75306">
+  <metadata type="xigt-meta">
+    <meta type="language" name="kurmanji" iso-639-3="kmr" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3673" line-range="978-983" line-types="M+LN+CN L+CR L+CR G B T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="978" tag="M+LN+CN">  (22) Kurmanji: present tense clauses</item>
+    <item id="o2" line="979" tag="L+CR">            ez            di-me-im</item>
+    <item id="o3" line="980" tag="L+CR">       a.</item>
+    <item id="o4" line="981" tag="G">            1SG.NOM       PROG-walk.PRS-1SG</item>
+    <item id="o5" line="982" tag="B"></item>
+    <item id="o6" line="983" tag="T">            `I am walking.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="978" tag="M+LN+CN">present tense clauses</item>
+    <item id="c2" line="979 980" tag="L+CR">ez            di-me-im</item>
+    <item id="c4" line="981" tag="G">1SG.NOM       PROG-walk.PRS-1SG</item>
+    <item id="c5" line="982" tag="B"/>
+    <item id="c6" line="983" tag="T">I am walking.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c2[0:22]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c4[0:31]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c6[0:13]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i75307">
+  <metadata type="xigt-meta">
+    <meta type="language" name="kurmanji" iso-639-3="kmr" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3673" line-range="984-987" line-types="L+CR L+CR G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="984" tag="L+CR">            tu            di-me-î</item>
+    <item id="o2" line="985" tag="L+CR">       b.</item>
+    <item id="o3" line="986" tag="G">            2SG.NOM       PROG-walk.PRS-2SG</item>
+    <item id="o4" line="987" tag="T">            `You are walking.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="984 985" tag="L+CR">tu            di-me-î</item>
+    <item id="c3" line="986" tag="G">2SG.NOM       PROG-walk.PRS-2SG</item>
+    <item id="c4" line="987" tag="T">You are walking.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:21]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:31]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c4[0:16]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i75308">
+  <metadata type="xigt-meta">
+    <meta type="language" name="kurmanji" iso-639-3="kmr" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3673" line-range="988-991" line-types="L+CR L+CR G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="988" tag="L+CR">            ez            te        di-û-m</item>
+    <item id="o2" line="989" tag="L+CR">       c.</item>
+    <item id="o3" line="990" tag="G">            1SG.NOM       2SG.ACC   PROG-wash.PRS-1SG</item>
+    <item id="o4" line="991" tag="T">            `I am washing you.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="988 989" tag="L+CR">ez            te        di-û-m</item>
+    <item id="c3" line="990" tag="G">1SG.NOM       2SG.ACC   PROG-wash.PRS-1SG</item>
+    <item id="c4" line="991" tag="T">I am washing you.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:30]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:41]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c4[0:17]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i75309">
+  <metadata type="xigt-meta">
+    <meta type="language" name="kurmanji" iso-639-3="kmr" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3673" line-range="992-997" line-types="L+CR L+CR G B T M+AC"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="992" tag="L+CR">            tu            min       di-û(-yî)</item>
+    <item id="o2" line="993" tag="L+CR">       d.</item>
+    <item id="o3" line="994" tag="G">            2SG.NOM       1SG.ACC   PROG-wash.PRS-2SG</item>
+    <item id="o4" line="995" tag="B"></item>
+    <item id="o5" line="996" tag="T">            `You are washing me.'</item>
+    <item id="o6" line="997" tag="M+AC">                                                              (Subhî Ahmed)</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="992 993" tag="L+CR">tu            min       di-û(-yî)</item>
+    <item id="c3" line="994" tag="G">2SG.NOM       1SG.ACC   PROG-wash.PRS-2SG</item>
+    <item id="c4" line="995" tag="B"/>
+    <item id="c5" line="996" tag="T">You are washing me.</item>
+    <item id="c6" line="997" tag="M+AC">Subhî Ahmed</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:33]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:41]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c5[0:19]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i93296">
+  <metadata type="xigt-meta">
+    <meta type="language" name="northern kurdish" iso-639-3="kmr" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="1384" line-range="563-566" line-types="L+CR L+LN+CR G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="563" tag="L+CR">                      ziman birTn</item>
+    <item id="o2" line="564" tag="L+LN+CR">      d.   Kurdish</item>
+    <item id="o3" line="565" tag="G">                      tongue cut</item>
+    <item id="o4" line="566" tag="T">                      `to silence a person'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="563 564" tag="L+CR+LN">Kurdish    ziman birTn</item>
+    <item id="c3" line="565" tag="G">tongue cut</item>
+    <item id="c4" line="566" tag="T">to silence a person</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:22]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:10]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c4[0:19]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i93309">
+  <metadata type="xigt-meta">
+    <meta type="language" name="northern kurdish" iso-639-3="kmr" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="1384" line-range="690-692" line-types="L+LN G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="690" tag="L+LN">       d.   Kurdish    zimandirêjî</item>
+    <item id="o2" line="691" tag="G">                       tongue.long.NOM</item>
+    <item id="o3" line="692" tag="T">                       `to be insolent, impertinent'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="690" tag="L+LN">Kurdish    zimandirêjî</item>
+    <item id="c2" line="691" tag="G">tongue.long.NOM</item>
+    <item id="c3" line="692" tag="T">to be insolent, impertinent</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:22]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:15]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:27]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i113461">
+  <metadata type="xigt-meta">
+    <meta type="language" name="kurdish" iso-639-3="kmr" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3382" line-range="1069-1072" line-types="L G M+CN T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="1069" tag="L">  (63) a. ÷m pyaw- xnjr ?frose                      TM</item>
+    <item id="o2" line="1070" tag="G">                this man-this dagger IMPERF-sell</item>
+    <item id="o3" line="1071" tag="M+CN">                      S                O          V</item>
+    <item id="o4" line="1072" tag="T">                `this man sells daggers'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="1069" tag="L">÷m pyaw-xnjr ?frose                      TM</item>
+    <item id="c2" line="1070" tag="G">this man-this dagger IMPERF-sell</item>
+    <item id="c3" line="1071" tag="M+CN">S                O          V</item>
+    <item id="c4" line="1072" tag="T">this man sells daggers</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:43]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:32]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c4[0:22]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i113462">
+  <metadata type="xigt-meta">
+    <meta type="language" name="kurdish" iso-639-3="kmr" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3382" line-range="1076-1080" line-types="L+CR L+CR G M+CN T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="1076" tag="L+CR">          b.    b¨Ô ra-k-m           l d¨Ô tróyt dà÷nise.</item>
+    <item id="o2" line="1077" tag="L+CR">                                                       TM</item>
+    <item id="o3" line="1078" tag="G">                brother-the-my       in Detroit lives</item>
+    <item id="o4" line="1079" tag="M+CN">                                     Pr NP</item>
+    <item id="o5" line="1080" tag="T">                `my brother lives   in Detroit'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="1076" tag="L+CR">b¨Ô ra-k-m           l d¨Ô tróyt dà÷nise.</item>
+    <item id="c3" line="1078" tag="G">brother-the-my       in Detroit lives</item>
+    <item id="c4" line="1079" tag="M+CN">Pr NP</item>
+    <item id="c5" line="1080" tag="T">my brother lives   in Detroit</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:41]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:37]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c5[0:29]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i115803">
+  <metadata type="xigt-meta">
+    <meta type="language" name="kurmanji" iso-639-3="kmr" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3667" line-range="1145-1151" line-types="M+EX M+LN M+EX L+CR L+CR G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="1145" tag="M+EX">                      (Kurdish, Northern) (Indo-European, Indo-Iranian, Iranian,</item>
+    <item id="o2" line="1146" tag="M+LN">  (11) Kurmanji</item>
+    <item id="o3" line="1147" tag="M+EX">                      Western, Northwestern, Kurdish)</item>
+    <item id="o4" line="1148" tag="L+CR">             ez            me-îm</item>
+    <item id="o5" line="1149" tag="L+CR">        a.</item>
+    <item id="o6" line="1150" tag="G">             1SG.ABS       walk-PST.1SG</item>
+    <item id="o7" line="1151" tag="T">             `I walked.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="1145" tag="M+EX">(Kurdish, Northern) (Indo-European, Indo-Iranian, Iranian,</item>
+    <item id="c2" line="1146" tag="M+LN">Kurmanji</item>
+    <item id="c3" line="1147" tag="M+EX">Western, Northwestern, Kurdish)</item>
+    <item id="c4" line="1148 1149" tag="L+CR">ez            me-îm</item>
+    <item id="c6" line="1150" tag="G">1SG.ABS       walk-PST.1SG</item>
+    <item id="c7" line="1151" tag="T">I walked.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c4[0:19]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c6[0:26]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c7[0:9]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i115804">
+  <metadata type="xigt-meta">
+    <meta type="language" name="kurmanji" iso-639-3="kmr" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3667" line-range="1152-1155" line-types="L+CR L+CR G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="1152" tag="L+CR">             tu            me-î</item>
+    <item id="o2" line="1153" tag="L+CR">        b.</item>
+    <item id="o3" line="1154" tag="G">             2SG.ABS       walk-PST.2SG</item>
+    <item id="o4" line="1155" tag="T">             `You walked.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="1152 1153" tag="L+CR">tu            me-î</item>
+    <item id="c3" line="1154" tag="G">2SG.ABS       walk-PST.2SG</item>
+    <item id="c4" line="1155" tag="T">You walked.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:18]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:26]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c4[0:11]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i115805">
+  <metadata type="xigt-meta">
+    <meta type="language" name="kurmanji" iso-639-3="kmr" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3667" line-range="1156-1159" line-types="L+CR L+CR G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="1156" tag="L+CR">             min           tu         û-t-î</item>
+    <item id="o2" line="1157" tag="L+CR">        c.</item>
+    <item id="o3" line="1158" tag="G">             1SG.ERG       2SG.ABS    wash-PST-2SG</item>
+    <item id="o4" line="1159" tag="T">             `I washed you.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="1156 1157" tag="L+CR">min           tu         û-t-î</item>
+    <item id="c3" line="1158" tag="G">1SG.ERG       2SG.ABS    wash-PST-2SG</item>
+    <item id="c4" line="1159" tag="T">I washed you.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:30]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:37]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c4[0:13]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i115806">
+  <metadata type="xigt-meta">
+    <meta type="language" name="kurmanji" iso-639-3="kmr" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3667" line-range="1160-1164" line-types="L+CR L+CR G T M+AC"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="1160" tag="L+CR">             te            ez         û-t-im</item>
+    <item id="o2" line="1161" tag="L+CR">        d.</item>
+    <item id="o3" line="1162" tag="G">             2SG.ERG       1SG.ABS    wash-PST-1SG</item>
+    <item id="o4" line="1163" tag="T">             `You washed me.'</item>
+    <item id="o5" line="1164" tag="M+AC">                                                                       (Subhî Ahmed)</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="1160 1161" tag="L+CR">te            ez         û-t-im</item>
+    <item id="c3" line="1162" tag="G">2SG.ERG       1SG.ABS    wash-PST-1SG</item>
+    <item id="c4" line="1163" tag="T">You washed me.</item>
+    <item id="c5" line="1164" tag="M+AC">Subhî Ahmed</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:31]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:37]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c4[0:14]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i115827">
+  <metadata type="xigt-meta">
+    <meta type="language" name="kurmanji" iso-639-3="kmr" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3667" line-range="1612-1616" line-types="M+LN+EX L+CR L+CR G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="1612" tag="M+LN+EX">  (21) Kurmanji: past tense clauses (repeated from (11))</item>
+    <item id="o2" line="1613" tag="L+CR">            ez            me-îm</item>
+    <item id="o3" line="1614" tag="L+CR">       a.</item>
+    <item id="o4" line="1615" tag="G">            1SG.ABS       walk-PST.1SG</item>
+    <item id="o5" line="1616" tag="T">            `I walked.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="1612" tag="M+LN+EX">past tense clauses (repeated from (11)</item>
+    <item id="c2" line="1613 1614" tag="L+CR">ez            me-îm</item>
+    <item id="c4" line="1615" tag="G">1SG.ABS       walk-PST.1SG</item>
+    <item id="c5" line="1616" tag="T">I walked.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c2[0:19]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c4[0:26]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c5[0:9]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i115828">
+  <metadata type="xigt-meta">
+    <meta type="language" name="kurmanji" iso-639-3="kmr" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3667" line-range="1617-1620" line-types="L+CR L+CR G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="1617" tag="L+CR">            tu            me-î</item>
+    <item id="o2" line="1618" tag="L+CR">       b.</item>
+    <item id="o3" line="1619" tag="G">            2SG.ABS       walk-PST.2SG</item>
+    <item id="o4" line="1620" tag="T">            `You walked.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="1617 1618" tag="L+CR">tu            me-î</item>
+    <item id="c3" line="1619" tag="G">2SG.ABS       walk-PST.2SG</item>
+    <item id="c4" line="1620" tag="T">You walked.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:18]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:26]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c4[0:11]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i115829">
+  <metadata type="xigt-meta">
+    <meta type="language" name="kurmanji" iso-639-3="kmr" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3667" line-range="1621-1624" line-types="L+CR L+CR G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="1621" tag="L+CR">            min           tu        û-t-î</item>
+    <item id="o2" line="1622" tag="L+CR">       c.</item>
+    <item id="o3" line="1623" tag="G">            1SG.ERG       2SG.ABS   wash-PST-2SG</item>
+    <item id="o4" line="1624" tag="T">            `I washed you.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="1621 1622" tag="L+CR">min           tu        û-t-î</item>
+    <item id="c3" line="1623" tag="G">1SG.ERG       2SG.ABS   wash-PST-2SG</item>
+    <item id="c4" line="1624" tag="T">I washed you.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:29]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:36]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c4[0:13]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i115830">
+  <metadata type="xigt-meta">
+    <meta type="language" name="kurmanji" iso-639-3="kmr" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3667" line-range="1625-1628" line-types="L+CR L+CR G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="1625" tag="L+CR">            te            ez        û-t-im</item>
+    <item id="o2" line="1626" tag="L+CR">       d.</item>
+    <item id="o3" line="1627" tag="G">            2SG.ERG       1SG.ABS   wash-PST-1SG</item>
+    <item id="o4" line="1628" tag="T">            `You washed me.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="1625 1626" tag="L+CR">te            ez        û-t-im</item>
+    <item id="c3" line="1627" tag="G">2SG.ERG       1SG.ABS   wash-PST-1SG</item>
+    <item id="c4" line="1628" tag="T">You washed me.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:30]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:36]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c4[0:14]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i115831">
+  <metadata type="xigt-meta">
+    <meta type="language" name="kurmanji" iso-639-3="kmr" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3667" line-range="1635-1640" line-types="M+LN+EX L+CR L+CR G B T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="1635" tag="M+LN+EX">  (22) Kurmanji: present tense clauses</item>
+    <item id="o2" line="1636" tag="L+CR">            ez            di-me-im</item>
+    <item id="o3" line="1637" tag="L+CR">       a.</item>
+    <item id="o4" line="1638" tag="G">            1SG.NOM       PROG-walk.PRS-1SG</item>
+    <item id="o5" line="1639" tag="B"></item>
+    <item id="o6" line="1640" tag="T">            `I am walking.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="1635" tag="M+LN+EX">present tense clauses</item>
+    <item id="c2" line="1636 1637" tag="L+CR">ez            di-me-im</item>
+    <item id="c4" line="1638" tag="G">1SG.NOM       PROG-walk.PRS-1SG</item>
+    <item id="c5" line="1639" tag="B"/>
+    <item id="c6" line="1640" tag="T">I am walking.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c2[0:22]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c4[0:31]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c6[0:13]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i115832">
+  <metadata type="xigt-meta">
+    <meta type="language" name="kurmanji" iso-639-3="kmr" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3667" line-range="1641-1644" line-types="L+CR L+CR G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="1641" tag="L+CR">            tu            di-me-î</item>
+    <item id="o2" line="1642" tag="L+CR">       b.</item>
+    <item id="o3" line="1643" tag="G">            2SG.NOM       PROG-walk.PRS-2SG</item>
+    <item id="o4" line="1644" tag="T">            `You are walking.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="1641 1642" tag="L+CR">tu            di-me-î</item>
+    <item id="c3" line="1643" tag="G">2SG.NOM       PROG-walk.PRS-2SG</item>
+    <item id="c4" line="1644" tag="T">You are walking.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:21]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:31]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c4[0:16]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i115833">
+  <metadata type="xigt-meta">
+    <meta type="language" name="kurmanji" iso-639-3="kmr" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3667" line-range="1645-1648" line-types="L+CR L+CR G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="1645" tag="L+CR">            ez            te        di-û-m</item>
+    <item id="o2" line="1646" tag="L+CR">       c.</item>
+    <item id="o3" line="1647" tag="G">            1SG.NOM       2SG.ACC   PROG-wash.PRS-1SG</item>
+    <item id="o4" line="1648" tag="T">            `I am washing you.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="1645 1646" tag="L+CR">ez            te        di-û-m</item>
+    <item id="c3" line="1647" tag="G">1SG.NOM       2SG.ACC   PROG-wash.PRS-1SG</item>
+    <item id="c4" line="1648" tag="T">I am washing you.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:30]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:41]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c4[0:17]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i115834">
+  <metadata type="xigt-meta">
+    <meta type="language" name="kurmanji" iso-639-3="kmr" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3667" line-range="1649-1654" line-types="L+CR L+CR G B T M+AC"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="1649" tag="L+CR">            tu            min       di-û(-yî)</item>
+    <item id="o2" line="1650" tag="L+CR">       d.</item>
+    <item id="o3" line="1651" tag="G">            2SG.NOM       1SG.ACC   PROG-wash.PRS-2SG</item>
+    <item id="o4" line="1652" tag="B"></item>
+    <item id="o5" line="1653" tag="T">            `You are washing me.'</item>
+    <item id="o6" line="1654" tag="M+AC">                                                              (Subhî Ahmed)</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="1649 1650" tag="L+CR">tu            min       di-û(-yî)</item>
+    <item id="c3" line="1651" tag="G">2SG.NOM       1SG.ACC   PROG-wash.PRS-2SG</item>
+    <item id="c4" line="1652" tag="B"/>
+    <item id="c5" line="1653" tag="T">You are washing me.</item>
+    <item id="c6" line="1654" tag="M+AC">Subhî Ahmed</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:33]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:41]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c5[0:19]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i116003">
+  <metadata type="xigt-meta">
+    <meta type="language" name="kurmanji" iso-639-3="kmr" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3667" line-range="9413-9418" line-types="M+LN+CN+EX L+CR L+CR G B T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="9413" tag="M+LN+CN+EX">  (20) Kurmanji: accusative pattern (present tense)</item>
+    <item id="o2" line="9414" tag="L+CR">             ez     di-me-im</item>
+    <item id="o3" line="9415" tag="L+CR">        a.</item>
+    <item id="o4" line="9416" tag="G">             1SG    PROG-walk.PRS-1SG</item>
+    <item id="o5" line="9417" tag="B"></item>
+    <item id="o6" line="9418" tag="T">             `I am walking.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="9413" tag="M+LN+CN+EX">accusative pattern (present tense</item>
+    <item id="c2" line="9414 9415" tag="L+CR">ez     di-me-im</item>
+    <item id="c4" line="9416" tag="G">1SG    PROG-walk.PRS-1SG</item>
+    <item id="c5" line="9417" tag="B"/>
+    <item id="c6" line="9418" tag="T">I am walking.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c2[0:15]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c4[0:24]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c6[0:13]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i116004">
+  <metadata type="xigt-meta">
+    <meta type="language" name="kurmanji" iso-639-3="kmr" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3667" line-range="9419-9423" line-types="L+CR L+CR G+CR G+CR T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="9419" tag="L+CR">             tu     di-me-î</item>
+    <item id="o2" line="9420" tag="L+CR">        b.</item>
+    <item id="o3" line="9421" tag="G+CR">                    PROG-walk.PRS-2SG</item>
+    <item id="o4" line="9422" tag="G+CR">             2SG</item>
+    <item id="o5" line="9423" tag="T">             `You are walking.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="9419 9420" tag="L+CR">tu     di-me-î</item>
+    <item id="c3" line="9421 9422" tag="G+CR">2SG    PROG-walk.PRS-2SG</item>
+    <item id="c5" line="9423" tag="T">You are walking.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:14]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:24]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c5[0:16]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i116005">
+  <metadata type="xigt-meta">
+    <meta type="language" name="kurmanji" iso-639-3="kmr" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3667" line-range="9424-9427" line-types="L+CR L+CR G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="9424" tag="L+CR">             ez     te      di-û-m</item>
+    <item id="o2" line="9425" tag="L+CR">        c.</item>
+    <item id="o3" line="9426" tag="G">             1SG    2SG.ACC PROG-wash.PRS-1SG</item>
+    <item id="o4" line="9427" tag="T">             `I am washing you.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="9424 9425" tag="L+CR">ez     te      di-û-m</item>
+    <item id="c3" line="9426" tag="G">1SG    2SG.ACC PROG-wash.PRS-1SG</item>
+    <item id="c4" line="9427" tag="T">I am washing you.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:21]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:32]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c4[0:17]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i116006">
+  <metadata type="xigt-meta">
+    <meta type="language" name="kurmanji" iso-639-3="kmr" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3667" line-range="9428-9432" line-types="L+CR L+CR G T M+AC"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="9428" tag="L+CR">             tu     min     di-û(-yî)</item>
+    <item id="o2" line="9429" tag="L+CR">        d.</item>
+    <item id="o3" line="9430" tag="G">             2SG    1SG.ACC PROG-wash.PRS-2SG</item>
+    <item id="o4" line="9431" tag="T">             `You are washing me.'</item>
+    <item id="o5" line="9432" tag="M+AC">                                                                  (Subhî Ahmed)</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="9428 9429" tag="L+CR">tu     min     di-û(-yî)</item>
+    <item id="c3" line="9430" tag="G">2SG    1SG.ACC PROG-wash.PRS-2SG</item>
+    <item id="c4" line="9431" tag="T">You are washing me.</item>
+    <item id="c5" line="9432" tag="M+AC">Subhî Ahmed</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:24]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:32]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c4[0:19]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i116007">
+  <metadata type="xigt-meta">
+    <meta type="language" name="kurmanji" iso-639-3="kmr" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3667" line-range="9440-9444" line-types="M+LN+CN+EX L+CR L+CR G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="9440" tag="M+LN+CN+EX">  (21) Kurmanji: ergative pattern (past)</item>
+    <item id="o2" line="9441" tag="L+CR">             ez            me-îm</item>
+    <item id="o3" line="9442" tag="L+CR">        a.</item>
+    <item id="o4" line="9443" tag="G">             1SG           walk-PST.1SG</item>
+    <item id="o5" line="9444" tag="T">             `I walked.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="9440" tag="M+LN+CN+EX">ergative pattern (past</item>
+    <item id="c2" line="9441 9442" tag="L+CR">ez            me-îm</item>
+    <item id="c4" line="9443" tag="G">1SG           walk-PST.1SG</item>
+    <item id="c5" line="9444" tag="T">I walked.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c2[0:19]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c4[0:26]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c5[0:9]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i116008">
+  <metadata type="xigt-meta">
+    <meta type="language" name="kurmanji" iso-639-3="kmr" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3667" line-range="9445-9448" line-types="L+CR L+CR G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="9445" tag="L+CR">             tu            me-î</item>
+    <item id="o2" line="9446" tag="L+CR">        b.</item>
+    <item id="o3" line="9447" tag="G">             2SG           walk-PST.2SG</item>
+    <item id="o4" line="9448" tag="T">             `You walked.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="9445 9446" tag="L+CR">tu            me-î</item>
+    <item id="c3" line="9447" tag="G">2SG           walk-PST.2SG</item>
+    <item id="c4" line="9448" tag="T">You walked.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:18]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:26]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c4[0:11]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i116009">
+  <metadata type="xigt-meta">
+    <meta type="language" name="kurmanji" iso-639-3="kmr" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3667" line-range="9449-9452" line-types="L+CR L+CR G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="9449" tag="L+CR">             min           tu  û-t-î</item>
+    <item id="o2" line="9450" tag="L+CR">        c.</item>
+    <item id="o3" line="9451" tag="G">             1SG.ERG       2SG wash-PST-2SG</item>
+    <item id="o4" line="9452" tag="T">             `I washed you.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="9449 9450" tag="L+CR">min           tu  û-t-î</item>
+    <item id="c3" line="9451" tag="G">1SG.ERG       2SG wash-PST-2SG</item>
+    <item id="c4" line="9452" tag="T">I washed you.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:23]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:30]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c4[0:13]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i116010">
+  <metadata type="xigt-meta">
+    <meta type="language" name="kurmanji" iso-639-3="kmr" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3667" line-range="9455-9462" line-types="M+CN B L+CR L+CR L+CR G T M+AC"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="9455" tag="M+CN">  Ergative as passive</item>
+    <item id="o2" line="9456" tag="B"></item>
+    <item id="o3" line="9457" tag="L+CR">                            û-t-im</item>
+    <item id="o4" line="9458" tag="L+CR">            te          ez</item>
+    <item id="o5" line="9459" tag="L+CR">       d.</item>
+    <item id="o6" line="9460" tag="G">            2SG.ERG     1SG wash-PST-1SG</item>
+    <item id="o7" line="9461" tag="T">            `You washed me.'</item>
+    <item id="o8" line="9462" tag="M+AC">                                                                   (Subhî Ahmed)</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="9455" tag="M+CN">Ergative as passive</item>
+    <item id="c2" line="9456" tag="B"/>
+    <item id="c3" line="9457 9458 9459" tag="L+CR">te          ez  û-t-im</item>
+    <item id="c6" line="9460" tag="G">2SG.ERG     1SG wash-PST-1SG</item>
+    <item id="c7" line="9461" tag="T">You washed me.</item>
+    <item id="c8" line="9462" tag="M+AC">Subhî Ahmed</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c3[0:22]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c6[0:28]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c7[0:14]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i116011">
+  <metadata type="xigt-meta">
+    <meta type="language" name="kurmanji" iso-639-3="kmr" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3667" line-range="9588-9591" line-types="M+LN+CN+EX L G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="9588" tag="M+LN+CN+EX">  (24) Kurmanji: passive construction (present)</item>
+    <item id="o2" line="9589" tag="L">         a. ez  te      di-û-m</item>
+    <item id="o3" line="9590" tag="G">            1SG 2SG.ACC PROG-wash.PRS-1SG</item>
+    <item id="o4" line="9591" tag="T">              `I am washing you.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="9588" tag="M+LN+CN+EX">passive construction (present</item>
+    <item id="c2" line="9589" tag="L">ez  te      di-û-m</item>
+    <item id="c3" line="9590" tag="G">1SG 2SG.ACC PROG-wash.PRS-1SG</item>
+    <item id="c4" line="9591" tag="T">I am washing you.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c2[0:18]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:29]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c4[0:17]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i116012">
+  <metadata type="xigt-meta">
+    <meta type="language" name="kurmanji" iso-639-3="kmr" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3667" line-range="9592-9595" line-types="L G T M+AC"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="9592" tag="L">         b. tu  t-ê(-yî)      ût-in                           (ji aliyê min ve)</item>
+    <item id="o2" line="9593" tag="G">            2SG PROG-come-2SG wash-INF                         from my side</item>
+    <item id="o3" line="9594" tag="T">              `You are being washed (by me).'</item>
+    <item id="o4" line="9595" tag="M+AC">                                                                                    (Subhî Ahmed)</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="9592" tag="L">tu  t-ê(-yî)      ût-in                           (ji aliyê min ve)</item>
+    <item id="c2" line="9593" tag="G">2SG PROG-come-2SG wash-INF                         from my side</item>
+    <item id="c3" line="9594" tag="T">You are being washed (by me).</item>
+    <item id="c4" line="9595" tag="M+AC">Subhî Ahmed</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:67]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:63]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:29]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i116013">
+  <metadata type="xigt-meta">
+    <meta type="language" name="kurmanji" iso-639-3="kmr" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3667" line-range="9598-9601" line-types="M+LN+CN L G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="9598" tag="M+LN+CN">  (25) Kurmanji: passive construction (past)</item>
+    <item id="o2" line="9599" tag="L">         a. min     tu              di-û-t-î</item>
+    <item id="o3" line="9600" tag="G">            1SG.ERG 2SG             PROG-wash-PST-2SG</item>
+    <item id="o4" line="9601" tag="T">              `I was washing you.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="9598" tag="M+LN+CN">passive construction (past</item>
+    <item id="c2" line="9599" tag="L">min     tu              di-û-t-î</item>
+    <item id="c3" line="9600" tag="G">1SG.ERG 2SG             PROG-wash-PST-2SG</item>
+    <item id="c4" line="9601" tag="T">I was washing you.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c2[0:32]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:41]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c4[0:18]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i116014">
+  <metadata type="xigt-meta">
+    <meta type="language" name="kurmanji" iso-639-3="kmr" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3667" line-range="9602-9605" line-types="L G T M+AC"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="9602" tag="L">         b. tu  di-hat-î          ût-in                              (ji aliyê min ve)</item>
+    <item id="o2" line="9603" tag="G">            2SG PROG-come.PST-2SG wash-INF                            from my side</item>
+    <item id="o3" line="9604" tag="T">              `You were being washed (by me).'</item>
+    <item id="o4" line="9605" tag="M+AC">                                                                                    (Subhî Ahmed)</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="9602" tag="L">tu  di-hat-î          ût-in                              (ji aliyê min ve)</item>
+    <item id="c2" line="9603" tag="G">2SG PROG-come.PST-2SG wash-INF                            from my side</item>
+    <item id="c3" line="9604" tag="T">You were being washed (by me).</item>
+    <item id="c4" line="9605" tag="M+AC">Subhî Ahmed</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:74]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:70]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:30]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i116017">
+  <metadata type="xigt-meta">
+    <meta type="language" name="kurmanji" iso-639-3="kmr" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3667" line-range="9818-9825" line-types="M+LN+CN L G L+CR L+CR G T T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="9818" tag="M+LN+CN">  (33) Kurmanji: conjunction reduction</item>
+    <item id="o2" line="9819" tag="L">       a. jini        cotkar-îj      di-bîn-e                û     paê           i/*j</item>
+    <item id="o3" line="9820" tag="G">          woman       farmer-ACC     PROG-see.PRS-3SG        and   then</item>
+    <item id="o4" line="9821" tag="L+CR">                          bazar-ê</item>
+    <item id="o5" line="9822" tag="L+CR">           tere-</item>
+    <item id="o6" line="9823" tag="G">           go.PRS-3SG     market-OBL</item>
+    <item id="o7" line="9824" tag="T">           `The woman sees/meets the farmer and then (she) goes to the</item>
+    <item id="o8" line="9825" tag="T">           market.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="9818" tag="M+LN+CN">conjunction reduction</item>
+    <item id="c2" line="9819" tag="L">jini        cotkar-îj      di-bîn-e                û     paê           i/*j</item>
+    <item id="c3" line="9820" tag="G">woman       farmer-ACC     PROG-see.PRS-3SG        and   then</item>
+    <item id="c4" line="9821 9822" tag="L+CR">tere-bazar-ê</item>
+    <item id="c6" line="9823" tag="G">go.PRS-3SG     market-OBL</item>
+    <item id="c7" line="9824" tag="T">The woman sees/meets the farmer and then (she) goes to the</item>
+    <item id="c8" line="9825" tag="T">market.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c2[0:75]"/>
+    <item id="p1" content="c4[0:12]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:61]" alignment="p1"/>
+    <item id="g1" content="c6[0:25]" alignment="p2"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c7[0:58]" alignment="p2"/>
+    <item id="t1" content="c8[0:7]" alignment="p2"/>
+  </tier>
+</igt>
+<igt id="i116018">
+  <metadata type="xigt-meta">
+    <meta type="language" name="kurmanji" iso-639-3="kmr" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3667" line-range="9826-9834" line-types="L+CR L+CR G L+CR L+CR G T T M+AC"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="9826" tag="L+CR">       b. jin-êi    cotkarj                      û         paê</item>
+    <item id="o2" line="9827" tag="L+CR">                                     dît-                             i/*j</item>
+    <item id="o3" line="9828" tag="G">          woman-ERG farmer           see.PST-3SG and       then</item>
+    <item id="o4" line="9829" tag="L+CR">                          bazar-ê</item>
+    <item id="o5" line="9830" tag="L+CR">           çû-</item>
+    <item id="o6" line="9831" tag="G">           go.PST-3SG     market-OBL</item>
+    <item id="o7" line="9832" tag="T">           `The woman saw/met the farmer and then (she) went to the</item>
+    <item id="o8" line="9833" tag="T">           market.'</item>
+    <item id="o9" line="9834" tag="M+AC">                                                                    (Haig 1998:161)</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="9826 9827" tag="L+CR">jin-êi    cotkarj         dît-û         paê      i/*j</item>
+    <item id="c3" line="9828" tag="G">woman-ERG farmer           see.PST-3SG and       then</item>
+    <item id="c4" line="9829 9830" tag="L+CR">çû-bazar-ê</item>
+    <item id="c6" line="9831" tag="G">go.PST-3SG     market-OBL</item>
+    <item id="c7" line="9832" tag="T">The woman saw/met the farmer and then (she) went to the</item>
+    <item id="c8" line="9833" tag="T">market.</item>
+    <item id="c9" line="9834" tag="M+AC">Haig 1998:161</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:53]"/>
+    <item id="p1" content="c4[0:10]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:53]" alignment="p1"/>
+    <item id="g1" content="c6[0:25]" alignment="p2"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c7[0:55]" alignment="p2"/>
+    <item id="t1" content="c8[0:7]" alignment="p2"/>
+  </tier>
+</igt>
+<igt id="i130157">
+  <metadata type="xigt-meta">
+    <meta type="language" name="northern kurdish" iso-639-3="kmr" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="98" line-range="332-335" line-types="L+LN+CR L+CR G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="332" tag="L+LN+CR">         Kurdish: Mirov /*mirovanpl       hat-in3pl.</item>
+    <item id="o2" line="333" tag="L+CR">  (19)</item>
+    <item id="o3" line="334" tag="G">                  man                     come.past-3pl</item>
+    <item id="o4" line="335" tag="T">                  `The men came'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="332 333" tag="L+LN+CR">Mirov /*mirovanpl       hat-in3pl.</item>
+    <item id="c3" line="334" tag="G">man                     come.past-3pl</item>
+    <item id="c4" line="335" tag="T">The men came</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:34]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:37]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c4[0:12]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i149786">
+  <metadata type="xigt-meta">
+    <meta type="language" name="kurmanjo" iso-639-3="kmr" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3448" line-range="886-886" line-types="L-T+AC"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="886" tag="L-T+AC">       In se zan `These three women' (novel), F. Behnud, p. 55.</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="886" tag="L-T+AC">In se zan `These three women' (novel), F. Behnud, p. 55.</item>
+  </tier>
+</igt>
+<igt id="i149787">
+  <metadata type="xigt-meta">
+    <meta type="language" name="kurmanjo" iso-639-3="kmr" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3448" line-range="888-888" line-types="L-T+AC"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="888" tag="L-T+AC">       Dâstanha-ye mahbub-e man `My favorite stories', A. Darvisian and R. Xandân Mahâbâbi, p. 274.</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="888" tag="L-T+AC">Dâstanha-ye mahbub-e man `My favorite stories', A. Darvisian and R. Xandân Mahâbâbi, p. 274.</item>
+  </tier>
+</igt>
+<igt id="i149832">
+  <metadata type="xigt-meta">
+    <meta type="language" name="kurmancî" iso-639-3="kmr" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3448" line-range="1546-1546" line-types="L-T+AC+DB"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="1546" tag="L-T+AC+DB">      (76) a.     albîsa `cloth'            albîs-ê xo      `his own clothes'   [Mackenzie 1961: 159]</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="1546" tag="L-T+AC+DB">albîsa `cloth'            albîs-ê xo      `his own clothes'   [Mackenzie 1961: 159]</item>
+  </tier>
+</igt>
+<igt id="i149833">
+  <metadata type="xigt-meta">
+    <meta type="language" name="kurmancî" iso-639-3="kmr" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3448" line-range="1547-1547" line-types="L-T+DB"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="1547" tag="L-T+DB">          b.      sa `dog'                  sa-yê wî        `his dog'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="1547" tag="L-T+DB">sa `dog'                  sa-yê wî        `his dog</item>
+  </tier>
+</igt>
+<igt id="i149834">
+  <metadata type="xigt-meta">
+    <meta type="language" name="kermanian" iso-639-3="kmr" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3448" line-range="1561-1563" line-types="L+AC G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="1561" tag="L+AC">      (77) oftâv garm Arabestân    [Lecoq, 2002: 70]</item>
+    <item id="o2" line="1562" tag="G">          sun hot Arabia</item>
+    <item id="o3" line="1563" tag="T">          `The hot sunshine of Arabia'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="1561" tag="L+AC">oftâv garm Arabestân    [Lecoq, 2002: 70]</item>
+    <item id="c2" line="1562" tag="G">sun hot Arabia</item>
+    <item id="c3" line="1563" tag="T">The hot sunshine of Arabia</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:41]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:14]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:26]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i149835">
+  <metadata type="xigt-meta">
+    <meta type="language" name="kurmanco" iso-639-3="kmr" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3448" line-range="1627-1629" line-types="L+DB G+DB T+DB+EX"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="1627" tag="L+DB">      (79) a.     jin-â genc                                 jin-ên genc</item>
+    <item id="o2" line="1628" tag="G+DB">                  woman-EZ.F.SG young                        woman-EZ.PL young</item>
+    <item id="o3" line="1629" tag="T+DB+EX">                  `young woman' (direct or oblique)          `young women' (direct or oblique)</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="1627" tag="L+DB">jin-â genc                                 jin-ên genc</item>
+    <item id="c2" line="1628" tag="G+DB">woman-EZ.F.SG young                        woman-EZ.PL young</item>
+    <item id="c3" line="1629" tag="T+DB+EX">young woman' (direct or oblique)          `young women' (direct or oblique)</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:54]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:60]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:75]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i149836">
+  <metadata type="xigt-meta">
+    <meta type="language" name="kurmanco" iso-639-3="kmr" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3448" line-range="1631-1633" line-types="L+DB G+DB T+DB+EX"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="1631" tag="L+DB">          b.      kur-ê ganc                                 kur-ên ganc</item>
+    <item id="o2" line="1632" tag="G+DB">                  boy-EZ.M.SG young                          boy-EZ.PL young</item>
+    <item id="o3" line="1633" tag="T+DB+EX">                  `young boy' (direct or oblique)            `young men' (direct or oblique)</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="1631" tag="L+DB">kur-ê ganc                                 kur-ên ganc</item>
+    <item id="c2" line="1632" tag="G+DB">boy-EZ.M.SG young                          boy-EZ.PL young</item>
+    <item id="c3" line="1633" tag="T+DB+EX">young boy' (direct or oblique)            `young men' (direct or oblique)</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:54]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:58]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:73]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i149837">
+  <metadata type="xigt-meta">
+    <meta type="language" name="kurmanco" iso-639-3="kmr" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3448" line-range="1637-1639" line-types="L G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="1637" tag="L">      (80) mal-a mezin-a nermîn-ê</item>
+    <item id="o2" line="1638" tag="G">          house-EZ.FEM big-EZ.FEM Nermin-   OBL.FEM</item>
+    <item id="o3" line="1639" tag="T">          `Narmin's big house'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="1637" tag="L">mal-a mezin-a nermîn-ê</item>
+    <item id="c2" line="1638" tag="G">house-EZ.FEM big-EZ.FEM Nermin-OBL.FEM</item>
+    <item id="c3" line="1639" tag="T">Narmin's big house</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:22]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:38]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:18]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i149847">
+  <metadata type="xigt-meta">
+    <meta type="language" name="kurmanco" iso-639-3="kmr" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3448" line-range="1762-1765" line-types="L G+CR G+CR T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="1762" tag="L">       (85) a.     mal-a           [bira-yê             min]-a                     biçuk</item>
+    <item id="o2" line="1763" tag="G+CR">                   house-EZ.F.SG [brother-EZ.M.         I.obl]-EZ.F.               small</item>
+    <item id="o3" line="1764" tag="G+CR">                                                   SG                  SG</item>
+    <item id="o4" line="1765" tag="T">                   `My brother's small house'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="1762" tag="L">mal-a           [bira-yê             min]-a                     biçuk</item>
+    <item id="c2" line="1763 1764" tag="G+CR">house-EZ.F.SG [brother-EZ.M.    SG   I.obl]-EZ.F.   SG          small</item>
+    <item id="c4" line="1765" tag="T">My brother's small house</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:69]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:69]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c4[0:24]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i149848">
+  <metadata type="xigt-meta">
+    <meta type="language" name="kurmanco" iso-639-3="kmr" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3448" line-range="1775-1776" line-types="L G"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="1775" tag="L">          b.       * mal-a          [van jin-an]-a                               biçuk</item>
+    <item id="o2" line="1776" tag="G">                   house-ez.f.sg    [dem.obl.pl woman-obl.pl]-ez.f.sg            small</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="1775" tag="L">* mal-a          [van jin-an]-a                               biçuk</item>
+    <item id="c2" line="1776" tag="G">house-ez.f.sg    [dem.obl.pl woman-obl.pl]-ez.f.sg            small</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:67]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:67]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i149849">
+  <metadata type="xigt-meta">
+    <meta type="language" name="kurmanco" iso-639-3="kmr" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3448" line-range="1778-1781" line-types="L G T T+LT+AL"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="1778" tag="L">          c.       mal-a            [van jin-an]                        ya                biçuk</item>
+    <item id="o2" line="1779" tag="G">                   house-EZ.F.SG [DEM.OBL.PL woman-OBL.PL]              DEMEZ .F.SG       small</item>
+    <item id="o3" line="1780" tag="T">                   `The small house of these women'</item>
+    <item id="o4" line="1781" tag="T+LT+AL">                   (Lit. These women's house, the small one)</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="1778" tag="L">mal-a            [van jin-an]                        ya                biçuk</item>
+    <item id="c2" line="1779" tag="G">house-EZ.F.SG [DEM.OBL.PL woman-OBL.PL]              DEMEZ .F.SG       small</item>
+    <item id="c3" line="1780" tag="T">The small house of these women</item>
+    <item id="c4" line="1781" tag="T+LT+AL">Lit. These women's house, the small one</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:76]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:76]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:30]" alignment="p1"/>
+    <item id="t1" content="c4[0:39]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i149850">
+  <metadata type="xigt-meta">
+    <meta type="language" name="kurmanco" iso-639-3="kmr" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3448" line-range="1793-1795" line-types="L+AC G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="1793" tag="L+AC">      (86) yê dwê ...                yê sêyê          [Mackenzie 1961: 163]</item>
+    <item id="o2" line="1794" tag="G">          DEMEZ second               DEMEZ third</item>
+    <item id="o3" line="1795" tag="T">          `The second one, the third one'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="1793" tag="L+AC">yê dwê ...                yê sêyê          [Mackenzie 1961: 163]</item>
+    <item id="c2" line="1794" tag="G">DEMEZ second               DEMEZ third</item>
+    <item id="c3" line="1795" tag="T">The second one, the third one</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:64]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:38]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:29]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i149886">
+  <metadata type="xigt-meta">
+    <meta type="language" name="kurmancî" iso-639-3="kmr" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3448" line-range="2299-2302" line-types="L G+CR G+CR T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="2299" tag="L">       (118)      mal-a           [bira-yê            min]-a              biçuk</item>
+    <item id="o2" line="2300" tag="G+CR">                  house-EZ.F.SG [brother-EZ.M.        I.OBL]-EZ.F.        small</item>
+    <item id="o3" line="2301" tag="G+CR">                                                 SG                  SG</item>
+    <item id="o4" line="2302" tag="T">                  `My brother's small house'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="2299" tag="L">mal-a           [bira-yê            min]-a              biçuk</item>
+    <item id="c2" line="2300 2301" tag="G+CR">house-EZ.F.SG [brother-EZ.M.   SG   I.OBL]-EZ.F.   SG   small</item>
+    <item id="c4" line="2302" tag="T">My brother's small house</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:61]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:61]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c4[0:24]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i149922">
+  <metadata type="xigt-meta">
+    <meta type="language" name="diarbekir kurdish" iso-639-3="kmr" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3448" line-range="2897-2899" line-types="L+LN G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="2897" tag="L+LN">      (149)       pênc    kur-ên           ganc            di-hê-n              (Diarbekir dialect)</item>
+    <item id="o2" line="2898" tag="G">                  five    boy-EZ.PL        young           TAM-arrive-3.   PL</item>
+    <item id="o3" line="2899" tag="T">                  `Five young boys arrive'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="2897" tag="L+LN">pênc    kur-ên           ganc            di-hê-n              (Diarbekir dialect</item>
+    <item id="c2" line="2898" tag="G">five    boy-EZ.PL        young           TAM-arrive-3.   PL</item>
+    <item id="c3" line="2899" tag="T">Five young boys arrive</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:80]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:59]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:22]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i149923">
+  <metadata type="xigt-meta">
+    <meta type="language" name="surci" iso-639-3="kmr" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3448" line-range="2905-2905" line-types="L-T+AC"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="2905" tag="L-T+AC">      (150)       mirow-aka-y xwrê          `the lower man' [Mackenzie 1961, 160]</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="2905" tag="L-T+AC">mirow-aka-y xwrê          `the lower man' [Mackenzie 1961, 160]</item>
+  </tier>
+</igt>
+</xigt-corpus>

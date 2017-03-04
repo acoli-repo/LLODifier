@@ -1,0 +1,711 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xigt-corpus>
+<igt id="i23290">
+  <metadata type="xigt-meta">
+    <meta type="language" name="bats" iso-639-3="bbl" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="1272" line-range="112-115" line-types="M+AC+LN L G T+EX"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="112" tag="M+AC+LN">  (7)      Bats [Caucasian; Holisky 1987]</item>
+    <item id="o2" line="113" tag="L">           a. As     waxi.</item>
+    <item id="o3" line="114" tag="G">              I.erg drowned.</item>
+    <item id="o4" line="115" tag="T+EX">              `I drowned myself.' [on purpose ]</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="112" tag="M+AC+LN">Bats [Caucasian; Holisky 1987]</item>
+    <item id="c2" line="113" tag="L">As     waxi.</item>
+    <item id="c3" line="114" tag="G">I.erg drowned.</item>
+    <item id="c4" line="115" tag="T+EX">I drowned myself.' [on purpose ]</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c2[0:12]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:14]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c4[0:32]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i23291">
+  <metadata type="xigt-meta">
+    <meta type="language" name="bats" iso-639-3="bbl" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="1272" line-range="116-118" line-types="L G T+EX"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="116" tag="L">           b. So     waxi.</item>
+    <item id="o2" line="117" tag="G">              I.abs drowned</item>
+    <item id="o3" line="118" tag="T+EX">              `I got drowned.' [accidental ly, involuntarily ]</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="116" tag="L">So     waxi.</item>
+    <item id="c2" line="117" tag="G">I.abs drowned</item>
+    <item id="c3" line="118" tag="T+EX">I got drowned.' [accidental ly, involuntarily ]</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:12]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:13]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:47]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i39074">
+  <metadata type="xigt-meta">
+    <meta type="language" name="batsbi" iso-639-3="bbl" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="1181" line-range="93-96" line-types="M+LN L G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="93" tag="M+LN">    · Batsbi (NE-Caucasian)</item>
+    <item id="o2" line="94" tag="L">       (5)   a. (as)      vuiz-n-as</item>
+    <item id="o3" line="95" tag="G">                I.erg     fall-tns-1erg</item>
+    <item id="o4" line="96" tag="T">                `I fell   down (on purpose).'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="93" tag="M+LN">· Batsbi (NE-Caucasian)</item>
+    <item id="c2" line="94" tag="L">(as)      vuiz-n-as</item>
+    <item id="c3" line="95" tag="G">I.erg     fall-tns-1erg</item>
+    <item id="c4" line="96" tag="T">I fell   down (on purpose).</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c2[0:19]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:23]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c4[0:27]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i39075">
+  <metadata type="xigt-meta">
+    <meta type="language" name="batsbi" iso-639-3="bbl" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="1181" line-range="97-99" line-types="L G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="97" tag="L">             a. (so)      voz-en-so</item>
+    <item id="o2" line="98" tag="G">                I.abs     fall-tns-1abs</item>
+    <item id="o3" line="99" tag="T">                `I fell   down (on purpose).'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="97" tag="L">(so)      voz-en-so</item>
+    <item id="c2" line="98" tag="G">I.abs     fall-tns-1abs</item>
+    <item id="c3" line="99" tag="T">I fell   down (on purpose).</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:19]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:23]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:27]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i73330">
+  <metadata type="xigt-meta">
+    <meta type="language" name="tsovatush" iso-639-3="bbl" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="990" line-range="985-988" line-types="L+CR L+CR G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="985" tag="L+CR">           b. [molun k'nat] Va e, gazen-i le mos:in?</item>
+    <item id="o2" line="986" tag="L+CR">                                               £</item>
+    <item id="o3" line="987" tag="G">                [what.sort boy] is 3SG good-Q or bad</item>
+    <item id="o4" line="988" tag="T">                `What sort of boy is he, good or bad?'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="985" tag="L+CR">[molun k'nat] Va e, gazen-i le mos:in?</item>
+    <item id="c3" line="987" tag="G">[what.sort boy] is 3SG good-Q or bad</item>
+    <item id="c4" line="988" tag="T">What sort of boy is he, good or bad?</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:38]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:36]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c4[0:36]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i134543">
+  <metadata type="xigt-meta">
+    <meta type="language" name="bats" iso-639-3="bbl" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="2373" line-range="2624-2627" line-types="M+AC+LN L G T+EX"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="2624" tag="M+AC+LN">       (51)   BATS [Caucasian; Polinskaja and Nedjalkov 1987]</item>
+    <item id="o2" line="2625" tag="L">              a. as         waxi</item>
+    <item id="o3" line="2626" tag="G">                 I . ER G   drowned</item>
+    <item id="o4" line="2627" tag="T+EX">                 `I drowned myself.' [on purpose]</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="2624" tag="M+AC+LN">BATS [Caucasian; Polinskaja and Nedjalkov 1987]</item>
+    <item id="c2" line="2625" tag="L">as         waxi</item>
+    <item id="c3" line="2626" tag="G">I . ER G   drowned</item>
+    <item id="c4" line="2627" tag="T+EX">I drowned myself.' [on purpose]</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c2[0:15]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:18]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c4[0:31]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i134544">
+  <metadata type="xigt-meta">
+    <meta type="language" name="bats" iso-639-3="bbl" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="2373" line-range="2628-2630" line-types="L G T+EX"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="2628" tag="L">              b. so         waxi</item>
+    <item id="o2" line="2629" tag="G">                 I.ABS      drowned</item>
+    <item id="o3" line="2630" tag="T+EX">                 `I got drowned.' [accidentally, involuntarily]</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="2628" tag="L">so         waxi</item>
+    <item id="c2" line="2629" tag="G">I.ABS      drowned</item>
+    <item id="c3" line="2630" tag="T+EX">I got drowned.' [accidentally, involuntarily]</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:15]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:18]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:45]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i136256">
+  <metadata type="xigt-meta">
+    <meta type="language" name="tsovatush" iso-639-3="bbl" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3750" line-range="151-153" line-types="L G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="151" tag="L">  (10)   tit'-o-ra-lo</item>
+    <item id="o2" line="152" tag="G">         cut.FUT-FORMANT-PST-QUOT</item>
+    <item id="o3" line="153" tag="T">         `s/he will be cutting it apparently.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="151" tag="L">tit'-o-ra-lo</item>
+    <item id="c2" line="152" tag="G">cut.FUT-FORMANT-PST-QUOT</item>
+    <item id="c3" line="153" tag="T">s/he will be cutting it apparently.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:12]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:24]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:35]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i136559">
+  <metadata type="xigt-meta">
+    <meta type="language" name="tsovatush" iso-639-3="bbl" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3743" line-range="10198-10201" line-types="L+CR L+CR G T+AC+LN"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="10198" tag="L+CR">    ( 1 8 ) a. (   As) vuiz-n-as</item>
+    <item id="o2" line="10199" tag="L+CR"></item>
+    <item id="o3" line="10200" tag="G">               I   .Erg fall-Tns-1.Sg.Erg</item>
+    <item id="o4" line="10201" tag="T+AC+LN">               `   I fell down (on purpose).' (Holisky 1987)                           Tsova-Tush</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="10198 10199" tag="L+CR">( 1 8 ) a. (   As) vuiz-n-as</item>
+    <item id="c3" line="10200" tag="G">I   .Erg fall-Tns-1.Sg.Erg</item>
+    <item id="c4" line="10201" tag="T+AC+LN">I fell down (on purpose).' (Holisky 1987)                           Tsova-Tush</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:28]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:26]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c4[0:78]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i136560">
+  <metadata type="xigt-meta">
+    <meta type="language" name="tsovatush" iso-639-3="bbl" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3743" line-range="10202-10205" line-types="L+CR L+CR G T+AC+LN"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="10202" tag="L+CR">            b. (   So) vuiz-n-as</item>
+    <item id="o2" line="10203" tag="L+CR"></item>
+    <item id="o3" line="10204" tag="G">               I   .Nom fall-Tns-1.Sg.Nom</item>
+    <item id="o4" line="10205" tag="T+AC+LN">               `   I fell down (accidentally).' (Holisky 1987)                         Tsova-Tush</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="10202 10203" tag="L+CR">(   So) vuiz-n-as</item>
+    <item id="c3" line="10204" tag="G">I   .Nom fall-Tns-1.Sg.Nom</item>
+    <item id="c4" line="10205" tag="T+AC+LN">I fell down (accidentally).' (Holisky 1987)                         Tsova-Tush</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:17]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:26]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c4[0:78]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i136729">
+  <metadata type="xigt-meta">
+    <meta type="language" name="tsovatush" iso-639-3="bbl" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3745" line-range="850-854" line-types="M+LN B L B G+EX"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="850" tag="M+LN">          (11)     Tsova-Tush (Caucasian)</item>
+    <item id="o2" line="851" tag="B"></item>
+    <item id="o3" line="852" tag="L">                   a. as woze</item>
+    <item id="o4" line="853" tag="B"></item>
+    <item id="o5" line="854" tag="G+EX">                     I-Erg fell (it was my own fault that I fell down)</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="850" tag="M+LN">Tsova-Tush (Caucasian</item>
+    <item id="c2" line="851" tag="B"/>
+    <item id="c3" line="852" tag="L">as woze</item>
+    <item id="c4" line="853" tag="B"/>
+    <item id="c5" line="854" tag="G+EX">I-Erg fell (it was my own fault that I fell down)</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c3[0:7]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c5[0:49]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i136730">
+  <metadata type="xigt-meta">
+    <meta type="language" name="tsovatush" iso-639-3="bbl" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3745" line-range="856-860" line-types="L B G+EX B M+AC"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="856" tag="L">                   b. so woze</item>
+    <item id="o2" line="857" tag="B"></item>
+    <item id="o3" line="858" tag="G+EX">                     I-Nom fell (no implication that it was my fault)</item>
+    <item id="o4" line="859" tag="B"></item>
+    <item id="o5" line="860" tag="M+AC">                                / Mescaninov 1967:82, cited in Holisky 1987/</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="856" tag="L">so woze</item>
+    <item id="c2" line="857" tag="B"/>
+    <item id="c3" line="858" tag="G+EX">I-Nom fell (no implication that it was my fault)</item>
+    <item id="c4" line="859" tag="B"/>
+    <item id="c5" line="860" tag="M+AC">/ Mescaninov 1967:82, cited in Holisky 1987/</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:7]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:48]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i136861">
+  <metadata type="xigt-meta">
+    <meta type="language" name="tsovatush" iso-639-3="bbl" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3745" line-range="7452-7456" line-types="L B G B T+EX"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="7452" tag="L">          (63)     a. as woze</item>
+    <item id="o2" line="7453" tag="B"></item>
+    <item id="o3" line="7454" tag="G">             I-Erg fell</item>
+    <item id="o4" line="7455" tag="B"></item>
+    <item id="o5" line="7456" tag="T+EX">                     `I fell' (it was my own fault that I fell down)</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="7452" tag="L">as woze</item>
+    <item id="c2" line="7453" tag="B"/>
+    <item id="c3" line="7454" tag="G">I-Erg fell</item>
+    <item id="c4" line="7455" tag="B"/>
+    <item id="c5" line="7456" tag="T+EX">I fell' (it was my own fault that I fell down)</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:7]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:10]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c5[0:46]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i136862">
+  <metadata type="xigt-meta">
+    <meta type="language" name="tsovatush" iso-639-3="bbl" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3745" line-range="7458-7464" line-types="L B G B T+EX B M+AC"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="7458" tag="L">                   b. so woze</item>
+    <item id="o2" line="7459" tag="B"></item>
+    <item id="o3" line="7460" tag="G">                      I-Nom fell</item>
+    <item id="o4" line="7461" tag="B"></item>
+    <item id="o5" line="7462" tag="T+EX">                      `I fell' (no implication that it was my fault)</item>
+    <item id="o6" line="7463" tag="B"></item>
+    <item id="o7" line="7464" tag="M+AC">                                                     /Holisky 1987/</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="7458" tag="L">so woze</item>
+    <item id="c2" line="7459" tag="B"/>
+    <item id="c3" line="7460" tag="G">I-Nom fell</item>
+    <item id="c4" line="7461" tag="B"/>
+    <item id="c5" line="7462" tag="T+EX">I fell' (no implication that it was my fault)</item>
+    <item id="c6" line="7463" tag="B"/>
+    <item id="c7" line="7464" tag="M+AC">/Holisky 1987/</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:7]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:10]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c5[0:45]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i136863">
+  <metadata type="xigt-meta">
+    <meta type="language" name="tsovatush" iso-639-3="bbl" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3745" line-range="7521-7523" line-types="L B G"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="7521" tag="L">            (65)     a. as woze</item>
+    <item id="o2" line="7522" tag="B"></item>
+    <item id="o3" line="7523" tag="G">                       I-Erg fell</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="7521" tag="L">as woze</item>
+    <item id="c2" line="7522" tag="B"/>
+    <item id="c3" line="7523" tag="G">I-Erg fell</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:7]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:10]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i136864">
+  <metadata type="xigt-meta">
+    <meta type="language" name="tsovatush" iso-639-3="bbl" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3745" line-range="7531-7533" line-types="L B G"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="7531" tag="L">            (66)     a. so woze</item>
+    <item id="o2" line="7532" tag="B"></item>
+    <item id="o3" line="7533" tag="G">                       I-Nom fell</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="7531" tag="L">so woze</item>
+    <item id="c2" line="7532" tag="B"/>
+    <item id="c3" line="7533" tag="G">I-Nom fell</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:7]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:10]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i136995">
+  <metadata type="xigt-meta">
+    <meta type="language" name="tsovatush" iso-639-3="bbl" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3745" line-range="14886-14890" line-types="M+LN B L B G+EX"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="14886" tag="M+LN">          (1)     Tsova-Tush (Batsbi, Caucasian)</item>
+    <item id="o2" line="14887" tag="B"></item>
+    <item id="o3" line="14888" tag="L">                  a. as woze</item>
+    <item id="o4" line="14889" tag="B"></item>
+    <item id="o5" line="14890" tag="G+EX">                    I-Erg fell (it was my own fault that I fell down)</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="14886" tag="M+LN">Tsova-Tush (Batsbi, Caucasian</item>
+    <item id="c2" line="14887" tag="B"/>
+    <item id="c3" line="14888" tag="L">as woze</item>
+    <item id="c4" line="14889" tag="B"/>
+    <item id="c5" line="14890" tag="G+EX">I-Erg fell (it was my own fault that I fell down)</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c3[0:7]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c5[0:49]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i136996">
+  <metadata type="xigt-meta">
+    <meta type="language" name="tsovatush" iso-639-3="bbl" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3745" line-range="14901-14905" line-types="L B G+EX B M+AC"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="14901" tag="L">                  b. so woze</item>
+    <item id="o2" line="14902" tag="B"></item>
+    <item id="o3" line="14903" tag="G+EX">                    I-Nom fell (no implication that it was my fault)</item>
+    <item id="o4" line="14904" tag="B"></item>
+    <item id="o5" line="14905" tag="M+AC">                                     /Mescaninov 1967, cited in Holisky 1987/</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="14901" tag="L">so woze</item>
+    <item id="c2" line="14902" tag="B"/>
+    <item id="c3" line="14903" tag="G+EX">I-Nom fell (no implication that it was my fault)</item>
+    <item id="c4" line="14904" tag="B"/>
+    <item id="c5" line="14905" tag="M+AC">/Mescaninov 1967, cited in Holisky 1987/</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:7]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:48]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i136997">
+  <metadata type="xigt-meta">
+    <meta type="language" name="tsovatush" iso-639-3="bbl" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3745" line-range="14921-14923" line-types="M+LN B L-T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="14921" tag="M+LN">          (2)     Tsova-Tush</item>
+    <item id="o2" line="14922" tag="B"></item>
+    <item id="o3" line="14923" tag="L-T">                  axar `bark'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="14921" tag="M+LN">Tsova-Tush</item>
+    <item id="c2" line="14922" tag="B"/>
+    <item id="c3" line="14923" tag="L-T">axar `bark</item>
+  </tier>
+</igt>
+<igt id="i136998">
+  <metadata type="xigt-meta">
+    <meta type="language" name="tsovatush" iso-639-3="bbl" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3745" line-range="14925-14925" line-types="L-T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="14925" tag="L-T">                  lalar `talk'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="14925" tag="L-T">lalar `talk</item>
+  </tier>
+</igt>
+<igt id="i136999">
+  <metadata type="xigt-meta">
+    <meta type="language" name="tsovatush" iso-639-3="bbl" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3745" line-range="14927-14927" line-types="L-T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="14927" tag="L-T">                  datar `run',</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="14927" tag="L-T">datar `run',</item>
+  </tier>
+</igt>
+<igt id="i137000">
+  <metadata type="xigt-meta">
+    <meta type="language" name="tsovatush" iso-639-3="bbl" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3745" line-range="14929-14929" line-types="L-T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="14929" tag="L-T">                  tesar `believe'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="14929" tag="L-T">tesar `believe</item>
+  </tier>
+</igt>
+<igt id="i137001">
+  <metadata type="xigt-meta">
+    <meta type="language" name="tsovatush" iso-639-3="bbl" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3745" line-range="14931-14933" line-types="L-T B M+AC"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="14931" tag="L-T">                  lap'c'ar `play'</item>
+    <item id="o2" line="14932" tag="B"></item>
+    <item id="o3" line="14933" tag="M+AC">                            /Holisky 1987/</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="14931" tag="L-T">lap'c'ar `play</item>
+    <item id="c2" line="14932" tag="B"/>
+    <item id="c3" line="14933" tag="M+AC">/Holisky 1987/</item>
+  </tier>
+</igt>
+<igt id="i137002">
+  <metadata type="xigt-meta">
+    <meta type="language" name="tsovatush" iso-639-3="bbl" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3745" line-range="14941-14943" line-types="M+LN B L-T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="14941" tag="M+LN">          (3)     Tsova-Tush</item>
+    <item id="o2" line="14942" tag="B"></item>
+    <item id="o3" line="14943" tag="L-T">                  mildar         `be cold'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="14941" tag="M+LN">Tsova-Tush</item>
+    <item id="c2" line="14942" tag="B"/>
+    <item id="c3" line="14943" tag="L-T">mildar         `be cold</item>
+  </tier>
+</igt>
+<igt id="i137003">
+  <metadata type="xigt-meta">
+    <meta type="language" name="tsovatush" iso-639-3="bbl" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3745" line-range="14945-14945" line-types="L-T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="14945" tag="L-T">                  halO dek'dar `tremble'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="14945" tag="L-T">halO dek'dar `tremble</item>
+  </tier>
+</igt>
+<igt id="i137004">
+  <metadata type="xigt-meta">
+    <meta type="language" name="tsovatush" iso-639-3="bbl" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3745" line-range="14947-14947" line-types="L-T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="14947" tag="L-T">                  maicdar           `be hungry'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="14947" tag="L-T">maicdar           `be hungry</item>
+  </tier>
+</igt>
+<igt id="i137005">
+  <metadata type="xigt-meta">
+    <meta type="language" name="tsovatush" iso-639-3="bbl" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3745" line-range="14949-14954" line-types="L-T B M B B M+AC"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="14949" tag="L-T">                  q'andalar         `get old'</item>
+    <item id="o2" line="14950" tag="B"></item>
+    <item id="o3" line="14951" tag="M">                                                                                                   284</item>
+    <item id="o4" line="14952" tag="B"></item>
+    <item id="o5" line="14953" tag="B"></item>
+    <item id="o6" line="14954" tag="M+AC">                              /Holisky 1987/</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="14949" tag="L-T">q'andalar         `get old</item>
+    <item id="c2" line="14950" tag="B"/>
+    <item id="c3" line="14951" tag="M">284</item>
+    <item id="c4" line="14952" tag="B"/>
+    <item id="c5" line="14953" tag="B"/>
+    <item id="c6" line="14954" tag="M+AC">/Holisky 1987/</item>
+  </tier>
+</igt>
+<igt id="i137337">
+  <metadata type="xigt-meta">
+    <meta type="language" name="batsbi" iso-639-3="bbl" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3748" line-range="766-769" line-types="M+AC+LN L G+CR T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="766" tag="M+AC+LN">      Batsbi (Holisky 1987, in de Hoop and Malchukov 2006b)</item>
+    <item id="o2" line="767" tag="L">      (12)     (A s )     dah"       japx-jail-n-as</item>
+    <item id="o3" line="768" tag="G+CR">               I .E R G   PVB        undress-AOR-1SG-ERG</item>
+    <item id="o4" line="769" tag="T">               `I got undressed'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="766" tag="M+AC+LN">Batsbi (Holisky 1987, in de Hoop and Malchukov 2006b)</item>
+    <item id="c2" line="767" tag="L">(A s )     dah"       japx-jail-n-as</item>
+    <item id="c3" line="768" tag="G+CR">I .E R G   PVB        undress-AOR-1SG-ERG</item>
+    <item id="c4" line="769" tag="T">I got undressed</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c2[0:36]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:41]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c4[0:15]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i137758">
+  <metadata type="xigt-meta">
+    <meta type="language" name="tsovatush" iso-639-3="bbl" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3749" line-range="264-267" line-types="L+CR L+CR G T+AC+LN"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="264" tag="L+CR">   (9) a. (as)       vui n-as</item>
+    <item id="o2" line="265" tag="L+CR">                        z-</item>
+    <item id="o3" line="266" tag="G">          1.Sg.Erg fell-Aor-1.Sg.Erg</item>
+    <item id="o4" line="267" tag="T+AC+LN">          `I fell down, on purpose.' (Holisky 1987:105)                         Tsova-Tush</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="264" tag="L+CR">(as)       vui n-as</item>
+    <item id="c3" line="266" tag="G">1.Sg.Erg fell-Aor-1.Sg.Erg</item>
+    <item id="c4" line="267" tag="T+AC+LN">I fell down, on purpose.' (Holisky 1987:105)                         Tsova-Tush</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:19]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:26]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c4[0:79]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i137759">
+  <metadata type="xigt-meta">
+    <meta type="language" name="tsovatush" iso-639-3="bbl" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3749" line-range="269-272" line-types="L+CR L+CR G T+AC+LN"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="269" tag="L+CR">         b. (so)       vo en-sO</item>
+    <item id="o2" line="270" tag="L+CR">                          z-</item>
+    <item id="o3" line="271" tag="G">            1.Sg.Nom fell-Aor-1.Sg.Nom</item>
+    <item id="o4" line="272" tag="T+AC+LN">            `I fell down, by accident.' (Holisky 1987:105)                      Tsova-Tush</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="269" tag="L+CR">(so)       vo en-sO</item>
+    <item id="c3" line="271" tag="G">1.Sg.Nom fell-Aor-1.Sg.Nom</item>
+    <item id="c4" line="272" tag="T+AC+LN">I fell down, by accident.' (Holisky 1987:105)                      Tsova-Tush</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:19]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:26]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c4[0:77]" alignment="p1"/>
+  </tier>
+</igt>
+</xigt-corpus>

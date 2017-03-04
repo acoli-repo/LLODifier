@@ -1,0 +1,358 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xigt-corpus>
+<igt id="i63291">
+  <metadata type="xigt-meta">
+    <meta type="language" name="uzbek" iso-639-3="uzb" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="2557" line-range="841-845" line-types="L G B T T+AC"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="841" tag="L">             Qilichin          o'ylay              boshladi.</item>
+    <item id="o2" line="842" tag="G">             Q                 think-CONV          begin-pst-3sg</item>
+    <item id="o3" line="843" tag="B"></item>
+    <item id="o4" line="844" tag="T">             "In order to get rid of these thoughts, Gulsum Opa intentionally began to think</item>
+    <item id="o5" line="845" tag="T+AC">             about Qilich."                                              (Bodrogligeti 2003:1245)</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="841" tag="L">Qilichin          o'ylay              boshladi.</item>
+    <item id="c2" line="842" tag="G">Q                 think-CONV          begin-pst-3sg</item>
+    <item id="c3" line="843" tag="B"/>
+    <item id="c4" line="844" tag="T">In order to get rid of these thoughts, Gulsum Opa intentionally began to think</item>
+    <item id="c5" line="845" tag="T+AC">about Qilich."                                              (Bodrogligeti 2003:1245)</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:47]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:51]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c4[0:78]" alignment="p1"/>
+    <item id="t1" content="c5[0:84]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i63292">
+  <metadata type="xigt-meta">
+    <meta type="language" name="uzbek" iso-639-3="uzb" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="2557" line-range="854-858" line-types="L G+CR G+CR B T+AC"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="854" tag="L">             men      ishonman              ki     siz     tilagingiz-ga            yetasiz.</item>
+    <item id="o2" line="855" tag="G+CR">                                            that you desire-2PL.         POSS-DAT   reach-2</item>
+    <item id="o3" line="856" tag="G+CR">             I        believe-1sg                                                              PL</item>
+    <item id="o4" line="857" tag="B"></item>
+    <item id="o5" line="858" tag="T+AC">             "I believe that you will reach [the object of] your desire." (Bodrogligeti 2003:1222)</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="854" tag="L">men      ishonman              ki     siz     tilagingiz-ga            yetasiz.</item>
+    <item id="c2" line="855 856" tag="G+CR">I        believe-1sg           that you desire-2PL.         POSS-DAT   reach-2    PL</item>
+    <item id="c4" line="857" tag="B"/>
+    <item id="c5" line="858" tag="T+AC">I believe that you will reach [the object of] your desire." (Bodrogligeti 2003:1222)</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:79]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:84]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c5[0:84]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i63363">
+  <metadata type="xigt-meta">
+    <meta type="language" name="uzbek" iso-639-3="uzb" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="2556" line-range="212-213" line-types="L+DB T+DB"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="212" tag="L+DB">                                                                                (8) A u nimani o'rgatadi?</item>
+    <item id="o2" line="213" tag="T+DB">                                                                                    "So, what does he teach?"</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="212" tag="L+DB">A u nimani o'rgatadi?</item>
+    <item id="c2" line="213" tag="T+DB">So, what does he teach?</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:21]"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c2[0:23]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i63364">
+  <metadata type="xigt-meta">
+    <meta type="language" name="uzbek" iso-639-3="uzb" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="2556" line-range="219-223" line-types="L+DB+CR L+DB+CR L+DB+CR T+DB T+DB"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="219" tag="L+DB+CR">           Oldin qiziq-qiziq kinolar ko'rsatadi, a hozir ko'rsatmaydi                The function of a in (8) is both to create a connection with the pre-</item>
+    <item id="o2" line="220" tag="L+DB+CR">  (6) a.</item>
+    <item id="o3" line="221" tag="L+DB+CR">           uncha qiziq-qiziq kinolar...                                         ceding conversation, and to signal that a new issue or question will be</item>
+    <item id="o4" line="222" tag="T+DB">           "Before they used to show interesting movies, but now they           introduced. It is a stylistic device that renders the subsequent question</item>
+    <item id="o5" line="223" tag="T+DB">           don't show such interesting movies..."                               less inquisitive and more informal.1 In Uzbek, without borrowing a</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="219 220" tag="L+DB+CR">Oldin qiziq-qiziq kinolar ko'rsatadi, a hozir ko'rsatmaydi                The function of a in (8) is both to create a connection with the pre-</item>
+    <item id="c4" line="222" tag="T+DB">Before they used to show interesting movies, but now they           introduced. It is a stylistic device that renders the subsequent question</item>
+    <item id="c5" line="223" tag="T+DB">don't show such interesting movies..."                               less inquisitive and more informal.1 In Uzbek, without borrowing a</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:143]"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c4[0:141]" alignment="p1"/>
+    <item id="t1" content="c5[0:135]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i63365">
+  <metadata type="xigt-meta">
+    <meta type="language" name="uzbek" iso-639-3="uzb" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="2556" line-range="229-232" line-types="L+DB M+DB T+DB T+DB"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="229" tag="L+DB">                                                                                (9) U o'zi nimani o'rgatadi?</item>
+    <item id="o2" line="230" tag="M+DB">  junction moves to the position after hozir.</item>
+    <item id="o3" line="231" tag="T+DB">                                                                                    "He himself, what does he teach?" or "And he, what does he</item>
+    <item id="o4" line="232" tag="T+DB">                                                                                    teach?"</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="229" tag="L+DB">U o'zi nimani o'rgatadi?</item>
+    <item id="c2" line="230" tag="M+DB">junction moves to the position after hozir.</item>
+    <item id="c3" line="231" tag="T+DB">He himself, what does he teach?" or "And he, what does he</item>
+    <item id="c4" line="232" tag="T+DB">teach?</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:24]"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:57]" alignment="p1"/>
+    <item id="t1" content="c4[0:6]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i63366">
+  <metadata type="xigt-meta">
+    <meta type="language" name="uzbek" iso-639-3="uzb" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="2556" line-range="237-242" line-types="L+DB L+DB L+DB T+DB T+DB T+DB"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="237" tag="L+DB">  (7) a.   Rus o'rtoqlarim ko'p, man, o'shanchun, unoqa, ular ruscha</item>
+    <item id="o2" line="238" tag="L+DB">           gapirsa, man ham ruscha gapiraman, a o'zbek o'rtoqlarim              in the utterance. This is illustrated in examples (10) and (11).</item>
+    <item id="o3" line="239" tag="L+DB">           ham ko'pi ruscha gapiradi.</item>
+    <item id="o4" line="240" tag="T+DB">           "I have a lot of Russian friends, so because of that, well,               A young doctor jokingly explains when doctors are afraid of nee-</item>
+    <item id="o5" line="241" tag="T+DB">           when they speak Russian, I speak Russian also, and as for my         dles. He uses the Uzbek word bo'lsa in the place consistent with the</item>
+    <item id="o6" line="242" tag="T+DB">           Uzbek friends, a lot of them also speak Russian."                    Uzbek syntax (after the contrasted segment), and also uses a as con-</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="237" tag="L+DB">Rus o'rtoqlarim ko'p, man, o'shanchun, unoqa, ular ruscha</item>
+    <item id="c2" line="238" tag="L+DB">gapirsa, man ham ruscha gapiraman, a o'zbek o'rtoqlarim              in the utterance. This is illustrated in examples (10) and (11).</item>
+    <item id="c3" line="239" tag="L+DB">ham ko'pi ruscha gapiradi.</item>
+    <item id="c4" line="240" tag="T+DB">I have a lot of Russian friends, so because of that, well,               A young doctor jokingly explains when doctors are afraid of nee-</item>
+    <item id="c5" line="241" tag="T+DB">when they speak Russian, I speak Russian also, and as for my         dles. He uses the Uzbek word bo'lsa in the place consistent with the</item>
+    <item id="c6" line="242" tag="T+DB">Uzbek friends, a lot of them also speak Russian."                    Uzbek syntax (after the contrasted segment), and also uses a as con-</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:57]"/>
+    <item id="p1" content="c2[0:133]"/>
+    <item id="p2" content="c3[0:26]"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c4[0:137]" alignment="p3"/>
+    <item id="t1" content="c5[0:137]" alignment="p3"/>
+    <item id="t2" content="c6[0:137]" alignment="p3"/>
+  </tier>
+</igt>
+<igt id="i63367">
+  <metadata type="xigt-meta">
+    <meta type="language" name="uzbek" iso-639-3="uzb" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="2556" line-range="247-253" line-types="L+DB M+DB L+DB M+DB T+DB M+DB T+DB"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="247" tag="L+DB">                                                                                (10) Birovga ukol qilishdan ko'rqmaymiz. A o'zimizga bo'lsa, endi</item>
+    <item id="o2" line="248" tag="M+DB">       Placing a at the beginning of the phrase in (7)a prepares the lis-</item>
+    <item id="o3" line="249" tag="L+DB">                                                                                    ko'rqamiz.</item>
+    <item id="o4" line="250" tag="M+DB">  tener for the contrast. As judged by a native speaker, it also sets up a</item>
+    <item id="o5" line="251" tag="T+DB">                                                                                    "We are not afraid of giving shots to others. But when it's us how-</item>
+    <item id="o6" line="252" tag="M+DB">  comparison between the two groups of friends. This effect is not</item>
+    <item id="o7" line="253" tag="T+DB">                                                                                    ever, then we are scared."</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="247" tag="L+DB">Birovga ukol qilishdan ko'rqmaymiz. A o'zimizga bo'lsa, endi</item>
+    <item id="c2" line="248" tag="M+DB">Placing a at the beginning of the phrase in (7)a prepares the lis-</item>
+    <item id="c3" line="249" tag="L+DB">ko'rqamiz.</item>
+    <item id="c4" line="250" tag="M+DB">tener for the contrast. As judged by a native speaker, it also sets up a</item>
+    <item id="c5" line="251" tag="T+DB">We are not afraid of giving shots to others. But when it's us how-</item>
+    <item id="c6" line="252" tag="M+DB">comparison between the two groups of friends. This effect is not</item>
+    <item id="c7" line="253" tag="T+DB">ever, then we are scared.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:60]"/>
+    <item id="p1" content="c3[0:10]"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c5[0:66]" alignment="p2"/>
+    <item id="t1" content="c7[0:25]" alignment="p2"/>
+  </tier>
+</igt>
+<igt id="i63368">
+  <metadata type="xigt-meta">
+    <meta type="language" name="uzbek" iso-639-3="uzb" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="2556" line-range="285-288" line-types="L+DB L+DB T+DB T+DB"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="285" tag="L+DB">  (11) a. ...Yozishga... ha, qiyinaman, lekin a fikrlashim ruschada                  in (13), and which is the exact equivalent of the Russian verb pererasti</item>
+    <item id="o2" line="286" tag="L+DB">          osonroq...                                                                 "to outgrow, be too old" appearing in (14). Instead, the choice and</item>
+    <item id="o3" line="287" tag="T+DB">       "With writing... yeah, I have trouble, however but thinking is                construction of the verb has to carry the meaning of "already,"</item>
+    <item id="o4" line="288" tag="T+DB">          easier in Russian..."                                                      expressed by a compound verb:</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="285" tag="L+DB">...Yozishga... ha, qiyinaman, lekin a fikrlashim ruschada                  in (13), and which is the exact equivalent of the Russian verb pererasti</item>
+    <item id="c2" line="286" tag="L+DB">osonroq...                                                                 "to outgrow, be too old" appearing in (14). Instead, the choice and</item>
+    <item id="c3" line="287" tag="T+DB">With writing... yeah, I have trouble, however but thinking is                construction of the verb has to carry the meaning of "already,</item>
+    <item id="c4" line="288" tag="T+DB">easier in Russian..."                                                      expressed by a compound verb:</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:147]"/>
+    <item id="p1" content="c2[0:142]"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:139]" alignment="p2"/>
+    <item id="t1" content="c4[0:104]" alignment="p2"/>
+  </tier>
+</igt>
+<igt id="i63369">
+  <metadata type="xigt-meta">
+    <meta type="language" name="uzbek" iso-639-3="uzb" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="2556" line-range="289-292" line-types="L+DB L+DB T+DB T+DB"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="289" tag="L+DB">       b. ...Yozishga... ha, qiyinaman, lekin ruschada fikrlashim</item>
+    <item id="o2" line="290" tag="L+DB">          osonroq...                                                                 (15) O'g'limizni uylantirish   kerak, yoshi (endi) o'tib       ketyapti.</item>
+    <item id="o3" line="291" tag="T+DB">       "With writing... yeah, I have trouble, however in Russian think-                   Son-our-acc marry-caus    need age-his (just) pass-gerund go-pres</item>
+    <item id="o4" line="292" tag="T+DB">          ing is easier."                                                                                                                  (compound verb)</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="289" tag="L+DB">...Yozishga... ha, qiyinaman, lekin ruschada fikrlashim</item>
+    <item id="c2" line="290" tag="L+DB">osonroq...                                                                 (15) O'g'limizni uylantirish   kerak, yoshi (endi) o'tib       ketyapti.</item>
+    <item id="c3" line="291" tag="T+DB">With writing... yeah, I have trouble, however in Russian think-Son-our-acc marry-caus    need age-his (just) pass-gerund go-pres</item>
+    <item id="c4" line="292" tag="T+DB">ing is easier."                                                                                                                  (compound verb)</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:55]"/>
+    <item id="p1" content="c2[0:147]"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:128]" alignment="p2"/>
+    <item id="t1" content="c4[0:144]" alignment="p2"/>
+  </tier>
+</igt>
+<igt id="i63371">
+  <metadata type="xigt-meta">
+    <meta type="language" name="uzbek" iso-639-3="uzb" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="2556" line-range="324-327" line-types="L+DB+CR L+DB+CR G+DB T+DB"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="324" tag="L+DB+CR">                                                      qartaydi.                      a chance to see his niece. The Uzbek allaqachon might work if it</item>
+    <item id="o2" line="325" tag="L+DB+CR">  (13) O'g'limizni uylantirish      kerak, uzhe</item>
+    <item id="o3" line="326" tag="G+DB">      son-our-acc marry-caus        need already      get old-past                   appeared at the beginning of the first sentence:</item>
+    <item id="o4" line="327" tag="T+DB">      "We have to marry off our son, he has already gotten old."</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="324 325" tag="L+DB+CR">O'g'limizni uylantirish      kerak, uzhe       qartaydi.                      a chance to see his niece. The Uzbek allaqachon might work if it</item>
+    <item id="c3" line="326" tag="G+DB">son-our-acc marry-caus        need already      get old-past                   appeared at the beginning of the first sentence:</item>
+    <item id="c4" line="327" tag="T+DB">We have to marry off our son, he has already gotten old.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:142]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:127]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c4[0:56]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i63372">
+  <metadata type="xigt-meta">
+    <meta type="language" name="uzbek" iso-639-3="uzb" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="2556" line-range="336-337" line-types="L+DB T+DB"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="336" tag="L+DB">  (17) U allaqachon bugun Toshkentdan Qo'qonga ketish kerak edi.                    the border is. It means something similar to "it's right there, there's not</item>
+    <item id="o2" line="337" tag="T+DB">      "He already today was supposed to leave Tashkent for Kokand."                 much to cross." If uzhe is avoided, the emphatic force of the statement</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="336" tag="L+DB">U allaqachon bugun Toshkentdan Qo'qonga ketish kerak edi.                    the border is. It means something similar to "it's right there, there's not</item>
+    <item id="c2" line="337" tag="T+DB">He already today was supposed to leave Tashkent for Kokand."                 much to cross." If uzhe is avoided, the emphatic force of the statement</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:152]"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c2[0:148]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i63373">
+  <metadata type="xigt-meta">
+    <meta type="language" name="uzbek" iso-639-3="uzb" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="2556" line-range="362-367" line-types="L+DB L+DB L+DB T+DB T+DB T+DB"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="362" tag="L+DB">  (19) Mani erimning ukalari. Ukasi. Maniki katta. Birinchi o'g'il bola,            8.1. What is a Loan?</item>
+    <item id="o2" line="363" tag="L+DB">      ikkinchisi                                                                         Myers-Scotton (1993:192-93) proposes that a foreign lexical</item>
+    <item id="o3" line="364" tag="L+DB">      Javod, uzhe keyingisi kichkina bola.                                          form be considered a loan when it has been entered into the mental</item>
+    <item id="o4" line="365" tag="T+DB">      "He's my husband's younger brother. Younger brother. Mine is                  lexicon of the host language, and that this should be ascertained by</item>
+    <item id="o5" line="366" tag="T+DB">      the oldest. The first son, the second is Javod, after that just as            checking for reoccurrence. But do we mean reoccurrence in the spo-</item>
+    <item id="o6" line="367" tag="T+DB">      small child."                                                                 ken language, the written language, or both? How should we approach</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="362" tag="L+DB">Mani erimning ukalari. Ukasi. Maniki katta. Birinchi o'g'il bola,            8.1. What is a Loan?</item>
+    <item id="c2" line="363" tag="L+DB">ikkinchisi                                                                         Myers-Scotton (1993:192-93) proposes that a foreign lexical</item>
+    <item id="c3" line="364" tag="L+DB">Javod, uzhe keyingisi kichkina bola.                                          form be considered a loan when it has been entered into the mental</item>
+    <item id="c4" line="365" tag="T+DB">He's my husband's younger brother. Younger brother. Mine is                  lexicon of the host language, and that this should be ascertained by</item>
+    <item id="c5" line="366" tag="T+DB">the oldest. The first son, the second is Javod, after that just as            checking for reoccurrence. But do we mean reoccurrence in the spo-</item>
+    <item id="c6" line="367" tag="T+DB">small child."                                                                 ken language, the written language, or both? How should we approach</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:97]"/>
+    <item id="p1" content="c2[0:142]"/>
+    <item id="p2" content="c3[0:144]"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c4[0:145]" alignment="p3"/>
+    <item id="t1" content="c5[0:144]" alignment="p3"/>
+    <item id="t2" content="c6[0:145]" alignment="p3"/>
+  </tier>
+</igt>
+<igt id="i63374">
+  <metadata type="xigt-meta">
+    <meta type="language" name="uzbek" iso-639-3="uzb" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="2556" line-range="378-379" line-types="L+DB T+DB"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="378" tag="L+DB">  (20) Tog'dan o'tsa--uzhe Todzhikiston.                                            as borrowings, lexical items "must be found not only to be common in</item>
+    <item id="o2" line="379" tag="T+DB">      "Cross the mountains--and there's Tajikistan."                                the speech community, but also in the dictionary of the host language."</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="378" tag="L+DB">Tog'dan o'tsa--uzhe Todzhikiston.                                            as borrowings, lexical items "must be found not only to be common in</item>
+    <item id="c2" line="379" tag="T+DB">Cross the mountains--and there's Tajikistan."                                the speech community, but also in the dictionary of the host language.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:145]"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c2[0:147]" alignment="p1"/>
+  </tier>
+</igt>
+</xigt-corpus>

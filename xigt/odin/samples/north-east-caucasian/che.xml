@@ -1,0 +1,540 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xigt-corpus>
+<igt id="i1766">
+  <metadata type="xigt-meta">
+    <meta type="language" name="chechen" iso-639-3="che" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="560" line-range="1265-1268" line-types="M+AC+LN L G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="1265" tag="M+AC+LN">  (30) Chechen (Nakh-Daghestanian; Caucasus)</item>
+    <item id="o2" line="1266" tag="L">       dee-n      aaxcha</item>
+    <item id="o3" line="1267" tag="G">        father-GEN     money</item>
+    <item id="o4" line="1268" tag="T">        `father's money'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="1265" tag="M+AC+LN">Chechen (Nakh-Daghestanian; Caucasus</item>
+    <item id="c2" line="1266" tag="L">dee-n      aaxcha</item>
+    <item id="c3" line="1267" tag="G">father-GEN     money</item>
+    <item id="c4" line="1268" tag="T">father's money</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c2[0:17]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:20]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c4[0:14]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i1794">
+  <metadata type="xigt-meta">
+    <meta type="language" name="chechen" iso-639-3="che" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="560" line-range="2087-2088" line-types="T+DB L+CN+DB"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="2087" tag="T+DB">  (49)                     'good'      'person'</item>
+    <item id="o2" line="2088" tag="L+CN+DB">         Nominative        dika        stag</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="2087" tag="T+DB">'good'      'person</item>
+    <item id="c2" line="2088" tag="L+CN+DB">Nominative        dika        stag</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c2[0:34]"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c1[0:19]"/>
+  </tier>
+</igt>
+<igt id="i1795">
+  <metadata type="xigt-meta">
+    <meta type="language" name="chechen" iso-639-3="che" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="560" line-range="2089-2089" line-types="L+CN+DB"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="2089" tag="L+CN+DB">         Genitive          dikacha     stegan</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="2089" tag="L+CN+DB">Genitive          dikacha     stegan</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:36]"/>
+  </tier>
+</igt>
+<igt id="i1796">
+  <metadata type="xigt-meta">
+    <meta type="language" name="chechen" iso-639-3="che" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="560" line-range="2090-2090" line-types="L+CN+DB"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="2090" tag="L+CN+DB">         Dative            dikacha     stegana</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="2090" tag="L+CN+DB">Dative            dikacha     stegana</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:37]"/>
+  </tier>
+</igt>
+<igt id="i1797">
+  <metadata type="xigt-meta">
+    <meta type="language" name="chechen" iso-639-3="che" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="560" line-range="2091-2091" line-types="L+CN+DB"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="2091" tag="L+CN+DB">         Ergative          dikacha     steguo</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="2091" tag="L+CN+DB">Ergative          dikacha     steguo</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:36]"/>
+  </tier>
+</igt>
+<igt id="i2510">
+  <metadata type="xigt-meta">
+    <meta type="language" name="chechen" iso-639-3="che" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="567" line-range="810-812" line-types="L G T+DB+LT"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="810" tag="L">  (3)          da:-s            wo'a-na           urs-ø           tu:xira</item>
+    <item id="o2" line="811" tag="G">               father-ERG       son-DAT           knife-NOM       struck</item>
+    <item id="o3" line="812" tag="T+DB+LT">               'Father stabbed son' (lit: 'struck with knife')</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="810" tag="L">da:-s            wo'a-na           urs-ø           tu:xira</item>
+    <item id="c2" line="811" tag="G">father-ERG       son-DAT           knife-NOM       struck</item>
+    <item id="c3" line="812" tag="T+DB+LT">Father stabbed son' (lit: 'struck with knife')</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:58]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:57]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:46]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i8577">
+  <metadata type="xigt-meta">
+    <meta type="language" name="chechen" iso-639-3="che" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="1810" line-range="506-510" line-types="L+CR+SY L+CR G+CR G+CR T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="506" tag="L+CR+SY">                  a. Cickuo, [chaara =a gina]VP , i                  buu</item>
+    <item id="o2" line="507" tag="L+CR">         (13)</item>
+    <item id="o3" line="508" tag="G+CR">                                         =&amp; see.pp] VP 3s.abs B. eat.prs</item>
+    <item id="o4" line="509" tag="G+CR">                     cat.erg [ fish</item>
+    <item id="o5" line="510" tag="T">                     `The cat, having seen a fish, eats it.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="506 507" tag="L+CR+SY">Cickuo, [chaara =a gina]VP , i                  buu</item>
+    <item id="c3" line="508 509" tag="G+CR">cat.erg [ fish      =&amp; see.pp] VP 3s.abs B. eat.prs</item>
+    <item id="c5" line="510" tag="T">The cat, having seen a fish, eats it.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:51]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:51]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c5[0:37]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i8578">
+  <metadata type="xigt-meta">
+    <meta type="language" name="chechen" iso-639-3="che" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="1810" line-range="511-515" line-types="L+CR+SY L+CR G+CR G+CR T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="511" tag="L+CR+SY">                  b. A- mada,      [kiekhat jaaz =a dina]VP ,          zhejna dueshu</item>
+    <item id="o2" line="512" tag="L+CR">                       h</item>
+    <item id="o3" line="513" tag="G+CR">                                             write =&amp; D.do.pp ]VP book D.read.prs</item>
+    <item id="o4" line="514" tag="G+CR">                     Ahmad.erg [letter</item>
+    <item id="o5" line="515" tag="T">                     `Ahmad, having written a letter, reads a book.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="511 512" tag="L+CR+SY">A-hmada,      [kiekhat jaaz =a dina]VP ,          zhejna dueshu</item>
+    <item id="c3" line="513 514" tag="G+CR">Ahmad.erg [letter       write =&amp; D.do.pp ]VP book D.read.prs</item>
+    <item id="c5" line="515" tag="T">Ahmad, having written a letter, reads a book.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:63]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:60]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c5[0:45]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i8579">
+  <metadata type="xigt-meta">
+    <meta type="language" name="chechen" iso-639-3="che" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="1810" line-range="516-519" line-types="L+CR+SY L+CR G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="516" tag="L+CR+SY">                       -                  =a iina]VP ,         da-vaghara</item>
+    <item id="o2" line="517" tag="L+CR">                  c. Ahmad, [a</item>
+    <item id="o3" line="518" tag="G">                     Ahmad [stay.inf =&amp; stay.pp ] VP dx.v .go.wp</item>
+    <item id="o4" line="519" tag="T">                     `Ahmad stayed (for a while) and left.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="516" tag="L+CR+SY">-=a iina]VP ,         da-vaghara</item>
+    <item id="c3" line="518" tag="G">Ahmad [stay.inf =&amp; stay.pp ] VP dx.v .go.wp</item>
+    <item id="c4" line="519" tag="T">Ahmad stayed (for a while) and left.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:32]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:43]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c4[0:36]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i17867">
+  <metadata type="xigt-meta">
+    <meta type="language" name="chechen" iso-639-3="che" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="1605" line-range="212-216" line-types="M+AC+LN L G+CR G+CR T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="212" tag="M+AC+LN">  (12) Chechen (Jeschull°, ex. 80)</item>
+    <item id="o2" line="213" tag="L">       So hwan     gospodin vu,       tq'a hwo san           jalxoo  vu.</item>
+    <item id="o3" line="214" tag="G+CR">       I you.GEN master       be.PRES and you I.GE           servant be.P</item>
+    <item id="o4" line="215" tag="G+CR">                                                         N                  RES</item>
+    <item id="o5" line="216" tag="T">       'I am your master, and you are my servant.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="212" tag="M+AC+LN">Chechen (Jeschull°, ex. 80</item>
+    <item id="c2" line="213" tag="L">So hwan     gospodin vu,       tq'a hwo san           jalxoo  vu.</item>
+    <item id="c3" line="214 215" tag="G+CR">I you.GEN master       be.PRES and you I.GE       N   servant be.P   RES</item>
+    <item id="c5" line="216" tag="T">I am your master, and you are my servant.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c2[0:65]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:72]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c5[0:41]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i17875">
+  <metadata type="xigt-meta">
+    <meta type="language" name="chechen" iso-639-3="che" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="1605" line-range="308-311" line-types="M+AC+LN L G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="308" tag="M+AC+LN">  (17) Chechen (Jeschull°, ex. 48)</item>
+    <item id="o2" line="309" tag="L">       as    sialxana wovdalalla 'a     lieliira,  hwuuna xala   'a  xietiitira.</item>
+    <item id="o3" line="310" tag="G">       I.ERG yesterday foolishly and behave.WP you.DAT difficult and let.seem.             WP</item>
+    <item id="o4" line="311" tag="T">       'Yesterday I behaved like a fool and offended you.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="308" tag="M+AC+LN">Chechen (Jeschull°, ex. 48</item>
+    <item id="c2" line="309" tag="L">as    sialxana wovdalalla 'a     lieliira,  hwuuna xala   'a  xietiitira.</item>
+    <item id="c3" line="310" tag="G">I.ERG yesterday foolishly and behave.WP you.DAT difficult and let.seem.             WP</item>
+    <item id="c4" line="311" tag="T">Yesterday I behaved like a fool and offended you.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c2[0:73]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:86]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c4[0:49]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i17876">
+  <metadata type="xigt-meta">
+    <meta type="language" name="chechen" iso-639-3="che" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="1605" line-range="318-321" line-types="M+AC+LN L G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="318" tag="M+AC+LN">  (18) Chechen (Good 2003:134; see also Jeschull°, ex. 51-52)</item>
+    <item id="o2" line="319" tag="L">       Maalik viela='a  viilara   vialxa='a vilxara.</item>
+    <item id="o3" line="320" tag="G">       Malik laugh=and laugh.WP cry=and cry.WP</item>
+    <item id="o4" line="321" tag="T">       'Mailk laughed and cried.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="318" tag="M+AC+LN">Chechen (Good 2003:134; see also Jeschull°, ex. 51-52</item>
+    <item id="c2" line="319" tag="L">Maalik viela='a  viilara   vialxa='a vilxara.</item>
+    <item id="c3" line="320" tag="G">Malik laugh=and laugh.WP cry=and cry.WP</item>
+    <item id="c4" line="321" tag="T">Mailk laughed and cried.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c2[0:45]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:39]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c4[0:24]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i34226">
+  <metadata type="xigt-meta">
+    <meta type="language" name="chechen" iso-639-3="che" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3722" line-range="624-627" line-types="L+CR+SY L+CR+SY G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="624" tag="L+CR+SY">          a. Cickuo, [chaara =a gina]VP, i           buu</item>
+    <item id="o2" line="625" tag="L+CR+SY">  (17)</item>
+    <item id="o3" line="626" tag="G">             cat.ERG [fish       =&amp; see.PP]VP 3S.ABS B.eat.PRES</item>
+    <item id="o4" line="627" tag="T">             `The cat, having seen a fish, eats it'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="624 625" tag="L+CR+SY">Cickuo, [chaara =a gina]VP, i           buu</item>
+    <item id="c3" line="626" tag="G">cat.ERG [fish       =&amp; see.PP]VP 3S.ABS B.eat.PRES</item>
+    <item id="c4" line="627" tag="T">The cat, having seen a fish, eats it</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:43]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:50]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c4[0:36]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i34227">
+  <metadata type="xigt-meta">
+    <meta type="language" name="chechen" iso-639-3="che" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3722" line-range="628-630" line-types="L+SY G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="628" tag="L+SY">          b. Amad,      [kiehkat jaaz =a dina]VP, zhejna dueshu</item>
+    <item id="o2" line="629" tag="G">             Ahmad.ERG [letter write =&amp; D.do.PP]VP book D.read.PRS</item>
+    <item id="o3" line="630" tag="T">             `Ahmad, having written a letter, reads a book'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="628" tag="L+SY">Amad,      [kiehkat jaaz =a dina]VP, zhejna dueshu</item>
+    <item id="c2" line="629" tag="G">Ahmad.ERG [letter write =&amp; D.do.PP]VP book D.read.PRS</item>
+    <item id="c3" line="630" tag="T">Ahmad, having written a letter, reads a book</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:50]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:53]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:44]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i34228">
+  <metadata type="xigt-meta">
+    <meta type="language" name="chechen" iso-639-3="che" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3722" line-range="631-634" line-types="L+SY G+CR G+CR T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="631" tag="L+SY">          c. Amad,      [a          =a iina]VP,                da-vaghara</item>
+    <item id="o2" line="632" tag="G+CR">                        [stay.RED =&amp; stay.PP]VP                DX.V.go.WP</item>
+    <item id="o3" line="633" tag="G+CR">             Ahmad</item>
+    <item id="o4" line="634" tag="T">             `Ahmad stayed (for a while) and left'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="631" tag="L+SY">Amad,      [a          =a iina]VP,                da-vaghara</item>
+    <item id="c2" line="632 633" tag="G+CR">Ahmad      [stay.RED =&amp; stay.PP]VP                DX.V.go.WP</item>
+    <item id="c4" line="634" tag="T">Ahmad stayed (for a while) and left</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:60]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:60]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c4[0:35]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i64783">
+  <metadata type="xigt-meta">
+    <meta type="language" name="chechen" iso-639-3="che" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="1404" line-range="147-149" line-types="L+LN G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="147" tag="L+LN">    (17) dee-n            aaxca                                                             (Chechen)</item>
+    <item id="o2" line="148" tag="G">         father-genitive money</item>
+    <item id="o3" line="149" tag="T">         `father's money'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="147" tag="L+LN">dee-n            aaxca                                                             (Chechen</item>
+    <item id="c2" line="148" tag="G">father-genitive money</item>
+    <item id="c3" line="149" tag="T">father's money</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:91]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:21]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:14]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i75613">
+  <metadata type="xigt-meta">
+    <meta type="language" name="chechen" iso-639-3="che" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3695" line-range="1148-1151" line-types="M+AC+LN L G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="1148" tag="M+AC+LN">  (24) Chechen (Nakh-Daghestanian; Caucasus)</item>
+    <item id="o2" line="1149" tag="L">       dee-n      aaxcha</item>
+    <item id="o3" line="1150" tag="G">        father-GEN     money</item>
+    <item id="o4" line="1151" tag="T">        `father's money'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="1148" tag="M+AC+LN">Chechen (Nakh-Daghestanian; Caucasus</item>
+    <item id="c2" line="1149" tag="L">dee-n      aaxcha</item>
+    <item id="c3" line="1150" tag="G">father-GEN     money</item>
+    <item id="c4" line="1151" tag="T">father's money</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c2[0:17]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:20]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c4[0:14]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i75764">
+  <metadata type="xigt-meta">
+    <meta type="language" name="chechen" iso-639-3="che" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3695" line-range="4221-4224" line-types="M+LN L G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="4221" tag="M+LN">  (108) Chechen</item>
+    <item id="o2" line="4222" tag="L">        cuo     q'oolamaca jaazdo</item>
+    <item id="o3" line="4223" tag="G">       3SG.ERG pencil.INS     write</item>
+    <item id="o4" line="4224" tag="T">       `S/he writes with a pencil.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="4221" tag="M+LN">Chechen</item>
+    <item id="c2" line="4222" tag="L">cuo     q'oolamaca jaazdo</item>
+    <item id="c3" line="4223" tag="G">3SG.ERG pencil.INS     write</item>
+    <item id="c4" line="4224" tag="T">S/he writes with a pencil.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c2[0:25]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:28]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c4[0:26]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i155572">
+  <metadata type="xigt-meta">
+    <meta type="language" name="chechen" iso-639-3="che" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3307" line-range="877-879" line-types="L G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="877" tag="L">  a. Ahwmad ch'aara uecush          vu,       t'q'a Marjam cicig uecush       ju.</item>
+    <item id="o2" line="878" tag="G">    Ahmed      fish     buy:CVSIM V:be:PRS and Mary           cat buy:CVSIM J:be:PRS</item>
+    <item id="o3" line="879" tag="T">       `Ahmed is buying a fish, and Mary is buying a cat.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="877" tag="L">Ahwmad ch'aara uecush          vu,       t'q'a Marjam cicig uecush       ju.</item>
+    <item id="c2" line="878" tag="G">Ahmed      fish     buy:CVSIM V:be:PRS and Mary           cat buy:CVSIM J:be:PRS</item>
+    <item id="c3" line="879" tag="T">Ahmed is buying a fish, and Mary is buying a cat.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:76]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:80]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:49]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i155573">
+  <metadata type="xigt-meta">
+    <meta type="language" name="chechen" iso-639-3="che" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3307" line-range="880-882" line-types="L G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="880" tag="L">  b. Maliikina  Ahwmad gaalie,            iza             dwa-vuedu.</item>
+    <item id="o2" line="881" tag="G">     Malika:DAT Ahmed       see:CVPOST 3SGABS             DX-V:come:   PRS</item>
+    <item id="o3" line="882" tag="T">       `Before Malika sees Ahmed, he leaves.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="880" tag="L">Maliikina  Ahwmad gaalie,            iza             dwa-vuedu.</item>
+    <item id="c2" line="881" tag="G">Malika:DAT Ahmed       see:CVPOST 3SGABS             DX-V:come:   PRS</item>
+    <item id="c3" line="882" tag="T">Before Malika sees Ahmed, he leaves.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:63]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:69]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:36]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i155574">
+  <metadata type="xigt-meta">
+    <meta type="language" name="chechen" iso-639-3="che" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3307" line-range="883-887" line-types="L G L G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="883" tag="L">  c. Kinchka `a iecna,      tyka `a jitna               mashian t'e `a xi'na,</item>
+    <item id="o2" line="884" tag="G">     book    &amp; buy:CVANT store &amp; J:leave:CVANT          car        in &amp; sit:CVANT</item>
+    <item id="o3" line="885" tag="L">     ca ja'ara       Maliika.</item>
+    <item id="o4" line="886" tag="G">     not J:come:WP Malika</item>
+    <item id="o5" line="887" tag="T">        `Having bought a book, left the store and sat down in the car, Malika didn't go home.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="883" tag="L">Kinchka `a iecna,      tyka `a jitna               mashian t'e `a xi'na,</item>
+    <item id="c2" line="884" tag="G">book    &amp; buy:CVANT store &amp; J:leave:CVANT          car        in &amp; sit:CVANT</item>
+    <item id="c3" line="885" tag="L">ca ja'ara       Maliika.</item>
+    <item id="c4" line="886" tag="G">not J:come:WP Malika</item>
+    <item id="c5" line="887" tag="T">Having bought a book, left the store and sat down in the car, Malika didn't go home.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:72]"/>
+    <item id="p1" content="c3[0:24]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:76]" alignment="p1"/>
+    <item id="g1" content="c4[0:20]" alignment="p2"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c5[0:84]" alignment="p2"/>
+  </tier>
+</igt>
+</xigt-corpus>

@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xigt-corpus>
+<igt id="i25751">
+  <metadata type="xigt-meta">
+    <meta type="language" name="yughur" iso-639-3="uig" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3878" line-range="1325-1329" line-types="M+LN L G T M+AC"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="1325" tag="M+LN">   (17)   uyghur</item>
+    <item id="o2" line="1326" tag="L">          a. adris-i-ni    yez-iw-al-di-m</item>
+    <item id="o3" line="1327" tag="G">             address-3-acc write-cv-sub j.vers-pst-1</item>
+    <item id="o4" line="1328" tag="T">             `I wrote me down her address'</item>
+    <item id="o5" line="1329" tag="M+AC">                 (Hahn 1991: 612)</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="1325" tag="M+LN">uyghur</item>
+    <item id="c2" line="1326" tag="L">adris-i-ni    yez-iw-al-di-m</item>
+    <item id="c3" line="1327" tag="G">address-3-acc write-cv-sub j.vers-pst-1</item>
+    <item id="c4" line="1328" tag="T">I wrote me down her address</item>
+    <item id="c5" line="1329" tag="M+AC">612</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c2[0:28]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:39]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c4[0:27]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i25752">
+  <metadata type="xigt-meta">
+    <meta type="language" name="yughur" iso-639-3="uig" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3878" line-range="1330-1333" line-types="L G T M+AC"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="1330" tag="L">          b. qol-um-ni kes-iw-al-di-m</item>
+    <item id="o2" line="1331" tag="G">             hand-1-acc cut-cv-sub j.vers-pst-1</item>
+    <item id="o3" line="1332" tag="T">                 `I got me cut on my hand'</item>
+    <item id="o4" line="1333" tag="M+AC">                 (Hahn 1991: 612)</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="1330" tag="L">qol-um-ni kes-iw-al-di-m</item>
+    <item id="c2" line="1331" tag="G">hand-1-acc cut-cv-sub j.vers-pst-1</item>
+    <item id="c3" line="1332" tag="T">I got me cut on my hand</item>
+    <item id="c4" line="1333" tag="M+AC">612</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:24]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:34]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:23]" alignment="p1"/>
+  </tier>
+</igt>
+</xigt-corpus>

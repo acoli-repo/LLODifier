@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xigt-corpus>
+<igt id="i95905">
+  <metadata type="xigt-meta">
+    <meta type="language" name="classical armenian" iso-639-3="xcl" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="357" line-range="576-584" line-types="L G M B M B M B T+AC"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="576" tag="L">   (23) i kno ^-e      t'agawor-i-n</item>
+    <item id="o2" line="577" tag="G">        by wife-abl.sg king-gen.sg-def</item>
+    <item id="o3" line="578" tag="M">     5 In (22), -kurrka is a p ortmanteau realization of the lo cative and the oblique case</item>
+    <item id="o4" line="579" tag="B"></item>
+    <item id="o5" line="580" tag="M">  endings.</item>
+    <item id="o6" line="581" tag="B"></item>
+    <item id="o7" line="582" tag="M">  12 / Robert Malouf</item>
+    <item id="o8" line="583" tag="B"></item>
+    <item id="o9" line="584" tag="T+AC">          `by the wife of the king'                         (Plank, 1995, 20)</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="576" tag="L">i kno ^-e      t'agawor-i-n</item>
+    <item id="c2" line="577" tag="G">by wife-abl.sg king-gen.sg-def</item>
+    <item id="c3" line="578" tag="M">5 In (22),-kurrka is a p ortmanteau realization of the lo cative and the oblique case</item>
+    <item id="c4" line="579" tag="B"/>
+    <item id="c5" line="580" tag="M">endings.</item>
+    <item id="c6" line="581" tag="B"/>
+    <item id="c7" line="582" tag="M">12 / Robert Malouf</item>
+    <item id="c8" line="583" tag="B"/>
+    <item id="c9" line="584" tag="T+AC">by the wife of the king'                         (Plank, 1995, 20)</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:27]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:30]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c9[0:66]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i95906">
+  <metadata type="xigt-meta">
+    <meta type="language" name="classical armenian" iso-639-3="xcl" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="357" line-range="585-588" line-types="L+CR L+CR G T+AC"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="585" tag="L+CR">   (24) i kno ^-e      t'agawor-¯</item>
+    <item id="o2" line="586" tag="L+CR">                                e-n</item>
+    <item id="o3" line="587" tag="G">        by wife-abl.sg king-abl.sg-def</item>
+    <item id="o4" line="588" tag="T+AC">          `by the wife of the king'                         (Plank, 1995, 20)</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="585" tag="L+CR">i kno ^-e      t'agawor-¯</item>
+    <item id="c3" line="587" tag="G">by wife-abl.sg king-abl.sg-def</item>
+    <item id="c4" line="588" tag="T+AC">by the wife of the king'                         (Plank, 1995, 20)</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:25]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:30]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c4[0:66]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i102680">
+  <metadata type="xigt-meta">
+    <meta type="language" name="classical armenian" iso-639-3="xcl" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="1322" line-range="2547-2550" line-types="M+LN+CN B G T+AC"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="2547" tag="M+LN+CN">  (49) a. Classical Armenian: Perfect</item>
+    <item id="o2" line="2548" tag="B"></item>
+    <item id="o3" line="2549" tag="G">            be:PAST him:GEN decree:ACC received:[-AGR]</item>
+    <item id="o4" line="2550" tag="T+AC">            `He had received the decree.' [Benveniste 1952:57]</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="2547" tag="M+LN+CN">Perfect</item>
+    <item id="c2" line="2548" tag="B"/>
+    <item id="c3" line="2549" tag="G">be:PAST him:GEN decree:ACC received:[-AGR]</item>
+    <item id="c4" line="2550" tag="T+AC">He had received the decree.' [Benveniste 1952:57]</item>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:42]"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c4[0:49]"/>
+  </tier>
+</igt>
+<igt id="i102683">
+  <metadata type="xigt-meta">
+    <meta type="language" name="classical armenian" iso-639-3="xcl" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="1322" line-range="2567-2570" line-types="M+LN+CN L G T+AC"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="2567" tag="M+LN+CN">  (50) a. Classical Armenian: Possessive Predicate</item>
+    <item id="o2" line="2568" tag="L">          Zinc'                          ?</item>
+    <item id="o3" line="2569" tag="G">          what gratitude:ACC be:PRES you:GEN</item>
+    <item id="o4" line="2570" tag="T+AC">          `What gratitude do you have?' [Luke 6:32] [Benveniste 1952:59]</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="2567" tag="M+LN+CN">Possessive Predicate</item>
+    <item id="c2" line="2568" tag="L">Zinc'                          ?</item>
+    <item id="c3" line="2569" tag="G">what gratitude:ACC be:PRES you:GEN</item>
+    <item id="c4" line="2570" tag="T+AC">What gratitude do you have?' [Luke 6:32] [Benveniste 1952:59]</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c2[0:32]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:34]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c4[0:61]" alignment="p1"/>
+  </tier>
+</igt>
+</xigt-corpus>

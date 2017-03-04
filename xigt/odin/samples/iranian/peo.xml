@@ -1,0 +1,296 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xigt-corpus>
+<igt id="i82680">
+  <metadata type="xigt-meta">
+    <meta type="language" name="old persian" iso-639-3="peo" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3624" line-range="221-227" line-types="L G L M G T T+AL"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="221" tag="L">        (6) a. ima tya man¯     a    kartam</item>
+    <item id="o2" line="222" tag="G">               that which 1.Sg.Gen do.Ptcpl</item>
+    <item id="o3" line="223" tag="L">               pas¯va yaÌ¯ x¯yaÌiya abavam</item>
+    <item id="o4" line="224" tag="M">                   a       a sa</item>
+    <item id="o5" line="225" tag="G">               after when king         become.Past.1.Sg (Kent 1953, Old Persian)</item>
+    <item id="o6" line="226" tag="T">               `This (is) that (which) was done by me after I became king.'</item>
+    <item id="o7" line="227" tag="T+AL">               Reanalyzed as: `I did that after I became king.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="221" tag="L">ima tya man¯     a    kartam</item>
+    <item id="c2" line="222" tag="G">that which 1.Sg.Gen do.Ptcpl</item>
+    <item id="c3" line="223" tag="L">pas¯va yaÌ¯ x¯yaÌiya abavam</item>
+    <item id="c4" line="224" tag="M">a       a sa</item>
+    <item id="c5" line="225" tag="G">after when king         become.Past.1.Sg (Kent 1953, Old Persian)</item>
+    <item id="c6" line="226" tag="T">This (is) that (which) was done by me after I became king.</item>
+    <item id="c7" line="227" tag="T+AL">`I did that after I became king.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:28]"/>
+    <item id="p1" content="c3[0:27]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:28]" alignment="p1"/>
+    <item id="g1" content="c5[0:65]" alignment="p2"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c6[0:58]" alignment="p2"/>
+    <item id="t1" content="c7[0:32]" alignment="p2"/>
+  </tier>
+</igt>
+<igt id="i82681">
+  <metadata type="xigt-meta">
+    <meta type="language" name="old persian" iso-639-3="peo" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3624" line-range="228-232" line-types="L+CR L+CR G T+AC+LN T+AL"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="228" tag="L+CR">            b. avaÌ=¯m</item>
+    <item id="o2" line="229" tag="L+CR">                     sa         hamaranam kartam</item>
+    <item id="o3" line="230" tag="G">               thus=3.Pl.Gen battle        do.Ptcpl</item>
+    <item id="o4" line="231" tag="T+AC+LN">               `Thus by them battle was done.' (Kent 1953, Old Persian)</item>
+    <item id="o5" line="232" tag="T+AL">               Reanalyzed as: `Thus they did battle.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="228" tag="L+CR">avaÌ=¯m</item>
+    <item id="c3" line="230" tag="G">thus=3.Pl.Gen battle        do.Ptcpl</item>
+    <item id="c4" line="231" tag="T+AC+LN">Thus by them battle was done.' (Kent 1953, Old Persian)</item>
+    <item id="c5" line="232" tag="T+AL">`Thus they did battle.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:7]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:36]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c4[0:55]" alignment="p1"/>
+    <item id="t1" content="c5[0:22]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i82682">
+  <metadata type="xigt-meta">
+    <meta type="language" name="old persian" iso-639-3="peo" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3624" line-range="390-397" line-types="L+CR L+CR M G L G T M+AC+LN"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="390" tag="L+CR">          (8) daha b¯r bujh-yeu</item>
+    <item id="o2" line="391" tag="L+CR">                     a                 r¯ j</item>
+    <item id="o3" line="392" tag="M">                                        a</item>
+    <item id="o4" line="393" tag="G">              ten time ask-Perf.M.Sg king</item>
+    <item id="o5" line="394" tag="L">              duj      di-yeu         na utar k¯j  a</item>
+    <item id="o6" line="395" tag="G">              brahmin give-Perf.M.Sg not answer matter</item>
+    <item id="o7" line="396" tag="T">              `Ten times the King asked, The Brahmin gave no answer in the matter.'</item>
+    <item id="o8" line="397" tag="M+AC+LN">              [Old Hindi] (Chand, Prithira ja-Rasau i.49; Beames 1872:267)</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="390" tag="L+CR">daha b¯r bujh-yeu</item>
+    <item id="c3" line="392" tag="M">a</item>
+    <item id="c4" line="393" tag="G">ten time ask-Perf.M.Sg king</item>
+    <item id="c5" line="394" tag="L">duj      di-yeu         na utar k¯j  a</item>
+    <item id="c6" line="395" tag="G">brahmin give-Perf.M.Sg not answer matter</item>
+    <item id="c7" line="396" tag="T">Ten times the King asked, The Brahmin gave no answer in the matter.</item>
+    <item id="c8" line="397" tag="M+AC+LN">[Old Hindi] (Chand, Prithira ja-Rasau i.49; Beames 1872:267)</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:17]"/>
+    <item id="p1" content="c5[0:38]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c4[0:27]" alignment="p1"/>
+    <item id="g1" content="c6[0:40]" alignment="p2"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c7[0:67]" alignment="p2"/>
+  </tier>
+</igt>
+<igt id="i82683">
+  <metadata type="xigt-meta">
+    <meta type="language" name="old persian" iso-639-3="peo" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3624" line-range="401-406" line-types="L+CR L+CR G T+LN T+AL M+AC+LN"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="401" tag="L+CR">          (9) jihi    rac-e             suraga         bhu        satta p¯t¯la</item>
+    <item id="o2" line="402" tag="L+CR">                                                                         aa</item>
+    <item id="o3" line="403" tag="G">              who.Obl create-Perf.M.Pl heaven.M.Nom earth.Nom seven.Nom hell.M.Nom</item>
+    <item id="o4" line="404" tag="T+LN">              `Who made heaven, earth, the seven hells.' [Old Hindi]</item>
+    <item id="o5" line="405" tag="T+AL">              [He who created heaven, earth and the seven hells.]</item>
+    <item id="o6" line="406" tag="M+AC+LN">              (Chand, Prithira ja-Rasau i.11; Beames 1872:267)</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="401" tag="L+CR">jihi    rac-e             suraga         bhu        satta p¯t¯la</item>
+    <item id="c3" line="403" tag="G">who.Obl create-Perf.M.Pl heaven.M.Nom earth.Nom seven.Nom hell.M.Nom</item>
+    <item id="c4" line="404" tag="T+LN">Who made heaven, earth, the seven hells.' [Old Hindi]</item>
+    <item id="c5" line="405" tag="T+AL">[He who created heaven, earth and the seven hells.]</item>
+    <item id="c6" line="406" tag="M+AC+LN">Chand, Prithira ja-Rasau i.11; Beames 1872:267</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:64]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:68]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c4[0:53]" alignment="p1"/>
+    <item id="t1" content="c5[0:51]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i82684">
+  <metadata type="xigt-meta">
+    <meta type="language" name="old persian" iso-639-3="peo" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3624" line-range="410-425" line-types="L+CR L+CR L+CR L+CR L+CR L+CR G L+CR L+CR L+CR L+CR M G T T M+AC+LN"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="410" tag="L+CR">          (10) masi      k¯gad</item>
+    <item id="o2" line="411" tag="L+CR">                          a            chu-yo</item>
+    <item id="o3" line="412" tag="L+CR">                                         ¯              nah¯ kalam</item>
+    <item id="o4" line="413" tag="L+CR">                                                           i          gah¯</item>
+    <item id="o5" line="414" tag="L+CR">                                                                         i             nahi h¯th</item>
+    <item id="o6" line="415" tag="L+CR">                                                                                              a</item>
+    <item id="o7" line="416" tag="G">               ink.Nom paper.M.Nom touch-Perf.M.Sg not pen.F.Sg take.Perf.F.Sg         not hand</item>
+    <item id="o8" line="417" tag="L+CR">               j ¯ ro</item>
+    <item id="o9" line="418" tag="L+CR">                 a     juga m¯h¯tma jehi</item>
+    <item id="o10" line="419" tag="L+CR">                                aa                   kabir     jan-¯-yo</item>
+    <item id="o11" line="420" tag="L+CR">                                                                   a                    n¯th</item>
+    <item id="o12" line="421" tag="M">                                                                                          a</item>
+    <item id="o13" line="422" tag="G">               four.Pl age.Pl glory.Nom who.Sg.Acc Kabir.Obl know-Caus-Perf.M.Sg        lord.Nom</item>
+    <item id="o14" line="423" tag="T">               `Kabir touched not ink nor paper, he to ok not pen in hand; He made     known the</item>
+    <item id="o15" line="424" tag="T">               lord to whom is glory in the four ages.'</item>
+    <item id="o16" line="425" tag="M+AC+LN">               [Old Hindi] (Kabir, Sakhi 183; Beames 1872:269)</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="410 412 414" tag="L+CR">masi      k¯gad          ¯              nah¯ kalam     i             nahi h¯th</item>
+    <item id="c7" line="416" tag="G">ink.Nom paper.M.Nom touch-Perf.M.Sg not pen.F.Sg take.Perf.F.Sg         not hand</item>
+    <item id="c8" line="417 419" tag="L+CR">j ¯ ro          aa                   kabir     jan-¯-yo</item>
+    <item id="c12" line="421" tag="M">a</item>
+    <item id="c13" line="422" tag="G">four.Pl age.Pl glory.Nom who.Sg.Acc Kabir.Obl know-Caus-Perf.M.Sg        lord.Nom</item>
+    <item id="c14" line="423" tag="T">Kabir touched not ink nor paper, he to ok not pen in hand; He made     known the</item>
+    <item id="c15" line="424" tag="T">lord to whom is glory in the four ages.</item>
+    <item id="c16" line="425" tag="M+AC+LN">[Old Hindi] (Kabir, Sakhi 183; Beames 1872:269)</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:78]"/>
+    <item id="p1" content="c8[0:55]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c7[0:80]" alignment="p1"/>
+    <item id="g1" content="c13[0:81]" alignment="p2"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c14[0:80]" alignment="p2"/>
+    <item id="t1" content="c15[0:39]" alignment="p2"/>
+  </tier>
+</igt>
+<igt id="i115487">
+  <metadata type="xigt-meta">
+    <meta type="language" name="old persian" iso-639-3="peo" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3379" line-range="417-419" line-types="M+AC+LN L+CN T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="417" tag="M+AC+LN">  (8)     Altpersisch (aus Anderson 1977: 338)</item>
+    <item id="o2" line="418" tag="L+CN">          a. ima tya man krtam                    man: GEN/DAT</item>
+    <item id="o3" line="419" tag="T">              `That is what I have done'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="417" tag="M+AC+LN">Altpersisch (aus Anderson 1977: 338</item>
+    <item id="c2" line="418" tag="L+CN">ima tya man krtam                    man: GEN/DAT</item>
+    <item id="c3" line="419" tag="T">That is what I have done</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c2[0:49]"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:24]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i115488">
+  <metadata type="xigt-meta">
+    <meta type="language" name="old persian" iso-639-3="peo" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3379" line-range="422-423" line-types="L T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="422" tag="L">          b. man pussa astiy</item>
+    <item id="o2" line="423" tag="T">              `I have a son' (= of-me son is)</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="422" tag="L">man pussa astiy</item>
+    <item id="c2" line="423" tag="T">I have a son' (= of-me son is)</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:15]"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c2[0:30]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i136491">
+  <metadata type="xigt-meta">
+    <meta type="language" name="old persian" iso-639-3="peo" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3743" line-range="8808-8814" line-types="L G L+CR L+CR G+LN T T+AL"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="8808" tag="L">     (34) a. ima tya mana      ¯     kartam</item>
+    <item id="o2" line="8809" tag="G">              that which 1.Sg.Gen do.Ptcpl</item>
+    <item id="o3" line="8810" tag="L+CR">              pasava yaÌa xsayaÌiya abavam</item>
+    <item id="o4" line="8811" tag="L+CR">                  ¯        ¯ ¯</item>
+    <item id="o5" line="8812" tag="G+LN">              after when king           become.Past.1.Sg                Old Persian</item>
+    <item id="o6" line="8813" tag="T">              `This (is) that (which) was done by me after I became king.'</item>
+    <item id="o7" line="8814" tag="T+AL">              Reanalyzed as: `I did that after I became king.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="8808" tag="L">ima tya mana      ¯     kartam</item>
+    <item id="c2" line="8809" tag="G">that which 1.Sg.Gen do.Ptcpl</item>
+    <item id="c3" line="8810" tag="L+CR">pasava yaÌa xsayaÌiya abavam</item>
+    <item id="c5" line="8812" tag="G+LN">after when king           become.Past.1.Sg                Old Persian</item>
+    <item id="c6" line="8813" tag="T">This (is) that (which) was done by me after I became king.</item>
+    <item id="c7" line="8814" tag="T+AL">`I did that after I became king.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:30]"/>
+    <item id="p1" content="c3[0:28]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:28]" alignment="p1"/>
+    <item id="g1" content="c5[0:69]" alignment="p2"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c6[0:58]" alignment="p2"/>
+    <item id="t1" content="c7[0:32]" alignment="p2"/>
+  </tier>
+</igt>
+<igt id="i136492">
+  <metadata type="xigt-meta">
+    <meta type="language" name="old persian" iso-639-3="peo" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3743" line-range="8815-8819" line-types="L+CR L+CR G T+LN T+AL"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="8815" tag="L+CR">           b. avaÌ=sam</item>
+    <item id="o2" line="8816" tag="L+CR">                     ¯         hamaranam kartam</item>
+    <item id="o3" line="8817" tag="G">              thus=3.Pl.Gen battle          do.Ptcpl</item>
+    <item id="o4" line="8818" tag="T+LN">              `Thus by them battle was done.'                           Old Persian</item>
+    <item id="o5" line="8819" tag="T+AL">              Reanalyzed as: `Thus they did battle.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="8815" tag="L+CR">avaÌ=sam</item>
+    <item id="c3" line="8817" tag="G">thus=3.Pl.Gen battle          do.Ptcpl</item>
+    <item id="c4" line="8818" tag="T+LN">Thus by them battle was done.'                           Old Persian</item>
+    <item id="c5" line="8819" tag="T+AL">`Thus they did battle.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:8]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:38]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c4[0:68]" alignment="p1"/>
+    <item id="t1" content="c5[0:22]" alignment="p1"/>
+  </tier>
+</igt>
+</xigt-corpus>

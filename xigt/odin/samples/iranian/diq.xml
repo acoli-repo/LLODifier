@@ -1,0 +1,2088 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xigt-corpus>
+<igt id="i9652">
+  <metadata type="xigt-meta">
+    <meta type="language" name="zazaki" iso-639-3="diq" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="1848" line-range="46-48" line-types="L G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="46" tag="L">  (1)      kitab-o        sur</item>
+    <item id="o2" line="47" tag="G">           book-linkadj.M red-M.</item>
+    <item id="o3" line="48" tag="T">           `The red book'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="46" tag="L">kitab-o        sur</item>
+    <item id="c2" line="47" tag="G">book-linkadj.M red-M.</item>
+    <item id="c3" line="48" tag="T">The red book</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:18]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:21]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:12]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i9653">
+  <metadata type="xigt-meta">
+    <meta type="language" name="zazaki" iso-639-3="diq" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="1848" line-range="49-51" line-types="L G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="49" tag="L">  (2)      kitab-e          layik-i-o          sur</item>
+    <item id="o2" line="50" tag="G">           book-linkposs.M boy-gen.M-linkadj.M red-M.</item>
+    <item id="o3" line="51" tag="T">           `The boy's red book'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="49" tag="L">kitab-e          layik-i-o          sur</item>
+    <item id="c2" line="50" tag="G">book-linkposs.M boy-gen.M-linkadj.M red-M.</item>
+    <item id="c3" line="51" tag="T">The boy's red book</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:39]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:42]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:18]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i9654">
+  <metadata type="xigt-meta">
+    <meta type="language" name="zazaki" iso-639-3="diq" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="1848" line-range="54-61" line-types="L+CR L+CR B B B B G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="54" tag="L+CR">           q l m-a         layik-i-a          sur-</item>
+    <item id="o2" line="55" tag="L+CR">  (3)</item>
+    <item id="o3" line="56" tag="B"></item>
+    <item id="o4" line="57" tag="B"></item>
+    <item id="o5" line="58" tag="B"></item>
+    <item id="o6" line="59" tag="B"></item>
+    <item id="o7" line="60" tag="G">           pen-linkposs.F boy-gen.M-linkadj.F red-F.</item>
+    <item id="o8" line="61" tag="T">           `the boy's red pen'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="54 55" tag="L+CR">q l m-a         layik-i-a          sur-</item>
+    <item id="c3" line="56" tag="B"/>
+    <item id="c4" line="57" tag="B"/>
+    <item id="c5" line="58" tag="B"/>
+    <item id="c6" line="59" tag="B"/>
+    <item id="c7" line="60" tag="G">pen-linkposs.F boy-gen.M-linkadj.F red-F.</item>
+    <item id="c8" line="61" tag="T">the boy's red pen</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:39]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c7[0:41]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c8[0:17]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i9655">
+  <metadata type="xigt-meta">
+    <meta type="language" name="zazaki" iso-639-3="diq" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="1848" line-range="62-69" line-types="L+CR L+CR B B B B G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="62" tag="L+CR">           q l m-e         layik-i-e             sur-i</item>
+    <item id="o2" line="63" tag="L+CR">  (4)</item>
+    <item id="o3" line="64" tag="B"></item>
+    <item id="o4" line="65" tag="B"></item>
+    <item id="o5" line="66" tag="B"></item>
+    <item id="o6" line="67" tag="B"></item>
+    <item id="o7" line="68" tag="G">           pen-linkposs.Pl boy-gen.M-linkadj-Pl. red-Pl.</item>
+    <item id="o8" line="69" tag="T">           `the boy's red pens'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="62 63" tag="L+CR">q l m-e         layik-i-e             sur-i</item>
+    <item id="c3" line="64" tag="B"/>
+    <item id="c4" line="65" tag="B"/>
+    <item id="c5" line="66" tag="B"/>
+    <item id="c6" line="67" tag="B"/>
+    <item id="c7" line="68" tag="G">pen-linkposs.Pl boy-gen.M-linkadj-Pl. red-Pl.</item>
+    <item id="c8" line="69" tag="T">the boy's red pens</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:43]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c7[0:45]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c8[0:18]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i9656">
+  <metadata type="xigt-meta">
+    <meta type="language" name="zazaki" iso-639-3="diq" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="1848" line-range="70-77" line-types="L+CR L+CR B B B B G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="70" tag="L+CR">           q l m-e         layik-an-e            sur-i</item>
+    <item id="o2" line="71" tag="L+CR">  (5)</item>
+    <item id="o3" line="72" tag="B"></item>
+    <item id="o4" line="73" tag="B"></item>
+    <item id="o5" line="74" tag="B"></item>
+    <item id="o6" line="75" tag="B"></item>
+    <item id="o7" line="76" tag="G">           pen-linkposs.Pl boy-gen.Pl-linkadj.Pl red-Pl.</item>
+    <item id="o8" line="77" tag="T">           `the boys' red pens'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="70 71" tag="L+CR">q l m-e         layik-an-e            sur-i</item>
+    <item id="c3" line="72" tag="B"/>
+    <item id="c4" line="73" tag="B"/>
+    <item id="c5" line="74" tag="B"/>
+    <item id="c6" line="75" tag="B"/>
+    <item id="c7" line="76" tag="G">pen-linkposs.Pl boy-gen.Pl-linkadj.Pl red-Pl.</item>
+    <item id="c8" line="77" tag="T">the boys' red pens</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:43]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c7[0:45]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c8[0:18]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i9657">
+  <metadata type="xigt-meta">
+    <meta type="language" name="zazaki" iso-639-3="diq" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="1848" line-range="86-92" line-types="L M B B B B T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="86" tag="L">           q l m-e m h m d-e sur-i</item>
+    <item id="o2" line="87" tag="M">  (6)</item>
+    <item id="o3" line="88" tag="B"></item>
+    <item id="o4" line="89" tag="B"></item>
+    <item id="o5" line="90" tag="B"></item>
+    <item id="o6" line="91" tag="B"></item>
+    <item id="o7" line="92" tag="T">           `mehmed's red pens'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="86" tag="L">q l m-e m h m d-e sur-i</item>
+    <item id="c2" line="87" tag="M">6</item>
+    <item id="c3" line="88" tag="B"/>
+    <item id="c4" line="89" tag="B"/>
+    <item id="c5" line="90" tag="B"/>
+    <item id="c6" line="91" tag="B"/>
+    <item id="c7" line="92" tag="T">mehmed's red pens</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:23]"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c7[0:17]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i9658">
+  <metadata type="xigt-meta">
+    <meta type="language" name="zazaki" iso-639-3="diq" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="1848" line-range="94-95" line-types="L T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="94" tag="L">  (7)      kitab suro</item>
+    <item id="o2" line="95" tag="T">           `the book is red'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="94" tag="L">kitab suro</item>
+    <item id="c2" line="95" tag="T">the book is red</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:10]"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c2[0:15]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i9659">
+  <metadata type="xigt-meta">
+    <meta type="language" name="zazaki" iso-639-3="diq" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="1848" line-range="99-105" line-types="L B B B B B T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="99" tag="L">  (8)    q l m-e sura</item>
+    <item id="o2" line="100" tag="B"></item>
+    <item id="o3" line="101" tag="B"></item>
+    <item id="o4" line="102" tag="B"></item>
+    <item id="o5" line="103" tag="B"></item>
+    <item id="o6" line="104" tag="B"></item>
+    <item id="o7" line="105" tag="T">         `the pen is red'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="99" tag="L">q l m-e sura</item>
+    <item id="c2" line="100" tag="B"/>
+    <item id="c3" line="101" tag="B"/>
+    <item id="c4" line="102" tag="B"/>
+    <item id="c5" line="103" tag="B"/>
+    <item id="c6" line="104" tag="B"/>
+    <item id="c7" line="105" tag="T">the pen is red</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:12]"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c7[0:14]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i9660">
+  <metadata type="xigt-meta">
+    <meta type="language" name="zazaki" iso-639-3="diq" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="1848" line-range="106-112" line-types="L M B B B B T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="106" tag="L">         q l m-i sure</item>
+    <item id="o2" line="107" tag="M">  (9)</item>
+    <item id="o3" line="108" tag="B"></item>
+    <item id="o4" line="109" tag="B"></item>
+    <item id="o5" line="110" tag="B"></item>
+    <item id="o6" line="111" tag="B"></item>
+    <item id="o7" line="112" tag="T">         `the pens are red'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="106" tag="L">q l m-i sure</item>
+    <item id="c2" line="107" tag="M">9</item>
+    <item id="c3" line="108" tag="B"/>
+    <item id="c4" line="109" tag="B"/>
+    <item id="c5" line="110" tag="B"/>
+    <item id="c6" line="111" tag="B"/>
+    <item id="c7" line="112" tag="T">the pens are red</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:12]"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c7[0:16]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i9661">
+  <metadata type="xigt-meta">
+    <meta type="language" name="zazaki" iso-639-3="diq" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="1848" line-range="113-115" line-types="M+CN L T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="113" tag="M+CN">  [Predicative Adjectives show `Verbal' agreement suffixes]</item>
+    <item id="o2" line="114" tag="L">  (10)    Mohamed malemo.</item>
+    <item id="o3" line="115" tag="T">          `Mohamed is a teacher (m)'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="113" tag="M+CN">[Predicative Adjectives show `Verbal' agreement suffixes]</item>
+    <item id="c2" line="114" tag="L">Mohamed malemo.</item>
+    <item id="c3" line="115" tag="T">Mohamed is a teacher (m)</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c2[0:15]"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:24]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i9662">
+  <metadata type="xigt-meta">
+    <meta type="language" name="zazaki" iso-639-3="diq" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="1848" line-range="116-117" line-types="L T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="116" tag="L">  (11)    Aisha malema.</item>
+    <item id="o2" line="117" tag="T">          `Aisha is a teacher (f )'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="116" tag="L">Aisha malema.</item>
+    <item id="c2" line="117" tag="T">Aisha is a teacher (f )</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:13]"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c2[0:23]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i9663">
+  <metadata type="xigt-meta">
+    <meta type="language" name="zazaki" iso-639-3="diq" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="1848" line-range="118-120" line-types="L G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="118" tag="L">  (12)    Aisha-u-Mohamed-i           malem-e</item>
+    <item id="o2" line="119" tag="G">          Aisha-conj-Mohamed-comit.M teacher-pl.</item>
+    <item id="o3" line="120" tag="T">          `Aisha and Mohamed are teachers'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="118" tag="L">Aisha-u-Mohamed-i           malem-e</item>
+    <item id="c2" line="119" tag="G">Aisha-conj-Mohamed-comit.M teacher-pl.</item>
+    <item id="c3" line="120" tag="T">Aisha and Mohamed are teachers</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:35]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:38]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:30]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i9664">
+  <metadata type="xigt-meta">
+    <meta type="language" name="zazaki" iso-639-3="diq" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="1848" line-range="121-123" line-types="L G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="121" tag="L">  (13)    Mohamed-i-o          Aisha malem-e</item>
+    <item id="o2" line="122" tag="G">          Mohamed-comit.M-conj Aisha teacher-pl.</item>
+    <item id="o3" line="123" tag="T">          `Mohamed and Aisha are teachers'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="121" tag="L">Mohamed-i-o          Aisha malem-e</item>
+    <item id="c2" line="122" tag="G">Mohamed-comit.M-conj Aisha teacher-pl.</item>
+    <item id="c3" line="123" tag="T">Mohamed and Aisha are teachers</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:34]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:38]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:30]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i9665">
+  <metadata type="xigt-meta">
+    <meta type="language" name="zazaki" iso-639-3="diq" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="1848" line-range="126-128" line-types="L G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="126" tag="L">  (14)    Hesen-i-o          Mohamed-i       maleme</item>
+    <item id="o2" line="127" tag="G">          Hesen-comit.M-conj Mohamed-comit.M teacher-pl.</item>
+    <item id="o3" line="128" tag="T">          `Hesen and Mohamed are teachers'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="126" tag="L">Hesen-i-o          Mohamed-i       maleme</item>
+    <item id="c2" line="127" tag="G">Hesen-comit.M-conj Mohamed-comit.M teacher-pl.</item>
+    <item id="c3" line="128" tag="T">Hesen and Mohamed are teachers</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:41]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:46]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:30]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i9666">
+  <metadata type="xigt-meta">
+    <meta type="language" name="zazaki" iso-639-3="diq" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="1848" line-range="132-139" line-types="L B B B B B G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="132" tag="L">  (15)    Mehemedi kitab da     mal m-i</item>
+    <item id="o2" line="133" tag="B"></item>
+    <item id="o3" line="134" tag="B"></item>
+    <item id="o4" line="135" tag="B"></item>
+    <item id="o5" line="136" tag="B"></item>
+    <item id="o6" line="137" tag="B"></item>
+    <item id="o7" line="138" tag="G">          M.       book gave-M. teacher-obl.M.</item>
+    <item id="o8" line="139" tag="T">          `Mohamed gave the book to the teacher'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="132" tag="L">Mehemedi kitab da     mal m-i</item>
+    <item id="c2" line="133" tag="B"/>
+    <item id="c3" line="134" tag="B"/>
+    <item id="c4" line="135" tag="B"/>
+    <item id="c5" line="136" tag="B"/>
+    <item id="c6" line="137" tag="B"/>
+    <item id="c7" line="138" tag="G">book gave-M. teacher-obl.M.</item>
+    <item id="c8" line="139" tag="T">Mohamed gave the book to the teacher</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:29]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c7[0:27]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c8[0:36]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i9667">
+  <metadata type="xigt-meta">
+    <meta type="language" name="zazaki" iso-639-3="diq" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="1848" line-range="142-154" line-types="L B B B B B B B B B B G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="142" tag="L">  (16)    Mehemedi q l m-e d-e     mal m-i</item>
+    <item id="o2" line="143" tag="B"></item>
+    <item id="o3" line="144" tag="B"></item>
+    <item id="o4" line="145" tag="B"></item>
+    <item id="o5" line="146" tag="B"></item>
+    <item id="o6" line="147" tag="B"></item>
+    <item id="o7" line="148" tag="B"></item>
+    <item id="o8" line="149" tag="B"></item>
+    <item id="o9" line="150" tag="B"></item>
+    <item id="o10" line="151" tag="B"></item>
+    <item id="o11" line="152" tag="B"></item>
+    <item id="o12" line="153" tag="G">          M.       pen     gave-F. teacher-obl.M.</item>
+    <item id="o13" line="154" tag="T">          `Mohamed gave the pen to the teacher'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="142" tag="L">Mehemedi q l m-e d-e     mal m-i</item>
+    <item id="c2" line="143" tag="B"/>
+    <item id="c3" line="144" tag="B"/>
+    <item id="c4" line="145" tag="B"/>
+    <item id="c5" line="146" tag="B"/>
+    <item id="c6" line="147" tag="B"/>
+    <item id="c7" line="148" tag="B"/>
+    <item id="c8" line="149" tag="B"/>
+    <item id="c9" line="150" tag="B"/>
+    <item id="c10" line="151" tag="B"/>
+    <item id="c11" line="152" tag="B"/>
+    <item id="c12" line="153" tag="G">pen     gave-F. teacher-obl.M.</item>
+    <item id="c13" line="154" tag="T">Mohamed gave the pen to the teacher</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:32]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c12[0:30]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c13[0:35]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i9668">
+  <metadata type="xigt-meta">
+    <meta type="language" name="zazaki" iso-639-3="diq" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="1848" line-range="156-193" line-types="L+CR L+CR B B B B B B B B B B G T L+LN B B B B B B B B B B G L+LN B B B B B B B B B B G"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="156" tag="L+CR">                              q l me da-i      mal m-i</item>
+    <item id="o2" line="157" tag="L+CR">  (17)    M. kitab-i-o</item>
+    <item id="o3" line="158" tag="B"></item>
+    <item id="o4" line="159" tag="B"></item>
+    <item id="o5" line="160" tag="B"></item>
+    <item id="o6" line="161" tag="B"></item>
+    <item id="o7" line="162" tag="B"></item>
+    <item id="o8" line="163" tag="B"></item>
+    <item id="o9" line="164" tag="B"></item>
+    <item id="o10" line="165" tag="B"></item>
+    <item id="o11" line="166" tag="B"></item>
+    <item id="o12" line="167" tag="B"></item>
+    <item id="o13" line="168" tag="G">          M. book-com.M-conj pen      gave-pl. teacher-obl.M.</item>
+    <item id="o14" line="169" tag="T">          `M. gave the book and pen to the teacher'</item>
+    <item id="o15" line="170" tag="L+LN">  (18)    M. kitab-i-o       q l me de      mal m-i</item>
+    <item id="o16" line="171" tag="B"></item>
+    <item id="o17" line="172" tag="B"></item>
+    <item id="o18" line="173" tag="B"></item>
+    <item id="o19" line="174" tag="B"></item>
+    <item id="o20" line="175" tag="B"></item>
+    <item id="o21" line="176" tag="B"></item>
+    <item id="o22" line="177" tag="B"></item>
+    <item id="o23" line="178" tag="B"></item>
+    <item id="o24" line="179" tag="B"></item>
+    <item id="o25" line="180" tag="B"></item>
+    <item id="o26" line="181" tag="G">          M. book-com.M-conj pen    gave-f. teacher-obl.M.</item>
+    <item id="o27" line="182" tag="L+LN">  (19)    M. q l m-o kitab-i     da      mal m-i</item>
+    <item id="o28" line="183" tag="B"></item>
+    <item id="o29" line="184" tag="B"></item>
+    <item id="o30" line="185" tag="B"></item>
+    <item id="o31" line="186" tag="B"></item>
+    <item id="o32" line="187" tag="B"></item>
+    <item id="o33" line="188" tag="B"></item>
+    <item id="o34" line="189" tag="B"></item>
+    <item id="o35" line="190" tag="B"></item>
+    <item id="o36" line="191" tag="B"></item>
+    <item id="o37" line="192" tag="B"></item>
+    <item id="o38" line="193" tag="G">          M. pen-conj book-com.M gave-m. teacher-obl.M.</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="156 157" tag="L+CR">kitab-i-o        q l me da-i      mal m-i</item>
+    <item id="c3" line="158" tag="B"/>
+    <item id="c4" line="159" tag="B"/>
+    <item id="c5" line="160" tag="B"/>
+    <item id="c6" line="161" tag="B"/>
+    <item id="c7" line="162" tag="B"/>
+    <item id="c8" line="163" tag="B"/>
+    <item id="c9" line="164" tag="B"/>
+    <item id="c10" line="165" tag="B"/>
+    <item id="c11" line="166" tag="B"/>
+    <item id="c12" line="167" tag="B"/>
+    <item id="c13" line="168" tag="G">book-com.M-conj pen      gave-pl. teacher-obl.M.</item>
+    <item id="c14" line="169" tag="T">gave the book and pen to the teacher</item>
+    <item id="c15" line="170" tag="L+LN">kitab-i-o       q l me de      mal m-i</item>
+    <item id="c16" line="171" tag="B"/>
+    <item id="c17" line="172" tag="B"/>
+    <item id="c18" line="173" tag="B"/>
+    <item id="c19" line="174" tag="B"/>
+    <item id="c20" line="175" tag="B"/>
+    <item id="c21" line="176" tag="B"/>
+    <item id="c22" line="177" tag="B"/>
+    <item id="c23" line="178" tag="B"/>
+    <item id="c24" line="179" tag="B"/>
+    <item id="c25" line="180" tag="B"/>
+    <item id="c26" line="181" tag="G">book-com.M-conj pen    gave-f. teacher-obl.M.</item>
+    <item id="c27" line="182" tag="L+LN">q l m-o kitab-i     da      mal m-i</item>
+    <item id="c28" line="183" tag="B"/>
+    <item id="c29" line="184" tag="B"/>
+    <item id="c30" line="185" tag="B"/>
+    <item id="c31" line="186" tag="B"/>
+    <item id="c32" line="187" tag="B"/>
+    <item id="c33" line="188" tag="B"/>
+    <item id="c34" line="189" tag="B"/>
+    <item id="c35" line="190" tag="B"/>
+    <item id="c36" line="191" tag="B"/>
+    <item id="c37" line="192" tag="B"/>
+    <item id="c38" line="193" tag="G">pen-conj book-com.M gave-m. teacher-obl.M.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:41]"/>
+    <item id="p1" content="c15[0:38]"/>
+    <item id="p2" content="c27[0:35]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c13[0:48]" alignment="p1"/>
+    <item id="g1" content="c26[0:45]" alignment="p2"/>
+    <item id="g2" content="c38[0:42]" alignment="p3"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c14[0:36]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i9669">
+  <metadata type="xigt-meta">
+    <meta type="language" name="zazaki" iso-639-3="diq" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="1848" line-range="198-205" line-types="L B B B B B G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="198" tag="L">  (20)    M maal m di</item>
+    <item id="o2" line="199" tag="B"></item>
+    <item id="o3" line="200" tag="B"></item>
+    <item id="o4" line="201" tag="B"></item>
+    <item id="o5" line="202" tag="B"></item>
+    <item id="o6" line="203" tag="B"></item>
+    <item id="o7" line="204" tag="G">          I-erg teacher saw-M.</item>
+    <item id="o8" line="205" tag="T">          `I saw the teacher'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="198" tag="L">M maal m di</item>
+    <item id="c2" line="199" tag="B"/>
+    <item id="c3" line="200" tag="B"/>
+    <item id="c4" line="201" tag="B"/>
+    <item id="c5" line="202" tag="B"/>
+    <item id="c6" line="203" tag="B"/>
+    <item id="c7" line="204" tag="G">I-erg teacher saw-M.</item>
+    <item id="c8" line="205" tag="T">I saw the teacher</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:11]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c7[0:20]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c8[0:17]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i9670">
+  <metadata type="xigt-meta">
+    <meta type="language" name="zazaki" iso-639-3="diq" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="1848" line-range="210-228" line-types="L B B B B B B B B B B G L+LN B B B B B G"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="210" tag="L">  (21)    M maal m- di-e</item>
+    <item id="o2" line="211" tag="B"></item>
+    <item id="o3" line="212" tag="B"></item>
+    <item id="o4" line="213" tag="B"></item>
+    <item id="o5" line="214" tag="B"></item>
+    <item id="o6" line="215" tag="B"></item>
+    <item id="o7" line="216" tag="B"></item>
+    <item id="o8" line="217" tag="B"></item>
+    <item id="o9" line="218" tag="B"></item>
+    <item id="o10" line="219" tag="B"></item>
+    <item id="o11" line="220" tag="B"></item>
+    <item id="o12" line="221" tag="G">          I-erg teacher-F. saw-F.</item>
+    <item id="o13" line="222" tag="L+LN">  (22)    M maal m-i di</item>
+    <item id="o14" line="223" tag="B"></item>
+    <item id="o15" line="224" tag="B"></item>
+    <item id="o16" line="225" tag="B"></item>
+    <item id="o17" line="226" tag="B"></item>
+    <item id="o18" line="227" tag="B"></item>
+    <item id="o19" line="228" tag="G">          I-erg teacher-Pl. saw-Pl.</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="210" tag="L">M maal m-di-e</item>
+    <item id="c2" line="211" tag="B"/>
+    <item id="c3" line="212" tag="B"/>
+    <item id="c4" line="213" tag="B"/>
+    <item id="c5" line="214" tag="B"/>
+    <item id="c6" line="215" tag="B"/>
+    <item id="c7" line="216" tag="B"/>
+    <item id="c8" line="217" tag="B"/>
+    <item id="c9" line="218" tag="B"/>
+    <item id="c10" line="219" tag="B"/>
+    <item id="c11" line="220" tag="B"/>
+    <item id="c12" line="221" tag="G">I-erg teacher-F. saw-F.</item>
+    <item id="c13" line="222" tag="L+LN">M maal m-i di</item>
+    <item id="c14" line="223" tag="B"/>
+    <item id="c15" line="224" tag="B"/>
+    <item id="c16" line="225" tag="B"/>
+    <item id="c17" line="226" tag="B"/>
+    <item id="c18" line="227" tag="B"/>
+    <item id="c19" line="228" tag="G">I-erg teacher-Pl. saw-Pl.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:13]"/>
+    <item id="p1" content="c13[0:13]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c12[0:23]" alignment="p1"/>
+    <item id="g1" content="c19[0:25]" alignment="p2"/>
+  </tier>
+</igt>
+<igt id="i9671">
+  <metadata type="xigt-meta">
+    <meta type="language" name="zazaki" iso-639-3="diq" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="1848" line-range="230-243" line-types="L+CR L+CR B B B B B B B B B B G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="230" tag="L+CR">  (23)    M maal m          pa k rd</item>
+    <item id="o2" line="231" tag="L+CR">                              ci</item>
+    <item id="o3" line="232" tag="B"></item>
+    <item id="o4" line="233" tag="B"></item>
+    <item id="o5" line="234" tag="B"></item>
+    <item id="o6" line="235" tag="B"></item>
+    <item id="o7" line="236" tag="B"></item>
+    <item id="o8" line="237" tag="B"></item>
+    <item id="o9" line="238" tag="B"></item>
+    <item id="o10" line="239" tag="B"></item>
+    <item id="o11" line="240" tag="B"></item>
+    <item id="o12" line="241" tag="B"></item>
+    <item id="o13" line="242" tag="G">          I-erg teacher-M. kiss did-M.</item>
+    <item id="o14" line="243" tag="T">          `I kissed the teacher'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="230" tag="L+CR">M maal m          pa k rd</item>
+    <item id="c3" line="232" tag="B"/>
+    <item id="c4" line="233" tag="B"/>
+    <item id="c5" line="234" tag="B"/>
+    <item id="c6" line="235" tag="B"/>
+    <item id="c7" line="236" tag="B"/>
+    <item id="c8" line="237" tag="B"/>
+    <item id="c9" line="238" tag="B"/>
+    <item id="c10" line="239" tag="B"/>
+    <item id="c11" line="240" tag="B"/>
+    <item id="c12" line="241" tag="B"/>
+    <item id="c13" line="242" tag="G">I-erg teacher-M. kiss did-M.</item>
+    <item id="c14" line="243" tag="T">I kissed the teacher</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:25]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c13[0:28]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c14[0:20]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i9672">
+  <metadata type="xigt-meta">
+    <meta type="language" name="zazaki" iso-639-3="diq" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="1848" line-range="244-256" line-types="L+CR L+CR B B B B B B B B B B G"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="244" tag="L+CR">          M maal m- pa k rd</item>
+    <item id="o2" line="245" tag="L+CR">  (24)                        ci</item>
+    <item id="o3" line="246" tag="B"></item>
+    <item id="o4" line="247" tag="B"></item>
+    <item id="o5" line="248" tag="B"></item>
+    <item id="o6" line="249" tag="B"></item>
+    <item id="o7" line="250" tag="B"></item>
+    <item id="o8" line="251" tag="B"></item>
+    <item id="o9" line="252" tag="B"></item>
+    <item id="o10" line="253" tag="B"></item>
+    <item id="o11" line="254" tag="B"></item>
+    <item id="o12" line="255" tag="B"></item>
+    <item id="o13" line="256" tag="G">          I-erg teacher-F. kiss did-F.</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="244 245" tag="L+CR">M maal m-pa k rd   ci</item>
+    <item id="c3" line="246" tag="B"/>
+    <item id="c4" line="247" tag="B"/>
+    <item id="c5" line="248" tag="B"/>
+    <item id="c6" line="249" tag="B"/>
+    <item id="c7" line="250" tag="B"/>
+    <item id="c8" line="251" tag="B"/>
+    <item id="c9" line="252" tag="B"/>
+    <item id="c10" line="253" tag="B"/>
+    <item id="c11" line="254" tag="B"/>
+    <item id="c12" line="255" tag="B"/>
+    <item id="c13" line="256" tag="G">I-erg teacher-F. kiss did-F.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:21]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c13[0:28]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i9673">
+  <metadata type="xigt-meta">
+    <meta type="language" name="zazaki" iso-639-3="diq" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="1848" line-range="257-270" line-types="L+CR L+CR B B B B B B B B B B G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="257" tag="L+CR">  (25)    M maal m          pa k rdi</item>
+    <item id="o2" line="258" tag="L+CR">                               ci</item>
+    <item id="o3" line="259" tag="B"></item>
+    <item id="o4" line="260" tag="B"></item>
+    <item id="o5" line="261" tag="B"></item>
+    <item id="o6" line="262" tag="B"></item>
+    <item id="o7" line="263" tag="B"></item>
+    <item id="o8" line="264" tag="B"></item>
+    <item id="o9" line="265" tag="B"></item>
+    <item id="o10" line="266" tag="B"></item>
+    <item id="o11" line="267" tag="B"></item>
+    <item id="o12" line="268" tag="B"></item>
+    <item id="o13" line="269" tag="G">          I-erg teacher-Pl. kiss did-Pl.</item>
+    <item id="o14" line="270" tag="T">          `I kissed the teacher'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="257" tag="L+CR">M maal m          pa k rdi</item>
+    <item id="c3" line="259" tag="B"/>
+    <item id="c4" line="260" tag="B"/>
+    <item id="c5" line="261" tag="B"/>
+    <item id="c6" line="262" tag="B"/>
+    <item id="c7" line="263" tag="B"/>
+    <item id="c8" line="264" tag="B"/>
+    <item id="c9" line="265" tag="B"/>
+    <item id="c10" line="266" tag="B"/>
+    <item id="c11" line="267" tag="B"/>
+    <item id="c12" line="268" tag="B"/>
+    <item id="c13" line="269" tag="G">I-erg teacher-Pl. kiss did-Pl.</item>
+    <item id="c14" line="270" tag="T">I kissed the teacher</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:26]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c13[0:30]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c14[0:20]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i9674">
+  <metadata type="xigt-meta">
+    <meta type="language" name="zazaki" iso-639-3="diq" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="1848" line-range="273-285" line-types="L B B B B B B B B B B G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="273" tag="L">  (26)    M o pa k rt ci</item>
+    <item id="o2" line="274" tag="B"></item>
+    <item id="o3" line="275" tag="B"></item>
+    <item id="o4" line="276" tag="B"></item>
+    <item id="o5" line="277" tag="B"></item>
+    <item id="o6" line="278" tag="B"></item>
+    <item id="o7" line="279" tag="B"></item>
+    <item id="o8" line="280" tag="B"></item>
+    <item id="o9" line="281" tag="B"></item>
+    <item id="o10" line="282" tag="B"></item>
+    <item id="o11" line="283" tag="B"></item>
+    <item id="o12" line="284" tag="G">          I-erg he kiss did-M.</item>
+    <item id="o13" line="285" tag="T">          `I kissed him'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="273" tag="L">M o pa k rt ci</item>
+    <item id="c2" line="274" tag="B"/>
+    <item id="c3" line="275" tag="B"/>
+    <item id="c4" line="276" tag="B"/>
+    <item id="c5" line="277" tag="B"/>
+    <item id="c6" line="278" tag="B"/>
+    <item id="c7" line="279" tag="B"/>
+    <item id="c8" line="280" tag="B"/>
+    <item id="c9" line="281" tag="B"/>
+    <item id="c10" line="282" tag="B"/>
+    <item id="c11" line="283" tag="B"/>
+    <item id="c12" line="284" tag="G">I-erg he kiss did-M.</item>
+    <item id="c13" line="285" tag="T">I kissed him</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:14]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c12[0:20]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c13[0:12]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i9675">
+  <metadata type="xigt-meta">
+    <meta type="language" name="zazaki" iso-639-3="diq" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="1848" line-range="292-304" line-types="L B B B B B B B B B B G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="292" tag="L">  (27)    M a pa k rd  ci</item>
+    <item id="o2" line="293" tag="B"></item>
+    <item id="o3" line="294" tag="B"></item>
+    <item id="o4" line="295" tag="B"></item>
+    <item id="o5" line="296" tag="B"></item>
+    <item id="o6" line="297" tag="B"></item>
+    <item id="o7" line="298" tag="B"></item>
+    <item id="o8" line="299" tag="B"></item>
+    <item id="o9" line="300" tag="B"></item>
+    <item id="o10" line="301" tag="B"></item>
+    <item id="o11" line="302" tag="B"></item>
+    <item id="o12" line="303" tag="G">          I-erg she kiss did-F.</item>
+    <item id="o13" line="304" tag="T">          `I kissed her'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="292" tag="L">M a pa k rd  ci</item>
+    <item id="c2" line="293" tag="B"/>
+    <item id="c3" line="294" tag="B"/>
+    <item id="c4" line="295" tag="B"/>
+    <item id="c5" line="296" tag="B"/>
+    <item id="c6" line="297" tag="B"/>
+    <item id="c7" line="298" tag="B"/>
+    <item id="c8" line="299" tag="B"/>
+    <item id="c9" line="300" tag="B"/>
+    <item id="c10" line="301" tag="B"/>
+    <item id="c11" line="302" tag="B"/>
+    <item id="c12" line="303" tag="G">I-erg she kiss did-F.</item>
+    <item id="c13" line="304" tag="T">I kissed her</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:15]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c12[0:21]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c13[0:12]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i9676">
+  <metadata type="xigt-meta">
+    <meta type="language" name="zazaki" iso-639-3="diq" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="1848" line-range="305-318" line-types="L+CR L+CR B B B B B B B B B B G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="305" tag="L+CR">  (28)    Me          pa k rdi</item>
+    <item id="o2" line="306" tag="L+CR">                        ci</item>
+    <item id="o3" line="307" tag="B"></item>
+    <item id="o4" line="308" tag="B"></item>
+    <item id="o5" line="309" tag="B"></item>
+    <item id="o6" line="310" tag="B"></item>
+    <item id="o7" line="311" tag="B"></item>
+    <item id="o8" line="312" tag="B"></item>
+    <item id="o9" line="313" tag="B"></item>
+    <item id="o10" line="314" tag="B"></item>
+    <item id="o11" line="315" tag="B"></item>
+    <item id="o12" line="316" tag="B"></item>
+    <item id="o13" line="317" tag="G">          I-erg they kiss did-Pl.</item>
+    <item id="o14" line="318" tag="T">          `I kissed them'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="305" tag="L+CR">Me          pa k rdi</item>
+    <item id="c3" line="307" tag="B"/>
+    <item id="c4" line="308" tag="B"/>
+    <item id="c5" line="309" tag="B"/>
+    <item id="c6" line="310" tag="B"/>
+    <item id="c7" line="311" tag="B"/>
+    <item id="c8" line="312" tag="B"/>
+    <item id="c9" line="313" tag="B"/>
+    <item id="c10" line="314" tag="B"/>
+    <item id="c11" line="315" tag="B"/>
+    <item id="c12" line="316" tag="B"/>
+    <item id="c13" line="317" tag="G">I-erg they kiss did-Pl.</item>
+    <item id="c14" line="318" tag="T">I kissed them</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:20]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c13[0:23]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c14[0:13]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i9677">
+  <metadata type="xigt-meta">
+    <meta type="language" name="zazaki" iso-639-3="diq" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="1848" line-range="319-333" line-types="L+CR L+CR L+CR B B B B B B B B B B G T+EX"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="319" tag="L+CR">  (29)    M ( d r)</item>
+    <item id="o2" line="320" tag="L+CR">                 so        a-o-o       pa k rdi</item>
+    <item id="o3" line="321" tag="L+CR">                                         ci</item>
+    <item id="o4" line="322" tag="B"></item>
+    <item id="o5" line="323" tag="B"></item>
+    <item id="o6" line="324" tag="B"></item>
+    <item id="o7" line="325" tag="B"></item>
+    <item id="o8" line="326" tag="B"></item>
+    <item id="o9" line="327" tag="B"></item>
+    <item id="o10" line="328" tag="B"></item>
+    <item id="o11" line="329" tag="B"></item>
+    <item id="o12" line="330" tag="B"></item>
+    <item id="o13" line="331" tag="B"></item>
+    <item id="o14" line="332" tag="G">          I-erg (morning) she-conj-he kiss did-Pl.</item>
+    <item id="o15" line="333" tag="T+EX">          `I kissed her and him (in the morning)' (PlAgr)</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="319 321" tag="L+CR">M ( d r)                       ci</item>
+    <item id="c4" line="322" tag="B"/>
+    <item id="c5" line="323" tag="B"/>
+    <item id="c6" line="324" tag="B"/>
+    <item id="c7" line="325" tag="B"/>
+    <item id="c8" line="326" tag="B"/>
+    <item id="c9" line="327" tag="B"/>
+    <item id="c10" line="328" tag="B"/>
+    <item id="c11" line="329" tag="B"/>
+    <item id="c12" line="330" tag="B"/>
+    <item id="c13" line="331" tag="B"/>
+    <item id="c14" line="332" tag="G">I-erg (morning) she-conj-he kiss did-Pl.</item>
+    <item id="c15" line="333" tag="T+EX">I kissed her and him (in the morning)' (PlAgr)</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:33]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c14[0:40]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c15[0:46]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i9678">
+  <metadata type="xigt-meta">
+    <meta type="language" name="zazaki" iso-639-3="diq" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="1848" line-range="335-348" line-types="L+CR L+CR B B B B B B B B B B G T+CN"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="335" tag="L+CR">  (30)    M a-o-o           pa k rd</item>
+    <item id="o2" line="336" tag="L+CR">                               ci</item>
+    <item id="o3" line="337" tag="B"></item>
+    <item id="o4" line="338" tag="B"></item>
+    <item id="o5" line="339" tag="B"></item>
+    <item id="o6" line="340" tag="B"></item>
+    <item id="o7" line="341" tag="B"></item>
+    <item id="o8" line="342" tag="B"></item>
+    <item id="o9" line="343" tag="B"></item>
+    <item id="o10" line="344" tag="B"></item>
+    <item id="o11" line="345" tag="B"></item>
+    <item id="o12" line="346" tag="B"></item>
+    <item id="o13" line="347" tag="G">          I-erg she-conj-he kiss did-M.</item>
+    <item id="o14" line="348" tag="T+CN">          `I kissed her and him' (2ConjAgr)</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="335" tag="L+CR">M a-o-o           pa k rd</item>
+    <item id="c3" line="337" tag="B"/>
+    <item id="c4" line="338" tag="B"/>
+    <item id="c5" line="339" tag="B"/>
+    <item id="c6" line="340" tag="B"/>
+    <item id="c7" line="341" tag="B"/>
+    <item id="c8" line="342" tag="B"/>
+    <item id="c9" line="343" tag="B"/>
+    <item id="c10" line="344" tag="B"/>
+    <item id="c11" line="345" tag="B"/>
+    <item id="c12" line="346" tag="B"/>
+    <item id="c13" line="347" tag="G">I-erg she-conj-he kiss did-M.</item>
+    <item id="c14" line="348" tag="T+CN">I kissed her and him' (2ConjAgr)</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:25]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c13[0:29]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c14[0:32]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i9679">
+  <metadata type="xigt-meta">
+    <meta type="language" name="zazaki" iso-639-3="diq" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="1848" line-range="349-361" line-types="L B B B B B B B B B B G T+CN"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="349" tag="L">  (31)    M o-o-a           paci k rd</item>
+    <item id="o2" line="350" tag="B"></item>
+    <item id="o3" line="351" tag="B"></item>
+    <item id="o4" line="352" tag="B"></item>
+    <item id="o5" line="353" tag="B"></item>
+    <item id="o6" line="354" tag="B"></item>
+    <item id="o7" line="355" tag="B"></item>
+    <item id="o8" line="356" tag="B"></item>
+    <item id="o9" line="357" tag="B"></item>
+    <item id="o10" line="358" tag="B"></item>
+    <item id="o11" line="359" tag="B"></item>
+    <item id="o12" line="360" tag="G">          I-erg he-conj-she kiss did-F.</item>
+    <item id="o13" line="361" tag="T+CN">          `I kissed him and her' (2ConjAgr)</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="349" tag="L">M o-o-a           paci k rd</item>
+    <item id="c2" line="350" tag="B"/>
+    <item id="c3" line="351" tag="B"/>
+    <item id="c4" line="352" tag="B"/>
+    <item id="c5" line="353" tag="B"/>
+    <item id="c6" line="354" tag="B"/>
+    <item id="c7" line="355" tag="B"/>
+    <item id="c8" line="356" tag="B"/>
+    <item id="c9" line="357" tag="B"/>
+    <item id="c10" line="358" tag="B"/>
+    <item id="c11" line="359" tag="B"/>
+    <item id="c12" line="360" tag="G">I-erg he-conj-she kiss did-F.</item>
+    <item id="c13" line="361" tag="T+CN">I kissed him and her' (2ConjAgr)</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:27]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c12[0:29]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c13[0:32]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i9680">
+  <metadata type="xigt-meta">
+    <meta type="language" name="zazaki" iso-639-3="diq" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="1848" line-range="362-374" line-types="L B B B B B B B B B B G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="362" tag="L">  (32)    M a-o-e             paci k rdi</item>
+    <item id="o2" line="363" tag="B"></item>
+    <item id="o3" line="364" tag="B"></item>
+    <item id="o4" line="365" tag="B"></item>
+    <item id="o5" line="366" tag="B"></item>
+    <item id="o6" line="367" tag="B"></item>
+    <item id="o7" line="368" tag="B"></item>
+    <item id="o8" line="369" tag="B"></item>
+    <item id="o9" line="370" tag="B"></item>
+    <item id="o10" line="371" tag="B"></item>
+    <item id="o11" line="372" tag="B"></item>
+    <item id="o12" line="373" tag="G">          I-erg she-conj-they kiss did-Pl.</item>
+    <item id="o13" line="374" tag="T">          `I kissed her and them'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="362" tag="L">M a-o-e             paci k rdi</item>
+    <item id="c2" line="363" tag="B"/>
+    <item id="c3" line="364" tag="B"/>
+    <item id="c4" line="365" tag="B"/>
+    <item id="c5" line="366" tag="B"/>
+    <item id="c6" line="367" tag="B"/>
+    <item id="c7" line="368" tag="B"/>
+    <item id="c8" line="369" tag="B"/>
+    <item id="c9" line="370" tag="B"/>
+    <item id="c10" line="371" tag="B"/>
+    <item id="c11" line="372" tag="B"/>
+    <item id="c12" line="373" tag="G">I-erg she-conj-they kiss did-Pl.</item>
+    <item id="c13" line="374" tag="T">I kissed her and them</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:30]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c12[0:32]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c13[0:21]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i9681">
+  <metadata type="xigt-meta">
+    <meta type="language" name="zazaki" iso-639-3="diq" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="1848" line-range="375-387" line-types="L+CR L+CR B B B B B B B B B B G"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="375" tag="L+CR">  (33)    a, m pa k rd</item>
+    <item id="o2" line="376" tag="L+CR">                    c</item>
+    <item id="o3" line="377" tag="B"></item>
+    <item id="o4" line="378" tag="B"></item>
+    <item id="o5" line="379" tag="B"></item>
+    <item id="o6" line="380" tag="B"></item>
+    <item id="o7" line="381" tag="B"></item>
+    <item id="o8" line="382" tag="B"></item>
+    <item id="o9" line="383" tag="B"></item>
+    <item id="o10" line="384" tag="B"></item>
+    <item id="o11" line="385" tag="B"></item>
+    <item id="o12" line="386" tag="B"></item>
+    <item id="o13" line="387" tag="G">          she, I kiss did-F.</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="375" tag="L+CR">a, m pa k rd</item>
+    <item id="c3" line="377" tag="B"/>
+    <item id="c4" line="378" tag="B"/>
+    <item id="c5" line="379" tag="B"/>
+    <item id="c6" line="380" tag="B"/>
+    <item id="c7" line="381" tag="B"/>
+    <item id="c8" line="382" tag="B"/>
+    <item id="c9" line="383" tag="B"/>
+    <item id="c10" line="384" tag="B"/>
+    <item id="c11" line="385" tag="B"/>
+    <item id="c12" line="386" tag="B"/>
+    <item id="c13" line="387" tag="G">she, I kiss did-F.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:12]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c13[0:18]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i9682">
+  <metadata type="xigt-meta">
+    <meta type="language" name="zazaki" iso-639-3="diq" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="1848" line-range="388-400" line-types="L+CR L+CR B B B B B B B B B B G"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="388" tag="L+CR">  (34)    a-o-e,       m pa k rd</item>
+    <item id="o2" line="389" tag="L+CR">                            c</item>
+    <item id="o3" line="390" tag="B"></item>
+    <item id="o4" line="391" tag="B"></item>
+    <item id="o5" line="392" tag="B"></item>
+    <item id="o6" line="393" tag="B"></item>
+    <item id="o7" line="394" tag="B"></item>
+    <item id="o8" line="395" tag="B"></item>
+    <item id="o9" line="396" tag="B"></item>
+    <item id="o10" line="397" tag="B"></item>
+    <item id="o11" line="398" tag="B"></item>
+    <item id="o12" line="399" tag="B"></item>
+    <item id="o13" line="400" tag="G">          her-and-him, I kiss did-Pl.</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="388" tag="L+CR">a-o-e,       m pa k rd</item>
+    <item id="c3" line="390" tag="B"/>
+    <item id="c4" line="391" tag="B"/>
+    <item id="c5" line="392" tag="B"/>
+    <item id="c6" line="393" tag="B"/>
+    <item id="c7" line="394" tag="B"/>
+    <item id="c8" line="395" tag="B"/>
+    <item id="c9" line="396" tag="B"/>
+    <item id="c10" line="397" tag="B"/>
+    <item id="c11" line="398" tag="B"/>
+    <item id="c12" line="399" tag="B"/>
+    <item id="c13" line="400" tag="G">her-and-him, I kiss did-Pl.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:22]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c13[0:27]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i9683">
+  <metadata type="xigt-meta">
+    <meta type="language" name="zazaki" iso-639-3="diq" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="1848" line-range="408-415" line-types="L B B B B B G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="408" tag="L">  (35)    m n-o braye-xo...</item>
+    <item id="o2" line="409" tag="B"></item>
+    <item id="o3" line="410" tag="B"></item>
+    <item id="o4" line="411" tag="B"></item>
+    <item id="o5" line="412" tag="B"></item>
+    <item id="o6" line="413" tag="B"></item>
+    <item id="o7" line="414" tag="G">          I-conj. brother-linkposs.m-self 's...</item>
+    <item id="o8" line="415" tag="T">          `I and my brother...'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="408" tag="L">m n-o braye-xo...</item>
+    <item id="c2" line="409" tag="B"/>
+    <item id="c3" line="410" tag="B"/>
+    <item id="c4" line="411" tag="B"/>
+    <item id="c5" line="412" tag="B"/>
+    <item id="c6" line="413" tag="B"/>
+    <item id="c7" line="414" tag="G">I-conj. brother-linkposs.m-self 's...</item>
+    <item id="c8" line="415" tag="T">I and my brother...</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:17]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c7[0:37]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c8[0:19]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i9684">
+  <metadata type="xigt-meta">
+    <meta type="language" name="zazaki" iso-639-3="diq" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="1848" line-range="416-418" line-types="L G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="416" tag="L">  (36)    ez xo wineno</item>
+    <item id="o2" line="417" tag="G">          I self see-M.</item>
+    <item id="o3" line="418" tag="T">          `I see myself '</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="416" tag="L">ez xo wineno</item>
+    <item id="c2" line="417" tag="G">I self see-M.</item>
+    <item id="c3" line="418" tag="T">I see myself</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:12]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:13]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:12]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i9685">
+  <metadata type="xigt-meta">
+    <meta type="language" name="zazaki" iso-639-3="diq" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="1848" line-range="419-426" line-types="L B B B B B G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="419" tag="L">  (37)    M bra-e-xo                       di</item>
+    <item id="o2" line="420" tag="B"></item>
+    <item id="o3" line="421" tag="B"></item>
+    <item id="o4" line="422" tag="B"></item>
+    <item id="o5" line="423" tag="B"></item>
+    <item id="o6" line="424" tag="B"></item>
+    <item id="o7" line="425" tag="G">          I-erg brother-linkposs.m-self 's saw-M.</item>
+    <item id="o8" line="426" tag="T">          `I saw my brother'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="419" tag="L">M bra-e-xo                       di</item>
+    <item id="c2" line="420" tag="B"/>
+    <item id="c3" line="421" tag="B"/>
+    <item id="c4" line="422" tag="B"/>
+    <item id="c5" line="423" tag="B"/>
+    <item id="c6" line="424" tag="B"/>
+    <item id="c7" line="425" tag="G">I-erg brother-linkposs.m-self 's saw-M.</item>
+    <item id="c8" line="426" tag="T">I saw my brother</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:35]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c7[0:39]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c8[0:16]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i9686">
+  <metadata type="xigt-meta">
+    <meta type="language" name="zazaki" iso-639-3="diq" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="1848" line-range="427-435" line-types="L+CR L+CR B B B B B G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="427" tag="L+CR">          M way-a-xo                      di-e</item>
+    <item id="o2" line="428" tag="L+CR">  (38)</item>
+    <item id="o3" line="429" tag="B"></item>
+    <item id="o4" line="430" tag="B"></item>
+    <item id="o5" line="431" tag="B"></item>
+    <item id="o6" line="432" tag="B"></item>
+    <item id="o7" line="433" tag="B"></item>
+    <item id="o8" line="434" tag="G">          I-erg sister-linkposs.f-self 's saw-F.</item>
+    <item id="o9" line="435" tag="T">          `I saw my sister'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="427 428" tag="L+CR">M way-a-xo                      di-e</item>
+    <item id="c3" line="429" tag="B"/>
+    <item id="c4" line="430" tag="B"/>
+    <item id="c5" line="431" tag="B"/>
+    <item id="c6" line="432" tag="B"/>
+    <item id="c7" line="433" tag="B"/>
+    <item id="c8" line="434" tag="G">I-erg sister-linkposs.f-self 's saw-F.</item>
+    <item id="c9" line="435" tag="T">I saw my sister</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:36]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c8[0:38]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c9[0:15]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i9687">
+  <metadata type="xigt-meta">
+    <meta type="language" name="zazaki" iso-639-3="diq" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="1848" line-range="436-443" line-types="L B B B B B G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="436" tag="L">  (39)    Bra-e              m ez dia</item>
+    <item id="o2" line="437" tag="B"></item>
+    <item id="o3" line="438" tag="B"></item>
+    <item id="o4" line="439" tag="B"></item>
+    <item id="o5" line="440" tag="B"></item>
+    <item id="o6" line="441" tag="B"></item>
+    <item id="o7" line="442" tag="G">          Brother-linkposs.m my I saw</item>
+    <item id="o8" line="443" tag="T">          `My brother saw me'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="436" tag="L">Bra-e              m ez dia</item>
+    <item id="c2" line="437" tag="B"/>
+    <item id="c3" line="438" tag="B"/>
+    <item id="c4" line="439" tag="B"/>
+    <item id="c5" line="440" tag="B"/>
+    <item id="c6" line="441" tag="B"/>
+    <item id="c7" line="442" tag="G">Brother-linkposs.m my I saw</item>
+    <item id="c8" line="443" tag="T">My brother saw me</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:27]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c7[0:27]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c8[0:17]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i9688">
+  <metadata type="xigt-meta">
+    <meta type="language" name="zazaki" iso-639-3="diq" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="1848" line-range="451-458" line-types="L B B B B B G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="451" tag="L">  (40)    Maleme m waya-xo          di-e.</item>
+    <item id="o2" line="452" tag="B"></item>
+    <item id="o3" line="453" tag="B"></item>
+    <item id="o4" line="454" tag="B"></item>
+    <item id="o5" line="455" tag="B"></item>
+    <item id="o6" line="456" tag="B"></item>
+    <item id="o7" line="457" tag="G">          Teacher my sister-self 's saw-F.</item>
+    <item id="o8" line="458" tag="T">          `My teacher saw his/*my sister'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="451" tag="L">Maleme m waya-xo          di-e.</item>
+    <item id="c2" line="452" tag="B"/>
+    <item id="c3" line="453" tag="B"/>
+    <item id="c4" line="454" tag="B"/>
+    <item id="c5" line="455" tag="B"/>
+    <item id="c6" line="456" tag="B"/>
+    <item id="c7" line="457" tag="G">Teacher my sister-self 's saw-F.</item>
+    <item id="c8" line="458" tag="T">My teacher saw his/*my sister</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:31]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c7[0:32]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c8[0:29]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i9689">
+  <metadata type="xigt-meta">
+    <meta type="language" name="zazaki" iso-639-3="diq" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="1848" line-range="486-498" line-types="L+CR L+CR B B B B B B B B B B G"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="486" tag="L+CR">  (42)    way-a            q  k / p ile</item>
+    <item id="o2" line="487" tag="L+CR">                             sk</item>
+    <item id="o3" line="488" tag="B"></item>
+    <item id="o4" line="489" tag="B"></item>
+    <item id="o5" line="490" tag="B"></item>
+    <item id="o6" line="491" tag="B"></item>
+    <item id="o7" line="492" tag="B"></item>
+    <item id="o8" line="493" tag="B"></item>
+    <item id="o9" line="494" tag="B"></item>
+    <item id="o10" line="495" tag="B"></item>
+    <item id="o11" line="496" tag="B"></item>
+    <item id="o12" line="497" tag="B"></item>
+    <item id="o13" line="498" tag="G">          sister-linkadj.f younger-f. / older-f.</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="486" tag="L+CR">way-a            q  k / p ile</item>
+    <item id="c3" line="488" tag="B"/>
+    <item id="c4" line="489" tag="B"/>
+    <item id="c5" line="490" tag="B"/>
+    <item id="c6" line="491" tag="B"/>
+    <item id="c7" line="492" tag="B"/>
+    <item id="c8" line="493" tag="B"/>
+    <item id="c9" line="494" tag="B"/>
+    <item id="c10" line="495" tag="B"/>
+    <item id="c11" line="496" tag="B"/>
+    <item id="c12" line="497" tag="B"/>
+    <item id="c13" line="498" tag="G">sister-linkadj.f younger-f. / older-f.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:29]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c13[0:38]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i9690">
+  <metadata type="xigt-meta">
+    <meta type="language" name="zazaki" iso-639-3="diq" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="1848" line-range="499-505" line-types="L B B B B B G"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="499" tag="L">  (43)    am k-a             q ze</item>
+    <item id="o2" line="500" tag="B"></item>
+    <item id="o3" line="501" tag="B"></item>
+    <item id="o4" line="502" tag="B"></item>
+    <item id="o5" line="503" tag="B"></item>
+    <item id="o6" line="504" tag="B"></item>
+    <item id="o7" line="505" tag="G">          mat.aunt-linkadj.f young-F.</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="499" tag="L">am k-a             q ze</item>
+    <item id="c2" line="500" tag="B"/>
+    <item id="c3" line="501" tag="B"/>
+    <item id="c4" line="502" tag="B"/>
+    <item id="c5" line="503" tag="B"/>
+    <item id="c6" line="504" tag="B"/>
+    <item id="c7" line="505" tag="G">mat.aunt-linkadj.f young-F.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:23]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c7[0:27]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i9691">
+  <metadata type="xigt-meta">
+    <meta type="language" name="zazaki" iso-639-3="diq" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="1848" line-range="518-525" line-types="L B B B B B G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="518" tag="L">  (44)    xal k-a            q ze</item>
+    <item id="o2" line="519" tag="B"></item>
+    <item id="o3" line="520" tag="B"></item>
+    <item id="o4" line="521" tag="B"></item>
+    <item id="o5" line="522" tag="B"></item>
+    <item id="o6" line="523" tag="B"></item>
+    <item id="o7" line="524" tag="G">          pat.aunt-linkadj.f young-f.</item>
+    <item id="o8" line="525" tag="T">          [father's sister]</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="518" tag="L">xal k-a            q ze</item>
+    <item id="c2" line="519" tag="B"/>
+    <item id="c3" line="520" tag="B"/>
+    <item id="c4" line="521" tag="B"/>
+    <item id="c5" line="522" tag="B"/>
+    <item id="c6" line="523" tag="B"/>
+    <item id="c7" line="524" tag="G">pat.aunt-linkadj.f young-f.</item>
+    <item id="c8" line="525" tag="T">[father's sister]</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:23]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c7[0:27]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c8[0:17]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i9692">
+  <metadata type="xigt-meta">
+    <meta type="language" name="zazaki" iso-639-3="diq" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="1848" line-range="531-537" line-types="L B B B B B G"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="531" tag="L">  (45)    mae/ mai /p i/ kal k / p ilke</item>
+    <item id="o2" line="532" tag="B"></item>
+    <item id="o3" line="533" tag="B"></item>
+    <item id="o4" line="534" tag="B"></item>
+    <item id="o5" line="535" tag="B"></item>
+    <item id="o6" line="536" tag="B"></item>
+    <item id="o7" line="537" tag="G">          mother/mothers/father/grandmother/grandfather</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="531" tag="L">mae/ mai /p i/ kal k / p ilke</item>
+    <item id="c2" line="532" tag="B"/>
+    <item id="c3" line="533" tag="B"/>
+    <item id="c4" line="534" tag="B"/>
+    <item id="c5" line="535" tag="B"/>
+    <item id="c6" line="536" tag="B"/>
+    <item id="c7" line="537" tag="G">mother/mothers/father/grandmother/grandfather</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:29]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c7[0:45]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i9693">
+  <metadata type="xigt-meta">
+    <meta type="language" name="zazaki" iso-639-3="diq" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="1848" line-range="543-550" line-types="L+CR L+CR B B B B G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="543" tag="L+CR">          ma-o-p i-                      ma</item>
+    <item id="o2" line="544" tag="L+CR">  (46)</item>
+    <item id="o3" line="545" tag="B"></item>
+    <item id="o4" line="546" tag="B"></item>
+    <item id="o5" line="547" tag="B"></item>
+    <item id="o6" line="548" tag="B"></item>
+    <item id="o7" line="549" tag="G">          mother-conj-father-linkposs.pl my-pl.</item>
+    <item id="o8" line="550" tag="T">          `my mother and father'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="543 544" tag="L+CR">ma-o-p i-ma</item>
+    <item id="c3" line="545" tag="B"/>
+    <item id="c4" line="546" tag="B"/>
+    <item id="c5" line="547" tag="B"/>
+    <item id="c6" line="548" tag="B"/>
+    <item id="c7" line="549" tag="G">mother-conj-father-linkposs.pl my-pl.</item>
+    <item id="c8" line="550" tag="T">my mother and father</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:11]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c7[0:37]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c8[0:20]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i9694">
+  <metadata type="xigt-meta">
+    <meta type="language" name="zazaki" iso-639-3="diq" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="1848" line-range="556-561" line-types="L B B B B G"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="556" tag="L">  (47)    p io deuliti/ p i deuliti</item>
+    <item id="o2" line="557" tag="B"></item>
+    <item id="o3" line="558" tag="B"></item>
+    <item id="o4" line="559" tag="B"></item>
+    <item id="o5" line="560" tag="B"></item>
+    <item id="o6" line="561" tag="G">          rich father / rich fathers</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="556" tag="L">p io deuliti/ p i deuliti</item>
+    <item id="c2" line="557" tag="B"/>
+    <item id="c3" line="558" tag="B"/>
+    <item id="c4" line="559" tag="B"/>
+    <item id="c5" line="560" tag="B"/>
+    <item id="c6" line="561" tag="G">rich father / rich fathers</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:25]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c6[0:26]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i9695">
+  <metadata type="xigt-meta">
+    <meta type="language" name="zazaki" iso-639-3="diq" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="1848" line-range="563-575" line-types="L B B B B B B B B B B G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="563" tag="L">          (48) M biriiya                maya               xo k rda</item>
+    <item id="o2" line="564" tag="B"></item>
+    <item id="o3" line="565" tag="B"></item>
+    <item id="o4" line="566" tag="B"></item>
+    <item id="o5" line="567" tag="B"></item>
+    <item id="o6" line="568" tag="B"></item>
+    <item id="o7" line="569" tag="B"></item>
+    <item id="o8" line="570" tag="B"></item>
+    <item id="o9" line="571" tag="B"></item>
+    <item id="o10" line="572" tag="B"></item>
+    <item id="o11" line="573" tag="B"></item>
+    <item id="o12" line="574" tag="G">               I-erg missing-linkposs.f mother-link-poss.f self 's did-F.</item>
+    <item id="o13" line="575" tag="T">               `I missed my mother'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="563" tag="L">M biriiya                maya               xo k rda</item>
+    <item id="c2" line="564" tag="B"/>
+    <item id="c3" line="565" tag="B"/>
+    <item id="c4" line="566" tag="B"/>
+    <item id="c5" line="567" tag="B"/>
+    <item id="c6" line="568" tag="B"/>
+    <item id="c7" line="569" tag="B"/>
+    <item id="c8" line="570" tag="B"/>
+    <item id="c9" line="571" tag="B"/>
+    <item id="c10" line="572" tag="B"/>
+    <item id="c11" line="573" tag="B"/>
+    <item id="c12" line="574" tag="G">I-erg missing-linkposs.f mother-link-poss.f self 's did-F.</item>
+    <item id="c13" line="575" tag="T">I missed my mother</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:52]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c12[0:58]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c13[0:18]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i9696">
+  <metadata type="xigt-meta">
+    <meta type="language" name="zazaki" iso-639-3="diq" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="1848" line-range="582-594" line-types="L B B B B B B B B B B G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="582" tag="L">  (49)   M biriiya d                k rda</item>
+    <item id="o2" line="583" tag="B"></item>
+    <item id="o3" line="584" tag="B"></item>
+    <item id="o4" line="585" tag="B"></item>
+    <item id="o5" line="586" tag="B"></item>
+    <item id="o6" line="587" tag="B"></item>
+    <item id="o7" line="588" tag="B"></item>
+    <item id="o8" line="589" tag="B"></item>
+    <item id="o9" line="590" tag="B"></item>
+    <item id="o10" line="591" tag="B"></item>
+    <item id="o11" line="592" tag="B"></item>
+    <item id="o12" line="593" tag="G">         I-erg missing 3sgmasc-gen. did</item>
+    <item id="o13" line="594" tag="T">         `I missed her'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="582" tag="L">M biriiya d                k rda</item>
+    <item id="c2" line="583" tag="B"/>
+    <item id="c3" line="584" tag="B"/>
+    <item id="c4" line="585" tag="B"/>
+    <item id="c5" line="586" tag="B"/>
+    <item id="c6" line="587" tag="B"/>
+    <item id="c7" line="588" tag="B"/>
+    <item id="c8" line="589" tag="B"/>
+    <item id="c9" line="590" tag="B"/>
+    <item id="c10" line="591" tag="B"/>
+    <item id="c11" line="592" tag="B"/>
+    <item id="c12" line="593" tag="G">I-erg missing 3sgmasc-gen. did</item>
+    <item id="c13" line="594" tag="T">I missed her</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:32]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c12[0:30]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c13[0:12]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i9697">
+  <metadata type="xigt-meta">
+    <meta type="language" name="zazaki" iso-639-3="diq" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="1848" line-range="595-608" line-types="L+CR L+CR B B B B B B B B B B G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="595" tag="L+CR">         M biriiya da              k rda</item>
+    <item id="o2" line="596" tag="L+CR">  (50)</item>
+    <item id="o3" line="597" tag="B"></item>
+    <item id="o4" line="598" tag="B"></item>
+    <item id="o5" line="599" tag="B"></item>
+    <item id="o6" line="600" tag="B"></item>
+    <item id="o7" line="601" tag="B"></item>
+    <item id="o8" line="602" tag="B"></item>
+    <item id="o9" line="603" tag="B"></item>
+    <item id="o10" line="604" tag="B"></item>
+    <item id="o11" line="605" tag="B"></item>
+    <item id="o12" line="606" tag="B"></item>
+    <item id="o13" line="607" tag="G">         I-erg missing 3sgfem-gen. did</item>
+    <item id="o14" line="608" tag="T">         `I missed her'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="595 596" tag="L+CR">M biriiya da              k rda</item>
+    <item id="c3" line="597" tag="B"/>
+    <item id="c4" line="598" tag="B"/>
+    <item id="c5" line="599" tag="B"/>
+    <item id="c6" line="600" tag="B"/>
+    <item id="c7" line="601" tag="B"/>
+    <item id="c8" line="602" tag="B"/>
+    <item id="c9" line="603" tag="B"/>
+    <item id="c10" line="604" tag="B"/>
+    <item id="c11" line="605" tag="B"/>
+    <item id="c12" line="606" tag="B"/>
+    <item id="c13" line="607" tag="G">I-erg missing 3sgfem-gen. did</item>
+    <item id="c14" line="608" tag="T">I missed her</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:31]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c13[0:29]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c14[0:12]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i9698">
+  <metadata type="xigt-meta">
+    <meta type="language" name="zazaki" iso-639-3="diq" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="1848" line-range="609-621" line-types="L B B B B B B B B B B G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="609" tag="L">  (51)   M biriiya dina         k rda</item>
+    <item id="o2" line="610" tag="B"></item>
+    <item id="o3" line="611" tag="B"></item>
+    <item id="o4" line="612" tag="B"></item>
+    <item id="o5" line="613" tag="B"></item>
+    <item id="o6" line="614" tag="B"></item>
+    <item id="o7" line="615" tag="B"></item>
+    <item id="o8" line="616" tag="B"></item>
+    <item id="o9" line="617" tag="B"></item>
+    <item id="o10" line="618" tag="B"></item>
+    <item id="o11" line="619" tag="B"></item>
+    <item id="o12" line="620" tag="G">         I-erg missing 3pl-gen. did</item>
+    <item id="o13" line="621" tag="T">         `I missed them'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="609" tag="L">M biriiya dina         k rda</item>
+    <item id="c2" line="610" tag="B"/>
+    <item id="c3" line="611" tag="B"/>
+    <item id="c4" line="612" tag="B"/>
+    <item id="c5" line="613" tag="B"/>
+    <item id="c6" line="614" tag="B"/>
+    <item id="c7" line="615" tag="B"/>
+    <item id="c8" line="616" tag="B"/>
+    <item id="c9" line="617" tag="B"/>
+    <item id="c10" line="618" tag="B"/>
+    <item id="c11" line="619" tag="B"/>
+    <item id="c12" line="620" tag="G">I-erg missing 3pl-gen. did</item>
+    <item id="c13" line="621" tag="T">I missed them</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:28]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c12[0:26]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c13[0:13]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i9699">
+  <metadata type="xigt-meta">
+    <meta type="language" name="zazaki" iso-639-3="diq" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="1848" line-range="622-635" line-types="L M B B B B B B B B B B G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="622" tag="L">         M may-a-xo                      xoviira    k rda</item>
+    <item id="o2" line="623" tag="M">  (52)</item>
+    <item id="o3" line="624" tag="B"></item>
+    <item id="o4" line="625" tag="B"></item>
+    <item id="o5" line="626" tag="B"></item>
+    <item id="o6" line="627" tag="B"></item>
+    <item id="o7" line="628" tag="B"></item>
+    <item id="o8" line="629" tag="B"></item>
+    <item id="o9" line="630" tag="B"></item>
+    <item id="o10" line="631" tag="B"></item>
+    <item id="o11" line="632" tag="B"></item>
+    <item id="o12" line="633" tag="B"></item>
+    <item id="o13" line="634" tag="G">         I-erg mother-linkposs.f-self 's forgetting did-F(?)</item>
+    <item id="o14" line="635" tag="T">         I forgot my mother</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="622" tag="L">M may-a-xo                      xoviira    k rda</item>
+    <item id="c2" line="623" tag="M">52</item>
+    <item id="c3" line="624" tag="B"/>
+    <item id="c4" line="625" tag="B"/>
+    <item id="c5" line="626" tag="B"/>
+    <item id="c6" line="627" tag="B"/>
+    <item id="c7" line="628" tag="B"/>
+    <item id="c8" line="629" tag="B"/>
+    <item id="c9" line="630" tag="B"/>
+    <item id="c10" line="631" tag="B"/>
+    <item id="c11" line="632" tag="B"/>
+    <item id="c12" line="633" tag="B"/>
+    <item id="c13" line="634" tag="G">I-erg mother-linkposs.f-self 's forgetting did-F(?)</item>
+    <item id="c14" line="635" tag="T">I forgot my mother</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:48]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c13[0:51]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c14[0:18]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i9700">
+  <metadata type="xigt-meta">
+    <meta type="language" name="zazaki" iso-639-3="diq" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="1848" line-range="636-648" line-types="L B B B B B B B B B B G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="636" tag="L">  (53)   M a xoviira          k rda</item>
+    <item id="o2" line="637" tag="B"></item>
+    <item id="o3" line="638" tag="B"></item>
+    <item id="o4" line="639" tag="B"></item>
+    <item id="o5" line="640" tag="B"></item>
+    <item id="o6" line="641" tag="B"></item>
+    <item id="o7" line="642" tag="B"></item>
+    <item id="o8" line="643" tag="B"></item>
+    <item id="o9" line="644" tag="B"></item>
+    <item id="o10" line="645" tag="B"></item>
+    <item id="o11" line="646" tag="B"></item>
+    <item id="o12" line="647" tag="G">         I-erg she forgetting did-F(?)</item>
+    <item id="o13" line="648" tag="T">         I forgot her</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="636" tag="L">M a xoviira          k rda</item>
+    <item id="c2" line="637" tag="B"/>
+    <item id="c3" line="638" tag="B"/>
+    <item id="c4" line="639" tag="B"/>
+    <item id="c5" line="640" tag="B"/>
+    <item id="c6" line="641" tag="B"/>
+    <item id="c7" line="642" tag="B"/>
+    <item id="c8" line="643" tag="B"/>
+    <item id="c9" line="644" tag="B"/>
+    <item id="c10" line="645" tag="B"/>
+    <item id="c11" line="646" tag="B"/>
+    <item id="c12" line="647" tag="G">I-erg she forgetting did-F(?)</item>
+    <item id="c13" line="648" tag="T">I forgot her</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:26]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c12[0:29]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c13[0:12]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i9701">
+  <metadata type="xigt-meta">
+    <meta type="language" name="zazaki" iso-639-3="diq" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="1848" line-range="654-666" line-types="L B B B B B B B B B B G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="654" tag="L">  (54)   M p ii-e-xo                     xoviira    k rd</item>
+    <item id="o2" line="655" tag="B"></item>
+    <item id="o3" line="656" tag="B"></item>
+    <item id="o4" line="657" tag="B"></item>
+    <item id="o5" line="658" tag="B"></item>
+    <item id="o6" line="659" tag="B"></item>
+    <item id="o7" line="660" tag="B"></item>
+    <item id="o8" line="661" tag="B"></item>
+    <item id="o9" line="662" tag="B"></item>
+    <item id="o10" line="663" tag="B"></item>
+    <item id="o11" line="664" tag="B"></item>
+    <item id="o12" line="665" tag="G">         I-erg father-linkposs.m-self 's forgetting did-M.</item>
+    <item id="o13" line="666" tag="T">         I forgot my father</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="654" tag="L">M p ii-e-xo                     xoviira    k rd</item>
+    <item id="c2" line="655" tag="B"/>
+    <item id="c3" line="656" tag="B"/>
+    <item id="c4" line="657" tag="B"/>
+    <item id="c5" line="658" tag="B"/>
+    <item id="c6" line="659" tag="B"/>
+    <item id="c7" line="660" tag="B"/>
+    <item id="c8" line="661" tag="B"/>
+    <item id="c9" line="662" tag="B"/>
+    <item id="c10" line="663" tag="B"/>
+    <item id="c11" line="664" tag="B"/>
+    <item id="c12" line="665" tag="G">I-erg father-linkposs.m-self 's forgetting did-M.</item>
+    <item id="c13" line="666" tag="T">I forgot my father</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:47]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c12[0:49]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c13[0:18]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i15880">
+  <metadata type="xigt-meta">
+    <meta type="language" name="zazaki" iso-639-3="diq" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3542" line-range="1138-1140" line-types="L G T+DB"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="1138" tag="L">  (52)   HEseni       va kE Ez dEwletia.</item>
+    <item id="o2" line="1139" tag="G">         Hesen-OBL said that I         rich.be</item>
+    <item id="o3" line="1140" tag="T+DB">         `Hesen said that he (Hesen) is rich' or `Hesen said that I am a rich'.</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="1138" tag="L">HEseni       va kE Ez dEwletia.</item>
+    <item id="c2" line="1139" tag="G">Hesen-OBL said that I         rich.be</item>
+    <item id="c3" line="1140" tag="T+DB">Hesen said that he (Hesen) is rich' or `Hesen said that I am a rich'.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:31]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:37]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:69]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i15881">
+  <metadata type="xigt-meta">
+    <meta type="language" name="zazaki" iso-639-3="diq" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3542" line-range="1163-1168" line-types="L G L G T T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="1163" tag="L">  (54)    HEsen      va kE pyaay kE mI-ra             hes kene</item>
+    <item id="o2" line="1164" tag="G">          Hesen      says that people that me-OBL like do</item>
+    <item id="o3" line="1165" tag="L">          pyaay    kE mI-ra         hes ne kene ame zuja.</item>
+    <item id="o4" line="1166" tag="G">          people   that me-OBL like NEG do came together</item>
+    <item id="o5" line="1167" tag="T">          `Hesen   said that the people who like him/me and the people who don't like him/me</item>
+    <item id="o6" line="1168" tag="T">          met.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="1163" tag="L">HEsen      va kE pyaay kE mI-ra             hes kene</item>
+    <item id="c2" line="1164" tag="G">Hesen      says that people that me-OBL like do</item>
+    <item id="c3" line="1165" tag="L">pyaay    kE mI-ra         hes ne kene ame zuja.</item>
+    <item id="c4" line="1166" tag="G">people   that me-OBL like NEG do came together</item>
+    <item id="c5" line="1167" tag="T">Hesen   said that the people who like him/me and the people who don't like him/me</item>
+    <item id="c6" line="1168" tag="T">met.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:52]"/>
+    <item id="p1" content="c3[0:47]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:47]" alignment="p1"/>
+    <item id="g1" content="c4[0:46]" alignment="p2"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c5[0:81]" alignment="p2"/>
+    <item id="t1" content="c6[0:4]" alignment="p2"/>
+  </tier>
+</igt>
+<igt id="i18077">
+  <metadata type="xigt-meta">
+    <meta type="language" name="zaza" iso-639-3="diq" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="1607" line-range="1324-1327" line-types="M+AC+LN L G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="1324" tag="M+AC+LN">  (73) a. Zaza (an Iranian language of Turkey; Selcan 1998:667)</item>
+    <item id="o2" line="1325" tag="L">          Na r%ozu gê hewro, gê pakao.</item>
+    <item id="o3" line="1326" tag="G">         these days      now cloudy      now clear</item>
+    <item id="o4" line="1327" tag="T">         `These days it is sometimes cloudy, sometimes the skies are clear.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="1324" tag="M+AC+LN">a. Zaza (an Iranian language of Turkey; Selcan 1998:667</item>
+    <item id="c2" line="1325" tag="L">Na r%ozu gê hewro, gê pakao.</item>
+    <item id="c3" line="1326" tag="G">these days      now cloudy      now clear</item>
+    <item id="c4" line="1327" tag="T">These days it is sometimes cloudy, sometimes the skies are clear.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c2[0:28]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:41]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c4[0:65]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i75027">
+  <metadata type="xigt-meta">
+    <meta type="language" name="zazaki" iso-639-3="diq" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3699" line-range="678-681" line-types="L+CR L+CR G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="678" tag="L+CR">          Waxto k ma D.-de bime, H.       m -ra va k o ita ame dina.</item>
+    <item id="o2" line="679" tag="L+CR">  (56)</item>
+    <item id="o3" line="680" tag="G">          when that we D.-at were H.obv me-at said that he here came world</item>
+    <item id="o4" line="681" tag="T">          `When we were in Diyarbekir, Hesen told me he was born in D.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="678 679" tag="L+CR">Waxto k ma D.-de bime, H.       m-ra va k o ita ame dina.</item>
+    <item id="c3" line="680" tag="G">when that we D.-at were H.obv me-at said that he here came world</item>
+    <item id="c4" line="681" tag="T">When we were in Diyarbekir, Hesen told me he was born in D.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:57]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:64]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c4[0:59]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i118109">
+  <metadata type="xigt-meta">
+    <meta type="language" name="zaza kurdish" iso-639-3="diq" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3657" line-range="3531-3533" line-types="M+AC+LN L G-T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="3531" tag="M+AC+LN">  (3) ZAZA KURDISH (Smirnova &amp; Ejubi 1998: 35)</item>
+    <item id="o2" line="3532" tag="L">      láz- mn-o pil</item>
+    <item id="o3" line="3533" tag="G-T">      son-IZF.POS.M 1SG:OBL-IZF.ATR.M elder            `my elder brother'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="3531" tag="M+AC+LN">ZAZA KURDISH (Smirnova &amp; Ejubi 1998: 35</item>
+    <item id="c2" line="3532" tag="L">láz-mn-o pil</item>
+    <item id="c3" line="3533" tag="G-T">son-IZF.POS.M 1SG:OBL-IZF.ATR.M elder            `my elder brother</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c2[0:12]"/>
+  </tier>
+</igt>
+</xigt-corpus>

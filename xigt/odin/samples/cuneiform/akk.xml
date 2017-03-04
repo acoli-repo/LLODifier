@@ -1,0 +1,568 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xigt-corpus>
+<igt id="i151203">
+  <metadata type="xigt-meta">
+    <meta type="language" name="akkadian" iso-639-3="akk" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="2419" line-range="72-74" line-types="L G T+EX"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="72" tag="L">             hubull-um su                  al X ibasse'-u</item>
+    <item id="o2" line="73" tag="G">             debt-nom rel.nom(m.sg) on X exist.3m.sg-sub3</item>
+    <item id="o3" line="74" tag="T+EX">             `(this is) the debt that is upon X' (HSS 10:109:22)</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="72" tag="L">hubull-um su                  al X ibasse'-u</item>
+    <item id="c2" line="73" tag="G">debt-nom rel.nom(m.sg) on X exist.3m.sg-sub3</item>
+    <item id="c3" line="74" tag="T+EX">this is) the debt that is upon X' (HSS 10:109:22</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:44]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:44]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:48]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i151204">
+  <metadata type="xigt-meta">
+    <meta type="language" name="akkadian" iso-639-3="akk" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="2419" line-range="76-79" line-types="L M G T+EX"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="76" tag="L">             se'-um      su               ana ¶e.ba asit-u</item>
+    <item id="o2" line="77" tag="M">                                                         ¯</item>
+    <item id="o3" line="78" tag="G">             barley-nom rel.nom(m.sg) to rations I.left-sub</item>
+    <item id="o4" line="79" tag="T+EX">             `(concerning) the barley that I had left over for rations' (SAB: Ga 3:4)</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="76" tag="L">se'-um      su               ana ¶e.ba asit-u</item>
+    <item id="c2" line="77" tag="M">¯</item>
+    <item id="c3" line="78" tag="G">barley-nom rel.nom(m.sg) to rations I.left-sub</item>
+    <item id="c4" line="79" tag="T+EX">concerning) the barley that I had left over for rations' (SAB: Ga 3:4</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:45]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:46]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c4[0:69]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i151205">
+  <metadata type="xigt-meta">
+    <meta type="language" name="akkadian" iso-639-3="akk" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="2419" line-range="82-89" line-types="L+CR L+CR L+CR G L M G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="82" tag="L+CR">             Sarru-kin sar</item>
+    <item id="o2" line="83" tag="L+CR">                    ¯        mat-im su</item>
+    <item id="o3" line="84" tag="L+CR">                                ¯                       Enlil mahir-a</item>
+    <item id="o4" line="85" tag="G">             Sargon king.of land-gen rel.nom(m.sg) Enlil rival-acc</item>
+    <item id="o5" line="86" tag="L">               la iddin-u-sum</item>
+    <item id="o6" line="87" tag="M">                ¯</item>
+    <item id="o7" line="88" tag="G">               not he.gave-sub-to him</item>
+    <item id="o8" line="89" tag="T">               `Sargon, king of the land, that Enlil has not given hima rival'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="82 84" tag="L+CR">Sarru-kin sar      ¯                       Enlil mahir-a</item>
+    <item id="c4" line="85" tag="G">Sargon king.of land-gen rel.nom(m.sg) Enlil rival-acc</item>
+    <item id="c5" line="86" tag="L">la iddin-u-sum</item>
+    <item id="c6" line="87" tag="M">¯</item>
+    <item id="c7" line="88" tag="G">not he.gave-sub-to him</item>
+    <item id="c8" line="89" tag="T">Sargon, king of the land, that Enlil has not given hima rival</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:56]"/>
+    <item id="p1" content="c5[0:14]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c4[0:53]" alignment="p1"/>
+    <item id="g1" content="c7[0:22]" alignment="p2"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c8[0:61]" alignment="p2"/>
+  </tier>
+</igt>
+<igt id="i151206">
+  <metadata type="xigt-meta">
+    <meta type="language" name="akkadian" iso-639-3="akk" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="2419" line-range="94-98" line-types="L+CR L+CR L+CR G T+AC"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="94" tag="L+CR">             si -u</item>
+    <item id="o2" line="95" tag="L+CR">              ¯b ¯            su</item>
+    <item id="o3" line="96" tag="L+CR">                               ¯t            mahar-sunu        enma X ana Y</item>
+    <item id="o4" line="97" tag="G">             witness-nom.pl rel.nom(m.pl)in front.of-them quot Xto Y</item>
+    <item id="o5" line="98" tag="T+AC">             `witnesses that in front of themX said to Y...' (Gelb OAIC 12:16)</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="94 96" tag="L+CR">si-u             ¯t            mahar-sunu        enma X ana Y</item>
+    <item id="c4" line="97" tag="G">witness-nom.pl rel.nom(m.pl)in front.of-them quot Xto Y</item>
+    <item id="c5" line="98" tag="T+AC">witnesses that in front of themX said to Y...' (Gelb OAIC 12:16)</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:61]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c4[0:55]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c5[0:64]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i151207">
+  <metadata type="xigt-meta">
+    <meta type="language" name="akkadian" iso-639-3="akk" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="2419" line-range="104-108" line-types="L+CR L+CR M G T+EX"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="104" tag="L+CR">         eql-am sa                 k·... nitiq-u</item>
+    <item id="o2" line="105" tag="L+CR">                                           ¯            lisqi'u</item>
+    <item id="o3" line="106" tag="M">                                                              ¯</item>
+    <item id="o4" line="107" tag="G">         field-acc rel.acc(m.sg) gate we.passed-sub they.should.water</item>
+    <item id="o5" line="108" tag="T+EX">         `they should water the field that we passed (by the) gate' (SAB: Pu 3:5)</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="104" tag="L+CR">eql-am sa                 k·... nitiq-u</item>
+    <item id="c3" line="106" tag="M">¯</item>
+    <item id="c4" line="107" tag="G">field-acc rel.acc(m.sg) gate we.passed-sub they.should.water</item>
+    <item id="c5" line="108" tag="T+EX">they should water the field that we passed (by the) gate' (SAB: Pu 3:5)</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:39]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c4[0:60]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c5[0:71]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i151208">
+  <metadata type="xigt-meta">
+    <meta type="language" name="akkadian" iso-639-3="akk" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="2419" line-range="110-116" line-types="L+CR L+CR M G L G T+AC"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="110" tag="L+CR">         in sant-im salist-im sati</item>
+    <item id="o2" line="111" tag="L+CR">                                ¯           Enlil sarrut-am</item>
+    <item id="o3" line="112" tag="M">                                                      ¯</item>
+    <item id="o4" line="113" tag="G">         in year-gen third-gen rel.gen(f.sg) Enlil kingship-acc</item>
+    <item id="o5" line="114" tag="L">          iddin-u-sum</item>
+    <item id="o6" line="115" tag="G">          he.gave-sub-to him</item>
+    <item id="o7" line="116" tag="T+AC">          `In the third year that Enlil gave himthe kingship' (RIME 2.1.2.6:68)</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="110" tag="L+CR">in sant-im salist-im sati</item>
+    <item id="c3" line="112" tag="M">¯</item>
+    <item id="c4" line="113" tag="G">in year-gen third-gen rel.gen(f.sg) Enlil kingship-acc</item>
+    <item id="c5" line="114" tag="L">iddin-u-sum</item>
+    <item id="c6" line="115" tag="G">he.gave-sub-to him</item>
+    <item id="c7" line="116" tag="T+AC">In the third year that Enlil gave himthe kingship' (RIME 2.1.2.6:68)</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:25]"/>
+    <item id="p1" content="c5[0:11]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c4[0:54]" alignment="p1"/>
+    <item id="g1" content="c6[0:18]" alignment="p2"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c7[0:68]" alignment="p2"/>
+  </tier>
+</igt>
+<igt id="i151209">
+  <metadata type="xigt-meta">
+    <meta type="language" name="akkadian" iso-639-3="akk" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="2419" line-range="205-208" line-types="L+CR L+CR G T+EX"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="205" tag="L+CR">     (8) aw¯l-um sa ana bull-îm</item>
+    <item id="o2" line="206" tag="L+CR">            i                                    illik-u</item>
+    <item id="o3" line="207" tag="G">         man-nom rel to extinguish.inf-gen went.3sg-sub</item>
+    <item id="o4" line="208" tag="T+EX">         `the man that went to extinguish (the fire)' (CH §25)</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="205" tag="L+CR">aw¯l-um sa ana bull-îm</item>
+    <item id="c3" line="207" tag="G">man-nom rel to extinguish.inf-gen went.3sg-sub</item>
+    <item id="c4" line="208" tag="T+EX">the man that went to extinguish (the fire)' (CH §25)</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:22]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:46]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c4[0:52]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i151210">
+  <metadata type="xigt-meta">
+    <meta type="language" name="akkadian" iso-639-3="akk" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="2419" line-range="210-212" line-types="L G T+EX"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="210" tag="L">     (9) ina tupp-im sa istur-u-sim</item>
+    <item id="o2" line="211" tag="G">         in tablet-gen rel he.wrote-sub-to her</item>
+    <item id="o3" line="212" tag="T+EX">         `in the tablet that he wrote to her' (CH §179)</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="210" tag="L">ina tupp-im sa istur-u-sim</item>
+    <item id="c2" line="211" tag="G">in tablet-gen rel he.wrote-sub-to her</item>
+    <item id="c3" line="212" tag="T+EX">in the tablet that he wrote to her' (CH §179)</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:26]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:37]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:45]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i151211">
+  <metadata type="xigt-meta">
+    <meta type="language" name="akkadian" iso-639-3="akk" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="2419" line-range="214-216" line-types="L G T+EX"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="214" tag="L">    (10) se'-am       sa imhur-u           iriab</item>
+    <item id="o2" line="215" tag="G">         barley-acc rel he.received-sub he.(will)replace</item>
+    <item id="o3" line="216" tag="T+EX">         `he will replace the barley that he received' (CH §254)</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="214" tag="L">se'-am       sa imhur-u           iriab</item>
+    <item id="c2" line="215" tag="G">barley-acc rel he.received-sub he.(will)replace</item>
+    <item id="c3" line="216" tag="T+EX">he will replace the barley that he received' (CH §254)</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:39]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:47]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:54]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i151212">
+  <metadata type="xigt-meta">
+    <meta type="language" name="akkadian" iso-639-3="akk" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="2419" line-range="218-221" line-types="L+CR L+CR G T+EX"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="218" tag="L+CR">    (11) almatt-um sa ma -u-sa</item>
+    <item id="o2" line="219" tag="L+CR">                            ¯r ¯           sehher-u</item>
+    <item id="o3" line="220" tag="G">         widow-nom rel son-nom.pl-her very young-nom.pl</item>
+    <item id="o4" line="221" tag="T+EX">         `a widow that her sons are very young' (CH §177)</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="218" tag="L+CR">almatt-um sa ma-u-sa</item>
+    <item id="c3" line="220" tag="G">widow-nom rel son-nom.pl-her very young-nom.pl</item>
+    <item id="c4" line="221" tag="T+EX">a widow that her sons are very young' (CH §177)</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:20]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:46]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c4[0:47]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i151213">
+  <metadata type="xigt-meta">
+    <meta type="language" name="akkadian" iso-639-3="akk" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="2419" line-range="250-253" line-types="L+CR L+CR G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="250" tag="L+CR">        (12) din</item>
+    <item id="o2" line="251" tag="L+CR">               ¯         sarr-im</item>
+    <item id="o3" line="252" tag="G">             judgment.of king-gen</item>
+    <item id="o4" line="253" tag="T">             `the judgment of the king'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="250" tag="L+CR">din</item>
+    <item id="c3" line="252" tag="G">judgment.of king-gen</item>
+    <item id="c4" line="253" tag="T">the judgment of the king</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:3]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:20]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c4[0:24]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i151214">
+  <metadata type="xigt-meta">
+    <meta type="language" name="akkadian" iso-639-3="akk" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="2419" line-range="262-264" line-types="L G T+EX"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="262" tag="L">        (13) tuppi     addin-u-sum</item>
+    <item id="o2" line="263" tag="G">             tablet.of I.gave-sub-to him</item>
+    <item id="o3" line="264" tag="T+EX">             `the tablet that I gave to him' (SAB: Ki 2:13)</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="262" tag="L">tuppi     addin-u-sum</item>
+    <item id="c2" line="263" tag="G">tablet.of I.gave-sub-to him</item>
+    <item id="c3" line="264" tag="T+EX">the tablet that I gave to him' (SAB: Ki 2:13)</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:21]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:27]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:45]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i151215">
+  <metadata type="xigt-meta">
+    <meta type="language" name="akkadian" iso-639-3="akk" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="2419" line-range="271-273" line-types="L G T+EX"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="271" tag="L">        (14) Su-Enlil</item>
+    <item id="o2" line="272" tag="G">             the one(nom.m.sg).of-Enlil</item>
+    <item id="o3" line="273" tag="T+EX">             `the one of (the God) Enlil' (an Old Akkadian personal name).</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="271" tag="L">Su-Enlil</item>
+    <item id="c2" line="272" tag="G">the one(nom.m.sg).of-Enlil</item>
+    <item id="c3" line="273" tag="T+EX">the one of (the God) Enlil' (an Old Akkadian personal name).</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:8]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:26]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:60]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i151216">
+  <metadata type="xigt-meta">
+    <meta type="language" name="akkadian" iso-639-3="akk" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="2419" line-range="275-279" line-types="L+CR L+CR G T M+AC"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="275" tag="L+CR">        (15) su</item>
+    <item id="o2" line="276" tag="L+CR">              ¯t                    in tu.ra u-ù-hi-ru-un      lihuz</item>
+    <item id="o3" line="277" tag="G">             the ones(acc.m.pl).of in illness were.delayed.sub he.should.take</item>
+    <item id="o4" line="278" tag="T">             `he should take the ones who were delayed because of illness'</item>
+    <item id="o5" line="279" tag="M+AC">             (SAB Gir 3:7)</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="275" tag="L+CR">su</item>
+    <item id="c3" line="277" tag="G">the ones(acc.m.pl).of in illness were.delayed.sub he.should.take</item>
+    <item id="c4" line="278" tag="T">he should take the ones who were delayed because of illness</item>
+    <item id="c5" line="279" tag="M+AC">SAB Gir 3:7</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:2]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:64]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c4[0:59]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i151217">
+  <metadata type="xigt-meta">
+    <meta type="language" name="akkadian" iso-639-3="akk" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="2419" line-range="297-300" line-types="L+CR L+CR G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="297" tag="L+CR">    (16) din-um</item>
+    <item id="o2" line="298" tag="L+CR">          ¯                   su                 sarr-im</item>
+    <item id="o3" line="299" tag="G">         judgment(m.sg)-nom the one(nom.m.sg).of king-gen</item>
+    <item id="o4" line="300" tag="T">         `The judgment, the one of the king'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="297" tag="L+CR">din-um</item>
+    <item id="c3" line="299" tag="G">judgment(m.sg)-nom the one(nom.m.sg).of king-gen</item>
+    <item id="c4" line="300" tag="T">The judgment, the one of the king</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:6]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:48]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c4[0:33]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i151218">
+  <metadata type="xigt-meta">
+    <meta type="language" name="akkadian" iso-639-3="akk" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="2419" line-range="301-305" line-types="L+CR L+CR M G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="301" tag="L+CR">    (17) din-um</item>
+    <item id="o2" line="302" tag="L+CR">          ¯                   su                  idin-u</item>
+    <item id="o3" line="303" tag="M">                                                    ¯</item>
+    <item id="o4" line="304" tag="G">         judgment(m.sg)-nom the one(nom.m.sg).of he.rendered-sub</item>
+    <item id="o5" line="305" tag="T">         `The judgment, the one that he rendered'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="301" tag="L+CR">din-um</item>
+    <item id="c3" line="303" tag="M">¯</item>
+    <item id="c4" line="304" tag="G">judgment(m.sg)-nom the one(nom.m.sg).of he.rendered-sub</item>
+    <item id="c5" line="305" tag="T">The judgment, the one that he rendered</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:6]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c4[0:55]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c5[0:38]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i151219">
+  <metadata type="xigt-meta">
+    <meta type="language" name="akkadian" iso-639-3="akk" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="2419" line-range="327-331" line-types="L+CR L+CR+SY M G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="327" tag="L+CR">             dinum</item>
+    <item id="o2" line="328" tag="L+CR+SY">               ¯        suhead                        [idin-u]RC</item>
+    <item id="o3" line="329" tag="M">                                                         ¯</item>
+    <item id="o4" line="330" tag="G">             judgment the one.relative marker he.rendered-sub</item>
+    <item id="o5" line="331" tag="T">             `the judgment, the one that he rendered'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="327" tag="L+CR">dinum</item>
+    <item id="c3" line="329" tag="M">¯</item>
+    <item id="c4" line="330" tag="G">judgment the one.relative marker he.rendered-sub</item>
+    <item id="c5" line="331" tag="T">the judgment, the one that he rendered</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:5]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c4[0:48]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c5[0:38]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i151220">
+  <metadata type="xigt-meta">
+    <meta type="language" name="akkadian" iso-639-3="akk" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="2419" line-range="333-337" line-types="L+CR+SY M M G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="333" tag="L+CR+SY">              dinumhead [su                              idin-u]RC</item>
+    <item id="o2" line="334" tag="M">                                                           ¯</item>
+    <item id="o3" line="335" tag="M">               ¯</item>
+    <item id="o4" line="336" tag="G">              judgment relative particle                 he.rendered-sub</item>
+    <item id="o5" line="337" tag="T">              `The judgment that he rendered'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="333" tag="L+CR+SY">dinumhead [su                              idin-u]RC</item>
+    <item id="c2" line="334" tag="M">¯</item>
+    <item id="c3" line="335" tag="M">¯</item>
+    <item id="c4" line="336" tag="G">judgment relative particle                 he.rendered-sub</item>
+    <item id="c5" line="337" tag="T">The judgment that he rendered</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:52]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c4[0:58]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c5[0:29]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i151221">
+  <metadata type="xigt-meta">
+    <meta type="language" name="akkadian" iso-639-3="akk" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="2419" line-range="356-359" line-types="L+CR L+CR G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="356" tag="L+CR">        (19) din-um</item>
+    <item id="o2" line="357" tag="L+CR">               ¯             suhead     sarr-im</item>
+    <item id="o3" line="358" tag="G">             judgment-nom the one.of king-gen</item>
+    <item id="o4" line="359" tag="T">             `the judgment, the one of the king'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="356" tag="L+CR">din-um</item>
+    <item id="c3" line="358" tag="G">judgment-nom the one.of king-gen</item>
+    <item id="c4" line="359" tag="T">the judgment, the one of the king</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:6]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:32]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c4[0:33]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i151222">
+  <metadata type="xigt-meta">
+    <meta type="language" name="akkadian" iso-639-3="akk" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="2419" line-range="361-364" line-types="L+CR L+CR G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="361" tag="L+CR">              din-umhead</item>
+    <item id="o2" line="362" tag="L+CR">                ¯            su          sarr-im</item>
+    <item id="o3" line="363" tag="G">              judgment-nom of            king-gen</item>
+    <item id="o4" line="364" tag="T">              `the judgment of the king'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="361" tag="L+CR">din-umhead</item>
+    <item id="c3" line="363" tag="G">judgment-nom of            king-gen</item>
+    <item id="c4" line="364" tag="T">the judgment of the king</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:10]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:35]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c4[0:24]" alignment="p1"/>
+  </tier>
+</igt>
+</xigt-corpus>

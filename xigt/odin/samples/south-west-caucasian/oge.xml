@@ -1,0 +1,361 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xigt-corpus>
+<igt id="i1852">
+  <metadata type="xigt-meta">
+    <meta type="language" name="old georgian" iso-639-3="oge" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="560" line-range="3374-3377" line-types="M+AC+LN L G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="3374" tag="M+AC+LN">  (77) Old Georgian (Kartvelian; Fähnrich 1991:197)</item>
+    <item id="o2" line="3375" tag="L">        a. saxl - man israeyl - isa - man</item>
+    <item id="o3" line="3376" tag="G">                 house-ERG       Israel -GEN-ERG</item>
+    <item id="o4" line="3377" tag="T">               `the house of Israel'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="3374" tag="M+AC+LN">Old Georgian (Kartvelian; Fähnrich 1991:197</item>
+    <item id="c2" line="3375" tag="L">saxl-man israeyl-isa-man</item>
+    <item id="c3" line="3376" tag="G">house-ERG       Israel-GEN-ERG</item>
+    <item id="c4" line="3377" tag="T">the house of Israel</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c2[0:24]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:30]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c4[0:19]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i1853">
+  <metadata type="xigt-meta">
+    <meta type="language" name="old georgian" iso-639-3="oge" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="560" line-range="3378-3380" line-types="L G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="3378" tag="L">            b. arkw dze - ta         israeyl - isa - ta</item>
+    <item id="o2" line="3379" tag="G">                 speak        son-OBL.PL Israel-GEN-OBL.PL</item>
+    <item id="o3" line="3380" tag="T">                 `speak to the sons of Israel'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="3378" tag="L">arkw dze-ta         israeyl-isa-ta</item>
+    <item id="c2" line="3379" tag="G">speak        son-OBL.PL Israel-GEN-OBL.PL</item>
+    <item id="c3" line="3380" tag="T">speak to the sons of Israel</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:34]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:41]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:27]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i59954">
+  <metadata type="xigt-meta">
+    <meta type="language" name="old georgian" iso-639-3="oge" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3037" line-range="190-192" line-types="L+LN G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="190" tag="L+LN">         c.     ert+i+ert-       (Old Georgian)</item>
+    <item id="o2" line="191" tag="G">                one-NOM-one-</item>
+    <item id="o3" line="192" tag="T">                `each other'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="190" tag="L+LN">ert+i+ert-(Old Georgian)</item>
+    <item id="c2" line="191" tag="G">one-NOM-one-</item>
+    <item id="c3" line="192" tag="T">each other</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:24]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:12]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:10]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i75787">
+  <metadata type="xigt-meta">
+    <meta type="language" name="old georgian" iso-639-3="oge" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3695" line-range="4477-4480" line-types="M+AC+LN L G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="4477" tag="M+AC+LN">  (122) Old Georgian (Kartvelian; Fähnrich 1991:197)</item>
+    <item id="o2" line="4478" tag="L">        a. saxl - man israeyl - isa - man</item>
+    <item id="o3" line="4479" tag="G">                 house-ERG      Israel -GEN-ERG</item>
+    <item id="o4" line="4480" tag="T">               `the house of Israel'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="4477" tag="M+AC+LN">Old Georgian (Kartvelian; Fähnrich 1991:197</item>
+    <item id="c2" line="4478" tag="L">saxl-man israeyl-isa-man</item>
+    <item id="c3" line="4479" tag="G">house-ERG      Israel-GEN-ERG</item>
+    <item id="c4" line="4480" tag="T">the house of Israel</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c2[0:24]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:29]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c4[0:19]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i75788">
+  <metadata type="xigt-meta">
+    <meta type="language" name="old georgian" iso-639-3="oge" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3695" line-range="4481-4483" line-types="L G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="4481" tag="L">            b. arkw dze - ta        israeyl - isa - ta</item>
+    <item id="o2" line="4482" tag="G">                 speak     son-OBLpl Israel-GEN-OBLpl</item>
+    <item id="o3" line="4483" tag="T">                 `speak to the sons of Israel'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="4481" tag="L">arkw dze-ta        israeyl-isa-ta</item>
+    <item id="c2" line="4482" tag="G">speak     son-OBLpl Israel-GEN-OBLpl</item>
+    <item id="c3" line="4483" tag="T">speak to the sons of Israel</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:33]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:36]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:27]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i78764">
+  <metadata type="xigt-meta">
+    <meta type="language" name="old georgian" iso-639-3="oge" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="2539" line-range="438-442" line-types="L+CR L+CR G T+EX M+EX"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="438" tag="L+CR">         c'ina- uk 'ana i-ar-n-es or-n-i de-n-i                     da ame-n-i</item>
+    <item id="o2" line="439" tag="L+CR">  {15}</item>
+    <item id="o3" line="440" tag="G">         [front-back     go.II.3pl/3pl two        day-PL-NOM and night-PL-NOM]</item>
+    <item id="o4" line="441" tag="T+EX">         "Two days and two nights they travelled, one after the other." [Vepxist'q'aosani 215:1]</item>
+    <item id="o5" line="442" tag="M+EX">         (cp ModGeo iares orni deni da ameni)</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="438 439" tag="L+CR">{15}   c'ina-uk 'ana i-ar-n-es or-n-i de-n-i                     da ame-n-i</item>
+    <item id="c3" line="440" tag="G">[front-back     go.II.3pl/3pl two        day-PL-NOM and night-PL-NOM]</item>
+    <item id="c4" line="441" tag="T+EX">Two days and two nights they travelled, one after the other." [Vepxist'q'aosani 215:1]</item>
+    <item id="c5" line="442" tag="M+EX">cp ModGeo iares orni deni da ameni</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:75]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:69]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c4[0:86]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i78765">
+  <metadata type="xigt-meta">
+    <meta type="language" name="old georgian" iso-639-3="oge" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="2539" line-range="466-470" line-types="L+CR L+CR G T+AC M"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="466" tag="L+CR">         vitarca e-sm-n-es mepe-sa sit'q'wa-n-i ese</item>
+    <item id="o2" line="467" tag="L+CR">  {16}</item>
+    <item id="o3" line="468" tag="G">         [as       hear.II.3pl/3 king-DAT word-PL-NOM this]</item>
+    <item id="o4" line="469" tag="T+AC">         "As the king heard these words.." [Sibrdzne Balavarisi I:30]</item>
+    <item id="o5" line="470" tag="M">         (cp ModGeo esmoda mepes es sit' q ' vani)</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="466 467" tag="L+CR">{16}   vitarca e-sm-n-es mepe-sa sit'q'wa-n-i ese</item>
+    <item id="c3" line="468" tag="G">[as       hear.II.3pl/3 king-DAT word-PL-NOM this]</item>
+    <item id="c4" line="469" tag="T+AC">As the king heard these words.." [Sibrdzne Balavarisi I:30]</item>
+    <item id="c5" line="470" tag="M">cp ModGeo esmoda mepes es sit' q ' vani</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:49]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:50]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c4[0:59]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i78766">
+  <metadata type="xigt-meta">
+    <meta type="language" name="old georgian" iso-639-3="oge" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="2539" line-range="479-481" line-types="L+AC G T+EX"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="479" tag="L+AC">  {17} q'mac'vil-eb-s        u-tkom-0                            [Gigineishvili et al:24,12]</item>
+    <item id="o2" line="480" tag="G">       [boy-child-PL-DA      say.IIIa.3/3]</item>
+    <item id="o3" line="481" tag="T+EX">       "The children have said it." (cp ModGeo q ' mac' vilebs u -tkvam-t)</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="479" tag="L+AC">{17} q'mac'vil-eb-s        u-tkom-0                            [Gigineishvili et al:24,12]</item>
+    <item id="c2" line="480" tag="G">[boy-child-PL-DA      say.IIIa.3/3]</item>
+    <item id="c3" line="481" tag="T+EX">The children have said it." (cp ModGeo q ' mac' vilebs u-tkvam-t)</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:90]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:35]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:65]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i78767">
+  <metadata type="xigt-meta">
+    <meta type="language" name="old georgian" iso-639-3="oge" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="2539" line-range="486-488" line-types="L+EX G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="486" tag="L+EX">  {18} iman       ise-n-i          ga-i-cil-n-a        [ibid:116,7]</item>
+    <item id="o2" line="487" tag="G">       [s/he-ERG them-PL-NOM       accompany.IIa.3/3p]</item>
+    <item id="o3" line="488" tag="T">       "She accompanied them." (cp ModGeo iman iseni ga-i-cil-a)</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="486" tag="L+EX">{18} iman       ise-n-i          ga-i-cil-n-a        [ibid:116,7]</item>
+    <item id="c2" line="487" tag="G">[s/he-ERG them-PL-NOM       accompany.IIa.3/3p]</item>
+    <item id="c3" line="488" tag="T">She accompanied them." (cp ModGeo iman iseni ga-i-cil-a)</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:65]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:47]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:56]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i81161">
+  <metadata type="xigt-meta">
+    <meta type="language" name="old georgian" iso-639-3="oge" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="169.txt" line-range="503-505" line-types="L G T+AC"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="503" tag="L">  (21)     a.       mk'urnal-o,     ganik'urne             tav-i        sen-i</item>
+    <item id="o2" line="504" tag="G">                    physician-VOC you.heal.it.for.yourself self-NOM your-NOM</item>
+    <item id="o3" line="505" tag="T+AC">                    'Physician, heal yourself' (translation from DAR        1961)</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="503" tag="L">mk'urnal-o,     ganik'urne             tav-i        sen-i</item>
+    <item id="c2" line="504" tag="G">physician-VOC you.heal.it.for.yourself self-NOM your-NOM</item>
+    <item id="c3" line="505" tag="T+AC">Physician, heal yourself' (translation from DAR        1961)</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:57]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:56]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:60]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i81169">
+  <metadata type="xigt-meta">
+    <meta type="language" name="old georgian" iso-639-3="oge" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="169.txt" line-range="733-743" line-types="L G L B B B M B M G T+AC"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="733" tag="L">  (29)   daicvenit              tav-n-i          tkven-n-i         qovl-is-a-gan</item>
+    <item id="o2" line="734" tag="G">         you(PL).protect.them head-PL-NOM your-PL-NOM all-GEN-a-from</item>
+    <item id="o3" line="735" tag="L">         angahreb-is-a</item>
+    <item id="o4" line="736" tag="B"></item>
+    <item id="o5" line="737" tag="B"></item>
+    <item id="o6" line="738" tag="B"></item>
+    <item id="o7" line="739" tag="M">                                                                                                    15</item>
+    <item id="o8" line="740" tag="B"></item>
+    <item id="o9" line="741" tag="M">                                    10</item>
+    <item id="o10" line="742" tag="G">           covetousness-GEN-a</item>
+    <item id="o11" line="743" tag="T+AC">           'keep yourselves from all covetousness' (Luke 12, 15; translation from DAR           1961)</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="733" tag="L">daicvenit              tav-n-i          tkven-n-i         qovl-is-a-gan</item>
+    <item id="c2" line="734" tag="G">you(PL).protect.them head-PL-NOM your-PL-NOM all-GEN-a-from</item>
+    <item id="c3" line="735" tag="L">angahreb-is-a</item>
+    <item id="c4" line="736" tag="B"/>
+    <item id="c5" line="737" tag="B"/>
+    <item id="c6" line="738" tag="B"/>
+    <item id="c7" line="739" tag="M">15</item>
+    <item id="c8" line="740" tag="B"/>
+    <item id="c9" line="741" tag="M">10</item>
+    <item id="c10" line="742" tag="G">covetousness-GEN-a</item>
+    <item id="c11" line="743" tag="T+AC">keep yourselves from all covetousness' (Luke 12, 15; translation from DAR           1961)</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:71]"/>
+    <item id="p1" content="c3[0:13]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:59]" alignment="p1"/>
+    <item id="g1" content="c10[0:18]" alignment="p2"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c11[0:89]" alignment="p2"/>
+  </tier>
+</igt>
+<igt id="i119478">
+  <metadata type="xigt-meta">
+    <meta type="language" name="old georgian" iso-639-3="oge" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="2705" line-range="13-15" line-types="M+LN L G"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="13" tag="M+LN">  Example 1. Old Georgian</item>
+    <item id="o2" line="14" tag="L">     a. ert+i+ert-</item>
+    <item id="o3" line="15" tag="G">        one+NOM+one</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="13" tag="M+LN">Example 1. Old Georgian</item>
+    <item id="c2" line="14" tag="L">ert+i+ert-</item>
+    <item id="c3" line="15" tag="G">one+NOM+one</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c2[0:10]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:11]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i119479">
+  <metadata type="xigt-meta">
+    <meta type="language" name="old georgian" iso-639-3="oge" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="2705" line-range="17-18" line-types="L G"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="17" tag="L">      b. urt+i+ert+a-</item>
+    <item id="o2" line="18" tag="G">         one+NOM+one+EPENTHETIC.VOWEL</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="17" tag="L">urt+i+ert+a-</item>
+    <item id="c2" line="18" tag="G">one+NOM+one+EPENTHETIC.VOWEL</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:12]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:28]" alignment="p1"/>
+  </tier>
+</igt>
+</xigt-corpus>

@@ -1,0 +1,572 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xigt-corpus>
+<igt id="i48935">
+  <metadata type="xigt-meta">
+    <meta type="language" name="ingush" iso-639-3="inh" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3405" line-range="4125-4127" line-types="M+AC+LN T L-G"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="4125" tag="M+AC+LN">  (65)   Ingush (North Caucasian) (Johanna Nichols, p.c.)</item>
+    <item id="o2" line="4126" tag="T">         `give'</item>
+    <item id="o3" line="4127" tag="L-G">         lu                  give.PRES</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="4125" tag="M+AC+LN">Ingush (North Caucasian) (Johanna Nichols, p.c.</item>
+    <item id="c2" line="4126" tag="T">give</item>
+    <item id="c3" line="4127" tag="L-G">lu                  give.PRES</item>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c2[0:4]"/>
+  </tier>
+</igt>
+<igt id="i48936">
+  <metadata type="xigt-meta">
+    <meta type="language" name="ingush" iso-639-3="inh" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3405" line-range="4128-4128" line-types="L-G"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="4128" tag="L-G">         luddy               give.FUT</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="4128" tag="L-G">luddy               give.FUT</item>
+  </tier>
+</igt>
+<igt id="i48937">
+  <metadata type="xigt-meta">
+    <meta type="language" name="ingush" iso-639-3="inh" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3405" line-range="4129-4129" line-types="L-G"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="4129" tag="L-G">         lu-ora              give-IMPERFECT</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="4129" tag="L-G">lu-ora              give-IMPERFECT</item>
+  </tier>
+</igt>
+<igt id="i48938">
+  <metadata type="xigt-meta">
+    <meta type="language" name="ingush" iso-639-3="inh" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3405" line-range="4130-4130" line-types="L-G"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="4130" tag="L-G">         d-alar              GENDER.CLASS-give.WITNESSED.PST</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="4130" tag="L-G">d-alar              GENDER.CLASS-give.WITNESSED.PST</item>
+  </tier>
+</igt>
+<igt id="i48939">
+  <metadata type="xigt-meta">
+    <meta type="language" name="ingush" iso-639-3="inh" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3405" line-range="4131-4131" line-types="L-G"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="4131" tag="L-G">         d-annad             GENDER.CLASS-give.NON_WITNESSED.PST</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="4131" tag="L-G">d-annad             GENDER.CLASS-give.NON_WITNESSED.PST</item>
+  </tier>
+</igt>
+<igt id="i63184">
+  <metadata type="xigt-meta">
+    <meta type="language" name="ingush" iso-639-3="inh" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="2559" line-range="447-451" line-types="M+LN L G T M+AC"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="447" tag="M+LN">              Ingush (Caucasian):</item>
+    <item id="o2" line="448" tag="L">              e.     geanaz         kag   j-   i                     -e.</item>
+    <item id="o3" line="449" tag="G">                     branch.PL      break AGR- do                    -INF</item>
+    <item id="o4" line="450" tag="T">                     `to break branches'</item>
+    <item id="o5" line="451" tag="M+AC">                     (Nichols 1994: 112)</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="447" tag="M+LN">Ingush (Caucasian):</item>
+    <item id="c2" line="448" tag="L">geanaz         kag   j-i-e.</item>
+    <item id="c3" line="449" tag="G">branch.PL      break AGR-do-INF</item>
+    <item id="c4" line="450" tag="T">to break branches</item>
+    <item id="c5" line="451" tag="M+AC">112</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c2[0:27]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:31]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c4[0:17]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i75663">
+  <metadata type="xigt-meta">
+    <meta type="language" name="ingush" iso-639-3="inh" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3695" line-range="2765-2769" line-types="M+LN L G T M"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="2765" tag="M+LN">  (54) Ingush (Nakh-Daghestanian)</item>
+    <item id="o2" line="2766" tag="L">       a. Muusaa     hwa-qeachar</item>
+    <item id="o3" line="2767" tag="G">             Musa          DX-arrive.WP</item>
+    <item id="o4" line="2768" tag="T">           `Musa has arrived.'</item>
+    <item id="o5" line="2769" tag="M">           (Speaker and hearer are in the same place and Musa arrives there.)</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="2765" tag="M+LN">Ingush (Nakh-Daghestanian</item>
+    <item id="c2" line="2766" tag="L">Muusaa     hwa-qeachar</item>
+    <item id="c3" line="2767" tag="G">Musa          DX-arrive.WP</item>
+    <item id="c4" line="2768" tag="T">Musa has arrived.</item>
+    <item id="c5" line="2769" tag="M">Speaker and hearer are in the same place and Musa arrives there.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c2[0:22]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:26]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c4[0:17]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i75664">
+  <metadata type="xigt-meta">
+    <meta type="language" name="ingush" iso-639-3="inh" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3695" line-range="2770-2773" line-types="L G T M"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="2770" tag="L">        b. Muusaa hwo jolcha              dwa-qeachar=ii?</item>
+    <item id="o2" line="2771" tag="G">             Musa     2s       be.PPL.OBL       DX-arrive=Q</item>
+    <item id="o3" line="2772" tag="T">             `Did Musa get to your place?'</item>
+    <item id="o4" line="2773" tag="M">             (M. has left speaker's place to go to hearer's place.)</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="2770" tag="L">Muusaa hwo jolcha              dwa-qeachar=ii?</item>
+    <item id="c2" line="2771" tag="G">Musa     2s       be.PPL.OBL       DX-arrive=Q</item>
+    <item id="c3" line="2772" tag="T">Did Musa get to your place?</item>
+    <item id="c4" line="2773" tag="M">has left speaker's place to go to hearer's place.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:46]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:46]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:27]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i75665">
+  <metadata type="xigt-meta">
+    <meta type="language" name="ingush" iso-639-3="inh" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3695" line-range="2774-2776" line-types="L G T+EX"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="2774" tag="L">        c.   Muusaa hwo jolcha           hwa-qeachar=ii?</item>
+    <item id="o2" line="2775" tag="G">             Musa     2s   be.PPL.OBL       DX-arrive=Q</item>
+    <item id="o3" line="2776" tag="T+EX">           `Has Musa arrived at your place?' (Musa has come from somewhere else.)</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="2774" tag="L">Muusaa hwo jolcha           hwa-qeachar=ii?</item>
+    <item id="c2" line="2775" tag="G">Musa     2s   be.PPL.OBL       DX-arrive=Q</item>
+    <item id="c3" line="2776" tag="T+EX">Has Musa arrived at your place?' (Musa has come from somewhere else.)</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:43]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:42]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:69]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i75666">
+  <metadata type="xigt-meta">
+    <meta type="language" name="ingush" iso-639-3="inh" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3695" line-range="2777-2779" line-types="L G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="2777" tag="L">        d. Muusaa Suultaan volcha            dwa-qeachar=ii?</item>
+    <item id="o2" line="2778" tag="G">             Musa     Sultan       be.PPL.OBL       DX-arrive=Q</item>
+    <item id="o3" line="2779" tag="T">             `Did Musa get to Sultan's place?'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="2777" tag="L">Muusaa Suultaan volcha            dwa-qeachar=ii?</item>
+    <item id="c2" line="2778" tag="G">Musa     Sultan       be.PPL.OBL       DX-arrive=Q</item>
+    <item id="c3" line="2779" tag="T">Did Musa get to Sultan's place?</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:49]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:50]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:31]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i75667">
+  <metadata type="xigt-meta">
+    <meta type="language" name="ingush" iso-639-3="inh" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3695" line-range="2780-2782" line-types="L G T+EX"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="2780" tag="L">        e.   Muusaa Suultaan volcha            hwa-qeachar=ii?</item>
+    <item id="o2" line="2781" tag="G">             Musa     Sultan       be.PPL.OBL       DX-arrive=Q</item>
+    <item id="o3" line="2782" tag="T+EX">             `Did Musa get to Sultan's place?' (Hearer lives at Sultan's place.)</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="2780" tag="L">Muusaa Suultaan volcha            hwa-qeachar=ii?</item>
+    <item id="c2" line="2781" tag="G">Musa     Sultan       be.PPL.OBL       DX-arrive=Q</item>
+    <item id="c3" line="2782" tag="T+EX">Did Musa get to Sultan's place?' (Hearer lives at Sultan's place.)</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:49]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:50]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:66]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i75737">
+  <metadata type="xigt-meta">
+    <meta type="language" name="ingush" iso-639-3="inh" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3695" line-range="3658-3661" line-types="M+LN L G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="3658" tag="M+LN">  (91) Ingush (Nakh-Daghestanian; N. Caucasus)</item>
+    <item id="o2" line="3659" tag="L">       a. Suona shie         bwarjga-vejcha,                        hwa'aaravealar Muusaa.</item>
+    <item id="o3" line="3660" tag="G">                 1SG.DAT 3SG.REFL          eye       V.see.CONV DX -out-went Musa</item>
+    <item id="o4" line="3661" tag="T">               `When I saw himi, Musai left'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="3658" tag="M+LN">Ingush (Nakh-Daghestanian; N. Caucasus</item>
+    <item id="c2" line="3659" tag="L">Suona shie         bwarjga-vejcha,                        hwa'aaravealar Muusaa.</item>
+    <item id="c3" line="3660" tag="G">1SG.DAT 3SG.REFL          eye       V.see.CONV DX-out-went Musa</item>
+    <item id="c4" line="3661" tag="T">When I saw himi, Musai left</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c2[0:80]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:63]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c4[0:27]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i75738">
+  <metadata type="xigt-meta">
+    <meta type="language" name="ingush" iso-639-3="inh" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3695" line-range="3662-3664" line-types="L G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="3662" tag="L">            b. Suona diezac, cuo          sej                           nanna         novq'ostal dar</item>
+    <item id="o2" line="3663" tag="G">                 1SG.DAT not want 3SG.ERG 1SG.REFL.GEN mother.DAT help do.NZR</item>
+    <item id="o3" line="3664" tag="T">                 `I don't want him to help my mother.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="3662" tag="L">Suona diezac, cuo          sej                           nanna         novq'ostal dar</item>
+    <item id="c2" line="3663" tag="G">1SG.DAT not want 3SG.ERG 1SG.REFL.GEN mother.DAT help do.NZR</item>
+    <item id="c3" line="3664" tag="T">I don't want him to help my mother.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:85]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:60]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:35]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i75747">
+  <metadata type="xigt-meta">
+    <meta type="language" name="ingush" iso-639-3="inh" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3695" line-range="3915-3918" line-types="M+AC+LN L+EX G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="3915" tag="M+AC+LN">  (98) Ingush. (J, V are gender prefixes.)</item>
+    <item id="o2" line="3916" tag="L+EX">       a. So aatagh jaax                                      (location)</item>
+    <item id="o3" line="3917" tag="G">            1SG canyon J.live.PRS</item>
+    <item id="o4" line="3918" tag="T">          `I live in the canyon.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="3915" tag="M+AC+LN">Ingush. (J, V are gender prefixes.</item>
+    <item id="c2" line="3916" tag="L+EX">So aatagh jaax                                      (location)</item>
+    <item id="c3" line="3917" tag="G">1SG canyon J.live.PRS</item>
+    <item id="c4" line="3918" tag="T">I live in the canyon.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c2[0:62]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:21]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c4[0:21]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i75748">
+  <metadata type="xigt-meta">
+    <meta type="language" name="ingush" iso-639-3="inh" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3695" line-range="3919-3921" line-types="L+EX G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="3919" tag="L+EX">       b. So aatagh vaxar                                     (goal)</item>
+    <item id="o2" line="3920" tag="G">            1SG canyon V.go.WP</item>
+    <item id="o3" line="3921" tag="T">            `I went down into the canyon.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="3919" tag="L+EX">So aatagh vaxar                                     (goal)</item>
+    <item id="c2" line="3920" tag="G">1SG canyon V.go.WP</item>
+    <item id="c3" line="3921" tag="T">I went down into the canyon.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:58]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:18]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:28]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i75749">
+  <metadata type="xigt-meta">
+    <meta type="language" name="ingush" iso-639-3="inh" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3695" line-range="3927-3929" line-types="L+EX G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="3927" tag="L+EX">       c.   Yz     ch'woagha xoza aatagh jy                   (predicate nominal)</item>
+    <item id="o2" line="3928" tag="G">            DEM very           pretty canyon J.be.PRS</item>
+    <item id="o3" line="3929" tag="T">          `This is a very pretty canyon.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="3927" tag="L+EX">Yz     ch'woagha xoza aatagh jy                   (predicate nominal)</item>
+    <item id="c2" line="3928" tag="G">DEM very           pretty canyon J.be.PRS</item>
+    <item id="c3" line="3929" tag="T">This is a very pretty canyon.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:69]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:41]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:29]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i75750">
+  <metadata type="xigt-meta">
+    <meta type="language" name="ingush" iso-639-3="inh" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3695" line-range="3930-3932" line-types="L+EX G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="3930" tag="L+EX">       d. Suona aatagh dagajoagha                             (object of experiential verb)</item>
+    <item id="o2" line="3931" tag="G">            1SG.DAT canyon D.remember-J.AUX.PRS</item>
+    <item id="o3" line="3932" tag="T">            `I remember the canyon.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="3930" tag="L+EX">Suona aatagh dagajoagha                             (object of experiential verb)</item>
+    <item id="c2" line="3931" tag="G">1SG.DAT canyon D.remember-J.AUX.PRS</item>
+    <item id="c3" line="3932" tag="T">I remember the canyon.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:81]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:35]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:22]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i75751">
+  <metadata type="xigt-meta">
+    <meta type="language" name="ingush" iso-639-3="inh" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3695" line-range="4028-4031" line-types="M+LN L G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="4028" tag="M+LN">  (100) Ingush</item>
+    <item id="o2" line="4029" tag="L">        a. zhwalii leattagh hwadzh jeaqqar</item>
+    <item id="o3" line="4030" tag="G">            dog    ground.LAT scent J.take.WP</item>
+    <item id="o4" line="4031" tag="T">           `The dog sniffed the ground.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="4028" tag="M+LN">Ingush</item>
+    <item id="c2" line="4029" tag="L">zhwalii leattagh hwadzh jeaqqar</item>
+    <item id="c3" line="4030" tag="G">dog    ground.LAT scent J.take.WP</item>
+    <item id="c4" line="4031" tag="T">The dog sniffed the ground.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c2[0:31]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:33]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c4[0:27]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i75752">
+  <metadata type="xigt-meta">
+    <meta type="language" name="ingush" iso-639-3="inh" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3695" line-range="4032-4034" line-types="L G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="4032" tag="L">        b. so cynagh qiitar</item>
+    <item id="o2" line="4033" tag="G">            1SG 3SG.LAT understand.WP</item>
+    <item id="o3" line="4034" tag="T">            `I understood him.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="4032" tag="L">so cynagh qiitar</item>
+    <item id="c2" line="4033" tag="G">1SG 3SG.LAT understand.WP</item>
+    <item id="c3" line="4034" tag="T">I understood him.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:16]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:25]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:17]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i75755">
+  <metadata type="xigt-meta">
+    <meta type="language" name="ingush" iso-639-3="inh" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3695" line-range="4102-4105" line-types="M+LN L G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="4102" tag="M+LN">  (105) Ingush</item>
+    <item id="o2" line="4103" tag="L">       a. kerta=t'y</item>
+    <item id="o3" line="4104" tag="G">             head   on</item>
+    <item id="o4" line="4105" tag="T">           `on the head`</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="4102" tag="M+LN">Ingush</item>
+    <item id="c2" line="4103" tag="L">kerta=t'y</item>
+    <item id="c3" line="4104" tag="G">head   on</item>
+    <item id="c4" line="4105" tag="T">on the head</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c2[0:9]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:9]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c4[0:11]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i75756">
+  <metadata type="xigt-meta">
+    <meta type="language" name="ingush" iso-639-3="inh" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3695" line-range="4106-4108" line-types="L G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="4106" tag="L">        b. kerta=chy</item>
+    <item id="o2" line="4107" tag="G">             head   in</item>
+    <item id="o3" line="4108" tag="T">             `in the head'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="4106" tag="L">kerta=chy</item>
+    <item id="c2" line="4107" tag="G">head   in</item>
+    <item id="c3" line="4108" tag="T">in the head</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:9]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:9]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:11]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i75757">
+  <metadata type="xigt-meta">
+    <meta type="language" name="ingush" iso-639-3="inh" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3695" line-range="4109-4111" line-types="L G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="4109" tag="L">        c.   kertaa t'ehwazhjka</item>
+    <item id="o2" line="4110" tag="G">             head.DAT behind</item>
+    <item id="o3" line="4111" tag="T">             `behind the head'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="4109" tag="L">kertaa t'ehwazhjka</item>
+    <item id="c2" line="4110" tag="G">head.DAT behind</item>
+    <item id="c3" line="4111" tag="T">behind the head</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:18]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:15]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:15]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i75783">
+  <metadata type="xigt-meta">
+    <meta type="language" name="ingush" iso-639-3="inh" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3695" line-range="4430-4436" line-types="M+AC+LN L G L G T T+AL"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="4430" tag="M+AC+LN">  (119) Ingush (Pacchahw Liir I.IV.2.126, with consultant's emendation)</item>
+    <item id="o2" line="4431" tag="L">       Hwa menna ordanjg</item>
+    <item id="o3" line="4432" tag="G">        2s.GEN drunk rabble</item>
+    <item id="o4" line="4433" tag="L">        boqqaghchaarna `a t'ychuux shei                 wunazhta         sanna</item>
+    <item id="o5" line="4434" tag="G">        elder.PL.DAT         &amp; shout at 3pREFL.GEN      servant.PL.DAT like</item>
+    <item id="o6" line="4435" tag="T">        `Your drunken rabble shout at their elders as though at their servants'</item>
+    <item id="o7" line="4436" tag="T+AL">        (= `Your disorder'd rabble Make servants of their betters'; King Lear I.IV.)</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="4430" tag="M+AC+LN">Ingush (Pacchahw Liir I.IV.2.126, with consultant's emendation</item>
+    <item id="c2" line="4431" tag="L">Hwa menna ordanjg</item>
+    <item id="c3" line="4432" tag="G">2s.GEN drunk rabble</item>
+    <item id="c4" line="4433" tag="L">boqqaghchaarna `a t'ychuux shei                 wunazhta         sanna</item>
+    <item id="c5" line="4434" tag="G">elder.PL.DAT         &amp; shout at 3pREFL.GEN      servant.PL.DAT like</item>
+    <item id="c6" line="4435" tag="T">Your drunken rabble shout at their elders as though at their servants</item>
+    <item id="c7" line="4436" tag="T+AL">= `Your disorder'd rabble Make servants of their betters'; King Lear I.IV.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c2[0:17]"/>
+    <item id="p1" content="c4[0:70]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:19]" alignment="p1"/>
+    <item id="g1" content="c5[0:67]" alignment="p2"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c6[0:69]" alignment="p2"/>
+    <item id="t1" content="c7[0:74]" alignment="p2"/>
+  </tier>
+</igt>
+</xigt-corpus>

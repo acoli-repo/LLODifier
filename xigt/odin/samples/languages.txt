@@ -1,0 +1,5380 @@
+Languages used in aae.xml:
+  aae	s.marzano	73
+  aae	s.sofia d'epiro	58
+  aae	ginestra	54
+  aae	carfizzi	43
+  aae	portocannone	38
+  aae	vena di maida	4
+  aae	arberesh	2
+  aae	falconara	1
+  aae	molisse	1
+
+Languages used in aal.xml:
+  aal	kotoko	1
+
+Languages used in aar.xml:
+  aar	qafar	2
+
+Languages used in aba.xml:
+  aba	abe	2
+
+Languages used in abk.xml:
+  abk	abkhaz	60
+
+Languages used in abq.xml:
+  abq	abaza	105
+
+Languages used in abs.xml:
+  abs	ambonese malay	1
+
+Languages used in abt.xml:
+  abt	ambulas	4
+  abt	abelam	2
+
+Languages used in abx:bdl:ccg:kte:pnq:smd:ssb:sse.xml:
+  abx:bdl:ccg:kte:pnq:smd:ssb:sse	sama	2
+
+Languages used in ace.xml:
+  ace	acehnese	103
+  ace	aceh	14
+  ace	acenhese	5
+  ace	achehnese	2
+
+Languages used in acf.xml:
+  acf	antillean	1
+  acf	lesser antillean	1
+  acf	st. lucia creole	1
+  acf	st. lucian	1
+
+Languages used in ach.xml:
+  ach	acholi	2
+
+Languages used in acm.xml:
+  acm	iraqi arabic	4
+  acm	baghdad arabic	1
+
+Languages used in acv.xml:
+  acv	achumawi	2
+
+Languages used in adg.xml:
+  adg	andegerebinha	2
+
+Languages used in adi.xml:
+  adi	padam-mishing	11
+  adi	padam	10
+  adi	milang	2
+  adi	maling	1
+
+Languages used in adj.xml:
+  adj	adioukrou	3
+
+Languages used in ady.xml:
+  ady	circassian	48
+  ady	adyghe	26
+
+Languages used in aeb.xml:
+  aeb	tunisian arabic	23
+  aeb	french (fra) + tunisian arabic	5
+
+Languages used in aer:are.xml:
+  aer:are	arrernte	1
+
+Languages used in aer.xml:
+  aer	mparntwe arrernte	20
+  aer	arrernte	14
+  aer	antekerrepenhe	9
+  aer	antekerrepenh	3
+  aer	mperntwe arrernte	1
+
+Languages used in aey.xml:
+  aey	amele	106
+
+Languages used in afb.xml:
+  afb	gulf arabic	5
+
+Languages used in afr.xml:
+  afr	afrikaans	540
+
+Languages used in agb.xml:
+  agb	leggbo	6
+  agb	igbo	1
+
+Languages used in agj.xml:
+  agj	argobba	8
+
+Languages used in agn.xml:
+  agn	agutaynen	119
+
+Languages used in agq.xml:
+  agq	aghem	29
+
+Languages used in agx.xml:
+  agx	aghul	6
+
+Languages used in ahk.xml:
+  ahk	akha	14
+
+Languages used in aho.xml:
+  aho	ahom tai	1
+
+Languages used in aia.xml:
+  aia	arosi	3
+
+Languages used in aib:ain.xml:
+  aib:ain	ainu	3
+
+Languages used in aie.xml:
+  aie	amara	1
+
+Languages used in ain.xml:
+  ain	ainu	40
+
+Languages used in aiz.xml:
+  aiz	aari	2
+
+Languages used in ajg.xml:
+  ajg	aja	5
+
+Languages used in ajp.xml:
+  ajp	rural palestine arabic	214
+  ajp	rural palestinian arabic	89
+  ajp	northern palestinian arabic	26
+  ajp	urban palestinian	13
+  ajp	palestinian arabic	1
+
+Languages used in aka.xml:
+  aka	akan	143
+  aka	twi	15
+  aka	asante	9
+  aka	kwawu	9
+  aka	fante	3
+
+Languages used in akk.xml:
+  akk	akkadian	20
+
+Languages used in akv.xml:
+  akv	akhvakh	14
+
+Languages used in ale.xml:
+  ale	aleut	2
+
+Languages used in alo.xml:
+  alo	larike	12
+
+Languages used in alp.xml:
+  alp	alune	4
+
+Languages used in alr.xml:
+  alr	alutor	4
+
+Languages used in als.xml:
+  als	albanian	204
+  als	tosk albanian	27
+  als	standard albanian	10
+  als	tosk	2
+
+Languages used in alt.xml:
+  alt	altaj	1
+
+Languages used in aly.xml:
+  aly	alyawarr	6
+
+Languages used in amc.xml:
+  amc	amahuaca	17
+
+Languages used in ame.xml:
+  ame	amuecha	1
+
+Languages used in amh.xml:
+  amh	amharic	145
+
+Languages used in ami.xml:
+  ami	amis	22
+
+Languages used in amk.xml:
+  amk	ambai	5
+
+Languages used in amp.xml:
+  amp	alamblak	22
+
+Languages used in ane.xml:
+  ane	xârâcùù	3
+
+Languages used in ang.xml:
+  ang	old english	428
+  ang	older english	3
+
+Languages used in ani.xml:
+  ani	andi	2
+
+Languages used in anu.xml:
+  anu	anywa	7
+
+Languages used in any.xml:
+  any	anyi	10
+
+Languages used in anz.xml:
+  anz	anem	7
+
+Languages used in aoa.xml:
+  aoa	angolar	1
+
+Languages used in apc.xml:
+  apc	lebanese arabic	63
+  apc	syrian arabic	13
+  apc	arabic	1
+
+Languages used in ape:aoj:aon.xml:
+  ape:aoj:aon	arapesh	7
+
+Languages used in ape.xml:
+  ape	bukiyip	11
+
+Languages used in aph.xml:
+  aph	athpare	3
+
+Languages used in apj.xml:
+  apj	jicarilla apache	2
+
+Languages used in apr.xml:
+  apr	aroplokep	16
+  apr	aroplukep	2
+
+Languages used in apt.xml:
+  apt	apatani	3
+
+Languages used in apu.xml:
+  apu	apurinã	14
+  apu	apurina	6
+  apu	arupina	2
+
+Languages used in apy.xml:
+  apy	apalai	9
+  apy	apalaí	2
+
+Languages used in aqc.xml:
+  aqc	archi	18
+
+Languages used in arb.xml:
+  arb	arabic	216
+  arb	standard arabic	117
+  arb	modern standard arabic	43
+  arb	classical arabic	18
+  arb	french (fra) + arabic	2
+  arb	persian (pes) + arabic	1
+
+Languages used in arc.xml:
+  arc	biblical aramaic	1
+
+Languages used in ard:wgg.xml:
+  ard:wgg	arabana-wangkangurru	17
+
+Languages used in are.xml:
+  are	aranda	1
+
+Languages used in arh:igb:ikk.xml:
+  arh:igb:ikk	ika	1
+
+Languages used in arh.xml:
+  arh	ika	9
+
+Languages used in arn.xml:
+  arn	mapudungun	244
+  arn	mapudungu	1
+
+Languages used in arq.xml:
+  arq	algerian arabic	2
+
+Languages used in arr.xml:
+  arr	karo	3
+
+Languages used in arv.xml:
+  arv	arbore	2
+
+Languages used in ary.xml:
+  ary	moroccan arabic	13
+  ary	french (fra) + moroccan arabic	1
+
+Languages used in arz.xml:
+  arz	egyptian arabic	63
+  arz	arabic egyptian	2
+  arz	egyptian	1
+
+Languages used in asb.xml:
+  asb	assiniboine	4
+
+Languages used in asc:cns.xml:
+  asc:cns	asmat	1
+
+Languages used in ase.xml:
+  ase	american sign language	11
+  ase	asl	2
+
+Languages used in asm.xml:
+  asm	assamese	17
+
+Languages used in ast.xml:
+  ast	asturian	2
+
+Languages used in atb.xml:
+  atb	zaiwa	4
+  atb	zi	2
+
+Languages used in ati.xml:
+  ati	attie	3
+
+Languages used in atv:alt.xml:
+  atv:alt	altay	1
+
+Languages used in atw.xml:
+  atw	atsugewi	1
+
+Languages used in aty.xml:
+  aty	aneityum	2
+
+Languages used in auv:gsc.xml:
+  auv:gsc	occitan	2
+
+Languages used in auw.xml:
+  auw	nyao	1
+
+Languages used in ava.xml:
+  ava	avar	35
+
+Languages used in ave.xml:
+  ave	avestan	1
+
+Languages used in awb.xml:
+  awb	awa	4
+
+Languages used in awe.xml:
+  awe	awetí	2
+
+Languages used in awn.xml:
+  awn	agaw	3
+  awn	awngi	2
+
+Languages used in axx.xml:
+  axx	xaragure	1
+
+Languages used in ayu.xml:
+  ayu	aya	1
+
+Languages used in ayz.xml:
+  ayz	maybrat	73
+
+Languages used in azb.xml:
+  azb	azari	1
+
+Languages used in azr.xml:
+  azr	adzera	3
+
+Languages used in azz.xml:
+  azz	highland puebla nahuatl	2
+
+Languages used in bae.xml:
+  bae	bare	2
+
+Languages used in bag.xml:
+  bag	tuki	1
+
+Languages used in bak.xml:
+  bak	bashkir	2
+
+Languages used in bam:bma.xml:
+  bam:bma	bambara	1
+
+Languages used in bam.xml:
+  bam	bambara	38
+  bam	bamana	1
+  bam	sikasso	1
+
+Languages used in ban.xml:
+  ban	balinese	268
+  ban	bali	17
+
+Languages used in bao:bsn.xml:
+  bao:bsn	barasano	3
+
+Languages used in bao:pok.xml:
+  bao:pok	barasano	4
+
+Languages used in bao.xml:
+  bao	barasano	4
+
+Languages used in bap.xml:
+  bap	bantawa	2
+
+Languages used in bar.xml:
+  bar	bavarian	244
+  bar	olang tirolese	12
+  bar	austrian	2
+  bar	carinthia	2
+  bar	carinthian	2
+  bar	kastl	1
+  bar	pernegg	1
+  bar	south bavarian	1
+
+Languages used in bas.xml:
+  bas	basaa	3
+
+Languages used in bav.xml:
+  bav	babungo	45
+
+Languages used in baz.xml:
+  baz	nen	2
+
+Languages used in bbb.xml:
+  bbb	barai	24
+
+Languages used in bbc.xml:
+  bbc	toba batak	46
+
+Languages used in bbl.xml:
+  bbl	tsovatush	23
+  bbl	bats	4
+  bbl	batsbi	3
+
+Languages used in bca:bfc:bfs.xml:
+  bca:bfc:bfs	bai	19
+
+Languages used in bch.xml:
+  bch	bariai	9
+
+Languages used in bci.xml:
+  bci	baule	55
+
+Languages used in bck.xml:
+  bck	bunuba	15
+
+Languages used in bcm.xml:
+  bcm	banoni	2
+
+Languages used in bcr.xml:
+  bcr	babine-witsuwit'en	2
+  bcr	witsuwit'en	2
+
+Languages used in bdm.xml:
+  bdm	buduma	4
+
+Languages used in bds.xml:
+  bds	burunge	1
+
+Languages used in bdy.xml:
+  bdy	bandjalang	3
+
+Languages used in bee.xml:
+  bee	byansi	6
+
+Languages used in bej.xml:
+  bej	beja	18
+
+Languages used in bel.xml:
+  bel	belarusan	2
+  bel	belorussian	1
+
+Languages used in bem.xml:
+  bem	bemba	41
+  bem	chibemba	9
+
+Languages used in ben.xml:
+  ben	bangla	231
+  ben	bengali	117
+  ben	bengalisch	4
+
+Languages used in bew.xml:
+  bew	betawi	1
+
+Languages used in bex.xml:
+  bex	jur	1
+
+Languages used in bez.xml:
+  bez	hibena	10
+
+Languages used in bfa:mqu:muw:unr.xml:
+  bfa:mqu:muw:unr	mundari	4
+
+Languages used in bfa.xml:
+  bfa	bari	2
+
+Languages used in bfd.xml:
+  bfd	bafut	3
+
+Languages used in bft.xml:
+  bft	balti	2
+
+Languages used in bfu.xml:
+  bfu	gahri	1
+
+Languages used in bgq.xml:
+  bgq	bagari	2
+
+Languages used in bgr.xml:
+  bgr	bawm	7
+
+Languages used in bho.xml:
+  bho	bhojpuri	6
+
+Languages used in bhp.xml:
+  bhp	bima	10
+  bhp	bimanese	3
+
+Languages used in bhq:khc.xml:
+  bhq:khc	tukang besi	179
+
+Languages used in bhq.xml:
+  bhq	tukang besi	4
+
+Languages used in bif.xml:
+  bif	biafada	2
+
+Languages used in bin:lew.xml:
+  bin:lew	edo	2
+
+Languages used in bin.xml:
+  bin	edo	362
+  bin	Èdó	29
+
+Languages used in bis.xml:
+  bis	bislama	2
+
+Languages used in biu.xml:
+  biu	bete	2
+
+Languages used in bjh.xml:
+  bjh	bahinemo	1
+
+Languages used in bla.xml:
+  bla	blackfoot	9
+
+Languages used in blc.xml:
+  blc	bella coola	27
+
+Languages used in blu.xml:
+  blu	hmong	64
+  blu	green hmong	59
+  blu	hmong njua	9
+  blu	western hmong	2
+  blu	miao	1
+
+Languages used in bma.xml:
+  bma	bambara	3
+
+Languages used in bmi.xml:
+  bmi	lisi	24
+  bmi	bagirmi	8
+  bmi	bagirimi	1
+  bmi	gol	1
+
+Languages used in bnc.xml:
+  bnc	igorot	2
+  bnc	ingorot bontoc	2
+
+Languages used in bnd.xml:
+  bnd	banda	1
+
+Languages used in bni.xml:
+  bni	dzamba	9
+
+Languages used in bnn.xml:
+  bnn	bunun	3
+
+Languages used in boa.xml:
+  boa	bora	1
+
+Languages used in bob.xml:
+  bob	boni	7
+
+Languages used in bod.xml:
+  bod	lhasa	51
+  bod	tibetan	33
+  bod	lhasa tibetan	2
+
+Languages used in bol.xml:
+  bol	bole	3
+
+Languages used in bor.xml:
+  bor	bororo	2
+
+Languages used in bos.xml:
+  bos	serbian (srp) + croatian (hrv) + bosnian	31
+  bos	bosnian	4
+
+Languages used in bot.xml:
+  bot	bongo	6
+
+Languages used in bps.xml:
+  bps	bilaan	12
+
+Languages used in bqc.xml:
+  bqc	boko	95
+
+Languages used in bqe.xml:
+  bqe	navarro-labourdin basque	12
+  bqe	eastern basque	2
+
+Languages used in brc.xml:
+  brc	berbice	2
+  brc	berbice dutch	2
+  brc	berbice dutch creole	1
+
+Languages used in bre.xml:
+  bre	breton	74
+
+Languages used in brg.xml:
+  brg	baure	7
+
+Languages used in brh.xml:
+  brh	brahui	6
+
+Languages used in brx.xml:
+  brx	bodo	1
+
+Languages used in bsf.xml:
+  bsf	bauchi	5
+
+Languages used in bsk.xml:
+  bsk	burushaski	44
+
+Languages used in bsn:bao:pok.xml:
+  bsn:bao:pok	barasano	1
+
+Languages used in btg.xml:
+  btg	bete	2
+  btg	vata (dic) + gbadi	2
+
+Languages used in btx.xml:
+  btx	karo batak	3
+
+Languages used in bua.xml:
+  bua	buriat	2
+
+Languages used in bul.xml:
+  bul	bulgarian	1795
+  bul	serbocroatian (srp:hrv) + macedonian (mkd) + bulgarian	4
+  bul	macedonian (mkd) + bulgarian	3
+
+Languages used in bus.xml:
+  bus	bokobaru	4
+
+Languages used in bwe.xml:
+  bwe	bwe karen	15
+  bwe	bwe	4
+
+Languages used in bwi.xml:
+  bwi	baniwa	2
+
+Languages used in bwu.xml:
+  bwu	buli	31
+
+Languages used in bwz.xml:
+  bwz	bwisi	1
+
+Languages used in bxm.xml:
+  bxm	buryat	2
+  bxm	mongolian buriat	2
+  bxm	buriat	1
+
+Languages used in bxr.xml:
+  bxr	buryat	4
+
+Languages used in bxw:fmp.xml:
+  bxw:fmp	banka	4
+
+Languages used in bym.xml:
+  bym	badjala	6
+
+Languages used in byw.xml:
+  byw	belhare	240
+
+Languages used in bzr.xml:
+  bzr	biri	28
+
+Languages used in caa.xml:
+  caa	chorti	6
+  caa	ch'orti'	3
+
+Languages used in cac.xml:
+  cac	chuj	3
+
+Languages used in cad.xml:
+  cad	caddo	29
+
+Languages used in cak.xml:
+  cak	kaqchikel	19
+  cak	cakchiquel	4
+
+Languages used in cap.xml:
+  cap	chipaya	10
+
+Languages used in caq.xml:
+  caq	car nicobarese	2
+
+Languages used in car.xml:
+  car	carib	10
+
+Languages used in cas.xml:
+  cas	mosetén	7
+
+Languages used in cat.xml:
+  cat	catalan	634
+  cat	valencian	13
+  cat	spanish (spa) + catalan	7
+  cat	majorcan	5
+  cat	greek (ell) + catalan	4
+  cat	catalán	1
+  cat	central catalan	1
+  cat	minorcan	1
+  cat	valencia	1
+
+Languages used in cay.xml:
+  cay	cayuga	7
+
+Languages used in cbc.xml:
+  cbc	carapana	1
+
+Languages used in cbs.xml:
+  cbs	cashinahua	3
+
+Languages used in ccc.xml:
+  ccc	chamicuro	42
+
+Languages used in ccx.xml:
+  ccx	zhuang	64
+
+Languages used in cdm.xml:
+  cdm	chepang	12
+
+Languages used in ceb.xml:
+  ceb	cebuano	44
+
+Languages used in ces.xml:
+  ces	czech	664
+
+Languages used in cha.xml:
+  cha	chamorro	315
+
+Languages used in chd.xml:
+  chd	chontal	1
+  chd	oaxaca chontal	1
+
+Languages used in che.xml:
+  che	chechen	21
+
+Languages used in chg.xml:
+  chg	chagatay	1
+
+Languages used in cho.xml:
+  cho	choctaw	338
+  cho	choktaw	3
+  cho	chocktaw	2
+
+Languages used in chp.xml:
+  chp	chipewyan	1
+  chp	dene	1
+
+Languages used in chr.xml:
+  chr	cherokee	10
+
+Languages used in chu.xml:
+  chu	old church slavonic	4
+  chu	altkirchenslavischen	2
+
+Languages used in chv.xml:
+  chv	chuvash	9
+
+Languages used in chx.xml:
+  chx	chantyal	86
+
+Languages used in cic.xml:
+  cic	chickasaw	76
+  cic	chikasaw	1
+
+Languages used in cim.xml:
+  cim	cimbrian	30
+  cim	lusern	3
+  cim	giazza	2
+  cim	montesover	2
+  cim	roana	2
+
+Languages used in cir.xml:
+  cir	tinrin	7
+
+Languages used in cjh.xml:
+  cjh	upper chehalis	94
+
+Languages used in cji.xml:
+  cji	chamalal	2
+  cji	chamalin	2
+
+Languages used in cjm.xml:
+  cjm	eastern cham	130
+
+Languages used in cjo:cpy.xml:
+  cjo:cpy	asheninka	5
+
+Languages used in cjo.xml:
+  cjo	asheninca	5
+
+Languages used in cjs.xml:
+  cjs	shor	5
+
+Languages used in cjv.xml:
+  cjv	chuave	3
+  cjv	chauve	2
+
+Languages used in ckb.xml:
+  ckb	sorani	23
+  ckb	suleimaniye kurdish	3
+  ckb	suleimanye kurdish	3
+  ckb	kurdish	1
+
+Languages used in cks.xml:
+  cks	tayo	3
+
+Languages used in ckt.xml:
+  ckt	chukchi	124
+  ckt	chukchee	77
+  ckt	chuckchee	5
+  ckt	chuckchi	4
+
+Languages used in cku.xml:
+  cku	koasati	19
+
+Languages used in ckv.xml:
+  ckv	kavalan	152
+
+Languages used in cle.xml:
+  cle	lealao chinantec	22
+
+Languages used in cmg.xml:
+  cmg	classical mongolian	7
+
+Languages used in cmn.xml:
+  cmn	mandarin	3169
+  cmn	mandarin chinese	977
+  cmn	chinese	864
+  cmn	chinesischen	23
+  cmn	chinese mandarin	9
+  cmn	chinees	2
+  cmn	putonghua	1
+
+Languages used in cng.xml:
+  cng	qiang	990
+  cng	northern qiang	2
+
+Languages used in cnh.xml:
+  cnh	lai	68
+  cnh	lai chin	50
+  cnh	hakha	5
+  cnh	haka-chin	1
+
+Languages used in cni.xml:
+  cni	asheninka	5
+
+Languages used in cns.xml:
+  cns	asmat	3
+  cns	central asmat	1
+
+Languages used in cnx.xml:
+  cnx	middle cornish	1
+
+Languages used in cok:crn.xml:
+  cok:crn	cora	2
+
+Languages used in col.xml:
+  col	moses-columbian	4
+
+Languages used in com.xml:
+  com	comanche	13
+
+Languages used in coo.xml:
+  coo	mainland comox	8
+
+Languages used in cop.xml:
+  cop	coptic	90
+  cop	sahidic	3
+
+Languages used in cos.xml:
+  cos	corsican	1
+
+Languages used in cpc.xml:
+  cpc	axininca campa	7
+
+Languages used in cpg.xml:
+  cpg	cappadocian	4
+
+Languages used in cpu.xml:
+  cpu	asheninca campa	7
+
+Languages used in crg.xml:
+  crg	michif	2
+
+Languages used in crj.xml:
+  crj	southern east cree	84
+
+Languages used in crk:csw:cwd:crj:crl:crm.xml:
+  crk:csw:cwd:crj:crl:crm	cree	2
+
+Languages used in crk:cwd.xml:
+  crk:cwd	cree	2
+
+Languages used in crk.xml:
+  crk	plains cree	212
+  crk	cree	49
+
+Languages used in crm.xml:
+  crm	moose cree	1
+
+Languages used in crn:cok.xml:
+  crn:cok	cora	5
+
+Languages used in crn.xml:
+  crn	cora	7
+
+Languages used in cro.xml:
+  cro	crow	1
+
+Languages used in crs.xml:
+  crs	seychellois	13
+  crs	seychelles	5
+  crs	seychelles creole	4
+
+Languages used in crw.xml:
+  crw	chrau	2
+
+Languages used in crx.xml:
+  crx	carrier	3
+  crx	middle cornish	3
+
+Languages used in csc.xml:
+  csc	catalan sign language	13
+  csc	catalonian sign language	1
+
+Languages used in csh.xml:
+  csh	hyow	4
+
+Languages used in cso.xml:
+  cso	sochiapan chinantec	3
+
+Languages used in csw.xml:
+  csw	swampy cree	12
+  csw	cree	9
+
+Languages used in csy.xml:
+  csy	siyin chin	30
+  csy	siyin	24
+
+Languages used in csz.xml:
+  csz	hanis	8
+
+Languages used in ctd.xml:
+  ctd	tiddim	7
+
+Languages used in ctm.xml:
+  ctm	chitimacha	4
+
+Languages used in ctu:cti.xml:
+  ctu:cti	ch'ol	3
+
+Languages used in cub.xml:
+  cub	cubeo	1
+
+Languages used in cup.xml:
+  cup	cupeño	919
+
+Languages used in cwd.xml:
+  cwd	woods cree	1
+
+Languages used in cyb.xml:
+  cyb	cayuvava	1
+
+Languages used in cym.xml:
+  cym	welsh	404
+
+Languages used in dag.xml:
+  dag	dagbani	11
+
+Languages used in dak.xml:
+  dak	dakota	22
+
+Languages used in dan.xml:
+  dan	danish	1042
+  dan	dansk	3
+
+Languages used in dap.xml:
+  dap	nishi	9
+
+Languages used in dar.xml:
+  dar	dargwa	8
+  dar	dargi	6
+  dar	kubachi	4
+  dar	akusha	1
+
+Languages used in dbl.xml:
+  dbl	dyirbal	440
+  dbl	mamu	1
+
+Languages used in ddj.xml:
+  ddj	djaru	30
+
+Languages used in ddo.xml:
+  ddo	tsez	98
+
+Languages used in dds.xml:
+  dds	donno so	6
+  dds	dogon	1
+
+Languages used in der.xml:
+  der	deuri	1
+
+Languages used in des.xml:
+  des	desano	3
+
+Languages used in deu:pdt.xml:
+  deu:pdt	german	10
+
+Languages used in deu.xml:
+  deu	german	10795
+  deu	deutsch	9
+  deu	new high german	5
+  deu	early new high german	3
+  deu	modern high german	2
+
+Languages used in dga.xml:
+  dga	dagaare	131
+  dga	southern dagaare	46
+  dga	dagaari	1
+
+Languages used in dgr.xml:
+  dgr	dogrib	9
+
+Languages used in dgz.xml:
+  dgz	daga	8
+
+Languages used in dhg.xml:
+  dhg	thangu	4
+
+Languages used in dhr.xml:
+  dhr	tharrkari	1
+
+Languages used in dhv.xml:
+  dhv	drehu	3
+
+Languages used in dic.xml:
+  dic	vata	12
+
+Languages used in did:laj:lno.xml:
+  did:laj:lno	lango	1
+
+Languages used in dif.xml:
+  dif	diyari	46
+
+Languages used in dih.xml:
+  dih	jamul tiipay	10
+  dih	diegueño	6
+  dih	diegueno	4
+
+Languages used in diq.xml:
+  diq	zazaki	53
+  diq	zaza	1
+  diq	zaza kurdish	1
+
+Languages used in dis.xml:
+  dis	dimasa	1
+
+Languages used in div.xml:
+  div	dhivehi maldivian	19
+  div	dhivehi	13
+
+Languages used in djd.xml:
+  djd	jaminjung	2
+
+Languages used in dje.xml:
+  dje	zarma	3
+
+Languages used in djj.xml:
+  djj	ndjébbana	8
+  djj	ndjebbana	5
+
+Languages used in djk.xml:
+  djk	ndyuka	7
+
+Languages used in djr.xml:
+  djr	djambarrpuyngu	1
+
+Languages used in dni.xml:
+  dni	lower grand dani	6
+
+Languages used in dnw.xml:
+  dnw	dani	6
+  dnw	lani	2
+
+Languages used in dow.xml:
+  dow	doyayo	6
+
+Languages used in drl.xml:
+  drl	gurnu	8
+  drl	baagandji	1
+
+Languages used in dru.xml:
+  dru	rukai	17
+
+Languages used in dsl.xml:
+  dsl	danish sign language	6
+
+Languages used in dsq.xml:
+  dsq	tadaksahak	112
+
+Languages used in dta.xml:
+  dta	dagur	4
+
+Languages used in dua.xml:
+  dua	duala	46
+
+Languages used in duj.xml:
+  duj	djapu	7
+
+Languages used in dum.xml:
+  dum	middle dutch	99
+
+Languages used in dur.xml:
+  dur	yag dii	8
+
+Languages used in dus.xml:
+  dus	dumi	33
+
+Languages used in duu:raw.xml:
+  duu:raw	dulong	50
+
+Languages used in duu.xml:
+  duu	dulong	123
+
+Languages used in dyo.xml:
+  dyo	diolafogny	1
+
+Languages used in dyy.xml:
+  dyy	djabugay	8
+
+Languages used in dzg.xml:
+  dzg	tubu	1
+
+Languages used in efi.xml:
+  efi	efik	2
+
+Languages used in egy.xml:
+  egy	old egyptian	1
+
+Languages used in ekg.xml:
+  ekg	ekari	2
+
+Languages used in ekr.xml:
+  ekr	yatye	3
+
+Languages used in eky.xml:
+  eky	eastern kayah	5
+  eky	kayah li	2
+
+Languages used in ell.xml:
+  ell	greek	1532
+  ell	modern greek	488
+  ell	cypriot greek	19
+  ell	italiot	9
+  ell	spanish (spa) + greek	6
+  ell	cretan	4
+  ell	calabria	3
+  ell	salento	3
+  ell	otranto	1
+
+Languages used in emi.xml:
+  emi	mussau	4
+
+Languages used in emk.xml:
+  emk	maninka	4
+
+Languages used in eml.xml:
+  eml	romagnolo	1
+
+Languages used in end.xml:
+  end	ende	16
+
+Languages used in eng.xml:
+  eng	spanish (spa) + english	65
+  eng	russian (rus) + english	24
+  eng	african american english	19
+  eng	english	19
+  eng	japanese (jpn) + english	9
+  eng	farsi (pes) + english	7
+  eng	marathi (mar) + english	7
+  eng	adanme (ada) + english	4
+  eng	finnish (fin) + english	4
+  eng	french (fra) + english	4
+  eng	korean (kor) + english	4
+  eng	irish (gle) + english	3
+  eng	arabic (arb) + english	2
+  eng	maori (mri) + english	2
+  eng	persian (pes) + english	2
+  eng	español (spa) + english	1
+  eng	hawick scots	1
+  eng	italian (ita) + english	1
+  eng	punjabi (pan) + english	1
+  eng	swahili (swh) + english	1
+  eng	swedish (swe) + english	1
+  eng	tamil (tam) + english	1
+
+Languages used in enh.xml:
+  enh	enets	8
+
+Languages used in enm.xml:
+  enm	middle english	383
+  enm	early middle english	3
+
+Languages used in enn.xml:
+  enn	engenni	4
+
+Languages used in enq.xml:
+  enq	enga	9
+
+Languages used in epo.xml:
+  epo	esperanto	1
+
+Languages used in erg.xml:
+  erg	sie	1
+
+Languages used in ert.xml:
+  ert	eri	1
+
+Languages used in esh.xml:
+  esh	eshtehardi	2
+
+Languages used in esi.xml:
+  esi	inupiaq	2
+  esi	iñupiaq	1
+
+Languages used in ess.xml:
+  ess	yupik	4
+  ess	yup'ik eskimo	3
+
+Languages used in est.xml:
+  est	estonian	85
+  est	tallinn	7
+
+Languages used in esu:ess:ems.xml:
+  esu:ess:ems	yup'ik	1
+
+Languages used in esu:ess.xml:
+  esu:ess	yup'ik	4
+  esu:ess	yupik	4
+
+Languages used in esu.xml:
+  esu	central yup'ik eskimo	7
+  esu	eskimo	6
+  esu	yup'ik	6
+  esu	yupik	5
+  esu	central yu'ik eskimo	4
+  esu	central alaskan yup'ik	3
+  esu	central yupik	2
+  esu	yup'ik eskimo	2
+
+Languages used in etu.xml:
+  etu	ejagham	2
+
+Languages used in eus.xml:
+  eus	basque	997
+  eus	baskisch	15
+  eus	gipuzkoan	11
+  eus	bermeo occidental	4
+  eus	plencia nororiental	4
+  eus	orozco	2
+
+Languages used in eve.xml:
+  eve	ojm'akon	2
+
+Languages used in evn.xml:
+  evn	evenki	58
+
+Languages used in ewe.xml:
+  ewe	ewe	179
+  ewe	gbe	4
+  ewe	evegbe	2
+
+Languages used in ewo.xml:
+  ewo	ewondo	3
+
+Languages used in faa.xml:
+  faa	fasu	4
+
+Languages used in fab.xml:
+  fab	fa d'ambu	2
+
+Languages used in fal.xml:
+  fal	ram	1
+
+Languages used in fao.xml:
+  fao	faroese	118
+
+Languages used in fas:pes:prs.xml:
+  fas:pes:prs	persian	2
+
+Languages used in fij.xml:
+  fij	fijian	92
+  fij	boumaa	5
+  fij	fiji	2
+  fij	bauan	1
+
+Languages used in fin.xml:
+  fin	finnish	3111
+  fin	tampere	10
+  fin	finnisch	2
+
+Languages used in fon.xml:
+  fon	fongbe	96
+  fon	fon	9
+  fon	f'ngbe	2
+  fon	fongbè	1
+
+Languages used in for.xml:
+  for	fore	16
+
+Languages used in fra.xml:
+  fra	french	7132
+  fra	quebecois	89
+  fra	standard french	70
+  fra	québec french	63
+  fra	french verlan	18
+  fra	italian (ita) + french	14
+  fra	langue verte	6
+  fra	tunisian arabic (aeb) + french	5
+  fra	französisch	3
+  fra	vendee	3
+  fra	norman	2
+  fra	quebec french	2
+  fra	bourbonnais	1
+  fra	français	1
+  fra	québécois	1
+  fra	saint-etienne	1
+  fra	vendeen	1
+
+Languages used in fri.xml:
+  fri	frisian	47
+  fri	frysk	33
+  fri	???	1
+
+Languages used in frm.xml:
+  frm	middle french	32
+
+Languages used in fro.xml:
+  fro	old french	262
+
+Languages used in frp.xml:
+  frp	francoprovençal	7
+  frp	ayas	1
+  frp	châtillon	1
+  frp	francoprovencal	1
+  frp	savoyard	1
+
+Languages used in fuc.xml:
+  fuc	pulaar	133
+  fuc	senegalese pulaar	60
+  fuc	fula	2
+
+Languages used in fud.xml:
+  fud	east futuna	2
+
+Languages used in fur.xml:
+  fur	furlan	6
+  fur	friulian	5
+
+Languages used in fut.xml:
+  fut	futunaaniwa	2
+
+Languages used in fuv:fub:fuq:fuh:fuc.xml:
+  fuv:fub:fuq:fuh:fuc	fula	13
+
+Languages used in fuv:fub:fuq:fuh.xml:
+  fuv:fub:fuq:fuh	fula	28
+  fuv:fub:fuq:fuh	fulfulde	3
+
+Languages used in fuv:fub.xml:
+  fuv:fub	fula	4
+
+Languages used in fuv.xml:
+  fuv	nigerian fulfulde	21
+  fuv	fula	6
+  fuv	gombe fula	4
+
+Languages used in gaa.xml:
+  gaa	ga	42
+
+Languages used in gae.xml:
+  gae	warekena	3
+
+Languages used in gah.xml:
+  gah	gahuku	1
+
+Languages used in gax:hae.xml:
+  gax:hae	oromo	6
+
+Languages used in gax:orm.xml:
+  gax:orm	oromo	8
+
+Languages used in gax.xml:
+  gax	oromo	2
+
+Languages used in gaz:hae.xml:
+  gaz:hae	oromo	1
+
+Languages used in gbb.xml:
+  gbb	kaytetye	11
+
+Languages used in gbc.xml:
+  gbc	wanyi	31
+  gbc	garawa	6
+  gbc	karrwa	3
+
+Languages used in gbi.xml:
+  gbi	galela	7
+
+Languages used in gbj.xml:
+  gbj	gutob	4
+
+Languages used in gbo:gec.xml:
+  gbo:gec	grebo	2
+
+Languages used in gbz.xml:
+  gbz	dari	60
+
+Languages used in gcc.xml:
+  gcc	mali	1
+
+Languages used in gcd.xml:
+  gcd	yukulta	17
+
+Languages used in gcf.xml:
+  gcf	guadeloupe	2
+
+Languages used in gcr.xml:
+  gcr	guyana creole french	5
+  gcr	guyanais	1
+  gcr	guyanese	1
+
+Languages used in gde.xml:
+  gde	gude	10
+
+Languages used in gdl.xml:
+  gdl	diraytata	2
+
+Languages used in gdo.xml:
+  gdo	godoberi	1
+
+Languages used in ged.xml:
+  ged	geder	1
+
+Languages used in gej.xml:
+  gej	gengbe	7
+  gej	minagbe	1
+
+Languages used in gez.xml:
+  gez	geez	1
+
+Languages used in gfk.xml:
+  gfk	patpatar	1
+
+Languages used in gge.xml:
+  gge	gurrgoni	2
+
+Languages used in ghn.xml:
+  ghn	ganoqa	5
+
+Languages used in gil.xml:
+  gil	gilbertese	2
+  gil	kiribatese	2
+  gil	kiribati	1
+
+Languages used in gkn.xml:
+  gkn	gokana	25
+
+Languages used in gla.xml:
+  gla	scottish gaelic	56
+  gla	scots gaelic	13
+  gla	gaelic	9
+  gla	schottisch-gälisch	4
+
+Languages used in gld.xml:
+  gld	nanai	1
+
+Languages used in gle.xml:
+  gle	irish	943
+  gle	ulster	8
+  gle	irisch	2
+  gle	iers	1
+
+Languages used in glg.xml:
+  glg	galician	25
+  glg	gallegan	1
+
+Languages used in gma.xml:
+  gma	kambera	2
+
+Languages used in gmh.xml:
+  gmh	middle high german	40
+
+Languages used in gni.xml:
+  gni	gooniyandi	16
+  gni	kuniyanti	3
+
+Languages used in gnn.xml:
+  gnn	gumatj	1
+
+Languages used in gnr.xml:
+  gnr	goreng-goreng	7
+
+Languages used in god.xml:
+  god	godié	1
+
+Languages used in gog.xml:
+  gog	gogo	1
+
+Languages used in goh.xml:
+  goh	old high german	67
+
+Languages used in gos.xml:
+  gos	groningen	2
+
+Languages used in got.xml:
+  got	gothic	30
+
+Languages used in grb.xml:
+  grb	grebo	1
+
+Languages used in grc.xml:
+  grc	ancient greek	131
+  grc	classical greek	53
+  grc	hellenistic greek	20
+  grc	homeric greek	1
+  grc	oud-grieks	1
+
+Languages used in grt.xml:
+  grt	garo	8
+
+Languages used in gru.xml:
+  gru	kistane	4
+
+Languages used in gsc.xml:
+  gsc	bearnese occitan	2
+
+Languages used in gsg.xml:
+  gsg	german sign language	67
+
+Languages used in gsw.xml:
+  gsw	swiss german	30
+  gsw	alemannic	14
+  gsw	lucerne	11
+  gsw	zurich	8
+  gsw	bernese	6
+  gsw	schwyzerdütsch	6
+  gsw	glarus	4
+  gsw	guttannen	3
+  gsw	thusis	3
+  gsw	göschenen	2
+  gsw	upper german	2
+  gsw	alsatian	1
+  gsw	andermatt	1
+  gsw	einsiedeln	1
+  gsw	kaiserstuhl	1
+  gsw	swiss	1
+
+Languages used in gue:rop.xml:
+  gue:rop	gurindji kriol	29
+
+Languages used in gue.xml:
+  gue	gurindji	18
+  gue	malngin	3
+
+Languages used in gug.xml:
+  gug	guarani	21
+
+Languages used in guh.xml:
+  guh	sikuani	3
+
+Languages used in gui.xml:
+  gui	chiriguano	3
+
+Languages used in guj.xml:
+  guj	gujarati	12
+  guj	gujerati	2
+
+Languages used in gup.xml:
+  gup	bininj gun-wok	20
+  gup	mayali	16
+  gup	gunwinggu	3
+
+Languages used in guw.xml:
+  guw	gungbe	30
+
+Languages used in gvf.xml:
+  gvf	golin	12
+
+Languages used in gvn.xml:
+  gvn	gugu-yalanji	2
+
+Languages used in gvo.xml:
+  gvo	gavião	3
+
+Languages used in gvp.xml:
+  gvp	gavião	1
+
+Languages used in gvr.xml:
+  gvr	gurung	6
+
+Languages used in gvs.xml:
+  gvs	gumawana	2
+
+Languages used in gwj.xml:
+  gwj	gui	2
+  gwj	|gui	2
+  gwj	|gwi	2
+
+Languages used in gyd.xml:
+  gyd	kayardild	106
+
+Languages used in gym.xml:
+  gym	guaymi	11
+
+Languages used in gyn.xml:
+  gyn	guyanese creole	4
+
+Languages used in gyy.xml:
+  gyy	gunya	1
+
+Languages used in had.xml:
+  had	hatam	41
+
+Languages used in hae.xml:
+  hae	harar oromo	6
+  hae	eastern oromo	2
+  hae	harar	1
+  hae	oromo	1
+
+Languages used in hai.xml:
+  hai	haida	3
+
+Languages used in hao.xml:
+  hao	haku	1
+
+Languages used in haq.xml:
+  haq	ha	2
+
+Languages used in hat.xml:
+  hat	haitian creole	194
+  hat	haitian	81
+
+Languages used in hau.xml:
+  hau	hausa	2494
+  hau	kano	10
+
+Languages used in haw.xml:
+  haw	hawaiian	1
+
+Languages used in hay.xml:
+  hay	haya	4
+
+Languages used in hbb.xml:
+  hbb	kilba	2
+
+Languages used in hbo.xml:
+  hbo	biblical hebrew	553
+  hbo	old hebrew	1
+
+Languages used in hch.xml:
+  hch	huichol	6
+
+Languages used in hdn.xml:
+  hdn	haida	7
+
+Languages used in heb.xml:
+  heb	hebrew	1081
+
+Languages used in her.xml:
+  her	herero	8
+
+Languages used in hia.xml:
+  hia	lamang	1
+
+Languages used in hid.xml:
+  hid	hidatsa	1
+
+Languages used in hin:urd.xml:
+  hin:urd	hindi/urdu	8
+  hin:urd	hindi-urdu	1
+
+Languages used in hin.xml:
+  hin	hindi	896
+
+Languages used in hit.xml:
+  hit	hittite	15
+
+Languages used in hix.xml:
+  hix	hixkaryana	59
+  hix	hixkaryána	3
+
+Languages used in hla.xml:
+  hla	hanahan	3
+  hla	selau	1
+
+Languages used in hmb.xml:
+  hmb	songhai	1
+
+Languages used in hmo.xml:
+  hmo	hiri motu	3
+
+Languages used in hmr.xml:
+  hmr	hmar	5
+
+Languages used in hna.xml:
+  hna	mina	1
+
+Languages used in hni.xml:
+  hni	hani	1
+
+Languages used in hnj.xml:
+  hnj	hmong njua	4
+
+Languages used in hoa.xml:
+  hoa	hoava	18
+
+Languages used in hoo.xml:
+  hoo	holoholo	1
+
+Languages used in hop.xml:
+  hop	hopi	47
+
+Languages used in hrv.xml:
+  hrv	croatian	51
+  hrv	burgenland croatian	3
+  hrv	kroatisch	3
+
+Languages used in hsb.xml:
+  hsb	upper sorbian	7
+
+Languages used in hul.xml:
+  hul	hula	1
+
+Languages used in hum.xml:
+  hum	kihung'an	6
+  hum	hungana	1
+
+Languages used in hun.xml:
+  hun	hungarian	2077
+
+Languages used in huq.xml:
+  huq	tsat	18
+
+Languages used in hur.xml:
+  hur	halkomelem	115
+
+Languages used in huz.xml:
+  huz	hunzib	12
+
+Languages used in hwo.xml:
+  hwo	hona	1
+
+Languages used in hye.xml:
+  hye	armenian	41
+  hye	eastern armenian	40
+  hye	western armenian	14
+  hye	mus	1
+
+Languages used in iai.xml:
+  iai	iaai	52
+
+Languages used in ian.xml:
+  ian	iatmul	3
+
+Languages used in ibb.xml:
+  ibb	ibibio	2
+
+Languages used in ibd.xml:
+  ibd	iwaidja	26
+
+Languages used in ibo.xml:
+  ibo	igbo	196
+
+Languages used in idb.xml:
+  idb	batticaloa portuguese	2
+
+Languages used in idu.xml:
+  idu	idoma	1
+
+Languages used in ifb.xml:
+  ifb	batad ifugao	69
+
+Languages used in igb.xml:
+  igb	ebira	1
+
+Languages used in iii.xml:
+  iii	nosu	12
+  iii	chengdu	7
+  iii	nuosu	3
+  iii	yi	3
+
+Languages used in ijc.xml:
+  ijc	ijo	74
+
+Languages used in ike:kal.xml:
+  ike:kal	inuit	2
+
+Languages used in ike.xml:
+  ike	inuit	330
+  ike	inuktitut	125
+  ike	eastern canadian inuktitut	32
+  ike	mittimatalik	7
+  ike	labrador inuit	5
+  ike	labrador inuttut	5
+  ike	quebec inuktitut	3
+  ike	rigolet inuttut	3
+  ike	south baffin eskimo	2
+  ike	arctic québec inuktitut	1
+  ike	iglulik	1
+  ike	north baffin inuktitut	1
+
+Languages used in ikt.xml:
+  ikt	inuktitut	7
+  ikt	central arctic inuktitut	1
+  ikt	inuit	1
+  ikt	kangiryuarmiut	1
+  ikt	kangiryuarmiut eskimo	1
+
+Languages used in ikx.xml:
+  ikx	ik	7
+
+Languages used in ilg.xml:
+  ilg	ilgar	2
+  ilg	garig-ilgar	1
+
+Languages used in ilo.xml:
+  ilo	ilocano	25
+  ilo	ilokano	19
+
+Languages used in imn.xml:
+  imn	imonda	6
+
+Languages used in ind.xml:
+  ind	indonesian	1606
+  ind	jakarta indonesian	73
+  ind	bahasa indonesia	18
+  ind	bahasa indonesian	2
+
+Languages used in inh.xml:
+  inh	ingush	23
+
+Languages used in irk.xml:
+  irk	iraqw	9
+
+Languages used in ise.xml:
+  ise	italian sign language	2
+
+Languages used in isl.xml:
+  isl	icelandic	4259
+
+Languages used in ita.xml:
+  ita	italian	3468
+  ita	tuscan	23
+  ita	fiorentino	9
+  ita	french (fra) + italian	4
+  ita	abruzzese	3
+  ita	fioretino italian	2
+  ita	italienisch	2
+  ita	marchigiano	1
+  ita	mesocco	1
+
+Languages used in itl.xml:
+  itl	itelmen	18
+
+Languages used in ito.xml:
+  ito	itonama	71
+
+Languages used in itz.xml:
+  itz	itza	24
+  itz	maya	12
+  itz	itzaj	2
+
+Languages used in ium.xml:
+  ium	yao samsao	3
+
+Languages used in ivv.xml:
+  ivv	ivatan	10
+
+Languages used in ixi.xml:
+  ixi	ixil	4
+
+Languages used in izi.xml:
+  izi	izi	1
+
+Languages used in jaa.xml:
+  jaa	jamamadi	1
+
+Languages used in jac.xml:
+  jac	jacaltec	50
+
+Languages used in jai:jac.xml:
+  jai:jac	jacaltec	21
+  jai:jac	jakaltek	14
+  jai:jac	jakalteko	12
+  jai:jac	jacalteco	5
+  jai:jac	jacaltec mayan	2
+  jai:jac	jakaltec	1
+
+Languages used in jai.xml:
+  jai	jacalteco western	20
+
+Languages used in jam.xml:
+  jam	jamaican	195
+  jam	jamaican creole	114
+
+Languages used in jao.xml:
+  jao	yanyuwa	4
+
+Languages used in jap.xml:
+  jap	jarawara	9
+
+Languages used in jav.xml:
+  jav	javanese	15
+
+Languages used in jda.xml:
+  jda	jad	1
+
+Languages used in jeh.xml:
+  jeh	jeh	1
+
+Languages used in jek.xml:
+  jek	jeli	1
+
+Languages used in jig.xml:
+  jig	jingulu	140
+  jig	djingili	2
+
+Languages used in jmc.xml:
+  jmc	kichaga	51
+  jmc	chaga	13
+  jmc	chagga	2
+
+Languages used in jpn.xml:
+  jpn	japanese	6665
+
+Languages used in jqr.xml:
+  jqr	jaqaru	31
+
+Languages used in jum.xml:
+  jum	olga	1
+
+Languages used in jup.xml:
+  jup	hup	2
+
+Languages used in jut.xml:
+  jut	jutish	1
+  jut	west jutlandic	1
+
+Languages used in jya.xml:
+  jya	rgyalrong	6
+  jya	gyarong	2
+  jya	jyarong	2
+  jya	caodeng	1
+
+Languages used in kac.xml:
+  kac	jinghpaw	13
+  kac	jingpo	5
+
+Languages used in kal:ike.xml:
+  kal:ike	inuktitut	3
+  kal:ike	inuit	1
+
+Languages used in kal.xml:
+  kal	west greenlandic	227
+  kal	inuit	110
+  kal	greenlandic	59
+  kal	kalaallisut	54
+  kal	eskimo	21
+  kal	greenlandic eskimo	8
+  kal	west greenlandic inuit	1
+  kal	west greenlandic inuktitut	1
+
+Languages used in kan.xml:
+  kan	kannada	523
+
+Languages used in kap.xml:
+  kap	bezhta	10
+
+Languages used in kaq.xml:
+  kaq	capanahua	17
+  kaq	capanawa	2
+
+Languages used in kas.xml:
+  kas	kashmiri	358
+
+Languages used in kat.xml:
+  kat	georgian	1172
+  kat	georgisch	13
+  kat	imeretian	2
+  kat	kaxetian	1
+  kat	xevsurian	1
+
+Languages used in kau.xml:
+  kau	kanuri	19
+
+Languages used in kay.xml:
+  kay	kamayurá	21
+
+Languages used in kaz.xml:
+  kaz	kazakh	3
+
+Languages used in kbc.xml:
+  kbc	kadiwéu	2
+
+Languages used in kbd.xml:
+  kbd	kabardian	92
+
+Languages used in kbk.xml:
+  kbk	koiari	9
+
+Languages used in kca.xml:
+  kca	ostyak	83
+  kca	khanty	9
+
+Languages used in kcd.xml:
+  kcd	kanum	1
+
+Languages used in kck.xml:
+  kck	ikalanga	51
+
+Languages used in kcl.xml:
+  kcl	gela	1
+
+Languages used in kdd.xml:
+  kdd	yankunytjatjara	28
+
+Languages used in kdr.xml:
+  kdr	karaim	1
+
+Languages used in kea.xml:
+  kea	caperverdian creole	6
+  kea	cape verdian creole	4
+  kea	capeverdian	3
+  kea	cabo verde	1
+  kea	cape verdian	1
+
+Languages used in kek.xml:
+  kek	q'eqchi'	6
+  kek	k'ekchi	4
+  kek	kekchi	2
+
+Languages used in ker.xml:
+  ker	kera	6
+
+Languages used in ket.xml:
+  ket	ket	36
+
+Languages used in kew:kjs.xml:
+  kew:kjs	kewa	14
+
+Languages used in kew.xml:
+  kew	kewa	1
+
+Languages used in kfa.xml:
+  kfa	kodagu	6
+  kfa	kodava	1
+
+Languages used in kfb.xml:
+  kfb	kolami	1
+
+Languages used in kfk.xml:
+  kfk	kinnauri	85
+
+Languages used in kfz.xml:
+  kfz	koromfe	19
+
+Languages used in kgo.xml:
+  kgo	krongo	32
+
+Languages used in kgq.xml:
+  kgq	kamoro	1
+
+Languages used in kgr.xml:
+  kgr	abun	4
+
+Languages used in kgs.xml:
+  kgs	gumbaynggir	5
+
+Languages used in kha.xml:
+  kha	khasi	8
+
+Languages used in khb.xml:
+  khb	dai	1
+
+Languages used in khc:bhq.xml:
+  khc:bhq	tukang besi	34
+
+Languages used in khe.xml:
+  khe	korowai	9
+
+Languages used in khk.xml:
+  khk	mongolian	18
+  khk	khalkha	6
+  khk	khalka mongolian	3
+  khk	khalke mongolian	1
+
+Languages used in khm.xml:
+  khm	khmer	14
+  khm	cambodian	5
+
+Languages used in khq.xml:
+  khq	koyra chiini	21
+
+Languages used in khr.xml:
+  khr	kharia	3
+
+Languages used in khz.xml:
+  khz	aroma	2
+
+Languages used in kif.xml:
+  kif	kham	1
+
+Languages used in kig.xml:
+  kig	kimaghama	1
+
+Languages used in kij.xml:
+  kij	kilivila	2
+
+Languages used in kik.xml:
+  kik	kikuyu	44
+  kik	gikuyu	2
+
+Languages used in kim.xml:
+  kim	tofa	3
+
+Languages used in kin.xml:
+  kin	kinyarwanda	153
+  kin	rwanda	2
+
+Languages used in kio.xml:
+  kio	kiowa	48
+
+Languages used in kip:kgj.xml:
+  kip:kgj	kham	3
+
+Languages used in kir.xml:
+  kir	kirghiz	1
+
+Languages used in kiu.xml:
+  kiu	zazaki	71
+
+Languages used in kjc.xml:
+  kjc	konjo	8
+
+Languages used in kjg.xml:
+  kjg	kammu	1
+
+Languages used in kjh.xml:
+  kjh	khakas	3
+  kjh	sagaj	1
+
+Languages used in kji.xml:
+  kji	zabana	8
+
+Languages used in kjl:kip:kgj:kif.xml:
+  kjl:kip:kgj:kif	kham	4
+
+Languages used in kjl.xml:
+  kjl	kham	17
+
+Languages used in kjn.xml:
+  kjn	kunjen	2
+
+Languages used in kjp.xml:
+  kjp	eastern pwo	117
+
+Languages used in kjq.xml:
+  kjq	acoma	8
+
+Languages used in kjs:kew.xml:
+  kjs:kew	kewa	10
+
+Languages used in kjs.xml:
+  kjs	kewa	6
+
+Languages used in kju.xml:
+  kju	kashaya	28
+
+Languages used in kkj.xml:
+  kkj	kaka	1
+
+Languages used in kkk.xml:
+  kkk	kokota	29
+
+Languages used in kkp.xml:
+  kkp	gog-nar	2
+
+Languages used in kky.xml:
+  kky	guugu yimidhirr	8
+  kky	guggu yimidhirr	3
+
+Languages used in kkz.xml:
+  kkz	kaska	6
+
+Languages used in kla.xml:
+  kla	klamath	2
+
+Languages used in klj.xml:
+  klj	khalaj	1
+
+Languages used in klk:kno:knu.xml:
+  klk:kno:knu	kono	1
+
+Languages used in klq.xml:
+  klq	rumu	1
+
+Languages used in klu.xml:
+  klu	kru	2
+
+Languages used in kmb.xml:
+  kmb	kimbundu	4
+
+Languages used in kmc.xml:
+  kmc	dong	2
+
+Languages used in kmg:kup.xml:
+  kmg:kup	kâte	2
+
+Languages used in kmg.xml:
+  kmg	kâte	13
+
+Languages used in kmh.xml:
+  kmh	kalam	27
+
+Languages used in kmn.xml:
+  kmn	autuw	4
+
+Languages used in kmr.xml:
+  kmr	kurmanji	42
+  kmr	kurmanco	7
+  kmr	bahdinani kurdish	6
+  kmr	kurdish	3
+  kmr	kurmancî	3
+  kmr	northern kurdish	3
+  kmr	kurmanjo	2
+  kmr	diarbekir kurdish	1
+  kmr	kermanian	1
+  kmr	surci	1
+
+Languages used in kmu.xml:
+  kmu	kanite	1
+
+Languages used in kna.xml:
+  kna	kanakuru	31
+
+Languages used in knc.xml:
+  knc	kanuri	5
+
+Languages used in kng.xml:
+  kng	kikongo	7
+  kng	dzamba	6
+  kng	kongo	1
+
+Languages used in knj.xml:
+  knj	akatek	402
+  knj	kanjobalan	2
+
+Languages used in knk.xml:
+  knk	koranko	5
+
+Languages used in kno.xml:
+  kno	kono	2
+
+Languages used in knw.xml:
+  knw	!xu	4
+  knw	!kung	2
+
+Languages used in koi.xml:
+  koi	komi	14
+
+Languages used in kor.xml:
+  kor	korean	5376
+  kor	seoul	7
+
+Languages used in kos.xml:
+  kos	kusaiean	5
+  kos	kusaien	2
+
+Languages used in koy.xml:
+  koy	koyukon	13
+
+Languages used in kpc.xml:
+  kpc	kuripako	4
+
+Languages used in kpg.xml:
+  kpg	kapingamarangi	4
+
+Languages used in kpm.xml:
+  kpm	sre	1
+
+Languages used in kpo.xml:
+  kpo	kposo	3
+
+Languages used in kpr.xml:
+  kpr	korafe	1
+
+Languages used in kpv:koi.xml:
+  kpv:koi	komi	8
+
+Languages used in kpv.xml:
+  kpv	komi-zyrian	2
+
+Languages used in kpw.xml:
+  kpw	kobon	18
+
+Languages used in kpy.xml:
+  kpy	koryak	6
+
+Languages used in kqr.xml:
+  kqr	kimaragang	71
+
+Languages used in krc.xml:
+  krc	karachay-balkar	20
+  krc	karachaybalkar	8
+  krc	balkar	1
+
+Languages used in kri.xml:
+  kri	krio	5
+  kri	sierra leone krio	4
+
+Languages used in krl.xml:
+  krl	karelian	10
+
+Languages used in ksb.xml:
+  ksb	shambala	16
+  ksb	shambaa	5
+
+Languages used in ksd.xml:
+  ksd	tolai	15
+
+Languages used in ksh.xml:
+  ksh	ripuarian	5
+
+Languages used in ksw.xml:
+  ksw	s'gaw karen	1
+  ksw	sgaw karen	1
+
+Languages used in ksz.xml:
+  ksz	korku	1
+
+Languages used in ktg.xml:
+  ktg	kalkatungu	43
+  ktg	kalkutungu	3
+
+Languages used in ktn.xml:
+  ktn	karitiana	3
+
+Languages used in ktu.xml:
+  ktu	kikongo-kituba	2
+  ktu	kituba	2
+
+Languages used in ktz.xml:
+  ktz	ju/'hoan	2
+  ktz	hoan	1
+
+Languages used in kuj.xml:
+  kuj	kuria	2
+
+Languages used in kum.xml:
+  kum	kumyk	3
+
+Languages used in kun.xml:
+  kun	kunama	2
+
+Languages used in kut.xml:
+  kut	kutenai	253
+
+Languages used in kuu.xml:
+  kuu	upper kuskokwim	8
+
+Languages used in kva.xml:
+  kva	bagwalal	8
+  kva	bagvalal	4
+
+Languages used in kvw.xml:
+  kvw	kolana	2
+
+Languages used in kwb.xml:
+  kwb	kwa	5
+
+Languages used in kwd.xml:
+  kwd	kwaio	8
+
+Languages used in kwg:mec:mrh:mxf.xml:
+  kwg:mec:mrh:mxf	mara	3
+
+Languages used in kwi.xml:
+  kwi	awa pit	27
+
+Languages used in kwk.xml:
+  kwk	kwakiutl	8
+  kwk	kwakw'ala	2
+  kwk	kwakwala	2
+  kwk	kwak'wala	1
+
+Languages used in kxa.xml:
+  kxa	kaireru	1
+
+Languages used in kxi.xml:
+  kxi	nabay	480
+
+Languages used in kxo.xml:
+  kxo	mekens	2
+
+Languages used in kzh.xml:
+  kzh	dongola	3
+  kzh	kenuzidongola	3
+  kzh	dongolese nubian	2
+  kzh	kunuz nubian	1
+
+Languages used in lad.xml:
+  lad	judeo-spanish	2
+
+Languages used in lae.xml:
+  lae	pattani	61
+
+Languages used in laf.xml:
+  laf	lafofa	2
+
+Languages used in laj:lno.xml:
+  laj:lno	lango	2
+
+Languages used in laj.xml:
+  laj	langi	107
+  laj	lango	37
+
+Languages used in lam.xml:
+  lam	lamba	10
+
+Languages used in lao.xml:
+  lao	lao	61
+
+Languages used in lat.xml:
+  lat	latin	1071
+  lat	latina	1
+
+Languages used in lav.xml:
+  lav	latvian	66
+
+Languages used in lbe.xml:
+  lbe	lak	4
+
+Languages used in lbf.xml:
+  lbf	tinani	29
+
+Languages used in lbj.xml:
+  lbj	ladakhi	11
+
+Languages used in lbz.xml:
+  lbz	lardil	49
+
+Languages used in lcm.xml:
+  lcm	lavongai	1
+
+Languages used in lcp.xml:
+  lcp	ravüa	1
+
+Languages used in lea:lgm.xml:
+  lea:lgm	kilega	6
+  lea:lgm	lega	2
+
+Languages used in lea.xml:
+  lea	kilega	27
+
+Languages used in lec.xml:
+  lec	leko	53
+
+Languages used in lef.xml:
+  lef	lelemi	9
+
+Languages used in leg.xml:
+  leg	lengua	6
+
+Languages used in lep.xml:
+  lep	lepcha	1
+
+Languages used in lev.xml:
+  lev	western pantar	8
+
+Languages used in lez.xml:
+  lez	lezgian	143
+  lez	lezgisch	10
+  lez	lezghian	1
+
+Languages used in lgg.xml:
+  lgg	logbara	2
+
+Languages used in lgu.xml:
+  lgu	longgu	24
+
+Languages used in lhm.xml:
+  lhm	lhomi	1
+
+Languages used in lhu.xml:
+  lhu	lahu	6
+
+Languages used in lic.xml:
+  lic	bli	1
+
+Languages used in lif.xml:
+  lif	limbu	6
+
+Languages used in lig.xml:
+  lig	jogo	3
+  lig	wela	3
+
+Languages used in lij.xml:
+  lij	zeneyze	2
+
+Languages used in lil.xml:
+  lil	lillooet	55
+  lil	st'at'imcets	8
+  lil	lilloet salish	6
+  lil	st'át'imcets	3
+
+Languages used in lin.xml:
+  lin	lingala	28
+
+Languages used in lip.xml:
+  lip	likpe	6
+
+Languages used in lis.xml:
+  lis	lisu	9
+
+Languages used in lit.xml:
+  lit	lithuanian	275
+
+Languages used in lji.xml:
+  lji	barangbarang	26
+  lji	barang-barang	9
+
+Languages used in ljl.xml:
+  ljl	lio	12
+
+Languages used in ljp.xml:
+  ljp	lampung	3
+
+Languages used in lkr.xml:
+  lkr	pari	2
+  lkr	päri	2
+  lkr	parï	1
+
+Languages used in lkt.xml:
+  lkt	lakhota	89
+  lkt	lakohta	4
+
+Languages used in lld.xml:
+  lld	badiotto	93
+  lld	rhaetoromance	70
+  lld	badiot	5
+  lld	fassa	3
+  lld	fassano	2
+  lld	ladin	2
+  lld	trentino	2
+  lld	moena	1
+
+Languages used in lln.xml:
+  lln	lele	1
+
+Languages used in llp.xml:
+  llp	nguna	2
+
+Languages used in lml.xml:
+  lml	raga	1
+
+Languages used in lmo.xml:
+  lmo	milanese	4
+  lmo	vezza d'oglio	2
+  lmo	monno	1
+
+Languages used in lnc.xml:
+  lnc	occitan	1
+
+Languages used in lnj:aid.xml:
+  lnj:aid	anguthimri	2
+
+Languages used in lno.xml:
+  lno	lango	1
+
+Languages used in lns.xml:
+  lns	lamnso'	31
+  lns	lamnso	25
+
+Languages used in lob.xml:
+  lob	lobirè	19
+
+Languages used in log.xml:
+  log	logo	8
+
+Languages used in lol.xml:
+  lol	nkundo	3
+  lol	lomongo	1
+
+Languages used in los.xml:
+  los	loniu	1
+
+Languages used in lot.xml:
+  lot	lotuho	4
+
+Languages used in lou.xml:
+  lou	louisiana creole	4
+  lou	louisiana french	4
+  lou	louisiana	3
+
+Languages used in loz.xml:
+  loz	lozi	12
+
+Languages used in lrl.xml:
+  lrl	lari	2
+
+Languages used in ltc.xml:
+  ltc	middle chinese	4
+
+Languages used in ltz.xml:
+  ltz	luxembourgeois	12
+  ltz	luxemburgish	2
+
+Languages used in lue.xml:
+  lue	luvale	7
+
+Languages used in lug.xml:
+  lug	luganda	59
+  lug	ganda	8
+
+Languages used in lui.xml:
+  lui	luiseño	33
+  lui	luiseno	28
+
+Languages used in lus.xml:
+  lus	mizo	16
+
+Languages used in lut.xml:
+  lut	lushootseed	52
+
+Languages used in lvk.xml:
+  lvk	lavukaleve	15
+
+Languages used in lww.xml:
+  lww	lewo	9
+
+Languages used in lzh.xml:
+  lzh	classical chinese	5
+
+Languages used in lzz.xml:
+  lzz	laz	49
+  lzz	hopa	2
+
+Languages used in mad.xml:
+  mad	madurese	26
+
+Languages used in mah.xml:
+  mah	ralik	2
+  mah	marshallese	1
+
+Languages used in mai.xml:
+  mai	maithili	41
+
+Languages used in mak.xml:
+  mak	makasarese	1
+
+Languages used in mal.xml:
+  mal	malayalam	172
+
+Languages used in mam:mms:mvc:mvj:mpf.xml:
+  mam:mms:mvc:mvj:mpf	mam	4
+
+Languages used in mam.xml:
+  mam	mam	38
+
+Languages used in mar.xml:
+  mar	marathi	166
+
+Languages used in mas.xml:
+  mas	maasai	455
+  mas	kisongo maasai	2
+
+Languages used in mav.xml:
+  mav	mawé	94
+
+Languages used in mbc.xml:
+  mbc	macushi	14
+
+Languages used in mbg.xml:
+  mbg	lakonde	40
+  mbg	latundê	1
+
+Languages used in mbj.xml:
+  mbj	nadëb	8
+
+Languages used in mbl.xml:
+  mbl	maxakalí	2
+
+Languages used in mca.xml:
+  mca	maca	4
+
+Languages used in mch.xml:
+  mch	dekwana	2
+
+Languages used in mcm.xml:
+  mcm	malayoportuguese	2
+  mcm	papia kristang	2
+  mcm	kristang	1
+  mcm	malaccan creole portuguese	1
+
+Languages used in mcu.xml:
+  mcu	cameroon mambila	5
+
+Languages used in mdf.xml:
+  mdf	mordvin	1
+
+Languages used in mdo.xml:
+  mdo	mbódomo	2
+
+Languages used in mec.xml:
+  mec	mara	1
+
+Languages used in med.xml:
+  med	ku waru	1
+
+Languages used in mej.xml:
+  mej	meyah	2
+
+Languages used in mem.xml:
+  mem	jiwarli	52
+
+Languages used in men.xml:
+  men	mende	17
+
+Languages used in meu.xml:
+  meu	motu	1
+
+Languages used in mev.xml:
+  mev	mann	2
+
+Languages used in mez.xml:
+  mez	menominee	122
+  mez	menomini	4
+
+Languages used in mfe.xml:
+  mfe	mauritian	32
+  mfe	mauritius	1
+  mfe	rodrigues	1
+
+Languages used in mfy.xml:
+  mfy	mayo	2
+
+Languages used in mgd.xml:
+  mgd	moru	1
+
+Languages used in mgh.xml:
+  mgh	makua	2
+
+Languages used in mgi.xml:
+  mgi	migili	2
+
+Languages used in mgv.xml:
+  mgv	matengo	3
+
+Languages used in mgw.xml:
+  mgw	kimatuumbi	3
+
+Languages used in mgz.xml:
+  mgz	mbugwe	3
+
+Languages used in mhi.xml:
+  mhi	ma'di	1
+
+Languages used in mhr:mrj.xml:
+  mhr:mrj	mari	32
+
+Languages used in mhr.xml:
+  mhr	cheremis	9
+  mhr	mari	3
+
+Languages used in mhs.xml:
+  mhs	buru	5
+
+Languages used in mhu.xml:
+  mhu	digaro	2
+
+Languages used in mhx.xml:
+  mhx	maru	2
+
+Languages used in mhy.xml:
+  mhy	ma'anyan	10
+
+Languages used in mia.xml:
+  mia	miami-illinois	6
+
+Languages used in mie.xml:
+  mie	ocotepec mixtec	2
+
+Languages used in mig.xml:
+  mig	chalcatongo mixtec	17
+
+Languages used in mim.xml:
+  mim	alacatlatlazala mixtec	6
+
+Languages used in min.xml:
+  min	minangkabau	4
+
+Languages used in miq.xml:
+  miq	miskitu	20
+  miq	miskito	2
+
+Languages used in miy.xml:
+  miy	ayutla mixtec	4
+
+Languages used in mjg.xml:
+  mjg	monguor	2
+
+Languages used in mjw.xml:
+  mjw	mikir	3
+
+Languages used in mkd:tur.xml:
+  mkd:tur	macedonian	4
+
+Languages used in mkd.xml:
+  mkd	macedonian	187
+  mkd	slavic	9
+  mkd	northwestern macedonian	2
+  mkd	makedonski	1
+  mkd	serbocroatian (srp:hrv) + macedonian	1
+  mkd	western macedonian	1
+
+Languages used in mkf.xml:
+  mkf	miya	7
+
+Languages used in mkg.xml:
+  mkg	chi	1
+
+Languages used in mkj.xml:
+  mkj	mokilese	26
+
+Languages used in mky.xml:
+  mky	taba	13
+
+Languages used in mla.xml:
+  mla	tamambo	30
+
+Languages used in mlg:plt.xml:
+  mlg:plt	malagasy	2
+
+Languages used in mlt.xml:
+  mlt	maltese	12
+  mlt	maltese arabic	1
+
+Languages used in mlu.xml:
+  mlu	toqabaqita	93
+  mlu	to'aba'ita	2
+  mlu	to'abaita	2
+
+Languages used in mlv.xml:
+  mlv	mwotlap	2
+
+Languages used in mly.xml:
+  mly	malay	103
+  mly	singapore malay	24
+  mly	bahasa melayu	15
+  mly	kuching malay	5
+  mly	riau	4
+  mly	jakarta	2
+  mly	borneo	1
+
+Languages used in mmo.xml:
+  mmo	mangga buang	2
+
+Languages used in mna.xml:
+  mna	mangapmbula	10
+  mna	mangaaba-mbula	2
+  mna	mangap-mbula	2
+
+Languages used in mnb.xml:
+  mnb	muna	14
+
+Languages used in mnc.xml:
+  mnc	manchu	3
+
+Languages used in mne.xml:
+  mne	bilaala	10
+
+Languages used in mnf.xml:
+  mnf	mundani	2
+
+Languages used in mni.xml:
+  mni	manipuri	19
+  mni	meithei	7
+
+Languages used in mnk.xml:
+  mnk	mandinka	3
+
+Languages used in mnr.xml:
+  mnr	mono	4
+
+Languages used in mnv.xml:
+  mnv	rennellese	1
+
+Languages used in moe.xml:
+  moe	montagnais	20
+  moe	innu-aimûn	1
+
+Languages used in moh.xml:
+  moh	mohawk	334
+
+Languages used in mon.xml:
+  mon	mongolian	5
+
+Languages used in mop.xml:
+  mop	mopan	1
+
+Languages used in mor.xml:
+  mor	moro	6
+
+Languages used in mos.xml:
+  mos	moore	13
+
+Languages used in mov.xml:
+  mov	mojave	5
+  mov	mohave	4
+
+Languages used in mpb.xml:
+  mpb	mallakmallak	3
+
+Languages used in mpc.xml:
+  mpc	mangarayi	17
+  mpc	manarayi	10
+
+Languages used in mph.xml:
+  mph	mawng	23
+  mph	maung	8
+
+Languages used in mpj.xml:
+  mpj	wangkajunga	4
+  mpj	manjiljarra	3
+  mpj	martu wangka	2
+
+Languages used in mpu.xml:
+  mpu	makurap	2
+
+Languages used in mqs.xml:
+  mqs	west makian	3
+
+Languages used in mqy.xml:
+  mqy	manggarai	88
+
+Languages used in mrc.xml:
+  mrc	maricopa	25
+
+Languages used in mrg.xml:
+  mrg	mising	5
+  mrg	mishing	1
+
+Languages used in mri.xml:
+  mri	maori	245
+
+Languages used in mrn.xml:
+  mrn	cheke holo	10
+  mrn	a'ara	1
+
+Languages used in mrt.xml:
+  mrt	margi	3
+
+Languages used in mrz.xml:
+  mrz	marind	2
+
+Languages used in mte.xml:
+  mte	monoalu	23
+  mte	mono	1
+
+Languages used in mtg.xml:
+  mtg	una	2
+
+Languages used in mtt.xml:
+  mtt	mota	1
+
+Languages used in mus.xml:
+  mus	muskogean	5
+
+Languages used in muw.xml:
+  muw	mundari	10
+  muw	bhumij	4
+
+Languages used in mva.xml:
+  mva	manam	8
+
+Languages used in mvc.xml:
+  mvc	central mam	36
+
+Languages used in mwd.xml:
+  mwd	mudbarra	2
+  mwd	mudbura	2
+
+Languages used in mwe.xml:
+  mwe	mwera	3
+
+Languages used in mwf.xml:
+  mwf	murrinh-patha	4
+  mwf	murrinhpatha	4
+  mwf	murrinypata	3
+  mwf	murrinth-patha	1
+
+Languages used in mwh.xml:
+  mwh	mouk	2
+
+Languages used in mwk.xml:
+  mwk	kita-maninka	2
+
+Languages used in mxx.xml:
+  mxx	mauka	6
+
+Languages used in mya.xml:
+  mya	burmese	31
+
+Languages used in myb:nzy.xml:
+  myb:nzy	mbay	1
+
+Languages used in myb.xml:
+  myb	mbay	1
+
+Languages used in myh.xml:
+  myh	makah	22
+
+Languages used in myp.xml:
+  myp	múra-pirahã	2
+  myp	pirahã	2
+
+Languages used in myu.xml:
+  myu	mundurukú	3
+
+Languages used in myv:mdf.xml:
+  myv:mdf	mordvinian	11
+
+Languages used in myv.xml:
+  myv	mordvin	3
+  myv	erzya	1
+
+Languages used in myw.xml:
+  myw	muyuw	1
+
+Languages used in mzp.xml:
+  mzp	movima	4
+
+Languages used in nab.xml:
+  nab	nambiquara	9
+  nab	nambikwara	1
+  nab	sararé	1
+
+Languages used in nad.xml:
+  nad	nyiyaparli	4
+
+Languages used in naf.xml:
+  naf	nabak	1
+
+Languages used in nak.xml:
+  nak	nakanai	3
+
+Languages used in nam.xml:
+  nam	ngan'gityemerri	4
+
+Languages used in nan.xml:
+  nan	taiwanese	160
+  nan	chaozhou	62
+  nan	teochew	33
+  nan	hokkien	12
+  nan	jieyang	3
+  nan	chaoyang	2
+  nan	shantou	2
+  nan	xiamen	1
+
+Languages used in nap.xml:
+  nap	calabrese	1
+  nap	tarantino	1
+
+Languages used in naq.xml:
+  naq	nama	113
+
+Languages used in nas.xml:
+  nas	nasioi	6
+
+Languages used in nav.xml:
+  nav	navajo	293
+  nav	navaho	27
+  nav	diné	26
+  nav	dine	3
+
+Languages used in naw.xml:
+  naw	nawuri	3
+
+Languages used in nay.xml:
+  nay	yaraldi	2
+
+Languages used in nbc.xml:
+  nbc	chang	1
+
+Languages used in nbi.xml:
+  nbi	mao naga	5
+
+Languages used in nbl.xml:
+  nbl	ndebele	3
+
+Languages used in nbx.xml:
+  nbx	wangkumara	6
+  nbx	wangkumura	2
+
+Languages used in nca.xml:
+  nca	nahu	1
+
+Languages used in ncb.xml:
+  ncb	nancowry	1
+
+Languages used in ncg.xml:
+  ncg	nisgha	2
+  ncg	nisga'a	1
+  ncg	nishga	1
+
+Languages used in nci.xml:
+  nci	nahuatl	17
+  nci	classical nahuatl	10
+  nci	classical aztec	4
+
+Languages used in ncj.xml:
+  ncj	north puebla nahuatl	1
+
+Languages used in nde.xml:
+  nde	ndebele	8
+
+Languages used in ndh.xml:
+  ndh	chindali	1
+
+Languages used in nds.xml:
+  nds	low saxon	70
+
+Languages used in neb.xml:
+  neb	toura	7
+  neb	toura côte d'ivoire	3
+
+Languages used in nec.xml:
+  nec	nedebang	15
+
+Languages used in nee.xml:
+  nee	nêlêmwa	9
+  nee	nelemwa	8
+
+Languages used in nem.xml:
+  nem	nemi	1
+
+Languages used in nep.xml:
+  nep	nepali	54
+  nep	nepalese	2
+
+Languages used in new.xml:
+  new	newari	27
+  new	newar	2
+  new	dolakha	1
+  new	dolakha newari	1
+  new	nepal bhasa	1
+
+Languages used in nez.xml:
+  nez	nez perce	137
+
+Languages used in nfl.xml:
+  nfl	reefs	2
+
+Languages used in nge.xml:
+  nge	ngemba	1
+
+Languages used in ngi.xml:
+  ngi	ngizim	3
+
+Languages used in ngk.xml:
+  ngk	dalabon	71
+
+Languages used in ngn.xml:
+  ngn	nguni	2
+
+Languages used in ngq.xml:
+  ngq	ngurimi	1
+
+Languages used in ngu.xml:
+  ngu	nahuatl	1
+
+Languages used in nhd.xml:
+  nhd	guaraní	3
+
+Languages used in nhe:nhw:nch:ngu:nhs:azz.xml:
+  nhe:nhw:nch:ngu:nhs:azz	nahuatl	2
+
+Languages used in nhe:nhw:nch:nhs.xml:
+  nhe:nhw:nch:nhs	nahuatl	2
+
+Languages used in nhe.xml:
+  nhe	nahuatl	4
+  nhe	huautla nahuatl	2
+
+Languages used in nhg.xml:
+  nhg	tetelcingo nahuatl	43
+
+Languages used in nhn.xml:
+  nhn	central nahuatl	1
+
+Languages used in nhs.xml:
+  nhs	southeastern puebla nahuatl	65
+  nhs	nahuatl	1
+
+Languages used in nhv.xml:
+  nhv	nahuatl	1
+
+Languages used in nhw:nhe.xml:
+  nhw:nhe	nahuatl	21
+
+Languages used in nia.xml:
+  nia	nias	8
+
+Languages used in nid.xml:
+  nid	ngandi	9
+
+Languages used in nig.xml:
+  nig	ngalakgan	139
+  nig	ngalakan	11
+
+Languages used in nio.xml:
+  nio	nganasan	11
+
+Languages used in nir.xml:
+  nir	nimboran	20
+
+Languages used in niu.xml:
+  niu	niuean	107
+
+Languages used in niv.xml:
+  niv	nivkh	24
+  niv	gilyak	3
+
+Languages used in niy.xml:
+  niy	ngiti	14
+
+Languages used in njb.xml:
+  njb	nocte	19
+
+Languages used in njh.xml:
+  njh	lotha	5
+
+Languages used in njm.xml:
+  njm	angami	2
+  njm	angami naga	2
+
+Languages used in njo.xml:
+  njo	mongsen ao	3
+  njo	ao	1
+  njo	mongsen	1
+
+Languages used in nld.xml:
+  nld	dutch	3511
+  nld	nederlands	16
+  nld	hellendoorn	10
+  nld	east netherlandic	4
+  nld	arabic (arb) + dutch	1
+  nld	south hollandic	1
+
+Languages used in nlg.xml:
+  nlg	gela	2
+
+Languages used in nly.xml:
+  nly	nyamal	5
+
+Languages used in nmf.xml:
+  nmf	tangkhul naga	82
+  nmf	tangkhul	22
+  nmf	ukhrul	1
+
+Languages used in nmm.xml:
+  nmm	manange	4
+
+Languages used in nmn.xml:
+  nmn	!xóõ	11
+
+Languages used in nmv.xml:
+  nmv	ngamini	1
+
+Languages used in nna.xml:
+  nna	nyangumarta	6
+  nna	nyangumarda	1
+
+Languages used in nnb.xml:
+  nnb	kinande	110
+
+Languages used in nno:nob:nor.xml:
+  nno:nob:nor	norwegian	2
+
+Languages used in nno.xml:
+  nno	norwegian	5
+  nno	west norwegian	2
+  nno	northern norwegian	1
+  nno	western norwegian	1
+
+Languages used in nob.xml:
+  nob	norwegian	2496
+  nob	bokmål	8
+  nob	romsdalsmal	2
+  nob	danish (dan) + norwegian	1
+
+Languages used in nog.xml:
+  nog	nogai	3
+  nog	kara	2
+  nog	ak	1
+
+Languages used in non.xml:
+  non	old icelandic	89
+  non	old norse	54
+  non	old norse - icelandic	6
+  non	old gutnish	1
+
+Languages used in noo.xml:
+  noo	nuuchahnulth	288
+  noo	nootka	8
+  noo	ahousaht	2
+  noo	ditidaht	2
+
+Languages used in nor.xml:
+  nor	norwegian	7
+
+Languages used in not.xml:
+  not	nomatsiguenga	1
+
+Languages used in now.xml:
+  now	runyambo	4
+  now	kinyambo	2
+
+Languages used in nrl.xml:
+  nrl	ngarluma	7
+
+Languages used in nse.xml:
+  nse	ngoni	310
+  nse	chinsenga	188
+  nse	nsenga	26
+
+Languages used in nsk.xml:
+  nsk	western naskapi	1
+
+Languages used in nsm.xml:
+  nsm	sema	1
+
+Languages used in nsn.xml:
+  nsn	nehan	1
+
+Languages used in nso.xml:
+  nso	northern sotho	530
+  nso	noord-sotho	5
+
+Languages used in nsz.xml:
+  nsz	nisenan	1
+
+Languages used in ntp.xml:
+  ntp	northern tepehuan	16
+
+Languages used in nuf.xml:
+  nuf	nusu	1
+
+Languages used in nuj.xml:
+  nuj	lunyole	2
+
+Languages used in nun:nut:raw:yue.xml:
+  nun:nut:raw:yue	nung	5
+
+Languages used in nup.xml:
+  nup	nupe	112
+
+Languages used in nus.xml:
+  nus	nuer	4
+  nus	door	2
+  nus	ji	2
+  nus	bul	1
+
+Languages used in nut.xml:
+  nut	nung	4
+
+Languages used in nuy.xml:
+  nuy	nunggubuyu	12
+
+Languages used in nxn.xml:
+  nxn	ngawun	2
+
+Languages used in nya.xml:
+  nya	chichewa	472
+  nya	malawi	4
+  nya	chewa	1
+
+Languages used in nyn:cgg.xml:
+  nyn:cgg	nkore-kiga	10
+
+Languages used in nyq.xml:
+  nyq	nayini	2
+
+Languages used in nyt.xml:
+  nyt	nyawaygi	2
+
+Languages used in nyv.xml:
+  nyv	nyulnyul	1
+
+Languages used in nzm.xml:
+  nzm	kachcha	1
+
+Languages used in oac.xml:
+  oac	oroch	3
+
+Languages used in och.xml:
+  och	old chinese	18
+  och	archaic chinese	3
+  och	early medieval chinese	1
+
+Languages used in odt.xml:
+  odt	old dutch	16
+  odt	old low franconian	8
+
+Languages used in ofs.xml:
+  ofs	old frisian	8
+
+Languages used in oge.xml:
+  oge	old georgian	13
+
+Languages used in ogo.xml:
+  ogo	kana	7
+  ogo	khana	1
+
+Languages used in ohu.xml:
+  ohu	old hungarian	3
+
+Languages used in oia.xml:
+  oia	oirata	4
+
+Languages used in ojb.xml:
+  ojb	ojibwa	13
+  ojb	rainy river ojibwa	1
+
+Languages used in ojc.xml:
+  ojc	central ojibwa	80
+  ojc	ojibwa	26
+  ojc	ojibwe	4
+
+Languages used in ojg:ojb:ojw:ojs:otw.xml:
+  ojg:ojb:ojw:ojs:otw	ojibwa	1
+
+Languages used in ojg:ojb:ojw:ojs.xml:
+  ojg:ojb:ojw:ojs	ojibwa	4
+
+Languages used in ojg:ojb.xml:
+  ojg:ojb	ojibwa	9
+
+Languages used in ojg:ojc.xml:
+  ojg:ojc	ojibwa	1
+
+Languages used in ojg:otw.xml:
+  ojg:otw	ojibwe	44
+
+Languages used in ojg.xml:
+  ojg	ojibwa	5
+
+Languages used in ojp.xml:
+  ojp	old japanese	716
+
+Languages used in ojs.xml:
+  ojs	cree	1
+
+Languages used in ojw.xml:
+  ojw	western ojibwa	3
+
+Languages used in okm.xml:
+  okm	middle korean	1
+
+Languages used in oma.xml:
+  oma	omaha	73
+  oma	omaha-ponca	1
+
+Languages used in omb.xml:
+  omb	north eastern ambae	18
+  omb	ne ambae	11
+  omb	ambae	8
+
+Languages used in omr.xml:
+  omr	old marathi	1
+
+Languages used in one.xml:
+  one	oneida	47
+
+Languages used in ong.xml:
+  ong	olo	1
+
+Languages used in ono.xml:
+  ono	onondaga	12
+
+Languages used in onr:oin:aun:onk:osu:okk.xml:
+  onr:oin:aun:onk:osu:okk	one	18
+
+Languages used in onr:oin:aun.xml:
+  onr:oin:aun	one	1
+
+Languages used in onr:oin.xml:
+  onr:oin	one	12
+
+Languages used in ons.xml:
+  ons	ono	4
+
+Languages used in ood.xml:
+  ood	pima	191
+  ood	o'odham	40
+  ood	tohono o'odham	19
+  ood	papago	7
+
+Languages used in orh.xml:
+  orh	oroqen	10
+
+Languages used in ori.xml:
+  ori	oriya	52
+
+Languages used in orv.xml:
+  orv	old russian	24
+
+Languages used in osp.xml:
+  osp	old spanish	418
+
+Languages used in osx.xml:
+  osx	old saxon	12
+
+Languages used in ote.xml:
+  ote	mezquital otomi	16
+  ote	mezquital otomí	4
+  ote	otomi mezquital	2
+
+Languages used in otm.xml:
+  otm	sierra otomi	4
+
+Languages used in otw:ojg.xml:
+  otw:ojg	nishnaabemwin	21
+
+Languages used in otw.xml:
+  otw	ojibwa	41
+  otw	ojibwe	30
+
+Languages used in oui.xml:
+  oui	orkhon turkic	1
+
+Languages used in owl.xml:
+  owl	old welsh	5
+
+Languages used in pad.xml:
+  pad	paumari	2
+  pad	paumarí	1
+
+Languages used in pag.xml:
+  pag	pangasinan	4
+
+Languages used in pam.xml:
+  pam	kapampangan	8
+
+Languages used in pan.xml:
+  pan	punjabi	54
+
+Languages used in pao.xml:
+  pao	northern païute	10
+
+Languages used in pap.xml:
+  pap	papiamentu	422
+  pap	papiamento	1
+
+Languages used in par.xml:
+  par	tümpisa shoshone	2
+  par	tümpisa shoshoni	2
+  par	tumpisa shoshone	1
+
+Languages used in pau.xml:
+  pau	palauan	78
+  pau	palaulan	2
+
+Languages used in pav.xml:
+  pav	wari	5
+  pav	wari'	4
+
+Languages used in paw.xml:
+  paw	pawnee	8
+
+Languages used in pay.xml:
+  pay	pech	2
+
+Languages used in pbb.xml:
+  pbb	páez	4
+
+Languages used in pbe.xml:
+  pbe	metzontla popoloc	99
+
+Languages used in pbh.xml:
+  pbh	panare	4
+
+Languages used in pbi.xml:
+  pbi	podoko	4
+  pbi	podoka	1
+
+Languages used in pbt.xml:
+  pbt	pashto	274
+
+Languages used in pbu:pbt.xml:
+  pbu:pbt	pashto	7
+
+Languages used in pbu:pst.xml:
+  pbu:pst	pashto	10
+
+Languages used in pbu.xml:
+  pbu	yusufzai	66
+  pbu	pashto	4
+
+Languages used in pcd.xml:
+  pcd	picard	2
+
+Languages used in pcj.xml:
+  pcj	gorum	22
+
+Languages used in pcm.xml:
+  pcm	nigerian pidgin	7
+  pcm	nigerian	6
+
+Languages used in pdc.xml:
+  pdc	pennsylvania german	93
+
+Languages used in pdo.xml:
+  pdo	padoe	4
+
+Languages used in pea.xml:
+  pea	peranakan	4
+  pea	pribumi	4
+
+Languages used in peb.xml:
+  peb	eastern pomo	32
+
+Languages used in peg.xml:
+  peg	pengo	5
+
+Languages used in pei.xml:
+  pei	chichimeco jonaz	1
+
+Languages used in pej.xml:
+  pej	northern pomo	14
+
+Languages used in peo.xml:
+  peo	old persian	9
+
+Languages used in pes.xml:
+  pes	persian	965
+  pes	farsi	7
+  pes	swedish (swe) + persian	5
+
+Languages used in pex.xml:
+  pex	petats	6
+
+Languages used in pfl.xml:
+  pfl	palatinate	1
+
+Languages used in pia.xml:
+  pia	Ónavas pima	1
+
+Languages used in pib.xml:
+  pib	piro	1
+
+Languages used in pih.xml:
+  pih	pitcairnese	3
+
+Languages used in pip.xml:
+  pip	pero	3
+
+Languages used in pis.xml:
+  pis	solomon islands pijin	1
+
+Languages used in pit.xml:
+  pit	pitta pitta	42
+  pit	pittapitta	4
+  pit	pitta-pitta	3
+
+Languages used in piu.xml:
+  piu	pintupi	2
+
+Languages used in pjt.xml:
+  pjt	pitjantjatjara	7
+
+Languages used in ple.xml:
+  ple	palu'e	57
+
+Languages used in pli.xml:
+  pli	pali	2
+
+Languages used in pln.xml:
+  pln	palenquero	4
+
+Languages used in plo.xml:
+  plo	oluta popoluca	9
+  plo	olutec	5
+
+Languages used in plt.xml:
+  plt	malagasy	1402
+
+Languages used in pma.xml:
+  pma	paamese	15
+
+Languages used in pmi:pmj.xml:
+  pmi:pmj	pumi	3
+  pmi:pmj	p'umi	2
+
+Languages used in pmm.xml:
+  pmm	pol	1
+
+Languages used in pms.xml:
+  pms	borgomanerese	5
+  pms	piedmontese	5
+
+Languages used in pmy.xml:
+  pmy	papuan malay	12
+
+Languages used in pnb.xml:
+  pnb	lahanda	5
+
+Languages used in pnt.xml:
+  pnt	pontic	24
+
+Languages used in pnw.xml:
+  pnw	panyjima	17
+
+Languages used in poi.xml:
+  poi	highland popoluca	4
+
+Languages used in pol.xml:
+  pol	polish	2616
+  pol	polnisch	75
+
+Languages used in pon.xml:
+  pon	pohnpeian	8
+  pon	ponapean	6
+
+Languages used in poo.xml:
+  poo	central pomo	19
+
+Languages used in poq.xml:
+  poq	texistepec popoluca	36
+
+Languages used in por.xml:
+  por	portuguese	622
+  por	brazilian portuguese	120
+
+Languages used in pos.xml:
+  pos	sayula popoluca	7
+
+Languages used in pot.xml:
+  pot	potawatomi	8
+  pot	potowatomi	4
+
+Languages used in pov.xml:
+  pov	guiné-bissau	1
+
+Languages used in ppl.xml:
+  ppl	pipil	6
+
+Languages used in ppn.xml:
+  ppn	papapana	5
+
+Languages used in pqm.xml:
+  pqm	passamaquoddy	2158
+
+Languages used in prq.xml:
+  prq	perene asheninca	2
+
+Languages used in prs.xml:
+  prs	persian	7
+
+Languages used in prx.xml:
+  prx	purki	7
+
+Languages used in pua:tsz.xml:
+  pua:tsz	tarascan	3
+
+Languages used in pus.xml:
+  pus	pashto	9
+
+Languages used in puw.xml:
+  puw	puluwat	3
+
+Languages used in pwn.xml:
+  pwn	paiwan	389
+
+Languages used in pwo.xml:
+  pwo	western pwo	1
+
+Languages used in pym.xml:
+  pym	fyem	2
+
+Languages used in pyu.xml:
+  pyu	puyuma	41
+
+Languages used in qgk.xml:
+  qgk	medieval greek	37
+
+Languages used in qub:quz:quh:quy:qwh.xml:
+  qub:quz:quh:quy:qwh	quechua	2
+
+Languages used in qub.xml:
+  qub	huallaga huánuco quechua	32
+  qub	quechua	9
+  qub	huallaga quechua	3
+  qub	huallaga huanuco quechua	2
+
+Languages used in quc:qut:quu.xml:
+  quc:qut:quu	k'iche'	2
+
+Languages used in quc.xml:
+  quc	k'ichee'	24
+  quc	quiché	9
+  quc	central k'iche'	3
+  quc	quiche	3
+  quc	k'iche'	2
+
+Languages used in que.xml:
+  que	quechua	40
+
+Languages used in quh.xml:
+  quh	tarata quechua	14
+  quh	potosí	6
+  quh	bolivian quechua	5
+  quh	cochabamba	5
+  quh	southern quechua	2
+
+Languages used in qui.xml:
+  qui	quileute	2
+
+Languages used in quy.xml:
+  quy	ayacucho quechua	2
+
+Languages used in quz:quh:quy:qug:qvc:qwh.xml:
+  quz:quh:quy:qug:qvc:qwh	quechua	4
+
+Languages used in quz.xml:
+  quz	cuzco quechua	521
+  quz	quechua	40
+  quz	quechua cusco	18
+  quz	quechan	6
+  quz	cusco quechua	4
+
+Languages used in qvi.xml:
+  qvi	imbabura quechua	61
+  qvi	imbabura quichua	8
+  qvi	quechua	7
+  qvi	imbabura highland quichua	2
+  qvi	imbabura-quechua	2
+
+Languages used in qvn.xml:
+  qvn	tarma quechua	72
+  qvn	junín quechua	5
+
+Languages used in qvs.xml:
+  qvs	lamas kechwa	17
+
+Languages used in qvw.xml:
+  qvw	wanka qechua	3
+
+Languages used in qwh:qxn:qxo:qxa.xml:
+  qwh:qxn:qxo:qxa	ancash quechua	1
+
+Languages used in qwh:qxn:qxo.xml:
+  qwh:qxn:qxo	ancash quechua	1
+
+Languages used in qwh:qxn.xml:
+  qwh:qxn	ancash quechua	7
+  qwh:qxn	quechua	1
+
+Languages used in qwh.xml:
+  qwh	huaylas ancash quechua	4
+  qwh	ancash quechua	2
+
+Languages used in qxo.xml:
+  qxo	quechua	1
+
+Languages used in qxs:cng.xml:
+  qxs:cng	qiang	11
+
+Languages used in qxw.xml:
+  qxw	jauja quechua	2
+
+Languages used in rab.xml:
+  rab	camling	1
+
+Languages used in ram.xml:
+  ram	canela	2
+
+Languages used in ram:xra.xml:
+  ram:xra	canela-kraho	3
+  ram:xra	canela-krahô	3
+
+Languages used in rap.xml:
+  rap	rapa nui	14
+  rap	spanish (spa) + rapa nui	8
+  rap	rapanui	1
+
+Languages used in raw.xml:
+  raw	rawang	9
+  raw	rvwang	3
+
+Languages used in rcf.xml:
+  rcf	reunion	4
+  rcf	reunion creole	1
+  rcf	reunionnais	1
+
+Languages used in rif.xml:
+  rif	guezenaya taryfit berber	41
+  rif	rif berber	4
+  rif	tarifit	2
+
+Languages used in rit.xml:
+  rit	ritharrngu	2
+
+Languages used in rma.xml:
+  rma	rama	3
+
+Languages used in rmb.xml:
+  rmb	rembarunga	2
+  rmb	rembarrnga	1
+
+Languages used in rml.xml:
+  rml	north russian romani	93
+  rml	latvian romani	4
+  rml	russian romani	3
+
+Languages used in rmn.xml:
+  rmn	balkan romani	36
+  rmn	romani	5
+  rmn	romany	4
+  rmn	agia varvara romani	1
+
+Languages used in rmw.xml:
+  rmw	welsh romani	4
+
+Languages used in rmy.xml:
+  rmy	vlax romani	2
+  rmy	kalderash	1
+  rmy	romani	1
+
+Languages used in roe.xml:
+  roe	ronji	2
+
+Languages used in rog.xml:
+  rog	northern roglai	1
+
+Languages used in roh.xml:
+  roh	romansh	44
+  roh	rhaetoromance	41
+  roh	romansch	12
+  roh	puter	9
+  roh	surselvan	7
+  roh	sutselvan	7
+  roh	surmeiran	5
+  roh	vallader	2
+  roh	sursilvan	1
+
+Languages used in rom.xml:
+  rom	romany	1
+
+Languages used in ron.xml:
+  ron	romanian	938
+  ron	rumanian	37
+  ron	dacoromanian	1
+
+Languages used in rop.xml:
+  rop	kriyol	6
+  rop	kriol	3
+
+Languages used in rou.xml:
+  rou	aiki	1
+
+Languages used in rtm.xml:
+  rtm	rotuman	2
+
+Languages used in ruf.xml:
+  ruf	luguru	9
+
+Languages used in rug.xml:
+  rug	roviana	16
+
+Languages used in run.xml:
+  run	kirundi	45
+  run	rundi	21
+
+Languages used in rup.xml:
+  rup	aromanian	35
+  rup	megleno romanian (ruq) + aromanian	4
+  rup	arumanian	1
+
+Languages used in ruq.xml:
+  ruq	megleno romanian	25
+  ruq	megleno-romanian	19
+
+Languages used in rus.xml:
+  rus	russian	4114
+  rus	north russian	47
+  rus	karelian (krl) + russian	2
+  rus	austrian (bar) + russian	1
+
+Languages used in rwr.xml:
+  rwr	marwari	23
+
+Languages used in ryu.xml:
+  ryu	okinawan	2
+  ryu	shuri	2
+
+Languages used in sac.xml:
+  sac	meskwaki	54
+  sac	fox	1
+
+Languages used in sad.xml:
+  sad	sandawe	27
+
+Languages used in sae.xml:
+  sae	sabanê	676
+
+Languages used in sag:sbp.xml:
+  sag:sbp	sango	1
+
+Languages used in sah.xml:
+  sah	sakha	1362
+  sah	yakut	8
+  sah	yakuts	1
+
+Languages used in saj.xml:
+  saj	sahu	3
+
+Languages used in san.xml:
+  san	sanskrit	78
+  san	vedic	7
+
+Languages used in sas.xml:
+  sas	sasak	64
+
+Languages used in sat.xml:
+  sat	santali	7
+
+Languages used in sba.xml:
+  sba	ngambay	1
+
+Languages used in sbe.xml:
+  sbe	saliba	14
+
+Languages used in scn.xml:
+  scn	southern calabrian	21
+  scn	salentino of brindisi	3
+  scn	sicilian	3
+
+Languages used in scs.xml:
+  scs	hare	4
+  scs	slave	2
+
+Languages used in sea.xml:
+  sea	sengoi	4
+
+Languages used in sec.xml:
+  sec	sechelt	1
+
+Languages used in sef.xml:
+  sef	senufo	1
+
+Languages used in sei.xml:
+  sei	seri	5
+
+Languages used in sel.xml:
+  sel	selkup	4
+
+Languages used in ser.xml:
+  ser	serrano	2
+
+Languages used in ses.xml:
+  ses	koyraboro senni	13
+  ses	koyraboro senni songhay	7
+  ses	songhai	3
+  ses	songhay	3
+  ses	koroboro senni songhai	1
+
+Languages used in sga.xml:
+  sga	old irish	61
+
+Languages used in sgh.xml:
+  sgh	rosani	4
+
+Languages used in sgu.xml:
+  sgu	salas	1
+
+Languages used in sgw.xml:
+  sgw	chaha	56
+
+Languages used in shh.xml:
+  shh	shoshoni	3
+  shh	shoshone	2
+
+Languages used in shp.xml:
+  shp	shipibo-konibo	10
+  shp	shipiboconibo	2
+
+Languages used in shs.xml:
+  shs	shuswap	2
+
+Languages used in shu.xml:
+  shu	chadian arabic	40
+  shu	salamat	1
+
+Languages used in sin.xml:
+  sin	sinhala	66
+  sin	singhalese	1
+
+Languages used in sip.xml:
+  sip	sikkimese	1
+
+Languages used in sja.xml:
+  sja	epena pedee	1
+
+Languages used in sjo.xml:
+  sjo	sive	2
+
+Languages used in sjr.xml:
+  sjr	siarlak	875
+  sjr	siar	13
+  sjr	lak	6
+
+Languages used in skb.xml:
+  skb	saek	1
+
+Languages used in skd.xml:
+  skd	southern sierra miwok	12
+
+Languages used in ski.xml:
+  ski	sikka	11
+  ski	sika	1
+
+Languages used in skv.xml:
+  skv	skou	543
+
+Languages used in skx.xml:
+  skx	seko padang	1
+
+Languages used in slk.xml:
+  slk	slovak	29
+  slk	slovakisch	2
+
+Languages used in sll.xml:
+  sll	salt-yui	2
+
+Languages used in slm.xml:
+  slm	sama	9
+
+Languages used in sln.xml:
+  sln	salinan	1
+
+Languages used in slp.xml:
+  slp	lamaholot	10
+
+Languages used in slv.xml:
+  slv	slovenian	190
+  slv	slovene	104
+
+Languages used in sly.xml:
+  sly	selayarese	4
+
+Languages used in sme.xml:
+  sme	north saami	9
+  sme	northern sami	9
+  sme	sami	7
+  sme	sámi	5
+  sme	saami	1
+
+Languages used in smn.xml:
+  smn	inari sami	25
+
+Languages used in smo.xml:
+  smo	samoan	462
+
+Languages used in sna.xml:
+  sna	shona	44
+  sna	chishona	6
+
+Languages used in snc.xml:
+  snc	sinaugoro	6
+
+Languages used in snd.xml:
+  snd	sindhi	3
+
+Languages used in snf.xml:
+  snf	noon	6
+
+Languages used in sol.xml:
+  sol	solos	3
+
+Languages used in som.xml:
+  som	somali	269
+
+Languages used in soq.xml:
+  soq	kanasi	2
+
+Languages used in sot.xml:
+  sot	sesotho	159
+  sot	southern sotho	12
+
+Languages used in spa.xml:
+  spa	spanish	3009
+  spa	nahuatl (nhs) + spanish	211
+  spa	nahuatl (nhw:nhe) + spanish	73
+  spa	central mam (mvc) + spanish	35
+  spa	español	22
+  spa	rapa nui (rap) + spanish	15
+  spa	basque (eus) + spanish	10
+  spa	castilian	6
+  spa	greek (ell) + spanish	4
+  spa	southeastern puebla nahuatl (nhs) + spanish	2
+  spa	spanisch	2
+  spa	catalan (cat) + spanish	1
+
+Languages used in spp.xml:
+  spp	supyire	37
+  spp	suppire	1
+
+Languages used in sps.xml:
+  sps	taiof	6
+
+Languages used in squ.xml:
+  squ	squamish	4
+
+Languages used in srb.xml:
+  srb	sora	3
+
+Languages used in src.xml:
+  src	logudorese	50
+  src	sardinian	43
+  src	central sardinian	34
+  src	barbargia	4
+  src	sardinian logudorese	3
+
+Languages used in srd.xml:
+  srd	sardinian	2
+
+Languages used in srm.xml:
+  srm	saramaccan	63
+
+Languages used in srn.xml:
+  srn	sranan	61
+  srn	sranan tongo	2
+
+Languages used in sro.xml:
+  sro	campidanese	17
+
+Languages used in srp:hrv.xml:
+  srp:hrv	serbocroatian	811
+  srp:hrv	serbo-croatian	73
+  srp:hrv	serbo-kroatisch	20
+  srp:hrv	macedonian (mkd) + bulgarian (bul) + serbocroatian	4
+  srp:hrv	serbian	3
+  srp:hrv	serbo croatian	2
+  srp:hrv	bosnian (bos) + croatian (hrv) + serbian	1
+  srp:hrv	macedonian (mkd) + serbocroatian	1
+
+Languages used in srp.xml:
+  srp	serbian	328
+  srp	bosnian	8
+  srp	southeastern serbian	3
+  srp	east serbian	1
+
+Languages used in srq.xml:
+  srq	siriono	30
+  srq	sirionoo	5
+
+Languages used in srr.xml:
+  srr	sereer	4
+
+Languages used in srs.xml:
+  srs	sarcee	4
+
+Languages used in sry.xml:
+  sry	sera	2
+
+Languages used in ssd.xml:
+  ssd	siroi	10
+
+Languages used in ssf.xml:
+  ssf	thao	6
+
+Languages used in ssw.xml:
+  ssw	swati	5
+  ssw	siswati	1
+
+Languages used in stp.xml:
+  stp	southeastern tepehuan	4
+
+Languages used in str.xml:
+  str	straits salish	34
+  str	lummi	32
+  str	songish	3
+  str	salish	1
+
+Languages used in sue.xml:
+  sue	suena	2
+
+Languages used in suk.xml:
+  suk	sukuma	2
+
+Languages used in sum.xml:
+  sum	ulwa	32
+
+Languages used in sur.xml:
+  sur	mupun	49
+  sur	mapun	1
+
+Languages used in sus.xml:
+  sus	susu	2
+
+Languages used in sva.xml:
+  sva	svan	1
+
+Languages used in svs.xml:
+  svs	savosavo	4
+
+Languages used in swa:swh.xml:
+  swa:swh	swahili	2
+
+Languages used in swa.xml:
+  swa	swahili	18
+
+Languages used in swb.xml:
+  swb	shimaore	8
+
+Languages used in swe.xml:
+  swe	swedish	1457
+  swe	persian (pes) + swedish	159
+  swe	northern swedish	6
+  swe	svenska	3
+  swe	standard swedish	2
+  swe	eastern nyland	1
+
+Languages used in swg.xml:
+  swg	swabian	5
+
+Languages used in swh.xml:
+  swh	swahili	674
+  swh	sheng	28
+  swh	kiswahili	19
+  swh	chi-mwi:ni	12
+  swh	chi-mwini	9
+  swh	chimwiini	7
+  swh	kinungwi	1
+
+Languages used in swr.xml:
+  swr	saweru	2
+
+Languages used in sxu.xml:
+  sxu	hessian	9
+
+Languages used in sza.xml:
+  sza	semelai	2
+
+Languages used in tac.xml:
+  tac	western tarahumara	6
+  tac	western tarahamura	3
+  tac	tarahumara	2
+
+Languages used in tae.xml:
+  tae	tariana	58
+
+Languages used in tah.xml:
+  tah	tahitian	9
+
+Languages used in taj.xml:
+  taj	tamang	2
+
+Languages used in tam.xml:
+  tam	tamil	244
+
+Languages used in tan.xml:
+  tan	tangale	24
+  tan	kaltungo	1
+
+Languages used in tao.xml:
+  tao	yami	259
+
+Languages used in tar:tac.xml:
+  tar:tac	tarahumara	1
+
+Languages used in tar.xml:
+  tar	tarahumara	7
+
+Languages used in tat.xml:
+  tat	tatar	2
+
+Languages used in tay.xml:
+  tay	atayal	195
+  tay	squliq	45
+  tay	c'uli' atayal	1
+
+Languages used in tbc.xml:
+  tbc	takia	33
+
+Languages used in tbg.xml:
+  tbg	tairora	1
+
+Languages used in tbo.xml:
+  tbo	tawala	2
+  tbo	rabe	1
+
+Languages used in tby.xml:
+  tby	tabaru	2
+
+Languages used in tcb.xml:
+  tcb	tanacross	301
+
+Languages used in tcg.xml:
+  tcg	buru	1
+
+Languages used in tcx.xml:
+  tcx	toda	3
+
+Languages used in tcy.xml:
+  tcy	tulu	1
+
+Languages used in tdh.xml:
+  tdh	thulung	2
+
+Languages used in tdn.xml:
+  tdn	tondano	1
+
+Languages used in tdt.xml:
+  tdt	tetun	4
+  tdt	tetun dili	2
+
+Languages used in ted.xml:
+  ted	tepo	2
+
+Languages used in tel.xml:
+  tel	telugu	11
+
+Languages used in tem.xml:
+  tem	themne	2
+  tem	temne	1
+
+Languages used in tep.xml:
+  tep	tepecano	4
+
+Languages used in ter.xml:
+  ter	terena	1
+
+Languages used in tet.xml:
+  tet	tetun	1
+
+Languages used in tew.xml:
+  tew	tewa	53
+  tew	rio grande tewa	4
+
+Languages used in tex.xml:
+  tex	tennet	2
+
+Languages used in tfn.xml:
+  tfn	tanaina	1
+
+Languages used in tgk.xml:
+  tgk	tadzhik	3
+
+Languages used in tgl.xml:
+  tgl	tagalog	1037
+  tgl	manila	2
+
+Languages used in tha.xml:
+  tha	thai	692
+
+Languages used in thd.xml:
+  thd	kuuk thaayorre	13
+  thd	thaayore	4
+  thd	thayore	1
+
+Languages used in thk.xml:
+  thk	kitharaka	39
+
+Languages used in thp.xml:
+  thp	thompson salish	10
+  thp	thompson	6
+
+Languages used in ths.xml:
+  ths	thakali	1
+
+Languages used in tht.xml:
+  tht	tahltan	71
+
+Languages used in tig.xml:
+  tig	tigre	10
+
+Languages used in tik.xml:
+  tik	tikar	3
+
+Languages used in tio.xml:
+  tio	teop	7
+
+Languages used in tir.xml:
+  tir	tigrinya	4
+
+Languages used in tiw.xml:
+  tiw	tiwi	8
+
+Languages used in tix.xml:
+  tix	southern tiwa	76
+  tix	tiwa	1
+
+Languages used in tkl.xml:
+  tkl	tokelauan	12
+
+Languages used in tkm.xml:
+  tkm	takelma	10
+
+Languages used in tkr.xml:
+  tkr	tsakhur	63
+
+Languages used in tlc.xml:
+  tlc	misantla totonac	2
+
+Languages used in tlp.xml:
+  tlp	totonac	1
+
+Languages used in tly.xml:
+  tly	northern talyshi	10
+  tly	talysh	6
+
+Languages used in tmd.xml:
+  tmd	haruai	4
+
+Languages used in tnc.xml:
+  tnc	retuarã	3
+
+Languages used in tnk.xml:
+  tnk	kwamera	4
+
+Languages used in tnl.xml:
+  tnl	lenakel	14
+
+Languages used in toh.xml:
+  toh	tonga-inhambane	5
+
+Languages used in toi.xml:
+  toi	tonga	6
+
+Languages used in toj.xml:
+  toj	tojolabal	1
+
+Languages used in ton.xml:
+  ton	tongan	427
+
+Languages used in top.xml:
+  top	papantla totonac	6
+
+Languages used in tot.xml:
+  tot	upper necaxa totonac	4
+
+Languages used in tow.xml:
+  tow	jemez towa	3
+  tow	jemez	2
+
+Languages used in tpc.xml:
+  tpc	azoyú tlapanec	70
+  tpc	tlapanec	2
+
+Languages used in tpi.xml:
+  tpi	tok pisin	49
+
+Languages used in tpn.xml:
+  tpn	tupinamba	7
+  tpn	tupinambá	3
+
+Languages used in tpt.xml:
+  tpt	tepehua	1
+
+Languages used in tpx:tcf.xml:
+  tpx:tcf	tlapanec	2
+
+Languages used in tpy.xml:
+  tpy	trumai	3
+
+Languages used in tpz.xml:
+  tpz	tinputz	4
+
+Languages used in trc.xml:
+  trc	copala trique	10
+
+Languages used in tri.xml:
+  tri	trio	47
+  tri	tiriyó	2
+
+Languages used in trp.xml:
+  trp	kokborok	4
+
+Languages used in trv.xml:
+  trv	seediq	163
+
+Languages used in tsd.xml:
+  tsd	tsakonian	1
+
+Languages used in tsj.xml:
+  tsj	central monpa	1
+  tsj	tshangla	1
+
+Languages used in tsm.xml:
+  tsm	turkish sign language	33
+
+Languages used in tsn.xml:
+  tsn	tswana	73
+  tsn	setswana	10
+
+Languages used in tso.xml:
+  tso	tsonga	2
+
+Languages used in tsu.xml:
+  tsu	tsou	214
+
+Languages used in tsz.xml:
+  tsz	tarascan	10
+
+Languages used in ttq.xml:
+  ttq	tawallammat tamasheq	9
+
+Languages used in ttu.xml:
+  ttu	torau	5
+
+Languages used in ttv.xml:
+  ttv	titan	1
+
+Languages used in tub.xml:
+  tub	tubatulabal	4
+
+Languages used in tue.xml:
+  tue	tuyuca	64
+
+Languages used in tui.xml:
+  tui	tupuri	2
+
+Languages used in tum.xml:
+  tum	tumbuka	7
+
+Languages used in tun.xml:
+  tun	tunica	1
+
+Languages used in tuo.xml:
+  tuo	tucano	5
+
+Languages used in tuq.xml:
+  tuq	teda	3
+
+Languages used in tur.xml:
+  tur	turkish	2616
+  tur	turks	1
+
+Languages used in tus.xml:
+  tus	tuscarora	12
+
+Languages used in tuv.xml:
+  tuv	turkana	38
+
+Languages used in tvl.xml:
+  tvl	tuvaluan	14
+  tvl	tuvalu	3
+
+Languages used in tvo.xml:
+  tvo	tidore	3
+
+Languages used in twd.xml:
+  twd	twente	2
+
+Languages used in twf.xml:
+  twf	picuris	9
+  twf	northern tiwa	5
+
+Languages used in twq.xml:
+  twq	tasawaq	8
+
+Languages used in twu:dnk:txq:llg:rgu:row:bpz.xml:
+  twu:dnk:txq:llg:rgu:row:bpz	roti	4
+
+Languages used in txg.xml:
+  txg	tangut	3
+
+Languages used in tya.xml:
+  tya	tauya	8
+
+Languages used in tyn.xml:
+  tyn	kombai	14
+
+Languages used in tyv.xml:
+  tyv	tuva	3
+  tyv	tuvan	3
+
+Languages used in tzb:tzh.xml:
+  tzb:tzh	tzeltal	3
+
+Languages used in tzb.xml:
+  tzb	petalcingo tzeltal	780
+  tzb	bachajon tzeltal	11
+  tzb	ocosingo tzeltal	3
+
+Languages used in tzc:tzz.xml:
+  tzc:tzz	tzotzil	32
+
+Languages used in tzc.xml:
+  tzc	tzotzil	17
+  tzc	chamula	12
+
+Languages used in tzh.xml:
+  tzh	tzeltal oxchuc	6
+  tzh	oxchuk tzeltal	1
+
+Languages used in tzj:tzt.xml:
+  tzj:tzt	tzutujil	4
+
+Languages used in tzj.xml:
+  tzj	tz'utujil	54
+  tzj	tzutujil	1
+
+Languages used in tzm.xml:
+  tzm	berber	25
+  tzm	tamazight	14
+  tzm	tamazight berber	7
+  tzm	figuig berber	4
+  tzm	???	1
+
+Languages used in tzt:tzj.xml:
+  tzt:tzj	tzutujil	1
+
+Languages used in tzz.xml:
+  tzz	tzotzil	63
+  tzz	modern tzotzil	7
+  tzz	zinacanteco tzotzil	3
+
+Languages used in ude.xml:
+  ude	udihe	22
+
+Languages used in udi.xml:
+  udi	udi	268
+  udi	nizh	26
+  udi	vartashen	13
+
+Languages used in udm.xml:
+  udm	udmurt	12
+
+Languages used in uig.xml:
+  uig	yughur	2
+
+Languages used in ukr.xml:
+  ukr	ukrainian	69
+  ukr	ukrainisch	3
+
+Languages used in uma.xml:
+  uma	umatilla	20
+  uma	sahaptin	13
+  uma	columbia river sahaptin	3
+
+Languages used in umb.xml:
+  umb	umbundu	1
+
+Languages used in umu.xml:
+  umu	munsee delaware	4
+
+Languages used in und.xml:
+  ???	???	249
+
+Languages used in ung.xml:
+  ung	ungarinjin	3
+  ung	ngarinyman	1
+
+Languages used in urb.xml:
+  urb	urubú	4
+  urb	urubu-kaapor	3
+  urb	urubukaapor	1
+
+Languages used in urd.xml:
+  urd	urdu	481
+
+Languages used in ure.xml:
+  ure	uchumataqu	36
+
+Languages used in urh.xml:
+  urh	urhobo	1
+
+Languages used in urk.xml:
+  urk	lawoi	2
+
+Languages used in urv.xml:
+  urv	uruava	10
+
+Languages used in ute.xml:
+  ute	ute	24
+  ute	chemehuevi	2
+  ute	southern paiute	2
+  ute	kaibab	1
+
+Languages used in uwa.xml:
+  uwa	kugu-nganhcara	2
+
+Languages used in uzb.xml:
+  uzb	uzbek	13
+
+Languages used in vai.xml:
+  vai	vai	5
+
+Languages used in van.xml:
+  van	walman	15
+
+Languages used in var.xml:
+  var	guarijío	2
+
+Languages used in vay.xml:
+  vay	hayu	1
+
+Languages used in vec.xml:
+  vec	veneto	68
+  vec	paduan	35
+  vec	polesano	8
+  vec	illasi	3
+  vec	padovano	2
+  vec	bellunese	1
+  vec	triestino	1
+  vec	venetian	1
+
+Languages used in ven.xml:
+  ven	venda	63
+
+Languages used in vie.xml:
+  vie	vietnamese	352
+
+Languages used in vls.xml:
+  vls	flemish	399
+  vls	westvlaams	29
+  vls	west flemish	3
+  vls	west vlaanderen	2
+  vls	west-flemish	2
+  vls	west-vlaanderen	2
+  vls	oostende	1
+
+Languages used in vma.xml:
+  vma	martuthunira	38
+
+Languages used in vmb.xml:
+  vmb	mbabaram	1
+
+Languages used in vmf.xml:
+  vmf	franconian	2
+
+Languages used in vmw.xml:
+  vmw	makua	1
+
+Languages used in vot.xml:
+  vot	votic	10
+
+Languages used in vun.xml:
+  vun	vunjo	4
+
+Languages used in vut.xml:
+  vut	vute	4
+
+Languages used in waa.xml:
+  waa	sahaptin	2
+
+Languages used in wac.xml:
+  wac	wasco-wishram	2
+
+Languages used in wae.xml:
+  wae	walser	29
+  wae	rimella	3
+  wae	pomattertitsch	2
+  wae	bosco gurin	1
+  wae	rima	1
+
+Languages used in wal.xml:
+  wal	wolaytta	3
+
+Languages used in wam.xml:
+  wam	wampanoag	119
+
+Languages used in wao.xml:
+  wao	wappo	13
+
+Languages used in was.xml:
+  was	washo	15
+
+Languages used in wau.xml:
+  wau	waurá	6
+  wau	waura	3
+
+Languages used in waw.xml:
+  waw	waiwai	2
+
+Languages used in wax.xml:
+  wax	watam	2
+
+Languages used in way.xml:
+  way	wayana	4
+
+Languages used in wba.xml:
+  wba	warao	12
+
+Languages used in wbj.xml:
+  wbj	alagwa	2
+
+Languages used in wbk.xml:
+  wbk	kalashaala	3
+
+Languages used in wbp.xml:
+  wbp	warlpiri	1015
+  wbp	walpiri	2
+  wbp	warlbiri	2
+  wbp	warlipiri	2
+  wbp	walrpiri	1
+
+Languages used in wbv.xml:
+  wbv	wajarri	2
+
+Languages used in wga.xml:
+  wga	wakaya	4
+
+Languages used in wgy.xml:
+  wgy	warrgamay	2
+
+Languages used in wic.xml:
+  wic	wichita	2
+
+Languages used in wim.xml:
+  wim	wik-mungkan	9
+
+Languages used in win.xml:
+  win	winnebago	2
+
+Languages used in wit.xml:
+  wit	wintu	6
+  wit	patwin	2
+
+Languages used in wiy.xml:
+  wiy	wiyot	1
+
+Languages used in wkw.xml:
+  wkw	wagawaga	2
+  wkw	duunggidjawu	1
+
+Languages used in wlm.xml:
+  wlm	middle welsh	166
+
+Languages used in wln.xml:
+  wln	walloon	29
+
+Languages used in wls.xml:
+  wls	east uvean	3
+
+Languages used in wmb.xml:
+  wmb	wambaya	69
+
+Languages used in wms.xml:
+  wms	wambon	7
+
+Languages used in wmt.xml:
+  wmt	walmatjari	2
+
+Languages used in wno.xml:
+  wno	dumo	3
+
+Languages used in wnu.xml:
+  wnu	usan	16
+
+Languages used in woe.xml:
+  woe	woleaian	7
+
+Languages used in wof.xml:
+  wof	gambian	2
+
+Languages used in wol.xml:
+  wol	wolof	1666
+  wol	st. louis	19
+  wol	dakar	3
+  wol	ziguinchor	2
+
+Languages used in wra.xml:
+  wra	barupu	62
+
+Languages used in wrb.xml:
+  wrb	warluwarra	1
+
+Languages used in wrg.xml:
+  wrg	warrungu	1
+
+Languages used in wrm.xml:
+  wrm	warumungu	2
+
+Languages used in wrr.xml:
+  wrr	wardaman	16
+
+Languages used in wrz.xml:
+  wrz	warray	19
+
+Languages used in wsa.xml:
+  wsa	warembori	3
+
+Languages used in wsk.xml:
+  wsk	waskia	26
+
+Languages used in wuu.xml:
+  wuu	shanghai	36
+  wuu	shanghainese	3
+  wuu	zhuji	3
+  wuu	chinese wu	1
+
+Languages used in wwr.xml:
+  wwr	warrwa	4
+
+Languages used in wyb.xml:
+  wyb	ngiyambaa	32
+
+Languages used in xas.xml:
+  xas	kamas	3
+
+Languages used in xaw.xml:
+  xaw	kawaiisu	6
+
+Languages used in xbm.xml:
+  xbm	middle breton	58
+
+Languages used in xbr.xml:
+  xbr	kambera	230
+
+Languages used in xcl.xml:
+  xcl	classical armenian	4
+
+Languages used in xct.xml:
+  xct	classical tibetan	37
+
+Languages used in xcw.xml:
+  xcw	coahuilteco	6
+
+Languages used in xed.xml:
+  xed	hdi	5
+  xed	tur	4
+
+Languages used in xho.xml:
+  xho	xhosa	56
+
+Languages used in xmf.xml:
+  xmf	mingrelian	3
+
+Languages used in ???.xml:
+  ???	old italian	132
+  ???	early high german	54
+  ???	colonial valley zapotec	45
+  ???	proto-oceanic	38
+  ???	old swedish	34
+  ???	middle japanese	27
+  ???	colonial yucatec maya	18
+  ???	russian-chinese pidgin	18
+  ???	renaissance veneto	15
+  ???	classical portuguese	14
+  ???	proto oceanic	14
+  ???	early modern english	12
+  ???	renaissance bolognese	12
+  ???	early modern welsh	11
+  ???	old catalan	11
+  ???	early modern japanese	10
+  ???	old florence	10
+  ???	old neapolitan	10
+  ???	old lardil	9
+  ???	colonial tzotzil	8
+  ???	old portuguese	8
+  ???	old hindi	7
+  ???	early modern danish	6
+  ???	old polish	6
+  ???	early swedish	5
+  ???	north germanic	5
+  ???	old venetian	5
+  ???	chisukwa	4
+  ???	early western oceanic	4
+  ???	middle georgian	4
+  ???	middle norwegian	4
+  ???	old czech	4
+  ???	old piedmontese	4
+  ???	proto-scandinavian	4
+  ???	middle danish	3
+  ???	old danish	3
+  ???	old milanese	3
+  ???	old sicilian	3
+  ???	old slavic	3
+  ???	old spanish	3
+  ???	samarangan	3
+  ???	wembawemba	3
+  ???	archaic west greenlandic	2
+  ???	classical malay	2
+  ???	early italian	2
+  ???	ghanaian pidgin english	2
+  ???	medieval yiddish	2
+  ???	middle indo-aryan	2
+  ???	old basque	2
+  ???	old bengali	2
+  ???	old norwegian	2
+  ???	old provençal	2
+  ???	old umbrian	2
+  ???	taimyr pidgin russian	2
+  ???	common scandinavian	1
+  ???	early middle english	1
+  ???	early middle japanese	1
+  ???	greenlandic pidgin	1
+  ???	hungu	1
+  ???	medieval spanish	1
+  ???	middle swedish	1
+  ???	nraa drubea	1
+  ???	obokwi	1
+  ???	old galician portuguese	1
+  ???	old lithuanian	1
+  ???	old uighur	1
+  ???	ottoman	1
+  ???	proto indo european	1
+  ???	proto norse	1
+  ???	runic danish	1
+  ???	tugu creole	1
+
+Languages used in xng.xml:
+  xng	middle mongolian	4
+
+Languages used in xok.xml:
+  xok	shokleng	2
+
+Languages used in xsl:scs.xml:
+  xsl:scs	slave	52
+
+Languages used in xsl.xml:
+  xsl	slave	6
+
+Languages used in xsr.xml:
+  xsr	sherpa	31
+
+Languages used in xsu.xml:
+  xsu	sanuma	31
+
+Languages used in xsy.xml:
+  xsy	saisiyat	78
+
+Languages used in xub.xml:
+  xub	betta kurumba	1029
+
+Languages used in xuu.xml:
+  xuu	kxoe	3
+
+Languages used in xwa.xml:
+  xwa	kwaza	3
+
+Languages used in xxk.xml:
+  xxk	kéo	3
+
+Languages used in *xxx*.xml:
+  *xxx*	artificial language	7
+
+Languages used in yab.xml:
+  yab	hup	2
+  yab	maku	2
+
+Languages used in yad.xml:
+  yad	yagua	11
+
+Languages used in yaf.xml:
+  yaf	kiyaka	6
+
+Languages used in yai.xml:
+  yai	yagnobi	2
+
+Languages used in yak.xml:
+  yak	sahaptin	7
+  yak	northwest sahaptin	3
+  yak	klikitat	1
+
+Languages used in yao.xml:
+  yao	ciyao	6
+
+Languages used in yap.xml:
+  yap	yapese	13
+
+Languages used in yaq.xml:
+  yaq	yaqui	658
+  yaq	hiaki	6
+
+Languages used in yaz.xml:
+  yaz	lokaa	103
+
+Languages used in ybb.xml:
+  ybb	bamileke-dschang	6
+
+Languages used in ybi.xml:
+  ybi	yamphu	62
+
+Languages used in ydd.xml:
+  ydd	yiddish	106
+  ydd	eastern yiddish	5
+
+Languages used in ydd:yid:yih.xml:
+  ydd:yid:yih	yiddish	1
+
+Languages used in yea.xml:
+  yea	yoruba	1
+
+Languages used in yee.xml:
+  yee	yimas	158
+
+Languages used in ygr.xml:
+  ygr	hua	9
+
+Languages used in yia.xml:
+  yia	yingkarta	5
+
+Languages used in yih.xml:
+  yih	yiddish	5
+
+Languages used in yii.xml:
+  yii	yidiny	65
+  yii	yidin	5
+  yii	yidini	1
+
+Languages used in yij.xml:
+  yij	yindjibarndi	5
+
+Languages used in ykg:yux.xml:
+  ykg:yux	yukagir	24
+  ykg:yux	yukaghir	1
+
+Languages used in yle.xml:
+  yle	yeli dnye	4
+  yle	yeletnye	1
+
+Languages used in ylr.xml:
+  ylr	yalarnnga	12
+
+Languages used in ynd.xml:
+  ynd	yandruwandha	7
+
+Languages used in ynn.xml:
+  ynn	yana	1
+
+Languages used in yok.xml:
+  yok	yawelmani	1
+
+Languages used in yor.xml:
+  yor	yoruba	316
+
+Languages used in yoy.xml:
+  yoy	yay	1
+
+Languages used in yrk.xml:
+  yrk	nenets	36
+  yrk	tundra nenets	20
+  yrk	tundra	8
+
+Languages used in yua.xml:
+  yua	yucatec maya	556
+  yua	yukatek	98
+  yua	yucateco	64
+  yua	maya	17
+  yua	yucatec	16
+  yua	yucatec mayan	7
+  yua	yucatecan	1
+
+Languages used in yuc.xml:
+  yuc	euchee	27
+  yuc	yuchi	2
+
+Languages used in yue.xml:
+  yue	cantonese	529
+
+Languages used in yuf.xml:
+  yuf	hualapai	13
+  yuf	walapai	1
+  yuf	yavapai	1
+
+Languages used in yur.xml:
+  yur	yurok	7
+
+Languages used in yux.xml:
+  yux	kolyma	4
+  yux	yukaghir	2
+  yux	kolyma yukaghir	1
+
+Languages used in yux:ykg.xml:
+  yux:ykg	yukaghir	3
+
+Languages used in yuz.xml:
+  yuz	yurakaré	2
+
+Languages used in ywr.xml:
+  ywr	yawuru	9
+  ywr	yawurru	2
+
+Languages used in zaa.xml:
+  zaa	macuiltianguis zapotec	79
+  zaa	macuiltianguis	10
+  zaa	san juan yaee zapotec	2
+
+Languages used in zab.xml:
+  zab	san juan guelavía zapotec	17
+  zab	san lucas quiaviní zapotec	16
+  zab	san lucas quiavini	10
+  zab	tlacolula de matamoros zapotec	8
+  zab	san luis quiavini zapotec	4
+  zab	tlacolula valley zapotec	2
+  zab	santa ana del valle zapotec	1
+
+Languages used in zai.xml:
+  zai	isthmus zapotec	7
+
+Languages used in zap.xml:
+  zap	zapotec	52
+
+Languages used in zav.xml:
+  zav	yatzachi zapotec	2
+
+Languages used in zaw.xml:
+  zaw	mitla zapotec	19
+
+Languages used in zmc.xml:
+  zmc	margany	18
+
+Languages used in zmq.xml:
+  zmq	mituku	2
+
+Languages used in zmr.xml:
+  zmr	maranungku	4
+
+Languages used in zmu.xml:
+  zmu	muruwari	4
+
+Languages used in zne.xml:
+  zne	zande	2
+
+Languages used in zoc:zos.xml:
+  zoc:zos	chiapas zoque	3
+
+Languages used in zpi.xml:
+  zpi	quiegolani zapotec	28
+  zpi	zapotec	1
+
+Languages used in zpl.xml:
+  zpl	lachixío zapotec	6
+
+Languages used in zpq.xml:
+  zpq	zoogocho	7
+
+Languages used in ztu.xml:
+  ztu	san dionicio ocotepec zapotec	227
+  ztu	ocotepec zapotec	47
+  ztu	san dionicio zapotec	25
+  ztu	zapotec	25
+
+Languages used in zul.xml:
+  zul	zulu	604
+

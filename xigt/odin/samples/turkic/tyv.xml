@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xigt-corpus>
+<igt id="i25746">
+  <metadata type="xigt-meta">
+    <meta type="language" name="tuvan" iso-639-3="tyv" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3878" line-range="1271-1276" line-types="M+LN L+CR L+CR G T M+AC"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="1271" tag="M+LN">   (13)     tuvan</item>
+    <item id="o2" line="1272" tag="L+CR">             a. bi ip</item>
+    <item id="o3" line="1273" tag="L+CR">                  z-     al-di-m</item>
+    <item id="o4" line="1274" tag="G">                write-cv sub j.vers-past.I I-1</item>
+    <item id="o5" line="1275" tag="T">                 `I wrote (it) (down) for myself '</item>
+    <item id="o6" line="1276" tag="M+AC">                 (Anderson &amp; Harrison 1999: 68)</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="1271" tag="M+LN">tuvan</item>
+    <item id="c2" line="1272" tag="L+CR">bi ip</item>
+    <item id="c4" line="1274" tag="G">write-cv sub j.vers-past.I I-1</item>
+    <item id="c5" line="1275" tag="T">I wrote (it) (down) for myself</item>
+    <item id="c6" line="1276" tag="M+AC">Anderson &amp; Harrison 1999: 68</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c2[0:5]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c4[0:30]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c5[0:30]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i25747">
+  <metadata type="xigt-meta">
+    <meta type="language" name="tuvan" iso-639-3="tyv" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3878" line-range="1277-1281" line-types="L+CR L+CR G T M+AC"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="1277" tag="L+CR">             b. sut-ten i ip</item>
+    <item id="o2" line="1278" tag="L+CR">                 ¨        z-      al</item>
+    <item id="o3" line="1279" tag="G">                milk-abl drink-cv sub j.vers</item>
+    <item id="o4" line="1280" tag="T">                 `drink some milk'</item>
+    <item id="o5" line="1281" tag="M+AC">                 (Anderson &amp; Harrison 1999: 68)</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="1277" tag="L+CR">sut-ten i ip</item>
+    <item id="c3" line="1279" tag="G">milk-abl drink-cv sub j.vers</item>
+    <item id="c4" line="1280" tag="T">drink some milk</item>
+    <item id="c5" line="1281" tag="M+AC">Anderson &amp; Harrison 1999: 68</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:12]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:28]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c4[0:15]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i27279">
+  <metadata type="xigt-meta">
+    <meta type="language" name="tuva" iso-639-3="tyv" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3881" line-range="322-328" line-types="M+AC+LN B L+CR L+CR L+CR G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="322" tag="M+AC+LN">  Tuva (Bergelson &amp; Kibrik 1995:379,382)</item>
+    <item id="o2" line="323" tag="B"></item>
+    <item id="o3" line="324" tag="L+CR">                                                              azlda-p</item>
+    <item id="o4" line="325" tag="L+CR">  (5)    a.      Kara-ooli cemnen-ip al-gas,     Ø                     cort-kan</item>
+    <item id="o5" line="326" tag="L+CR">                                                       i</item>
+    <item id="o6" line="327" tag="G">                 Karaool eat-CONV AUX-SS                      work-CONV ride-PERF</item>
+    <item id="o7" line="328" tag="T">                 `Karaool ate and went to work.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="322" tag="M+AC+LN">Tuva (Bergelson &amp; Kibrik 1995:379,382)</item>
+    <item id="c2" line="323" tag="B"/>
+    <item id="c3" line="324 325 326" tag="L+CR">Kara-ooli cemnen-ip al-gas,     Ø    i      azlda-p   cort-kan</item>
+    <item id="c6" line="327" tag="G">Karaool eat-CONV AUX-SS                      work-CONV ride-PERF</item>
+    <item id="c7" line="328" tag="T">Karaool ate and went to work.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c3[0:62]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c6[0:64]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c7[0:29]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i27280">
+  <metadata type="xigt-meta">
+    <meta type="language" name="tuva" iso-639-3="tyv" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3881" line-range="330-335" line-types="L+CR L+CR G L G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="330" tag="L+CR">                 Ooli ava-z-n-ga</item>
+    <item id="o2" line="331" tag="L+CR">         b.                                 cug-dur-up            al-gas,     Øi</item>
+    <item id="o3" line="332" tag="G">                 boy mother-3-SFX-DAT wash-PASS-CONV AUX-SS</item>
+    <item id="o4" line="333" tag="L">                 ojna-p         coruur</item>
+    <item id="o5" line="334" tag="G">                 play-CONV AUX.IMPERF</item>
+    <item id="o6" line="335" tag="T">                 `After the boy has been washed by his mother, he will go to play.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="330 331" tag="L+CR">Ooli ava-z-n-ga            cug-dur-up            al-gas,     Øi</item>
+    <item id="c3" line="332" tag="G">boy mother-3-SFX-DAT wash-PASS-CONV AUX-SS</item>
+    <item id="c4" line="333" tag="L">ojna-p         coruur</item>
+    <item id="c5" line="334" tag="G">play-CONV AUX.IMPERF</item>
+    <item id="c6" line="335" tag="T">After the boy has been washed by his mother, he will go to play.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:63]"/>
+    <item id="p1" content="c4[0:21]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:42]" alignment="p1"/>
+    <item id="g1" content="c5[0:20]" alignment="p2"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c6[0:64]" alignment="p2"/>
+  </tier>
+</igt>
+<igt id="i27281">
+  <metadata type="xigt-meta">
+    <meta type="language" name="tuva" iso-639-3="tyv" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3881" line-range="340-342" line-types="L G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="340" tag="L">  (5)    c.      Ool xana-nii     dozulaarga oli caras        apar-gan</item>
+    <item id="o2" line="341" tag="G">                 boy wall-ACC paint.DS it           beautiful become-PERF</item>
+    <item id="o3" line="342" tag="T">                 `The boy painted the wall and it became beautiful.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="340" tag="L">Ool xana-nii     dozulaarga oli caras        apar-gan</item>
+    <item id="c2" line="341" tag="G">boy wall-ACC paint.DS it           beautiful become-PERF</item>
+    <item id="c3" line="342" tag="T">The boy painted the wall and it became beautiful.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:53]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:56]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:49]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i47782">
+  <metadata type="xigt-meta">
+    <meta type="language" name="tuvan" iso-639-3="tyv" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3421" line-range="5544-5546" line-types="L G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="5544" tag="L">  (134)      asak    Bajyr-ga inek-ti       dile-t-tir-t-ken</item>
+    <item id="o2" line="5545" tag="G">             old man Bajyr-DAT cow-ACC look for-CS-CS-CS-PST</item>
+    <item id="o3" line="5546" tag="T">             `An old man caused Bajyr to look for the cow [many times].</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="5544" tag="L">asak    Bajyr-ga inek-ti       dile-t-tir-t-ken</item>
+    <item id="c2" line="5545" tag="G">old man Bajyr-DAT cow-ACC look for-CS-CS-CS-PST</item>
+    <item id="c3" line="5546" tag="T">An old man caused Bajyr to look for the cow [many times].</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:47]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:47]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:57]" alignment="p1"/>
+  </tier>
+</igt>
+</xigt-corpus>

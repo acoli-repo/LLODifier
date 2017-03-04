@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xigt-corpus>
+<igt id="i63294">
+  <metadata type="xigt-meta">
+    <meta type="language" name="azari" iso-639-3="azb" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="2557" line-range="875-877" line-types="L G T+AC"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="875" tag="L">  (i)        Män fikr            elädim          [(ki)     Ali Häsäni        virmadi].</item>
+    <item id="o2" line="876" tag="G">             1sg   thought       do-   PST-1SG   [that]    Ali Hasan-ACC     hit-NEG-PAST.3SG</item>
+    <item id="o3" line="877" tag="T+AC">             "I thought that Ali did not hit Hasan."                        (Dehghani 2000:261)</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="875" tag="L">Män fikr            elädim          [(ki)     Ali Häsäni        virmadi].</item>
+    <item id="c2" line="876" tag="G">1sg   thought       do-PST-1SG   [that]    Ali Hasan-ACC     hit-NEG-PAST.3SG</item>
+    <item id="c3" line="877" tag="T+AC">I thought that Ali did not hit Hasan."                        (Dehghani 2000:261)</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:73]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:77]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:81]" alignment="p1"/>
+  </tier>
+</igt>
+</xigt-corpus>

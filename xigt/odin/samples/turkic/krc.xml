@@ -1,0 +1,592 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xigt-corpus>
+<igt id="i15724">
+  <metadata type="xigt-meta">
+    <meta type="language" name="karachaybalkar" iso-639-3="krc" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3544" line-range="199-202" line-types="M+AC+LN+CN L G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="199" tag="M+AC+LN+CN">  (9) Karachay-Balkar (Kipchak Turkic) attributive clause (no RC!) (Comrie 1998a)</item>
+    <item id="o2" line="200" tag="L">      a. [kitab-ï al-an] oquwcu</item>
+    <item id="o3" line="201" tag="G">         book-ACC buy-PTCP studen t[NOM]</item>
+    <item id="o4" line="202" tag="T">         `the student who bought the book'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="199" tag="M+AC+LN+CN">Karachay-Balkar (Kipchak Turkic) attributive clause (no RC!) (Comrie 1998a</item>
+    <item id="c2" line="200" tag="L">[kitab-ï al-an] oquwcu</item>
+    <item id="c3" line="201" tag="G">book-ACC buy-PTCP studen t[NOM]</item>
+    <item id="c4" line="202" tag="T">the student who bought the book</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c2[0:22]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:31]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c4[0:31]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i15725">
+  <metadata type="xigt-meta">
+    <meta type="language" name="karachaybalkar" iso-639-3="krc" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3544" line-range="203-205" line-types="L G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="203" tag="L">      b. [oquwcu      al-an] kitap</item>
+    <item id="o2" line="204" tag="G">         studen t[NOM] buy-PTCP book[NOM]</item>
+    <item id="o3" line="205" tag="T">         `the book that the student bought'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="203" tag="L">[oquwcu      al-an] kitap</item>
+    <item id="c2" line="204" tag="G">studen t[NOM] buy-PTCP book[NOM]</item>
+    <item id="c3" line="205" tag="T">the book that the student bought</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:25]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:32]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:32]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i15726">
+  <metadata type="xigt-meta">
+    <meta type="language" name="karachaybalkar" iso-639-3="krc" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3544" line-range="206-208" line-types="L G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="206" tag="L">      c. [et         bis-gän] iyis</item>
+    <item id="o2" line="207" tag="G">         meat[NO M] cook-PTCP smell[NO M]</item>
+    <item id="o3" line="208" tag="T">         `the smell of meat cooking'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="206" tag="L">[et         bis-gän] iyis</item>
+    <item id="c2" line="207" tag="G">meat[NO M] cook-PTCP smell[NO M]</item>
+    <item id="c3" line="208" tag="T">the smell of meat cooking</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:25]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:32]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:25]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i66332">
+  <metadata type="xigt-meta">
+    <meta type="language" name="karachay-balkar" iso-639-3="krc" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="1411" line-range="2881-2884" line-types="L G T+EX T+LT+AL+EX"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="2881" tag="L">     (1) fatima xaly-ny               zyrt-ty.</item>
+    <item id="o2" line="2882" tag="G">           Fatima thread-ACC tear-PST</item>
+    <item id="o3" line="2883" tag="T+EX">               1. Fatima tore a thread (in 5 minutes) {telic}</item>
+    <item id="o4" line="2884" tag="T+LT+AL+EX">               2. lit. Fatima tore a thread (for 5 minutes) {atelic}</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="2881" tag="L">fatima xaly-ny               zyrt-ty.</item>
+    <item id="c2" line="2882" tag="G">Fatima thread-ACC tear-PST</item>
+    <item id="c3" line="2883" tag="T+EX">Fatima tore a thread (in 5 minutes) {telic}</item>
+    <item id="c4" line="2884" tag="T+LT+AL+EX">lit. Fatima tore a thread (for 5 minutes) {atelic}</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:37]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:26]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:43]" alignment="p1"/>
+    <item id="t1" content="c4[0:50]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i66333">
+  <metadata type="xigt-meta">
+    <meta type="language" name="karachay-balkar" iso-639-3="krc" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="1411" line-range="2889-2892" line-types="L G T+EX T+AL+EX"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="2889" tag="L">     (2) alim      baxca-sy-n            sUr-gen-di.</item>
+    <item id="o2" line="2890" tag="G">           Alim kitchen.garden plough-PST-3:SG</item>
+    <item id="o3" line="2891" tag="T+EX">               1. Alim ploughed the kitchen garden (in two hours) {telic}.</item>
+    <item id="o4" line="2892" tag="T+AL+EX">               2. Alim ploughed the kitchen garden (for two hours) {atelic}.</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="2889" tag="L">alim      baxca-sy-n            sUr-gen-di.</item>
+    <item id="c2" line="2890" tag="G">Alim kitchen.garden plough-PST-3:SG</item>
+    <item id="c3" line="2891" tag="T+EX">Alim ploughed the kitchen garden (in two hours) {telic}.</item>
+    <item id="c4" line="2892" tag="T+AL+EX">Alim ploughed the kitchen garden (for two hours) {atelic}.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:43]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:35]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:56]" alignment="p1"/>
+    <item id="t1" content="c4[0:58]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i66334">
+  <metadata type="xigt-meta">
+    <meta type="language" name="karachay-balkar" iso-639-3="krc" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="1411" line-range="2902-2905" line-types="L G T+EX T+LT+AL+EX"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="2902" tag="L">     (3)    xaly zyrt-y-l-dy.</item>
+    <item id="o2" line="2903" tag="G">            thread tear-ST-PASS-PST</item>
+    <item id="o3" line="2904" tag="T+EX">                1. The thread has been torn (in two minutes ) {telic}.</item>
+    <item id="o4" line="2905" tag="T+LT+AL+EX">                2. lit. *The thread has been torn (for two minutes) {atelic}</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="2902" tag="L">xaly zyrt-y-l-dy.</item>
+    <item id="c2" line="2903" tag="G">thread tear-ST-PASS-PST</item>
+    <item id="c3" line="2904" tag="T+EX">The thread has been torn (in two minutes ) {telic}.</item>
+    <item id="c4" line="2905" tag="T+LT+AL+EX">lit. *The thread has been torn (for two minutes) {atelic}</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:17]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:23]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:51]" alignment="p1"/>
+    <item id="t1" content="c4[0:57]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i66335">
+  <metadata type="xigt-meta">
+    <meta type="language" name="karachay-balkar" iso-639-3="krc" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="1411" line-range="2907-2910" line-types="L G T+EX T+LT+AL+EX"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="2907" tag="L">     (4)    baxca sUr-U-l-du.</item>
+    <item id="o2" line="2908" tag="G">            kitchen garden plough-ST-PASS-PST</item>
+    <item id="o3" line="2909" tag="T+EX">                1. The kitchen garden has been ploughed (in two hours ) {telic}.</item>
+    <item id="o4" line="2910" tag="T+LT+AL+EX">                2. lit. The kitchen garden has been ploughed (for two hours ) {atelic}.</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="2907" tag="L">baxca sUr-U-l-du.</item>
+    <item id="c2" line="2908" tag="G">kitchen garden plough-ST-PASS-PST</item>
+    <item id="c3" line="2909" tag="T+EX">The kitchen garden has been ploughed (in two hours ) {telic}.</item>
+    <item id="c4" line="2910" tag="T+LT+AL+EX">lit. The kitchen garden has been ploughed (for two hours ) {atelic}.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:17]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:33]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:61]" alignment="p1"/>
+    <item id="t1" content="c4[0:68]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i66403">
+  <metadata type="xigt-meta">
+    <meta type="language" name="karachay-balkar" iso-639-3="krc" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="1411" line-range="4209-4209" line-types="L-T+DB"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="4209" tag="L-T+DB">  astronomijacï `astronomer' &lt; astronomija `astronomy';</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="4209" tag="L-T+DB">astronomijacï `astronomer' &lt; astronomija `astronomy';</item>
+  </tier>
+</igt>
+<igt id="i66404">
+  <metadata type="xigt-meta">
+    <meta type="language" name="karachay-balkar" iso-639-3="krc" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="1411" line-range="4210-4210" line-types="L-T+DB"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="4210" tag="L-T+DB">  avantüracï `1.wrangler. 2.adventurer' &lt; avantüra `1. wrangle. 2. adventure`;</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="4210" tag="L-T+DB">avantüracï `1.wrangler. 2.adventurer' &lt; avantüra `1. wrangle. 2. adventure`;</item>
+  </tier>
+</igt>
+<igt id="i66405">
+  <metadata type="xigt-meta">
+    <meta type="language" name="karachay-balkar" iso-639-3="krc" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="1411" line-range="4211-4211" line-types="L-T+DB"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="4211" tag="L-T+DB">  fabrikacï `factory owner' &lt; fabrika ` factory `;</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="4211" tag="L-T+DB">fabrikacï `factory owner' &lt; fabrika ` factory `;</item>
+  </tier>
+</igt>
+<igt id="i66406">
+  <metadata type="xigt-meta">
+    <meta type="language" name="karachay-balkar" iso-639-3="krc" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="1411" line-range="4212-4212" line-types="L-T+DB"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="4212" tag="L-T+DB">  revolucijacï `revolutionist ` &lt; revolucija `revolution';</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="4212" tag="L-T+DB">revolucijacï `revolutionist ` &lt; revolucija `revolution';</item>
+  </tier>
+</igt>
+<igt id="i66407">
+  <metadata type="xigt-meta">
+    <meta type="language" name="karachay-balkar" iso-639-3="krc" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="1411" line-range="4214-4214" line-types="L-T+DB"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="4214" tag="L-T+DB">  absolutlu `absolute' &lt; absolut `the absolute';</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="4214" tag="L-T+DB">absolutlu `absolute' &lt; absolut `the absolute';</item>
+  </tier>
+</igt>
+<igt id="i66408">
+  <metadata type="xigt-meta">
+    <meta type="language" name="karachay-balkar" iso-639-3="krc" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="1411" line-range="4215-4215" line-types="L-T+DB"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="4215" tag="L-T+DB">  diskussijalï `controversial' &lt; diskussija `discussion';</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="4215" tag="L-T+DB">diskussijalï `controversial' &lt; diskussija `discussion';</item>
+  </tier>
+</igt>
+<igt id="i66409">
+  <metadata type="xigt-meta">
+    <meta type="language" name="karachay-balkar" iso-639-3="krc" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="1411" line-range="4216-4216" line-types="L-T+DB"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="4216" tag="L-T+DB">  kalibrli `having a certain calibre' &lt; kalibr `calibre';</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="4216" tag="L-T+DB">kalibrli `having a certain calibre' &lt; kalibr `calibre';</item>
+  </tier>
+</igt>
+<igt id="i66410">
+  <metadata type="xigt-meta">
+    <meta type="language" name="karachay-balkar" iso-639-3="krc" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="1411" line-range="4219-4219" line-types="L-T+DB"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="4219" tag="L-T+DB">  banditlik `banditism' &lt; bandit ` bandit' ;</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="4219" tag="L-T+DB">banditlik `banditism' &lt; bandit ` bandit' ;</item>
+  </tier>
+</igt>
+<igt id="i66411">
+  <metadata type="xigt-meta">
+    <meta type="language" name="karachay-balkar" iso-639-3="krc" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="1411" line-range="4220-4220" line-types="L-T+DB"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="4220" tag="L-T+DB">  bankrotluk `bankruptcy' &lt; bankrot `bankrupt';</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="4220" tag="L-T+DB">bankrotluk `bankruptcy' &lt; bankrot `bankrupt';</item>
+  </tier>
+</igt>
+<igt id="i66412">
+  <metadata type="xigt-meta">
+    <meta type="language" name="karachay-balkar" iso-639-3="krc" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="1411" line-range="4221-4221" line-types="L-T+DB"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="4221" tag="L-T+DB">  direktorluk `the function of a director' &lt; direktor `director';</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="4221" tag="L-T+DB">direktorluk `the function of a director' &lt; direktor `director';</item>
+  </tier>
+</igt>
+<igt id="i66413">
+  <metadata type="xigt-meta">
+    <meta type="language" name="karachay-balkar" iso-639-3="krc" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="1411" line-range="4222-4222" line-types="L-T+DB"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="4222" tag="L-T+DB">  redaktorluk `editorship, editoring' &lt; redaktor `editor';</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="4222" tag="L-T+DB">redaktorluk `editorship, editoring' &lt; redaktor `editor';</item>
+  </tier>
+</igt>
+<igt id="i66414">
+  <metadata type="xigt-meta">
+    <meta type="language" name="karachay-balkar" iso-639-3="krc" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="1411" line-range="4224-4224" line-types="L-T+DB"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="4224" tag="L-T+DB">  kalorijasïz `caloryless' &lt; kalorija `calory';</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="4224" tag="L-T+DB">kalorijasïz `caloryless' &lt; kalorija `calory';</item>
+  </tier>
+</igt>
+<igt id="i66415">
+  <metadata type="xigt-meta">
+    <meta type="language" name="karachay-balkar" iso-639-3="krc" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="1411" line-range="4225-4225" line-types="L-T+DB"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="4225" tag="L-T+DB">  kvalifikacijasïz `without qualification' &lt; kvalifikacija `qualification';</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="4225" tag="L-T+DB">kvalifikacijasïz `without qualification' &lt; kvalifikacija `qualification';</item>
+  </tier>
+</igt>
+<igt id="i66416">
+  <metadata type="xigt-meta">
+    <meta type="language" name="karachay-balkar" iso-639-3="krc" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="1411" line-range="4226-4226" line-types="L-T+DB"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="4226" tag="L-T+DB">  magnitsiz `demagnetized' &lt; magnit `magnet'.</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="4226" tag="L-T+DB">magnitsiz `demagnetized' &lt; magnit `magnet'.</item>
+  </tier>
+</igt>
+<igt id="i118030">
+  <metadata type="xigt-meta">
+    <meta type="language" name="balkar" iso-639-3="krc" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3657" line-range="1613-1616" line-types="M+AC+LN L G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="1613" tag="M+AC+LN">  (2)   Balkar (Mundart of Verkhnaja Balkaria, personal field data)</item>
+    <item id="o2" line="1614" tag="L">        zawun       zaw-y                 edi</item>
+    <item id="o3" line="1615" tag="G">        rain        rain-GAJ              AUX</item>
+    <item id="o4" line="1616" tag="T">        I wish it would rain</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="1613" tag="M+AC+LN">Balkar (Mundart of Verkhnaja Balkaria, personal field data</item>
+    <item id="c2" line="1614" tag="L">zawun       zaw-y                 edi</item>
+    <item id="c3" line="1615" tag="G">rain        rain-GAJ              AUX</item>
+    <item id="c4" line="1616" tag="T">I wish it would rain</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c2[0:37]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:37]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c4[0:20]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i155791">
+  <metadata type="xigt-meta">
+    <meta type="language" name="karachay-balkar" iso-639-3="krc" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3307" line-range="8134-8138" line-types="L+CR L+CR+SY G T+DB+LT C"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="8134" tag="L+CR">        ustaz       madina-a ata-s-n        es-i-nde           tut-tur-du</item>
+    <item id="o2" line="8135" tag="L+CR+SY">  (1)           i</item>
+    <item id="o3" line="8136" tag="G">        teacher m.-DAT     father-ACC memory-3-LOC hold-CAUS-PST.3SG</item>
+    <item id="o4" line="8137" tag="T+DB+LT">  `        The teacher reminded Madina about her father (lit. made M. hold her father in her</item>
+    <item id="o5" line="8138" tag="C">           memory).'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="8134 8135" tag="L+CR+SY">ustaz   i   madina-a ata-s-n        es-i-nde           tut-tur-du</item>
+    <item id="c3" line="8136" tag="G">teacher m.-DAT     father-ACC memory-3-LOC hold-CAUS-PST.3SG</item>
+    <item id="c4" line="8137" tag="T+DB+LT">The teacher reminded Madina about her father (lit. made M. hold her father in her</item>
+    <item id="c5" line="8138" tag="C">memory).</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:65]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:60]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c4[0:81]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i155792">
+  <metadata type="xigt-meta">
+    <meta type="language" name="karachay-balkar" iso-639-3="krc" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3307" line-range="8139-8143" line-types="L+CR L+CR G+CR G+CR T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="8139" tag="L+CR">        ustaz       madina-a ata-s-n           mahta-t-ty</item>
+    <item id="o2" line="8140" tag="L+CR">  (2)</item>
+    <item id="o3" line="8141" tag="G+CR">                            father-3-ACC praise-CAUS-        PST.3SG</item>
+    <item id="o4" line="8142" tag="G+CR">        teacher m.-DAT</item>
+    <item id="o5" line="8143" tag="T">          `The teacher made Madina praise her father'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="8139 8140" tag="L+CR">ustaz       madina-a ata-s-n           mahta-t-ty</item>
+    <item id="c3" line="8141 8142" tag="G+CR">teacher m.-DAT      father-3-ACC praise-CAUS-PST.3SG</item>
+    <item id="c5" line="8143" tag="T">The teacher made Madina praise her father</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:49]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:52]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c5[0:41]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i157743">
+  <metadata type="xigt-meta">
+    <meta type="language" name="karachaybalkar" iso-639-3="krc" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="2859" line-range="199-202" line-types="M+AC+LN+CN L G+CR T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="199" tag="M+AC+LN+CN">  (9) Karachay-Balkar (Kipchak Turkic) attributive clause (no RC!) (Comrie 1998a)</item>
+    <item id="o2" line="200" tag="L">      a. [kitab-ï al-an] oquwcu</item>
+    <item id="o3" line="201" tag="G+CR">         book-ACC buy-PTCP studen t[NOM]</item>
+    <item id="o4" line="202" tag="T">         `the student who bought the book'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="199" tag="M+AC+LN+CN">Karachay-Balkar (Kipchak Turkic) attributive clause (no RC!) (Comrie 1998a</item>
+    <item id="c2" line="200" tag="L">[kitab-ï al-an] oquwcu</item>
+    <item id="c3" line="201" tag="G+CR">book-ACC buy-PTCP studen t[NOM]</item>
+    <item id="c4" line="202" tag="T">the student who bought the book</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c2[0:22]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:31]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c4[0:31]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i157744">
+  <metadata type="xigt-meta">
+    <meta type="language" name="karachaybalkar" iso-639-3="krc" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="2859" line-range="203-205" line-types="L G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="203" tag="L">      b. [oquwcu      al-an] kitap</item>
+    <item id="o2" line="204" tag="G">         studen t[NOM] buy-PTCP book[NOM]</item>
+    <item id="o3" line="205" tag="T">         `the book that the student bought'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="203" tag="L">[oquwcu      al-an] kitap</item>
+    <item id="c2" line="204" tag="G">studen t[NOM] buy-PTCP book[NOM]</item>
+    <item id="c3" line="205" tag="T">the book that the student bought</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:25]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:32]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:32]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i157745">
+  <metadata type="xigt-meta">
+    <meta type="language" name="karachaybalkar" iso-639-3="krc" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="2859" line-range="206-208" line-types="L G+CR T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="206" tag="L">      c. [et         bis-gän] iyis</item>
+    <item id="o2" line="207" tag="G+CR">         meat[NO M] cook-PTCP smell[NO M]</item>
+    <item id="o3" line="208" tag="T">         `the smell of meat cooking'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="206" tag="L">[et         bis-gän] iyis</item>
+    <item id="c2" line="207" tag="G+CR">meat[NO M] cook-PTCP smell[NO M]</item>
+    <item id="c3" line="208" tag="T">the smell of meat cooking</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:25]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:32]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:25]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i157746">
+  <metadata type="xigt-meta">
+    <meta type="language" name="karachaybalkar" iso-639-3="krc" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="2859" line-range="216-219" line-types="M+AC+LN L G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="216" tag="M+AC+LN">  (10) Jamul Tiipay (and other Yuman languages) (Miller 2001)</item>
+    <item id="o2" line="217" tag="L">       a. [nyech'ak kwe-cheyaw maw-pu] peya k-iny!</item>
+    <item id="o3" line="218" tag="G">         wo m a n    ACT .NML Z-sin g NEG-ART DEM IMP-give</item>
+    <item id="o4" line="219" tag="T">         `Give this to the woman who isn't singing!'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="216" tag="M+AC+LN">Jamul Tiipay (and other Yuman languages) (Miller 2001</item>
+    <item id="c2" line="217" tag="L">[nyech'ak kwe-cheyaw maw-pu] peya k-iny!</item>
+    <item id="c3" line="218" tag="G">wo m a n    ACT .NML Z-sin g NEG-ART DEM IMP-give</item>
+    <item id="c4" line="219" tag="T">Give this to the woman who isn't singing!</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c2[0:40]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:49]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c4[0:41]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i157747">
+  <metadata type="xigt-meta">
+    <meta type="language" name="karachaybalkar" iso-639-3="krc" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="2859" line-range="220-221" line-types="L+DB G-T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="220" tag="L+DB">      b. kwechcheyaaw &lt;        *kwe-ch-cheyaw</item>
+    <item id="o2" line="221" tag="G-T">         `a singer'            ACT.NMLZ-DISTRIBUTIVE-sing</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="220" tag="L+DB">kwechcheyaaw &lt;        *kwe-ch-cheyaw</item>
+    <item id="c2" line="221" tag="G-T">a singer'            ACT.NMLZ-DISTRIBUTIVE-sing</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:36]"/>
+  </tier>
+</igt>
+</xigt-corpus>

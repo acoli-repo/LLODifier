@@ -1,0 +1,768 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xigt-corpus>
+<igt id="i57533">
+  <metadata type="xigt-meta">
+    <meta type="language" name="suleimanye kurdish" iso-639-3="ckb" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="2733" line-range="505-507" line-types="L G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="505" tag="L">        a.     war-tan        nagirt       (leman)</item>
+    <item id="o2" line="506" tag="G">               NEG-2S         obtain       (from us)</item>
+    <item id="o3" line="507" tag="T">               `you did not obtain is (from us)'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="505" tag="L">war-tan        nagirt       (leman)</item>
+    <item id="c2" line="506" tag="G">NEG-2S         obtain       (from us)</item>
+    <item id="c3" line="507" tag="T">you did not obtain is (from us)</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:35]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:37]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:31]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i57534">
+  <metadata type="xigt-meta">
+    <meta type="language" name="suleimanye kurdish" iso-639-3="ckb" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="2733" line-range="508-510" line-types="L G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="508" tag="L">        b.     cón-tan        zaní</item>
+    <item id="o2" line="509" tag="G">               how-2S         know</item>
+    <item id="o3" line="510" tag="T">               `how did you know?'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="508" tag="L">cón-tan        zaní</item>
+    <item id="c2" line="509" tag="G">how-2S         know</item>
+    <item id="c3" line="510" tag="T">how did you know?</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:19]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:19]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:17]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i57535">
+  <metadata type="xigt-meta">
+    <meta type="language" name="suleimanye kurdish" iso-639-3="ckb" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="2733" line-range="511-514" line-types="L+CR L+CR G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="511" tag="L+CR">               márek-im kust</item>
+    <item id="o2" line="512" tag="L+CR">        c.</item>
+    <item id="o3" line="513" tag="G">               snake-1S       kill</item>
+    <item id="o4" line="514" tag="T">               `I killed a snake'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="511 512" tag="L+CR">márek-im kust</item>
+    <item id="c3" line="513" tag="G">snake-1S       kill</item>
+    <item id="c4" line="514" tag="T">I killed a snake</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:13]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:19]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c4[0:16]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i77827">
+  <metadata type="xigt-meta">
+    <meta type="language" name="kurdish" iso-639-3="ckb" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="2521" line-range="1024-1027" line-types="L G M T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="1024" tag="L">  (63) a. ÷m pyaw- xnjr ÷-frose                       TM</item>
+    <item id="o2" line="1025" tag="G">                 this man-this dagger IMPERF-sell</item>
+    <item id="o3" line="1026" tag="M">                       S               O           V</item>
+    <item id="o4" line="1027" tag="T">                 `this man sells daggers'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="1024" tag="L">÷m pyaw-xnjr ÷-frose                       TM</item>
+    <item id="c2" line="1025" tag="G">this man-this dagger IMPERF-sell</item>
+    <item id="c3" line="1026" tag="M">S               O           V</item>
+    <item id="c4" line="1027" tag="T">this man sells daggers</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:45]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:32]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c4[0:22]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i90244">
+  <metadata type="xigt-meta">
+    <meta type="language" name="suleimaniye kurdish" iso-639-3="ckb" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="2628" line-range="360-362" line-types="L G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="360" tag="L">        a.    war-tan      nagirt        (leman)</item>
+    <item id="o2" line="361" tag="G">              NEG-2S       obtain        (from us)</item>
+    <item id="o3" line="362" tag="T">              `you did not obtain is (from us)'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="360" tag="L">war-tan      nagirt        (leman)</item>
+    <item id="c2" line="361" tag="G">NEG-2S       obtain        (from us)</item>
+    <item id="c3" line="362" tag="T">you did not obtain is (from us)</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:34]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:36]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:31]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i90245">
+  <metadata type="xigt-meta">
+    <meta type="language" name="suleimaniye kurdish" iso-639-3="ckb" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="2628" line-range="364-366" line-types="L G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="364" tag="L">        b.    cón-tan     zaní</item>
+    <item id="o2" line="365" tag="G">              how-2S      know</item>
+    <item id="o3" line="366" tag="T">              `how did you know?'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="364" tag="L">cón-tan     zaní</item>
+    <item id="c2" line="365" tag="G">how-2S      know</item>
+    <item id="c3" line="366" tag="T">how did you know?</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:16]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:16]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:17]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i90246">
+  <metadata type="xigt-meta">
+    <meta type="language" name="suleimaniye kurdish" iso-639-3="ckb" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="2628" line-range="368-371" line-types="L+CR L+CR G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="368" tag="L+CR">              márek-im kust</item>
+    <item id="o2" line="369" tag="L+CR">        c.</item>
+    <item id="o3" line="370" tag="G">              snake-1S       kill</item>
+    <item id="o4" line="371" tag="T">              `I killed a snake'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="368 369" tag="L+CR">márek-im kust</item>
+    <item id="c3" line="370" tag="G">snake-1S       kill</item>
+    <item id="c4" line="371" tag="T">I killed a snake</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:13]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:19]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c4[0:16]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i116050">
+  <metadata type="xigt-meta">
+    <meta type="language" name="sorani" iso-639-3="ckb" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3667" line-range="11669-11673" line-types="M+LN+EX M+LN L G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="11669" tag="M+LN+EX">                       (Indo-European, Indo-Iranian, Iranian, Kurdish)</item>
+    <item id="o2" line="11670" tag="M+LN">  (4) Sorani</item>
+    <item id="o3" line="11671" tag="L">        a. min da-ro-m</item>
+    <item id="o4" line="11672" tag="G">           1SG PROG-go.PRS-1SG</item>
+    <item id="o5" line="11673" tag="T">             'I am going.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="11669" tag="M+LN+EX">Indo-European, Indo-Iranian, Iranian, Kurdish</item>
+    <item id="c2" line="11670" tag="M+LN">Sorani</item>
+    <item id="c3" line="11671" tag="L">min da-ro-m</item>
+    <item id="c4" line="11672" tag="G">1SG PROG-go.PRS-1SG</item>
+    <item id="c5" line="11673" tag="T">I am going.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c3[0:11]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c4[0:19]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c5[0:11]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i116051">
+  <metadata type="xigt-meta">
+    <meta type="language" name="sorani" iso-639-3="ckb" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3667" line-range="11674-11676" line-types="L G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="11674" tag="L">        b. to  da-ro-ît</item>
+    <item id="o2" line="11675" tag="G">           2SG PROG-go.PRS-2SG</item>
+    <item id="o3" line="11676" tag="T">             'You are going.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="11674" tag="L">to  da-ro-ît</item>
+    <item id="c2" line="11675" tag="G">2SG PROG-go.PRS-2SG</item>
+    <item id="c3" line="11676" tag="T">You are going.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:12]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:19]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:14]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i116052">
+  <metadata type="xigt-meta">
+    <meta type="language" name="sorani" iso-639-3="ckb" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3667" line-range="11677-11680" line-types="L+CR L+CR G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="11677" tag="L+CR">             min to      da-bîn-im</item>
+    <item id="o2" line="11678" tag="L+CR">        c.</item>
+    <item id="o3" line="11679" tag="G">             1SG 2SG.ACC PROG-see.PRS-1SG</item>
+    <item id="o4" line="11680" tag="T">             `I am seeing you.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="11677 11678" tag="L+CR">min to      da-bîn-im</item>
+    <item id="c3" line="11679" tag="G">1SG 2SG.ACC PROG-see.PRS-1SG</item>
+    <item id="c4" line="11680" tag="T">I am seeing you.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:21]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:28]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c4[0:16]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i116053">
+  <metadata type="xigt-meta">
+    <meta type="language" name="sorani" iso-639-3="ckb" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3667" line-range="11681-11684" line-types="L G T M+AC"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="11681" tag="L">        d. to  min     da-bîn-ît</item>
+    <item id="o2" line="11682" tag="G">           2SG 1SG.ACC PROGT-see.PRS-2SG</item>
+    <item id="o3" line="11683" tag="T">             `You are seeing me.'</item>
+    <item id="o4" line="11684" tag="M+AC">                                                                           (Mariwan Kanie)</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="11681" tag="L">to  min     da-bîn-ît</item>
+    <item id="c2" line="11682" tag="G">2SG 1SG.ACC PROGT-see.PRS-2SG</item>
+    <item id="c3" line="11683" tag="T">You are seeing me.</item>
+    <item id="c4" line="11684" tag="M+AC">Mariwan Kanie</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:21]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:29]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:18]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i116054">
+  <metadata type="xigt-meta">
+    <meta type="language" name="sorani" iso-639-3="ckb" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3667" line-range="11710-11713" line-types="M+LN+CN L G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="11710" tag="M+LN+CN">  (5) Sorani: ergative constructions</item>
+    <item id="o2" line="11711" tag="L">       a. min ro-îsht-im</item>
+    <item id="o3" line="11712" tag="G">          1SG go-PST-1SG</item>
+    <item id="o4" line="11713" tag="T">            'I went.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="11710" tag="M+LN+CN">ergative constructions</item>
+    <item id="c2" line="11711" tag="L">min ro-îsht-im</item>
+    <item id="c3" line="11712" tag="G">1SG go-PST-1SG</item>
+    <item id="c4" line="11713" tag="T">I went.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c2[0:14]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:14]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c4[0:7]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i116055">
+  <metadata type="xigt-meta">
+    <meta type="language" name="sorani" iso-639-3="ckb" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3667" line-range="11714-11716" line-types="L G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="11714" tag="L">       b. to  ro-îsht-ît</item>
+    <item id="o2" line="11715" tag="G">          2SG go-PST-2SG</item>
+    <item id="o3" line="11716" tag="T">            'You went.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="11714" tag="L">to  ro-îsht-ît</item>
+    <item id="c2" line="11715" tag="G">2SG go-PST-2SG</item>
+    <item id="c3" line="11716" tag="T">You went.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:14]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:14]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:9]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i116056">
+  <metadata type="xigt-meta">
+    <meta type="language" name="sorani" iso-639-3="ckb" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3667" line-range="11717-11720" line-types="L+CR L+CR G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="11717" tag="L+CR">            min to=m              bîn-î</item>
+    <item id="o2" line="11718" tag="L+CR">       c.</item>
+    <item id="o3" line="11719" tag="G">            1SG 2SG=1SG.A         see-PST</item>
+    <item id="o4" line="11720" tag="T">            `I saw you.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="11717 11718" tag="L+CR">min to=m              bîn-î</item>
+    <item id="c3" line="11719" tag="G">1SG 2SG=1SG.A         see-PST</item>
+    <item id="c4" line="11720" tag="T">I saw you.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:27]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:29]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c4[0:10]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i116057">
+  <metadata type="xigt-meta">
+    <meta type="language" name="sorani" iso-639-3="ckb" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3667" line-range="11721-11724" line-types="L G T M+AC"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="11721" tag="L">       d. to  min=it              bîn-î</item>
+    <item id="o2" line="11722" tag="G">          2SG 1SG=2SG.A           see-PST</item>
+    <item id="o3" line="11723" tag="T">            `You saw me.'</item>
+    <item id="o4" line="11724" tag="M+AC">                                                                        (Mariwan Kanie)</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="11721" tag="L">to  min=it              bîn-î</item>
+    <item id="c2" line="11722" tag="G">2SG 1SG=2SG.A           see-PST</item>
+    <item id="c3" line="11723" tag="T">You saw me.</item>
+    <item id="c4" line="11724" tag="M+AC">Mariwan Kanie</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:29]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:31]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:11]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i116058">
+  <metadata type="xigt-meta">
+    <meta type="language" name="sorani" iso-639-3="ckb" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3667" line-range="11753-11756" line-types="M+LN L G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="11753" tag="M+LN">  (5') Sorani:</item>
+    <item id="o2" line="11754" tag="L">         a. to-m               bîn-î</item>
+    <item id="o3" line="11755" tag="G">            2SG=1SG.A          see-PST</item>
+    <item id="o4" line="11756" tag="T">            `I saw you.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="11753" tag="M+LN">Sorani:</item>
+    <item id="c2" line="11754" tag="L">to-m               bîn-î</item>
+    <item id="c3" line="11755" tag="G">2SG=1SG.A          see-PST</item>
+    <item id="c4" line="11756" tag="T">I saw you.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c2[0:24]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:26]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c4[0:10]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i116059">
+  <metadata type="xigt-meta">
+    <meta type="language" name="sorani" iso-639-3="ckb" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3667" line-range="11757-11760" line-types="L G T M+AC"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="11757" tag="L">         b. min-it             bîn-î</item>
+    <item id="o2" line="11758" tag="G">            1SG=2SG.A          see-PST</item>
+    <item id="o3" line="11759" tag="T">            `You saw me.'</item>
+    <item id="o4" line="11760" tag="M+AC">                                                                            (Mariwan Kanie)</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="11757" tag="L">min-it             bîn-î</item>
+    <item id="c2" line="11758" tag="G">1SG=2SG.A          see-PST</item>
+    <item id="c3" line="11759" tag="T">You saw me.</item>
+    <item id="c4" line="11760" tag="M+AC">Mariwan Kanie</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:24]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:26]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:11]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i116060">
+  <metadata type="xigt-meta">
+    <meta type="language" name="sorani" iso-639-3="ckb" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3667" line-range="11874-11877" line-types="M+LN+EX L G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="11874" tag="M+LN+EX">  (8) Sorani: transitive verbs marked for person/number of the object</item>
+    <item id="o2" line="11875" tag="L">       a. (*to)       bîn-î-m-ît</item>
+    <item id="o3" line="11876" tag="G">          2SG         see-PST-1SG.A-2SG</item>
+    <item id="o4" line="11877" tag="T">            `I saw you'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="11874" tag="M+LN+EX">transitive verbs marked for person/number of the object</item>
+    <item id="c2" line="11875" tag="L">(*to)       bîn-î-m-ît</item>
+    <item id="c3" line="11876" tag="G">2SG         see-PST-1SG.A-2SG</item>
+    <item id="c4" line="11877" tag="T">I saw you</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c2[0:22]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:29]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c4[0:9]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i116061">
+  <metadata type="xigt-meta">
+    <meta type="language" name="sorani" iso-639-3="ckb" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3667" line-range="11878-11881" line-types="L G T M+AC"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="11878" tag="L">       b. (*min)      bîn-î-t-im</item>
+    <item id="o2" line="11879" tag="G">          1SG         see-PST-2SG.A-1SG</item>
+    <item id="o3" line="11880" tag="T">            `You saw me'</item>
+    <item id="o4" line="11881" tag="M+AC">                                                                   (Mariwan Kanie)</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="11878" tag="L">(*min)      bîn-î-t-im</item>
+    <item id="c2" line="11879" tag="G">1SG         see-PST-2SG.A-1SG</item>
+    <item id="c3" line="11880" tag="T">You saw me</item>
+    <item id="c4" line="11881" tag="M+AC">Mariwan Kanie</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:22]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:29]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:10]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i116062">
+  <metadata type="xigt-meta">
+    <meta type="language" name="sorani" iso-639-3="ckb" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3667" line-range="11922-11926" line-types="M+LN L+CR L+CR G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="11922" tag="M+LN">  (8') Sorani:</item>
+    <item id="o2" line="11923" tag="L+CR">             (min) (*to)   bîn-î-m-ît</item>
+    <item id="o3" line="11924" tag="L+CR">        a.</item>
+    <item id="o4" line="11925" tag="G">              1SG 2SG      see-PST-1SG.A-2SG</item>
+    <item id="o5" line="11926" tag="T">             `I saw you'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="11922" tag="M+LN">Sorani:</item>
+    <item id="c2" line="11923 11924" tag="L+CR">(min) (*to)   bîn-î-m-ît</item>
+    <item id="c4" line="11925" tag="G">1SG 2SG      see-PST-1SG.A-2SG</item>
+    <item id="c5" line="11926" tag="T">I saw you</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c2[0:24]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c4[0:30]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c5[0:9]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i116063">
+  <metadata type="xigt-meta">
+    <meta type="language" name="sorani" iso-639-3="ckb" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3667" line-range="11927-11931" line-types="L+CR L+CR G T M+AC"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="11927" tag="L+CR">             (to)   (*min) bîn-î-t-im</item>
+    <item id="o2" line="11928" tag="L+CR">        b.</item>
+    <item id="o3" line="11929" tag="G">              2SG   1SG    see-PST-2SG.A-1SG</item>
+    <item id="o4" line="11930" tag="T">                    `You saw me'</item>
+    <item id="o5" line="11931" tag="M+AC">                                                                 (Mariwan Kanie)</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="11927 11928" tag="L+CR">(to)   (*min) bîn-î-t-im</item>
+    <item id="c3" line="11929" tag="G">2SG   1SG    see-PST-2SG.A-1SG</item>
+    <item id="c4" line="11930" tag="T">You saw me</item>
+    <item id="c5" line="11931" tag="M+AC">Mariwan Kanie</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:24]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:30]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c4[0:10]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i149775">
+  <metadata type="xigt-meta">
+    <meta type="language" name="sorani" iso-639-3="ckb" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3448" line-range="761-761" line-types="L-T+AC"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="761" tag="L-T+AC">       In se zan `These Three Women' (novel) , F. Behnud, p. 65.</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="761" tag="L-T+AC">In se zan `These Three Women' (novel) , F. Behnud, p. 65.</item>
+  </tier>
+</igt>
+<igt id="i149776">
+  <metadata type="xigt-meta">
+    <meta type="language" name="sorani" iso-639-3="ckb" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3448" line-range="763-763" line-types="L-T+AC"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="763" tag="L-T+AC">       yek ruz mânde be eyd-e pâk `One day before Easter' (novel), Z. Pirzâd, p.80</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="763" tag="L-T+AC">yek ruz mânde be eyd-e pâk `One day before Easter' (novel), Z. Pirzâd, p.80</item>
+  </tier>
+</igt>
+<igt id="i149801">
+  <metadata type="xigt-meta">
+    <meta type="language" name="sorani" iso-639-3="ckb" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3448" line-range="1095-1097" line-types="L G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="1095" tag="L">       (57) kiras-eke-y     nermîn</item>
+    <item id="o2" line="1096" tag="G">           robe-DEF-EZ      Nermin</item>
+    <item id="o3" line="1097" tag="T">           `Narmin's dress'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="1095" tag="L">kiras-eke-y     nermîn</item>
+    <item id="c2" line="1096" tag="G">robe-DEF-EZ      Nermin</item>
+    <item id="c3" line="1097" tag="T">Narmin's dress</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:22]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:23]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:14]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i149802">
+  <metadata type="xigt-meta">
+    <meta type="language" name="sorani" iso-639-3="ckb" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3448" line-range="1102-1103" line-types="L T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="1102" tag="L">       (58) kiras-êk-î       sindress-   IND-EZ   blue</item>
+    <item id="o2" line="1103" tag="T">           `A blue dress'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="1102" tag="L">kiras-êk-î       sindress-IND-EZ   blue</item>
+    <item id="c2" line="1103" tag="T">A blue dress</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:39]"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c2[0:12]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i149851">
+  <metadata type="xigt-meta">
+    <meta type="language" name="sorani" iso-639-3="ckb" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3448" line-range="1805-1806" line-types="L+AC T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="1805" tag="L+AC">      (87) a.      b-ew dû pûl-e-y ko-m kird-i-bo-we e-jî-n                     [Bassols 1992: §86]</item>
+    <item id="o2" line="1806" tag="T">                   `We are living thanks to the little money I managed to save'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="1805" tag="L+AC">b-ew dû pûl-e-y ko-m kird-i-bo-we e-jî-n                     [Bassols 1992: §86]</item>
+    <item id="c2" line="1806" tag="T">We are living thanks to the little money I managed to save</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:80]"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c2[0:58]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i149852">
+  <metadata type="xigt-meta">
+    <meta type="language" name="sorani" iso-639-3="ckb" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3448" line-range="1808-1809" line-types="L+AC T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="1808" tag="L+AC">          b.       be gujm-u-gur-êk-ewe ke hîç le le-î lawaz-î çaweruwan (...) [Bassols 1992: §104]</item>
+    <item id="o2" line="1809" tag="T">                   `with such a force and energy that nothing in his slim body (...) '</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="1808" tag="L+AC">be gujm-u-gur-êk-ewe ke hîç le le-î lawaz-î çaweruwan (...) [Bassols 1992: §104]</item>
+    <item id="c2" line="1809" tag="T">with such a force and energy that nothing in his slim body (...)</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:80]"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c2[0:64]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i149853">
+  <metadata type="xigt-meta">
+    <meta type="language" name="sorani" iso-639-3="ckb" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3448" line-range="1826-1828" line-types="L G T+DB"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="1826" tag="L">      (89) a.      * ketâb-i-s</item>
+    <item id="o2" line="1827" tag="G">                   book-INDEF-PAF.3.SG</item>
+    <item id="o3" line="1828" tag="T+DB">                   (putatively) `one of his/her books' or `a book of him/her'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="1826" tag="L">* ketâb-i-s</item>
+    <item id="c2" line="1827" tag="G">book-INDEF-PAF.3.SG</item>
+    <item id="c3" line="1828" tag="T+DB">(putatively) `one of his/her books' or `a book of him/her</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:11]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:19]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:57]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i149854">
+  <metadata type="xigt-meta">
+    <meta type="language" name="sorani" iso-639-3="ckb" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3448" line-range="1833-1834" line-types="L G"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="1833" tag="L">          b.       * ketâb-es-i</item>
+    <item id="o2" line="1834" tag="G">                   book-PAF.3.    SG-INDEF</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="1833" tag="L">* ketâb-es-i</item>
+    <item id="c2" line="1834" tag="G">book-PAF.3.    SG-INDEF</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:12]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:23]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i149855">
+  <metadata type="xigt-meta">
+    <meta type="language" name="sorani" iso-639-3="ckb" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3448" line-range="1842-1845" line-types="L G+CR G+CR T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="1842" tag="L">      (90) * barâdar-e       moqim-e           kesvar-e           durdast-i-s</item>
+    <item id="o2" line="1843" tag="G+CR">          brother-EZ         resident-EZ       country            far-INDEF-P        . 3.</item>
+    <item id="o3" line="1844" tag="G+CR">                                                                                AF          SG</item>
+    <item id="o4" line="1845" tag="T">          (to say: `his brother who is resident of a country far away')</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="1842" tag="L">* barâdar-e       moqim-e           kesvar-e           durdast-i-s</item>
+    <item id="c2" line="1843 1844" tag="G+CR">brother-EZ         resident-EZ       country            far-INDEF-P   AF   . 3.   SG</item>
+    <item id="c4" line="1845" tag="T">`his brother who is resident of a country far away</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:66]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:84]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c4[0:50]" alignment="p1"/>
+  </tier>
+</igt>
+</xigt-corpus>

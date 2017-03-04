@@ -1,0 +1,1137 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xigt-corpus>
+<igt id="i11891">
+  <metadata type="xigt-meta">
+    <meta type="language" name="bambara" iso-639-3="bam" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="2487" line-range="13338-13342" line-types="M+LN L+CR L+CR G+CR T+CR"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="13338" tag="M+LN">  (19)        Bambara:</item>
+    <item id="o2" line="13339" tag="L+CR">           a. O    ye     lak` ye.</item>
+    <item id="o3" line="13340" tag="L+CR">                             oli</item>
+    <item id="o4" line="13341" tag="G+CR">              that COP scho ol COP</item>
+    <item id="o5" line="13342" tag="T+CR">              `That is the scho ol.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="13338" tag="M+LN">Bambara:</item>
+    <item id="c2" line="13339" tag="L+CR">O    ye     lak` ye.</item>
+    <item id="c4" line="13341" tag="G+CR">that COP scho ol COP</item>
+    <item id="c5" line="13342" tag="T+CR">That is the scho ol.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c2[0:20]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c4[0:20]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c5[0:20]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i11892">
+  <metadata type="xigt-meta">
+    <meta type="language" name="bambara" iso-639-3="bam" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="2487" line-range="13343-13346" line-types="L+CR L+CR G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="13343" tag="L+CR">           b. N't` o</item>
+    <item id="o2" line="13344" tag="L+CR">                 og`     ye      Camara.</item>
+    <item id="o3" line="13345" tag="G">              my-name COP Camara</item>
+    <item id="o4" line="13346" tag="T">              `My name is Camara.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="13343" tag="L+CR">N't` o</item>
+    <item id="c3" line="13345" tag="G">my-name COP Camara</item>
+    <item id="c4" line="13346" tag="T">My name is Camara.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:6]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:18]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c4[0:18]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i11893">
+  <metadata type="xigt-meta">
+    <meta type="language" name="bambara" iso-639-3="bam" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="2487" line-range="13347-13352" line-types="L+CR L+CR L+CR G+CR G+CR T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="13347" tag="L+CR">           c. N't` o</item>
+    <item id="o2" line="13348" tag="L+CR">                 og`     Fatumata Kon´</item>
+    <item id="o3" line="13349" tag="L+CR">                                     e.</item>
+    <item id="o4" line="13350" tag="G+CR">              my-name Fatumata Kon´</item>
+    <item id="o5" line="13351" tag="G+CR">                                  e</item>
+    <item id="o6" line="13352" tag="T">              `My name is Fatumata Kone.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="13347 13349" tag="L+CR">N't` o                 e.</item>
+    <item id="c4" line="13350" tag="G+CR">my-name Fatumata Kon´</item>
+    <item id="c6" line="13352" tag="T">My name is Fatumata Kone.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:25]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c4[0:21]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c6[0:25]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i11894">
+  <metadata type="xigt-meta">
+    <meta type="language" name="bambara" iso-639-3="bam" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="2487" line-range="13353-13356" line-types="L+CR L+CR G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="13353" tag="L+CR">           d. Jiri ka    k´ o.</item>
+    <item id="o2" line="13354" tag="L+CR">                          or´</item>
+    <item id="o3" line="13355" tag="G">              tree COP tall</item>
+    <item id="o4" line="13356" tag="T">              `The tree is tall.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="13353" tag="L+CR">Jiri ka    k´ o.</item>
+    <item id="c3" line="13355" tag="G">tree COP tall</item>
+    <item id="c4" line="13356" tag="T">The tree is tall.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:16]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:13]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c4[0:17]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i11895">
+  <metadata type="xigt-meta">
+    <meta type="language" name="bambara" iso-639-3="bam" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="2487" line-range="13370-13373" line-types="L+CR L+CR G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="13370" tag="L+CR">          e. Mobili b`</item>
+    <item id="o2" line="13371" tag="L+CR">                     e      yan.</item>
+    <item id="o3" line="13372" tag="G">             Car      COP here</item>
+    <item id="o4" line="13373" tag="T">             `The car is here.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="13370" tag="L+CR">Mobili b</item>
+    <item id="c3" line="13372" tag="G">Car      COP here</item>
+    <item id="c4" line="13373" tag="T">The car is here.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:8]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:17]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c4[0:16]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i17830">
+  <metadata type="xigt-meta">
+    <meta type="language" name="bambara" iso-639-3="bam" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="1597" line-range="75-79" line-types="M+LN+EX L M G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="75" tag="M+LN+EX">           Bambara (Niger-Congo; Mali) (with relativizer):</item>
+    <item id="o2" line="76" tag="L">           (9)         ty ye [ne ye so      m` ye] san</item>
+    <item id="o3" line="77" tag="M">                                              in</item>
+    <item id="o4" line="78" tag="G">                       man pst I pst horse rel see] buy</item>
+    <item id="o5" line="79" tag="T">                       `The man bought the horse that I saw</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="75" tag="M+LN+EX">Bambara (Niger-Congo; Mali) (with relativizer):</item>
+    <item id="c2" line="76" tag="L">ty ye [ne ye so      m` ye] san</item>
+    <item id="c3" line="77" tag="M">in</item>
+    <item id="c4" line="78" tag="G">man pst I pst horse rel see] buy</item>
+    <item id="c5" line="79" tag="T">The man bought the horse that I saw</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c2[0:31]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c4[0:32]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c5[0:35]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i38432">
+  <metadata type="xigt-meta">
+    <meta type="language" name="bambara" iso-639-3="bam" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="1180" line-range="154-156" line-types="L+LN G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="154" tag="L+LN">        (ii)     wùlú    yé démis ´           `ki                                        Bambara</item>
+    <item id="o2" line="155" tag="G">                 dog     PERF child           bite</item>
+    <item id="o3" line="156" tag="T">                 `The dog bit the child.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="154" tag="L+LN">wùlú    yé démis ´           `ki                                        Bambara</item>
+    <item id="c2" line="155" tag="G">dog     PERF child           bite</item>
+    <item id="c3" line="156" tag="T">The dog bit the child.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:79]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:33]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:22]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i41703">
+  <metadata type="xigt-meta">
+    <meta type="language" name="bamana" iso-639-3="bam" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3503" line-range="152-155" line-types="M+AC+LN L G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="152" tag="M+AC+LN">  (3) Bamana (Mande,   Vydrine     forthcoming)</item>
+    <item id="o2" line="153" tag="L">        Nànga ní         à         mùsó`        bìla-lá å¢g¡n        ná</item>
+    <item id="o3" line="154" tag="G">       Nzanga and        his       wife.ART lean-PUNC RECP           upon</item>
+    <item id="o4" line="155" tag="T">         `Nzanga and   his wife   insulted each other'.</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="152" tag="M+AC+LN">Bamana (Mande,   Vydrine     forthcoming</item>
+    <item id="c2" line="153" tag="L">Nànga ní         à         mùsó`        bìla-lá å¢g¡n        ná</item>
+    <item id="c3" line="154" tag="G">Nzanga and        his       wife.ART lean-PUNC RECP           upon</item>
+    <item id="c4" line="155" tag="T">Nzanga and   his wife   insulted each other'.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c2[0:63]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:66]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c4[0:45]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i42696">
+  <metadata type="xigt-meta">
+    <meta type="language" name="bambara" iso-639-3="bam" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3499" line-range="226-231" line-types="M+LN L G+CR G+CR T M+AC"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="226" tag="M+LN">  (35) Bambara (y r /í)</item>
+    <item id="o2" line="227" tag="L">       a. màsake y r [yé ù fò]</item>
+    <item id="o3" line="228" tag="G+CR">          king           welcomed.them</item>
+    <item id="o4" line="229" tag="G+CR">                    INT</item>
+    <item id="o5" line="230" tag="T">          `The king himself welcomed them.'</item>
+    <item id="o6" line="231" tag="M+AC">          Kastenholz (1998: 118)</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="226" tag="M+LN">Bambara (y r /í</item>
+    <item id="c2" line="227" tag="L">màsake y r [yé ù fò]</item>
+    <item id="c3" line="228 229" tag="G+CR">king      INT  welcomed.them</item>
+    <item id="c5" line="230" tag="T">The king himself welcomed them.</item>
+    <item id="c6" line="231" tag="M+AC">Kastenholz (1998: 118)</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c2[0:20]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:28]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c5[0:31]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i42697">
+  <metadata type="xigt-meta">
+    <meta type="language" name="bambara" iso-639-3="bam" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3499" line-range="232-235" line-types="L G T M+AC"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="232" tag="L">       b. à yé      ì   sìgi</item>
+    <item id="o2" line="233" tag="G">          he PAST REFL sit.down</item>
+    <item id="o3" line="234" tag="T">          `He sat (himself) down.'</item>
+    <item id="o4" line="235" tag="M+AC">          Kastenholz (1998: 118)</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="232" tag="L">à yé      ì   sìgi</item>
+    <item id="c2" line="233" tag="G">he PAST REFL sit.down</item>
+    <item id="c3" line="234" tag="T">He sat (himself) down.</item>
+    <item id="c4" line="235" tag="M+AC">Kastenholz (1998: 118)</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:18]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:21]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:22]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i42704">
+  <metadata type="xigt-meta">
+    <meta type="language" name="bambara" iso-639-3="bam" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3499" line-range="366-370" line-types="M+LN L G+CR G+CR T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="366" tag="M+LN">  (44) Bambara</item>
+    <item id="o2" line="367" tag="L">       [màsake y ]NP yé           ù     fò</item>
+    <item id="o3" line="368" tag="G+CR">        king              PAST them     talk.to</item>
+    <item id="o4" line="369" tag="G+CR">                INT</item>
+    <item id="o5" line="370" tag="T">       `The king himself talked to them.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="366" tag="M+LN">Bambara</item>
+    <item id="c2" line="367" tag="L">[màsake y ]NP yé           ù     fò</item>
+    <item id="c3" line="368 369" tag="G+CR">king    INT       PAST them     talk.to</item>
+    <item id="c5" line="370" tag="T">The king himself talked to them.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c2[0:35]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:39]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c5[0:32]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i68838">
+  <metadata type="xigt-meta">
+    <meta type="language" name="sikasso" iso-639-3="bam" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3086" line-range="534-538" line-types="L+CR L+AC+CR G+CR G+CR T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="534" tag="L+CR">                                           sí õ-kàrè Sukwoo</item>
+    <item id="o2" line="535" tag="L+AC+CR">  b.      Mu     bárà     mìì na, wùù          `                na                 (Carlson 1994:268)</item>
+    <item id="o3" line="536" tag="G+CR">                                           FUT FUT-go Sikasso   at</item>
+    <item id="o4" line="537" tag="G+CR">          you    add      me on we</item>
+    <item id="o5" line="538" tag="T">          `You and I, we will go to Sikasso.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="534" tag="L+CR">sí õ-kàrè Sukwoo</item>
+    <item id="c3" line="536 537" tag="G+CR">you    add      me on we         FUT FUT-go Sikasso   at</item>
+    <item id="c5" line="538" tag="T">You and I, we will go to Sikasso.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:16]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:56]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c5[0:33]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i80391">
+  <metadata type="xigt-meta">
+    <meta type="language" name="bambara" iso-639-3="bam" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="1636" line-range="844-848" line-types="L+AC+LN B G B T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="844" tag="L+AC+LN">  (27)     À té           jége       sàn.     (Bambara; Anschütz 1989: 48)</item>
+    <item id="o2" line="845" tag="B"></item>
+    <item id="o3" line="846" tag="G">           3S NEG.IMPERF      fish      buy</item>
+    <item id="o4" line="847" tag="B"></item>
+    <item id="o5" line="848" tag="T">           "S/he isn't buying fish.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="844" tag="L+AC+LN">À té           jége       sàn.     (Bambara; Anschütz 1989: 48</item>
+    <item id="c2" line="845" tag="B"/>
+    <item id="c3" line="846" tag="G">3S NEG.IMPERF      fish      buy</item>
+    <item id="c4" line="847" tag="B"/>
+    <item id="c5" line="848" tag="T">S/he isn't buying fish.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:62]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:32]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c5[0:23]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i80392">
+  <metadata type="xigt-meta">
+    <meta type="language" name="bambara" iso-639-3="bam" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="1636" line-range="894-900" line-types="L+AC+CR+SY L+CR B G+AC G B T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="894" tag="L+AC+CR+SY">             [IP À [I' bé [VP tA jége         sàn         tjege] ] ] ]        (Anschütz 1989: 48; structure from</item>
+    <item id="o2" line="895" tag="L+CR">  (29)</item>
+    <item id="o3" line="896" tag="B"></item>
+    <item id="o4" line="897" tag="G+AC">                                     fish           buy                              Koopman 1992: 558)</item>
+    <item id="o5" line="898" tag="G">               3S           IMPERF</item>
+    <item id="o6" line="899" tag="B"></item>
+    <item id="o7" line="900" tag="T">             `S/he is buying a fish."</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="894 895" tag="L+AC+CR+SY">[IP À [I' bé [VP tA jége         sàn         tjege] ] ] ]        (Anschütz 1989: 48; structure from</item>
+    <item id="c3" line="896" tag="B"/>
+    <item id="c4" line="897" tag="G+AC">fish           buy                              Koopman 1992: 558)</item>
+    <item id="c5" line="898" tag="G">3S           IMPERF</item>
+    <item id="c6" line="899" tag="B"/>
+    <item id="c7" line="900" tag="T">S/he is buying a fish.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:99]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c4[0:66]" alignment="p1"/>
+    <item id="g1" content="c5[0:19]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c7[0:22]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i80393">
+  <metadata type="xigt-meta">
+    <meta type="language" name="bambara" iso-639-3="bam" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="1636" line-range="910-916" line-types="L+CR+SY L+CR B B G B T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="910" tag="L+CR+SY">  (30) (=27) [IP À [I' té [VP tA         jége       sàn         t          ]]]]</item>
+    <item id="o2" line="911" tag="L+CR">                                                                    jege</item>
+    <item id="o3" line="912" tag="B"></item>
+    <item id="o4" line="913" tag="B"></item>
+    <item id="o5" line="914" tag="G">                 3S         NEG.MPERF    fish             buy</item>
+    <item id="o6" line="915" tag="B"></item>
+    <item id="o7" line="916" tag="T">               `S/he is not buying a fish.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="910" tag="L+CR+SY">(=27) [IP À [I' té [VP tA         jége       sàn         t          ]]]]</item>
+    <item id="c3" line="912" tag="B"/>
+    <item id="c4" line="913" tag="B"/>
+    <item id="c5" line="914" tag="G">3S         NEG.MPERF    fish             buy</item>
+    <item id="c6" line="915" tag="B"/>
+    <item id="c7" line="916" tag="T">S/he is not buying a fish.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:72]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c5[0:44]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c7[0:26]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i80394">
+  <metadata type="xigt-meta">
+    <meta type="language" name="bambara" iso-639-3="bam" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="1636" line-range="951-956" line-types="L B G+CR G+CR B T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="951" tag="L">  (33)   a. Siisewo      ye      kiloo laa.</item>
+    <item id="o2" line="952" tag="B"></item>
+    <item id="o3" line="953" tag="G+CR">                                 egg      lay</item>
+    <item id="o4" line="954" tag="G+CR">             chicken     INFL</item>
+    <item id="o5" line="955" tag="B"></item>
+    <item id="o6" line="956" tag="T">             `The chicken laid an egg.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="951" tag="L">Siisewo      ye      kiloo laa.</item>
+    <item id="c2" line="952" tag="B"/>
+    <item id="c3" line="953 954" tag="G+CR">chicken     INFL    egg      lay</item>
+    <item id="c5" line="955" tag="B"/>
+    <item id="c6" line="956" tag="T">The chicken laid an egg.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:31]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:32]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c6[0:24]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i80395">
+  <metadata type="xigt-meta">
+    <meta type="language" name="bambara" iso-639-3="bam" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="1636" line-range="958-962" line-types="L B G B T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="958" tag="L">         b. Siisewo      man           kiloo laa.</item>
+    <item id="o2" line="959" tag="B"></item>
+    <item id="o3" line="960" tag="G">             chicken     INFL.NEG egg           lay</item>
+    <item id="o4" line="961" tag="B"></item>
+    <item id="o5" line="962" tag="T">             `The chicken didn't lay an egg.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="958" tag="L">Siisewo      man           kiloo laa.</item>
+    <item id="c2" line="959" tag="B"/>
+    <item id="c3" line="960" tag="G">chicken     INFL.NEG egg           lay</item>
+    <item id="c4" line="961" tag="B"/>
+    <item id="c5" line="962" tag="T">The chicken didn't lay an egg.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:37]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:38]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c5[0:30]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i80396">
+  <metadata type="xigt-meta">
+    <meta type="language" name="bambara" iso-639-3="bam" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="1636" line-range="964-968" line-types="L B G B T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="964" tag="L">  (34)   a. Asi       taa suu.</item>
+    <item id="o2" line="965" tag="B"></item>
+    <item id="o3" line="966" tag="G">             he INFL     go home</item>
+    <item id="o4" line="967" tag="B"></item>
+    <item id="o5" line="968" tag="T">             `He is to go home.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="964" tag="L">Asi       taa suu.</item>
+    <item id="c2" line="965" tag="B"/>
+    <item id="c3" line="966" tag="G">he INFL     go home</item>
+    <item id="c4" line="967" tag="B"/>
+    <item id="c5" line="968" tag="T">He is to go home.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:18]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:19]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c5[0:17]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i80397">
+  <metadata type="xigt-meta">
+    <meta type="language" name="bambara" iso-639-3="bam" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="1636" line-range="970-974" line-types="L B G B T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="970" tag="L">         b. Akana        taa suu.</item>
+    <item id="o2" line="971" tag="B"></item>
+    <item id="o3" line="972" tag="G">             he INFL.NEG go home</item>
+    <item id="o4" line="973" tag="B"></item>
+    <item id="o5" line="974" tag="T">             `He isn't to go home.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="970" tag="L">Akana        taa suu.</item>
+    <item id="c2" line="971" tag="B"/>
+    <item id="c3" line="972" tag="G">he INFL.NEG go home</item>
+    <item id="c4" line="973" tag="B"/>
+    <item id="c5" line="974" tag="T">He isn't to go home.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:21]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:19]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c5[0:20]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i84336">
+  <metadata type="xigt-meta">
+    <meta type="language" name="bambara" iso-639-3="bam" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3627" line-range="3331-3334" line-types="L+CR L+CR G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="3331" tag="L+CR">                        tyè m^èn ye, oè</item>
+    <item id="o2" line="3332" tag="L+CR">           (16) ne ye                        beè f^èn^è      feère</item>
+    <item id="o3" line="3333" tag="G">               [I COMPL mani RELi saw] DEM3i IMPF cloth(DEF) sell5</item>
+    <item id="o4" line="3334" tag="T">                `the man that I saw (, he) sells the cloth'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="3331 3332" tag="L+CR">ne ye   tyè m^èn ye, oè   beè f^èn^è      feère</item>
+    <item id="c3" line="3333" tag="G">[I COMPL mani RELi saw] DEM3i IMPF cloth(DEF) sell5</item>
+    <item id="c4" line="3334" tag="T">the man that I saw (, he) sells the cloth</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:47]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:51]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c4[0:41]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i89483">
+  <metadata type="xigt-meta">
+    <meta type="language" name="bambara" iso-639-3="bam" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="647" line-range="98-102" line-types="L+CR L+CR G+CR G+CR T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="98" tag="L+CR">           fíñE     E      tásuma jíidi</item>
+    <item id="o2" line="99" tag="L+CR">  (2)         ´    b´</item>
+    <item id="o3" line="100" tag="G+CR">                           fire      increase</item>
+    <item id="o4" line="101" tag="G+CR">           wind     IPF</item>
+    <item id="o5" line="102" tag="T">           `The   wind    makes the fire flare up.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="98" tag="L+CR">fíñE     E      tásuma jíidi</item>
+    <item id="c3" line="100 101" tag="G+CR">wind     IPF    fire      increase</item>
+    <item id="c5" line="102" tag="T">The   wind    makes the fire flare up.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:28]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:34]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c5[0:38]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i89495">
+  <metadata type="xigt-meta">
+    <meta type="language" name="bambara" iso-639-3="bam" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="647" line-range="367-370" line-types="L+CR L+CR G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="367" tag="L+CR">                   E             OO</item>
+    <item id="o2" line="368" tag="L+CR">  (13)      à    b´ só          k´ n´</item>
+    <item id="o3" line="369" tag="G">            3ps COP house Pp_inside</item>
+    <item id="o4" line="370" tag="T">            `He is inside the house.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="367" tag="L+CR">E             OO</item>
+    <item id="c3" line="369" tag="G">3ps COP house Pp_inside</item>
+    <item id="c4" line="370" tag="T">He is inside the house.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:16]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:23]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c4[0:23]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i89496">
+  <metadata type="xigt-meta">
+    <meta type="language" name="bambara" iso-639-3="bam" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="647" line-range="371-375" line-types="L+CR L+CR L+CR G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="371" tag="L+CR">            m` gO b´ b´ yàn</item>
+    <item id="o2" line="372" tag="L+CR">              O       EE E</item>
+    <item id="o3" line="373" tag="L+CR">  (14)</item>
+    <item id="o4" line="374" tag="G">            people all COP here</item>
+    <item id="o5" line="375" tag="T">            `All people are here.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="371 373" tag="L+CR">m` gO b´ b´ yàn</item>
+    <item id="c4" line="374" tag="G">people all COP here</item>
+    <item id="c5" line="375" tag="T">All people are here.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:15]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c4[0:19]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c5[0:20]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i89497">
+  <metadata type="xigt-meta">
+    <meta type="language" name="bambara" iso-639-3="bam" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="647" line-range="405-408" line-types="L+CR L+CR G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="405" tag="L+CR">                     E</item>
+    <item id="o2" line="406" tag="L+CR">  (15)      dàbali b´         à yé</item>
+    <item id="o3" line="407" tag="G">            means COP 3ps Pp BEN</item>
+    <item id="o4" line="408" tag="T">            `He has means, he can manage.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="405" tag="L+CR">E</item>
+    <item id="c3" line="407" tag="G">means COP 3ps Pp BEN</item>
+    <item id="c4" line="408" tag="T">He has means, he can manage.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:1]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:20]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c4[0:28]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i89498">
+  <metadata type="xigt-meta">
+    <meta type="language" name="bambara" iso-639-3="bam" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="647" line-range="409-413" line-types="L+CR L+CR L+CR G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="409" tag="L+CR">            n´ nE b´</item>
+    <item id="o2" line="410" tag="L+CR">              E       E</item>
+    <item id="o3" line="411" tag="L+CR">  (16)</item>
+    <item id="o4" line="412" tag="G">            chill COP</item>
+    <item id="o5" line="413" tag="T">            `It is cold.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="409 411" tag="L+CR">n´ nE b´</item>
+    <item id="c4" line="412" tag="G">chill COP</item>
+    <item id="c5" line="413" tag="T">It is cold.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:8]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c4[0:9]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c5[0:11]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i89499">
+  <metadata type="xigt-meta">
+    <meta type="language" name="bambara" iso-639-3="bam" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="647" line-range="414-418" line-types="L+CR L+CR L+CR G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="414" tag="L+CR">            n´ nE b´ bì</item>
+    <item id="o2" line="415" tag="L+CR">              E       E</item>
+    <item id="o3" line="416" tag="L+CR">  (17)</item>
+    <item id="o4" line="417" tag="G">            chill COP today</item>
+    <item id="o5" line="418" tag="T">            `It is cold today.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="414 416" tag="L+CR">n´ nE b´ bì</item>
+    <item id="c4" line="417" tag="G">chill COP today</item>
+    <item id="c5" line="418" tag="T">It is cold today.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:11]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c4[0:15]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c5[0:17]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i89500">
+  <metadata type="xigt-meta">
+    <meta type="language" name="bambara" iso-639-3="bam" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="647" line-range="419-423" line-types="L+CR L+CR L+CR G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="419" tag="L+CR">                  E</item>
+    <item id="o2" line="420" tag="L+CR">                b´ dì?</item>
+    <item id="o3" line="421" tag="L+CR">  (18)      à</item>
+    <item id="o4" line="422" tag="G">            3ps COP how?</item>
+    <item id="o5" line="423" tag="T">            `How is it?.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="419 421" tag="L+CR">à    E</item>
+    <item id="c4" line="422" tag="G">3ps COP how?</item>
+    <item id="c5" line="423" tag="T">How is it?.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:6]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c4[0:12]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c5[0:11]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i89507">
+  <metadata type="xigt-meta">
+    <meta type="language" name="bambara" iso-639-3="bam" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="647" line-range="644-647" line-types="L+CR L+CR G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="644" tag="L+CR">                                 mìnE à       ñín ná</item>
+    <item id="o2" line="645" tag="L+CR">  (25)     wùlu yé gáfe</item>
+    <item id="o3" line="646" tag="G">           dog PFV booklet seize 3ps tooth Pp</item>
+    <item id="o4" line="647" tag="T">           `The dog seized the booklet with its teeth.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="644 645" tag="L+CR">wùlu yé gáfe       mìnE à       ñín ná</item>
+    <item id="c3" line="646" tag="G">dog PFV booklet seize 3ps tooth Pp</item>
+    <item id="c4" line="647" tag="T">The dog seized the booklet with its teeth.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:38]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:34]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c4[0:42]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i89508">
+  <metadata type="xigt-meta">
+    <meta type="language" name="bambara" iso-639-3="bam" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="647" line-range="648-652" line-types="L+CR L+CR L+CR G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="648" tag="L+CR">           né y` rE bánge.ra</item>
+    <item id="o2" line="649" tag="L+CR">                 E</item>
+    <item id="o3" line="650" tag="L+CR">  (26)                                Sán</item>
+    <item id="o4" line="651" tag="G">           1ps self be_born.PFV San</item>
+    <item id="o5" line="652" tag="T">           `I myself was born in San.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="648 649 650" tag="L+CR">né y`ErE bánge.ra        Sán</item>
+    <item id="c4" line="651" tag="G">1ps self be_born.PFV San</item>
+    <item id="c5" line="652" tag="T">I myself was born in San.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:28]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c4[0:24]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c5[0:25]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i89509">
+  <metadata type="xigt-meta">
+    <meta type="language" name="bambara" iso-639-3="bam" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="647" line-range="653-657" line-types="L+CR L+CR L+CR G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="653" tag="L+CR">                                     mìnE à       ñín ná</item>
+    <item id="o2" line="654" tag="L+CR">                           gáfe</item>
+    <item id="o3" line="655" tag="L+CR">  (27)     wùlu má</item>
+    <item id="o4" line="656" tag="G">           dog PFVneg booklet seize 3ps tooth Pp</item>
+    <item id="o5" line="657" tag="T">           `The dog did not seize the booklet with its teeth.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="653 654 655" tag="L+CR">wùlu má       gáfe     mìnE à       ñín ná</item>
+    <item id="c4" line="656" tag="G">dog PFVneg booklet seize 3ps tooth Pp</item>
+    <item id="c5" line="657" tag="T">The dog did not seize the booklet with its teeth.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:42]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c4[0:37]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c5[0:49]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i89510">
+  <metadata type="xigt-meta">
+    <meta type="language" name="bambara" iso-639-3="bam" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="647" line-range="658-662" line-types="L+CR L+CR L+CR G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="658" tag="L+CR">           né y` rE má</item>
+    <item id="o2" line="659" tag="L+CR">                 E</item>
+    <item id="o3" line="660" tag="L+CR">  (28)                          bánge Sán</item>
+    <item id="o4" line="661" tag="G">           1ps self PFVneg be_born San</item>
+    <item id="o5" line="662" tag="T">           `I myself was not born in San.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="658 659 660" tag="L+CR">né y`ErE má        bánge Sán</item>
+    <item id="c4" line="661" tag="G">1ps self PFVneg be_born San</item>
+    <item id="c5" line="662" tag="T">I myself was not born in San.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:28]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c4[0:27]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c5[0:29]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i99830">
+  <metadata type="xigt-meta">
+    <meta type="language" name="bambara" iso-639-3="bam" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="2463" line-range="843-850" line-types="L+CR L+CR G+CR G+CR L+LN G+CR G+CR T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="843" tag="L+CR">                                     mìn ye, ò be</item>
+    <item id="o2" line="844" tag="L+CR">      (37) n ye                 ty</item>
+    <item id="o3" line="845" tag="G+CR">                                man REL see] D3 IMPERF</item>
+    <item id="o4" line="846" tag="G+CR">           [I COMPL</item>
+    <item id="o5" line="847" tag="L+LN">           fìnì                fère                           [Bambara]</item>
+    <item id="o6" line="848" tag="G+CR">                               sell</item>
+    <item id="o7" line="849" tag="G+CR">           cloth:DEF</item>
+    <item id="o8" line="850" tag="T">           `The man who       I saw was selling the cloth.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="843 844" tag="L+CR">n ye                 ty   mìn ye, ò be</item>
+    <item id="c3" line="845 846" tag="G+CR">[I COMPL             man REL see] D3 IMPERF</item>
+    <item id="c5" line="847" tag="L+LN">fìnì                fère                           [Bambara]</item>
+    <item id="c6" line="848 849" tag="G+CR">cloth:DEF           sell</item>
+    <item id="c8" line="850" tag="T">The man who       I saw was selling the cloth.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:38]"/>
+    <item id="p1" content="c5[0:60]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:43]" alignment="p1"/>
+    <item id="g1" content="c6[0:24]" alignment="p2"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c8[0:46]" alignment="p2"/>
+  </tier>
+</igt>
+<igt id="i113617">
+  <metadata type="xigt-meta">
+    <meta type="language" name="bambara" iso-639-3="bam" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3387" line-range="143-145" line-types="L+LN G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="143" tag="L+LN">        (ii)     wùl?   y?démis ?        `ki                                    Bambara</item>
+    <item id="o2" line="144" tag="G">                 dog     PERF child         bite</item>
+    <item id="o3" line="145" tag="T">                 `The dog bit the child.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="143" tag="L+LN">wùl?   y?démis ?        `ki                                    Bambara</item>
+    <item id="c2" line="144" tag="G">dog     PERF child         bite</item>
+    <item id="c3" line="145" tag="T">The dog bit the child.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:70]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:31]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:22]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i116422">
+  <metadata type="xigt-meta">
+    <meta type="language" name="bambara" iso-639-3="bam" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3642" line-range="11739-11741" line-types="L G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="11739" tag="L">  (i)    a.       U    ye       a      san</item>
+    <item id="o2" line="11740" tag="G">                  they PAST it         buy</item>
+    <item id="o3" line="11741" tag="T">                  `They bought it'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="11739" tag="L">U    ye       a      san</item>
+    <item id="c2" line="11740" tag="G">they PAST it         buy</item>
+    <item id="c3" line="11741" tag="T">They bought it</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:24]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:24]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:14]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i116423">
+  <metadata type="xigt-meta">
+    <meta type="language" name="bambara" iso-639-3="bam" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3642" line-range="11745-11747" line-types="L G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="11745" tag="L">         b.   U    boli­la</item>
+    <item id="o2" line="11746" tag="G">              they walk­PAST</item>
+    <item id="o3" line="11747" tag="T">              `They walked'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="11745" tag="L">U    boli­la</item>
+    <item id="c2" line="11746" tag="G">they walk­PAST</item>
+    <item id="c3" line="11747" tag="T">They walked</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:12]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:14]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:11]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i139465">
+  <metadata type="xigt-meta">
+    <meta type="language" name="bambara" iso-639-3="bam" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="2136" line-range="366-368" line-types="L G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="366" tag="L">  a) A kasi-ra.</item>
+    <item id="o2" line="367" tag="G">     he cried</item>
+    <item id="o3" line="368" tag="T">      "He cried."</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="366" tag="L">A kasi-ra.</item>
+    <item id="c2" line="367" tag="G">he cried</item>
+    <item id="c3" line="368" tag="T">He cried.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:10]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:8]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:9]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i139466">
+  <metadata type="xigt-meta">
+    <meta type="language" name="bambara" iso-639-3="bam" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="2136" line-range="370-372" line-types="L G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="370" tag="L">  b) A kaa-ra.</item>
+    <item id="o2" line="371" tag="G">     she went</item>
+    <item id="o3" line="372" tag="T">      "She went."</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="370" tag="L">A kaa-ra.</item>
+    <item id="c2" line="371" tag="G">she went</item>
+    <item id="c3" line="372" tag="T">She went.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:9]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:8]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:9]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i139467">
+  <metadata type="xigt-meta">
+    <meta type="language" name="bambara" iso-639-3="bam" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="2136" line-range="374-377" line-types="L G+CR G+CR T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="374" tag="L">  c) Den          ye      ji            min.</item>
+    <item id="o2" line="375" tag="G+CR">     child                water         drink</item>
+    <item id="o3" line="376" tag="G+CR">                  PAST</item>
+    <item id="o4" line="377" tag="T">      "The child drank water."</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="374" tag="L">Den          ye      ji            min.</item>
+    <item id="c2" line="375 376" tag="G+CR">child        PAST    water         drink</item>
+    <item id="c4" line="377" tag="T">The child drank water.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:39]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:40]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c4[0:22]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i139468">
+  <metadata type="xigt-meta">
+    <meta type="language" name="bambara" iso-639-3="bam" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="2136" line-range="379-381" line-types="L G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="379" tag="L">  d) N son-na a ma.</item>
+    <item id="o2" line="380" tag="G">     I agreed it to</item>
+    <item id="o3" line="381" tag="T">      "I agreed to it."</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="379" tag="L">N son-na a ma.</item>
+    <item id="c2" line="380" tag="G">I agreed it to</item>
+    <item id="c3" line="381" tag="T">I agreed to it.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:14]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:14]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:15]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i151223">
+  <metadata type="xigt-meta">
+    <meta type="language" name="bambara" iso-639-3="bam" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="2419" line-range="409-412" line-types="L+CR L+CR G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="409" tag="L+CR">        (20) c¸ ye muru san n ye min ye</item>
+    <item id="o2" line="410" tag="L+CR">              e</item>
+    <item id="o3" line="411" tag="G">             man past knife buy I past rel see</item>
+    <item id="o4" line="412" tag="T">             `the man bought the knife, the one that I saw'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="409" tag="L+CR">c¸ ye muru san n ye min ye</item>
+    <item id="c3" line="411" tag="G">man past knife buy I past rel see</item>
+    <item id="c4" line="412" tag="T">the man bought the knife, the one that I saw</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:26]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:33]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c4[0:44]" alignment="p1"/>
+  </tier>
+</igt>
+</xigt-corpus>

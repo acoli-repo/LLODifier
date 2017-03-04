@@ -1,0 +1,2503 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xigt-corpus>
+<igt id="i14775">
+  <metadata type="xigt-meta">
+    <meta type="language" name="western armenian" iso-639-3="hye" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3606" line-range="975-977" line-types="L G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="975" tag="L">  8      a.     ayt baderzm-i-n me¸c hink zinvor ¥sbann-ve-c-av</item>
+    <item id="o2" line="976" tag="G">                that battle-GEN-THE in 5      soldiers kill-PASS -AOR-3S</item>
+    <item id="o3" line="977" tag="T">                "In that battle were killed 5 soldiers."</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="975" tag="L">8      a.     ayt baderzm-i-n me¸c hink zinvor ¥sbann-ve-c-av</item>
+    <item id="c2" line="976" tag="G">that battle-GEN-THE in 5      soldiers kill-PASS-AOR-3S</item>
+    <item id="c3" line="977" tag="T">In that battle were killed 5 soldiers.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:61]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:55]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:38]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i14776">
+  <metadata type="xigt-meta">
+    <meta type="language" name="western armenian" iso-639-3="hye" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3606" line-range="979-981" line-types="L G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="979" tag="L">         b.     k¥san usano± k¥nuten-e-m¥ caso± e-c-av</item>
+    <item id="o2" line="980" tag="G">                twenty sudenttS exam-ABL-a    fail-AOR-3S</item>
+    <item id="o3" line="981" tag="T">                "Twenty students failed an exam."</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="979" tag="L">k¥san usano± k¥nuten-e-m¥ caso± e-c-av</item>
+    <item id="c2" line="980" tag="G">twenty sudenttS exam-ABL-a    fail-AOR-3S</item>
+    <item id="c3" line="981" tag="T">Twenty students failed an exam.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:38]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:41]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:31]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i14777">
+  <metadata type="xigt-meta">
+    <meta type="language" name="western armenian" iso-639-3="hye" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3606" line-range="987-989" line-types="L G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="987" tag="L">  (9)    a.     ayt baderazm-i-n me¸c hink zinvor-ner ¥sbann-v-ec-an /*-av</item>
+    <item id="o2" line="988" tag="G">                that battle-GEN-the in 5      soldier-P killPASSAOR-3P / -3S</item>
+    <item id="o3" line="989" tag="T">                "In that battle five soldiers were killed."</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="987" tag="L">ayt baderazm-i-n me¸c hink zinvor-ner ¥sbann-v-ec-an /*-av</item>
+    <item id="c2" line="988" tag="G">that battle-GEN-the in 5      soldier-P killPASSAOR-3P /-3S</item>
+    <item id="c3" line="989" tag="T">In that battle five soldiers were killed.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:58]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:59]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:41]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i14778">
+  <metadata type="xigt-meta">
+    <meta type="language" name="western armenian" iso-639-3="hye" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3606" line-range="991-993" line-types="L G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="991" tag="L">         b.     ayt baderazm-i-n me¸c hink zinvor-ner-¥ ¥sbann-ve-c-an /*-av</item>
+    <item id="o2" line="992" tag="G">                that battle-GEN-the in 5       soldier-P-the kill-PASS -AOR-3P / -3S</item>
+    <item id="o3" line="993" tag="T">                "In that battle the five soldiers were killed."</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="991" tag="L">ayt baderazm-i-n me¸c hink zinvor-ner-¥ ¥sbann-ve-c-an /*-av</item>
+    <item id="c2" line="992" tag="G">that battle-GEN-the in 5       soldier-P-the kill-PASS-AOR-3P /-3S</item>
+    <item id="c3" line="993" tag="T">In that battle the five soldiers were killed.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:60]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:66]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:45]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i14779">
+  <metadata type="xigt-meta">
+    <meta type="language" name="western armenian" iso-639-3="hye" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3606" line-range="995-997" line-types="L G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="995" tag="L">  (10)   a.     k¥san usano±-ner-¥ k¥nuten-e-m¥ caso ±e-c-an/*-av</item>
+    <item id="o2" line="996" tag="G">                twenty sudent-P-the exam-ABL-a    fail-AOR -3S / -3S</item>
+    <item id="o3" line="997" tag="T">                "The 20 students failed an exam."</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="995" tag="L">k¥san usano±-ner-¥ k¥nuten-e-m¥ caso ±e-c-an/*-av</item>
+    <item id="c2" line="996" tag="G">twenty sudent-P-the exam-ABL-a    fail-AOR-3S /-3S</item>
+    <item id="c3" line="997" tag="T">The 20 students failed an exam.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:49]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:50]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:31]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i14780">
+  <metadata type="xigt-meta">
+    <meta type="language" name="western armenian" iso-639-3="hye" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3606" line-range="1001-1003" line-types="L G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="1001" tag="L">         b.     k¥san usano±-ner k¥nuten-e-m¥ caxo ±e-c-an/*-av</item>
+    <item id="o2" line="1002" tag="G">                twenty students-P exam-ABL-a  fail-AOR -3P / -3S</item>
+    <item id="o3" line="1003" tag="T">                "20 students failed an exam."</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="1001" tag="L">k¥san usano±-ner k¥nuten-e-m¥ caxo ±e-c-an/*-av</item>
+    <item id="c2" line="1002" tag="G">twenty students-P exam-ABL-a  fail-AOR-3P /-3S</item>
+    <item id="c3" line="1003" tag="T">20 students failed an exam.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:47]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:46]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:27]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i14781">
+  <metadata type="xigt-meta">
+    <meta type="language" name="western armenian" iso-639-3="hye" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3606" line-range="1021-1023" line-types="L G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="1021" tag="L">  (11)   a.     ¸sad hay/#-er ga/-#an hon?</item>
+    <item id="o2" line="1022" tag="G">                 much Armenian-P exist3S/-3P there</item>
+    <item id="o3" line="1023" tag="T">                 "Are there many Armenians there?"</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="1021" tag="L">¸sad hay/#-er ga/-#an hon?</item>
+    <item id="c2" line="1022" tag="G">much Armenian-P exist3S/-3P there</item>
+    <item id="c3" line="1023" tag="T">Are there many Armenians there?</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:26]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:33]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:31]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i14782">
+  <metadata type="xigt-meta">
+    <meta type="language" name="western armenian" iso-639-3="hye" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3606" line-range="1025-1028" line-types="L G T T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="1025" tag="L">         b.     ¸sad    parsga-sdan-en nor yegad hay/-er       gan hon?</item>
+    <item id="o2" line="1026" tag="G">                 much   Iran-ABL-the  new comepart Armenian-P exist3P there</item>
+    <item id="o3" line="1027" tag="T">                "Are    there many Armenians there who have recently arrived</item>
+    <item id="o4" line="1028" tag="T">                from    Iran?"</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="1025" tag="L">¸sad    parsga-sdan-en nor yegad hay/-er       gan hon?</item>
+    <item id="c2" line="1026" tag="G">much   Iran-ABL-the  new comepart Armenian-P exist3P there</item>
+    <item id="c3" line="1027" tag="T">Are    there many Armenians there who have recently arrived</item>
+    <item id="c4" line="1028" tag="T">from    Iran?</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:55]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:58]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:59]" alignment="p1"/>
+    <item id="t1" content="c4[0:13]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i14783">
+  <metadata type="xigt-meta">
+    <meta type="language" name="western armenian" iso-639-3="hye" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3606" line-range="1030-1033" line-types="L M G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="1030" tag="L">  (12)   a.     mer dun-¥ kiser-¥ ut¥ hyur/#-er ge-c- av/-#an</item>
+    <item id="o2" line="1031" tag="M">                                   ¸</item>
+    <item id="o3" line="1032" tag="G">                GEN-1P house-the night-the eight guest-P stay- AOR-3S/-3P</item>
+    <item id="o4" line="1033" tag="T">                "Eight guests stayed overnight at our house."</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="1030" tag="L">mer dun-¥ kiser-¥ ut¥ hyur/#-er ge-c-av/-#an</item>
+    <item id="c2" line="1031" tag="M">¸</item>
+    <item id="c3" line="1032" tag="G">GEN-1P house-the night-the eight guest-P stay-AOR-3S/-3P</item>
+    <item id="c4" line="1033" tag="T">Eight guests stayed overnight at our house.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:44]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:56]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c4[0:43]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i14784">
+  <metadata type="xigt-meta">
+    <meta type="language" name="western armenian" iso-639-3="hye" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3606" line-range="1035-1041" line-types="L+CR L+CR G L G T T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="1035" tag="L+CR">         b.     mer dun-¥ kiser-¥ ut¥ t¥ram ç-une-c-o ±</item>
+    <item id="o2" line="1036" tag="L+CR">                                  ¸                                   hyur/- er</item>
+    <item id="o3" line="1037" tag="G">                GEN-P house-the night-the eight money NEG-have-AOR-REL guest-P</item>
+    <item id="o4" line="1038" tag="L">                ge-c-an /-av</item>
+    <item id="o5" line="1039" tag="G">                stay-aor-3P/-3S</item>
+    <item id="o6" line="1040" tag="T">                "Eight guests who had no money stayed overnight at our</item>
+    <item id="o7" line="1041" tag="T">                house."</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="1035" tag="L+CR">mer dun-¥ kiser-¥ ut¥ t¥ram ç-une-c-o ±</item>
+    <item id="c3" line="1037" tag="G">GEN-P house-the night-the eight money NEG-have-AOR-REL guest-P</item>
+    <item id="c4" line="1038" tag="L">ge-c-an /-av</item>
+    <item id="c5" line="1039" tag="G">stay-aor-3P/-3S</item>
+    <item id="c6" line="1040" tag="T">Eight guests who had no money stayed overnight at our</item>
+    <item id="c7" line="1041" tag="T">house.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:39]"/>
+    <item id="p1" content="c4[0:12]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:62]" alignment="p1"/>
+    <item id="g1" content="c5[0:15]" alignment="p2"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c6[0:53]" alignment="p2"/>
+    <item id="t1" content="c7[0:6]" alignment="p2"/>
+  </tier>
+</igt>
+<igt id="i22995">
+  <metadata type="xigt-meta">
+    <meta type="language" name="armenian" iso-639-3="hye" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="1241" line-range="1398-1399" line-types="L G-T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="1398" tag="L">          bazmnt'eamb zarauk'n Hayoc</item>
+    <item id="o2" line="1399" tag="G-T">          mass.INST troops.INST Armenian           `with the mass of Armenian troops'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="1398" tag="L">bazmnt'eamb zarauk'n Hayoc</item>
+    <item id="c2" line="1399" tag="G-T">mass.INST troops.INST Armenian           `with the mass of Armenian troops</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:26]"/>
+  </tier>
+</igt>
+<igt id="i26804">
+  <metadata type="xigt-meta">
+    <meta type="language" name="armenian" iso-639-3="hye" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3861" line-range="1201-1203" line-types="L G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="1201" tag="L">   (12)     yergu had hovanoc uni-m</item>
+    <item id="o2" line="1202" tag="G">            two Cl umbrella have-1s</item>
+    <item id="o3" line="1203" tag="T">            `I have two umbrellas'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="1201" tag="L">yergu had hovanoc uni-m</item>
+    <item id="c2" line="1202" tag="G">two Cl umbrella have-1s</item>
+    <item id="c3" line="1203" tag="T">I have two umbrellas</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:23]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:23]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:20]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i26805">
+  <metadata type="xigt-meta">
+    <meta type="language" name="armenian" iso-639-3="hye" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3861" line-range="1241-1243" line-types="L G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="1241" tag="L">   (14)   yergu hovanoc-ner uni-m</item>
+    <item id="o2" line="1242" tag="G">          two umbrella-pl have-1sg.</item>
+    <item id="o3" line="1243" tag="T">          `I have two umbrellas'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="1241" tag="L">yergu hovanoc-ner uni-m</item>
+    <item id="c2" line="1242" tag="G">two umbrella-pl have-1sg.</item>
+    <item id="c3" line="1243" tag="T">I have two umbrellas</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:23]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:25]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:20]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i28189">
+  <metadata type="xigt-meta">
+    <meta type="language" name="eastern armenian" iso-639-3="hye" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="874" line-range="32-34" line-types="L+LN G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="32" tag="L+LN">  (2)        Ara-n       yerex-in       p'at'uhan-e        bats-el     t'v-ets                           (Eastern Armenian)</item>
+    <item id="o2" line="33" tag="G">             Ara-Nom child-Dat          window-Acc         open-Inf    give-Aor.3sg</item>
+    <item id="o3" line="34" tag="T">             `Ara made the child open the window.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="32" tag="L+LN">Ara-n       yerex-in       p'at'uhan-e        bats-el     t'v-ets                           (Eastern Armenian</item>
+    <item id="c2" line="33" tag="G">Ara-Nom child-Dat          window-Acc         open-Inf    give-Aor.3sg</item>
+    <item id="c3" line="34" tag="T">Ara made the child open the window.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:109]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:70]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:35]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i28190">
+  <metadata type="xigt-meta">
+    <meta type="language" name="eastern armenian" iso-639-3="hye" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="874" line-range="74-76" line-types="L G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="74" tag="L">  (3)       a. shor-er-e              chor-an-um           en</item>
+    <item id="o2" line="75" tag="G">               dress-pl-Nom           dry-Inch-Imp         be-3pl</item>
+    <item id="o3" line="76" tag="T">               `The clothes are drying.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="74" tag="L">shor-er-e              chor-an-um           en</item>
+    <item id="c2" line="75" tag="G">dress-pl-Nom           dry-Inch-Imp         be-3pl</item>
+    <item id="c3" line="76" tag="T">The clothes are drying.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:46]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:50]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:23]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i28191">
+  <metadata type="xigt-meta">
+    <meta type="language" name="eastern armenian" iso-639-3="hye" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="874" line-range="77-79" line-types="L+CN G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="77" tag="L+CN">            b. Nairi-n      shor-er-e                chor-atsn-um             e                              (MC)</item>
+    <item id="o2" line="78" tag="G">               Nairi-Nom         dress-pl-Acc        dry-Caus-Imp             be-3sg</item>
+    <item id="o3" line="79" tag="T">              `Nairi is drying the clothes.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="77" tag="L+CN">Nairi-n      shor-er-e                chor-atsn-um             e                              (MC)</item>
+    <item id="c2" line="78" tag="G">Nairi-Nom         dress-pl-Acc        dry-Caus-Imp             be-3sg</item>
+    <item id="c3" line="79" tag="T">Nairi is drying the clothes.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:98]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:69]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:28]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i28192">
+  <metadata type="xigt-meta">
+    <meta type="language" name="eastern armenian" iso-639-3="hye" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="874" line-range="81-83" line-types="L G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="81" tag="L">  (4)       a. yerexa-n            p'at'uhan-e         bats-ets</item>
+    <item id="o2" line="82" tag="G">              child-Nom            window-Acc          open-Aor.3sg</item>
+    <item id="o3" line="83" tag="T">               `The child opened the window.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="81" tag="L">yerexa-n            p'at'uhan-e         bats-ets</item>
+    <item id="c2" line="82" tag="G">child-Nom            window-Acc          open-Aor.3sg</item>
+    <item id="c3" line="83" tag="T">The child opened the window.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:48]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:53]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:28]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i28193">
+  <metadata type="xigt-meta">
+    <meta type="language" name="eastern armenian" iso-639-3="hye" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="874" line-range="84-86" line-types="L+CN G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="84" tag="L+CN">            b.       yerex-in      p'at'uhan-e             bats-el      t'v-ets-i                            (AC)</item>
+    <item id="o2" line="85" tag="G">              pro    child-Dat          window-Acc         open-Inf    give-Aor-1sg</item>
+    <item id="o3" line="86" tag="T">              `I made the child open the window.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="84" tag="L+CN">yerex-in      p'at'uhan-e             bats-el      t'v-ets-i                            (AC)</item>
+    <item id="c2" line="85" tag="G">pro    child-Dat          window-Acc         open-Inf    give-Aor-1sg</item>
+    <item id="c3" line="86" tag="T">I made the child open the window.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:92]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:69]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:33]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i28194">
+  <metadata type="xigt-meta">
+    <meta type="language" name="eastern armenian" iso-639-3="hye" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="874" line-range="177-180" line-types="L+CR+SY L+CR+SY G T+SY"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="177" tag="L+CR+SY">  (10)      Vrej-e            Armen-inj [ inkn ir                   t'an            mech]                  handip'ets</item>
+    <item id="o2" line="178" tag="L+CR+SY">                     i                                   i/*j</item>
+    <item id="o3" line="179" tag="G">            Vrej-Nom          Armen-Dat           self-Gen          house-Gen       inside                 met-3sg</item>
+    <item id="o4" line="180" tag="T+SY">            `Vreji met Armenj in his*i/j own home.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="177 178" tag="L+CR+SY">Vrej-e   i        Armen-inj [ inkn ir        i/*j       t'an            mech]                  handip'ets</item>
+    <item id="c3" line="179" tag="G">Vrej-Nom          Armen-Dat           self-Gen          house-Gen       inside                 met-3sg</item>
+    <item id="c4" line="180" tag="T+SY">Vreji met Armenj in his*i/j own home.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:105]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:102]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c4[0:37]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i28195">
+  <metadata type="xigt-meta">
+    <meta type="language" name="eastern armenian" iso-639-3="hye" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="874" line-range="182-186" line-types="L+CR+SY L+CR+SY G T+CR+SY T+CR+SY"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="182" tag="L+CR+SY">  (11)      Vrej-e            uzum           er       [ vor         Armen-e               inkn ir                     das-e             gri]</item>
+    <item id="o2" line="183" tag="L+CR+SY">                     i                                                          j                   *i/j</item>
+    <item id="o3" line="184" tag="G">            Vrej-Nom          wanting        was        that        Armen-Nom             self-Gen                    lesson-Acc        write-Subj/3sg</item>
+    <item id="o4" line="185" tag="T+CR+SY">            `Vreji wanted Armenj to write his                  own lesson.'</item>
+    <item id="o5" line="186" tag="T+CR+SY">                                                        *i/j</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="182 183" tag="L+CR+SY">Vrej-e   i        uzum           er       [ vor         Armen-e     j         inkn ir   *i/j              das-e             gri]</item>
+    <item id="c3" line="184" tag="G">Vrej-Nom          wanting        was        that        Armen-Nom             self-Gen                    lesson-Acc        write-Subj/3sg</item>
+    <item id="c4" line="185 186" tag="T+CR+SY">Vreji wanted Armenj to write his           *i/j   own lesson.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:128]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:138]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c4[0:61]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i28196">
+  <metadata type="xigt-meta">
+    <meta type="language" name="eastern armenian" iso-639-3="hye" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="874" line-range="201-205" line-types="L+CR+SY L+CR+SY G T+CR+SY T+CR+SY"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="201" tag="L+CR+SY">  (12)         ?? Ara-n                yerex-inj          inkn ir                   deq-e                        xm-ets-rets                           (MC)</item>
+    <item id="o2" line="202" tag="L+CR+SY">                             i                                       i/*j</item>
+    <item id="o3" line="203" tag="G">                 Ara-Nom               child-Dat          self-Gen                  medication-Acc              drink-CAUS.Past.3sg</item>
+    <item id="o4" line="204" tag="T+CR+SY">               `Arai made the childj drink hisi              own medication.'</item>
+    <item id="o5" line="205" tag="T+CR+SY">                                                       /*j</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="201 202" tag="L+CR+SY">?? Ara-n      i         yerex-inj          inkn ir    i/*j           deq-e                        xm-ets-rets                           (MC</item>
+    <item id="c3" line="203" tag="G">Ara-Nom               child-Dat          self-Gen                  medication-Acc              drink-CAUS.Past.3sg</item>
+    <item id="c4" line="204 205" tag="T+CR+SY">Arai made the childj drink hisi        /*j   own medication.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:139]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:114]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c4[0:60]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i28197">
+  <metadata type="xigt-meta">
+    <meta type="language" name="eastern armenian" iso-639-3="hye" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="874" line-range="211-215" line-types="L+CR+SY L+CR+SY G T+CR+SY T+CR+SY"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="211" tag="L+CR+SY">  (13)         ? Ara-n                 yerex-inj          inkn ir                     senyak'-e                dasavorel       t'vets                  (AC)</item>
+    <item id="o2" line="212" tag="L+CR+SY">                         i                                           *i/j</item>
+    <item id="o3" line="213" tag="G">                 Ara-Nom               child-Dat          self-Gen                    room-Acc                  organize       gave.3sg</item>
+    <item id="o4" line="214" tag="T+CR+SY">               `Arai made the childj clean up his                   own room.'</item>
+    <item id="o5" line="215" tag="T+CR+SY">                                                             *i/j</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="211 212" tag="L+CR+SY">? Ara-n   i             yerex-inj          inkn ir    *i/j             senyak'-e                dasavorel       t'vets                  (AC</item>
+    <item id="c3" line="213" tag="G">Ara-Nom               child-Dat          self-Gen                    room-Acc                  organize       gave.3sg</item>
+    <item id="c4" line="214 215" tag="T+CR+SY">Arai made the childj clean up his            *i/j   own room.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:139]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:118]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c4[0:61]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i28198">
+  <metadata type="xigt-meta">
+    <meta type="language" name="eastern armenian" iso-639-3="hye" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="874" line-range="227-231" line-types="L+CR+SY G+CR+SY G T+CR+SY T+CR+SY"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="227" tag="L+CR+SY">  (14)         tzaqratzu-n                  Ara-inj          [ inkn ir                      k'uk'la-y-ov]                  tzitzaq-ats-rets</item>
+    <item id="o2" line="228" tag="G+CR+SY">                                 i                                           i/*j</item>
+    <item id="o3" line="229" tag="G">               clown-Nom                    Ara-Dat             self-Gen                    doll-Inst                      laug-CAUS-Aor.3sg</item>
+    <item id="o4" line="230" tag="T+CR+SY">               `The clowni made Araj laugh with hisi                       own doll.'</item>
+    <item id="o5" line="231" tag="T+CR+SY">                                                                     /*j</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="227 228" tag="L+CR+SY+G">tzaqratzu-n       i          Ara-inj          [ inkn ir       i/*j           k'uk'la-y-ov]                  tzitzaq-ats-rets</item>
+    <item id="c3" line="229" tag="G">clown-Nom                    Ara-Dat             self-Gen                    doll-Inst                      laug-CAUS-Aor.3sg</item>
+    <item id="c4" line="230 231" tag="T+CR+SY">The clowni made Araj laugh with hisi                 /*j   own doll.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:124]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:125]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c4[0:68]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i28199">
+  <metadata type="xigt-meta">
+    <meta type="language" name="eastern armenian" iso-639-3="hye" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="874" line-range="233-237" line-types="L+CR+SY G+CR+SY G T+CR+SY T+CR+SY"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="233" tag="L+CR+SY">  (15)         pRofesor-e                ashak'ert'-inj              [ inkn ir                        heRat'esil-ov ]          ast'qer-e      nayel    t'vets</item>
+    <item id="o2" line="234" tag="G+CR+SY">                                 i                                                  ??i/j</item>
+    <item id="o3" line="235" tag="G">               professor-Nom             student-Dat                       self-Gen                   binocular-Inst           stars-Acc      watch    gave.3sg</item>
+    <item id="o4" line="236" tag="T+CR+SY">               `The professori made the studentj watch the stars with his                                    own telescope.'</item>
+    <item id="o5" line="237" tag="T+CR+SY">                                                                                                     ??i/j</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="233 234" tag="L+CR+SY+G">pRofesor-e        i       ashak'ert'-inj              [ inkn ir      ??i/j             heRat'esil-ov ]          ast'qer-e      nayel    t'vets</item>
+    <item id="c3" line="235" tag="G">professor-Nom             student-Dat                       self-Gen                   binocular-Inst           stars-Acc      watch    gave.3sg</item>
+    <item id="c4" line="236 237" tag="T+CR+SY">The professori made the studentj watch the stars with his                            ??i/j   own telescope.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:142]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:144]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c4[0:107]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i28200">
+  <metadata type="xigt-meta">
+    <meta type="language" name="eastern armenian" iso-639-3="hye" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="874" line-range="254-257" line-types="L G T T+AL"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="254" tag="L">  (16)         Ara-n                 Nairi-in      vst'ah                  xos-ets-rets                                                         (MC)</item>
+    <item id="o2" line="255" tag="G">               Ara-Nom               Nairi-Dat     confident               speak-Caus-Past/3sg</item>
+    <item id="o3" line="256" tag="T">                    (i) `With confidence, Ara made Nairi speak.' (i.e., Ara was confident, not Nairi)</item>
+    <item id="o4" line="257" tag="T+AL">                    (ii) `Ara certainly made Nairi speak.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="254" tag="L">Ara-n                 Nairi-in      vst'ah                  xos-ets-rets                                                         (MC</item>
+    <item id="c2" line="255" tag="G">Ara-Nom               Nairi-Dat     confident               speak-Caus-Past/3sg</item>
+    <item id="c3" line="256" tag="T">`With confidence, Ara made Nairi speak.' (i.e., Ara was confident, not Nairi</item>
+    <item id="c4" line="257" tag="T+AL">`Ara certainly made Nairi speak.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:132]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:79]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:76]" alignment="p1"/>
+    <item id="t1" content="c4[0:32]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i28201">
+  <metadata type="xigt-meta">
+    <meta type="language" name="eastern armenian" iso-639-3="hye" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="874" line-range="259-269" line-types="L B M M B B M M G T T+AL"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="259" tag="L">  (17)         Ara-n                 Nairi-in      vst'ah                  xos-el             t'vets                                            (AC)</item>
+    <item id="o2" line="260" tag="B"></item>
+    <item id="o3" line="261" tag="M">         2. vst'ah can also be interpreted as a sentential adverb in which case it means `certainly' or `surely'; that interpretation is available</item>
+    <item id="o4" line="262" tag="M">            in both morphological and analytic causatives. Moreover, vst'ah is also an adjective meaning `confident'.</item>
+    <item id="o5" line="263" tag="B"></item>
+    <item id="o6" line="264" tag="B"></item>
+    <item id="o7" line="265" tag="M">                                                                                            Page 4</item>
+    <item id="o8" line="266" tag="M"></item>
+    <item id="o9" line="267" tag="G">            Ara-Nom          Nairi-Dat         confident        speak-Inf        gave-3sg</item>
+    <item id="o10" line="268" tag="T">                   (i) `Ara made Nairi speak with confidence.' (i.e., Nairi was confident, not Ara)</item>
+    <item id="o11" line="269" tag="T+AL">                   (ii) `Ara certainly made Nairi speak.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="259" tag="L">Ara-n                 Nairi-in      vst'ah                  xos-el             t'vets                                            (AC</item>
+    <item id="c2" line="260" tag="B"/>
+    <item id="c3" line="261" tag="M">vst'ah can also be interpreted as a sentential adverb in which case it means `certainly' or `surely'; that interpretation is available</item>
+    <item id="c4" line="262" tag="M">in both morphological and analytic causatives. Moreover, vst'ah is also an adjective meaning `confident'.</item>
+    <item id="c5" line="263" tag="B"/>
+    <item id="c6" line="264" tag="B"/>
+    <item id="c7" line="265" tag="M">Page 4</item>
+    <item id="c8" line="266" tag="M"/>
+    <item id="c9" line="267" tag="G">Ara-Nom          Nairi-Dat         confident        speak-Inf        gave-3sg</item>
+    <item id="c10" line="268" tag="T">`Ara made Nairi speak with confidence.' (i.e., Nairi was confident, not Ara</item>
+    <item id="c11" line="269" tag="T+AL">`Ara certainly made Nairi speak.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:132]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c9[0:77]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c10[0:75]" alignment="p1"/>
+    <item id="t1" content="c11[0:32]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i28202">
+  <metadata type="xigt-meta">
+    <meta type="language" name="eastern armenian" iso-639-3="hye" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="874" line-range="288-290" line-types="L+CN G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="288" tag="L+CN">  (18)      a. zinvor-e             ashak'ert'-in            mekena-yi           m ech            mt'-ts-rets                          (MC)</item>
+    <item id="o2" line="289" tag="G">                 soldier-Nom        student-Dat              car-Gen             inside           enter-Caus-Past/3sg</item>
+    <item id="o3" line="290" tag="T">               `The soldier pushed the student in the car.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="288" tag="L+CN">a. zinvor-e             ashak'ert'-in            mekena-yi           m ech            mt'-ts-rets                          (MC</item>
+    <item id="c2" line="289" tag="G">soldier-Nom        student-Dat              car-Gen             inside           enter-Caus-Past/3sg</item>
+    <item id="c3" line="290" tag="T">The soldier pushed the student in the car.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:126]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:100]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:42]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i28203">
+  <metadata type="xigt-meta">
+    <meta type="language" name="eastern armenian" iso-639-3="hye" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="874" line-range="291-293" line-types="L+CN G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="291" tag="L+CN">            b. zinvor-e       ashak'ert'-in         mekena-yi                    m ech            mt'nel        t'vets                 (AC)</item>
+    <item id="o2" line="292" tag="G">                 soldier-Nom        student-Dat              car-Gen             inside           enter         gave</item>
+    <item id="o3" line="293" tag="T">                 `The soldier made the student enter the car.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="291" tag="L+CN">zinvor-e       ashak'ert'-in         mekena-yi                    m ech            mt'nel        t'vets                 (AC)</item>
+    <item id="c2" line="292" tag="G">soldier-Nom        student-Dat              car-Gen             inside           enter         gave</item>
+    <item id="c3" line="293" tag="T">The soldier made the student enter the car.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:124]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:99]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:43]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i28204">
+  <metadata type="xigt-meta">
+    <meta type="language" name="eastern armenian" iso-639-3="hye" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="874" line-range="295-297" line-types="L+CN G+SY T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="295" tag="L+CN">  (19)      a.            Naira-in         hey               pt't'-ats-rank               minchev            vor         enk'av        (MC)</item>
+    <item id="o2" line="296" tag="G+SY">                 pro      Naira-Dat        continually       turn-Caus-Past/1pl           until              that        fell-3sg</item>
+    <item id="o3" line="297" tag="T">                 `We kept turning/rotating Naira until she fell.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="295" tag="L+CN">a.            Naira-in         hey               pt't'-ats-rank               minchev            vor         enk'av        (MC</item>
+    <item id="c2" line="296" tag="G+SY">pro      Naira-Dat        continually       turn-Caus-Past/1pl           until              that        fell-3sg</item>
+    <item id="c3" line="297" tag="T">We kept turning/rotating Naira until she fell.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:126]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:112]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:46]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i28205">
+  <metadata type="xigt-meta">
+    <meta type="language" name="eastern armenian" iso-639-3="hye" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="874" line-range="298-300" line-types="L+CN G+SY T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="298" tag="L+CN">            b.         Naira-in      hey          pt't'-el        t'vank                  minchev            vor         enk'av        (AC)</item>
+    <item id="o2" line="299" tag="G+SY">                 pro    Naira-Dat        continually       turn-Inf         gave-1pl      until              that        fell-3sg</item>
+    <item id="o3" line="300" tag="T">                 `We made Naira turn until she fell.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="298" tag="L+CN">Naira-in      hey          pt't'-el        t'vank                  minchev            vor         enk'av        (AC)</item>
+    <item id="c2" line="299" tag="G+SY">pro    Naira-Dat        continually       turn-Inf         gave-1pl      until              that        fell-3sg</item>
+    <item id="c3" line="300" tag="T">We made Naira turn until she fell.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:116]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:112]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:34]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i28206">
+  <metadata type="xigt-meta">
+    <meta type="language" name="eastern armenian" iso-639-3="hye" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="874" line-range="302-304" line-types="L+CN+CR G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="302" tag="L+CN+CR">  (20)      a. m en k          Ara-in             lav        xm-ats-rank                                                               (MC)</item>
+    <item id="o2" line="303" tag="G">                  we           Ara-Dat            good       drink-Caus-Aor/1pl</item>
+    <item id="o3" line="304" tag="T">              `We made Ara drink a lot (i.e., we made Ara get drunk).'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="302" tag="L+CN+CR">a. m en k          Ara-in             lav        xm-ats-rank                                                               (MC</item>
+    <item id="c2" line="303" tag="G">we           Ara-Dat            good       drink-Caus-Aor/1pl</item>
+    <item id="c3" line="304" tag="T">We made Ara drink a lot (i.e., we made Ara get drunk).</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:126]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:61]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:54]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i28207">
+  <metadata type="xigt-meta">
+    <meta type="language" name="eastern armenian" iso-639-3="hye" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="874" line-range="305-307" line-types="L+CN G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="305" tag="L+CN">            b. menk      Ara-in         lav       xm-el        t'vank                                                                  (AC)</item>
+    <item id="o2" line="306" tag="G">                  we           Ara-Dat            good       drink-Inf         gave-1pl</item>
+    <item id="o3" line="307" tag="T">                 `We made Ara drink a lot.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="305" tag="L+CN">menk      Ara-in         lav       xm-el        t'vank                                                                  (AC)</item>
+    <item id="c2" line="306" tag="G">we           Ara-Dat            good       drink-Inf         gave-1pl</item>
+    <item id="c3" line="307" tag="T">We made Ara drink a lot.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:124]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:69]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:24]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i28208">
+  <metadata type="xigt-meta">
+    <meta type="language" name="eastern armenian" iso-639-3="hye" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="874" line-range="312-314" line-types="L+CN G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="312" tag="L+CN">  (21)      a. yerexa-n             k'uk'la-in           mt'-ts-rets               t'an                    m ech                    (MC)</item>
+    <item id="o2" line="313" tag="G">                 child-Nom          doll-Dat             enter-Caus-Past/3sg       house(Gen)              inside</item>
+    <item id="o3" line="314" tag="T">               `The child pushed the doll into the house.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="312" tag="L+CN">a. yerexa-n             k'uk'la-in           mt'-ts-rets               t'an                    m ech                    (MC</item>
+    <item id="c2" line="313" tag="G">child-Nom          doll-Dat             enter-Caus-Past/3sg       house(Gen)              inside</item>
+    <item id="c3" line="314" tag="T">The child pushed the doll into the house.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:123]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:96]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:41]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i28209">
+  <metadata type="xigt-meta">
+    <meta type="language" name="eastern armenian" iso-639-3="hye" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="874" line-range="315-317" line-types="L+CN G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="315" tag="L+CN">            b. ?* yerexa-n         k'uk'la-in       t'an                         m ech            mt'nel        t'vets              (AC)</item>
+    <item id="o2" line="316" tag="G">                   child-Nom             doll-Dat            house(Gen)          inside           enter         gave</item>
+    <item id="o3" line="317" tag="T">                 `The child made the doll enter the house.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="315" tag="L+CN">?* yerexa-n         k'uk'la-in       t'an                         m ech            mt'nel        t'vets              (AC)</item>
+    <item id="c2" line="316" tag="G">child-Nom             doll-Dat            house(Gen)          inside           enter         gave</item>
+    <item id="c3" line="317" tag="T">The child made the doll enter the house.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:121]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:97]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:40]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i28210">
+  <metadata type="xigt-meta">
+    <meta type="language" name="eastern armenian" iso-639-3="hye" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="874" line-range="355-358" line-types="L G T T+AL"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="355" tag="L">  (23)      a. Ara-n            tRchun-in        tR-ts-rets</item>
+    <item id="o2" line="356" tag="G">               Ara-Nom          bird-Dat         fly-Caus-Past/3sg</item>
+    <item id="o3" line="357" tag="T">                (i) `Ara made the bird fly.'</item>
+    <item id="o4" line="358" tag="T+AL">                (ii) `Ara stole the bird.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="355" tag="L">Ara-n            tRchun-in        tR-ts-rets</item>
+    <item id="c2" line="356" tag="G">Ara-Nom          bird-Dat         fly-Caus-Past/3sg</item>
+    <item id="c3" line="357" tag="T">`Ara made the bird fly.</item>
+    <item id="c4" line="358" tag="T+AL">`Ara stole the bird.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:44]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:51]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:23]" alignment="p1"/>
+    <item id="t1" content="c4[0:20]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i28211">
+  <metadata type="xigt-meta">
+    <meta type="language" name="eastern armenian" iso-639-3="hye" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="874" line-range="359-362" line-types="L G+CR T T+AL"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="359" tag="L">            b. Ara-n         tRchun-in       tRnel        t'vets</item>
+    <item id="o2" line="360" tag="G+CR">               Ara-Nom          bird-Dat         fl y     gave</item>
+    <item id="o3" line="361" tag="T">                 (i) `Ara made the bird fly.'</item>
+    <item id="o4" line="362" tag="T+AL">                 (ii) * `Ara stole the bird.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="359" tag="L">Ara-n         tRchun-in       tRnel        t'vets</item>
+    <item id="c2" line="360" tag="G+CR">Ara-Nom          bird-Dat         fl y     gave</item>
+    <item id="c3" line="361" tag="T">`Ara made the bird fly.</item>
+    <item id="c4" line="362" tag="T+AL">* `Ara stole the bird.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:49]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:47]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:23]" alignment="p1"/>
+    <item id="t1" content="c4[0:22]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i28212">
+  <metadata type="xigt-meta">
+    <meta type="language" name="eastern armenian" iso-639-3="hye" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="874" line-range="381-383" line-types="L+CN G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="381" tag="L+CN">  (24)      bjishk'-e             bandark'yal-in          k'amats          nst'-ats-rets                            (MC)</item>
+    <item id="o2" line="382" tag="G">            doctor-Nom            prisoner-Dat            slow             sit-Caus-Past/3sg</item>
+    <item id="o3" line="383" tag="T">            `The doctor sat the prisoner down slowly.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="381" tag="L+CN">bjishk'-e             bandark'yal-in          k'amats          nst'-ats-rets                            (MC</item>
+    <item id="c2" line="382" tag="G">doctor-Nom            prisoner-Dat            slow             sit-Caus-Past/3sg</item>
+    <item id="c3" line="383" tag="T">The doctor sat the prisoner down slowly.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:107]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:80]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:40]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i28213">
+  <metadata type="xigt-meta">
+    <meta type="language" name="eastern armenian" iso-639-3="hye" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="874" line-range="389-392" line-types="L+CN G T T+AL"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="389" tag="L+CN">  (25)      bjishk'-e          bandark'yal-in                k'amats         nst'-el             t'v-ets                               (AC)</item>
+    <item id="o2" line="390" tag="G">            doctor-Nom         prisoner-Dat                  slow            sit-Inf             gave.3sg</item>
+    <item id="o3" line="391" tag="T">                 (i) `The doctor slowly/quietly made the prisoner sit down.'</item>
+    <item id="o4" line="392" tag="T+AL">                 (ii) `The doctor made the prisoner sit down slowly.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="389" tag="L+CN">bjishk'-e          bandark'yal-in                k'amats         nst'-el             t'v-ets                               (AC</item>
+    <item id="c2" line="390" tag="G">doctor-Nom         prisoner-Dat                  slow            sit-Inf             gave.3sg</item>
+    <item id="c3" line="391" tag="T">`The doctor slowly/quietly made the prisoner sit down.</item>
+    <item id="c4" line="392" tag="T+AL">`The doctor made the prisoner sit down slowly.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:126]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:93]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:54]" alignment="p1"/>
+    <item id="t1" content="c4[0:46]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i28214">
+  <metadata type="xigt-meta">
+    <meta type="language" name="eastern armenian" iso-639-3="hye" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="874" line-range="399-401" line-types="L+CN G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="399" tag="L+CN">  (26)      yes ashak'ert'-ner-in       ays      girk-e        k'art-al t'vetsi, bayts deR mi t'oq              el        ch-en      k'artatsel   (AC)</item>
+    <item id="o2" line="400" tag="G">            I      student-Plur-Dat     this     book-Acc      read-Inf      gave      but     yet one line     even Neg-are read</item>
+    <item id="o3" line="401" tag="T">            `I made the students read this book, but they haven't yet read a single line.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="399" tag="L+CN">yes ashak'ert'-ner-in       ays      girk-e        k'art-al t'vetsi, bayts deR mi t'oq              el        ch-en      k'artatsel   (AC</item>
+    <item id="c2" line="400" tag="G">I      student-Plur-Dat     this     book-Acc      read-Inf      gave      but     yet one line     even Neg-are read</item>
+    <item id="c3" line="401" tag="T">I made the students read this book, but they haven't yet read a single line.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:137]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:117]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:76]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i28215">
+  <metadata type="xigt-meta">
+    <meta type="language" name="eastern armenian" iso-639-3="hye" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="874" line-range="403-405" line-types="L+CN G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="403" tag="L+CN">  (27)       *usutsich-e       Ara-in          ays    girk-e          k'art-ats-rets, bayts deR mi t'oq              el       ch-i     k'artatsel (MC)</item>
+    <item id="o2" line="404" tag="G">            teacher-Nom        Ara-Dat         this   book-Acc        read-Caus-Past     but     yet one line        even     Neg-is     read</item>
+    <item id="o3" line="405" tag="T">            `The teacher made Ara read this book, but he hasn't yet read a single line.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="403" tag="L+CN">*usutsich-e       Ara-in          ays    girk-e          k'art-ats-rets, bayts deR mi t'oq              el       ch-i     k'artatsel (MC</item>
+    <item id="c2" line="404" tag="G">teacher-Nom        Ara-Dat         this   book-Acc        read-Caus-Past     but     yet one line        even     Neg-is     read</item>
+    <item id="c3" line="405" tag="T">The teacher made Ara read this book, but he hasn't yet read a single line.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:136]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:129]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:74]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i28216">
+  <metadata type="xigt-meta">
+    <meta type="language" name="eastern armenian" iso-639-3="hye" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="874" line-range="421-423" line-types="L G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="421" tag="L">  (28)      a. Anush-e      yerex-in           kn-ats-rets</item>
+    <item id="o2" line="422" tag="G">                anush-Nom   child-Dat          sleep-Caus-Past.3sg</item>
+    <item id="o3" line="423" tag="T">               `Anush put the child to sleep.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="421" tag="L">Anush-e      yerex-in           kn-ats-rets</item>
+    <item id="c2" line="422" tag="G">anush-Nom   child-Dat          sleep-Caus-Past.3sg</item>
+    <item id="c3" line="423" tag="T">Anush put the child to sleep.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:43]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:50]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:29]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i28217">
+  <metadata type="xigt-meta">
+    <meta type="language" name="eastern armenian" iso-639-3="hye" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="874" line-range="424-426" line-types="L+CN G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="424" tag="L+CN">            b. * Ara-n      Anush-in       yerex-in                 kn-ats-ats-rets                                                      (MC)</item>
+    <item id="o2" line="425" tag="G">                 Ara-Nom    Anush-Dat          child-Dat            sleep-Caus-Caus-Past.3sg</item>
+    <item id="o3" line="426" tag="T">                 `Ara made Anush put the child to sleep.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="424" tag="L+CN">* Ara-n      Anush-in       yerex-in                 kn-ats-ats-rets                                                      (MC)</item>
+    <item id="c2" line="425" tag="G">Ara-Nom    Anush-Dat          child-Dat            sleep-Caus-Caus-Past.3sg</item>
+    <item id="c3" line="426" tag="T">Ara made Anush put the child to sleep.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:126]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:75]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:38]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i28218">
+  <metadata type="xigt-meta">
+    <meta type="language" name="eastern armenian" iso-639-3="hye" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="874" line-range="427-429" line-types="L+CN+CR G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="427" tag="L+CN+CR">            c . Ar a - n   Anush-in     yerex-in         kn-ats-nel                     t'vets                                           (AC)</item>
+    <item id="o2" line="428" tag="G">                Ara-Nom     Anush-Dat          child-Dat            sleep-Caus-Inf      gave</item>
+    <item id="o3" line="429" tag="T">                `Ara made Anush put the child to sleep.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="427" tag="L+CN+CR">c . Ar a-n   Anush-in     yerex-in         kn-ats-nel                     t'vets                                           (AC)</item>
+    <item id="c2" line="428" tag="G">Ara-Nom     Anush-Dat          child-Dat            sleep-Caus-Inf      gave</item>
+    <item id="c3" line="429" tag="T">Ara made Anush put the child to sleep.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:127]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:76]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:38]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i28219">
+  <metadata type="xigt-meta">
+    <meta type="language" name="eastern armenian" iso-639-3="hye" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="874" line-range="454-456" line-types="L+CN G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="454" tag="L+CN">  (29)      Ara-n      Grikor-in     duR-e           bats-el      t'v-ets                           (AC)</item>
+    <item id="o2" line="455" tag="G">            Ara-Nom    Grigor-Dat    door-Acc        open-Inf     gave.3sg</item>
+    <item id="o3" line="456" tag="T">            `Ara made Grigor open the door.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="454" tag="L+CN">Ara-n      Grikor-in     duR-e           bats-el      t'v-ets                           (AC</item>
+    <item id="c2" line="455" tag="G">Ara-Nom    Grigor-Dat    door-Acc        open-Inf     gave.3sg</item>
+    <item id="c3" line="456" tag="T">Ara made Grigor open the door.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:91]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:62]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:30]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i28220">
+  <metadata type="xigt-meta">
+    <meta type="language" name="eastern armenian" iso-639-3="hye" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="874" line-range="457-459" line-types="L+CN G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="457" tag="L+CN">  (30)      Ara-n     dzeRker-e      chor-ats-rets                                                  (MC)</item>
+    <item id="o2" line="458" tag="G">            Ara-Nom    hands-Acc        dry-Caus-Past.3sg</item>
+    <item id="o3" line="459" tag="T">            `Ara dried his hands.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="457" tag="L+CN">Ara-n     dzeRker-e      chor-ats-rets                                                  (MC</item>
+    <item id="c2" line="458" tag="G">Ara-Nom    hands-Acc        dry-Caus-Past.3sg</item>
+    <item id="c3" line="459" tag="T">Ara dried his hands.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:91]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:45]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:20]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i46129">
+  <metadata type="xigt-meta">
+    <meta type="language" name="armenian" iso-639-3="hye" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="341" line-range="50-53" line-types="M+LN L G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="50" tag="M+LN">  W. Armenian:</item>
+    <item id="o2" line="51" tag="L">          1. (im)        koºtsadz                   tram-s</item>
+    <item id="o3" line="52" tag="G">             1SG-GEN stole-PST/PART                 money-1SG</item>
+    <item id="o4" line="53" tag="T">             `the money I stole'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="50" tag="M+LN">Armenian:</item>
+    <item id="c2" line="51" tag="L">(im)        koºtsadz                   tram-s</item>
+    <item id="c3" line="52" tag="G">1SG-GEN stole-PST/PART                 money-1SG</item>
+    <item id="c4" line="53" tag="T">the money I stole</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c2[0:45]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:48]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c4[0:17]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i46133">
+  <metadata type="xigt-meta">
+    <meta type="language" name="armenian" iso-639-3="hye" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="341" line-range="129-132" line-types="L+CR M+CN+CR G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="129" tag="L+CR">                  girk-s</item>
+    <item id="o2" line="130" tag="M+CN+CR">          5.                                                                  = POSSESSIVE</item>
+    <item id="o3" line="131" tag="G">                  book-1SG</item>
+    <item id="o4" line="132" tag="T">                  `my book'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="129" tag="L+CR">girk-s</item>
+    <item id="c2" line="130" tag="M+CN+CR">= POSSESSIVE</item>
+    <item id="c3" line="131" tag="G">book-1SG</item>
+    <item id="c4" line="132" tag="T">my book</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:6]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:8]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c4[0:7]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i46134">
+  <metadata type="xigt-meta">
+    <meta type="language" name="armenian" iso-639-3="hye" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="341" line-range="134-137" line-types="L+CN+CR M+CR G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="134" tag="L+CN+CR">                  gn-ac'-s                hovanoc-                            = NSR</item>
+    <item id="o2" line="135" tag="M+CR">          6.</item>
+    <item id="o3" line="136" tag="G">                  buy-PST/PART-1SG umbrella-ART</item>
+    <item id="o4" line="137" tag="T">                  `the umbrella I bought'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="134" tag="L+CN+CR">gn-ac'-s                hovanoc-= NSR</item>
+    <item id="c2" line="135" tag="M+CR">6.</item>
+    <item id="c3" line="136" tag="G">buy-PST/PART-1SG umbrella-ART</item>
+    <item id="c4" line="137" tag="T">the umbrella I bought</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:37]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:29]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c4[0:21]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i46135">
+  <metadata type="xigt-meta">
+    <meta type="language" name="western armenian" iso-639-3="hye" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="341" line-range="211-215" line-types="L+CR L+CR G+CR G+CR T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="211" tag="L+CR">                    spann-v-adz kaºak-s</item>
+    <item id="o2" line="212" tag="L+CR">          im</item>
+    <item id="o3" line="213" tag="G+CR">                    kill-PASS-PART city-1SG</item>
+    <item id="o4" line="214" tag="G+CR">          my</item>
+    <item id="o5" line="215" tag="T">          `the city where I was killed'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="211 212" tag="L+CR">im        spann-v-adz kaºak-s</item>
+    <item id="c3" line="213 214" tag="G+CR">my        kill-PASS-PART city-1SG</item>
+    <item id="c5" line="215" tag="T">the city where I was killed</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:29]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:33]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c5[0:27]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i46136">
+  <metadata type="xigt-meta">
+    <meta type="language" name="western armenian" iso-639-3="hye" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="341" line-range="220-224" line-types="M+LN B L+CN G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="220" tag="M+LN">  W. Armenian:</item>
+    <item id="o2" line="221" tag="B"></item>
+    <item id="o3" line="222" tag="L+CN">          1. (im)        koºtsadz                   tram-s                    = NSR</item>
+    <item id="o4" line="223" tag="G">             1SG-GEN stole-PST/PART                 money-1SG</item>
+    <item id="o5" line="224" tag="T">             `the money I stole'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="220" tag="M+LN">Armenian:</item>
+    <item id="c2" line="221" tag="B"/>
+    <item id="c3" line="222" tag="L+CN">(im)        koºtsadz                   tram-s                    = NSR</item>
+    <item id="c4" line="223" tag="G">1SG-GEN stole-PST/PART                 money-1SG</item>
+    <item id="c5" line="224" tag="T">the money I stole</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c3[0:70]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c4[0:48]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c5[0:17]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i46137">
+  <metadata type="xigt-meta">
+    <meta type="language" name="western armenian" iso-639-3="hye" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="341" line-range="225-227" line-types="L+CN G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="225" tag="L+CN">          9. (im)         hin                       navers                    = POSSESSIVE</item>
+    <item id="o2" line="226" tag="G">             my           old                       letter-1SG</item>
+    <item id="o3" line="227" tag="T">             `my old letter'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="225" tag="L+CN">(im)         hin                       navers                    = POSSESSIVE</item>
+    <item id="c2" line="226" tag="G">my           old                       letter-1SG</item>
+    <item id="c3" line="227" tag="T">my old letter</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:77]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:49]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:13]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i46140">
+  <metadata type="xigt-meta">
+    <meta type="language" name="western armenian" iso-639-3="hye" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="341" line-range="528-532" line-types="L+CR L+CR G T T+AL"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="528" tag="L+CR">                             koºtsadz-s</item>
+    <item id="o2" line="529" tag="L+CR">  (16)      (im)</item>
+    <item id="o3" line="530" tag="G">            1-SG/GEN         stolen-1SG</item>
+    <item id="o4" line="531" tag="T">            `my stolen thing'</item>
+    <item id="o5" line="532" tag="T+AL">         * `the thing I have which someone else stole'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="528 529" tag="L+CR">(im)             koºtsadz-s</item>
+    <item id="c3" line="530" tag="G">1-SG/GEN         stolen-1SG</item>
+    <item id="c4" line="531" tag="T">my stolen thing</item>
+    <item id="c5" line="532" tag="T+AL">* `the thing I have which someone else stole</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:27]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:27]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c4[0:15]" alignment="p1"/>
+    <item id="t1" content="c5[0:44]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i48909">
+  <metadata type="xigt-meta">
+    <meta type="language" name="eastern armenian" iso-639-3="hye" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3405" line-range="3961-3964" line-types="M+AC+LN C T L-G"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="3961" tag="M+AC+LN">  (59)   Modern Eastern Armenian (Indo-European, Armenian) (Jasmine Dum-</item>
+    <item id="o2" line="3962" tag="C">         Traugut, p.c.)</item>
+    <item id="o3" line="3963" tag="T">         `come'</item>
+    <item id="o4" line="3964" tag="L-G">         gal                 come.INF</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="3961" tag="M+AC+LN">Modern Eastern Armenian (Indo-European, Armenian) (Jasmine Dum-</item>
+    <item id="c2" line="3962" tag="C">Traugut, p.c.)</item>
+    <item id="c3" line="3963" tag="T">come</item>
+    <item id="c4" line="3964" tag="L-G">gal                 come.INF</item>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:4]"/>
+  </tier>
+</igt>
+<igt id="i48910">
+  <metadata type="xigt-meta">
+    <meta type="language" name="eastern armenian" iso-639-3="hye" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3405" line-range="3965-3965" line-types="L-G"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="3965" tag="L-G">         gal-is              come-PRES.PTCP</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="3965" tag="L-G">gal-is              come-PRES.PTCP</item>
+  </tier>
+</igt>
+<igt id="i48911">
+  <metadata type="xigt-meta">
+    <meta type="language" name="eastern armenian" iso-639-3="hye" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3405" line-range="3966-3967" line-types="G L"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="3966" tag="G">                             come-FUT.PTCP</item>
+    <item id="o2" line="3967" tag="L">         gal-u</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="3966" tag="G">come-FUT.PTCP</item>
+    <item id="c2" line="3967" tag="L">gal-u</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c2[0:5]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c1[0:13]"/>
+  </tier>
+</igt>
+<igt id="i48912">
+  <metadata type="xigt-meta">
+    <meta type="language" name="eastern armenian" iso-639-3="hye" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3405" line-range="3968-3968" line-types="L-G"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="3968" tag="L-G">         ek-el               come-PERF.PTCP</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="3968" tag="L-G">ek-el               come-PERF.PTCP</item>
+  </tier>
+</igt>
+<igt id="i48913">
+  <metadata type="xigt-meta">
+    <meta type="language" name="eastern armenian" iso-639-3="hye" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3405" line-range="3969-3970" line-types="G L"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="3969" tag="G">                             come-RES.PTCP</item>
+    <item id="o2" line="3970" tag="L">         ek-ats</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="3969" tag="G">come-RES.PTCP</item>
+    <item id="c2" line="3970" tag="L">ek-ats</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c2[0:6]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c1[0:13]"/>
+  </tier>
+</igt>
+<igt id="i48914">
+  <metadata type="xigt-meta">
+    <meta type="language" name="eastern armenian" iso-639-3="hye" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3405" line-range="3971-3971" line-types="L-G"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="3971" tag="L-G">         ek-a                come-AOR</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="3971" tag="L-G">ek-a                come-AOR</item>
+  </tier>
+</igt>
+<igt id="i57820">
+  <metadata type="xigt-meta">
+    <meta type="language" name="eastern armenian" iso-639-3="hye" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="2722" line-range="533-537" line-types="M+CN L+CR L+CR G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="533" tag="M+CN">  (32) Accidental coordination:</item>
+    <item id="o2" line="534" tag="L+CR">       dproc'-i-s       ev usuc'i'-ner-i-s</item>
+    <item id="o3" line="535" tag="L+CR">                                 c</item>
+    <item id="o4" line="536" tag="G">       school-DAT-1SG &amp; teacher-PL-DAT-1SG</item>
+    <item id="o5" line="537" tag="T">       `for my school and my teachers'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="533" tag="M+CN">Accidental coordination:</item>
+    <item id="c2" line="534" tag="L+CR">dproc'-i-s       ev usuc'i'-ner-i-s</item>
+    <item id="c4" line="536" tag="G">school-DAT-1SG &amp; teacher-PL-DAT-1SG</item>
+    <item id="c5" line="537" tag="T">for my school and my teachers</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c2[0:35]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c4[0:35]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c5[0:29]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i57821">
+  <metadata type="xigt-meta">
+    <meta type="language" name="eastern armenian" iso-639-3="hye" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="2722" line-range="539-542" line-types="M+CN L G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="539" tag="M+CN">  (33) Natural coordination:</item>
+    <item id="o2" line="540" tag="L">       al u hac'-d</item>
+    <item id="o3" line="541" tag="G">       salt &amp; bread-2SG</item>
+    <item id="o4" line="542" tag="T">       `your salt and bread (= hospitality)'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="539" tag="M+CN">Natural coordination:</item>
+    <item id="c2" line="540" tag="L">al u hac'-d</item>
+    <item id="c3" line="541" tag="G">salt &amp; bread-2SG</item>
+    <item id="c4" line="542" tag="T">your salt and bread (= hospitality)</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c2[0:11]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:16]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c4[0:35]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i63066">
+  <metadata type="xigt-meta">
+    <meta type="language" name="armenian" iso-639-3="hye" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3905" line-range="261-263" line-types="L G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="261" tag="L">  (6)       yerk'r-i       mayrakaghak-i            poghots-ner-e</item>
+    <item id="o2" line="262" tag="G">            country-Gen capital-Gen                 street-Plur-Nom</item>
+    <item id="o3" line="263" tag="T">                 `the streets of the country's capital'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="261" tag="L">yerk'r-i       mayrakaghak-i            poghots-ner-e</item>
+    <item id="c2" line="262" tag="G">country-Gen capital-Gen                 street-Plur-Nom</item>
+    <item id="c3" line="263" tag="T">the streets of the country's capital</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:53]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:55]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:36]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i81092">
+  <metadata type="xigt-meta">
+    <meta type="language" name="armenian" iso-639-3="hye" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="171.txt" line-range="16-18" line-types="L+LN G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="16" tag="L+LN">  (1) a. Ara-n     vor girk-en      e k'artatsel ?                 Armenian</item>
+    <item id="o2" line="17" tag="G">         Ara-Nom which book-Acc is read</item>
+    <item id="o3" line="18" tag="T">         `Which book did Ara read?'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="16" tag="L+LN">Ara-n     vor girk-en      e k'artatsel ?                 Armenian</item>
+    <item id="c2" line="17" tag="G">Ara-Nom which book-Acc is read</item>
+    <item id="c3" line="18" tag="T">Which book did Ara read?</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:66]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:30]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:24]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i81094">
+  <metadata type="xigt-meta">
+    <meta type="language" name="armenian" iso-639-3="hye" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="171.txt" line-range="23-25" line-types="L+LN G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="23" tag="L+LN">  (2) a. vor      girk-en      e Ara-n         k'artatsel?       Armenian</item>
+    <item id="o2" line="24" tag="G">         which    book-Acc is Ara-Nom          read</item>
+    <item id="o3" line="25" tag="T">         `Which    book did Ara read?'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="23" tag="L+LN">vor      girk-en      e Ara-n         k'artatsel?       Armenian</item>
+    <item id="c2" line="24" tag="G">which    book-Acc is Ara-Nom          read</item>
+    <item id="c3" line="25" tag="T">Which    book did Ara read?</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:64]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:42]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:27]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i81096">
+  <metadata type="xigt-meta">
+    <meta type="language" name="armenian" iso-639-3="hye" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="171.txt" line-range="47-49" line-types="L G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="47" tag="L">  (3) a. * vor yerex-ini [ayn mart-un vor       xi sp'anel er ]     bandark'etsin</item>
+    <item id="o2" line="48" tag="G">         which child-Acc that man-Acc that          killed was imprisoned</item>
+    <item id="o3" line="49" tag="T">          `Which child they imprisoned the m   an that had killed?'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="47" tag="L">* vor yerex-ini [ayn mart-un vor       xi sp'anel er ]     bandark'etsin</item>
+    <item id="c2" line="48" tag="G">which child-Acc that man-Acc that          killed was imprisoned</item>
+    <item id="c3" line="49" tag="T">Which child they imprisoned the m   an that had killed?</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:72]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:64]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:55]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i81098">
+  <metadata type="xigt-meta">
+    <meta type="language" name="armenian" iso-639-3="hye" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="171.txt" line-range="56-58" line-types="L G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="56" tag="L">  (4) a.* umini [vor vrej-e xi mat'nel e] amboqj ent'anik-in husahat'ets</item>
+    <item id="o2" line="57" tag="G">         whom that Vrej-Nom denounced is whole family-Dat disappointed</item>
+    <item id="o3" line="58" tag="T">        `Whom the fact that Vrej denounced disappointed the whole family?'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="56" tag="L">a.* umini [vor vrej-e xi mat'nel e] amboqj ent'anik-in husahat'ets</item>
+    <item id="c2" line="57" tag="G">whom that Vrej-Nom denounced is whole family-Dat disappointed</item>
+    <item id="c3" line="58" tag="T">Whom the fact that Vrej denounced disappointed the whole family?</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:66]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:61]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:64]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i81100">
+  <metadata type="xigt-meta">
+    <meta type="language" name="armenian" iso-639-3="hye" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="171.txt" line-range="64-66" line-types="L G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="64" tag="L">  (5) a.* vor t'q-ini usutsich-e bark'atsav [vorovhet'ev GaRnik'-e xi tzetzel er]</item>
+    <item id="o2" line="65" tag="G">         which boy-Acc teacher-Nom got angry because Garnik-Nom beat was</item>
+    <item id="o3" line="66" tag="T">         `Which boy did the teacher get angry because Garnik had beaten?'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="64" tag="L">a.* vor t'q-ini usutsich-e bark'atsav [vorovhet'ev GaRnik'-e xi tzetzel er]</item>
+    <item id="c2" line="65" tag="G">which boy-Acc teacher-Nom got angry because Garnik-Nom beat was</item>
+    <item id="c3" line="66" tag="T">Which boy did the teacher get angry because Garnik had beaten?</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:75]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:63]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:62]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i81102">
+  <metadata type="xigt-meta">
+    <meta type="language" name="armenian" iso-639-3="hye" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="171.txt" line-range="72-74" line-types="L G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="72" tag="L">  (6) a.* ovi e Ara-n      uzum    imana    vor x i inch girk e k'artatsel</item>
+    <item id="o2" line="73" tag="G">        who is Ara-Nom wanting know-Subj that         what book is read</item>
+    <item id="o3" line="74" tag="T">         `Who did Ara want to know which book had read?'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="72" tag="L">a.* ovi e Ara-n      uzum    imana    vor x i inch girk e k'artatsel</item>
+    <item id="c2" line="73" tag="G">who is Ara-Nom wanting know-Subj that         what book is read</item>
+    <item id="c3" line="74" tag="T">Who did Ara want to know which book had read?</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:68]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:63]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:45]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i81104">
+  <metadata type="xigt-meta">
+    <meta type="language" name="armenian" iso-639-3="hye" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="171.txt" line-range="84-86" line-types="L G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="84" tag="L">  (7) a.* [ayn girk-en ]   es aRnelu [ vor         ov dasaran-um k'artats]</item>
+    <item id="o2" line="85" tag="G">           that book-Acc are buy-Fut that         who class-Loc read</item>
+    <item id="o3" line="86" tag="T">        `Who are you going to buy the book that   read in class?'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="84" tag="L">a.* [ayn girk-en ]   es aRnelu [ vor         ov dasaran-um k'artats]</item>
+    <item id="c2" line="85" tag="G">that book-Acc are buy-Fut that         who class-Loc read</item>
+    <item id="c3" line="86" tag="T">Who are you going to buy the book that   read in class?</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:68]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:57]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:55]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i81106">
+  <metadata type="xigt-meta">
+    <meta type="language" name="armenian" iso-639-3="hye" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="171.txt" line-range="92-94" line-types="L G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="92" tag="L">  (8) a.* [vor vrej-e     umin e mat'nel] amboqj ent'anik-in husahat'ets</item>
+    <item id="o2" line="93" tag="G">            that Vrej-Nom whom is denounced whole family-Dat disappointed</item>
+    <item id="o3" line="94" tag="T">          `Whom the fact that Vrej denounced disappointed the whole family?</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="92" tag="L">a.* [vor vrej-e     umin e mat'nel] amboqj ent'anik-in husahat'ets</item>
+    <item id="c2" line="93" tag="G">that Vrej-Nom whom is denounced whole family-Dat disappointed</item>
+    <item id="c3" line="94" tag="T">Whom the fact that Vrej denounced disappointed the whole family?</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:66]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:61]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:64]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i81108">
+  <metadata type="xigt-meta">
+    <meta type="language" name="armenian" iso-639-3="hye" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="171.txt" line-range="100-102" line-types="L G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="100" tag="L">  (9) a.*usutsich-e bark'atsav [vorovhet'ev GaRnik'-e vor t'q-ini er tzetzel]</item>
+    <item id="o2" line="101" tag="G">        teacher-Nom got angry because Garnik-Nom which boy-Acc was beat</item>
+    <item id="o3" line="102" tag="T">         `Which boy did the teacher get angry because Garnik had beaten?'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="100" tag="L">a.*usutsich-e bark'atsav [vorovhet'ev GaRnik'-e vor t'q-ini er tzetzel]</item>
+    <item id="c2" line="101" tag="G">teacher-Nom got angry because Garnik-Nom which boy-Acc was beat</item>
+    <item id="c3" line="102" tag="T">Which boy did the teacher get angry because Garnik had beaten?</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:71]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:63]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:62]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i81110">
+  <metadata type="xigt-meta">
+    <meta type="language" name="armenian" iso-639-3="hye" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="171.txt" line-range="108-110" line-types="L G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="108" tag="L">  (10) a. * Ara-n    uzum e imana         vor ov e inch girk k'artatsel</item>
+    <item id="o2" line="109" tag="G">            Ara-Nom wantingis know-Subj that who is what book read</item>
+    <item id="o3" line="110" tag="T">           `Who did Ara want to know which book had read?'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="108" tag="L">* Ara-n    uzum e imana         vor ov e inch girk k'artatsel</item>
+    <item id="c2" line="109" tag="G">Ara-Nom wantingis know-Subj that who is what book read</item>
+    <item id="c3" line="110" tag="T">Who did Ara want to know which book had read?</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:61]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:54]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:45]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i81112">
+  <metadata type="xigt-meta">
+    <meta type="language" name="armenian" iso-639-3="hye" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="171.txt" line-range="127-129" line-types="L G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="127" tag="L">  (11) a. polis-e     uzum e imana vor inch-ovi en ays mart-un xi           sp'anel?</item>
+    <item id="o2" line="128" tag="G">          police-Nom wanting is know that what-Inst are this man-Acc        killed</item>
+    <item id="o3" line="129" tag="T">          `The Police wonders that with what they killed this man?'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="127" tag="L">polis-e     uzum e imana vor inch-ovi en ays mart-un xi           sp'anel?</item>
+    <item id="c2" line="128" tag="G">police-Nom wanting is know that what-Inst are this man-Acc        killed</item>
+    <item id="c3" line="129" tag="T">The Police wonders that with what they killed this man?</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:74]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:72]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:55]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i81114">
+  <metadata type="xigt-meta">
+    <meta type="language" name="armenian" iso-639-3="hye" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="171.txt" line-range="137-138" line-types="L G"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="137" tag="L">  (12) a.* polis-e   uzum e imana inch-ovi        vor en ays mart-un xi sp'anel?</item>
+    <item id="o2" line="138" tag="G">         police-Nom wanting is know what-Inst      that are this man-Acc    killed</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="137" tag="L">a.* polis-e   uzum e imana inch-ovi        vor en ays mart-un xi sp'anel?</item>
+    <item id="c2" line="138" tag="G">police-Nom wanting is know what-Inst      that are this man-Acc    killed</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:73]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:73]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i81116">
+  <metadata type="xigt-meta">
+    <meta type="language" name="armenian" iso-639-3="hye" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="171.txt" line-range="148-151" line-types="L+LN+CR L+CR G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="148" tag="L+LN+CR">  (13)   a. * iri kuyr-e                     k'rak'ets                  Armenian</item>
+    <item id="o2" line="149" tag="L+CR">                                   umini</item>
+    <item id="o3" line="150" tag="G">              his sister-Nom whom            shot</item>
+    <item id="o4" line="151" tag="T">              `Whoi did hisi sister shoot?'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="148 149" tag="L+LN+CR">* iri kuyr-e           umini     k'rak'ets                  Armenian</item>
+    <item id="c3" line="150" tag="G">his sister-Nom whom            shot</item>
+    <item id="c4" line="151" tag="T">Whoi did hisi sister shoot?</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:68]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:35]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c4[0:27]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i81117">
+  <metadata type="xigt-meta">
+    <meta type="language" name="armenian" iso-639-3="hye" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="171.txt" line-range="152-154" line-types="L G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="152" tag="L">         b. umini       iri kuyr-e         k'rak'ets</item>
+    <item id="o2" line="153" tag="G">             whom       his sister-Nom shot</item>
+    <item id="o3" line="154" tag="T">             `Whoi did hisi sister shoot?'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="152" tag="L">umini       iri kuyr-e         k'rak'ets</item>
+    <item id="c2" line="153" tag="G">whom       his sister-Nom shot</item>
+    <item id="c3" line="154" tag="T">Whoi did hisi sister shoot?</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:40]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:30]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:27]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i81124">
+  <metadata type="xigt-meta">
+    <meta type="language" name="armenian" iso-639-3="hye" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="171.txt" line-range="220-222" line-types="L G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="220" tag="L">  (19)        Ara-n     k'artzum e vor           ov e          k'at'v-in k'erak'rel</item>
+    <item id="o2" line="221" tag="G">              Ara-Nom thinking is that who is                  cat-Acc   fed</item>
+    <item id="o3" line="222" tag="T">              `Who does Ara think that fed the cat?'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="220" tag="L">Ara-n     k'artzum e vor           ov e          k'at'v-in k'erak'rel</item>
+    <item id="c2" line="221" tag="G">Ara-Nom thinking is that who is                  cat-Acc   fed</item>
+    <item id="c3" line="222" tag="T">Who does Ara think that fed the cat?</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:69]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:62]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:36]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i81125">
+  <metadata type="xigt-meta">
+    <meta type="language" name="armenian" iso-639-3="hye" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="171.txt" line-range="224-226" line-types="L G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="224" tag="L">  (20)        *ARA-n       e k'artzum vor ov            e k'at'v-in k'erak'rel</item>
+    <item id="o2" line="225" tag="G">               Ara-Nom is thinking that who is cat-Acc fed</item>
+    <item id="o3" line="226" tag="T">               `Who is it Ara that thinks fed the cat?'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="224" tag="L">*ARA-n       e k'artzum vor ov            e k'at'v-in k'erak'rel</item>
+    <item id="c2" line="225" tag="G">Ara-Nom is thinking that who is cat-Acc fed</item>
+    <item id="c3" line="226" tag="T">Who is it Ara that thinks fed the cat?</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:64]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:43]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:38]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i81126">
+  <metadata type="xigt-meta">
+    <meta type="language" name="armenian" iso-639-3="hye" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="171.txt" line-range="241-243" line-types="L G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="241" tag="L">  (21)      ARA-n e uzum imana vor ov e k'at'v-in k'erak'rel</item>
+    <item id="o2" line="242" tag="G">            Ara-Nom is wanting know that who is cat-Acc    fed</item>
+    <item id="o3" line="243" tag="T">            `It is Ara who wants to know who fed the cat.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="241" tag="L">ARA-n e uzum imana vor ov e k'at'v-in k'erak'rel</item>
+    <item id="c2" line="242" tag="G">Ara-Nom is wanting know that who is cat-Acc    fed</item>
+    <item id="c3" line="243" tag="T">It is Ara who wants to know who fed the cat.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:48]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:50]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:44]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i81127">
+  <metadata type="xigt-meta">
+    <meta type="language" name="armenian" iso-639-3="hye" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="171.txt" line-range="269-271" line-types="L G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="269" tag="L">  (24)      a. ov         e ARA-n k'artzum vor xi k'at'v-in k'erak'ri</item>
+    <item id="o2" line="270" tag="G">               who-Nom is Ara-Nom thinking that             cat-Acc feed-Subj</item>
+    <item id="o3" line="271" tag="T">               `Who does ARA think that will feed the cat?'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="269" tag="L">ov         e ARA-n k'artzum vor xi k'at'v-in k'erak'ri</item>
+    <item id="c2" line="270" tag="G">who-Nom is Ara-Nom thinking that             cat-Acc feed-Subj</item>
+    <item id="c3" line="271" tag="T">Who does ARA think that will feed the cat?</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:54]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:62]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:42]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i81128">
+  <metadata type="xigt-meta">
+    <meta type="language" name="armenian" iso-639-3="hye" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="171.txt" line-range="272-274" line-types="L G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="272" tag="L">            b. vor mekena-n DU es k'artzum vor Ara-n            aRni</item>
+    <item id="o2" line="273" tag="G">               which car-Acc you are thinking that Ara-Nom buy-Subj/3sg</item>
+    <item id="o3" line="274" tag="T">               `Which car do YOU think Ara will buy?'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="272" tag="L">vor mekena-n DU es k'artzum vor Ara-n            aRni</item>
+    <item id="c2" line="273" tag="G">which car-Acc you are thinking that Ara-Nom buy-Subj/3sg</item>
+    <item id="c3" line="274" tag="T">Which car do YOU think Ara will buy?</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:53]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:56]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:36]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i81129">
+  <metadata type="xigt-meta">
+    <meta type="language" name="armenian" iso-639-3="hye" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="171.txt" line-range="292-294" line-types="L G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="292" tag="L">  (25)   a.* [ ayn girk-en ]      es aRnelu [vor ov dasaran-um k'artats]</item>
+    <item id="o2" line="293" tag="G">               that book-Acc are buy-Fut that who class-Loc read</item>
+    <item id="o3" line="294" tag="T">             `You are going to buy the book that who read in class?'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="292" tag="L">a.* [ ayn girk-en ]      es aRnelu [vor ov dasaran-um k'artats]</item>
+    <item id="c2" line="293" tag="G">that book-Acc are buy-Fut that who class-Loc read</item>
+    <item id="c3" line="294" tag="T">You are going to buy the book that who read in class?</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:63]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:49]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:53]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i81130">
+  <metadata type="xigt-meta">
+    <meta type="language" name="armenian" iso-639-3="hye" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="171.txt" line-range="295-297" line-types="L G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="295" tag="L">         b. [um k'artatsatz girk]-en       es     aRnelu</item>
+    <item id="o2" line="296" tag="G">            whose read         book-Acc are buy-Fut</item>
+    <item id="o3" line="297" tag="T">            `Lit: You are going to buy whose read book?'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="295" tag="L">[um k'artatsatz girk]-en       es     aRnelu</item>
+    <item id="c2" line="296" tag="G">whose read         book-Acc are buy-Fut</item>
+    <item id="c3" line="297" tag="T">You are going to buy whose read book?</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:44]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:39]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:37]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i81131">
+  <metadata type="xigt-meta">
+    <meta type="language" name="armenian" iso-639-3="hye" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="171.txt" line-range="302-304" line-types="L G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="302" tag="L">  (26)   * vor yerex-ini aysor [xi sp'anoq mart]- un en bandark'el</item>
+    <item id="o2" line="303" tag="G">         which child-Acc today       killer    man ­Acc are imprisoned</item>
+    <item id="o3" line="304" tag="T">         `Which child today killing man did they imprison?'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="302" tag="L">* vor yerex-ini aysor [xi sp'anoq mart]-un en bandark'el</item>
+    <item id="c2" line="303" tag="G">which child-Acc today       killer    man ­Acc are imprisoned</item>
+    <item id="c3" line="304" tag="T">Which child today killing man did they imprison?</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:56]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:61]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:48]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i81132">
+  <metadata type="xigt-meta">
+    <meta type="language" name="armenian" iso-639-3="hye" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="171.txt" line-range="311-313" line-types="L G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="311" tag="L">  (27) [Vrej-i umin          mat'nel]-e    amboqj ent'anik-in husahat'ets</item>
+    <item id="o2" line="312" tag="G">        Vrej-Gen whom denouncing-Nom whole family-Dat disappointed</item>
+    <item id="o3" line="313" tag="T">        `Lit: Vrej's denouncing whom disappointed the whole family?</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="311" tag="L">[Vrej-i umin          mat'nel]-e    amboqj ent'anik-in husahat'ets</item>
+    <item id="c2" line="312" tag="G">Vrej-Gen whom denouncing-Nom whole family-Dat disappointed</item>
+    <item id="c3" line="313" tag="T">Vrej's denouncing whom disappointed the whole family?</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:66]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:58]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:53]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i81133">
+  <metadata type="xigt-meta">
+    <meta type="language" name="armenian" iso-639-3="hye" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="171.txt" line-range="315-317" line-types="L G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="315" tag="L">  (28)    * umini [Vrej-i     xi mat'nel]-e amboqj ent'anik-in husahat'ets</item>
+    <item id="o2" line="316" tag="G">          whom     Vrej-Gen denouncing-Nom whole family-Dat disappointed</item>
+    <item id="o3" line="317" tag="T">         `Who did Vrej's denouncing (of) disappoint the whole family?'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="315" tag="L">* umini [Vrej-i     xi mat'nel]-e amboqj ent'anik-in husahat'ets</item>
+    <item id="c2" line="316" tag="G">whom     Vrej-Gen denouncing-Nom whole family-Dat disappointed</item>
+    <item id="c3" line="317" tag="T">Who did Vrej's denouncing (of) disappoint the whole family?</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:64]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:62]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:59]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i81134">
+  <metadata type="xigt-meta">
+    <meta type="language" name="armenian" iso-639-3="hye" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="171.txt" line-range="320-322" line-types="L G T+LT"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="320" tag="L">  (29) [vor mekena-n t'esnel-uts het'o] toqar           gnatsir</item>
+    <item id="o2" line="321" tag="G">          which car-Acc see-Abl          after left-2sg went-2sg</item>
+    <item id="o3" line="322" tag="T+LT">        `Lit: You left after seeing which car?'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="320" tag="L">[vor mekena-n t'esnel-uts het'o] toqar           gnatsir</item>
+    <item id="c2" line="321" tag="G">which car-Acc see-Abl          after left-2sg went-2sg</item>
+    <item id="c3" line="322" tag="T+LT">You left after seeing which car?</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:56]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:54]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:32]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i81135">
+  <metadata type="xigt-meta">
+    <meta type="language" name="armenian" iso-639-3="hye" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="171.txt" line-range="324-326" line-types="L G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="324" tag="L">  (30)   * vor t'q-ini [Gagik'-i xi tzetzel-u p'atch'aR]-ov usutsich-e bark'atsav</item>
+    <item id="o2" line="325" tag="G">         which boy-Acc Gagik-Gen beat-Gen reason -Inst teacher-Nom got angry</item>
+    <item id="o3" line="326" tag="T">         `Which boy did the teacher get angry because of Gagik's beating?'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="324" tag="L">* vor t'q-ini [Gagik'-i xi tzetzel-u p'atch'aR]-ov usutsich-e bark'atsav</item>
+    <item id="c2" line="325" tag="G">which boy-Acc Gagik-Gen beat-Gen reason-Inst teacher-Nom got angry</item>
+    <item id="c3" line="326" tag="T">Which boy did the teacher get angry because of Gagik's beating?</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:72]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:66]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:63]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i82020">
+  <metadata type="xigt-meta">
+    <meta type="language" name="armenian" iso-639-3="hye" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="175.txt" line-range="261-263" line-types="L G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="261" tag="L">  (6)       yerk'r-i       mayrakaghak-i            poghots-ner-e</item>
+    <item id="o2" line="262" tag="G">            country-Gen capital-Gen                 street-Plur-Nom</item>
+    <item id="o3" line="263" tag="T">                 `the streets of the country's capital'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="261" tag="L">yerk'r-i       mayrakaghak-i            poghots-ner-e</item>
+    <item id="c2" line="262" tag="G">country-Gen capital-Gen                 street-Plur-Nom</item>
+    <item id="c3" line="263" tag="T">the streets of the country's capital</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:53]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:55]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:36]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i89564">
+  <metadata type="xigt-meta">
+    <meta type="language" name="armenian" iso-639-3="hye" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="638" line-range="325-328" line-types="L L+CR G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="325" tag="L">  (14)   Armenian (Kozinceva 1981:83)</item>
+    <item id="o2" line="326" tag="L+CR">         (a)  Mayr- lvan-um       e        Seda-   yi-n.</item>
+    <item id="o3" line="327" tag="G">              mother-ART wash-PRES AUX               Seda-DAT-ART</item>
+    <item id="o4" line="328" tag="T">              `Mother is washing Seda.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="325" tag="L">Armenian (Kozinceva 1981:83</item>
+    <item id="c3" line="327" tag="G">mother-ART wash-PRES AUX               Seda-DAT-ART</item>
+    <item id="c4" line="328" tag="T">Mother is washing Seda.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:27]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:51]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c4[0:23]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i89565">
+  <metadata type="xigt-meta">
+    <meta type="language" name="armenian" iso-639-3="hye" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="638" line-range="329-331" line-types="L G+CR T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="329" tag="L">         (b)  Seda-n       lva-cv-um                 e.</item>
+    <item id="o2" line="330" tag="G+CR">              Seda-ART     wash-REFL-PRES            AU X</item>
+    <item id="o3" line="331" tag="T">              `Seda is washing (herself).'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="329" tag="L">Seda-n       lva-cv-um                 e.</item>
+    <item id="c2" line="330" tag="G+CR">Seda-ART     wash-REFL-PRES            AU X</item>
+    <item id="c3" line="331" tag="T">Seda is washing (herself).</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:41]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:43]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:26]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i142626">
+  <metadata type="xigt-meta">
+    <meta type="language" name="armenian" iso-639-3="hye" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="2355" line-range="2437-2440" line-types="L G+CR G+CR T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="2437" tag="L">  (4)    zayn nsan            arareal            r       nora</item>
+    <item id="o2" line="2438" tag="G+CR">         that   miracle-ACC performed                    he-GE</item>
+    <item id="o3" line="2439" tag="G+CR">                                                 AUX             N</item>
+    <item id="o4" line="2440" tag="T">         `He performed that miracle'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="2437" tag="L">zayn nsan            arareal            r       nora</item>
+    <item id="c2" line="2438 2439" tag="G+CR">that   miracle-ACC performed            AUX     he-GE   N</item>
+    <item id="c4" line="2440" tag="T">He performed that miracle</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:52]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:57]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c4[0:25]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i146630">
+  <metadata type="xigt-meta">
+    <meta type="language" name="mus" iso-639-3="hye" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3806" line-range="21399-21399" line-types="L-T+DB"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="21399" tag="L-T+DB">        Xap        Catch; encompass         Xabaan            Scope</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="21399" tag="L-T+DB">Xap        Catch; encompass         Xabaan            Scope</item>
+  </tier>
+</igt>
+<igt id="i155759">
+  <metadata type="xigt-meta">
+    <meta type="language" name="armenian" iso-639-3="hye" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3307" line-range="7526-7530" line-types="M+AC+LN L+CR L+CR G T+DB+LT"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="7526" tag="M+AC+LN">  (3) Armenian (by courtesy of V. Xurshudjan)</item>
+    <item id="o2" line="7527" tag="L+CR">                                                khaakh-um</item>
+    <item id="o3" line="7528" tag="L+CR">     a. ban-um         yes k-lin-em</item>
+    <item id="o4" line="7529" tag="G">         thing-LOC I         COND-be-PRES.1 town-LOC</item>
+    <item id="o5" line="7530" tag="T+DB+LT">            `I will be in ... um ... in the town.' Lit. "In (some)thing I will be in the town."</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="7526" tag="M+AC+LN">Armenian (by courtesy of V. Xurshudjan</item>
+    <item id="c2" line="7527 7528" tag="L+CR">ban-um         yes k-lin-em             khaakh-um</item>
+    <item id="c4" line="7529" tag="G">thing-LOC I         COND-be-PRES.1 town-LOC</item>
+    <item id="c5" line="7530" tag="T+DB+LT">I will be in ... um ... in the town.' Lit. "In (some)thing I will be in the town.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c2[0:49]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c4[0:43]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c5[0:81]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i155760">
+  <metadata type="xigt-meta">
+    <meta type="language" name="armenian" iso-639-3="hye" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3307" line-range="7531-7534" line-types="L+CR L+CR G T+DB+LT"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="7531" tag="L+CR">                                                            an-el m-el</item>
+    <item id="o2" line="7532" tag="L+CR">     b. yes uz-um            em           ban</item>
+    <item id="o3" line="7533" tag="G">         I      want-IPF be.AUX.1 thing.NOM/ACC do-INF drink-INF</item>
+    <item id="o4" line="7534" tag="T+DB+LT">            `I am ... um ... thirsty.' Lit. "I want (some)thing to do to drink."</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="7531 7532" tag="L+CR">yes uz-um            em           ban               an-el m-el</item>
+    <item id="c3" line="7533" tag="G">I      want-IPF be.AUX.1 thing.NOM/ACC do-INF drink-INF</item>
+    <item id="c4" line="7534" tag="T+DB+LT">I am ... um ... thirsty.' Lit. "I want (some)thing to do to drink.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:62]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c3[0:55]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c4[0:66]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i155761">
+  <metadata type="xigt-meta">
+    <meta type="language" name="armenian" iso-639-3="hye" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3307" line-range="7535-7537" line-types="L G T+DB+LT"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="7535" tag="L">     c. yes ban                     k-an-em           k-gam</item>
+    <item id="o2" line="7536" tag="G">         I      thing.NOM/ACC COND-do-PRES.1 COND-come-PRES.1</item>
+    <item id="o3" line="7537" tag="T+DB+LT">            `I will ... um ... come.' Lit. "I (some)thing will do will come."</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="7535" tag="L">yes ban                     k-an-em           k-gam</item>
+    <item id="c2" line="7536" tag="G">I      thing.NOM/ACC COND-do-PRES.1 COND-come-PRES.1</item>
+    <item id="c3" line="7537" tag="T+DB+LT">I will ... um ... come.' Lit. "I (some)thing will do will come.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:51]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:52]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:63]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i155762">
+  <metadata type="xigt-meta">
+    <meta type="language" name="armenian" iso-639-3="hye" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3307" line-range="7538-7540" line-types="L G T+DB+LT"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="7538" tag="L">     d. yes k-ban               an-em        k-gam</item>
+    <item id="o2" line="7539" tag="G">         I      COND-thing      do-PRES.1 COND-come-PRES.1</item>
+    <item id="o3" line="7540" tag="T+DB+LT">            `I will ... um ... come.' Lit. "I will-(some)thing do will come."</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="7538" tag="L">yes k-ban               an-em        k-gam</item>
+    <item id="c2" line="7539" tag="G">I      COND-thing      do-PRES.1 COND-come-PRES.1</item>
+    <item id="c3" line="7540" tag="T+DB+LT">I will ... um ... come.' Lit. "I will-(some)thing do will come.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:42]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:49]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:63]" alignment="p1"/>
+  </tier>
+</igt>
+</xigt-corpus>

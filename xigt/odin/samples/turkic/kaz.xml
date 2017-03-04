@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xigt-corpus>
+<igt id="i10438">
+  <metadata type="xigt-meta">
+    <meta type="language" name="kazakh" iso-639-3="kaz" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="2479" line-range="5075-5077" line-types="L G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="5075" tag="L">           Sut-Ø           ishken        kyz              bolmege          kirdi</item>
+    <item id="o2" line="5076" tag="G">           milk-ACC       drink-PART girl-NOM             room-DAT         enter-PAST</item>
+    <item id="o3" line="5077" tag="T">           '(A/The) girl who drank (the) milk entered (a/the) room.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="5075" tag="L">Sut-Ø           ishken        kyz              bolmege          kirdi</item>
+    <item id="c2" line="5076" tag="G">milk-ACC       drink-PART girl-NOM             room-DAT         enter-PAST</item>
+    <item id="c3" line="5077" tag="T">(A/The) girl who drank (the) milk entered (a/the) room.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:69]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:74]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:55]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i133568">
+  <metadata type="xigt-meta">
+    <meta type="language" name="kazakh" iso-639-3="kaz" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="191.txt" line-range="155-157" line-types="L G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="155" tag="L">  (7)       [ Sut-            isken     ]       kyz                          bolmege kirdi</item>
+    <item id="o2" line="156" tag="G">            milk-acc          drink-part        girl-nom                     room-dat enter-past</item>
+    <item id="o3" line="157" tag="T">            `(A/the) girl who drank (the) milk entered (a/the) room.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="155" tag="L">[ Sut-isken     ]       kyz                          bolmege kirdi</item>
+    <item id="c2" line="156" tag="G">milk-acc          drink-part        girl-nom                     room-dat enter-past</item>
+    <item id="c3" line="157" tag="T">(A/the) girl who drank (the) milk entered (a/the) room.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:66]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:84]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:55]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i149715">
+  <metadata type="xigt-meta">
+    <meta type="language" name="kazakh" iso-639-3="kaz" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3450" line-range="5075-5077" line-types="L G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="5075" tag="L">           Sut-Ø           ishken        kyz              bolmege          kirdi</item>
+    <item id="o2" line="5076" tag="G">           milk-ACC       drink-PART girl-NOM             room-DAT         enter-PAST</item>
+    <item id="o3" line="5077" tag="T">           '(A/The) girl who drank (the) milk entered (a/the) room.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="5075" tag="L">Sut-Ø           ishken        kyz              bolmege          kirdi</item>
+    <item id="c2" line="5076" tag="G">milk-ACC       drink-PART girl-NOM             room-DAT         enter-PAST</item>
+    <item id="c3" line="5077" tag="T">(A/The) girl who drank (the) milk entered (a/the) room.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:69]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:74]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:55]" alignment="p1"/>
+  </tier>
+</igt>
+</xigt-corpus>

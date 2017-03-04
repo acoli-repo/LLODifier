@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xigt-corpus>
+<igt id="i14358">
+  <metadata type="xigt-meta">
+    <meta type="language" name="persian" iso-639-3="prs" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3532" line-range="524-527" line-types="L G+CR G+CR T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="524" tag="L">               b. sima æz        ketab xundæn               xos-es           mi-yad</item>
+    <item id="o2" line="525" tag="G+CR">                                                            good-3SG.             -come.3SG</item>
+    <item id="o3" line="526" tag="G+CR">                  Sima from book reading                                CL   CONT</item>
+    <item id="o4" line="527" tag="T">                  `Sima likes reading books.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="524" tag="L">sima æz        ketab xundæn               xos-es           mi-yad</item>
+    <item id="c2" line="525 526" tag="G+CR">Sima from book reading                    good-3SG.   CL   CONT-come.3SG</item>
+    <item id="c4" line="527" tag="T">Sima likes reading books.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:65]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:72]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c4[0:25]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i14423">
+  <metadata type="xigt-meta">
+    <meta type="language" name="persian" iso-639-3="prs" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3532" line-range="8836-8838" line-types="L G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="8836" tag="L">               a. sima æz        xundæn-e     ketab xos-es                         mi-yad</item>
+    <item id="o2" line="8837" tag="G">                  Sima from reading-EZ        book good-3                 SG.CL    CONT-come.3SG</item>
+    <item id="o3" line="8838" tag="T">                  `Sima likes reading books.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="8836" tag="L">sima æz        xundæn-e     ketab xos-es                         mi-yad</item>
+    <item id="c2" line="8837" tag="G">Sima from reading-EZ        book good-3                 SG.CL    CONT-come.3SG</item>
+    <item id="c3" line="8838" tag="T">Sima likes reading books.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:71]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:78]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:25]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i14424">
+  <metadata type="xigt-meta">
+    <meta type="language" name="persian" iso-639-3="prs" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3532" line-range="8840-8842" line-types="L G T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="8840" tag="L">               b. sima æz        xundæn-e       in ketab xos-es                        mi-yad</item>
+    <item id="o2" line="8841" tag="G">                  Sima from reading-EZ          this book good-3              SG.CL CONT    -come.3SG</item>
+    <item id="o3" line="8842" tag="T">                  `Sima likes reading this book.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="8840" tag="L">sima æz        xundæn-e       in ketab xos-es                        mi-yad</item>
+    <item id="c2" line="8841" tag="G">Sima from reading-EZ          this book good-3              SG.CL CONT-come.3SG</item>
+    <item id="c3" line="8842" tag="T">Sima likes reading this book.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:75]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:79]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c3[0:29]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i14425">
+  <metadata type="xigt-meta">
+    <meta type="language" name="persian" iso-639-3="prs" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3532" line-range="8844-8847" line-types="L G+CR G+CR T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="8844" tag="L">               c. sima æz        xundæn-e      ketab-e æli xos-es                         mi-yad</item>
+    <item id="o2" line="8845" tag="G+CR">                                               book-EZ Ali good-3SG.                          -come.3</item>
+    <item id="o3" line="8846" tag="G+CR">                  Sima from reading-EZ                                               CL CONT              SG</item>
+    <item id="o4" line="8847" tag="T">                  `Sima likes reading Ali's book.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="8844" tag="L">sima æz        xundæn-e      ketab-e æli xos-es                         mi-yad</item>
+    <item id="c2" line="8845 8846" tag="G+CR">Sima from reading-EZ         book-EZ Ali good-3SG.                 CL CONT-come.3     SG</item>
+    <item id="c4" line="8847" tag="T">Sima likes reading Ali's book.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:78]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:88]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c4[0:30]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i14426">
+  <metadata type="xigt-meta">
+    <meta type="language" name="persian" iso-639-3="prs" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3532" line-range="8872-8875" line-types="L G+CR G+CR T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="8872" tag="L">              a. sima æz        ketab xundæn            xos-es           mi-yad</item>
+    <item id="o2" line="8873" tag="G+CR">                 Sima from book reading                 good-3SG.             -come.3SG</item>
+    <item id="o3" line="8874" tag="G+CR">                                                                 CL      CONT</item>
+    <item id="o4" line="8875" tag="T">                 `Sima likes reading books.'</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="8872" tag="L">sima æz        ketab xundæn            xos-es           mi-yad</item>
+    <item id="c2" line="8873 8874" tag="G+CR">Sima from book reading                 good-3SG.CL      CONT-come.3SG</item>
+    <item id="c4" line="8875" tag="T">Sima likes reading books.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:62]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:69]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c4[0:25]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i14427">
+  <metadata type="xigt-meta">
+    <meta type="language" name="persian" iso-639-3="prs" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3532" line-range="8877-8880" line-types="L G+CR G+CR T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="8877" tag="L">              b. *sima æz       in ketab xundæn         xos-es           mi-yad</item>
+    <item id="o2" line="8878" tag="G+CR">                                                        good-3SG.             -come.3SG</item>
+    <item id="o3" line="8879" tag="G+CR">                 Sima from this book reading                     CL      CONT</item>
+    <item id="o4" line="8880" tag="T">                 (`Sima likes reading this book.')</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="8877" tag="L">*sima æz       in ketab xundæn         xos-es           mi-yad</item>
+    <item id="c2" line="8878 8879" tag="G+CR">Sima from this book reading            good-3SG.CL      CONT-come.3SG</item>
+    <item id="c4" line="8880" tag="T">Sima likes reading this book.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:62]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:69]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c4[0:29]" alignment="p1"/>
+  </tier>
+</igt>
+<igt id="i14428">
+  <metadata type="xigt-meta">
+    <meta type="language" name="persian" iso-639-3="prs" tiers="phrases words morphemes"/>
+    <meta type="language" name="English" iso-639-3="eng" tiers="translations"/>
+    <meta type="odin-source" doc-id="3532" line-range="8882-8885" line-types="L G+CR G+CR T"/>
+  </metadata>
+  <tier id="o" type="odin-raw">
+    <item id="o1" line="8882" tag="L">              c. * sima æz      ketab-e æli xundæn xos-es                mi-yad</item>
+    <item id="o2" line="8883" tag="G+CR">                   Sima from book-EZ Ali reading good-3SG.               CONT-come.3SG</item>
+    <item id="o3" line="8884" tag="G+CR">                                                                    CL</item>
+    <item id="o4" line="8885" tag="T">                   (`Sima likes reading Ali's book.')</item>
+  </tier>
+  <tier id="c" type="odin-clean">
+    <item id="c1" line="8882" tag="L">* sima æz      ketab-e æli xundæn xos-es                mi-yad</item>
+    <item id="c2" line="8883 8884" tag="G+CR">Sima from book-EZ Ali reading good-3SG.          CL   CONT-come.3SG</item>
+    <item id="c4" line="8885" tag="T">Sima likes reading Ali's book.</item>
+  </tier>
+  <tier id="p" type="phrases" content="c">
+    <item id="p0" content="c1[0:62]"/>
+  </tier>
+  <tier id="g" type="glosses" content="c">
+    <item id="g0" content="c2[0:67]" alignment="p1"/>
+  </tier>
+  <tier id="t" type="translations" content="c">
+    <item id="t0" content="c4[0:30]" alignment="p1"/>
+  </tier>
+</igt>
+</xigt-corpus>
