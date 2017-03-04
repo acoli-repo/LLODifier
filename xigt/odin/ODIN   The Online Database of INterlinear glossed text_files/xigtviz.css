@@ -1,0 +1,127 @@
+
+body {
+    background-color: #FFF;
+    color: #111;
+}
+
+div.igt {
+    display: table;
+    width: auto;
+    background: #F8F8F8;
+    border: 2px solid;
+    border-radius: 6px;
+    border-spacing: 2px;
+}
+
+
+div.tiergroup {
+    display: table-row;
+    padding: 0px;
+    margin: 0px;
+    border-spacing: 0px;
+}
+/* special formatting just for tiergroup-header and tiergroup-content */
+div.tiergroup>div {
+    display: table-cell;
+    vertical-align: top;
+    border-color: transparent;
+}
+/* tier-header and itemgroup should share some properties to display
+   well together */
+div.tiergroup-header, div.itemgroup {
+    vertical-align: top;
+    border: 2px solid;
+    border-collapse: collapse;
+    padding: 2px;
+    margin-left: 2px;
+    margin-right: 2px;
+    margin-bottom: 4px;
+}
+/* similarly, tier and item classes should share some properties */
+div.tier, div.item, div.skip {
+    border: 2px solid;
+}
+
+div.tier { border-color: transparent; }
+
+/* tier header specifics */
+div.tier-header {
+    display: table-row;
+    border: 2px solid transparent;
+    vertical-align: top;
+    font-weight: bold;
+}
+div.tier-header div {
+    display: table-cell;
+}
+
+/* tier content specifics */
+
+div.itemgroup {
+    display: inline-block;
+    border-color: #FAFAFA;
+}
+div.itemgroup:hover {
+    border-color: #CCC;
+}
+
+div.itemgroup div {
+}
+
+div.itemgroup div.row {
+}
+
+div.itemgroup div.col {
+}
+
+div.itemgroup div.item, div.itemgroup div.skip {
+    border-color: transparent;
+    /*padding: 0.2em;
+    margin-top: 0px;*/
+}
+
+div.itemgroup div.item.inherited{
+    opacity: 0.5;
+}
+div.itemgroup div.item.referenced{
+    border: 2px solid #4AC;
+    opacity: 1.0;
+}
+
+
+div.enumeration div.itemgroup { display: block; }
+
+div.interlinear div.row { display: table; }
+div.interlinear div.col { display: table-cell; }
+div.interlinear div.item { display: table-cell; white-space: nowrap; }
+div.interlinear div.item:hover { border-color: #4AC; }
+
+
+div.item:hover {
+    background-color: #44AACC;
+    color: #FFF;
+}
+
+
+div.xigtviz-legend {
+    display: inline-block;
+    border: 2px solid #CCC;
+    padding: 2px;
+    margin: 2px;
+    font-weight: bold;
+}
+div.xigtviz-legend div {
+    display: inline-block;
+    border: 2px solid #CCC;
+    margin: 2px;
+}
+
+.refattr-alignment { background-color: #FFEF88; }
+.refattr-segmentation { background-color: #97FF9B; }
+.refattr-content { background-color: #FF9C99; }
+.refattr-dep { background-color: #CCEEFF; }
+.refattr-head { background-color: #88BBFF; }
+.refattr-children { background-color: #CCEEFF; }
+.refattr-source { background-color: #88BBFF; }
+.refattr-target { background-color: #CCEEFF; }
+

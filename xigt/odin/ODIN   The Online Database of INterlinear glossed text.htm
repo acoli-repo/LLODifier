@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+<meta charset="UTF-8">
+<title>ODIN :: The Online Database of INterlinear glossed text </title>
+<script src="ODIN%20%20%20The%20Online%20Database%20of%20INterlinear%20glossed%20text_files/d3.js" charset="utf-8"></script>
+<script src="ODIN%20%20%20The%20Online%20Database%20of%20INterlinear%20glossed%20text_files/xigtviz.js" charset="utf-8"></script>
+<script>
+var settings={
+    "tier_types": {
+        "words": { "class": "interlinear" },
+        "morphemes": { "class": "interlinear" },
+        "glosses": { "class": "interlinear" },
+        "pos": { "class": "interlinear" },
+        "phrases": { "class": "enumeration" },
+        "translations": { "class": "enumeration" },
+        "odin": { "class": "enumeration" },
+        "phrase-structure": { "reference_attributes": ["alignment", "children"] },
+        "dependencies": {"reference_attributes": [ "dep", "head" ] },
+        "bilingual-alignments": {"reference_attributes": [ "source", "target" ] }
+    },
+    "default_tier_class": "",
+    "max_igts_per_page": 10,
+    "reference_attributes": [
+        {"name": "alignment", "style": "background-color: #FFEF88;"},
+        {"name": "segmentation", "style": "background-color: #97FF9B;"},
+        {"name": "content", "style": "background-color: #FF9C99;"},
+        {"name": "dep", "style": "background-color: #CCEEFF;"},
+        {"name": "head", "style": "background-color: #88BBFF;"},
+        {"name": "children", "style": "background-color: #CCEEFF;"},
+        {"name": "source", "style": "background-color: #88BBFF;"},
+        {"name": "target", "style": "background-color: #CCEEFF;"}
+    ],
+    "alignment_expression_operators": {
+        "+": "",
+        ",": " "
+    },
+    "show_legend": true,
+    "default_content": "▨"
+};
+</script>
+<link rel="stylesheet" type="text/css" href="ODIN%20%20%20The%20Online%20Database%20of%20INterlinear%20glossed%20text_files/odin.css">
+<link rel="stylesheet" type="text/css" href="ODIN%20%20%20The%20Online%20Database%20of%20INterlinear%20glossed%20text_files/xigtviz.css">
+</head>
+
+<body>
+
+<h1>The ODIN Data</h1>
+
+<div class="nav">
+<ul>
+  <li><a href="#overview">Overview</a></li>
+  <li><a href="#download">Download</a></li>
+  <li><a href="#citation">Citation</a></li>
+  <li><a href="#publications">Publications</a></li>
+  <li><a href="#example">Example</a></li>
+  <li><a href="#links">Links</a></li>
+  <li><a href="#acknowledgments">Acknowledgments</a></li>
+</ul>
+</div>
+
+<h2><a class="anchor" name="overview" href="#overview">#</a>Overview</h2>
+
+<p>
+ODIN stands for the Online Database of Interlinear Text. It is a collection of
+<a href="https://en.wikipedia.org/wiki/Interlinear_gloss">interlinear glossed text</a>
+(IGT) instances extracted from linguistic documents on the Web.
+</p>
+
+<p>
+As of version 2.0, ODIN is distributed in the
+<a href="http://depts.washington.edu/uwcl/xigt/">Xigt</a> format (as well as text)
+and is licensed under the <a href="http://creativecommons.org/licenses/by/4.0/">Creative Commons CC-BY 4.0</a> license.
+Version 2.1 includes enriched data from the <a href="http://intent-project.info/">INTENT</a> project,
+as well as numerous improvements to the cleaning and normalization of the original data.
+A flowchart describing how INTENT enriches IGTs is available
+<a href="http://depts.washington.edu/uwcl/odin/enrichment_flowchart.pdf">here</a>.
+</p>
+
+<h2><a class="anchor" name="download" href="#download">#</a>Download ODIN</h2>
+
+<table>
+<tbody><tr><th>Version</th><th>Date</th><th>Description</th><th><!--link--></th><th><!--notes--></th></tr>
+<tr>
+  <td class="version">v2.1</td>
+  <td class="date">2016-03-14</td>
+  <td>
+    IGT instances in the plain text format and in the Xigt format, as well as Xigt data enriched by INTENT.
+    Contains 158,007 IGT instances from 2,027 documents covering 1,496 languages.
+  </td>
+  <td><a href="http://uakari.ling.washington.edu/corpus/odin/">Download</a></td>
+  <td><a href="http://depts.washington.edu/uwcl/odin/CHANGELOG.md">Changelog</a><br>
+      <a href="http://depts.washington.edu/uwcl/odin/README.md">Readme</a></td>
+</tr>
+<tr>
+  <td class="version">v2.0</td>
+  <td class="date">2014-07-05</td>
+  <td>
+    IGT instances in the plain text format and <a href="http://depts.washington.edu/uwcl/xigt/">the Xigt format</a>.
+    Contains 158,007 IGT instances from 2,027 documents covering 1,496 languages.
+  </td>
+  <td><a href="http://uakari.ling.washington.edu/corpus/odin/">Download</a></td>
+  <td><a href="http://depts.washington.edu/uwcl/odin/CHANGELOG.md">Changelog</a></td>
+</tr>
+<tr>
+  <td class="version">v1.0</td>
+  <td class="date"></td>
+  <td>First release. A GUI search interface is hosted by <a href="http://linguistlist.org/">The LINGUIST List website</a></td>
+  <td><a href="http://odin.linguistlist.org/">View</a></td>
+  <td></td>
+</tr>
+</tbody></table>
+
+<a rel="license" href="http://creativecommons.org/licenses/by/4.0/"><img alt="Creative Commons License" style="border-width:0" src="ODIN%20%20%20The%20Online%20Database%20of%20INterlinear%20glossed%20text_files/80x15.png"></a><br><span xmlns:dct="http://purl.org/dc/terms/" href="http://purl.org/dc/dcmitype/Dataset" property="dct:title" rel="dct:type">ODIN</span> by <a xmlns:cc="http://creativecommons.org/ns#" href="https://depts.washington.edu/uwcl/odin/" property="cc:attributionName" rel="cc:attributionURL">the RiPLes Project</a> is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</a>.
+
+<h2><a class="anchor" name="citation" href="#citation">#</a>Citation</h2>
+
+<p> If you make use of ODIN in your research, please cite the following papers: </p>
+<ul> 
+  <li> William D. Lewis and Fei Xia, 2010. 
+          Developing ODIN: A Multilingual Repository of Annotated Language Data for Hundreds of the World's Languages,
+          Journal of Literary and Linguistic Computing (LLC), 25(3):303-319. 
+          [<a href="http://llc.oxfordjournals.org/cgi/reprint/fqq006?ijkey=ftq3CprBBTF1zxU&amp;keytype=ref">pdf</a>]
+
+  </li><li> Fei Xia, William D. Lewis, Michael W. Goodman, Joshua 
+Crowgey, and
+    Emily M. Bender, 2014. Enriching ODIN, in Proceedings of the 9th 
+International Conference on Language Resources and Evaluation (LREC 
+2014), Reykjavik, Iceland. [<a href="http://www.lrec-conf.org/proceedings/lrec2014/pdf/1072_Paper.pdf">pdf</a>]
+
+</li></ul>
+
+<h2><a class="anchor" name="publications" href="#publications">#</a>Related Publications</h2>
+
+<ul>
+<li> Michael Wayne Goodman, Joshua Crowgey, Fei Xia, and Emily M. Bender, 2015.
+     Xigt: Extensible Interlinear Glossed Text for Natural Language Processing,
+     in Language Resources and Evaluation, 49(2):455-485.
+     [<a href="http://link.springer.com/article/10.1007%2Fs10579-014-9276-1">pdf</a>]
+     [<a href="http://depts.washington.edu/uwcl/odin/bib/goodman-et-al-2015.bib">bib</a>]
+</li><li> Fei Xia, Michael Wayne Goodman, Ryan Georgi, Glenn Slayden, and William D. Lewis, 2015.
+     Enriching, Editing, and Representing Interlinear Glossed Text,
+     in Computational Linguistics and Intelligent Text Processing, 9041:32-46.
+     [<a href="http://dx.doi.org/10.1007/s10579-014-9276-1">pdf</a>]
+     [<a href="http://depts.washington.edu/uwcl/odin/bib/xia-et-al-2015.bib">bib</a>]
+</li><li> Fei Xia, William Lewis, Michael Wayne Goodman, Joshua Crowgey, and Emily M. Bender, 2014.
+     Enriching ODIN, in the Proceedings of LREC 2014, p3151-3157.
+     [<a href="http://www.lrec-conf.org/proceedings/lrec2014/pdf/1072_Paper.pdf">pdf</a>]
+     [<a href="http://depts.washington.edu/uwcl/odin/bib/xia-et-al-2014.bib">bib</a>]
+</li></ul>
+
+<h2><a class="anchor" name="example" href="#example">#</a>Example</h2>
+
+<p>The following Icelandic [isl] example is from:</p>
+<blockquote>
+ Sigurðsson, Halldór Ármann.
+ "The Icelandic Noun Phrase: Central Traits."
+ Arkiv för nordisk filologi 121 (2006): 193-236.
+ [<a href="http://journals.lub.lu.se/index.php/anf/article/viewFile/11754/10433">pdf</a>]
+</blockquote>
+<p>The example has been converted into the Xigt format and enriched by INTENT.
+Not all annotations are shown; the original XML file is
+<a href="http://depts.washington.edu/uwcl/odin/isl-ex.xml">here</a>.
+The example is visualized with the
+<a href="https://github.com/xigt/xigtviz/">XigtViz</a> IGT renderer.
+Interlinear annotations are shown in columns, and all annotations can be
+seen by hovering your mouse cursor over an item. The immediate target of
+annotation has a blue border, while ancestors are lightly shaded.
+</p>
+
+<div id="igt"><div class="tiergroup enumeration"><div class="tiergroup-header"><div class="tier-header"><div class="tier" data-tier-id="n">odin</div></div></div><div class="tiergroup-content"><div class="itemgroup"><div class="item" data-id="n1">(Þau) Jón og María eru vinir.</div></div><div class="itemgroup"><div class="item" data-id="n2">they.NEUT Jón og María are friends</div></div><div class="itemgroup"><div class="item" data-id="n3">Jón and María are friends.</div></div></div></div><div class="tiergroup enumeration"><div class="tiergroup-header"><div class="tier-header"><div class="tier" data-tier-id="p">phrases</div></div></div><div class="tiergroup-content"><div class="itemgroup"><div class="item" data-id="p1">(Þau) Jón og María eru vinir.</div></div></div></div><div class="tiergroup interlinear"><div class="tiergroup-header"><div class="tier-header"><div class="tier" data-tier-id="w">words</div></div><div class="tier-header"><div class="tier" data-tier-id="m">morphemes</div></div><div class="tier-header"><div class="tier" data-tier-id="g">glosses</div></div><div class="tier-header"><div class="tier" data-tier-id="w-pos">pos</div></div></div><div class="tiergroup-content"><div class="itemgroup"><div class="item" data-id="w1">(</div><div class="row"><div class="col"><div class="skip">&nbsp;</div><div class="row"><div class="col"><div class="skip">&nbsp;</div></div></div></div></div><div class="row"><div class="col"><div class="item" data-id="w-pos1">PUNC</div></div></div></div><div class="itemgroup"><div class="item" data-id="w2">Þau</div><div class="row"><div class="col"><div class="item" data-id="m1">Þau</div><div class="row"><div class="col"><div class="item" data-id="g1">they</div></div><div class="col"><div class="item" data-id="g2">NEUT</div></div></div></div></div><div class="row"><div class="col"><div class="item" data-id="w-pos2">PRON</div></div></div></div><div class="itemgroup"><div class="item" data-id="w3">)</div><div class="row"><div class="col"><div class="skip">&nbsp;</div><div class="row"><div class="col"><div class="skip">&nbsp;</div></div></div></div></div><div class="row"><div class="col"><div class="item" data-id="w-pos3">PUNC</div></div></div></div><div class="itemgroup"><div class="item" data-id="w4">Jón</div><div class="row"><div class="col"><div class="item" data-id="m2">Jón</div><div class="row"><div class="col"><div class="item" data-id="g3">Jón</div></div></div></div></div><div class="row"><div class="col"><div class="item" data-id="w-pos4">NOUN</div></div></div></div><div class="itemgroup"><div class="item" data-id="w5">og</div><div class="row"><div class="col"><div class="item" data-id="m3">og</div><div class="row"><div class="col"><div class="item" data-id="g4">og</div></div></div></div></div><div class="row"><div class="col"><div class="item" data-id="w-pos5">VERB</div></div></div></div><div class="itemgroup"><div class="item" data-id="w6">María</div><div class="row"><div class="col"><div class="item" data-id="m4">María</div><div class="row"><div class="col"><div class="item" data-id="g5">María</div></div></div></div></div><div class="row"><div class="col"><div class="item" data-id="w-pos6">NOUN</div></div></div></div><div class="itemgroup"><div class="item" data-id="w7">eru</div><div class="row"><div class="col"><div class="item" data-id="m5">eru</div><div class="row"><div class="col"><div class="item" data-id="g6">are</div></div></div></div></div><div class="row"><div class="col"><div class="item" data-id="w-pos7">VERB</div></div></div></div><div class="itemgroup"><div class="item" data-id="w8">vinir</div><div class="row"><div class="col"><div class="item" data-id="m6">vinir</div><div class="row"><div class="col"><div class="item" data-id="g7">friends</div></div></div></div></div><div class="row"><div class="col"><div class="item" data-id="w-pos8">NOUN</div></div></div></div><div class="itemgroup"><div class="item" data-id="w9">.</div><div class="row"><div class="col"><div class="skip">&nbsp;</div><div class="row"><div class="col"><div class="skip">&nbsp;</div></div></div></div></div><div class="row"><div class="col"><div class="item" data-id="w-pos9">PUNC</div></div></div></div></div></div><div class="tiergroup enumeration"><div class="tiergroup-header"><div class="tier-header"><div class="tier" data-tier-id="t">translations</div></div></div><div class="tiergroup-content"><div class="itemgroup"><div class="item" data-id="t1">Jón and María are friends.</div></div></div></div><div class="tiergroup interlinear"><div class="tiergroup-header"><div class="tier-header"><div class="tier" data-tier-id="tw">words</div></div></div><div class="tiergroup-content"><div class="itemgroup"><div class="item" data-id="tw1">Jón</div></div><div class="itemgroup"><div class="item" data-id="tw2">and</div></div><div class="itemgroup"><div class="item" data-id="tw3">María</div></div><div class="itemgroup"><div class="item" data-id="tw4">are</div></div><div class="itemgroup"><div class="item" data-id="tw5">friends</div></div><div class="itemgroup"><div class="item" data-id="tw6">.</div></div></div></div><div class="tiergroup "><div class="tiergroup-header"><div class="tier-header"><div class="tier" data-tier-id="tw-ps">phrase-structure</div></div></div><div class="tiergroup-content"><div class="itemgroup"><div class="item" data-id="tw-ps1">NNP</div></div><div class="itemgroup"><div class="item" data-id="tw-ps2">CC</div></div><div class="itemgroup"><div class="item" data-id="tw-ps3">NNP</div></div><div class="itemgroup"><div class="item" data-id="tw-ps4">VBP</div></div><div class="itemgroup"><div class="item" data-id="tw-ps5">NNS</div></div><div class="itemgroup"><div class="item" data-id="tw-ps6">.</div></div><div class="itemgroup"><div class="item" data-id="tw-ps7">ROOT</div></div><div class="itemgroup"><div class="item" data-id="tw-ps8">S</div></div><div class="itemgroup"><div class="item" data-id="tw-ps9">NP</div></div><div class="itemgroup"><div class="item" data-id="tw-ps10">VP</div></div><div class="itemgroup"><div class="item" data-id="tw-ps11">NP</div></div></div></div><div class="tiergroup "><div class="tiergroup-header"><div class="tier-header"><div class="tier" data-tier-id="tw-ds">dependencies</div></div></div><div class="tiergroup-content"><div class="itemgroup"><div class="item" data-id="tw-ds1">root</div></div><div class="itemgroup"><div class="item" data-id="tw-ds2">nsubj</div></div><div class="itemgroup"><div class="item" data-id="tw-ds3">cc</div></div><div class="itemgroup"><div class="item" data-id="tw-ds4">conj:and</div></div><div class="itemgroup"><div class="item" data-id="tw-ds5">nsubj</div></div><div class="itemgroup"><div class="item" data-id="tw-ds6">cop</div></div></div></div><div class="tiergroup "><div class="tiergroup-header"><div class="tier-header"><div class="tier" data-tier-id="a">bilingual-alignments</div></div></div><div class="tiergroup-content"><div class="itemgroup"><div class="item" data-id="a1">▨</div></div><div class="itemgroup"><div class="item" data-id="a2">▨</div></div><div class="itemgroup"><div class="item" data-id="a3">▨</div></div><div class="itemgroup"><div class="item" data-id="a4">▨</div></div></div></div><div class="tiergroup "><div class="tiergroup-header"><div class="tier-header"><div class="tier" data-tier-id="w-ps">phrase-structure</div></div></div><div class="tiergroup-content"><div class="itemgroup"><div class="item" data-id="w-ps1">UNK</div></div><div class="itemgroup"><div class="item" data-id="w-ps2">UNK</div></div><div class="itemgroup"><div class="item" data-id="w-ps3">UNK</div></div><div class="itemgroup"><div class="item" data-id="w-ps4">NNP</div></div><div class="itemgroup"><div class="item" data-id="w-ps5">UNK</div></div><div class="itemgroup"><div class="item" data-id="w-ps6">NNP</div></div><div class="itemgroup"><div class="item" data-id="w-ps7">VBP</div></div><div class="itemgroup"><div class="item" data-id="w-ps8">NNS</div></div><div class="itemgroup"><div class="item" data-id="w-ps9">UNK</div></div><div class="itemgroup"><div class="item" data-id="w-ps10">ROOT</div></div><div class="itemgroup"><div class="item" data-id="w-ps11">S</div></div><div class="itemgroup"><div class="item" data-id="w-ps12">NP</div></div><div class="itemgroup"><div class="item" data-id="w-ps13">VP</div></div><div class="itemgroup"><div class="item" data-id="w-ps14">NP</div></div></div></div><div class="tiergroup "><div class="tiergroup-header"><div class="tier-header"><div class="tier" data-tier-id="w-ds">dependencies</div></div></div><div class="tiergroup-content"><div class="itemgroup"><div class="item" data-id="w-ds1">root</div></div><div class="itemgroup"><div class="item" data-id="w-ds2">nsubj</div></div><div class="itemgroup"><div class="item" data-id="w-ds3">▨</div></div><div class="itemgroup"><div class="item" data-id="w-ds4">▨</div></div><div class="itemgroup"><div class="item" data-id="w-ds5">▨</div></div><div class="itemgroup"><div class="item" data-id="w-ds6">conj:and</div></div><div class="itemgroup"><div class="item" data-id="w-ds7">▨</div></div><div class="itemgroup"><div class="item" data-id="w-ds8">nsubj</div></div><div class="itemgroup"><div class="item" data-id="w-ds9">cop</div></div><div class="itemgroup"><div class="item" data-id="w-ds10">▨</div></div></div></div><div class="xigtviz-legend">Key:<div class="refattr-alignment">alignment</div><div class="refattr-segmentation">segmentation</div><div class="refattr-content">content</div><div class="refattr-dep">dep</div><div class="refattr-head">head</div><div class="refattr-children">children</div><div class="refattr-source">source</div><div class="refattr-target">target</div></div></div>
+<script>
+igtLayout("#igt", {"tiers": [{"items": [{"text": "(\u00deau) J\u00f3n og Mar\u00eda eru vinir.", "attributes": {"tag": "L", "alignment": "c1", "line": "1467"}, "id": "n1"}, {"text": "they.NEUT J\u00f3n og Mar\u00eda are friends", "attributes": {"tag": "G", "alignment": "c2", "line": "1468"}, "id": "n2"}, {"text": "J\u00f3n and Mar\u00eda are friends.", "attributes": {"tag": "T", "alignment": "c3", "line": "1469"}, "id": "n3"}], "attributes": {"state": "normalized", "alignment": "c"}, "type": "odin", "id": "n"}, {"items": [{"attributes": {"content": "n1"}, "id": "p1"}], "attributes": {"content": "n"}, "type": "phrases", "id": "p"}, {"items": [{"attributes": {"segmentation": "p1[0:1]"}, "id": "w1"}, {"attributes": {"segmentation": "p1[1:4]"}, "id": "w2"}, {"attributes": {"segmentation": "p1[4:5]"}, "id": "w3"}, {"attributes": {"segmentation": "p1[6:9]"}, "id": "w4"}, {"attributes": {"segmentation": "p1[10:12]"}, "id": "w5"}, {"attributes": {"segmentation": "p1[13:18]"}, "id": "w6"}, {"attributes": {"segmentation": "p1[19:22]"}, "id": "w7"}, {"attributes": {"segmentation": "p1[23:28]"}, "id": "w8"}, {"attributes": {"segmentation": "p1[28:29]"}, "id": "w9"}], "attributes": {"segmentation": "p"}, "type": "words", "id": "w"}, {"items": [{"attributes": {"segmentation": "w2"}, "id": "m1"}, {"attributes": {"segmentation": "w4"}, "id": "m2"}, {"attributes": {"segmentation": "w5"}, "id": "m3"}, {"attributes": {"segmentation": "w6"}, "id": "m4"}, {"attributes": {"segmentation": "w7"}, "id": "m5"}, {"attributes": {"segmentation": "w8"}, "id": "m6"}], "attributes": {"segmentation": "w"}, "type": "morphemes", "id": "m"}, {"items": [{"attributes": {"content": "n2[0:4]", "alignment": "m1"}, "id": "g1"}, {"attributes": {"content": "n2[5:9]", "alignment": "m1"}, "id": "g2"}, {"attributes": {"content": "n2[10:13]", "alignment": "m2"}, "id": "g3"}, {"attributes": {"content": "n2[14:16]", "alignment": "m3"}, "id": "g4"}, {"attributes": {"content": "n2[17:22]", "alignment": "m4"}, "id": "g5"}, {"attributes": {"content": "n2[23:26]", "alignment": "m5"}, "id": "g6"}, {"attributes": {"content": "n2[27:34]", "alignment": "m6"}, "id": "g7"}], "attributes": {"content": "n", "alignment": "m"}, "type": "glosses", "id": "g"}, {"items": [{"text": "PUNC", "attributes": {"alignment": "w1"}, "id": "w-pos1"}, {"text": "PRON", "attributes": {"alignment": "w2"}, "id": "w-pos2"}, {"text": "PUNC", "attributes": {"alignment": "w3"}, "id": "w-pos3"}, {"text": "NOUN", "attributes": {"alignment": "w4"}, "id": "w-pos4"}, {"text": "VERB", "attributes": {"alignment": "w5"}, "id": "w-pos5"}, {"text": "NOUN", "attributes": {"alignment": "w6"}, "id": "w-pos6"}, {"text": "VERB", "attributes": {"alignment": "w7"}, "id": "w-pos7"}, {"text": "NOUN", "attributes": {"alignment": "w8"}, "id": "w-pos8"}, {"text": "PUNC", "attributes": {"alignment": "w9"}, "id": "w-pos9"}], "attributes": {"alignment": "w"}, "type": "pos", "id": "w-pos"}, {"items": [{"attributes": {"content": "n3", "alignment": "p1"}, "id": "t1"}], "attributes": {"content": "n", "alignment": "p"}, "type": "translations", "id": "t"}, {"items": [{"attributes": {"segmentation": "t1[0:3]"}, "id": "tw1"}, {"attributes": {"segmentation": "t1[4:7]"}, "id": "tw2"}, {"attributes": {"segmentation": "t1[8:13]"}, "id": "tw3"}, {"attributes": {"segmentation": "t1[14:17]"}, "id": "tw4"}, {"attributes": {"segmentation": "t1[18:25]"}, "id": "tw5"}, {"attributes": {"segmentation": "t1[25:26]"}, "id": "tw6"}], "attributes": {"segmentation": "t"}, "type": "words", "id": "tw"}, {"items": [{"text": "NNP", "attributes": {"alignment": "tw1"}, "id": "tw-ps1"}, {"text": "CC", "attributes": {"alignment": "tw2"}, "id": "tw-ps2"}, {"text": "NNP", "attributes": {"alignment": "tw3"}, "id": "tw-ps3"}, {"text": "VBP", "attributes": {"alignment": "tw4"}, "id": "tw-ps4"}, {"text": "NNS", "attributes": {"alignment": "tw5"}, "id": "tw-ps5"}, {"text": ".", "attributes": {"alignment": "tw6"}, "id": "tw-ps6"}, {"text": "ROOT", "attributes": {"children": "tw-ps8"}, "id": "tw-ps7"}, {"text": "S", "attributes": {"children": "tw-ps9 tw-ps10 tw-ps6"}, "id": "tw-ps8"}, {"text": "NP", "attributes": {"children": "tw-ps1 tw-ps2 tw-ps3"}, "id": "tw-ps9"}, {"text": "VP", "attributes": {"children": "tw-ps4 tw-ps11"}, "id": "tw-ps10"}, {"text": "NP", "attributes": {"children": "tw-ps5"}, "id": "tw-ps11"}], "attributes": {"children": "tw-ps", "alignment": "tw"}, "type": "phrase-structure", "id": "tw-ps"}, {"items": [{"text": "root", "attributes": {"dep": "tw5"}, "id": "tw-ds1"}, {"text": "nsubj", "attributes": {"dep": "tw1", "head": "tw5"}, "id": "tw-ds2"}, {"text": "cc", "attributes": {"dep": "tw2", "head": "tw1"}, "id": "tw-ds3"}, {"text": "conj:and", "attributes": {"dep": "tw3", "head": "tw1"}, "id": "tw-ds4"}, {"text": "nsubj", "attributes": {"dep": "tw3", "head": "tw5"}, "id": "tw-ds5"}, {"text": "cop", "attributes": {"dep": "tw4", "head": "tw5"}, "id": "tw-ds6"}], "attributes": {"dep": "tw", "head": "tw"}, "type": "dependencies", "id": "tw-ds"}, {"items": [{"attributes": {"target": "g3", "source": "tw1"}, "id": "a1"}, {"attributes": {"target": "g5", "source": "tw3"}, "id": "a2"}, {"attributes": {"target": "g6", "source": "tw4"}, "id": "a3"}, {"attributes": {"target": "g7", "source": "tw5"}, "id": "a4"}], "attributes": {"target": "g", "source": "tw"}, "type": "bilingual-alignments", "id": "a"}, {"items": [{"text": "UNK", "attributes": {"alignment": "w1"}, "id": "w-ps1"}, {"text": "UNK", "attributes": {"alignment": "w2"}, "id": "w-ps2"}, {"text": "UNK", "attributes": {"alignment": "w3"}, "id": "w-ps3"}, {"text": "NNP", "attributes": {"alignment": "w4"}, "id": "w-ps4"}, {"text": "UNK", "attributes": {"alignment": "w5"}, "id": "w-ps5"}, {"text": "NNP", "attributes": {"alignment": "w6"}, "id": "w-ps6"}, {"text": "VBP", "attributes": {"alignment": "w7"}, "id": "w-ps7"}, {"text": "NNS", "attributes": {"alignment": "w8"}, "id": "w-ps8"}, {"text": "UNK", "attributes": {"alignment": "w9"}, "id": "w-ps9"}, {"text": "ROOT", "attributes": {"children": "w-ps11"}, "id": "w-ps10"}, {"text": "S", "attributes": {"children": "w-ps12 w-ps13"}, "id": "w-ps11"}, {"text": "NP", "attributes": {"children": "w-ps1 w-ps2 w-ps3 w-ps4 w-ps5 w-ps6"}, "id": "w-ps12"}, {"text": "VP", "attributes": {"children": "w-ps7 w-ps14"}, "id": "w-ps13"}, {"text": "NP", "attributes": {"children": "w-ps8 w-ps9"}, "id": "w-ps14"}], "attributes": {"children": "w-ps", "alignment": "w"}, "type": "phrase-structure", "id": "w-ps"}, {"items": [{"text": "root", "attributes": {"dep": "w8"}, "id": "w-ds1"}, {"text": "nsubj", "attributes": {"dep": "w4", "head": "w8"}, "id": "w-ds2"}, {"attributes": {"dep": "w1", "head": "w4"}, "id": "w-ds3"}, {"attributes": {"dep": "w2", "head": "w4"}, "id": "w-ds4"}, {"attributes": {"dep": "w3", "head": "w4"}, "id": "w-ds5"}, {"text": "conj:and", "attributes": {"dep": "w6", "head": "w4"}, "id": "w-ds6"}, {"attributes": {"dep": "w5", "head": "w6"}, "id": "w-ds7"}, {"text": "nsubj", "attributes": {"dep": "w6", "head": "w8"}, "id": "w-ds8"}, {"text": "cop", "attributes": {"dep": "w7", "head": "w8"}, "id": "w-ds9"}, {"attributes": {"dep": "w9", "head": "w8"}, "id": "w-ds10"}], "attributes": {"dep": "w", "head": "w"}, "type": "dependencies", "id": "w-ds"}], "id": "igt4085-180"});
+</script>
+
+<h2><a class="anchor" name="links" href="#links">#</a>Links</h2>
+
+Projects involved in the creation and use of ODIN data include:
+
+<ul>
+<li>The <a href="https://github.com/xigt">Xigt organization</a> on GitHub
+</li><li>The <a href="http://intent-project.info/">INTENT</a> project
+</li></ul>
+
+<h2><a class="anchor" name="acknowledgments" href="#acknowledgments">#</a>Acknowledgments</h2>
+
+<p>Work on ODIN (and related projects) has been funded in part by the following grants:</p>
+
+<ul>
+<li> National Science Foundation Grant Nos. BCS-1160274 and BCS-0748919. Any
+     opinions, findings, and conclusions or recommendations expressed in this
+     material are those of the author(s) and do not necessarily reflect the views
+     of the National Science Foundation.
+</li><li> Singapore Ministry of Education Tier 2 grant (grant number MOE2013-T2-1-016)
+</li></ul>
+
+<div class="footer">
+
+<p>Last updated on 2016-03-11</p>
+</div>
+
+
+
+
+</body></html>
