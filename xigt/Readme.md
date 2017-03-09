@@ -15,6 +15,8 @@ Goal is a direct, shallow conversion to RDF.
 The Relax NG schema is extensible: additional attributes can be defined and additional constraints on types or metadata can be defined as needed, etc.
 See xigt-rnc.png, resp. xigt-rnc.dia for core data structures.
 
+![Xigt data model, from RNC scheme][https://raw.githubusercontent.com/acoli-repo/LLODifier/master/xigt/xigt-rnc.png xigt-rnc.png]
+
 In general, ID attributes (@id) should become URIs in the document namespace, IDREF (e.g., @alignment) Object Properties, other attributes Datatype Properties, nested elements should be represented by Datatype Properties, their name being defined by @type attributes.
 In the example data and default-xigt.rnc, tier/@type is a plural forms (this is a convention). As these do not easily translate into Object Property names, aggregator elements for which plural names occur are represented as RDF collections.
 
