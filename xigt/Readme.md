@@ -140,8 +140,8 @@ Converting metadata
 * metadata is an aggregator element for metadata properties, not necessary in RDF, all metadata properties are just defined as subproperties of xigt:metadata
 * metadata/meta refers to multiple layers and combines multiple additional attributes (i.e., requires reification), also modelled as a Collection, i.e. 
 
-	xigt:has_{@type} rdfs:subPropertyOf xigt:metadata.
-	doc:xigt_corpus_1 xigt:has_{@type} [ ... ].
+	xigt:{@type} rdfs:subPropertyOf xigt:metadata.
+	doc:xigt_corpus_1 xigt:{@type} [ ... ].
 
 (I use doc: for the document namespace.)
 		
@@ -162,11 +162,11 @@ becomes
 
 		doc:corp1 a xigt:xigt-corpus.																					# 1
 		
-		doc:corp1 xigt:has_language [ xigt:name "Abkhaz"; xigt:iso-639-3 "abk"; xigt:tiers "phrases words morphemes" ].	# 3
-		xigt:has_language rdfs:subPropertyOf xigt:metadata.																# 2(+3)
+		doc:corp1 xigt:language [ xigt:name "Abkhaz"; xigt:iso-639-3 "abk"; xigt:tiers "phrases words morphemes" ].	# 3
+		xigt:language rdfs:subPropertyOf xigt:metadata.																# 2(+3)
 		
-		doc:corp1 xigt:has_language [ xigt:name "English"; xigt:iso-639-3 "eng"; xigt:tiers "glosses translations" ].	# 4
-		xigt:has_language rdfs:subPropertyOf xigt:metadata.																# 2(+4)
+		doc:corp1 xigt:language [ xigt:name "English"; xigt:iso-639-3 "eng"; xigt:tiers "glosses translations" ].	# 4
+		xigt:language rdfs:subPropertyOf xigt:metadata.																# 2(+4)
 		
 As meta can contain other (undefined) Elements, these can be captured in RDF as either literal XML or serialized into a String literal.
 
