@@ -23,9 +23,13 @@
     </xsl:template>
     
     <!-- added in accordance with Readme.md -->
+    <!-- note that we currently loose attributes of metadata (except @type, but incl. @id), but preserve attributes of meta 
+         these could be added via reification
+    -->
     <xsl:template match="metadata">
         <xsl:variable name="metadata_type" select="@type"/>
         <xsl:for-each select="meta">
+            <xsl:variable name="id" select="@id"/>            
             <xsl:variable name="type">
                 <xsl:choose>
                     <xsl:when test="string-length(@type)>0">
@@ -37,12 +41,12 @@
             <xsl:if test="$type!='metadata' and count(preceding::meta[name()=$type][1])=0">
                 <xsl:text>xigt:</xsl:text>
                 <xsl:value-of select="$type"/>
-                <xsl:text> rdfs:subPropertyOf xigt:</xsl:text>
+                <xsl:text> rdfs:subPropertyOf </xsl:text>
                 <xsl:choose>
                     <xsl:when test="$metadata_type!=''">
                         <xsl:value-of select="$metadata_type"/>
                         <xsl:text>.&#10;</xsl:text>
-                        <xsl:if test="count(./preceding::meta)+.count(/preceding::metadata[@type=$metadata_type]/meta[1])=0">
+                        <xsl:if test="count(./preceding::meta[1])+count(/preceding::metadata[@type=$metadata_type]/meta[1])=0">
                             <xsl:text>xigt:</xsl:text>
                             <xsl:value-of select="$metadata_type"/>
                             <xsl:text> rdfs:subPropertyOf xigt:metadata.&#10;</xsl:text>
@@ -53,10 +57,50 @@
                     </xsl:otherwise>
                 </xsl:choose>
             </xsl:if>
-            <!-- TODO -->
+                <xsl:for-each select="../..">
+                    <xsl:call-template name="get-uri"/>
+                    <xsl:text> </xsl:text>
+                </xsl:for-each>
+                <xsl:text> xigt:</xsl:text>
+                <xsl:value-of select="$type"/>
+            <xsl:text> </xsl:text>
             
-        </xsl:for-each>
+                <xsl:choose>
+                    <xsl:when test="string-length(@id)>0">
+                        <xsl:text>:</xsl:text>
+                        <xsl:value-of select="@id"/>
+                        <xsl:text>.&#10;</xsl:text>
+                        <xsl:text>:</xsl:text>
+                        <xsl:value-of select="@id"/>
+                        <xsl:text> </xsl:text>
+                    </xsl:when>
+                    <xsl:otherwise>
+                        <xsl:text> [ </xsl:text>
+                    </xsl:otherwise>
+                </xsl:choose>
+            
+            <xsl:variable name="meta_triple_raw">
+                <xsl:if test="string-length(normalize-space(string-join(.,'')))&gt;0">
+                <xsl:text> xigt:meta "</xsl:text>
+                <xsl:value-of select="replace(replace(normalize-space(string-join(.,' ')),'&amp;','&amp;amp;'),'&quot;','&amp;quot;')"/>
+                <xsl:text>" ; </xsl:text>
+                </xsl:if>
+                <xsl:for-each select="@*[name()!='type' and name()]">
+                    <xsl:text>xigt:</xsl:text>
+                    <xsl:value-of select="name()"/>
+                    <xsl:text> "</xsl:text>
+                    <xsl:value-of select="replace(replace(.,'&amp;','&amp;amp;'),'&quot;','&amp;quot;')"/>
+                    <xsl:text>"; </xsl:text>
+                </xsl:for-each>
+            
+            </xsl:variable>
+            <xsl:value-of select="replace($meta_triple_raw,'; $','')"/>
+                <xsl:if test="string-length(@id)=0">
+                    <xsl:text> ]</xsl:text>
+                </xsl:if>
+             <xsl:text> .&#10;</xsl:text>
 
+        </xsl:for-each>
     </xsl:template>
     
     <xsl:template match="*">

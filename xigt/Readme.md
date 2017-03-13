@@ -176,19 +176,19 @@ As for the property representing the actual content, I suggest xigt:meta (follow
 
 Hence, we have
 	
-		doc:corp1 xigt:has_date [ xigt:meta "May 1 2009" ].																# 5
-		xigt:has_date rdfs:subPropertyOf xigt:metadata.																	# 2(+5)
+		doc:corp1 xigt:date [ xigt:meta "May 1 2009" ].																# 5
+		xigt:date rdfs:subPropertyOf xigt:metadata.																	# 2(+5)
 		
-		doc:corp1 xigt:has_author [ xigt:meta "Safiyyah Saleem" ].														# 6
-		xigt:has_author rdfs:subPropertyOf xigt:metadata.																# 2(+6)
+		doc:corp1 xigt:author [ xigt:meta "Safiyyah Saleem" ].														# 6
+		xigt:author rdfs:subPropertyOf xigt:metadata.																# 2(+6)
 
 	The @id attribute is special insofar as it provides a name (=> a URI) for the reified element.
 	
-		doc:corp1 xigt:has_source doc:src-a.																			# 7
+		doc:corp1 xigt:source doc:src-a.																			# 7
 		doc:src-a xigt:meta "Abkhaz by Viacheslav A. Chirkba".															# 7
-		xigt:has_source rdfs:subPropertyOf xigt:metadata.																# 2(+7)
+		xigt:source rdfs:subPropertyOf xigt:metadata.																# 2(+7)
 		
-		doc:corp1 xigt:has_source doc:src-b.																			# 8
+		doc:corp1 xigt:source doc:src-b.																			# 8
 		doc:src-b xigt:meta "Safiyyah Saleem".																			# 8
 		# no need to repeat 2(+7) triple
 		
@@ -196,11 +196,11 @@ Note that these explicit triples are equivalent with the list notation above, as
 
 Hence
 		
-		doc:corp1 xigt:has_author [ xigt:meta "Safiyyah Saleem " ].														# 6
+		doc:corp1 xigt:author [ xigt:meta "Safiyyah Saleem " ].														# 6
 		
 is equivalent with
 	
-		doc:corp1 xigt:has_author _:some_internal_id.																	# 6
+		doc:corp1 xigt:author _:some_internal_id.																	# 6
 		_:some_internal_id xigt:meta "Safiyyah Saleem".																	# 6
 
 Should @type ever be missing, use xigt:metadata.
