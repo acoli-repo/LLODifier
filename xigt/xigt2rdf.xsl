@@ -82,10 +82,15 @@
             <xsl:variable name="meta_triple_raw">
                 <xsl:if test="string-length(normalize-space(string-join(.,'')))&gt;0">
                 <xsl:text> xigt:meta "</xsl:text>
+                    <!--xsl:copy-of select="."/--> 
+                    <!-- for XML content, as defined in the RelaxNG scheme -->
+                    
                 <xsl:value-of select="replace(replace(normalize-space(string-join(.,' ')),'&amp;','&amp;amp;'),'&quot;','&amp;quot;')"/>
+                    <!-- for textual content, as found in the sample files -->
+                    
                 <xsl:text>" ; </xsl:text>
                 </xsl:if>
-                <xsl:for-each select="@*[name()!='type' and name()]">
+                <xsl:for-each select="@*[name()!='type' and name()!='id']">
                     <xsl:text>xigt:</xsl:text>
                     <xsl:value-of select="name()"/>
                     <xsl:text> "</xsl:text>

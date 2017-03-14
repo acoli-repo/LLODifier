@@ -168,7 +168,7 @@ becomes
 		doc:corp1 xigt:language [ xigt:name "English"; xigt:iso-639-3 "eng"; xigt:tiers "glosses translations" ].	# 4
 		xigt:language rdfs:subPropertyOf xigt:metadata.																# 2(+4)
 		
-As meta can contain other (undefined) Elements, these can be captured in RDF as either literal XML or serialized into a String literal.
+As meta can contain other (undefined) elements, these can be captured in RDF as either literal XML or serialized into a String literal.
 
 As lines 7 and 8 show, it is still necessary to use a reified representation, because additional attributes could be added. 
 
