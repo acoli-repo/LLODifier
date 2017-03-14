@@ -182,7 +182,7 @@ Hence, we have
 		doc:corp1 xigt:author [ xigt:meta "Safiyyah Saleem" ].														# 6
 		xigt:author rdfs:subPropertyOf xigt:metadata.																# 2(+6)
 
-	The @id attribute is special insofar as it provides a name (=> a URI) for the reified element.
+The @id attribute is special insofar as it provides a name (=> a URI) for the reified element.
 	
 		doc:corp1 xigt:source doc:src-a.																			# 7
 		doc:src-a xigt:meta "Abkhaz by Viacheslav A. Chirkba".															# 7
@@ -208,6 +208,14 @@ Should @type ever be missing, use xigt:metadata.
 Detecting Object properties
 ---
 Beyond the core RelaxNG scheme, additional attributes are possible and are being used. It is not a priori clear, however, whether they represent object properties (references) or datatype properties (values). This is heuristically guessed *from the data*: If all ([, ]-separated) values of an XML attribute (regardless of parent) are defined by some @id attribute, the attribute must be an object property, otherwise, it's a datatype property.
+
+RDFS datatype inference
+---
+
+For bootstrapping relations between classes and properties from the converted data, it is useful to assign blank nodes a class. 
+In particular, objects of (subproperties of) xigt:metadata and subjects of xigt:meta. To avoid confusion with metadata, we define that
+
+	xigt:metadata rdfs:domain xigt:Metadata.
 
 Postprocessing using SPARQL Update
 ---

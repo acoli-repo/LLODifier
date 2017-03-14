@@ -18,7 +18,12 @@
         <xsl:text>#&gt;&#10;</xsl:text>
         <xsl:text>&#10;</xsl:text>
         
+        <!-- RDFS schema information -->
+        <xsl:text># RDFS schema information&#10;&#10;</xsl:text>
+        <xsl:text>xigt:metadata rdfs:range xigt:Metadata.&#10;&#10;</xsl:text>
+        
         <!-- write TTL body -->
+        <xsl:text># data&#10;&#10;</xsl:text>
         <xsl:apply-templates/>
     </xsl:template>
     
@@ -166,10 +171,10 @@
     
     <xsl:template match="text()"/>
     
-    <!-- Heuristic detection of object properties.
+    <!-- Heuristic detection of object properties (slow):
         The generic XML data structre doesn't distinguish object and datatype properties, but we can guess that an 
          attribute is an object property if all its values are defined by @id <br/>
-         This is called upon an xml attribute
+         This is called upon an xml attribute.
     -->
     <xsl:template name="guess-object-type">
         <xsl:param name="name" select="name()"/>
