@@ -25,13 +25,13 @@ In the example data and default-xigt.rnc, tier/@type is a plural forms (this is 
 * **Metadata.type**: "intent-meta", "xigt-meta"
 * **Tier.type**: "bilingual-alignments", "dependencies", "glosses", "morphemes", "odin", "phrases", "phrase-structure", "pos", "syntax", "translations", "words"
 
-=> Tier as an aggregator, everything else via Object Properties?
-
 This has the disadvantage that the Xigt RDF schema will not be compliant with OWL (nor with other LLODifier schemes), it has the advantage that we do not require explicit properties for representing sequences, but instead can rely on RDF-inherent (implicit) properties for accessing list data structures.
 
 Xigt employs a proprietary scheme to refer to substrings. In RDF, this could be represented using NIF String URIs at a later point in time. For the moment, we keep the original references along with segment alignment information.
 
 Unlike FLex, Xigt doesn't predefine its units of segmentation, this is subject to schema extensions and represented only in the @type attribute. Hence much more generic, but also much harder to parse because character offsets need to be converted.
+
+As a general convention, the xml following-sibling axis is modeled by xigt:next (not transitive), the child relation of any content element X as xigt:has_X.
 
 xigt-corpus, igt, tier
 ---
@@ -77,11 +77,12 @@ The xigt:text property corresponds to the text data type in the RelaxNG schema.
 
 Treatment of subsegmented strings is problematic. As this is always item/@segmentation, and this refers to character offsets, I just define them as nif:subString and keep segmentation as a datatype property. Note that tier/@segmentation is actually redundant and thus omitted. Accordingly, xigt:segmentation is always a datatype property.
 
-	doc:w1 nif:subString doc:p1; xigt:segmentation "p1[0:10]"; xigt:next_item doc:w2.	# 7, xigt:segmentation is later treated using a simple SPARQL Update script
-	doc:w2 nif:subString doc:p1; xigt:segmentation "p1[11:17]"; xigt:next_item doc:w3.	# 8
+	doc:w1 nif:subString doc:p1; xigt:segmentation "p1[0:10]"; xigt:next doc:w2.		# 7, xigt:segmentation is later treated using a simple SPARQL Update script
+	doc:w2 nif:subString doc:p1; xigt:segmentation "p1[11:17]"; xigt:next doc:w3.		# 8
 	doc:w3 nif:subString doc:p1; xigt:segmentation "p1[18:26]".							# 9
 
-TODO: check direction of nif:subString.
+nif:subString is not ideal because xigt items do not have to be strings, but can also be (zero!) morphology. 
+xigt:segmentation is always a datatype property, as it is redundant with nif:subString otherwise.
 
 Other layers accordingly:
 
@@ -120,15 +121,15 @@ Another alignment operation is mere reference, marked by @alignment
 
 The example shows that order is not necessarily respected. However, we interpret these as fused morphemes, cf. the use of . in the Leipzig Glossing Rules.
 
-	doc:g1.1 xigt:alignment doc:m1.1; xigt:text "the"; xigt:next_item doc:g1.2.			# 22
-	doc:g1.2 xigt:alignment doc:m1.2; xigt:text "boy"; xigt:next_item doc:g2.1.			# 23
-	doc:g2.1 xigt:alignment doc:m2.2; xigt:text "the"; xigt:next_item doc:g2.2.			# 24
-	doc:g2.2 xigt:alignment doc:m3.2; xigt:text "girl"; xigt:next_item doc:g3.1.		# 25
-	doc:g3.1 xigt:alignment doc:m3.1; xigt:text "her"; xigt:next_item doc:g3.2.			# 26
-	doc:g3.2 xigt:alignment doc:m3.2; xigt:text "he"; xigt:next_item doc:g3.3.			# 27
-	doc:g3.3 xigt:alignment doc:m3.3; xigt:text "see"; xigt:next_item doc:g3.4.1.		# 28
-	doc:g3.4.1 xigt:alignment doc:m3.4; xigt:text "DYN"; xigt:next_item doc:g3.4.2.		# 29 (we assume this is an ordered sequence of annotations for a fused morpheme
-	doc:g3.4.2 xigt:alignment doc:m3.4; xigt:text "FIN".								# 30
+	doc:g1.1 xigt:alignment doc:m1.1; xigt:text "the"; xigt:next doc:g1.2.			# 22
+	doc:g1.2 xigt:alignment doc:m1.2; xigt:text "boy"; xigt:next doc:g2.1.			# 23
+	doc:g2.1 xigt:alignment doc:m2.2; xigt:text "the"; xigt:next doc:g2.2.			# 24
+	doc:g2.2 xigt:alignment doc:m3.2; xigt:text "girl"; xigt:next doc:g3.1.		# 25
+	doc:g3.1 xigt:alignment doc:m3.1; xigt:text "her"; xigt:next doc:g3.2.			# 26
+	doc:g3.2 xigt:alignment doc:m3.2; xigt:text "he"; xigt:next doc:g3.3.			# 27
+	doc:g3.3 xigt:alignment doc:m3.3; xigt:text "see"; xigt:next doc:g3.4.1.		# 28
+	doc:g3.4.1 xigt:alignment doc:m3.4; xigt:text "DYN"; xigt:next doc:g3.4.2.		# 29 (we assume this is an ordered sequence of annotations for a fused morpheme
+	doc:g3.4.2 xigt:alignment doc:m3.4; xigt:text "FIN".							# 30
 
 This modeling is not very efficient, more practical would be a property-based model as in FLex RDF. The problem is that the type of annotation is hidden in the tier/@type attribute and normally uses a plural form.
 
@@ -140,8 +141,8 @@ Converting metadata
 * metadata is an aggregator element for metadata properties, not necessary in RDF, all metadata properties are just defined as subproperties of xigt:metadata
 * metadata/meta refers to multiple layers and combines multiple additional attributes (i.e., requires reification), also modelled as a Collection, i.e. 
 
-	xigt:{@type} rdfs:subPropertyOf xigt:metadata.
-	doc:xigt_corpus_1 xigt:{@type} [ ... ].
+		xigt:{@type} rdfs:subPropertyOf xigt:metadata.
+		doc:xigt_corpus_1 xigt:{@type} [ ... ].
 
 (I use doc: for the document namespace.)
 		
@@ -215,7 +216,7 @@ RDFS datatype inference
 For bootstrapping relations between classes and properties from the converted data, it is useful to assign blank nodes a class. 
 In particular, objects of (subproperties of) xigt:metadata and subjects of xigt:meta. To avoid confusion with metadata, we define that
 
-	xigt:metadata rdfs:domain xigt:Metadata.
+	xigt:metadata rdfs:range xigt:Metadata.
 
 Postprocessing using SPARQL Update
 ---

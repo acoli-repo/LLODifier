@@ -140,7 +140,7 @@
         </xsl:variable>
         
         <xsl:if test=" normalize-space($text)!=''">
-            <xsl:text>;&#10;rdfs:label "</xsl:text>
+            <xsl:text>;&#10;xigt:text "</xsl:text>
             <xsl:value-of select="replace(replace(.,'&amp;','&amp;amp;'),'&quot;','&amp;quot;')"/>
             <xsl:text>"</xsl:text>
         </xsl:if>
@@ -155,10 +155,20 @@
         <xsl:apply-templates/>
     </xsl:template>
     
-    <!-- attributes, special treatment of some default attributes -->
+    <!-- attributes, special treatment of @id, @segmentation; TODO @content, @type -->
     <xsl:template match="@*">
         <xsl:choose>
-            <xsl:when test="name()='id'"/>  <!-- cf. URI -->
+            <xsl:when test="name()='id'"/>              <!-- cf. URI -->
+            <xsl:when test="name()='segmentation'">     <!-- segmentation: always datatype properties, for object properties cf. nif:subString -->
+                <xsl:text>;&#10;</xsl:text>
+                <xsl:text>nif:subString :</xsl:text>
+                <xsl:value-of select="replace(.,'\[.*\]','')"/>
+                <xsl:text>;&#10;xigt:</xsl:text>
+                <xsl:value-of select="name()"/>
+                <xsl:text> "</xsl:text>
+                <xsl:value-of select="normalize-space(.)"/>
+                <xsl:text>"</xsl:text>
+            </xsl:when>
             <xsl:otherwise>                 <!-- datatype properties -->
                 <xsl:text>;&#10;</xsl:text>
                 <xsl:text>xigt:</xsl:text>
