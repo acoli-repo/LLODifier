@@ -93,9 +93,9 @@
                 <xsl:for-each select="@*[name()!='type' and name()!='id']">
                     <xsl:text>xigt:</xsl:text>
                     <xsl:value-of select="name()"/>
-                    <xsl:text> "</xsl:text>
-                    <xsl:value-of select="replace(replace(.,'&amp;','&amp;amp;'),'&quot;','&amp;quot;')"/>
-                    <xsl:text>"; </xsl:text>
+                    <xsl:text> </xsl:text>
+                    <xsl:call-template name="guess-object-type"/>
+                    <xsl:text>; </xsl:text>
                 </xsl:for-each>
             
             </xsl:variable>
@@ -158,14 +158,52 @@
                 <xsl:text>;&#10;</xsl:text>
                 <xsl:text>xigt:</xsl:text>
                 <xsl:value-of select="name()"/>
-                <xsl:text> "</xsl:text>
-                <xsl:value-of select="replace(replace(.,'&amp;','&amp;amp;'),'&quot;','&amp;quot;')"/>
-                <xsl:text>"</xsl:text>
+                <xsl:text> </xsl:text>
+                <xsl:call-template name="guess-object-type"/>
             </xsl:otherwise>
         </xsl:choose>
     </xsl:template>
     
     <xsl:template match="text()"/>
+    
+    <!-- Heuristic detection of object properties.
+        The generic XML data structre doesn't distinguish object and datatype properties, but we can guess that an 
+         attribute is an object property if all its values are defined by @id <br/>
+         This is called upon an xml attribute
+    -->
+    <xsl:template name="guess-object-type">
+        <xsl:param name="name" select="name()"/>
+        <xsl:param name="value" select="."/>
+        <xsl:variable name="document" select="/"/>
+        <xsl:variable name="non-id-vals">
+            <xsl:for-each select="//@*[name()=$name]">
+                <xsl:for-each select="tokenize(.,'[, ]')">
+                    <xsl:variable name="tmp" select="."/>
+                    <xsl:if test="not(exists($document//@id[.=$tmp]))">
+                        <xsl:value-of select="$tmp"/>
+                        <xsl:text> </xsl:text>
+                    </xsl:if>
+                </xsl:for-each>
+            </xsl:for-each>
+        </xsl:variable>
+        <xsl:choose>
+            <xsl:when test="string-length($non-id-vals)>0">
+                <!--xsl:when test="not(exists(//@id[.=$value])) and not(exists(//@*[name()=$name][.=//@id]))"-->
+                    <!-- the first term is faster to check, hence speedup -->
+                <xsl:text>"</xsl:text>
+                <xsl:value-of select="replace(replace($value,'&amp;','&amp;amp;'),'&quot;','&amp;quot;')"/>
+                <xsl:text>"</xsl:text>
+            </xsl:when>
+            <xsl:otherwise>
+                <xsl:text>:</xsl:text>
+                <xsl:value-of select="replace(replace(replace(normalize-space($value),
+                    ':','%3A'),
+                    '[, ]',',:'),
+                    '&quot;','%22')"/>
+            </xsl:otherwise>
+        </xsl:choose>
+        
+    </xsl:template>
     
     <xsl:template name="get-uri">
         <xsl:variable name="name" select="name()"/>

@@ -204,7 +204,11 @@ is equivalent with
 		_:some_internal_id xigt:meta "Safiyyah Saleem".																	# 6
 
 Should @type ever be missing, use xigt:metadata.
-		
+
+Detecting Object properties
+---
+Beyond the core RelaxNG scheme, additional attributes are possible and are being used. It is not a priori clear, however, whether they represent object properties (references) or datatype properties (values). This is heuristically guessed *from the data*: If all ([, ]-separated) values of an XML attribute (regardless of parent) are defined by some @id attribute, the attribute must be an object property, otherwise, it's a datatype property.
+
 Postprocessing using SPARQL Update
 ---
 
