@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform" version="2.0">
+<xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform"  xmlns:xs="http://www.w3.org/2001/XMLSchema" version="2.0">
 
     <xsl:output method="text" indent="no"/>
     
@@ -155,14 +155,151 @@
         <xsl:apply-templates/>
     </xsl:template>
     
+    <!-- retrieve string representation, this is necessary because @segmentation may point to an element that has no textual content, but a @content attribute <br/>
+        note that we do not check for cycles of @content links
+    -->
+    <xsl:template name="get-label">
+        <xsl:param name="context"/>
+        <xsl:variable name="result" select="string-join(.//text(),' ')"/>
+        <xsl:message>
+            <xsl:text>get-label(</xsl:text>
+            <xsl:value-of select="$context"/>
+            <xsl:text>)=</xsl:text>
+            <xsl:value-of select="$result"/>
+        </xsl:message>
+        <xsl:value-of select="$result"/>
+    </xsl:template>
+    
+    <!-- cf. https://github.com/xigt/xigt/wiki/Alignment-Expressions, called from an attribute -->
+    <xsl:template name="resolve-alignment-expression">
+        <xsl:param name="alignment"/>
+        <xsl:param name="context"/>
+        <xsl:message>
+            <xsl:text>resolve-alignment-expression(</xsl:text>
+            <xsl:value-of select="$alignment"/>
+            <xsl:text>)</xsl:text>
+        </xsl:message>
+        <xsl:choose>
+            <xsl:when test="contains($alignment,']+')">
+                <xsl:variable name="head" select="replace($alignment,'\]\+.*','\]')"/>
+                <xsl:call-template name="resolve-alignment-expression">
+                    <xsl:with-param name="alignment" select="$head"/>
+                    <xsl:with-param name="context" select="$context"/>
+                </xsl:call-template>
+                <xsl:call-template name="resolve-alignment-expression">
+                    <xsl:with-param name="alignment" select="substring-after($alignment,concat($head,'+'))"/>
+                    <xsl:with-param name="context" select="$context"/>
+                </xsl:call-template>
+            </xsl:when>
+            <xsl:when test="contains($alignment,'],')">
+                <xsl:variable name="head" select="replace($alignment,'\],.*','\]')"/>
+                <xsl:call-template name="resolve-alignment-expression">
+                    <xsl:with-param name="alignment" select="$head"/>
+                    <xsl:with-param name="context" select="$context"/>
+                </xsl:call-template>
+                <xsl:text> </xsl:text>
+                <xsl:call-template name="resolve-alignment-expression">
+                    <xsl:with-param name="alignment" select="substring-after($alignment,concat($head,','))"/>
+                    <xsl:with-param name="context" select="$context"/>
+                </xsl:call-template>
+            </xsl:when>
+            <xsl:when test="contains($alignment,',')">
+                <xsl:call-template name="resolve-alignment-expression">
+                    <xsl:with-param name="context" select="$context"/>
+                    <xsl:with-param name="alignment" select="concat(substring-before($alignment,','),']')"/>
+                </xsl:call-template>
+                <xsl:text> </xsl:text>
+                <xsl:call-template name="resolve-alignment-expression">
+                    <xsl:with-param name="context" select="$context"/>
+                    <xsl:with-param name="alignment" select="concat(substring-before($alignment,'['),substring-after($alignment,','))"/>
+                </xsl:call-template>
+            </xsl:when>
+            <xsl:when test="contains($alignment,'+')">
+                <xsl:call-template name="resolve-alignment-expression">
+                    <xsl:with-param name="context" select="$context"/>
+                    <xsl:with-param name="alignment" select="concat(substring-before($alignment,','),']')"/>
+                </xsl:call-template>
+                <xsl:call-template name="resolve-alignment-expression">
+                    <xsl:with-param name="context" select="$context"/>
+                    <xsl:with-param name="alignment" select="concat(substring-before($alignment,'['),substring-after($alignment,','))"/>
+                </xsl:call-template>
+            </xsl:when>
+            <xsl:when test="contains($alignment,':')">
+                <xsl:variable name="range" select="substring-before(substring-after($alignment,'['),']')"/>
+                <xsl:variable name="start" select="number(substring-before($range,':'))" as="xs:double"/>
+                <xsl:variable name="end" select="number(substring-after($range,':'))" as="xs:double"/>
+                <xsl:variable name="label">
+                    <xsl:for-each select="//*[@id=substring-before($alignment,'[')][1]">
+                        <xsl:choose>
+                            <xsl:when test="string-length(normalize-space(string-join(.//text(),' ')))>0">
+                                <xsl:call-template name="get-label">
+                                    <xsl:with-param name="context" select="$context"/>
+                                </xsl:call-template>
+                            </xsl:when>
+                            <xsl:when test="string-length(@content)>0">
+                                <xsl:call-template name="resolve-alignment-expression">
+                                    <xsl:with-param name="context" select="$context"/>
+                                    <xsl:with-param name="alignment" select="@content"/>
+                                </xsl:call-template>
+                            </xsl:when>
+                            <xsl:when test="string-length(@segmentation)>0">
+                                <xsl:call-template name="resolve-alignment-expression">
+                                    <xsl:with-param name="context" select="$context"/>
+                                    <xsl:with-param name="alignment" select="@segmentation"/>
+                                </xsl:call-template>
+                            </xsl:when>
+                        </xsl:choose>
+                    </xsl:for-each>
+                </xsl:variable>
+                <xsl:value-of select="substring($label,$start,$end - $start)"/>
+            </xsl:when>
+            <xsl:when test="exists(//item[@id=$alignment][string-length(normalize-space(string-join(.//text(),' ')))>0])">
+                <xsl:for-each select="//*[@id=substring-before($alignment,'[')][1]">
+                    <xsl:call-template name="get-label">
+                        <xsl:with-param name="context" select="$context"/>
+                    </xsl:call-template>
+                </xsl:for-each>
+            </xsl:when>
+            <xsl:otherwise>
+                <xsl:message>
+                    <xsl:text>cannot process resolve-alignment-expression(</xsl:text>
+                    <xsl:value-of select="$alignment"/>
+                    <xsl:text>)</xsl:text>
+                </xsl:message>
+            </xsl:otherwise>
+        </xsl:choose>
+    </xsl:template>
+    
     <!-- attributes, special treatment of @id, @segmentation; TODO @content, @type -->
     <xsl:template match="@*">
+        <xsl:variable name="value" select="."/> 
+        
+        <!-- evaluate segmentation (> nif:subString) -->
+        <xsl:if test="name()='segmentation'">
+            <xsl:text>;&#10;</xsl:text>
+            <xsl:text>nif:subString :</xsl:text>
+            <xsl:value-of select="replace(.,'\[.*\]','')"/>
+        </xsl:if>
+        
+        <!-- evaluate alignment expressions for content (> rdfs:label) -->
+        <xsl:if test="(name()='content' or name()='segmentation') and ../name()='item'">
+            <xsl:text>;&#10;</xsl:text>
+            <xsl:text>rdfs:label "</xsl:text>
+            <xsl:variable name="raw-label">
+               <xsl:call-template name="resolve-alignment-expression">
+                   <xsl:with-param name="context" select="."/>
+                   <xsl:with-param name="alignment" select="."/>
+               </xsl:call-template>
+            </xsl:variable>
+            <xsl:value-of select="replace(replace(
+                    $raw-label,
+                    '&amp;','&amp;amp;'),
+                    '&quot;','&amp;quot;')"/>
+            <xsl:text>"</xsl:text>
+        </xsl:if>
         <xsl:choose>
             <xsl:when test="name()='id'"/>              <!-- cf. URI -->
-            <xsl:when test="name()='segmentation'">     <!-- segmentation: always datatype properties, for object properties cf. nif:subString -->
-                <xsl:text>;&#10;</xsl:text>
-                <xsl:text>nif:subString :</xsl:text>
-                <xsl:value-of select="replace(.,'\[.*\]','')"/>
+            <xsl:when test="name()='segmentation' or name()='content'">     <!-- segmentation, content: always datatype properties, but see above -->
                 <xsl:text>;&#10;xigt:</xsl:text>
                 <xsl:value-of select="name()"/>
                 <xsl:text> "</xsl:text>
