@@ -15,6 +15,32 @@
         <xsl:text>PREFIX xigt: &lt;https://github.com/xigt/xigt/wiki/Data-Model#&gt;&#10;</xsl:text>
         <xsl:text>PREFIX owl: &lt;http://www.w3.org/2002/07/owl#&gt;&#10;</xsl:text>
         <xsl:text>PREFIX rdfs: &lt;http://www.w3.org/2000/01/rdf-schema#&gt;&#10;</xsl:text>
+        
+        <!-- we preserve namespace bindings as PREFIXes to support interpretability of XML metadata -->
+        <xsl:variable name="namespaces">
+            <xsl:for-each select="//(*|@*)[contains(name(),':')]">
+                    <xsl:sort select="substring-before(name(),':')"/>
+                    <xsl:variable name="prefix" select="substring-before(name(),':')"/>
+                    <xsl:if test="count(preceding::*[starts-with(name(),concat($prefix,':'))][1])=0 and
+                        count(preceding::*/@*[starts-with(name(),concat($prefix,':'))][1])=0">
+                        <xsl:value-of select="$prefix"/>
+                        <xsl:text>=</xsl:text>
+                        <xsl:value-of select="namespace-uri(.)"/>
+                        <xsl:text> </xsl:text>
+                    </xsl:if>                
+                </xsl:for-each>
+            </xsl:variable>
+            <xsl:for-each select="tokenize(normalize-space($namespaces),' ')">
+                    <xsl:text>PREFIX </xsl:text>
+                    <xsl:value-of select="substring-before(.,'=')"/>
+                    <xsl:text disable-output-escaping="yes">: &lt;</xsl:text>
+                    <xsl:value-of select="substring-after(.,'=')"/>
+                    <xsl:if test="not(matches(.,'.*[#/]$'))">
+                        <xsl:text>#</xsl:text>
+                    </xsl:if>
+                    <xsl:text disable-output-escaping="yes">>&#10;</xsl:text>
+            </xsl:for-each>
+        
         <xsl:text>PREFIX : &lt;</xsl:text>
         <xsl:value-of select="$baseURI"/>
         <xsl:text>#&gt;&#10;</xsl:text>
@@ -103,15 +129,10 @@
                 </xsl:choose>
             
             <xsl:variable name="meta_triple_raw">
-                <xsl:if test="string-length(normalize-space(string-join(.,'')))&gt;0">
-                <xsl:text> xigt:meta "</xsl:text>
-                    <!--xsl:copy-of select="."/--> 
-                    <!-- for XML content, as defined in the RelaxNG scheme -->
-                    
-                <xsl:value-of select="replace(replace(normalize-space(string-join(.,' ')),'&amp;','&amp;amp;'),'&quot;','&amp;quot;')"/>
-                    <!-- for textual content, as found in the sample files -->
-                    
-                <xsl:text>" ; </xsl:text>
+                <xsl:if test="count(*)&gt;0 or string-length(normalize-space(string-join(.,'')))&gt;0">
+                <xsl:text> xigt:meta """</xsl:text>
+                <xsl:call-template name="get-meta"/>                    
+                <xsl:text>"""^^rdf:XMLLiteral ; </xsl:text>
                 </xsl:if>
                 <xsl:for-each select="@*[name()!='type' and name()!='id']">
                     <xsl:text>xigt:</xsl:text>
@@ -415,5 +436,44 @@
             </xsl:otherwise>
         </xsl:choose>
     </xsl:template>
-
+    
+    <!-- return content of meta elements and their descendants as text -->
+    <xsl:template name="get-meta">
+        <xsl:if test="exists(./ancestor-or-self::meta)">
+            <xsl:for-each select="*|text()">
+                <xsl:choose>
+                    <xsl:when test="string-length(name())&gt;0">
+                        <xsl:text disable-output-escaping="yes">&lt;</xsl:text>
+                        <xsl:value-of select="name()"/>
+                        <xsl:for-each select="@*">
+                            <xsl:text> </xsl:text>
+                            <xsl:value-of select="name()"/>
+                            <xsl:text>="</xsl:text>
+                            <xsl:value-of select="replace(replace(.,'&amp;','&amp;amp;'),'&quot;','&amp;quot;')"/>
+                            <xsl:text>"</xsl:text>
+                        </xsl:for-each>
+                        <xsl:variable name="children">
+                            <xsl:call-template name="get-meta"/>
+                        </xsl:variable>
+                        <xsl:choose>
+                            <xsl:when test="string-length(normalize-space($children))&gt;0">
+                                <xsl:text disable-output-escaping="yes">&gt;</xsl:text>
+                                <xsl:value-of select="$children"></xsl:value-of>
+                                <xsl:text disable-output-escaping="yes">&lt;/</xsl:text>
+                                <xsl:value-of select="name()"/>
+                            </xsl:when>
+                            <xsl:otherwise>
+                                <xsl:text>/</xsl:text>
+                            </xsl:otherwise>
+                        </xsl:choose>
+                        <xsl:text disable-output-escaping="yes">&gt;</xsl:text>
+                    </xsl:when>
+                    <xsl:otherwise> <!-- text/CDATA. Note that we normalize spaces -->
+                        <xsl:value-of select="normalize-space(.)"/>
+                    </xsl:otherwise>
+                </xsl:choose>
+            </xsl:for-each>
+        </xsl:if>
+        <!-- performs a deep XML copy -->
+    </xsl:template>
 </xsl:stylesheet>
