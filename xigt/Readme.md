@@ -235,8 +235,36 @@ The original @type value is stored as label of this newly created class, e.g.,
 
 These specialized types are then used in place of xigt:tier, xigt:item, etc., whenever a @type is defined.
 
-Postprocessing using SPARQL Update
+RDF(S) data model
 ---
+
+RDF(S) data model can be basically read off the converted sample data:
+
+	PREFIX xigt: <https://github.com/xigt/xigt/wiki/Data-Model#>
+	SELECT DISTINCT ?aC ?rel ?bC ?aSuper
+	WHERE {
+	  { ?aC rdfs:subClassOf ?aSuper } UNION 
+	  { ?a ?rel ?b.
+		?a a ?aC. FILTER(?b!=?aC)
+		OPTIONAL { ?b a ?bC }
+		OPTIONAL { ?b ?otherrel []. BIND(xigt:Metadata AS ?bC)
+				 FILTER(NOT EXISTS{ ?b a ?bC})} 
+	  } UNION 
+	  { ?a ?rel ?b.
+		FILTER(NOT EXISTS{ ?a a [] })
+		OPTIONAL { ?b a ?bC }
+		BIND(xigt:Metadata AS ?aC) }
+		
+	} ORDER BY ?aC ?rel
+
+Slightly summarized in the figure below.
+
+![RDF(S) data model for kor-ex.xml, kor-ex-olac.xml, abkhaz.xml][https://raw.githubusercontent.com/acoli-repo/LLODifier/master/xigt/xigt-rdfs.png xigt-rdfs.png]
+
+Open issues
+---
+
+* implement the following fixes using SPARQL Update ?
 
 * resolve offsets? (we don't actually need them, but we cannot easily regenerate them, because we don't know which tiers contain the literal forms)
  * for Xigt export, we can just generate them positionally, this isn't beautiful, but should work
