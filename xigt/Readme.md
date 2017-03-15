@@ -33,7 +33,7 @@ Unlike FLex, Xigt doesn't predefine its units of segmentation, this is subject t
 
 As a general convention, the xml following-sibling axis is modeled by xigt:next (not transitive), the child relation of any content element X as xigt:has_X.
 
-xigt-corpus, igt, tier
+Corpus data (xigt-corpus, igt, tier)
 ---
 
 	1	<xigt-corpus>
@@ -135,9 +135,9 @@ This modeling is not very efficient, more practical would be a property-based mo
 
 Along with @alignment, we also find @segmentation (implemented by nif:subString plus a datatype property representing the original @segmentation value) and @content (like @segmentation, but referring to values of annotation rather than the annotated unit, implemented by rdfs:label [with label information recovered] plus a datatype property representing the original @content value). The exact alignment information is dropped. For a potential Xigt export, it can be approximated by equally distributing xigt:next-connected sequences of nif:subString values along the underlying string.
 
+Alignment expressions are resolved for @content, only, cf. https://github.com/xigt/xigt/wiki/Alignment-Expressions for their original definition.
 
-
-Converting metadata
+Corpus metadata
 ---
 
 * metadata is an aggregator element for metadata properties, not necessary in RDF, all metadata properties are just defined as subproperties of xigt:metadata
@@ -219,6 +219,19 @@ For bootstrapping relations between classes and properties from the converted da
 In particular, objects of (subproperties of) xigt:metadata and subjects of xigt:meta. To avoid confusion with metadata, we define that
 
 	xigt:metadata rdfs:range xigt:Metadata.
+	
+The @type attribute (outside metadata, cf. above) represents information akin to rdf:type ("a").
+Therefore, implementation has been revised to represent (non-metadata) types as classes.
+However, as the @type values may be underspecified and potentially applicable to tiers and items (say, "POS"), the newly created class is a composite together with the element name
+
+	xigt:{@type}_{name()}
+
+The original @type value is stored as label of this newly created class, e.g.,
+
+	<item ... type="null" ...>    => xigt:null_item    rdfs:subClassOf xigt:item; rdfs:label "null". 
+	<tier ... type="phrases" ...> => xigt:phrases_tier rdfs:subClassOf xigt:tier; rdfs:label "phrases".
+
+These specialized types are then used in place of xigt:tier, xigt:item, etc., whenever a @type is defined.
 
 Postprocessing using SPARQL Update
 ---

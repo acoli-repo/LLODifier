@@ -22,7 +22,23 @@
         
         <!-- RDFS schema information -->
         <xsl:text># RDFS schema information&#10;&#10;</xsl:text>
-        <xsl:text>xigt:metadata rdfs:range xigt:Metadata.&#10;&#10;</xsl:text>
+        <xsl:text>xigt:metadata rdfs:range xigt:Metadata.&#10;</xsl:text>
+        <xsl:for-each select="//*[count(./ancestor-or-self::metadata[1])=0]/@type">
+            <xsl:variable name="element" select="../name()"/>
+            <xsl:variable name="type" select="."/>
+            <xsl:if test="not(exists(./preceding::*[name()=$element and @type=$type]))">
+                <xsl:text>xigt:</xsl:text>
+                <xsl:value-of select="$type"/>
+                <xsl:text>_</xsl:text>
+                <xsl:value-of select="$element"/>
+                <xsl:text> rdfs:subClassOf xigt:</xsl:text>
+                <xsl:value-of select="name(..)"/>
+                <xsl:text>; rdfs:label "</xsl:text>
+                <xsl:value-of select="$type"/>
+                <xsl:text>".&#10;</xsl:text>
+            </xsl:if>
+        </xsl:for-each>
+        <xsl:text>&#10;</xsl:text>
         
         <!-- write TTL body -->
         <xsl:text># data&#10;&#10;</xsl:text>
@@ -132,6 +148,10 @@
         
         <xsl:value-of select="$me"/>
         <xsl:text> a xigt:</xsl:text>
+        <xsl:if test="string-length(@type)&gt;0">
+            <xsl:value-of select="@type"/>
+            <xsl:text>_</xsl:text>
+        </xsl:if>
         <xsl:value-of select="name()"/>
         <xsl:apply-templates select="@*"/>
         
@@ -287,7 +307,7 @@
         <xsl:value-of select="$result"/>
     </xsl:template>
     
-    <!-- attributes, special treatment of @id, @segmentation, @content; TODO @type -->
+    <!-- attributes, special treatment of @id, @segmentation, @content, @type -->
     <xsl:template match="@*">
         <xsl:variable name="value" select="."/> 
         
@@ -323,6 +343,7 @@
                 <xsl:value-of select="normalize-space(.)"/>
                 <xsl:text>"</xsl:text>
             </xsl:when>
+            <xsl:when test="name()='type'"/> <!-- processed with .. -->
             <xsl:otherwise>                 <!-- datatype properties -->
                 <xsl:text>;&#10;</xsl:text>
                 <xsl:text>xigt:</xsl:text>
