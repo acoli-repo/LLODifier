@@ -8,6 +8,8 @@
     
     <xsl:param name="baseURI">http://example.org/PLEASE_PROVIDE_baseURI_PARAMETER</xsl:param>
     
+    <xsl:variable name="DEBUG">false</xsl:variable>
+    
     <xsl:template match="/">
         <!-- write TTL header -->
         <xsl:text>PREFIX xigt: &lt;https://github.com/xigt/xigt/wiki/Data-Model#&gt;&#10;</xsl:text>
@@ -161,12 +163,14 @@
     <xsl:template name="get-label">
         <xsl:param name="context"/>
         <xsl:variable name="result" select="string-join(.//text(),' ')"/>
-        <xsl:message>
-            <xsl:text>get-label(</xsl:text>
-            <xsl:value-of select="$context"/>
-            <xsl:text>)=</xsl:text>
-            <xsl:value-of select="$result"/>
-        </xsl:message>
+        <xsl:if test="$DEBUG=true">
+            <xsl:message>
+                <xsl:text>get-label(</xsl:text>
+                <xsl:value-of select="$context"/>
+                <xsl:text>)=</xsl:text>
+                <xsl:value-of select="$result"/>
+            </xsl:message>
+        </xsl:if>
         <xsl:value-of select="$result"/>
     </xsl:template>
     
@@ -174,11 +178,14 @@
     <xsl:template name="resolve-alignment-expression">
         <xsl:param name="alignment"/>
         <xsl:param name="context"/>
+        <xsl:if test="$DEBUG=true">
         <xsl:message>
             <xsl:text>resolve-alignment-expression(</xsl:text>
             <xsl:value-of select="$alignment"/>
             <xsl:text>)</xsl:text>
         </xsl:message>
+        </xsl:if>
+        <xsl:variable name="result">
         <xsl:choose>
             <xsl:when test="contains($alignment,']+')">
                 <xsl:variable name="head" select="replace($alignment,'\]\+.*','\]')"/>
@@ -251,10 +258,10 @@
                         </xsl:choose>
                     </xsl:for-each>
                 </xsl:variable>
-                <xsl:value-of select="substring($label,$start,$end - $start)"/>
+                <xsl:value-of select="substring($label,1+$start,$end - $start)"/>
             </xsl:when>
             <xsl:when test="exists(//item[@id=$alignment][string-length(normalize-space(string-join(.//text(),' ')))>0])">
-                <xsl:for-each select="//*[@id=substring-before($alignment,'[')][1]">
+                <xsl:for-each select="//*[@id=$alignment][1]">
                     <xsl:call-template name="get-label">
                         <xsl:with-param name="context" select="$context"/>
                     </xsl:call-template>
@@ -268,9 +275,19 @@
                 </xsl:message>
             </xsl:otherwise>
         </xsl:choose>
+        </xsl:variable>
+        <xsl:if test="$DEBUG=true">
+        <xsl:message>
+            <xsl:text>resolve-alignment-expression(</xsl:text>
+            <xsl:value-of select="$alignment"/>
+            <xsl:text>)=</xsl:text>
+            <xsl:value-of select="$result"/>
+        </xsl:message>
+        </xsl:if>
+        <xsl:value-of select="$result"/>
     </xsl:template>
     
-    <!-- attributes, special treatment of @id, @segmentation; TODO @content, @type -->
+    <!-- attributes, special treatment of @id, @segmentation, @content; TODO @type -->
     <xsl:template match="@*">
         <xsl:variable name="value" select="."/> 
         

@@ -133,7 +133,9 @@ The example shows that order is not necessarily respected. However, we interpret
 
 This modeling is not very efficient, more practical would be a property-based model as in FLex RDF. The problem is that the type of annotation is hidden in the tier/@type attribute and normally uses a plural form.
 
-From the examples, it is not clear what the function of @content is: presumably inserting an element not found in the tier we refer to.
+Along with @alignment, we also find @segmentation (implemented by nif:subString plus a datatype property representing the original @segmentation value) and @content (like @segmentation, but referring to values of annotation rather than the annotated unit, implemented by rdfs:label [with label information recovered] plus a datatype property representing the original @content value). The exact alignment information is dropped. For a potential Xigt export, it can be approximated by equally distributing xigt:next-connected sequences of nif:subString values along the underlying string.
+
+
 
 Converting metadata
 ---
