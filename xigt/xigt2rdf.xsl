@@ -15,6 +15,7 @@
         <xsl:text>PREFIX xigt: &lt;https://github.com/xigt/xigt/wiki/Data-Model#&gt;&#10;</xsl:text>
         <xsl:text>PREFIX owl: &lt;http://www.w3.org/2002/07/owl#&gt;&#10;</xsl:text>
         <xsl:text>PREFIX rdfs: &lt;http://www.w3.org/2000/01/rdf-schema#&gt;&#10;</xsl:text>
+        <xsl:text>PREFIX nif: &lt;http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#&gt;&#10;</xsl:text>
         
         <!-- we preserve namespace bindings as PREFIXes to support interpretability of XML metadata -->
         <xsl:variable name="namespaces">
@@ -93,6 +94,7 @@
                 <xsl:text> rdfs:subPropertyOf </xsl:text>
                 <xsl:choose>
                     <xsl:when test="$metadata_type!=''">
+                        <xsl:text>xigt:</xsl:text>
                         <xsl:value-of select="$metadata_type"/>
                         <xsl:text>.&#10;</xsl:text>
                         <xsl:if test="count(./preceding::meta[1])+count(/preceding::metadata[@type=$metadata_type]/meta[1])=0">

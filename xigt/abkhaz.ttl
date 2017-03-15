@@ -1,0 +1,462 @@
+PREFIX xigt: <https://github.com/xigt/xigt/wiki/Data-Model#>
+PREFIX owl: <http://www.w3.org/2002/07/owl#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX nif: <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#>
+PREFIX : <http://example.org/PLEASE_PROVIDE_baseURI_PARAMETER#>
+
+# RDFS schema information
+
+xigt:metadata rdfs:range xigt:Metadata.
+xigt:phrases_tier rdfs:subClassOf xigt:tier; rdfs:label "phrases".
+xigt:words_tier rdfs:subClassOf xigt:tier; rdfs:label "words".
+xigt:morphemes_tier rdfs:subClassOf xigt:tier; rdfs:label "morphemes".
+xigt:glosses_tier rdfs:subClassOf xigt:tier; rdfs:label "glosses".
+xigt:syntax_tier rdfs:subClassOf xigt:tier; rdfs:label "syntax".
+xigt:translations_tier rdfs:subClassOf xigt:tier; rdfs:label "translations".
+
+# data
+
+<http://example.org/PLEASE_PROVIDE_baseURI_PARAMETER> a xigt:xigt-corpus.
+
+xigt:language rdfs:subPropertyOf xigt:metadata.
+<http://example.org/PLEASE_PROVIDE_baseURI_PARAMETER>  xigt:language  [ xigt:name "Abkhaz"; xigt:iso-639-3 "abk"; xigt:tiers "phrases words morphemes" ] .
+xigt:language rdfs:subPropertyOf xigt:metadata.
+<http://example.org/PLEASE_PROVIDE_baseURI_PARAMETER>  xigt:language  [ xigt:name "English"; xigt:iso-639-3 "eng"; xigt:tiers "glosses translations" ] .
+xigt:date rdfs:subPropertyOf xigt:metadata.
+<http://example.org/PLEASE_PROVIDE_baseURI_PARAMETER>  xigt:date  [  xigt:meta """May 1 2009"""^^rdf:XMLLiteral  ] .
+xigt:author rdfs:subPropertyOf xigt:metadata.
+<http://example.org/PLEASE_PROVIDE_baseURI_PARAMETER>  xigt:author  [  xigt:meta """Safiyyah Saleem"""^^rdf:XMLLiteral  ] .
+xigt:source rdfs:subPropertyOf xigt:metadata.
+<http://example.org/PLEASE_PROVIDE_baseURI_PARAMETER>  xigt:source :src-a.
+:src-a  xigt:meta """Abkhaz by Viacheslav A. Chirkba"""^^rdf:XMLLiteral  .
+xigt:source rdfs:subPropertyOf xigt:metadata.
+<http://example.org/PLEASE_PROVIDE_baseURI_PARAMETER>  xigt:source :src-b.
+:src-b  xigt:meta """Safiyyah Saleem"""^^rdf:XMLLiteral  .
+<http://example.org/PLEASE_PROVIDE_baseURI_PARAMETER> xigt:has_igt :i1.
+:i1 a xigt:igt;
+xigt:next :i30.
+
+xigt:source rdfs:subPropertyOf xigt:metadata.
+:i1  xigt:source  [ xigt:ref :src-a; xigt:page "60" ] .
+xigt:vetted rdfs:subPropertyOf xigt:metadata.
+:i1  xigt:vetted  [ xigt:value "s" ] .
+xigt:judgment rdfs:subPropertyOf xigt:metadata.
+:i1  xigt:judgment  [ xigt:value "g" ] .
+xigt:phenomena rdfs:subPropertyOf xigt:metadata.
+:i1  xigt:phenomena  [  xigt:meta """<phenomenon>word order</phenomenon>"""^^rdf:XMLLiteral  ] .
+xigt:comment rdfs:subPropertyOf xigt:metadata.
+:i1  xigt:comment  [  xigt:meta """Ex 1 demonstrates the standard SOV word order"""^^rdf:XMLLiteral  ] .
+:i1 xigt:has_tier :p.
+:p a xigt:phrases_tier;
+xigt:next :w.
+
+:p xigt:has_item :p1.
+:p1 a xigt:item;
+xigt:text "at͡ʂʰkʷʰən atəpha dəjəbajt".
+
+:i1 xigt:has_tier :w.
+:w a xigt:words_tier;
+nif:subString :p;
+xigt:segmentation "p";
+xigt:next :m.
+
+:w xigt:has_item :w1.
+:w1 a xigt:item;
+nif:subString :p1;
+rdfs:label "at͡ʂʰkʷʰən";
+xigt:segmentation "p1[0:10]";
+xigt:next :w2.
+
+:w xigt:has_item :w2.
+:w2 a xigt:item;
+nif:subString :p1;
+rdfs:label "atəpha";
+xigt:segmentation "p1[11:17]";
+xigt:next :w3.
+
+:w xigt:has_item :w3.
+:w3 a xigt:item;
+nif:subString :p1;
+rdfs:label "dəjəbajt";
+xigt:segmentation "p1[18:26]".
+
+:i1 xigt:has_tier :m.
+:m a xigt:morphemes_tier;
+nif:subString :w;
+xigt:segmentation "w";
+xigt:next :g.
+
+:m xigt:has_item :m1.1.
+:m1.1 a xigt:item;
+nif:subString :w1;
+rdfs:label "a";
+xigt:segmentation "w1[0:1]";
+xigt:next :m1.2.
+
+:m xigt:has_item :m1.2.
+:m1.2 a xigt:item;
+nif:subString :w1;
+rdfs:label "t͡ʂʰkʷʰən";
+xigt:segmentation "w1[1:10]";
+xigt:next :m2.1.
+
+:m xigt:has_item :m2.1.
+:m2.1 a xigt:item;
+nif:subString :w2;
+rdfs:label "a";
+xigt:segmentation "w2[0:1]";
+xigt:next :m2.2.
+
+:m xigt:has_item :m2.2.
+:m2.2 a xigt:item;
+nif:subString :w2;
+rdfs:label "təpha";
+xigt:segmentation "w2[1:6]";
+xigt:next :m3.1.
+
+:m xigt:has_item :m3.1.
+:m3.1 a xigt:item;
+nif:subString :w3;
+rdfs:label "də";
+xigt:segmentation "w3[0:2]";
+xigt:next :m3.2.
+
+:m xigt:has_item :m3.2.
+:m3.2 a xigt:item;
+nif:subString :w3;
+rdfs:label "jə";
+xigt:segmentation "w3[2:4]";
+xigt:next :m3.3.
+
+:m xigt:has_item :m3.3.
+:m3.3 a xigt:item;
+nif:subString :w3;
+rdfs:label "ba";
+xigt:segmentation "w3[4:6]";
+xigt:next :m3.4.
+
+:m xigt:has_item :m3.4.
+:m3.4 a xigt:item;
+nif:subString :w3;
+rdfs:label "jt";
+xigt:segmentation "w3[6:8]".
+
+:i1 xigt:has_tier :g.
+:g a xigt:glosses_tier;
+xigt:alignment :m;
+xigt:next :x.
+
+:g xigt:has_item :g1.1.
+:g1.1 a xigt:item;
+xigt:alignment :m1.1;
+xigt:text "the";
+xigt:next :g1.2.
+
+:g xigt:has_item :g1.2.
+:g1.2 a xigt:item;
+xigt:alignment :m1.2;
+xigt:text "boy";
+xigt:next :g2.1.
+
+:g xigt:has_item :g2.1.
+:g2.1 a xigt:item;
+xigt:alignment :m2.1;
+xigt:text "the";
+xigt:next :g2.2.
+
+:g xigt:has_item :g2.2.
+:g2.2 a xigt:item;
+xigt:alignment :m2.2;
+xigt:text "girl";
+xigt:next :g3.1.
+
+:g xigt:has_item :g3.1.
+:g3.1 a xigt:item;
+xigt:alignment :m3.1;
+xigt:text "her";
+xigt:next :g3.2.
+
+:g xigt:has_item :g3.2.
+:g3.2 a xigt:item;
+xigt:alignment :m3.2;
+xigt:text "he";
+xigt:next :g3.3.
+
+:g xigt:has_item :g3.3.
+:g3.3 a xigt:item;
+xigt:alignment :m3.3;
+xigt:text "see";
+xigt:next :g3.4.1.
+
+:g xigt:has_item :g3.4.1.
+:g3.4.1 a xigt:item;
+xigt:alignment :m3.4;
+xigt:text "DYN";
+xigt:next :g3.4.2.
+
+:g xigt:has_item :g3.4.2.
+:g3.4.2 a xigt:item;
+xigt:alignment :m3.4;
+xigt:text "FIN".
+
+:i1 xigt:has_tier :x.
+:x a xigt:syntax_tier;
+xigt:alignment :w;
+xigt:children :x;
+xigt:next :t.
+
+:x xigt:has_item :x1.
+:x1 a xigt:item;
+xigt:alignment :w1;
+xigt:text "NP-SBJ";
+xigt:next :x2.
+
+:x xigt:has_item :x2.
+:x2 a xigt:item;
+xigt:alignment :w2;
+xigt:text "NP-OBJ";
+xigt:next :x3.
+
+:x xigt:has_item :x3.
+:x3 a xigt:item;
+xigt:alignment :w3;
+xigt:text "VBD";
+xigt:next :x4.
+
+:x xigt:has_item :x4.
+:x4 a xigt:item;
+xigt:children :x2,:x3;
+xigt:text "VP";
+xigt:next :x5.
+
+:x xigt:has_item :x5.
+:x5 a xigt:item;
+xigt:children :x1,:x4;
+xigt:text "S".
+
+:i1 xigt:has_tier :t.
+:t a xigt:translations_tier;
+xigt:alignment :p.
+
+:t xigt:has_item :t1.
+:t1 a xigt:item;
+xigt:alignment :p1;
+xigt:text "The boy saw the girl.".
+
+<http://example.org/PLEASE_PROVIDE_baseURI_PARAMETER> xigt:has_igt :i30.
+:i30 a xigt:igt.
+
+xigt:source rdfs:subPropertyOf xigt:metadata.
+:i30  xigt:source  [ xigt:ref :src-b ] .
+xigt:vetted rdfs:subPropertyOf xigt:metadata.
+:i30  xigt:vetted  [ xigt:value "f" ] .
+xigt:judgment rdfs:subPropertyOf xigt:metadata.
+:i30  xigt:judgment  [ xigt:value "g" ] .
+xigt:phenomena rdfs:subPropertyOf xigt:metadata.
+:i30  xigt:phenomena  [  xigt:meta """<phenomenon>neg</phenomenon>"""^^rdf:XMLLiteral  ] .
+xigt:comment rdfs:subPropertyOf xigt:metadata.
+:i30  xigt:comment  [  xigt:meta """Ex 30 demonstrates negation. The present tense is negated by adding the suffix "-m" after the tense marker. The dynamic/finite marker does not appear on the verb."""^^rdf:XMLLiteral  ] .
+:i30 xigt:has_tier :p.
+:p a xigt:phrases_tier;
+xigt:next :w.
+
+:p xigt:has_item :p1.
+:p1 a xigt:item;
+xigt:text "at͡ʂʰkʷʰən atəpha dəjəbawam".
+
+:i30 xigt:has_tier :w.
+:w a xigt:words_tier;
+nif:subString :p;
+xigt:segmentation "p";
+xigt:next :m.
+
+:w xigt:has_item :w1.
+:w1 a xigt:item;
+nif:subString :p1;
+rdfs:label "at͡ʂʰkʷʰən";
+xigt:segmentation "p1[0:10]";
+xigt:next :w2.
+
+:w xigt:has_item :w2.
+:w2 a xigt:item;
+nif:subString :p1;
+rdfs:label "atəpha";
+xigt:segmentation "p1[11:17]";
+xigt:next :w3.
+
+:w xigt:has_item :w3.
+:w3 a xigt:item;
+nif:subString :p1;
+rdfs:label "dəjəbajta";
+xigt:segmentation "p1[18:27]".
+
+:i30 xigt:has_tier :m.
+:m a xigt:morphemes_tier;
+nif:subString :w;
+xigt:segmentation "w";
+xigt:next :g.
+
+:m xigt:has_item :m1.1.
+:m1.1 a xigt:item;
+nif:subString :w1;
+rdfs:label "a";
+xigt:segmentation "w1[0:1]";
+xigt:next :m1.2.
+
+:m xigt:has_item :m1.2.
+:m1.2 a xigt:item;
+nif:subString :w1;
+rdfs:label "t͡ʂʰkʷʰən";
+xigt:segmentation "w1[1:10]";
+xigt:next :m2.1.
+
+:m xigt:has_item :m2.1.
+:m2.1 a xigt:item;
+nif:subString :w2;
+rdfs:label "a";
+xigt:segmentation "w2[0:1]";
+xigt:next :m2.2.
+
+:m xigt:has_item :m2.2.
+:m2.2 a xigt:item;
+nif:subString :w2;
+rdfs:label "təpha";
+xigt:segmentation "w2[1:6]";
+xigt:next :m3.1.
+
+:m xigt:has_item :m3.1.
+:m3.1 a xigt:item;
+nif:subString :w3;
+rdfs:label "də";
+xigt:segmentation "w3[0:2]";
+xigt:next :m3.2.
+
+:m xigt:has_item :m3.2.
+:m3.2 a xigt:item;
+nif:subString :w3;
+rdfs:label "jə";
+xigt:segmentation "w3[2:4]";
+xigt:next :m3.3.
+
+:m xigt:has_item :m3.3.
+:m3.3 a xigt:item;
+nif:subString :w3;
+rdfs:label "ba";
+xigt:segmentation "w3[4:6]";
+xigt:next :m3.4.
+
+:m xigt:has_item :m3.4.
+:m3.4 a xigt:item;
+nif:subString :w3;
+rdfs:label "jt";
+xigt:segmentation "w3[6:8]";
+xigt:next :m3.5.
+
+:m xigt:has_item :m3.5.
+:m3.5 a xigt:item;
+nif:subString :w3;
+rdfs:label "d";
+xigt:segmentation "w3[8:9]".
+
+:i30 xigt:has_tier :g.
+:g a xigt:glosses_tier;
+xigt:alignment :m;
+xigt:next :x.
+
+:g xigt:has_item :g1.1.
+:g1.1 a xigt:item;
+xigt:alignment :m1.1;
+xigt:text "the";
+xigt:next :g1.2.
+
+:g xigt:has_item :g1.2.
+:g1.2 a xigt:item;
+xigt:alignment :m1.2;
+xigt:text "boy";
+xigt:next :g2.1.
+
+:g xigt:has_item :g2.1.
+:g2.1 a xigt:item;
+xigt:alignment :m2.1;
+xigt:text "the";
+xigt:next :g2.2.
+
+:g xigt:has_item :g2.2.
+:g2.2 a xigt:item;
+xigt:alignment :m2.2;
+xigt:text "girl";
+xigt:next :g3.1.
+
+:g xigt:has_item :g3.1.
+:g3.1 a xigt:item;
+xigt:alignment :m3.1;
+xigt:text "her";
+xigt:next :g3.2.
+
+:g xigt:has_item :g3.2.
+:g3.2 a xigt:item;
+xigt:alignment :m3.2;
+xigt:text "he";
+xigt:next :g3.3.
+
+:g xigt:has_item :g3.3.
+:g3.3 a xigt:item;
+xigt:alignment :m3.3;
+xigt:text "see";
+xigt:next :g3.4.
+
+:g xigt:has_item :g3.4.
+:g3.4 a xigt:item;
+xigt:alignment :m3.4;
+xigt:text "PRS";
+xigt:next :g3.5.
+
+:g xigt:has_item :g3.5.
+:g3.5 a xigt:item;
+xigt:alignment :m3.5;
+xigt:text "NEG".
+
+:i30 xigt:has_tier :x.
+:x a xigt:syntax_tier;
+xigt:alignment :w;
+xigt:children :x;
+xigt:next :t.
+
+:x xigt:has_item :x1.
+:x1 a xigt:item;
+xigt:alignment :w1;
+xigt:text "NP-SBJ";
+xigt:next :x2.
+
+:x xigt:has_item :x2.
+:x2 a xigt:item;
+xigt:alignment :w2;
+xigt:text "NP-OBJ";
+xigt:next :x3.
+
+:x xigt:has_item :x3.
+:x3 a xigt:item;
+xigt:alignment :w3;
+xigt:text "VBZ";
+xigt:next :x4.
+
+:x xigt:has_item :x4.
+:x4 a xigt:item;
+xigt:children :x2,:x3;
+xigt:text "VP";
+xigt:next :x5.
+
+:x xigt:has_item :x5.
+:x5 a xigt:item;
+xigt:children :x1,:x4;
+xigt:text "S".
+
+:i30 xigt:has_tier :t.
+:t a xigt:translations_tier;
+xigt:alignment :p.
+
+:t xigt:has_item :t1.
+:t1 a xigt:item;
+xigt:alignment :p1;
+xigt:text "The boy does not see the girl.".
+
