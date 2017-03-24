@@ -279,7 +279,7 @@
                 <xsl:variable name="start" select="number(substring-before($range,':'))" as="xs:double"/>
                 <xsl:variable name="end" select="number(substring-after($range,':'))" as="xs:double"/>
                 <xsl:variable name="label">
-                    <xsl:for-each select="//*[@id=substring-before($alignment,'[')][1]">
+                    <xsl:for-each select="./ancestor-or-self::igt//*[@id=substring-before($alignment,'[')][1]">
                         <xsl:choose>
                             <xsl:when test="string-length(normalize-space(string-join(.//text(),' ')))>0">
                                 <xsl:call-template name="get-label">
@@ -304,7 +304,7 @@
                 <xsl:value-of select="substring($label,1+$start,$end - $start)"/>
             </xsl:when>
             <xsl:when test="exists(//item[@id=$alignment][string-length(normalize-space(string-join(.//text(),' ')))>0])">
-                <xsl:for-each select="//*[@id=$alignment][1]">
+                <xsl:for-each select="./ancestor-or-self::igt//*[@id=$alignment][1]">
                     <xsl:call-template name="get-label">
                         <xsl:with-param name="context" select="$context"/>
                     </xsl:call-template>
@@ -358,7 +358,7 @@
             <xsl:text>"</xsl:text>
         </xsl:if>
         <xsl:choose>
-            <xsl:when test="name()='id' and name(..)!='tier'"/>             <!-- cf. URI, kept for tiers, only -->
+            <xsl:when test="name()='id' and name(..)='metadata'"/>          <!-- metadata: @id becomes URI, otherwise datatype property -->
             <xsl:when test="name()='segmentation' or name()='content'">     <!-- segmentation, content: always datatype properties, but see above -->
                 <xsl:text>;&#10;xigt:</xsl:text>
                 <xsl:value-of select="name()"/>
@@ -425,7 +425,7 @@
                 <xsl:value-of select="$baseURI"/>
                 <xsl:text disable-output-escaping="yes">&gt;</xsl:text>
             </xsl:when>
-            <xsl:when test="string-length(@id)>0 and name()!='tier'">   <!-- tier/@id is not unique, hence a datatype property -->
+            <xsl:when test="string-length(@id)>0 and name()!='item' and name()!='tier'">   <!-- within an IGT, @id is not unique, hence a datatype property -->
                 <xsl:text>:</xsl:text>
                 <xsl:value-of select="@id"/>
             </xsl:when>

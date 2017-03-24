@@ -30,6 +30,7 @@ xigt:language rdfs:subPropertyOf xigt:xigt-meta.
 <http://example.org/PLEASE_PROVIDE_baseURI_PARAMETER>  xigt:language  [ xigt:name "english"; xigt:iso-639-3 "eng"; xigt:tiers "glosses translations" ] .
 <http://example.org/PLEASE_PROVIDE_baseURI_PARAMETER> xigt:has_igt :igt1.
 :igt1 a xigt:igt;
+xigt:id "igt1";
 xigt:doc-id "397";
 xigt:line-range "959 961";
 xigt:tag-types "L G T".
@@ -40,22 +41,25 @@ xigt:id "r";
 xigt:state "raw";
 xigt:next :tier_2.
 
-:tier_1 xigt:has_item :r1.
-:r1 a xigt:item;
+:tier_1 xigt:has_item :item_1.
+:item_1 a xigt:item;
+xigt:id "r1";
 xigt:line "959";
 xigt:tag "L";
 xigt:text "   1 Nay-ka ai-eykey pap-ul mek-i-ess-ta";
-xigt:next :r2.
+xigt:next :item_2.
 
-:tier_1 xigt:has_item :r2.
-:r2 a xigt:item;
+:tier_1 xigt:has_item :item_2.
+:item_2 a xigt:item;
+xigt:id "r2";
 xigt:line "960";
 xigt:tag "G";
 xigt:text "     I-Nom child-Dat rice-Acc eat-Caus-Pst-Dec";
-xigt:next :r3.
+xigt:next :item_3.
 
-:tier_1 xigt:has_item :r3.
-:r3 a xigt:item;
+:tier_1 xigt:has_item :item_3.
+:item_3 a xigt:item;
+xigt:id "r3";
 xigt:line "961";
 xigt:tag "T";
 xigt:text "     `I made the child eat rice.'".
@@ -67,24 +71,27 @@ xigt:state "cleaned";
 xigt:alignment :r;
 xigt:next :tier_3.
 
-:tier_2 xigt:has_item :c1.
-:c1 a xigt:item;
+:tier_2 xigt:has_item :item_4.
+:item_4 a xigt:item;
+xigt:id "c1";
 xigt:alignment :r1;
 xigt:line "959";
 xigt:tag "L";
 xigt:text "   1 Nay-ka ai-eykey pap-ul mek-i-ess-ta";
-xigt:next :c2.
+xigt:next :item_5.
 
-:tier_2 xigt:has_item :c2.
-:c2 a xigt:item;
+:tier_2 xigt:has_item :item_5.
+:item_5 a xigt:item;
+xigt:id "c2";
 xigt:alignment :r2;
 xigt:line "960";
 xigt:tag "G";
 xigt:text "     I-Nom child-Dat rice-Acc eat-Caus-Pst-Dec";
-xigt:next :c3.
+xigt:next :item_6.
 
-:tier_2 xigt:has_item :c3.
-:c3 a xigt:item;
+:tier_2 xigt:has_item :item_6.
+:item_6 a xigt:item;
+xigt:id "c3";
 xigt:alignment :r3;
 xigt:line "961";
 xigt:tag "T";
@@ -97,24 +104,27 @@ xigt:state "normalized";
 xigt:alignment :c;
 xigt:next :tier_4.
 
-:tier_3 xigt:has_item :n1.
-:n1 a xigt:item;
+:tier_3 xigt:has_item :item_7.
+:item_7 a xigt:item;
+xigt:id "n1";
 xigt:alignment :c1;
 xigt:line "959";
 xigt:tag "L";
 xigt:text "Nay-ka ai-eykey pap-ul mek-i-ess-ta";
-xigt:next :n2.
+xigt:next :item_8.
 
-:tier_3 xigt:has_item :n2.
-:n2 a xigt:item;
+:tier_3 xigt:has_item :item_8.
+:item_8 a xigt:item;
+xigt:id "n2";
 xigt:alignment :c2;
 xigt:line "960";
 xigt:tag "G";
 xigt:text "I-Nom child-Dat rice-Acc eat-Caus-Pst-Dec";
-xigt:next :n3.
+xigt:next :item_9.
 
-:tier_3 xigt:has_item :n3.
-:n3 a xigt:item;
+:tier_3 xigt:has_item :item_9.
+:item_9 a xigt:item;
+xigt:id "n3";
 xigt:alignment :c3;
 xigt:line "961";
 xigt:tag "T";
@@ -126,8 +136,9 @@ xigt:id "p";
 xigt:content "n";
 xigt:next :tier_5.
 
-:tier_4 xigt:has_item :p1.
-:p1 a xigt:item;
+:tier_4 xigt:has_item :item_10.
+:item_10 a xigt:item;
+xigt:id "p1";
 rdfs:label "Nay-ka ai-eykey pap-ul mek-i-ess-ta";
 xigt:content "n1".
 
@@ -138,29 +149,33 @@ nif:subString :p;
 xigt:segmentation "p";
 xigt:next :tier_6.
 
-:tier_5 xigt:has_item :w1.
-:w1 a xigt:item;
+:tier_5 xigt:has_item :item_11.
+:item_11 a xigt:item;
+xigt:id "w1";
 nif:subString :p1;
 rdfs:label "Nay-ka";
 xigt:segmentation "p1[0:6]";
-xigt:next :w2.
+xigt:next :item_12.
 
-:tier_5 xigt:has_item :w2.
-:w2 a xigt:item;
+:tier_5 xigt:has_item :item_12.
+:item_12 a xigt:item;
+xigt:id "w2";
 nif:subString :p1;
 rdfs:label "ai-eykey";
 xigt:segmentation "p1[7:15]";
-xigt:next :w3.
+xigt:next :item_13.
 
-:tier_5 xigt:has_item :w3.
-:w3 a xigt:item;
+:tier_5 xigt:has_item :item_13.
+:item_13 a xigt:item;
+xigt:id "w3";
 nif:subString :p1;
 rdfs:label "pap-ul";
 xigt:segmentation "p1[16:22]";
-xigt:next :w4.
+xigt:next :item_14.
 
-:tier_5 xigt:has_item :w4.
-:w4 a xigt:item;
+:tier_5 xigt:has_item :item_14.
+:item_14 a xigt:item;
+xigt:id "w4";
 nif:subString :p1;
 rdfs:label "mek-i-ess-ta";
 xigt:segmentation "p1[23:35]".
@@ -172,71 +187,81 @@ nif:subString :w;
 xigt:segmentation "w";
 xigt:next :tier_7.
 
-:tier_6 xigt:has_item :m1.1.
-:m1.1 a xigt:item;
+:tier_6 xigt:has_item :item_15.
+:item_15 a xigt:item;
+xigt:id "m1.1";
 nif:subString :w1;
 rdfs:label "Nay";
 xigt:segmentation "w1[0:3]";
-xigt:next :m1.2.
+xigt:next :item_16.
 
-:tier_6 xigt:has_item :m1.2.
-:m1.2 a xigt:item;
+:tier_6 xigt:has_item :item_16.
+:item_16 a xigt:item;
+xigt:id "m1.2";
 nif:subString :w1;
 rdfs:label "ka";
 xigt:segmentation "w1[4:6]";
-xigt:next :m2.1.
+xigt:next :item_17.
 
-:tier_6 xigt:has_item :m2.1.
-:m2.1 a xigt:item;
+:tier_6 xigt:has_item :item_17.
+:item_17 a xigt:item;
+xigt:id "m2.1";
 nif:subString :w2;
 rdfs:label "ai";
 xigt:segmentation "w2[0:2]";
-xigt:next :m2.2.
+xigt:next :item_18.
 
-:tier_6 xigt:has_item :m2.2.
-:m2.2 a xigt:item;
+:tier_6 xigt:has_item :item_18.
+:item_18 a xigt:item;
+xigt:id "m2.2";
 nif:subString :w2;
 rdfs:label "eykey";
 xigt:segmentation "w2[3:8]";
-xigt:next :m3.1.
+xigt:next :item_19.
 
-:tier_6 xigt:has_item :m3.1.
-:m3.1 a xigt:item;
+:tier_6 xigt:has_item :item_19.
+:item_19 a xigt:item;
+xigt:id "m3.1";
 nif:subString :w3;
 rdfs:label "pap";
 xigt:segmentation "w3[0:3]";
-xigt:next :m3.2.
+xigt:next :item_20.
 
-:tier_6 xigt:has_item :m3.2.
-:m3.2 a xigt:item;
+:tier_6 xigt:has_item :item_20.
+:item_20 a xigt:item;
+xigt:id "m3.2";
 nif:subString :w3;
 rdfs:label "ul";
 xigt:segmentation "w3[4:6]";
-xigt:next :m4.1.
+xigt:next :item_21.
 
-:tier_6 xigt:has_item :m4.1.
-:m4.1 a xigt:item;
+:tier_6 xigt:has_item :item_21.
+:item_21 a xigt:item;
+xigt:id "m4.1";
 nif:subString :w4;
 rdfs:label "mek";
 xigt:segmentation "w4[0:3]";
-xigt:next :m4.2.
+xigt:next :item_22.
 
-:tier_6 xigt:has_item :m4.2.
-:m4.2 a xigt:item;
+:tier_6 xigt:has_item :item_22.
+:item_22 a xigt:item;
+xigt:id "m4.2";
 nif:subString :w4;
 rdfs:label "i";
 xigt:segmentation "w4[4:5]";
-xigt:next :m4.3.
+xigt:next :item_23.
 
-:tier_6 xigt:has_item :m4.3.
-:m4.3 a xigt:item;
+:tier_6 xigt:has_item :item_23.
+:item_23 a xigt:item;
+xigt:id "m4.3";
 nif:subString :w4;
 rdfs:label "ess";
 xigt:segmentation "w4[6:9]";
-xigt:next :m4.4.
+xigt:next :item_24.
 
-:tier_6 xigt:has_item :m4.4.
-:m4.4 a xigt:item;
+:tier_6 xigt:has_item :item_24.
+:item_24 a xigt:item;
+xigt:id "m4.4";
 nif:subString :w4;
 rdfs:label "ta";
 xigt:segmentation "w4[10:12]".
@@ -248,71 +273,81 @@ xigt:alignment :m;
 xigt:content "n";
 xigt:next :tier_8.
 
-:tier_7 xigt:has_item :g1.1.
-:g1.1 a xigt:item;
+:tier_7 xigt:has_item :item_25.
+:item_25 a xigt:item;
+xigt:id "g1.1";
 xigt:alignment :m1.1;
 rdfs:label "I";
 xigt:content "n2[0:1]";
-xigt:next :g1.2.
+xigt:next :item_26.
 
-:tier_7 xigt:has_item :g1.2.
-:g1.2 a xigt:item;
+:tier_7 xigt:has_item :item_26.
+:item_26 a xigt:item;
+xigt:id "g1.2";
 xigt:alignment :m1.2;
 rdfs:label "Nom";
 xigt:content "n2[2:5]";
-xigt:next :g2.1.
+xigt:next :item_27.
 
-:tier_7 xigt:has_item :g2.1.
-:g2.1 a xigt:item;
+:tier_7 xigt:has_item :item_27.
+:item_27 a xigt:item;
+xigt:id "g2.1";
 xigt:alignment :m2.1;
 rdfs:label "child";
 xigt:content "n2[6:11]";
-xigt:next :g2.2.
+xigt:next :item_28.
 
-:tier_7 xigt:has_item :g2.2.
-:g2.2 a xigt:item;
+:tier_7 xigt:has_item :item_28.
+:item_28 a xigt:item;
+xigt:id "g2.2";
 xigt:alignment :m2.2;
 rdfs:label "Dat";
 xigt:content "n2[12:15]";
-xigt:next :g3.1.
+xigt:next :item_29.
 
-:tier_7 xigt:has_item :g3.1.
-:g3.1 a xigt:item;
+:tier_7 xigt:has_item :item_29.
+:item_29 a xigt:item;
+xigt:id "g3.1";
 xigt:alignment :m3.1;
 rdfs:label "rice";
 xigt:content "n2[16:20]";
-xigt:next :g3.2.
+xigt:next :item_30.
 
-:tier_7 xigt:has_item :g3.2.
-:g3.2 a xigt:item;
+:tier_7 xigt:has_item :item_30.
+:item_30 a xigt:item;
+xigt:id "g3.2";
 xigt:alignment :m3.2;
 rdfs:label "Acc";
 xigt:content "n2[21:24]";
-xigt:next :g4.1.
+xigt:next :item_31.
 
-:tier_7 xigt:has_item :g4.1.
-:g4.1 a xigt:item;
+:tier_7 xigt:has_item :item_31.
+:item_31 a xigt:item;
+xigt:id "g4.1";
 xigt:alignment :m4.1;
 rdfs:label "eat";
 xigt:content "n2[25:28]";
-xigt:next :g4.2.
+xigt:next :item_32.
 
-:tier_7 xigt:has_item :g4.2.
-:g4.2 a xigt:item;
+:tier_7 xigt:has_item :item_32.
+:item_32 a xigt:item;
+xigt:id "g4.2";
 xigt:alignment :m4.2;
 rdfs:label "Caus";
 xigt:content "n2[29:33]";
-xigt:next :g4.3.
+xigt:next :item_33.
 
-:tier_7 xigt:has_item :g4.3.
-:g4.3 a xigt:item;
+:tier_7 xigt:has_item :item_33.
+:item_33 a xigt:item;
+xigt:id "g4.3";
 xigt:alignment :m4.3;
 rdfs:label "Pst";
 xigt:content "n2[34:37]";
-xigt:next :g4.4.
+xigt:next :item_34.
 
-:tier_7 xigt:has_item :g4.4.
-:g4.4 a xigt:item;
+:tier_7 xigt:has_item :item_34.
+:item_34 a xigt:item;
+xigt:id "g4.4";
 xigt:alignment :m4.4;
 rdfs:label "Dec";
 xigt:content "n2[38:41]".
@@ -323,26 +358,30 @@ xigt:id "w-pos";
 xigt:alignment :w;
 xigt:next :tier_9.
 
-:tier_8 xigt:has_item :w-pos1.
-:w-pos1 a xigt:item;
+:tier_8 xigt:has_item :item_35.
+:item_35 a xigt:item;
+xigt:id "w-pos1";
 xigt:alignment :w1;
 xigt:text "PRP";
-xigt:next :w-pos2.
+xigt:next :item_36.
 
-:tier_8 xigt:has_item :w-pos2.
-:w-pos2 a xigt:item;
+:tier_8 xigt:has_item :item_36.
+:item_36 a xigt:item;
+xigt:id "w-pos2";
 xigt:alignment :w2;
 xigt:text "NN";
-xigt:next :w-pos3.
+xigt:next :item_37.
 
-:tier_8 xigt:has_item :w-pos3.
-:w-pos3 a xigt:item;
+:tier_8 xigt:has_item :item_37.
+:item_37 a xigt:item;
+xigt:id "w-pos3";
 xigt:alignment :w3;
 xigt:text "NN";
-xigt:next :w-pos4.
+xigt:next :item_38.
 
-:tier_8 xigt:has_item :w-pos4.
-:w-pos4 a xigt:item;
+:tier_8 xigt:has_item :item_38.
+:item_38 a xigt:item;
+xigt:id "w-pos4";
 xigt:alignment :w4;
 xigt:text "V".
 
@@ -353,8 +392,9 @@ xigt:alignment :p;
 xigt:content "n";
 xigt:next :tier_10.
 
-:tier_9 xigt:has_item :t1.
-:t1 a xigt:item;
+:tier_9 xigt:has_item :item_39.
+:item_39 a xigt:item;
+xigt:id "t1";
 xigt:alignment :p1;
 rdfs:label "I made the child eat rice.";
 xigt:content "n3".
@@ -366,50 +406,57 @@ nif:subString :t;
 xigt:segmentation "t";
 xigt:next :tier_11.
 
-:tier_10 xigt:has_item :tw1.
-:tw1 a xigt:item;
+:tier_10 xigt:has_item :item_40.
+:item_40 a xigt:item;
+xigt:id "tw1";
 nif:subString :t1;
 rdfs:label "I";
 xigt:segmentation "t1[0:1]";
-xigt:next :tw2.
+xigt:next :item_41.
 
-:tier_10 xigt:has_item :tw2.
-:tw2 a xigt:item;
+:tier_10 xigt:has_item :item_41.
+:item_41 a xigt:item;
+xigt:id "tw2";
 nif:subString :t1;
 rdfs:label "made";
 xigt:segmentation "t1[2:6]";
-xigt:next :tw3.
+xigt:next :item_42.
 
-:tier_10 xigt:has_item :tw3.
-:tw3 a xigt:item;
+:tier_10 xigt:has_item :item_42.
+:item_42 a xigt:item;
+xigt:id "tw3";
 nif:subString :t1;
 rdfs:label "the";
 xigt:segmentation "t1[7:10]";
-xigt:next :tw4.
+xigt:next :item_43.
 
-:tier_10 xigt:has_item :tw4.
-:tw4 a xigt:item;
+:tier_10 xigt:has_item :item_43.
+:item_43 a xigt:item;
+xigt:id "tw4";
 nif:subString :t1;
 rdfs:label "child";
 xigt:segmentation "t1[11:16]";
-xigt:next :tw5.
+xigt:next :item_44.
 
-:tier_10 xigt:has_item :tw5.
-:tw5 a xigt:item;
+:tier_10 xigt:has_item :item_44.
+:item_44 a xigt:item;
+xigt:id "tw5";
 nif:subString :t1;
 rdfs:label "eat";
 xigt:segmentation "t1[17:20]";
-xigt:next :tw6.
+xigt:next :item_45.
 
-:tier_10 xigt:has_item :tw6.
-:tw6 a xigt:item;
+:tier_10 xigt:has_item :item_45.
+:item_45 a xigt:item;
+xigt:id "tw6";
 nif:subString :t1;
 rdfs:label "rice";
 xigt:segmentation "t1[21:25]";
-xigt:next :tw7.
+xigt:next :item_46.
 
-:tier_10 xigt:has_item :tw7.
-:tw7 a xigt:item;
+:tier_10 xigt:has_item :item_46.
+:item_46 a xigt:item;
+xigt:id "tw7";
 nif:subString :t1;
 rdfs:label ".";
 xigt:segmentation "t1[25:26]".
@@ -420,44 +467,51 @@ xigt:id "tw-pos";
 xigt:alignment :tw;
 xigt:next :tier_12.
 
-:tier_11 xigt:has_item :tw-pos1.
-:tw-pos1 a xigt:item;
+:tier_11 xigt:has_item :item_47.
+:item_47 a xigt:item;
+xigt:id "tw-pos1";
 xigt:alignment :tw1;
 xigt:text "PRP";
-xigt:next :tw-pos2.
+xigt:next :item_48.
 
-:tier_11 xigt:has_item :tw-pos2.
-:tw-pos2 a xigt:item;
+:tier_11 xigt:has_item :item_48.
+:item_48 a xigt:item;
+xigt:id "tw-pos2";
 xigt:alignment :tw2;
 xigt:text "VBD";
-xigt:next :tw-pos3.
+xigt:next :item_49.
 
-:tier_11 xigt:has_item :tw-pos3.
-:tw-pos3 a xigt:item;
+:tier_11 xigt:has_item :item_49.
+:item_49 a xigt:item;
+xigt:id "tw-pos3";
 xigt:alignment :tw3;
 xigt:text "DT";
-xigt:next :tw-pos4.
+xigt:next :item_50.
 
-:tier_11 xigt:has_item :tw-pos4.
-:tw-pos4 a xigt:item;
+:tier_11 xigt:has_item :item_50.
+:item_50 a xigt:item;
+xigt:id "tw-pos4";
 xigt:alignment :tw4;
 xigt:text "NN";
-xigt:next :tw-pos5.
+xigt:next :item_51.
 
-:tier_11 xigt:has_item :tw-pos5.
-:tw-pos5 a xigt:item;
+:tier_11 xigt:has_item :item_51.
+:item_51 a xigt:item;
+xigt:id "tw-pos5";
 xigt:alignment :tw5;
 xigt:text "VBP";
-xigt:next :tw-pos6.
+xigt:next :item_52.
 
-:tier_11 xigt:has_item :tw-pos6.
-:tw-pos6 a xigt:item;
+:tier_11 xigt:has_item :item_52.
+:item_52 a xigt:item;
+xigt:id "tw-pos6";
 xigt:alignment :tw6;
 xigt:text "NN";
-xigt:next :tw-pos7.
+xigt:next :item_53.
 
-:tier_11 xigt:has_item :tw-pos7.
-:tw-pos7 a xigt:item;
+:tier_11 xigt:has_item :item_53.
+:item_53 a xigt:item;
+xigt:id "tw-pos7";
 xigt:alignment :tw7;
 xigt:text "PUNC".
 
@@ -468,37 +522,43 @@ xigt:source :tw;
 xigt:target :g;
 xigt:next :tier_13.
 
-:tier_12 xigt:has_item :a1.
-:a1 a xigt:item;
+:tier_12 xigt:has_item :item_54.
+:item_54 a xigt:item;
+xigt:id "a1";
 xigt:source :tw1;
 xigt:target :g1.1;
-xigt:next :a2.
+xigt:next :item_55.
 
-:tier_12 xigt:has_item :a2.
-:a2 a xigt:item;
+:tier_12 xigt:has_item :item_55.
+:item_55 a xigt:item;
+xigt:id "a2";
 xigt:source :tw2;
 xigt:target :g4.2,:g4.3;
-xigt:next :a3.
+xigt:next :item_56.
 
-:tier_12 xigt:has_item :a3.
-:a3 a xigt:item;
+:tier_12 xigt:has_item :item_56.
+:item_56 a xigt:item;
+xigt:id "a3";
 xigt:source :tw3;
-xigt:next :a4.
+xigt:next :item_57.
 
-:tier_12 xigt:has_item :a4.
-:a4 a xigt:item;
+:tier_12 xigt:has_item :item_57.
+:item_57 a xigt:item;
+xigt:id "a4";
 xigt:source :tw4;
 xigt:target :g2.1;
-xigt:next :a5.
+xigt:next :item_58.
 
-:tier_12 xigt:has_item :a5.
-:a5 a xigt:item;
+:tier_12 xigt:has_item :item_58.
+:item_58 a xigt:item;
+xigt:id "a5";
 xigt:source :tw5;
 xigt:target :g4.1;
-xigt:next :a6.
+xigt:next :item_59.
 
-:tier_12 xigt:has_item :a6.
-:a6 a xigt:item;
+:tier_12 xigt:has_item :item_59.
+:item_59 a xigt:item;
+xigt:id "a6";
 xigt:source :tw6;
 xigt:target :g3.1.
 
@@ -510,107 +570,123 @@ xigt:children :ps;
 xigt:content "tw-pos";
 xigt:next :tier_14.
 
-:tier_13 xigt:has_item :ps1.
-:ps1 a xigt:item;
+:tier_13 xigt:has_item :item_60.
+:item_60 a xigt:item;
+xigt:id "ps1";
 xigt:alignment :tw1;
 rdfs:label "PRP";
 xigt:content "tw-pos1";
-xigt:next :ps2.
+xigt:next :item_61.
 
-:tier_13 xigt:has_item :ps2.
-:ps2 a xigt:item;
+:tier_13 xigt:has_item :item_61.
+:item_61 a xigt:item;
+xigt:id "ps2";
 xigt:alignment :tw2;
 rdfs:label "VBD";
 xigt:content "tw-pos2";
-xigt:next :ps3.
+xigt:next :item_62.
 
-:tier_13 xigt:has_item :ps3.
-:ps3 a xigt:item;
+:tier_13 xigt:has_item :item_62.
+:item_62 a xigt:item;
+xigt:id "ps3";
 xigt:alignment :tw3;
 rdfs:label "DT";
 xigt:content "tw-pos3";
-xigt:next :ps4.
+xigt:next :item_63.
 
-:tier_13 xigt:has_item :ps4.
-:ps4 a xigt:item;
+:tier_13 xigt:has_item :item_63.
+:item_63 a xigt:item;
+xigt:id "ps4";
 xigt:alignment :tw4;
 rdfs:label "NN";
 xigt:content "tw-pos4";
-xigt:next :ps4-1.
+xigt:next :item_64.
 
-:tier_13 xigt:has_item :ps4-1.
-:ps4-1 a xigt:null_item;
+:tier_13 xigt:has_item :item_64.
+:item_64 a xigt:null_item;
+xigt:id "ps4-1";
 xigt:ec-type "*";
 xigt:index "1";
 xigt:text "NP";
-xigt:next :ps5.
+xigt:next :item_65.
 
-:tier_13 xigt:has_item :ps5.
-:ps5 a xigt:item;
+:tier_13 xigt:has_item :item_65.
+:item_65 a xigt:item;
+xigt:id "ps5";
 xigt:alignment :tw5;
 rdfs:label "VBP";
 xigt:content "tw-pos5";
-xigt:next :ps6.
+xigt:next :item_66.
 
-:tier_13 xigt:has_item :ps6.
-:ps6 a xigt:item;
+:tier_13 xigt:has_item :item_66.
+:item_66 a xigt:item;
+xigt:id "ps6";
 xigt:alignment :tw6;
 rdfs:label "NN";
 xigt:content "tw-pos6";
-xigt:next :ps7.
+xigt:next :item_67.
 
-:tier_13 xigt:has_item :ps7.
-:ps7 a xigt:item;
+:tier_13 xigt:has_item :item_67.
+:item_67 a xigt:item;
+xigt:id "ps7";
 xigt:alignment :tw7;
 rdfs:label "PUNC";
 xigt:content "tw-pos7";
-xigt:next :ps8.
+xigt:next :item_68.
 
-:tier_13 xigt:has_item :ps8.
-:ps8 a xigt:item;
+:tier_13 xigt:has_item :item_68.
+:item_68 a xigt:item;
+xigt:id "ps8";
 xigt:children :ps1;
 xigt:text "NP";
-xigt:next :ps9.
+xigt:next :item_69.
 
-:tier_13 xigt:has_item :ps9.
-:ps9 a xigt:item;
+:tier_13 xigt:has_item :item_69.
+:item_69 a xigt:item;
+xigt:id "ps9";
 xigt:children :ps3,:ps4;
 xigt:index "1";
 xigt:text "NP";
-xigt:next :ps10.
+xigt:next :item_70.
 
-:tier_13 xigt:has_item :ps10.
-:ps10 a xigt:item;
+:tier_13 xigt:has_item :item_70.
+:item_70 a xigt:item;
+xigt:id "ps10";
 xigt:children :ps6;
 xigt:text "NP";
-xigt:next :ps11.
+xigt:next :item_71.
 
-:tier_13 xigt:has_item :ps11.
-:ps11 a xigt:item;
+:tier_13 xigt:has_item :item_71.
+:item_71 a xigt:item;
+xigt:id "ps11";
 xigt:children :ps5,:ps10;
 xigt:text "VP";
-xigt:next :ps12.
+xigt:next :item_72.
 
-:tier_13 xigt:has_item :ps12.
-:ps12 a xigt:item;
+:tier_13 xigt:has_item :item_72.
+:item_72 a xigt:item;
+xigt:id "ps12";
 xigt:children :ps4-1,:ps11;
 xigt:text "S";
-xigt:next :ps13.
+xigt:next :item_73.
 
-:tier_13 xigt:has_item :ps13.
-:ps13 a xigt:item;
+:tier_13 xigt:has_item :item_73.
+:item_73 a xigt:item;
+xigt:id "ps13";
 xigt:children :ps12;
 xigt:text "SBAR";
-xigt:next :ps14.
+xigt:next :item_74.
 
-:tier_13 xigt:has_item :ps14.
-:ps14 a xigt:item;
+:tier_13 xigt:has_item :item_74.
+:item_74 a xigt:item;
+xigt:id "ps14";
 xigt:children :ps2,:ps9,:ps13;
 xigt:text "VP";
-xigt:next :ps15.
+xigt:next :item_75.
 
-:tier_13 xigt:has_item :ps15.
-:ps15 a xigt:item;
+:tier_13 xigt:has_item :item_75.
+:item_75 a xigt:item;
+xigt:id "ps15";
 xigt:children :ps8,:ps14;
 xigt:text "S".
 
@@ -621,49 +697,57 @@ xigt:dep :tw;
 xigt:head :tw;
 xigt:next :tier_15.
 
-:tier_14 xigt:has_item :dt1.
-:dt1 a xigt:item;
+:tier_14 xigt:has_item :item_76.
+:item_76 a xigt:item;
+xigt:id "dt1";
 xigt:dep :tw1;
 xigt:head :tw2;
-xigt:next :dt2.
+xigt:next :item_77.
 
-:tier_14 xigt:has_item :dt2.
-:dt2 a xigt:item;
+:tier_14 xigt:has_item :item_77.
+:item_77 a xigt:item;
+xigt:id "dt2";
 xigt:dep :tw2;
-xigt:next :dt3.
+xigt:next :item_78.
 
-:tier_14 xigt:has_item :dt3.
-:dt3 a xigt:item;
+:tier_14 xigt:has_item :item_78.
+:item_78 a xigt:item;
+xigt:id "dt3";
 xigt:dep :tw3;
 xigt:head :tw4;
-xigt:next :dt4.
+xigt:next :item_79.
 
-:tier_14 xigt:has_item :dt4.
-:dt4 a xigt:item;
+:tier_14 xigt:has_item :item_79.
+:item_79 a xigt:item;
+xigt:id "dt4";
 xigt:dep :tw4;
 xigt:head :tw2;
-xigt:next :dt5.
+xigt:next :item_80.
 
-:tier_14 xigt:has_item :dt5.
-:dt5 a xigt:item;
+:tier_14 xigt:has_item :item_80.
+:item_80 a xigt:item;
+xigt:id "dt5";
 xigt:dep :tw5;
 xigt:head :tw2;
-xigt:next :dt6.
+xigt:next :item_81.
 
-:tier_14 xigt:has_item :dt6.
-:dt6 a xigt:item;
+:tier_14 xigt:has_item :item_81.
+:item_81 a xigt:item;
+xigt:id "dt6";
 xigt:dep :tw6;
 xigt:head :tw5;
-xigt:next :dt7.
+xigt:next :item_82.
 
-:tier_14 xigt:has_item :dt7.
-:dt7 a xigt:item;
+:tier_14 xigt:has_item :item_82.
+:item_82 a xigt:item;
+xigt:id "dt7";
 xigt:dep :tw4;
 xigt:head :tw5;
-xigt:next :dt8.
+xigt:next :item_83.
 
-:tier_14 xigt:has_item :dt8.
-:dt8 a xigt:item;
+:tier_14 xigt:has_item :item_83.
+:item_83 a xigt:item;
+xigt:id "dt8";
 xigt:dep :tw7;
 xigt:head :tw2.
 
@@ -675,54 +759,63 @@ xigt:head :tw;
 xigt:ec-dep :dt;
 xigt:ec-head :dt.
 
-:tier_15 xigt:has_item :dtb1.
-:dtb1 a xigt:item;
+:tier_15 xigt:has_item :item_84.
+:item_84 a xigt:item;
+xigt:id "dtb1";
 xigt:dep :tw1;
 xigt:head :tw2;
-xigt:next :dtb2.
+xigt:next :item_85.
 
-:tier_15 xigt:has_item :dtb2.
-:dtb2 a xigt:item;
+:tier_15 xigt:has_item :item_85.
+:item_85 a xigt:item;
+xigt:id "dtb2";
 xigt:dep :tw2;
-xigt:next :dtb3.
+xigt:next :item_86.
 
-:tier_15 xigt:has_item :dtb3.
-:dtb3 a xigt:item;
+:tier_15 xigt:has_item :item_86.
+:item_86 a xigt:item;
+xigt:id "dtb3";
 xigt:dep :tw3;
 xigt:head :tw4;
-xigt:next :dtb4.
+xigt:next :item_87.
 
-:tier_15 xigt:has_item :dtb4.
-:dtb4 a xigt:item;
+:tier_15 xigt:has_item :item_87.
+:item_87 a xigt:item;
+xigt:id "dtb4";
 xigt:dep :tw4;
 xigt:head :tw2;
-xigt:next :dtb5.
+xigt:next :item_88.
 
-:tier_15 xigt:has_item :dtb5.
-:dtb5 a xigt:item;
+:tier_15 xigt:has_item :item_88.
+:item_88 a xigt:item;
+xigt:id "dtb5";
 xigt:dep :tw5;
 xigt:head :tw2;
-xigt:next :dtb6.
+xigt:next :item_89.
 
-:tier_15 xigt:has_item :dtb6.
-:dtb6 a xigt:item;
+:tier_15 xigt:has_item :item_89.
+:item_89 a xigt:item;
+xigt:id "dtb6";
 xigt:dep :tw6;
 xigt:head :tw5;
-xigt:next :dtb-ec1.
+xigt:next :item_90.
 
-:tier_15 xigt:has_item :dtb-ec1.
-:dtb-ec1 a xigt:null_item;
+:tier_15 xigt:has_item :item_90.
+:item_90 a xigt:null_item;
+xigt:id "dtb-ec1";
 xigt:ec-pos "NP";
-xigt:next :dtb7.
+xigt:next :item_91.
 
-:tier_15 xigt:has_item :dtb7.
-:dtb7 a xigt:item;
+:tier_15 xigt:has_item :item_91.
+:item_91 a xigt:item;
+xigt:id "dtb7";
 xigt:ec-dep :dtb-ec1;
 xigt:head :tw5;
-xigt:next :dtb8.
+xigt:next :item_92.
 
-:tier_15 xigt:has_item :dtb8.
-:dtb8 a xigt:item;
+:tier_15 xigt:has_item :item_92.
+:item_92 a xigt:item;
+xigt:id "dtb8";
 xigt:dep :tw7;
 xigt:head :tw2.
 

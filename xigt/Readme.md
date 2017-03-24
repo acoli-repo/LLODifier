@@ -139,6 +139,8 @@ Alignment expressions are resolved for @content, only, cf. https://github.com/xi
 
 NOTICE on tier: In the Abkhaz example, tier/@id is unique per IGT only, not within document (seems just to define a shorthand for @type), therefore preserve @id as a datatype property and create a positional URI for tiers
 
+NOTICE on @id: In fact, *NO* @id seems to be unique, cf. item/@id in Abkhaz. Hence globally disabled @id-based URI generation. We keep @id-based URIs for metadata, though. Note that this means that @idref resolution needs to be revised. Let's assume @ids are unique within a IGT.
+
 Corpus metadata
 ---
 
