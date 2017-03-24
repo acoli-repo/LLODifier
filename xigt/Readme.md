@@ -137,6 +137,8 @@ Along with @alignment, we also find @segmentation (implemented by nif:subString 
 
 Alignment expressions are resolved for @content, only, cf. https://github.com/xigt/xigt/wiki/Alignment-Expressions for their original definition.
 
+NOTICE on tier: In the Abkhaz example, tier/@id is unique per IGT only, not within document (seems just to define a shorthand for @type), therefore preserve @id as a datatype property and create a positional URI for tiers
+
 Corpus metadata
 ---
 

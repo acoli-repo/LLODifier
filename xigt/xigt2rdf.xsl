@@ -358,7 +358,7 @@
             <xsl:text>"</xsl:text>
         </xsl:if>
         <xsl:choose>
-            <xsl:when test="name()='id'"/>              <!-- cf. URI -->
+            <xsl:when test="name()='id' and name(..)!='tier'"/>             <!-- cf. URI, kept for tiers, only -->
             <xsl:when test="name()='segmentation' or name()='content'">     <!-- segmentation, content: always datatype properties, but see above -->
                 <xsl:text>;&#10;xigt:</xsl:text>
                 <xsl:value-of select="name()"/>
@@ -400,9 +400,8 @@
             </xsl:for-each>
         </xsl:variable>
         <xsl:choose>
-            <xsl:when test="string-length($non-id-vals)>0">
-                <!--xsl:when test="not(exists(//@id[.=$value])) and not(exists(//@*[name()=$name][.=//@id]))"-->
-                    <!-- the first term is faster to check, hence speedup -->
+            <xsl:when test="$name='id' or string-length($non-id-vals)>0">
+                <!-- applies only if @id is *not* transformed to a URI, hence a datatype property -->
                 <xsl:text>"</xsl:text>
                 <xsl:value-of select="replace(replace($value,'&amp;','&amp;amp;'),'&quot;','&amp;quot;')"/>
                 <xsl:text>"</xsl:text>
@@ -426,7 +425,7 @@
                 <xsl:value-of select="$baseURI"/>
                 <xsl:text disable-output-escaping="yes">&gt;</xsl:text>
             </xsl:when>
-            <xsl:when test="string-length(@id)>0">
+            <xsl:when test="string-length(@id)>0 and name()!='tier'">   <!-- tier/@id is not unique, hence a datatype property -->
                 <xsl:text>:</xsl:text>
                 <xsl:value-of select="@id"/>
             </xsl:when>
