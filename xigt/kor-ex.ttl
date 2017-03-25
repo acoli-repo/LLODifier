@@ -46,7 +46,7 @@ xigt:next :tier_2.
 xigt:id "r1";
 xigt:line "959";
 xigt:tag "L";
-xigt:text "   1 Nay-ka ai-eykey pap-ul mek-i-ess-ta";
+xigt:_text "   1 Nay-ka ai-eykey pap-ul mek-i-ess-ta";
 xigt:next :item_2.
 
 :tier_1 xigt:has_item :item_2.
@@ -54,7 +54,7 @@ xigt:next :item_2.
 xigt:id "r2";
 xigt:line "960";
 xigt:tag "G";
-xigt:text "     I-Nom child-Dat rice-Acc eat-Caus-Pst-Dec";
+xigt:_text "     I-Nom child-Dat rice-Acc eat-Caus-Pst-Dec";
 xigt:next :item_3.
 
 :tier_1 xigt:has_item :item_3.
@@ -62,7 +62,7 @@ xigt:next :item_3.
 xigt:id "r3";
 xigt:line "961";
 xigt:tag "T";
-xigt:text "     `I made the child eat rice.'".
+xigt:_text "     `I made the child eat rice.'".
 
 :igt1 xigt:has_tier :tier_2.
 :tier_2 a xigt:odin_tier;
@@ -77,7 +77,7 @@ xigt:id "c1";
 xigt:alignment :item_1;
 xigt:line "959";
 xigt:tag "L";
-xigt:text "   1 Nay-ka ai-eykey pap-ul mek-i-ess-ta";
+xigt:_text "   1 Nay-ka ai-eykey pap-ul mek-i-ess-ta";
 xigt:next :item_5.
 
 :tier_2 xigt:has_item :item_5.
@@ -86,7 +86,7 @@ xigt:id "c2";
 xigt:alignment :item_2;
 xigt:line "960";
 xigt:tag "G";
-xigt:text "     I-Nom child-Dat rice-Acc eat-Caus-Pst-Dec";
+xigt:_text "     I-Nom child-Dat rice-Acc eat-Caus-Pst-Dec";
 xigt:next :item_6.
 
 :tier_2 xigt:has_item :item_6.
@@ -95,7 +95,7 @@ xigt:id "c3";
 xigt:alignment :item_3;
 xigt:line "961";
 xigt:tag "T";
-xigt:text "     `I made the child eat rice.'".
+xigt:_text "     `I made the child eat rice.'".
 
 :igt1 xigt:has_tier :tier_3.
 :tier_3 a xigt:odin_tier;
@@ -110,7 +110,7 @@ xigt:id "n1";
 xigt:alignment :item_4;
 xigt:line "959";
 xigt:tag "L";
-xigt:text "Nay-ka ai-eykey pap-ul mek-i-ess-ta";
+xigt:_text "Nay-ka ai-eykey pap-ul mek-i-ess-ta";
 xigt:next :item_8.
 
 :tier_3 xigt:has_item :item_8.
@@ -119,7 +119,7 @@ xigt:id "n2";
 xigt:alignment :item_5;
 xigt:line "960";
 xigt:tag "G";
-xigt:text "I-Nom child-Dat rice-Acc eat-Caus-Pst-Dec";
+xigt:_text "I-Nom child-Dat rice-Acc eat-Caus-Pst-Dec";
 xigt:next :item_9.
 
 :tier_3 xigt:has_item :item_9.
@@ -128,7 +128,7 @@ xigt:id "n3";
 xigt:alignment :item_6;
 xigt:line "961";
 xigt:tag "T";
-xigt:text "I made the child eat rice.".
+xigt:_text "I made the child eat rice.".
 
 :igt1 xigt:has_tier :tier_4.
 :tier_4 a xigt:phrases_tier;
@@ -362,28 +362,28 @@ xigt:next :tier_9.
 :item_35 a xigt:item;
 xigt:id "w-pos1";
 xigt:alignment :item_11;
-xigt:text "PRP";
+xigt:_text "PRP";
 xigt:next :item_36.
 
 :tier_8 xigt:has_item :item_36.
 :item_36 a xigt:item;
 xigt:id "w-pos2";
 xigt:alignment :item_12;
-xigt:text "NN";
+xigt:_text "NN";
 xigt:next :item_37.
 
 :tier_8 xigt:has_item :item_37.
 :item_37 a xigt:item;
 xigt:id "w-pos3";
 xigt:alignment :item_13;
-xigt:text "NN";
+xigt:_text "NN";
 xigt:next :item_38.
 
 :tier_8 xigt:has_item :item_38.
 :item_38 a xigt:item;
 xigt:id "w-pos4";
 xigt:alignment :item_14;
-xigt:text "V".
+xigt:_text "V".
 
 :igt1 xigt:has_tier :tier_9.
 :tier_9 a xigt:translations_tier;
@@ -471,49 +471,49 @@ xigt:next :tier_12.
 :item_47 a xigt:item;
 xigt:id "tw-pos1";
 xigt:alignment :item_40;
-xigt:text "PRP";
+xigt:_text "PRP";
 xigt:next :item_48.
 
 :tier_11 xigt:has_item :item_48.
 :item_48 a xigt:item;
 xigt:id "tw-pos2";
 xigt:alignment :item_41;
-xigt:text "VBD";
+xigt:_text "VBD";
 xigt:next :item_49.
 
 :tier_11 xigt:has_item :item_49.
 :item_49 a xigt:item;
 xigt:id "tw-pos3";
 xigt:alignment :item_42;
-xigt:text "DT";
+xigt:_text "DT";
 xigt:next :item_50.
 
 :tier_11 xigt:has_item :item_50.
 :item_50 a xigt:item;
 xigt:id "tw-pos4";
 xigt:alignment :item_43;
-xigt:text "NN";
+xigt:_text "NN";
 xigt:next :item_51.
 
 :tier_11 xigt:has_item :item_51.
 :item_51 a xigt:item;
 xigt:id "tw-pos5";
 xigt:alignment :item_44;
-xigt:text "VBP";
+xigt:_text "VBP";
 xigt:next :item_52.
 
 :tier_11 xigt:has_item :item_52.
 :item_52 a xigt:item;
 xigt:id "tw-pos6";
 xigt:alignment :item_45;
-xigt:text "NN";
+xigt:_text "NN";
 xigt:next :item_53.
 
 :tier_11 xigt:has_item :item_53.
 :item_53 a xigt:item;
 xigt:id "tw-pos7";
 xigt:alignment :item_46;
-xigt:text "PUNC".
+xigt:_text "PUNC".
 
 :igt1 xigt:has_tier :tier_12.
 :tier_12 a xigt:bilingual-alignments_tier;
@@ -607,7 +607,7 @@ xigt:next :item_64.
 xigt:id "ps4-1";
 xigt:ec-type "*";
 xigt:index "1";
-xigt:text "NP";
+xigt:_text "NP";
 xigt:next :item_65.
 
 :tier_13 xigt:has_item :item_65.
@@ -638,7 +638,7 @@ xigt:next :item_68.
 :item_68 a xigt:item;
 xigt:id "ps8";
 xigt:children :item_60;
-xigt:text "NP";
+xigt:_text "NP";
 xigt:next :item_69.
 
 :tier_13 xigt:has_item :item_69.
@@ -646,49 +646,49 @@ xigt:next :item_69.
 xigt:id "ps9";
 xigt:children :item_62,:item_63;
 xigt:index "1";
-xigt:text "NP";
+xigt:_text "NP";
 xigt:next :item_70.
 
 :tier_13 xigt:has_item :item_70.
 :item_70 a xigt:item;
 xigt:id "ps10";
 xigt:children :item_66;
-xigt:text "NP";
+xigt:_text "NP";
 xigt:next :item_71.
 
 :tier_13 xigt:has_item :item_71.
 :item_71 a xigt:item;
 xigt:id "ps11";
 xigt:children :item_65,:item_70;
-xigt:text "VP";
+xigt:_text "VP";
 xigt:next :item_72.
 
 :tier_13 xigt:has_item :item_72.
 :item_72 a xigt:item;
 xigt:id "ps12";
 xigt:children :item_64,:item_71;
-xigt:text "S";
+xigt:_text "S";
 xigt:next :item_73.
 
 :tier_13 xigt:has_item :item_73.
 :item_73 a xigt:item;
 xigt:id "ps13";
 xigt:children :item_72;
-xigt:text "SBAR";
+xigt:_text "SBAR";
 xigt:next :item_74.
 
 :tier_13 xigt:has_item :item_74.
 :item_74 a xigt:item;
 xigt:id "ps14";
 xigt:children :item_61,:item_69,:item_73;
-xigt:text "VP";
+xigt:_text "VP";
 xigt:next :item_75.
 
 :tier_13 xigt:has_item :item_75.
 :item_75 a xigt:item;
 xigt:id "ps15";
 xigt:children :item_68,:item_74;
-xigt:text "S".
+xigt:_text "S".
 
 :igt1 xigt:has_tier :tier_14.
 :tier_14 a xigt:dependencies_tier;

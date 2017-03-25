@@ -185,7 +185,9 @@
         </xsl:variable>
         
         <xsl:if test=" normalize-space($text)!=''">
-            <xsl:text>;&#10;xigt:text "</xsl:text>
+            <xsl:text>;&#10;xigt:</xsl:text>
+            <xsl:value-of select="./ancestor-or-self::igt[1]/@type"/>
+            <xsl:text>_text "</xsl:text>
             <xsl:value-of select="replace(replace(.,'&amp;','&amp;amp;'),'&quot;','&amp;quot;')"/>
             <xsl:text>"</xsl:text>
         </xsl:if>
