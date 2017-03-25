@@ -338,7 +338,9 @@
         <xsl:if test="name()='segmentation'">
             <xsl:text>;&#10;</xsl:text>
             <xsl:text>nif:subString :</xsl:text>
-            <xsl:value-of select="replace(.,'\[.*\]','')"/>
+            <xsl:for-each select="./ancestor-or-self::igt//*[@id=replace($value,'\[.*\]','')][1]">
+                <xsl:call-template name="get-uri"/>
+            </xsl:for-each>
         </xsl:if>
         
         <!-- evaluate alignment expressions for content (> rdfs:label) -->
@@ -407,15 +409,42 @@
                 <xsl:text>"</xsl:text>
             </xsl:when>
             <xsl:otherwise>
-                <xsl:text>:</xsl:text>
-                <xsl:value-of select="replace(replace(replace(normalize-space($value),
-                    ':','%3A'),
-                    '[, ]',',:'),
-                    '&quot;','%22')"/>
+                <xsl:call-template name="get-arg-uris">
+                    <xsl:with-param name="arg" select="$value"/>
+                </xsl:call-template>
+            </xsl:otherwise>
+        </xsl:choose>        
+    </xsl:template>
+    
+    <xsl:template name="get-arg-uris">
+        <xsl:param name="arg"/>
+        <xsl:variable name="narg" select="normalize-space($arg)"/>
+        <xsl:choose>
+            <xsl:when test="contains($narg,',')">
+                <xsl:call-template name="get-arg-uris">
+                    <xsl:with-param name="arg" select="substring-before($narg,',')"/>
+                </xsl:call-template>
+                <xsl:text>,</xsl:text>
+                <xsl:call-template name="get-arg-uris">
+                    <xsl:with-param name="arg" select="substring-after($narg,',')"/>
+                </xsl:call-template>
+            </xsl:when>
+            <xsl:when test="contains($narg,' ')">
+                <xsl:call-template name="get-arg-uris">
+                    <xsl:with-param name="arg" select="substring-before($narg,' ')"/>
+                </xsl:call-template>
+                <xsl:text>,</xsl:text>
+                <xsl:call-template name="get-arg-uris">
+                    <xsl:with-param name="arg" select="substring-after($narg,' ')"/>
+                </xsl:call-template>
+            </xsl:when>
+            <xsl:otherwise>
+                <xsl:for-each select="./ancestor-or-self::igt//*[@id=$narg][1]">
+                    <xsl:call-template name="get-uri"/>
+                </xsl:for-each>
             </xsl:otherwise>
         </xsl:choose>
-        
-    </xsl:template>
+    </xsl:template>            
     
     <xsl:template name="get-uri">
         <xsl:variable name="name" select="name()"/>
