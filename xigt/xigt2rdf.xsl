@@ -337,7 +337,7 @@
         <!-- evaluate segmentation (> nif:subString) -->
         <xsl:if test="name()='segmentation'">
             <xsl:text>;&#10;</xsl:text>
-            <xsl:text>nif:subString :</xsl:text>
+            <xsl:text>nif:subString </xsl:text>
             <xsl:for-each select="./ancestor-or-self::igt//*[@id=replace($value,'\[.*\]','')][1]">
                 <xsl:call-template name="get-uri"/>
             </xsl:for-each>
@@ -439,9 +439,36 @@
                 </xsl:call-template>
             </xsl:when>
             <xsl:otherwise>
-                <xsl:for-each select="./ancestor-or-self::igt//*[@id=$narg][1]">
-                    <xsl:call-template name="get-uri"/>
-                </xsl:for-each>
+                <xsl:variable name="local">
+                    <xsl:for-each select="./ancestor-or-self::igt//*[@id=$narg][1]">
+                        <xsl:call-template name="get-uri"/>
+                    </xsl:for-each>
+                </xsl:variable>
+                <xsl:variable name="global">
+                    <xsl:for-each select="//*[@id=$narg][1]">
+                        <xsl:call-template name="get-uri"/>
+                    </xsl:for-each>
+                </xsl:variable>
+                <xsl:choose>
+                    <xsl:when test="$local!=''">
+                        <xsl:value-of select="$local"/>
+                    </xsl:when>
+                    <xsl:when test="$global!=''">
+                        <xsl:value-of select="$global"/>
+                    </xsl:when>
+                    <xsl:when test="$narg!=''">
+                        <xsl:text>:</xsl:text>
+                        <xsl:value-of select="$narg"/>
+                        <xsl:message>
+                            <xsl:text>warning: unresolved reference to </xsl:text>
+                            <xsl:value-of select="$narg"/>
+                        </xsl:message>
+                    </xsl:when>
+                    <xsl:otherwise>
+                        <xsl:text>""</xsl:text>
+                        <xsl:message>warning: empty URI</xsl:message>
+                    </xsl:otherwise>
+                </xsl:choose>
             </xsl:otherwise>
         </xsl:choose>
     </xsl:template>            
