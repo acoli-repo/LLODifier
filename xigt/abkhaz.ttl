@@ -55,7 +55,7 @@ xigt:next :tier_2.
 :tier_1 xigt:has_item :item_1.
 :item_1 a xigt:item;
 xigt:id "p1";
-xigt:_text "at͡ʂʰkʷʰən atəpha dəjəbajt".
+xigt:phrases_text "at͡ʂʰkʷʰən atəpha dəjəbajt".
 
 :i1 xigt:has_tier :tier_2.
 :tier_2 a xigt:words_tier;
@@ -167,63 +167,63 @@ xigt:next :tier_5.
 :item_13 a xigt:item;
 xigt:id "g1.1";
 xigt:alignment :item_5;
-xigt:_text "the";
+xigt:glosses_text "the";
 xigt:next :item_14.
 
 :tier_4 xigt:has_item :item_14.
 :item_14 a xigt:item;
 xigt:id "g1.2";
 xigt:alignment :item_6;
-xigt:_text "boy";
+xigt:glosses_text "boy";
 xigt:next :item_15.
 
 :tier_4 xigt:has_item :item_15.
 :item_15 a xigt:item;
 xigt:id "g2.1";
 xigt:alignment :item_7;
-xigt:_text "the";
+xigt:glosses_text "the";
 xigt:next :item_16.
 
 :tier_4 xigt:has_item :item_16.
 :item_16 a xigt:item;
 xigt:id "g2.2";
 xigt:alignment :item_8;
-xigt:_text "girl";
+xigt:glosses_text "girl";
 xigt:next :item_17.
 
 :tier_4 xigt:has_item :item_17.
 :item_17 a xigt:item;
 xigt:id "g3.1";
 xigt:alignment :item_9;
-xigt:_text "her";
+xigt:glosses_text "her";
 xigt:next :item_18.
 
 :tier_4 xigt:has_item :item_18.
 :item_18 a xigt:item;
 xigt:id "g3.2";
 xigt:alignment :item_10;
-xigt:_text "he";
+xigt:glosses_text "he";
 xigt:next :item_19.
 
 :tier_4 xigt:has_item :item_19.
 :item_19 a xigt:item;
 xigt:id "g3.3";
 xigt:alignment :item_11;
-xigt:_text "see";
+xigt:glosses_text "see";
 xigt:next :item_20.
 
 :tier_4 xigt:has_item :item_20.
 :item_20 a xigt:item;
 xigt:id "g3.4.1";
 xigt:alignment :item_12;
-xigt:_text "DYN";
+xigt:glosses_text "DYN";
 xigt:next :item_21.
 
 :tier_4 xigt:has_item :item_21.
 :item_21 a xigt:item;
 xigt:id "g3.4.2";
 xigt:alignment :item_12;
-xigt:_text "FIN".
+xigt:glosses_text "FIN".
 
 :i1 xigt:has_tier :tier_5.
 :tier_5 a xigt:syntax_tier;
@@ -236,35 +236,35 @@ xigt:next :tier_6.
 :item_22 a xigt:item;
 xigt:id "x1";
 xigt:alignment :item_2;
-xigt:_text "NP-SBJ";
+xigt:syntax_text "NP-SBJ";
 xigt:next :item_23.
 
 :tier_5 xigt:has_item :item_23.
 :item_23 a xigt:item;
 xigt:id "x2";
 xigt:alignment :item_3;
-xigt:_text "NP-OBJ";
+xigt:syntax_text "NP-OBJ";
 xigt:next :item_24.
 
 :tier_5 xigt:has_item :item_24.
 :item_24 a xigt:item;
 xigt:id "x3";
 xigt:alignment :item_4;
-xigt:_text "VBD";
+xigt:syntax_text "VBD";
 xigt:next :item_25.
 
 :tier_5 xigt:has_item :item_25.
 :item_25 a xigt:item;
 xigt:id "x4";
 xigt:children :item_23,:item_24;
-xigt:_text "VP";
+xigt:syntax_text "VP";
 xigt:next :item_26.
 
 :tier_5 xigt:has_item :item_26.
 :item_26 a xigt:item;
 xigt:id "x5";
 xigt:children :item_22,:item_25;
-xigt:_text "S".
+xigt:syntax_text "S".
 
 :i1 xigt:has_tier :tier_6.
 :tier_6 a xigt:translations_tier;
@@ -275,7 +275,7 @@ xigt:id "t".
 :item_27 a xigt:item;
 xigt:id "t1";
 xigt:alignment :item_1;
-xigt:_text "The boy saw the girl.".
+xigt:translations_text "The boy saw the girl.".
 
 <http://example.org/PLEASE_PROVIDE_baseURI_PARAMETER> xigt:has_igt :i30.
 :i30 a xigt:igt;
@@ -299,7 +299,7 @@ xigt:next :tier_8.
 :tier_7 xigt:has_item :item_28.
 :item_28 a xigt:item;
 xigt:id "p1";
-xigt:_text "at͡ʂʰkʷʰən atəpha dəjəbawam".
+xigt:phrases_text "at͡ʂʰkʷʰən atəpha dəjəbawam".
 
 :i30 xigt:has_tier :tier_8.
 :tier_8 a xigt:words_tier;
@@ -419,63 +419,63 @@ xigt:next :tier_11.
 :item_41 a xigt:item;
 xigt:id "g1.1";
 xigt:alignment :item_32;
-xigt:_text "the";
+xigt:glosses_text "the";
 xigt:next :item_42.
 
 :tier_10 xigt:has_item :item_42.
 :item_42 a xigt:item;
 xigt:id "g1.2";
 xigt:alignment :item_33;
-xigt:_text "boy";
+xigt:glosses_text "boy";
 xigt:next :item_43.
 
 :tier_10 xigt:has_item :item_43.
 :item_43 a xigt:item;
 xigt:id "g2.1";
 xigt:alignment :item_34;
-xigt:_text "the";
+xigt:glosses_text "the";
 xigt:next :item_44.
 
 :tier_10 xigt:has_item :item_44.
 :item_44 a xigt:item;
 xigt:id "g2.2";
 xigt:alignment :item_35;
-xigt:_text "girl";
+xigt:glosses_text "girl";
 xigt:next :item_45.
 
 :tier_10 xigt:has_item :item_45.
 :item_45 a xigt:item;
 xigt:id "g3.1";
 xigt:alignment :item_36;
-xigt:_text "her";
+xigt:glosses_text "her";
 xigt:next :item_46.
 
 :tier_10 xigt:has_item :item_46.
 :item_46 a xigt:item;
 xigt:id "g3.2";
 xigt:alignment :item_37;
-xigt:_text "he";
+xigt:glosses_text "he";
 xigt:next :item_47.
 
 :tier_10 xigt:has_item :item_47.
 :item_47 a xigt:item;
 xigt:id "g3.3";
 xigt:alignment :item_38;
-xigt:_text "see";
+xigt:glosses_text "see";
 xigt:next :item_48.
 
 :tier_10 xigt:has_item :item_48.
 :item_48 a xigt:item;
 xigt:id "g3.4";
 xigt:alignment :item_39;
-xigt:_text "PRS";
+xigt:glosses_text "PRS";
 xigt:next :item_49.
 
 :tier_10 xigt:has_item :item_49.
 :item_49 a xigt:item;
 xigt:id "g3.5";
 xigt:alignment :item_40;
-xigt:_text "NEG".
+xigt:glosses_text "NEG".
 
 :i30 xigt:has_tier :tier_11.
 :tier_11 a xigt:syntax_tier;
@@ -488,35 +488,35 @@ xigt:next :tier_12.
 :item_50 a xigt:item;
 xigt:id "x1";
 xigt:alignment :item_29;
-xigt:_text "NP-SBJ";
+xigt:syntax_text "NP-SBJ";
 xigt:next :item_51.
 
 :tier_11 xigt:has_item :item_51.
 :item_51 a xigt:item;
 xigt:id "x2";
 xigt:alignment :item_30;
-xigt:_text "NP-OBJ";
+xigt:syntax_text "NP-OBJ";
 xigt:next :item_52.
 
 :tier_11 xigt:has_item :item_52.
 :item_52 a xigt:item;
 xigt:id "x3";
 xigt:alignment :item_31;
-xigt:_text "VBZ";
+xigt:syntax_text "VBZ";
 xigt:next :item_53.
 
 :tier_11 xigt:has_item :item_53.
 :item_53 a xigt:item;
 xigt:id "x4";
 xigt:children :item_51,:item_52;
-xigt:_text "VP";
+xigt:syntax_text "VP";
 xigt:next :item_54.
 
 :tier_11 xigt:has_item :item_54.
 :item_54 a xigt:item;
 xigt:id "x5";
 xigt:children :item_50,:item_53;
-xigt:_text "S".
+xigt:syntax_text "S".
 
 :i30 xigt:has_tier :tier_12.
 :tier_12 a xigt:translations_tier;
@@ -527,5 +527,5 @@ xigt:alignment :tier_7.
 :item_55 a xigt:item;
 xigt:id "t1";
 xigt:alignment :item_28;
-xigt:_text "The boy does not see the girl.".
+xigt:translations_text "The boy does not see the girl.".
 
