@@ -69,6 +69,7 @@ xigt:next :tier_3.
 xigt:id "w1";
 nif:subString :item_1;
 rdfs:label "at͡ʂʰkʷʰən";
+xigt:words_text "at͡ʂʰkʷʰən";
 xigt:segmentation "p1[0:10]";
 xigt:next :item_3.
 
@@ -77,6 +78,7 @@ xigt:next :item_3.
 xigt:id "w2";
 nif:subString :item_1;
 rdfs:label "atəpha";
+xigt:words_text "atəpha";
 xigt:segmentation "p1[11:17]";
 xigt:next :item_4.
 
@@ -85,6 +87,7 @@ xigt:next :item_4.
 xigt:id "w3";
 nif:subString :item_1;
 rdfs:label "dəjəbajt";
+xigt:words_text "dəjəbajt";
 xigt:segmentation "p1[18:26]".
 
 :i1 xigt:has_tier :tier_3.
@@ -99,6 +102,7 @@ xigt:next :tier_4.
 xigt:id "m1.1";
 nif:subString :item_2;
 rdfs:label "a";
+xigt:morphemes_text "a";
 xigt:segmentation "w1[0:1]";
 xigt:next :item_6.
 
@@ -107,6 +111,7 @@ xigt:next :item_6.
 xigt:id "m1.2";
 nif:subString :item_2;
 rdfs:label "t͡ʂʰkʷʰən";
+xigt:morphemes_text "t͡ʂʰkʷʰən";
 xigt:segmentation "w1[1:10]";
 xigt:next :item_7.
 
@@ -115,6 +120,7 @@ xigt:next :item_7.
 xigt:id "m2.1";
 nif:subString :item_3;
 rdfs:label "a";
+xigt:morphemes_text "a";
 xigt:segmentation "w2[0:1]";
 xigt:next :item_8.
 
@@ -123,6 +129,7 @@ xigt:next :item_8.
 xigt:id "m2.2";
 nif:subString :item_3;
 rdfs:label "təpha";
+xigt:morphemes_text "təpha";
 xigt:segmentation "w2[1:6]";
 xigt:next :item_9.
 
@@ -131,6 +138,7 @@ xigt:next :item_9.
 xigt:id "m3.1";
 nif:subString :item_4;
 rdfs:label "də";
+xigt:morphemes_text "də";
 xigt:segmentation "w3[0:2]";
 xigt:next :item_10.
 
@@ -139,6 +147,7 @@ xigt:next :item_10.
 xigt:id "m3.2";
 nif:subString :item_4;
 rdfs:label "jə";
+xigt:morphemes_text "jə";
 xigt:segmentation "w3[2:4]";
 xigt:next :item_11.
 
@@ -147,6 +156,7 @@ xigt:next :item_11.
 xigt:id "m3.3";
 nif:subString :item_4;
 rdfs:label "ba";
+xigt:morphemes_text "ba";
 xigt:segmentation "w3[4:6]";
 xigt:next :item_12.
 
@@ -155,6 +165,7 @@ xigt:next :item_12.
 xigt:id "m3.4";
 nif:subString :item_4;
 rdfs:label "jt";
+xigt:morphemes_text "jt";
 xigt:segmentation "w3[6:8]".
 
 :i1 xigt:has_tier :tier_4.
@@ -313,6 +324,7 @@ xigt:next :tier_9.
 xigt:id "w1";
 nif:subString :item_28;
 rdfs:label "at͡ʂʰkʷʰən";
+xigt:words_text "at͡ʂʰkʷʰən";
 xigt:segmentation "p1[0:10]";
 xigt:next :item_30.
 
@@ -321,6 +333,7 @@ xigt:next :item_30.
 xigt:id "w2";
 nif:subString :item_28;
 rdfs:label "atəpha";
+xigt:words_text "atəpha";
 xigt:segmentation "p1[11:17]";
 xigt:next :item_31.
 
@@ -329,6 +342,7 @@ xigt:next :item_31.
 xigt:id "w3";
 nif:subString :item_28;
 rdfs:label "dəjəbawam";
+xigt:words_text "dəjəbawam";
 xigt:segmentation "p1[18:27]".
 
 :i30 xigt:has_tier :tier_9.
@@ -343,6 +357,7 @@ xigt:next :tier_10.
 xigt:id "m1.1";
 nif:subString :item_29;
 rdfs:label "a";
+xigt:morphemes_text "a";
 xigt:segmentation "w1[0:1]";
 xigt:next :item_33.
 
@@ -351,6 +366,7 @@ xigt:next :item_33.
 xigt:id "m1.2";
 nif:subString :item_29;
 rdfs:label "t͡ʂʰkʷʰən";
+xigt:morphemes_text "t͡ʂʰkʷʰən";
 xigt:segmentation "w1[1:10]";
 xigt:next :item_34.
 
@@ -359,6 +375,7 @@ xigt:next :item_34.
 xigt:id "m2.1";
 nif:subString :item_30;
 rdfs:label "a";
+xigt:morphemes_text "a";
 xigt:segmentation "w2[0:1]";
 xigt:next :item_35.
 
@@ -367,6 +384,7 @@ xigt:next :item_35.
 xigt:id "m2.2";
 nif:subString :item_30;
 rdfs:label "təpha";
+xigt:morphemes_text "təpha";
 xigt:segmentation "w2[1:6]";
 xigt:next :item_36.
 
@@ -375,6 +393,7 @@ xigt:next :item_36.
 xigt:id "m3.1";
 nif:subString :item_31;
 rdfs:label "də";
+xigt:morphemes_text "də";
 xigt:segmentation "w3[0:2]";
 xigt:next :item_37.
 
@@ -383,6 +402,7 @@ xigt:next :item_37.
 xigt:id "m3.2";
 nif:subString :item_31;
 rdfs:label "jə";
+xigt:morphemes_text "jə";
 xigt:segmentation "w3[2:4]";
 xigt:next :item_38.
 
@@ -391,6 +411,7 @@ xigt:next :item_38.
 xigt:id "m3.3";
 nif:subString :item_31;
 rdfs:label "ba";
+xigt:morphemes_text "ba";
 xigt:segmentation "w3[4:6]";
 xigt:next :item_39.
 
@@ -399,6 +420,7 @@ xigt:next :item_39.
 xigt:id "m3.4";
 nif:subString :item_31;
 rdfs:label "wa";
+xigt:morphemes_text "wa";
 xigt:segmentation "w3[6:8]";
 xigt:next :item_40.
 
@@ -407,6 +429,7 @@ xigt:next :item_40.
 xigt:id "m3.5";
 nif:subString :item_31;
 rdfs:label "m";
+xigt:morphemes_text "m";
 xigt:segmentation "w3[8:9]".
 
 :i30 xigt:has_tier :tier_10.

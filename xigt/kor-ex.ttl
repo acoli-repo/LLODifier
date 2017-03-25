@@ -140,6 +140,7 @@ xigt:next :tier_5.
 :item_10 a xigt:item;
 xigt:id "p1";
 rdfs:label "Nay-ka ai-eykey pap-ul mek-i-ess-ta";
+xigt:phrases_text "Nay-ka ai-eykey pap-ul mek-i-ess-ta";
 xigt:content "n1".
 
 :igt1 xigt:has_tier :tier_5.
@@ -154,6 +155,7 @@ xigt:next :tier_6.
 xigt:id "w1";
 nif:subString :item_10;
 rdfs:label "Nay-ka";
+xigt:words_text "Nay-ka";
 xigt:segmentation "p1[0:6]";
 xigt:next :item_12.
 
@@ -162,6 +164,7 @@ xigt:next :item_12.
 xigt:id "w2";
 nif:subString :item_10;
 rdfs:label "ai-eykey";
+xigt:words_text "ai-eykey";
 xigt:segmentation "p1[7:15]";
 xigt:next :item_13.
 
@@ -170,6 +173,7 @@ xigt:next :item_13.
 xigt:id "w3";
 nif:subString :item_10;
 rdfs:label "pap-ul";
+xigt:words_text "pap-ul";
 xigt:segmentation "p1[16:22]";
 xigt:next :item_14.
 
@@ -178,6 +182,7 @@ xigt:next :item_14.
 xigt:id "w4";
 nif:subString :item_10;
 rdfs:label "mek-i-ess-ta";
+xigt:words_text "mek-i-ess-ta";
 xigt:segmentation "p1[23:35]".
 
 :igt1 xigt:has_tier :tier_6.
@@ -192,6 +197,7 @@ xigt:next :tier_7.
 xigt:id "m1.1";
 nif:subString :item_11;
 rdfs:label "Nay";
+xigt:morphemes_text "Nay";
 xigt:segmentation "w1[0:3]";
 xigt:next :item_16.
 
@@ -200,6 +206,7 @@ xigt:next :item_16.
 xigt:id "m1.2";
 nif:subString :item_11;
 rdfs:label "ka";
+xigt:morphemes_text "ka";
 xigt:segmentation "w1[4:6]";
 xigt:next :item_17.
 
@@ -208,6 +215,7 @@ xigt:next :item_17.
 xigt:id "m2.1";
 nif:subString :item_12;
 rdfs:label "ai";
+xigt:morphemes_text "ai";
 xigt:segmentation "w2[0:2]";
 xigt:next :item_18.
 
@@ -216,6 +224,7 @@ xigt:next :item_18.
 xigt:id "m2.2";
 nif:subString :item_12;
 rdfs:label "eykey";
+xigt:morphemes_text "eykey";
 xigt:segmentation "w2[3:8]";
 xigt:next :item_19.
 
@@ -224,6 +233,7 @@ xigt:next :item_19.
 xigt:id "m3.1";
 nif:subString :item_13;
 rdfs:label "pap";
+xigt:morphemes_text "pap";
 xigt:segmentation "w3[0:3]";
 xigt:next :item_20.
 
@@ -232,6 +242,7 @@ xigt:next :item_20.
 xigt:id "m3.2";
 nif:subString :item_13;
 rdfs:label "ul";
+xigt:morphemes_text "ul";
 xigt:segmentation "w3[4:6]";
 xigt:next :item_21.
 
@@ -240,6 +251,7 @@ xigt:next :item_21.
 xigt:id "m4.1";
 nif:subString :item_14;
 rdfs:label "mek";
+xigt:morphemes_text "mek";
 xigt:segmentation "w4[0:3]";
 xigt:next :item_22.
 
@@ -248,6 +260,7 @@ xigt:next :item_22.
 xigt:id "m4.2";
 nif:subString :item_14;
 rdfs:label "i";
+xigt:morphemes_text "i";
 xigt:segmentation "w4[4:5]";
 xigt:next :item_23.
 
@@ -256,6 +269,7 @@ xigt:next :item_23.
 xigt:id "m4.3";
 nif:subString :item_14;
 rdfs:label "ess";
+xigt:morphemes_text "ess";
 xigt:segmentation "w4[6:9]";
 xigt:next :item_24.
 
@@ -264,6 +278,7 @@ xigt:next :item_24.
 xigt:id "m4.4";
 nif:subString :item_14;
 rdfs:label "ta";
+xigt:morphemes_text "ta";
 xigt:segmentation "w4[10:12]".
 
 :igt1 xigt:has_tier :tier_7.
@@ -278,6 +293,7 @@ xigt:next :tier_8.
 xigt:id "g1.1";
 xigt:alignment :item_15;
 rdfs:label "I";
+xigt:glosses_text "I";
 xigt:content "n2[0:1]";
 xigt:next :item_26.
 
@@ -286,6 +302,7 @@ xigt:next :item_26.
 xigt:id "g1.2";
 xigt:alignment :item_16;
 rdfs:label "Nom";
+xigt:glosses_text "Nom";
 xigt:content "n2[2:5]";
 xigt:next :item_27.
 
@@ -294,6 +311,7 @@ xigt:next :item_27.
 xigt:id "g2.1";
 xigt:alignment :item_17;
 rdfs:label "child";
+xigt:glosses_text "child";
 xigt:content "n2[6:11]";
 xigt:next :item_28.
 
@@ -302,6 +320,7 @@ xigt:next :item_28.
 xigt:id "g2.2";
 xigt:alignment :item_18;
 rdfs:label "Dat";
+xigt:glosses_text "Dat";
 xigt:content "n2[12:15]";
 xigt:next :item_29.
 
@@ -310,6 +329,7 @@ xigt:next :item_29.
 xigt:id "g3.1";
 xigt:alignment :item_19;
 rdfs:label "rice";
+xigt:glosses_text "rice";
 xigt:content "n2[16:20]";
 xigt:next :item_30.
 
@@ -318,6 +338,7 @@ xigt:next :item_30.
 xigt:id "g3.2";
 xigt:alignment :item_20;
 rdfs:label "Acc";
+xigt:glosses_text "Acc";
 xigt:content "n2[21:24]";
 xigt:next :item_31.
 
@@ -326,6 +347,7 @@ xigt:next :item_31.
 xigt:id "g4.1";
 xigt:alignment :item_21;
 rdfs:label "eat";
+xigt:glosses_text "eat";
 xigt:content "n2[25:28]";
 xigt:next :item_32.
 
@@ -334,6 +356,7 @@ xigt:next :item_32.
 xigt:id "g4.2";
 xigt:alignment :item_22;
 rdfs:label "Caus";
+xigt:glosses_text "Caus";
 xigt:content "n2[29:33]";
 xigt:next :item_33.
 
@@ -342,6 +365,7 @@ xigt:next :item_33.
 xigt:id "g4.3";
 xigt:alignment :item_23;
 rdfs:label "Pst";
+xigt:glosses_text "Pst";
 xigt:content "n2[34:37]";
 xigt:next :item_34.
 
@@ -350,6 +374,7 @@ xigt:next :item_34.
 xigt:id "g4.4";
 xigt:alignment :item_24;
 rdfs:label "Dec";
+xigt:glosses_text "Dec";
 xigt:content "n2[38:41]".
 
 :igt1 xigt:has_tier :tier_8.
@@ -397,6 +422,7 @@ xigt:next :tier_10.
 xigt:id "t1";
 xigt:alignment :item_10;
 rdfs:label "I made the child eat rice.";
+xigt:translations_text "I made the child eat rice.";
 xigt:content "n3".
 
 :igt1 xigt:has_tier :tier_10.
@@ -411,6 +437,7 @@ xigt:next :tier_11.
 xigt:id "tw1";
 nif:subString :item_39;
 rdfs:label "I";
+xigt:words_text "I";
 xigt:segmentation "t1[0:1]";
 xigt:next :item_41.
 
@@ -419,6 +446,7 @@ xigt:next :item_41.
 xigt:id "tw2";
 nif:subString :item_39;
 rdfs:label "made";
+xigt:words_text "made";
 xigt:segmentation "t1[2:6]";
 xigt:next :item_42.
 
@@ -427,6 +455,7 @@ xigt:next :item_42.
 xigt:id "tw3";
 nif:subString :item_39;
 rdfs:label "the";
+xigt:words_text "the";
 xigt:segmentation "t1[7:10]";
 xigt:next :item_43.
 
@@ -435,6 +464,7 @@ xigt:next :item_43.
 xigt:id "tw4";
 nif:subString :item_39;
 rdfs:label "child";
+xigt:words_text "child";
 xigt:segmentation "t1[11:16]";
 xigt:next :item_44.
 
@@ -443,6 +473,7 @@ xigt:next :item_44.
 xigt:id "tw5";
 nif:subString :item_39;
 rdfs:label "eat";
+xigt:words_text "eat";
 xigt:segmentation "t1[17:20]";
 xigt:next :item_45.
 
@@ -451,6 +482,7 @@ xigt:next :item_45.
 xigt:id "tw6";
 nif:subString :item_39;
 rdfs:label "rice";
+xigt:words_text "rice";
 xigt:segmentation "t1[21:25]";
 xigt:next :item_46.
 
@@ -459,6 +491,7 @@ xigt:next :item_46.
 xigt:id "tw7";
 nif:subString :item_39;
 rdfs:label ".";
+xigt:words_text ".";
 xigt:segmentation "t1[25:26]".
 
 :igt1 xigt:has_tier :tier_11.
@@ -575,6 +608,7 @@ xigt:next :tier_14.
 xigt:id "ps1";
 xigt:alignment :item_40;
 rdfs:label "PRP";
+xigt:phrase-structure_text "PRP";
 xigt:content "tw-pos1";
 xigt:next :item_61.
 
@@ -583,6 +617,7 @@ xigt:next :item_61.
 xigt:id "ps2";
 xigt:alignment :item_41;
 rdfs:label "VBD";
+xigt:phrase-structure_text "VBD";
 xigt:content "tw-pos2";
 xigt:next :item_62.
 
@@ -591,6 +626,7 @@ xigt:next :item_62.
 xigt:id "ps3";
 xigt:alignment :item_42;
 rdfs:label "DT";
+xigt:phrase-structure_text "DT";
 xigt:content "tw-pos3";
 xigt:next :item_63.
 
@@ -599,6 +635,7 @@ xigt:next :item_63.
 xigt:id "ps4";
 xigt:alignment :item_43;
 rdfs:label "NN";
+xigt:phrase-structure_text "NN";
 xigt:content "tw-pos4";
 xigt:next :item_64.
 
@@ -615,6 +652,7 @@ xigt:next :item_65.
 xigt:id "ps5";
 xigt:alignment :item_44;
 rdfs:label "VBP";
+xigt:phrase-structure_text "VBP";
 xigt:content "tw-pos5";
 xigt:next :item_66.
 
@@ -623,6 +661,7 @@ xigt:next :item_66.
 xigt:id "ps6";
 xigt:alignment :item_45;
 rdfs:label "NN";
+xigt:phrase-structure_text "NN";
 xigt:content "tw-pos6";
 xigt:next :item_67.
 
@@ -631,6 +670,7 @@ xigt:next :item_67.
 xigt:id "ps7";
 xigt:alignment :item_46;
 rdfs:label "PUNC";
+xigt:phrase-structure_text "PUNC";
 xigt:content "tw-pos7";
 xigt:next :item_68.
 

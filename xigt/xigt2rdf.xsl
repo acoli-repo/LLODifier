@@ -360,6 +360,16 @@
                     '&amp;','&amp;amp;'),
                     '&quot;','&amp;quot;')"/>
             <xsl:text>"</xsl:text>
+            <xsl:if test="string-length(../../@type)&gt;0">
+                <xsl:text>;&#10;xigt:</xsl:text>
+                <xsl:value-of select="../../@type"/>
+                <xsl:text>_text "</xsl:text>
+                <xsl:value-of select="replace(replace(
+                    $raw-label,
+                    '&amp;','&amp;amp;'),
+                    '&quot;','&amp;quot;')"/>
+                <xsl:text>"</xsl:text>
+            </xsl:if>
         </xsl:if>
         <xsl:choose>
             <xsl:when test="name()='id' and name(..)='metadata'"/>          <!-- metadata: @id becomes URI, otherwise datatype property -->
