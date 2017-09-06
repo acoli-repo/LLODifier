@@ -1,0 +1,201 @@
+lat		 PL
+cat, ces, ckb, cym, deu, dsb, est, fao, fin.1, fin.2, fra, gle, hun, isl, ita, klr, kmr, lat, lav, lit, nav, nld, pol, por, que, ron, slv, sme, spa, sqi, tur		1
+que		1+EXCL
+que		1+INCL
+tur		1P
+tur		1S
+cat, ces, ckb, cym, deu, dsb, est, fao, fin.1, fin.2, fra, gle, hun, isl, ita, klr, kmr, lat, lav, lit, nav, nld, pol, por, que, ron, slv, sme, spa, sqi, tur		2
+gle		2:SG
+tur		2P
+tur		2S
+cat, ces, ckb, cym, deu, dsb, eng, est, fao, fin.1, fin.2, fra, gle, hai, hun, isl, ita, klr, kmr, lat, lav, lit, nav, nld, pol, por, que, ron, slv, sme, spa, sqi, tur		3
+tur		3P
+tur		3S
+cym, nav		4
+lat, que, sqi, tur		ABL
+ces, deu, dsb, est, fao, fin.1, fin.2, hun, isl, kmr, lat, lav, lit, pol, que, slv, sme, sqi, tur		ACC
+ces, dan, est, fin.1, fin.2, gla, lav, lit, pol, slv, swe		ACT
+ces, ckb, dsb, fao, fin.1, fin.2, gla, gle, kmr, lat, lav, lit, nld, nno, nob, pol, que, ron, slv, sme, swe, tur		ADJ
+sqi		ADM
+kmr		ADP
+lit		ADV
+que		AGT
+ces, dsb, pol		ANIM
+klr		ARG1
+klr		ARG2
+klr		ARG3
+eus		ARGABS1
+eus		ARGABS2
+eus		ARGABS3
+eus		ARGABSINFM
+eus		ARGABSPL
+eus		ARGABSSG
+nav		ARGAC3S
+klr		ARGDU
+eus		ARGERG1
+eus		ARGERG2
+eus		ARGERG3
+eus		ARGERGFEM
+eus		ARGERGINFM
+eus		ARGERGMASC
+eus		ARGERGPL
+eus		ARGERGSG
+klr		ARGEXCL
+klr		ARGINCL
+eus		ARGIO1
+eus		ARGIO2
+eus		ARGIO3
+eus		ARGIOFEM
+eus		ARGIOINFM
+eus		ARGIOMASC
+eus		ARGIOPL
+eus		ARGIOSG
+klr		ARGPL
+klr		ARGSG
+est, fin.1, fin.2, hun		AT+ABL
+est, fin.1, fin.2, hun		AT+ALL
+est, fin.1, fin.2, hun		AT+ESS
+gle		AUTO
+que		BEADJ
+que		BEN
+que		CAUSV
+gle, lit, nld, nno, nob		CMPR
+cym		COL
+est, fin.1, fin.2, que, sme		COM
+que, swe		COMPV
+cat, ces, est, fin.1, fin.2, fra, gla, gle, hun, ita, kmr, lav, pol, por, slv, sme, spa, sqi		COND
+ces, deu, dsb, fao, gla, gle, hun, isl, lat, lav, lit, nno, nob, pol, que, slv, sqi, tur		DAT
+ron		DAT/GEN
+tur		DECL
+ckb, dan, fao, gle, hun, isl, kmr, nld, nno, nob, ron, slv, sqi, swe		DEF
+que		DISTR
+hai		DRCT
+dsb, klr, slv, sme		DU
+nav		DU/PL
+hai		DUR
+ces, dsb, pol, que, slv		ESS
+klr		EXCL
+que		EXCLV
+cat, ces, dsb, eus, fao, gla, gle, lat, lav, lit, nno, pol, por, ron, slv, spa		FEM
+que		FH
+ckb		FOC
+ces		FORM
+lit		FREQ
+est, fin.1, fin.2, hun, sme		FRML
+cat, ces, fra, gla, gle, hai, hun, ita, lat, lav, lit, pol, por, que, slv, spa, sqi, tur		FUT
+fin.1, fin.2, que		GEADJ
+ces, dan, deu, dsb, est, fao, fin.1, fin.2, gla, gle, isl, lat, lav, lit, nob, pol, que, slv, sme, sqi, swe, tur		GEN
+ron		GEN/DAT
+gle, hai		HAB
+pol		HUM
+eus		HYP
+hai		IMMED
+cat, ces, ckb, cym, dan, deu, dsb, est, eus, fao, fin.1, fin.2, fra, gle, hai, isl, ita, klr, kmr, lat, lav, lit, nld, nno, nob, pol, por, que, ron, slv, sme, spa, sqi, swe		IMP
+est, fin.1, fin.2, hun		IN+ABL
+est, fin.1, fin.2, hun, sme		IN+ALL
+est, fin.1, fin.2, hun		IN+ESS
+ces, dsb, pol		INAN
+klr		INCL
+cat, ces, ckb, cym, dan, deu, est, eus, fao, fin.1, fin.2, fra, gle, hun, isl, ita, kmr, lat, lav, lit, nld, por, ron, slv, sme, spa, sqi, swe, tur		IND
+lat		IND:PASS
+ckb, dan, fao, hun, isl, kmr, nld, ron, slv, swe		INDF
+ckb, eus		INFM
+ces, dsb, fin.1, fin.2, pol, que, slv		INS
+hun, lav, lit		INST
+hai		INT
+que		INTER
+klr, tur		INTR
+cat, cym, fra, ita, kmr, lat, por, ron, spa, sqi		IPFV
+nav		IPFV/PROG
+hai		IRR
+nav		ITER
+sme		LGSPEC
+ckb, hai, kmr, lav, lit, spa, tur		LGSPEC1
+ckb, hai, kmr, lav, lit, tur		LGSPEC2
+hai, lav, lit		LGSPEC3
+hai, lav		LGSPEC4
+hai, lav		LGSPEC5
+hai, lav		LGSPEC6
+hai, lav		LGSPEC7
+hai		LGSPEC8
+lav		LgSPEC8
+hai		LGSPEC9
+cym		LIT
+lav, lit, tur		LOC
+cat, ces, dsb, eus, fao, gla, gle, lat, lav, lit, nno, pol, por, ron, slv, spa, swe		MASC
+lat		MASC/FEM
+nno, swe		MASC+FEM
+gle		MASV
+hai		MED
+ces, ckb, dan, deu, dsb, est, fao, fin.1, fin.2, gle, hun, isl, kmr, lat, lav, lit, nav, nno, nob, pol, que, ron, slv, sme, sqi, swe, tur		N
+nno, nob, sqi		NDEF
+ckb, est, fin.1, fin.2, hai, klr, kmr, lav, por, que, ron, spa, tur		NEG
+ces, dsb, fao, lat, nld, nno, nob, pol, ron, slv, swe		NEUT
+que		NFH
+cat, ces, ckb, dan, deu, eng, est, fao, fin.1, fin.2, fra, hun, isl, ita, klr, lat, lav, nld, nno, pol, por, que, ron, slv, spa, sqi, swe		NFIN
+ces, dan, deu, dsb, est, fao, fin.1, fin.2, gla, gle, hun, isl, kmr, lat, lav, lit, pol, que, slv, sme, sqi, swe, tur		NOM
+fao, ron		NOM/ACC
+gle		NOM+VOC
+kmr		NUM
+hun		ON+ABL
+hun		ON+ALL
+hun		ON+ESS
+nav, sqi		OPT
+ces, ckb, dan, est, fin.1, fin.2, gla, lat, lav, lit, nno, pol, slv, swe		PASS
+lat		PASS:PRS
+eus		PAST
+cat, ckb, cym, fra, ita, kmr, lat, por, ron, spa		PFV
+nav		PFV/PRF
+cat, ces, ckb, cym, dan, deu, dsb, est, fao, fin.1, fin.2, fra, gla, gle, hai, hun, isl, ita, klr, kmr, lat, lav, lit, nav, nld, nno, nob, pol, por, que, ron, slv, sme, spa, sqi, swe, tur		PL
+cat		PL:IPFV
+cat		PL:PFV
+cat, est, fin.1, fin.2, fra, ita, klr, kmr, lit, por, que, ron, spa, tur		POS
+eus, fin.1, fin.2, sme		POT
+eus		PRES
+ces, ckb, est, fin.1, fin.2, kmr, lat, por, ron, slv, sqi		PRF
+est		PRF:POS
+est, fin.1, fin.2, que		PRIV
+ckb, kmr, tur		PROG
+nav		PROSP
+ckb, hai		PROX
+hun, sme		PRP
+cat, ces, ckb, cym, dan, deu, dsb, eng, est, fao, fin.1, fin.2, fra, gla, gle, hai, hun, isl, ita, klr, kmr, lat, lav, lit, nld, nno, nob, pol, por, que, ron, slv, sme, spa, sqi, swe, tur		PRS
+est, fin.1, fin.2		PRT
+nav		PSS0
+nav		PSS1D
+ckb, nav, tur		PSS1P
+que		PSS1PE
+que		PSS1PI
+ckb, nav, que		PSS1S
+nav		PSS2D
+ckb, nav, que, tur		PSS2P
+ckb, nav, que, tur		PSS2S
+nav		PSS3
+ckb, que, tur		PSS3P
+ckb, que, tur		PSS3S
+nav		PSS4
+cat, ces, ckb, cym, dan, deu, dsb, eng, est, fao, fin.1, fin.2, fra, gla, gle, hai, hun, isl, ita, klr, kmr, lat, lav, lit, nld, nno, nob, pol, por, que, ron, slv, sme, spa, sqi, swe, tur		PST
+est		QUOT
+nav		REAL
+hai, klr		REFL
+gle, hai		REL
+ckb, hai		REMT
+cat, ckb, cym, deu, fra, gle, hun, isl, ita, kmr, lat, lit, nld, por, ron, spa, sqi		SBJV
+cat, ces, ckb, cym, dan, deu, dsb, eng, est, fao, fin.1, fin.2, fra, gla, gle, hai, hun, isl, ita, klr, kmr, lat, lav, lit, nav, nld, nno, nob, pol, por, que, ron, slv, sme, spa, sqi, swe, tur		SG
+nav		SG/DU/PL
+nno, nob		SG+PL
+gle, lit, nld, nno, nob, swe		SPRL
+gle		STRONG
+est, hun, que		TERM
+klr		TR
+est, fin.1, fin.2, hun		TRANS
+cat, ces, ckb, cym, dan, deu, dsb, eng, est, eus, fao, fin.1, fin.2, fra, gla, gle, hai, hun, isl, ita, klr, kmr, lat, lav, lit, nav, nld, nno, nob, pol, por, que, ron, slv, sme, spa, sqi, swe, tur		V
+ces, fao, fra, hun, isl, ita, pol, ron, slv, spa, swe		V.CVB
+cym, gle, kmr, lav, pol, slv		V.MSDR
+slv		V.PCTP
+cat, ces, ckb, cym, dan, deu, eng, est, fin.1, fin.2, fra, gla, gle, hun, isl, ita, kmr, lat, lav, lit, nld, nno, nob, pol, por, que, ron, spa, sqi, swe		V.PTCP
+fao		V.PTCP.PRS
+fao		V.PTCP.PST
+ces, gla, gle, kmr, lat, lav, lit, pol, ron		VOC
+gle		VOC+GEN
+gle		WEAK

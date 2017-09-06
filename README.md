@@ -2,7 +2,7 @@
 
 A collection of tools for converting language resources into LLOD
 
-## Idea
+## Corpora
 
 Unlike many existing frameworks, we do not attempt to map different formats into a unified RDF representation. Instead, we only perform a shallow conversion: an isomorphic RDF representation of the original data structures is created. Further processing, e.g., by means of SPARQL UPDATE queries, may then be used to transform these into more generic RDF representations.
 
@@ -20,3 +20,7 @@ Finally, we provide an RDF representation of the original XML data model, applic
 Future work will aim at providing a generalization over these different data models, to be implemented with SPARQL Update.
 
 Directory vis/ contains visualization routines with sample output (restricted to the first few ag:anchors, resp. the first nif:Sentence).
+
+## Other data
+
+Toolbox and FLEx also contain lexical data. This is to be represented in accordance with lemon/ontolex. This is also true for other types of language resources, e.g., morpheme inventories. As an example for these, we provide a converter for UniMorph data. Note that the UniMorph format basically corresponds to the one-word-per-line format also adopted for lemmatized/POS-tagged corpora (the CoNLL format family) and the corresponding tools (e.g., TreeTagger), they are thus treated analoguously to corpus data.
