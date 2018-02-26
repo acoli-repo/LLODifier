@@ -16,9 +16,9 @@ for lang in $LANGUAGES; do
 	if [ -d $lang'-master' ]; then echo found $lang;
 	else 
 		echo retrieve $lang 1>&2;
-		wget -nc https://codeload.github.com/unimorph/$lang/zip/master;
-		if [ -e master.zip ]; then unzip master;
-			rm master;
+		wget -nc https://codeload.github.com/unimorph/$lang/zip/master -O master.zip;
+		if [ -e master.zip ]; then unzip master.zip;
+			rm master.zip;
 		fi;
 	fi;
 done
