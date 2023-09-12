@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE tmx SYSTEM "tmx14.dtd">
+<tmx version="1.4">
+  <header creationtool="LF Aligner" creationtoolversion="4.21" datatype="unknown" segtype="sentence" adminlang="EN" srclang="EN" o-tmf="TW4Win 2.0 Format">
+  </header>
+  <body>
+    <tu creationdate="20210610T095316Z" creationid="LF Aligner 4.21">
+      <tuv xml:lang="EN">
+        <seg>7.6.2019</seg>
+      </tuv>
+      <tuv xml:lang="LT">
+        <seg>7.6.2019</seg>
+      </tuv>
+    </tu>
+    <tu creationdate="20210610T095316Z" creationid="LF Aligner 4.21">
+      <tuv xml:lang="EN">
+        <seg>EN</seg>
+      </tuv>
+      <tuv xml:lang="LT">
+        <seg>LT</seg>
+      </tuv>
+    </tu>
+    <tu creationdate="20210610T095316Z" creationid="LF Aligner 4.21">
+      <tuv xml:lang="EN">
+        <seg>Official Journal of the European Union</seg>
+      </tuv>
+      <tuv xml:lang="LT">
+        <seg>Europos Sąjungos oficialusis leidinys</seg>
+      </tuv>
+    </tu>
+    <tu creationdate="20210610T095316Z" creationid="LF Aligner 4.21">
+      <tuv xml:lang="EN">
+        <seg>L 151/15</seg>
+      </tuv>
+      <tuv xml:lang="LT">
+        <seg>L 151/15</seg>
+      </tuv>
+    </tu>
+    <tu creationdate="20210610T095316Z" creationid="LF Aligner 4.21">
+      <tuv xml:lang="EN">
+        <seg>REGULATION (EU) 2019/881 OF THE EUROPEAN PARLIAMENT AND OF THE COUNCIL of 17 April 2019 on ENISA (the European Union Agency for Cybersecurity) and on information and communications technology cybersecurity certification and repealing Regulation (EU) No 526/2013 (Cybersecurity Act)</seg>
+      </tuv>
+      <tuv xml:lang="LT">
+        <seg>EUROPOS PARLAMENTO IR TARYBOS REGLAMENTAS (ES) 2019/881 2019 m. balandžio 17 d. dėl ENISA (Europos Sąjungos kibernetinio saugumo agentūros) ir informacinių ir ryšių technologijų kibernetinio saugumo sertifikavimo, kuriuo panaikinamas Reglamentas (ES) Nr. 526/2013 (Kibernetinio saugumo aktas)</seg>
+      </tuv>
+    </tu>
+    <tu creationdate="20210610T095316Z" creationid="LF Aligner 4.21">
+      <tuv xml:lang="EN">
+        <seg>(Text with EEA relevance)</seg>
+      </tuv>
+      <tuv xml:lang="LT">
+        <seg>(Tekstas svarbus EEE)</seg>
+      </tuv>
+    </tu>
+    <tu creationdate="20210610T095316Z" creationid="LF Aligner 4.21">
+      <tuv xml:lang="EN">
+        <seg>THE EUROPEAN PARLIAMENT AND THE COUNCIL OF THE EUROPEAN UNION,</seg>
+      </tuv>
+      <tuv xml:lang="LT">
+        <seg>EUROPOS PARLAMENTAS IR EUROPOS SĄJUNGOS TARYBA,</seg>
+      </tuv>
+    </tu>
+    <tu creationdate="20210610T095316Z" creationid="LF Aligner 4.21">
+      <tuv xml:lang="EN">
+        <seg>Having regard to the Treaty on the Functioning of the European Union, and in particular Article 114 thereof,</seg>
+      </tuv>
+      <tuv xml:lang="LT">
+        <seg>atsižvelgdami į Sutartį dėl Europos Sąjungos veikimo, ypač į jos 114 straipsnį,</seg>
+      </tuv>
+    </tu>
+    <tu creationdate="20210610T095316Z" creationid="LF Aligner 4.21">
+      <tuv xml:lang="EN">
+        <seg>Having regard to the proposal from the European Commission,</seg>
+      </tuv>
+      <tuv xml:lang="LT">
+        <seg>atsižvelgdami į Europos Komisijos pasiūlymą,</seg>
+      </tuv>
+    </tu>
+    <tu creationdate="20210610T095316Z" creationid="LF Aligner 4.21">
+      <tuv xml:lang="EN">
+        <seg>After transmission of the draft legislative act to the national parliaments,</seg>
+      </tuv>
+      <tuv xml:lang="LT">
+        <seg>teisėkūros procedūra priimamo akto projektą perdavus nacionaliniams parlamentams,</seg>
+      </tuv>
+    </tu>
+    <tu creationdate="20210610T095316Z" creationid="LF Aligner 4.21">
+      <tuv xml:lang="EN">
+        <seg>Having regard to the opinion of the European Economic and Social Committee ( 1),</seg>
+      </tuv>
+      <tuv xml:lang="LT">
+        <seg>atsižvelgdami į Europos ekonomikos ir socialinių reikalų komiteto nuomonę ( 1),</seg>
+      </tuv>
+    </tu>
+    <tu creationdate="20210610T095316Z" creationid="LF Aligner 4.21">
+      <tuv xml:lang="EN">
+        <seg>Having regard to the opinion of the Committee of the Regions ( 2),</seg>
+      </tuv>
+      <tuv xml:lang="LT">
+        <seg>atsižvelgdami į Regionų komiteto nuomonę ( 2),</seg>
+      </tuv>
+    </tu>
+    <tu creationdate="20210610T095316Z" creationid="LF Aligner 4.21">
+      <tuv xml:lang="EN">
+        <seg>Acting in accordance with the ordinary legislative procedure ( 3),</seg>
+      </tuv>
+      <tuv xml:lang="LT">
+        <seg>laikydamiesi įprastos teisėkūros procedūros ( 3),</seg>
+      </tuv>
+    </tu>
+    <tu creationdate="20210610T095316Z" creationid="LF Aligner 4.21">
+      <tuv xml:lang="EN">
+        <seg>Whereas:</seg>
+      </tuv>
+      <tuv xml:lang="LT">
+        <seg>kadangi:</seg>
+      </tuv>
+    </tu>
+    <tu creationdate="20210610T095316Z" creationid="LF Aligner 4.21">
+      <tuv xml:lang="EN">
+        <seg>(1)</seg>
+      </tuv>
+      <tuv xml:lang="LT">
+        <seg>(1)</seg>
+      </tuv>
+    </tu>
+    <tu creationdate="20210610T095316Z" creationid="LF Aligner 4.21">
+      <tuv xml:lang="EN">
+        <seg>Network and information systems and electronic communications networks and services play a vital role in society and have become the backbone of economic growth.</seg>
+      </tuv>
+      <tuv xml:lang="LT">
+        <seg>tinklų ir informacinės sistemos bei elektroninių ryšių tinklai ir paslaugos atlieka visuomenei gyvybiškai svarbų vaidmenį ir tapo ekonomikos augimo pamatu.</seg>
+      </tuv>
+    </tu>
+    <tu creationdate="20210610T095316Z" creationid="LF Aligner 4.21">
+      <tuv xml:lang="EN">
+        <seg>Information and communications technology (ICT) underpins the complex systems which support everyday societal activities, keep our economies running in key sectors such as health, energy, finance and transport, and, in particular, support the functioning of the internal market.</seg>
+      </tuv>
+      <tuv xml:lang="LT">
+        <seg>Informacinėmis ir ryšių technologijomis (IRT) grindžiamos sudėtingos sistemos, kurias taikant remiama kasdienė visuomenės veikla, užtikrinamas mūsų ekonomikos pagrindinių sektorių, kaip antai sveikatos, energetikos, finansų ir transporto, funkcionavimas ir visų pirma remiamas vidaus rinkos veikimas;</seg>
+      </tuv>
+    </tu>
+    <tu creationdate="20210610T095316Z" creationid="LF Aligner 4.21">
+      <tuv xml:lang="EN">
+        <seg>(2)</seg>
+      </tuv>
+      <tuv xml:lang="LT">
+        <seg>(2)</seg>
+      </tuv>
+    </tu>
+    <tu creationdate="20210610T095316Z" creationid="LF Aligner 4.21">
+      <tuv xml:lang="EN">
+        <seg>The use of network and information systems by citizens, organisations and businesses across the Union is now pervasive.</seg>
+      </tuv>
+      <tuv xml:lang="LT">
+        <seg>piliečiai, organizacijos ir verslo įmonės visoje Sąjungoje dabar labai plačiai naudoja tinklų ir informacines sistemas.</seg>
+      </tuv>
+    </tu>
+    <tu creationdate="20210610T095316Z" creationid="LF Aligner 4.21">
+      <tuv xml:lang="EN">
+        <seg>Digitisation and connectivity are becoming core features in an ever growing number of products and services and with the advent of the internet of Things (IoT) an extremely high number of connected digital devices are expected to be deployed across the Union during the next decade.</seg>
+      </tuv>
+      <tuv xml:lang="LT">
+        <seg>Vis daugiau produktų ir paslaugų yra grindžiami skaitmeninimu ir susietumu, ir numatoma, kad, įsitvirtinus daiktų internetui, per ateinantį dešimtmetį Sąjungoje bus įdiegtas ypatingai didelis skaičius susietųjų skaitmeninių įrenginių.</seg>
+      </tuv>
+    </tu>
+    <tu creationdate="20210610T095316Z" creationid="LF Aligner 4.21">
+      <tuv xml:lang="EN">
+        <seg>While an increasing number of devices is connected to the internet, security and resilience are not sufficiently built in by design, leading to insufficient cybersecurity.</seg>
+      </tuv>
+      <tuv xml:lang="LT">
+        <seg>Nors prie interneto prijungiama vis daugiau įrenginių, jų projektavimo etape nepakankamai atsižvelgiama į saugumą ir atsparumą, dėl to jų kibernetinis saugumas yra nepakankamas.</seg>
+      </tuv>
+    </tu>
+    <tu creationdate="20210610T095316Z" creationid="LF Aligner 4.21"><tuv xml:lang="EN"><seg>In that context, the limited use of certification leads to individual, organisational and business users having insufficient information about the cybersecurity features of ICT products, ICT services and ICT processes, which undermines trust in digital solutions.</seg></tuv>
+</tu>
+  </body>
+</tmx>
